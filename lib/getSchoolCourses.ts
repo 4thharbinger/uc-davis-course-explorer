@@ -8,7 +8,7 @@ const coursesCache : Record<string, CourseLibrary> = {};
 
 export async function getSchoolCourses(school : SchoolInfo) : Promise<CourseLibrary> {
 
-    if (coursesCache[school.id]) return coursesCache[school.id];
+    //if (coursesCache[school.id]) return coursesCache[school.id];
 
     const dbCourses = await prisma.course.findMany({
         include: {
@@ -99,11 +99,15 @@ function calculateUnlocks(courses : CourseLibrary) {
     var total = 0;
     for (var key in courses) {
         const course = courses[key];
-        traversePrereqs(courses, course.prerequisites, prereq => {
-            if (prereq == undefined) return;
-            if (courses[prereq.id] == undefined) return;
-            prereq.unlockIds.push(course.id);
-        });
+        try {
+            traversePrereqs(courses, course.prerequisites, prereq => {
+                if (prereq == undefined) return;
+                if (courses[prereq.id] == undefined) return;
+                prereq.unlockIds.push(course.id);
+            });
+        } catch {
+            console.log("Parsing error in course " + course.code);
+        }
         total++;
     }
     console.log("Calculated unlocks for " + total + " courses.");
@@ -111,6 +115,7 @@ function calculateUnlocks(courses : CourseLibrary) {
 
 
 function traversePrereqs(courses : CourseLibrary, prereqs : CoursePrequisites, callback : (course : Course) => void) {
+    try {
     for (var prereq of prereqs) {
         switch (prereq.type) {
             case "course":
@@ -123,5 +128,5 @@ function traversePrereqs(courses : CourseLibrary, prereqs : CoursePrequisites, c
                 traversePrereqs(courses, prereq.operands, callback);
                 break;
         }
-    }
+    } } catch (e) { console.log("Invalid value in " + (typeof(prereqs) == "object" ? JSON.stringify(prereqs) : prereqs)); throw e; }
 }
