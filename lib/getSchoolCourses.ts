@@ -31,12 +31,12 @@ export async function getSchoolCourses(school : SchoolInfo) : Promise<CourseLibr
       grading: "Letter" 
     };
 
-    calculateUnlocks(accumulator);
-
     coursesCache[school.id] = accumulator;
 
     return accumulator;
   }, {} as Record<string, Course>); // <--- Initialize with an empty object
+
+  calculateUnlocks(courseMap);
 
   return courseMap;
 }
@@ -95,14 +95,21 @@ export async function getSchoolCourses(school : SchoolInfo) : Promise<CourseLibr
 // }
 
 function calculateUnlocks(courses : CourseLibrary) {
+    
+    var total = 0;
     for (var key in courses) {
         const course = courses[key];
         traversePrereqs(courses, course.prerequisites, prereq => {
             if (prereq == undefined) return;
+            if (courses[prereq.id] == undefined) return;
+            if (prereq.code == "MAT 021A") console.log(course.code);
             prereq.unlockIds.push(course.id);
         });
+        total++;
     }
+    console.log("Calculated unlocks for " + total + " courses.");
 }
+
 
 function traversePrereqs(courses : CourseLibrary, prereqs : CoursePrequisites, callback : (course : Course) => void) {
     for (var prereq of prereqs) {
