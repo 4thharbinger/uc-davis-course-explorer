@@ -37,11 +37,9 @@ export function PrequisitesToString(prerequisites : CoursePrequisites) : NestedA
     return prerequisites.map(prereq => {
         switch (prereq.type) {
             case "course":
-                return "[" + prereq.course + "]";
+                return (prereq.isConcurrent ? "Concurrent with " : "") + "[" + prereq.course + "]";
             case "exam":
                 return prereq.grade ? "Score ≥ " + prereq.grade + " on " + prereq.course! : prereq.course!;
-            case "concurrent": 
-                return "concurrent with " + prereq.course!;
             case "highschool":
                 return prereq.course  + " in High School";
             case "or":
@@ -101,9 +99,10 @@ export type CoursePrerequsiteAndWithString = {
 }
 
 export type CoursePrerequiste = {
-    type : "course" | "exam" | "concurrent" | "highschool",
+    type : "course" | "exam" | "highschool",
     course : string,
     grade? : string,
     isRecommendation? : boolean,
+    isConcurrent? : boolean,
     allowHigher? : boolean
 }

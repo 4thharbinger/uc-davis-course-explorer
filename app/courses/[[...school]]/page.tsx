@@ -1,5 +1,5 @@
 import { Course, CourseLibrary, PrequisitesToString } from "@/lib/course";
-import { courses, getSchoolCourses } from "@/lib/getSchoolCourses";
+import { getSchoolCourses } from "@/lib/getSchoolCourses";
 import { getSchoolInfo } from "@/lib/getSchoolInfo";
 import { NestedArray } from "@/lib/nestedArray";
 import { JSX } from "react";
@@ -15,8 +15,6 @@ export default async function CourseExplorer({ params } : SchoolProps ) {
 
   const schoolInfo = getSchoolInfo( (await params).school[0] );
   const courses = await getSchoolCourses(schoolInfo);
-
-  console.log(courses);
 
   const selectedCourse = args.school.length == 1 ? undefined : args.school[1];
 
@@ -64,7 +62,7 @@ function CoursePanel({ courseLibrary, courseId } : { courseLibrary : CourseLibra
     
     <p className="mt-4"> Units: {course.units}</p>
     {HierarchyList("Instructors", [])}
-    {HierarchyList("Prerequisites", PrequisitesToString(course.prerequisites), "None", "brackets")}
+    {HierarchyList("Prerequisites", PrequisitesToString(course.prerequisites), "None", "brackets", a => courseLibrary[a] == undefined ? "text-red-800" : "")}
     {HierarchyList("Unlocks", course.unlockIds, "None", "all")}
   </div>;
 }
@@ -92,9 +90,9 @@ function linkBrackets(item : string, callback? : (item : string) => string) : JS
   return obj;
 }
 
-function HierarchyListContents(contents : NestedArray<string> | string, link : "none" | "brackets" | "all") : JSX.Element | string {
+function HierarchyListContents(contents : NestedArray<string> | string, link : "none" | "brackets" | "all", linker? : (item : string) => string) : JSX.Element | string {
   if (typeof contents == "string" || contents == undefined) {
-    return link == "all" ? <a href={contents}>{contents}</a> : link == "brackets" ? linkBrackets(contents, a => courses[a] == undefined ? "text-red-800" : "") : <>{contents}</>;
+    return link == "all" ? <a href={contents}>{contents}</a> : link == "brackets" ? linkBrackets(contents, ) : <>{contents}</>;
   }
   return <ul>
     {contents.map((item, index) => (
@@ -103,7 +101,7 @@ function HierarchyListContents(contents : NestedArray<string> | string, link : "
   </ul>;
 }
 
-function HierarchyList(title : string, content : NestedArray<string> | string[], empty : string = "None", link : "none" | "brackets" | "all" = "none" ) {
+function HierarchyList(title : string, content : NestedArray<string> | string[], empty : string = "None", link : "none" | "brackets" | "all" = "none", linker? : (item : string) => string ) {
   var contents = <ul className="ml-4">
     {content.length > 0 ? content.map((item, index) => (
       <li key={index}>{HierarchyListContents(item, link)}</li>

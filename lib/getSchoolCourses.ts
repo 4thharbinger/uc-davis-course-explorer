@@ -4,16 +4,20 @@ import { SchoolInfo } from "./getSchoolInfo";
 import { prisma } from "./prisma";
 
 const toSlug = (code: string) => code.replace(/\s+/g, '').toUpperCase();
+const coursesCache : Record<string, CourseLibrary> = {};
 
 export async function getSchoolCourses(school : SchoolInfo) : Promise<CourseLibrary> {
-  const dbCourses = await prisma.course.findMany({
-    include: {
-      instructors: true,     
-      prerequisiteFor: true, 
-    }
-  });
 
-const courseMap = dbCourses.reduce((accumulator, dbCourse) => {
+    if (coursesCache[school.id]) return coursesCache[school.id];
+
+    const dbCourses = await prisma.course.findMany({
+        include: {
+        instructors: true,     
+        prerequisiteFor: true, 
+        }
+    });
+
+    const courseMap = dbCourses.reduce((accumulator, dbCourse) => {
     
     accumulator[toSlug(dbCourse.code)] = {
       id: toSlug(dbCourse.code),
@@ -27,68 +31,68 @@ const courseMap = dbCourses.reduce((accumulator, dbCourse) => {
       grading: "Letter" 
     };
 
+    calculateUnlocks(accumulator);
+
+    coursesCache[school.id] = accumulator;
+
     return accumulator;
   }, {} as Record<string, Course>); // <--- Initialize with an empty object
 
   return courseMap;
 }
-const PHY009A : Course = CreateCourse({
-    name: "Classical Physics 1",
-    description: "Introduction to general principles and analytical methods used in physics for physical science and engineering majors. Classical mechanics.",
-    code: "PHY 009A",
-    units: 5,
-    instructorIds: [],
-    prerequisites: [ { type: "or", operands: [ "MAT021B", "MAT021CH", "MAT021M", "MAT017C", "MAT017B" ] }],
-    unlockIds: [],
-    id: "PHY009A",
-    grading: "Letter"
-});
-const PHY009B : Course = CreateCourse({
-    name: "Classical Physics 2",
-    description: "Continuation of PHY 009A. Fluid mechanics, thermodynamics, wave phenomena, optics.",
-    code: "PHY 009B",
-    units: 5,
-    instructorIds: [],
-    prerequisites: [ { type: "or", operands: [ "PHY009A(H)" ] }, { type: "or", operands: [ "MAT017C", "MAT021C(H)" ] }],
-    unlockIds: [],
-    id: "PHY009B",
-    grading: "Letter"
-})
-const MAT021A : Course = CreateCourse({ 
-    name: "Calculus 1",
-    description: "Functions, limits, continuity. Slope and derivative. Differentiation of algebraic and transcendental functions. Applications to motion, natural growth, graphing, extrema of a function. Differentials. L'Hopital's rule.",
-    code: "MAT 021A",
-    units: 4,
-    instructorIds: [],
-    prerequisites: [ { type: "highschool", course: "Algebra" }, { type: "highschool", course: "Geometry" }, { type: "exam", course: "Mathematics Placement Requirement" } ],
-    unlockIds: [],
-    id: "MAT021A",
-    grading: "Letter"
-});
-const MAT021B : Course = CreateCourse({ 
-    name: "Calculus 2",
-    description: "Continuation of MAT 021A. Definition of definite integral, fundamental theorem of calculus, techniques of integration. Application to area, volume, arc length, average of a function, improper integral, surface of revolution.",
-    code: "MAT 021B",
-    units: 4,
-    instructorIds: [],
-    prerequisites: [ { type: "or", operands: [ "MAT021A(H)", "MAT017A", "MAT019A"] } ],
-    unlockIds: [],
-    id: "MAT021B",
-    grading: "Letter"
-});
+// const PHY009A : Course = CreateCourse({
+//     name: "Classical Physics 1",
+//     description: "Introduction to general principles and analytical methods used in physics for physical science and engineering majors. Classical mechanics.",
+//     code: "PHY 009A",
+//     units: 5,
+//     instructorIds: [],
+//     prerequisites: [ { type: "or", operands: [ "MAT021B", "MAT021CH", "MAT021M", "MAT017C", "MAT017B" ] }],
+//     unlockIds: [],
+//     id: "PHY009A",
+//     grading: "Letter"
+// });
+// const PHY009B : Course = CreateCourse({
+//     name: "Classical Physics 2",
+//     description: "Continuation of PHY 009A. Fluid mechanics, thermodynamics, wave phenomena, optics.",
+//     code: "PHY 009B",
+//     units: 5,
+//     instructorIds: [],
+//     prerequisites: [ { type: "or", operands: [ "PHY009A(H)" ] }, { type: "or", operands: [ "MAT017C", "MAT021C(H)" ] }],
+//     unlockIds: [],
+//     id: "PHY009B",
+//     grading: "Letter"
+// })
+// const MAT021A : Course = CreateCourse({ 
+//     name: "Calculus 1",
+//     description: "Functions, limits, continuity. Slope and derivative. Differentiation of algebraic and transcendental functions. Applications to motion, natural growth, graphing, extrema of a function. Differentials. L'Hopital's rule.",
+//     code: "MAT 021A",
+//     units: 4,
+//     instructorIds: [],
+//     prerequisites: [ { type: "highschool", course: "Algebra" }, { type: "highschool", course: "Geometry" }, { type: "exam", course: "Mathematics Placement Requirement" } ],
+//     unlockIds: [],
+//     id: "MAT021A",
+//     grading: "Letter"
+// });
+// const MAT021B : Course = CreateCourse({ 
+//     name: "Calculus 2",
+//     description: "Continuation of MAT 021A. Definition of definite integral, fundamental theorem of calculus, techniques of integration. Application to area, volume, arc length, average of a function, improper integral, surface of revolution.",
+//     code: "MAT 021B",
+//     units: 4,
+//     instructorIds: [],
+//     prerequisites: [ { type: "or", operands: [ "MAT021A(H)", "MAT017A", "MAT019A"] } ],
+//     unlockIds: [],
+//     id: "MAT021B",
+//     grading: "Letter"
+// });
 
 
 
-const courselist : CourseLibrary = {
-    "PHY009A" : PHY009A,
-    "PHY009B" : PHY009B,
-    "MAT021A" : MAT021A,
-    "MAT021B" : MAT021B
-}
-
-calculateUnlocks(courselist);
-
-export const courses = courselist;
+// const courselist : CourseLibrary = {
+//     "PHY009A" : PHY009A,
+//     "PHY009B" : PHY009B,
+//     "MAT021A" : MAT021A,
+//     "MAT021B" : MAT021B
+// }
 
 function calculateUnlocks(courses : CourseLibrary) {
     for (var key in courses) {
