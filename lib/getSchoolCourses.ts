@@ -102,7 +102,6 @@ function calculateUnlocks(courses : CourseLibrary) {
         traversePrereqs(courses, course.prerequisites, prereq => {
             if (prereq == undefined) return;
             if (courses[prereq.id] == undefined) return;
-            if (prereq.code == "MAT 021A") console.log(course.code);
             prereq.unlockIds.push(course.id);
         });
         total++;
