@@ -1,7 +1,8 @@
-import { Course, CourseLibrary, PrequisitesToString } from "@/lib/course";
+import { CourseLibrary, PrequisitesToString } from "@/lib/course";
 import { getSchoolCourses } from "@/lib/getSchoolCourses";
 import { getSchoolInfo } from "@/lib/getSchoolInfo";
 import { NestedArray } from "@/lib/nestedArray";
+import { redirect } from "next/navigation";
 import { JSX } from "react";
 
 interface SchoolProps {
@@ -13,10 +14,15 @@ export default async function CourseExplorer({ params } : SchoolProps ) {
   
   if (args.school == undefined ||args.school.length == 0) return "Please select a school";
 
-  const schoolInfo = getSchoolInfo( (await params).school[0] );
+  const schoolInfo = getSchoolInfo( (args).school[0] );
   const courses = await getSchoolCourses(schoolInfo);
 
-  const selectedCourse = args.school.length == 1 ? undefined : args.school[1];
+  const selectedCourse = args.school.length == 1 ? undefined : decodeURIComponent(args.school[1]).toUpperCase();
+
+  if (selectedCourse != undefined && selectedCourse.indexOf(" ") >= 0) {
+    // redirect 
+    redirect("/courses/" + args.school[0] + "/" + selectedCourse.replaceAll(" ", ""));
+  }
 
   return (
     <div className="flex flex-col flex-1 items-center justify-center font-sans dark:bg-black">
@@ -102,9 +108,9 @@ function HierarchyListContents(contents : NestedArray<string> | string, link : "
 }
 
 function HierarchyList(title : string, content : NestedArray<string> | string[], empty : string = "None", link : "none" | "brackets" | "all" = "none", linker? : (item : string) => string ) {
-  var contents = <ul className="ml-4">
+  var contents = <ul className="ml-4 mb-2">
     {content.length > 0 ? content.map((item, index) => (
-      <li key={index}>{HierarchyListContents(item, link)}</li>
+      <li className="mt-1" key={index}>{HierarchyListContents(item, link)}</li>
     )) : <li className="text-gray-500 italic">{empty}</li>}
   </ul>;
   return <div>
