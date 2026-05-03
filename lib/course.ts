@@ -87,6 +87,15 @@ export type CoursePrerequsiteAnd = {
     type : "and",
     operands : (CoursePrerequiste | CoursePrerequsiteOr)[]
 }
+
+export type CoursePrerequiste = {
+    type : "course" | "exam" | "highschool",
+    course : string,
+    grade? : string,
+    isRecommendation? : boolean,
+    isConcurrent? : boolean,
+}
+
 export type CoursePrequisitesWithString = (CoursePrerequiste | CoursePrerequsiteOrWithString | CoursePrerequsiteAndWithString | string)[] 
 
 export type CoursePrerequsiteOrWithString = {
@@ -96,13 +105,4 @@ export type CoursePrerequsiteOrWithString = {
 export type CoursePrerequsiteAndWithString = {
     type : "and",
     operands : (CoursePrerequiste | CoursePrerequsiteOrWithString | string)[]
-}
-
-export type CoursePrerequiste = {
-    type : "course" | "exam" | "highschool",
-    course : string,
-    grade? : string,
-    isRecommendation? : boolean,
-    isConcurrent? : boolean,
-    allowHigher? : boolean
 }
