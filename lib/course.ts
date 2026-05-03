@@ -32,7 +32,7 @@ function traverse(prereqs : CoursePrequisitesWithString) {
 }
 
 
-export function PrequisitesToString(prerequisites : CoursePrequisites) : NestedArray<string> {
+export function PrequisitesToString(prerequisites : CoursePrequisites, depth : number = 0) : NestedArray<string> {
 
     return prerequisites.map(prereq => {
         switch (prereq.type) {
@@ -43,9 +43,9 @@ export function PrequisitesToString(prerequisites : CoursePrequisites) : NestedA
             case "highschool":
                 return prereq.course  + " in High School";
             case "or":
-                return PrequisitesToString(prereq.operands).join(" or ");
+                return depth == 0 ? PrequisitesToString(prereq.operands, depth + 1).join(" or ") : "(" + PrequisitesToString(prereq.operands, depth + 1).join(" or ") + ")";
             case "and":
-                return "(" + PrequisitesToString(prereq.operands) + ")";
+                return depth == 0 ? PrequisitesToString(prereq.operands, depth + 1).join(" and ") : "(" + PrequisitesToString(prereq.operands, depth + 1).join(" and ") + ")";
             default:
                 return prereq as string;
         }
