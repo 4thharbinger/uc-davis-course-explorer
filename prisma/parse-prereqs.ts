@@ -2,7 +2,8 @@ import { PrismaClient } from '@prisma/client';
 
 const prisma = new PrismaClient();
 
-async function askOllama(text: string) {
+export async function askOllama(text: string) {
+  if (text == null || text.length == 0) return []; // Don't waste time on empty inputs
   // 1. The Strict System Prompt
   const astSchema = {
     type: "array",
@@ -34,8 +35,10 @@ async function askOllama(text: string) {
   
   RULES:
   - Output an array of prerequisite objects.
+  - IMPORTANT: Do not use AND or OR operators with one operand.
   - Course codes MUST be uppercase slugs without spaces (e.g., "MAT021A").
-  - If there are no prerequisites, output an empty array: []5. CRITICAL: The root array itself represents an implicit "AND". NEVER wrap the entire output in a {"type": "and", "operands": [...]} object. If multiple separate requirements exist, just list them as separate objects in the root array.
+  - If there are no prerequisites, output an empty array: []
+  - IMPORTANT: The root array itself represents an implicit "AND". NEVER wrap the entire output in a {"type": "and", "operands": [...]} object. If multiple separate requirements exist, just list them as separate objects in the root array.
   - Ignore descriptive text, software requirements, or syllabus notes. (eg. methods of programming). Only extract actionable courses, exams, or high school requirements.
   - There are 5 valid placement exams: "Computer Science Placement Requirement" (slug: "ECS"), "Foreign Language Placement Requirement" (slug: "LANG"), Mathematics Placement Requirement" (slug: "MATH"), "Entry-Level Writing Requirement" (slug: "ELWR"), and "Chemistry Placement Requirement". (slug: "CHEM"). Do not put any other value in the course field of exam type prerequisites.
 
@@ -58,6 +61,14 @@ async function askOllama(text: string) {
   EXAMPLE 5 (EXAMS AND VAGUE CONDITIONS):
   Text: "A Precalculus Diagnostic Examination score significantly higher than the minimum for MAT 021A is required."
   Output: [{"type": "exam", "course": "MATH", "grade": "Significantly higher than MAT021A minimum"}]
+
+  EXAMPLE 6 (ENTRY LEVEL WRITING REQUIREMENT):
+  Text: "Completion of Entry Level Writing Requirement (ELWR)."
+  Output: [{"type": "exam", "course": "ELWR"}]
+
+  EXAMPLE 7 (GRADES VS LOGICAL OR):
+  Text: BOTH "MAT 021C with a C- or better or MAT 017C with a B or better" AND "MAT 021C C- or better or MAT 017C B or better" Should parse to:
+  Output: [{"type":"or","operands":[{"type":"course","course":"MAT021C","grade":"C-"},{"type":"course","course":"MAT017C","grade":"B"}]}]
 
   Now, parse this input:
   Text: "${text}"
@@ -85,9 +96,7 @@ async function askOllama(text: string) {
     
     // 3. Parse the AI's response into a real JavaScript object
     const json = JSON.parse(data.response);
-
-    console.log(JSON.stringify(json));
-    return json.type == "and" ? json.operands : json;
+    return json.operands && json.operands.length == 0 ? [] : (json.type == "and" ? json.operands : json);
     
   } catch (error) {
     console.error(`[AI Error] Failed to parse: "${text}"`);
@@ -106,7 +115,7 @@ async function main() {
 
   let successCount = 0;// 1. Define your batch size. 
   // Start with 4. If your GPU handles it easily, bump it to 8 or 16.
-  const BATCH_SIZE = 4; 
+  const BATCH_SIZE = 16; 
 
   for (let i = 0; i < courses.length; i += BATCH_SIZE) {
     const batch = courses.slice(i, i + BATCH_SIZE);
@@ -115,6 +124,7 @@ async function main() {
     // 2. Fire off all LLM requests in this batch AT THE EXACT SAME TIME
     const results = await Promise.all(batch.map(async (course) => {
       const ast = await askOllama(course.rawPrerequisitesText!);
+      console.log("Parsed for " + course.code + ": ", JSON.stringify(ast));
       return { id: course.id, code: course.code, ast };
     }));
 
@@ -137,3 +147,4 @@ async function main() {
 main()
   .catch((e) => console.error(e))
   .finally(async () => await prisma.$disconnect());
+  // ... your askOllama function stays exactly the same (with the new rules) ...
