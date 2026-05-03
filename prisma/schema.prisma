@@ -1,0 +1,36 @@
+// This is your Prisma schema file,
+// learn more about it in the docs: https://pris.ly/d/prisma-schema
+
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "sqlite"
+  url      = env("DATABASE_URL")
+}
+model Course {
+  id          String   @id @default(cuid()) // Unique string ID
+  slug        String   @unique              // Unique slug for URLs with no special characters (eg. MAT021A)
+  code        String   @unique              // Unique course code as it shows up in the catalog (eg. MAT 021A)
+  description String
+  name        String
+  grading     String                        
+  units       Int
+
+  prerequisites     Course[] @relation("PrerequisiteGraph")
+  prerequisiteFor   Course[] @relation("PrerequisiteGraph")
+  prerequisiteRules Json
+  rawPrerequisitesText String?
+  
+  instructors Instructor[] 
+}
+
+model Instructor {
+  id          String   @id @default(cuid())
+  fullName    String                        
+  department  String                        
+  rmpScore    Float?                        
+  
+  courses     Course[] 
+}
