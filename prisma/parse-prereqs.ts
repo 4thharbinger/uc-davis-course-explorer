@@ -4,6 +4,11 @@ const prisma = new PrismaClient();
 
 export async function askOllama(text: string) {
   if (text == null || text.length == 0) return []; // Don't waste time on empty inputs
+  if (text == "Consent of instructor.") return [
+    {
+      type: "consent"
+    }
+  ];
   // 1. The Strict System Prompt
   const astSchema = {
     type: "array",
@@ -12,7 +17,7 @@ export async function askOllama(text: string) {
       properties: {
         type: { 
           type: "string", 
-          enum: ["and", "or", "course", "exam", "highschool"] 
+          enum: ["and", "or", "course", "exam", "highschool", "standing", "consent"] 
         },
         operands: { 
           type: "array",
@@ -40,7 +45,13 @@ export async function askOllama(text: string) {
   - If there are no prerequisites, output an empty array: []
   - IMPORTANT: The root array itself represents an implicit "AND". NEVER wrap the entire output in a {"type": "and", "operands": [...]} object. If multiple separate requirements exist, just list them as separate objects in the root array.
   - Ignore descriptive text, software requirements, or syllabus notes. (eg. methods of programming). Only extract actionable courses, exams, or high school requirements.
-  - There are 5 valid placement exams: "Computer Science Placement Requirement" (slug: "ECS"), "Foreign Language Placement Requirement" (slug: "LANG"), Mathematics Placement Requirement" (slug: "MATH"), "Entry-Level Writing Requirement" (slug: "ELWR"), and "Chemistry Placement Requirement". (slug: "CHEM"). Do not put any other value in the course field of exam type prerequisites.
+  - The ONLY valid exams are: "Computer Science Placement Requirement" (slug: "ECS"), "Foreign Language Placement Requirement" (slug: "LANG"), Mathematics Placement Requirement" (slug: "MATH"), "Entry-Level Writing Requirement" (slug: "ELWR"), and "Chemistry Placement Requirement". (slug: "CHEM"). Do not put any other value in the course field of exam type prerequisites.
+  - The "standing" and "consent" type must be placed in the root-level array. 
+  - The ONLY valid standings are: "lower", "upper", and "graduate". Ignore standings about departments or other programs.
+  - Consent-type requirements should use the "consent" type without any other fields. Only place this requirement if the prerequisites explicitly state it.
+  - Anything in high school should use the "highschool" type. Only use this for regular high school courses. (eg. Algebra, Geometry, Physics). Do not use this for course materials or software requirements.
+  - If a prerequisite doesn't seem to fit into the above rules, ignore it. Do not force extra requirements into the available rules. 
+  - OR and AND follow the associative property. While (A OR B) OR C = A OR (B OR C), this should be written as A OR B OR C.
 
   EXAMPLE 1:
   Text: "PHY 001A or PHY 009A"
@@ -74,6 +85,14 @@ export async function askOllama(text: string) {
   Text: "MAT 021A B or better or MAT 021AH B or better."
   Output: [{"type":"or","operands":[{"type":"course","course":"MAT021A","grade":"B"},{"type":"course","course":"MAT021AH","grade":"B"}]}]
 
+  EXAMPLE 9 (STANDING):
+  Text: "PHY 007C or PHY 009C; upper division standing."
+  Output: [{"type":"standing", "course": "upper"},{"type":"or","operands":[{"type":"course","course":"PHY007C"},{"type":"course","course":"PHY009C"}]}]
+
+  EXAMPLE 10 (PARENTHESES):
+  Text: "(MAT 021C C- or better or MAT 021CH C- or better) or MAT 017C B or better."
+  Output: [{"type":"or","operands":[{"type":"course","course":"MAT021C","grade":"C-"},{"type":"course","course":"MAT021CH","grade":"C-"},{"type":"course","course":"MAT017C","grade":"B"}]}]
+
   Now, parse this input:
   Text: "${text}"
   Output: 
@@ -91,7 +110,7 @@ export async function askOllama(text: string) {
         stream: false,
         options: {
           temperature: 0.1, // Keep the temperature low so it doesn't get "creative" with your schema
-          num_ctx: 1024
+          num_ctx: 2048
         }
       })
     });
@@ -100,6 +119,7 @@ export async function askOllama(text: string) {
     
     // 3. Parse the AI's response into a real JavaScript object
     const json = JSON.parse(data.response);
+
     return json.operands && json.operands.length == 0 ? [] : (json.type == "and" ? json.operands : json);
     
   } catch (error) {
@@ -112,7 +132,7 @@ async function main() {
   console.log("Fetching courses from the database...");
   
   const courses = await prisma.course.findMany({
-    where: { rawPrerequisitesText: { not: null }, prerequisiteRules: { equals: [] } },
+    // where: { rawPrerequisitesText: { not: null }, prerequisiteRules: { equals: [] } },
   });
 
   console.log(`Found ${courses.length} courses to parse. Firing up LLaMA 3.1...`);
@@ -128,6 +148,8 @@ async function main() {
     // 2. Fire off all LLM requests in this batch AT THE EXACT SAME TIME
     const results = await Promise.all(batch.map(async (course) => {
       const ast = await askOllama(course.rawPrerequisitesText!);
+      const standings = [];
+
       console.log("Parsed for " + course.code + ": ", JSON.stringify(ast));
       return { id: course.id, code: course.code, ast };
     }));

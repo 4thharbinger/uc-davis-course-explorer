@@ -8,6 +8,7 @@
     "start": "next start",
     "lint": "eslint",
     "prereqs": "npx tsx prisma/parse-prereqs.ts",
+    "optimize": "npx tsx prisma/optimize-prereqs.ts",
     "shortdescs": "npx tsx prisma/parse-shortdescs.ts",
     "cleanup": "npx tsx prisma/cleanup-prereqs.ts"
   },

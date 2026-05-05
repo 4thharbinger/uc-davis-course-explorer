@@ -38,11 +38,11 @@ export function PrequisitesToString(prerequisites : CoursePrequisites, depth : n
     return prerequisites.map(prereq => {
         switch (prereq.type) {
             case "course":
-                return [(prereq.isConcurrent ? "Concurrent with " : "") + "[" + prereq.course + "]"];
+                return (prereq.isConcurrent ? "Concurrent with " : "") + "[" + prereq.course + "]";
             case "exam":
-                return [getExamName(prereq)];
+                return getExamName(prereq);
             case "highschool":
-                return [prereq.course  + " in High School"];
+                return prereq.course  + " in High School";
             case "or":
                 return prereq.operands.length == 0 ? [PrequisitesToString(prereq.operands, depth + 1).join(" or ")] : [ "Any of ", PrequisitesToString(prereq.operands, depth + 1)];
             case "and":
