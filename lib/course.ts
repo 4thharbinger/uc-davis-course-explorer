@@ -1,3 +1,4 @@
+import { getExamName } from "./graphUtils";
 import NestedArray from "./nestedArray"
 
  
@@ -37,17 +38,17 @@ export function PrequisitesToString(prerequisites : CoursePrequisites, depth : n
     return prerequisites.map(prereq => {
         switch (prereq.type) {
             case "course":
-                return (prereq.isConcurrent ? "Concurrent with " : "") + "[" + prereq.course + "]";
+                return [(prereq.isConcurrent ? "Concurrent with " : "") + "[" + prereq.course + "]"];
             case "exam":
-                return prereq.grade ? "Score ≥ " + prereq.grade + " on " + prereq.course! : prereq.course!;
+                return [getExamName(prereq)];
             case "highschool":
-                return prereq.course  + " in High School";
+                return [prereq.course  + " in High School"];
             case "or":
-                return depth == 0 ? PrequisitesToString(prereq.operands, depth + 1).join(" or ") : "(" + PrequisitesToString(prereq.operands, depth + 1).join(" or ") + ")";
+                return prereq.operands.length == 0 ? [PrequisitesToString(prereq.operands, depth + 1).join(" or ")] : [ "Any of ", PrequisitesToString(prereq.operands, depth + 1)];
             case "and":
-                return depth == 0 ? PrequisitesToString(prereq.operands, depth + 1).join(" and ") : "(" + PrequisitesToString(prereq.operands, depth + 1).join(" and ") + ")";
+                return prereq.operands.length == 0 ? [PrequisitesToString(prereq.operands, depth + 1).join(" and ")] : [ "All of ", PrequisitesToString(prereq.operands, depth + 1)];
             default:
-                return prereq as string;
+                return [prereq as string];
         }
     });
 }

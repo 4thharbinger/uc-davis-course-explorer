@@ -2,6 +2,7 @@ import dagre from 'dagre';
 import { Node, Edge } from '@xyflow/react';
 import getCourseInfo, { getCoursesInfo } from './getCourseInfo';
 import { info } from 'console';
+import { CoursePrerequiste } from './course';
 
 export function buildGraphTree(plannedCourses: any[]) {
   const nodes: Node[] = [];
@@ -151,14 +152,7 @@ export function extractSpecialRequirements(rules: any[]): string[] {
     }
     switch (rule.type) {
       case 'exam':
-        if (rule.grade) {
-          if ((+rule.grade) == rule.grade) 
-            reqs.add(rule.grade ? "Score ≥ " + rule.grade + " on " + rule.course! : rule.course!);
-          else
-            reqs.add((examNames[rule.course as string] ?? rule.course) + " score " + rule.grade);
-        } else {
-          reqs.add("Completion of " + (examNames[rule.course as string] ?? rule.course));
-        }
+        reqs.add(getExamName(rule));
         return;
       case 'highschool':
         reqs.add("Taken " + rule.course + " in High School");
@@ -171,6 +165,17 @@ export function extractSpecialRequirements(rules: any[]): string[] {
   
   rules.forEach(walk);
   return Array.from(reqs);
+}
+
+export function getExamName(rule : CoursePrerequiste) : string {
+  if (rule.grade) {
+    if (String(+rule.grade) == rule.grade) 
+      return (rule.grade ? "Score ≥ " + rule.grade + " on " + rule.course! : rule.course!);
+    else
+      return (examNames[rule.course as string] ?? rule.course) + " score " + rule.grade;
+  } else {
+    return ("Completion of " + (examNames[rule.course as string] ?? rule.course));
+  }
 }
 
 export const examNames : Record<string, string> = {

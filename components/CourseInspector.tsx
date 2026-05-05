@@ -44,7 +44,7 @@ function linkBrackets(item : string, callback? : (courseId : string) => void) : 
         // Remove the brackets for the link text and URL
         const linkText = part.slice(1, -1);
         return (
-          <button key={index} onClick={() => callback ? callback(linkText) : null}>
+          <button className="cursor-pointer hover:text-blue-600" key={index} onClick={() => callback ? callback(linkText) : null}>
             {linkText}
           </button>
         );
@@ -56,13 +56,13 @@ function linkBrackets(item : string, callback? : (courseId : string) => void) : 
   return obj;
 }
 
-function HierarchyListContents(contents : NestedArray<string> | string, link : "none" | "brackets" | "all", callback? : (courseId : string) => void) : JSX.Element | string {
+function HierarchyListContents(contents : NestedArray<string> | string, depth : number, link : "none" | "brackets" | "all", callback? : (courseId : string) => void) : JSX.Element | string {
   if (typeof contents == "string" || contents == undefined) {
-    return link == "all" ? <button onClick={() => callback ? callback(contents) : null}>{contents}</button> : link == "brackets" ? linkBrackets(contents, callback) : <>{contents}</>;
+    return link == "all" ? <button className="cursor-pointer hover:text-blue-600"  onClick={() => callback ? callback(contents) : null}>{contents}</button> : link == "brackets" ? linkBrackets(contents, callback) : <>{contents}</>;
   }
-  return <ul>
+  return <ul className="ml-4">
     {contents.map((item, index) => (
-      <li key={index}>{HierarchyListContents(item, link)}</li>
+      <li key={index}>{HierarchyListContents(item, depth + 1, link)}</li>
     ))}
   </ul>;
 }
@@ -70,7 +70,7 @@ function HierarchyListContents(contents : NestedArray<string> | string, link : "
 function HierarchyList(title : string, content : NestedArray<string> | string[], empty : string = "None", link : "none" | "brackets" | "all" = "none", callback? : (courseId : string) => void ) {
   var contents = <ul className="ml-4 mb-2">
     {content.length > 0 ? content.map((item, index) => (
-      <li className="mt-1" key={index}>{HierarchyListContents(item, link, callback)}</li>
+      <li className="mt-1" key={index}>{HierarchyListContents(item, 0, link, callback)}</li>
     )) : <li className="text-gray-500 italic">{empty}</li>}
   </ul>;
   return <div>
