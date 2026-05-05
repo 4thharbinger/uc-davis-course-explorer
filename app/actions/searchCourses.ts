@@ -4,8 +4,10 @@ import { PrismaClient } from '@prisma/client';
 
 const prisma = new PrismaClient();
 
-export async function searchCourses(query: string) {
-  if (!query || query.length < 2) return [];
+export async function searchCourses(query: string, skip: number = 0) {
+  if (!query || query.length < 2) return { data: [], hasMore: false };
+
+  const TAKE = 20;
 
   const results = await prisma.course.findMany({
     where: {
@@ -14,15 +16,19 @@ export async function searchCourses(query: string) {
         { name: { contains: query } },
       ]
     },
-    take: 10,
+    take: TAKE + 1,
+    skip: skip,
     select: {
       id: true,
       slug: true,
       code: true,
       name: true,
-      shortDesc: true,
+      shortDesc: true
     }
   });
 
-  return results;
+  const hasMore = results.length > TAKE;
+  const data = hasMore ? results.slice(0, -1) : results;
+
+  return { data, hasMore };
 }

@@ -8,7 +8,7 @@ import {
   applyEdgeChanges 
 } from '@xyflow/react';
 import getCourseInfo from '@/lib/getCourseInfo';
-import { generateEdges, getLayoutedElements } from '@/lib/graphUtils';
+import { buildGraphTree, getLayoutedElements } from '@/lib/graphUtils';
 
 type GraphState = {
   nodes: Node[];
@@ -16,7 +16,8 @@ type GraphState = {
   inspectedCourse : any | null;
   onNodesChange: OnNodesChange;
   onEdgesChange: OnEdgesChange;
-  addCourse: (course: any) => void;
+  addCourse: (courseCode: string) => void;
+  removeCourse: (courseCode: string) => void;
   clearCourses: () => void;
   setInspectedCourse: (course: any | null) => void;
 };
@@ -36,26 +37,35 @@ export const useGraphStore = create<GraphState>((set, get) => ({
   clearCourses: () => {
     set({ nodes: [], edges: [] });
   },
+  removeCourse: async (courseCode : string) => {
+    const course = await getCourseInfo(courseCode);
+    if (course == null) return console.log("Course not found " + courseCode);
+    
+    const { nodes } = get();
+    const filteredNodes = nodes.filter(n => n.id !== course.slug);
+    
+    const { nodes: layoutedNodes, edges: layoutedEdges } = getLayoutedElements(
+      filteredNodes,
+      generateEdges(filteredNodes)
+    );
+
+    set({ nodes: layoutedNodes, edges: layoutedEdges });
+  },
 
   addCourse: async (courseCode : string) => {
-    const { nodes } = get();
     const course = await getCourseInfo(courseCode);
-
     if (course == null) return console.log("Course not found " + courseCode);
+    
+    const { nodes } = get();
+    if (nodes.some(n => n.id === String(course.slug) && n.data.status === 'planned')) return console.log("Course already exists");
+    const plannedCourses = nodes
+      .filter(n => n.data.status === 'planned' && n.id !== courseCode)
+      .map(n => n.data);
+      
+    plannedCourses.push({ ...course, status: 'planned' });
 
-    if (nodes.some(n => n.id === String(course.slug))) return console.log("Course already exists");
-    const newNode: Node = {
-      id: course.slug,
-      type: 'course',
-      position: { x: 0, y: 0 },
-      data: { 
-        label: course.code, 
-        ...course
-      },
-    };
+    const { unlayoutedNodes, generatedEdges } = buildGraphTree(plannedCourses);
 
-    const unlayoutedNodes = [...nodes, newNode];
-    const generatedEdges = generateEdges(unlayoutedNodes);
     const { nodes: layoutedNodes, edges: layoutedEdges } = getLayoutedElements(
       unlayoutedNodes,
       generatedEdges
@@ -66,3 +76,7 @@ export const useGraphStore = create<GraphState>((set, get) => ({
   setInspectedCourse: (course) => set({ inspectedCourse: course }),
 
 }));
+
+function generateEdges(filteredNodes: Node[]): Edge[] {
+  throw new Error('Function not implemented.');
+}

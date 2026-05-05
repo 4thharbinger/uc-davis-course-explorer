@@ -13,7 +13,7 @@ export function CourseInspector({ courseLibrary, courseId } : { courseLibrary : 
 
 
   if (inspectedCourse) {
-    courseId = inspectedCourse.slug;
+    courseId = inspectedCourse.slug ?? inspectedCourse.label;
   }
 
   var course = courseId == undefined ? undefined : courseLibrary[courseId.toUpperCase()];

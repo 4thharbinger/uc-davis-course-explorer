@@ -5,29 +5,52 @@ import { useState, useEffect } from 'react';
 import { searchCourses } from '@/app/actions/searchCourses';
 import { redirect } from 'next/navigation';
 
-export default function CourseSearch() {
-  const [searchTerm, setSearchTerm] = useState('MAT 021A');
+export default function SearchSidebar() {
+  const [searchTerm, setSearchTerm] = useState('MAT 021');
   const [results, setResults] = useState<any[]>([]);
   const [isSearching, setIsSearching] = useState(false);
+  const [hasMore, setHasMore] = useState(false);
+  const [isLoadingMore, setIsLoadingMore] = useState(false);
 
   // Debounce user input
   useEffect(() => {
     const delayDebounceFn = setTimeout(async () => {
       if (searchTerm.length >= 2) {
         setIsSearching(true);
-        const data = await searchCourses(searchTerm);
-        setResults(data);
+        const res = await searchCourses(searchTerm);
+        setResults(res.data);
+        setHasMore(res.hasMore);
         setIsSearching(false);
       } else {
         setResults([]); // Clear results if input is empty
+        setHasMore(false);
       }
     }, 200); // Wait for after they stop typing
 
     return () => clearTimeout(delayDebounceFn);
   }, [searchTerm]);
+
+  const handleScroll = async (e: React.UIEvent<HTMLDivElement>) => {
+    const { scrollTop, clientHeight, scrollHeight } = e.currentTarget;
+
+    // If we are within 100px of the bottom, AND there are more to load, AND we aren't already loading...
+    if (scrollHeight - scrollTop <= clientHeight + 100) {
+      if (hasMore && !isLoadingMore && !isSearching) {
+        setIsLoadingMore(true);
+        
+        const response = await searchCourses(searchTerm, results.length);
+        
+        setResults((prev) => [...prev, ...response.data]);
+        setHasMore(response.hasMore);
+        
+        setIsLoadingMore(false);
+      }
+    }
+  };
+
   const addCourse = useGraphStore((state) => state.addCourse);
   const handleAddCourse = (course: any) => {
-    addCourse(course.code);
+    addCourse(course.slug);
   };
 
   return (
@@ -42,7 +65,7 @@ export default function CourseSearch() {
         onChange={(e) => setSearchTerm(e.target.value)}
       />
 
-      <div className="overflow-y-auto flex-1 flex flex-col gap-0.5">
+      <div onScroll={handleScroll}className="overflow-y-auto flex-1 flex flex-col gap-0.5">
         {isSearching && <p className="text-gray-400 text-sm">Searching...</p>}
         
         {results.map((course) => (

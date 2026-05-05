@@ -70,6 +70,10 @@ export async function askOllama(text: string) {
   Text: BOTH "MAT 021C with a C- or better or MAT 017C with a B or better" AND "MAT 021C C- or better or MAT 017C B or better" Should parse to:
   Output: [{"type":"or","operands":[{"type":"course","course":"MAT021C","grade":"C-"},{"type":"course","course":"MAT017C","grade":"B"}]}]
 
+  EXAMPLE 8 (GRADES): 
+  Text: "MAT 021A B or better or MAT 021AH B or better."
+  Output: [{"type":"or","operands":[{"type":"course","course":"MAT021A","grade":"B"},{"type":"course","course":"MAT021AH","grade":"B"}]}]
+
   Now, parse this input:
   Text: "${text}"
   Output: 

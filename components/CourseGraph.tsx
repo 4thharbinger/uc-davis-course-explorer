@@ -5,9 +5,10 @@ import '@xyflow/react/dist/style.css';
 import { useGraphStore } from '@/store/useGraphStore';
 import { Course } from '@/lib/course';
 import CourseNode from './CourseNode';
+import LogicNode from './LogicNode';
 ;
 const nodeTypes = {
-  course: CourseNode, 
+  course: CourseNode, logic: LogicNode,
 };
 
 export default function CourseGraph({courses} : {courses : Course[] } ) {
@@ -19,6 +20,7 @@ export default function CourseGraph({courses} : {courses : Course[] } ) {
   const setInspectedCourse = useGraphStore((state) => state.setInspectedCourse);
   const handleNodeClick = (event: React.MouseEvent, node: any) => {
     // node.data contains all the course info (name, description, prereqs)
+    console.log(node);
     setInspectedCourse(node.data); 
   };
 
