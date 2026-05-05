@@ -6,7 +6,7 @@ import { prisma } from "./prisma";
 const toSlug = (code: string) => code.replace(/\s+/g, '').toUpperCase();
 const coursesCache : Record<string, CourseLibrary> = {};
 
-export async function getSchoolCourses(school : SchoolInfo) : Promise<CourseLibrary> {
+export default async function getSchoolCourses(school : SchoolInfo) : Promise<CourseLibrary> {
 
     //if (coursesCache[school.id]) return coursesCache[school.id];
 
@@ -25,6 +25,7 @@ export async function getSchoolCourses(school : SchoolInfo) : Promise<CourseLibr
       description: dbCourse.description,
       code: dbCourse.code,
       units: dbCourse.units,
+      shortDesc: dbCourse.shortDesc ?? undefined,
       instructorIds: dbCourse.instructors.map((instructor) => instructor.id),
       unlockIds: dbCourse.prerequisiteFor.map((child) => toSlug(child.code)),
       prerequisites: dbCourse.prerequisiteRules as unknown as CoursePrequisites,

@@ -14,6 +14,7 @@ model Course {
   slug        String   @unique              // Unique slug for URLs with no special characters (eg. MAT021A)
   code        String   @unique              // Unique course code as it shows up in the catalog (eg. MAT 021A)
   description String
+  shortDesc   String?
   name        String
   grading     String                        
   units       Int

@@ -1,4 +1,4 @@
-import { NestedArray } from "./nestedArray"
+import NestedArray from "./nestedArray"
 
  
 export function CreateCourse(course : CourseWithStringPrereqs) : Course {
@@ -57,6 +57,7 @@ export type CourseLibrary = Record<string, Course>;
 export type Course = {
   name : string,
   description : string,
+  shortDesc? : string,
   code : string,
   units : number,
   instructorIds : string[],
@@ -68,6 +69,7 @@ export type Course = {
 export type CourseWithStringPrereqs = {
   name : string,
   description : string,
+  shortDesc? : string,
   code : string,
   units : number,
   instructorIds : string[],

@@ -1,4 +1,4 @@
-export function getSchoolInfo(school: string) : SchoolInfo {
+export default function getSchoolInfo(school: string) : SchoolInfo {
     return {
         iconUrl: "https://catalog.ucdavis.edu/images/uc-logo-gold.svg",
         name: "UC Davis",

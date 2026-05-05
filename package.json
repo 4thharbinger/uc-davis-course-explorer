@@ -7,18 +7,23 @@
     "build": "next build",
     "start": "next start",
     "lint": "eslint",
-    "parse": "npx tsx prisma/parse-prereqs.ts",
-    "cleanup": "npx tsx prisma/cleanup-prereqs.ts" 
+    "prereqs": "npx tsx prisma/parse-prereqs.ts",
+    "shortdescs": "npx tsx prisma/parse-shortdescs.ts",
+    "cleanup": "npx tsx prisma/cleanup-prereqs.ts"
   },
   "dependencies": {
     "@prisma/client": "^6.19.3",
+    "@xyflow/react": "^12.10.2",
+    "dagre": "^0.8.5",
     "next": "16.2.4",
     "react": "19.2.4",
     "react-dom": "19.2.4",
-    "react-markdown": "^10.1.0"
+    "react-markdown": "^10.1.0",
+    "zustand": "^5.0.12"
   },
   "devDependencies": {
     "@tailwindcss/postcss": "^4",
+    "@types/dagre": "^0.7.54",
     "@types/node": "^20",
     "@types/react": "^19",
     "@types/react-dom": "^19",

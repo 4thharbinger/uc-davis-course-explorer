@@ -1,1 +1,1 @@
-export interface NestedArray<T> extends Array<T | NestedArray<T>> { }
+export default interface NestedArray<T> extends Array<T | NestedArray<T>> { }
