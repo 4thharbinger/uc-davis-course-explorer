@@ -29,6 +29,7 @@ export default async function getSchoolCourses(school : SchoolInfo) : Promise<Co
       instructorIds: dbCourse.instructors.map((instructor) => instructor.id),
       unlockIds: dbCourse.prerequisiteFor.map((child) => toSlug(child.code)),
       prerequisites: dbCourse.prerequisiteRules as unknown as CoursePrequisites,
+      rawPrerequisites: dbCourse.rawPrerequisitesText ?? undefined,
       grading: "Letter" 
     };
 

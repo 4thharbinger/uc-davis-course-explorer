@@ -19,13 +19,13 @@ export default function CourseNode({ data }: { data: any }) {
       <div className="bg-white border-2 border-dashed border-gray-400 rounded-lg shadow-sm w-64 p-4 flex flex-col items-center justify-center opacity-70 hover:opacity-100 transition-all">
         <Handle type="target" position={Position.Top} className="opacity-0" isConnectable={false} />
         
-        <span className="font-bold text-gray-500 mb-2">Requires {data.label}</span>
+        <span className="font-bold text-gray-500 mb-2">{data.label}</span>
         
         <div className = " h-11">{data.shortDesc}</div>
         <button 
           onClick={handleUpgrade}
           disabled={isLoading}
-          className="bg-blue-100 text-blue-700 px-4 py-2 rounded-md text-sm font-bold hover:bg-blue-200 transition-colors w-full"
+          className="bg-blue-100 cursor-pointer text-blue-700 px-4 py-2 rounded-md text-sm font-bold hover:bg-blue-200 transition-colors w-full"
         >
           {isLoading ? "Loading..." : "➕ Add to Schedule"}
         </button>

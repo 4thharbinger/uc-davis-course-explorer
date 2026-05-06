@@ -1,15 +1,11 @@
-import CourseGraph from "@/components/CourseGraph";
-import { CourseInspector } from "@/components/CourseInspector";
-import CourseSearch from "@/components/CourseSearch";
 import { redirect } from "next/navigation";
-import { Footer } from "../../../components/Footer";
 import getSchoolCourses from "@/lib/getSchoolCourses";
 import getSchoolInfo from "@/lib/getSchoolInfo";
+import { CourseEditor } from "@/components/CourseEditor";
 
 interface SchoolProps {
   params: Promise<{ school: string[] }>;
 }
-
 
 export default async function CourseExplorer({ params } : SchoolProps ) {
   var args = await params;
@@ -28,17 +24,17 @@ export default async function CourseExplorer({ params } : SchoolProps ) {
 
   return (
     <div className="flex flex-col w-full h-screen overflow-hidden text-gray-900 bg-white">
-      <header className="flex-none h-14 border-b px-4 flex items-center bg-white z-10 border-gray-200 text-2xl font-bold"> Course Explorer —  <span className="ml-2 text-gray-500">{schoolInfo.name}</span> </header> 
-      <main className="flex-1 flex overflow-hidden min-h-0">
-          <CourseSearch/>
+      <header className="flex-none h-14 border-b px-4 flex items-center bg-white z-10 border-gray-200 text-2xl font-bold"> Course Editor —  <span className="ml-2 text-gray-500">{schoolInfo.name}</span> </header> 
 
-          <div className="flex-1 relative bg-gray-100 p-4"><CourseGraph courses={selectedCourse == undefined ? [] : [courses[selectedCourse]]} />
-          </div>
-
-          <CourseInspector courseLibrary={courses} courseId={selectedCourse} />
-      </main>
-      <Footer/>
+      <CourseEditor courseLibrary={courses} courseCode={selectedCourse ?? ""}/>
+      <footer className="flex-none h-8 border-t bg-gray-50 px-4 flex items-center border-gray-200 justify-between text-xs text-gray-500 z-10">
+        <div className="flex gap-4">
+          <span>Put some footer stuff here I guess.</span>
+        </div>
+        <div className="flex gap-4">
+          <a className="cursor-pointer hover:text-blue-600" href="/help/course-explorer">Help</a>
+        </div>
+      </footer>
     </div>
   );
 }
-

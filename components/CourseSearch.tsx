@@ -1,12 +1,12 @@
 "use client"
 
 import { useGraphStore } from '@/store/useGraphStore';
-import { useState, useEffect } from 'react';
+import { useState, useEffect, SetStateAction, Dispatch } from 'react';
 import { searchCourses } from '@/app/actions/searchCourses';
 import { redirect } from 'next/navigation';
 
-export default function SearchSidebar() {
-  const [searchTerm, setSearchTerm] = useState('MAT 021');
+export default function SearchSidebar({ setSelectedCourse } : { setSelectedCourse? : Dispatch<SetStateAction<string>> | undefined }) {
+  const [searchTerm, setSearchTerm] = useState("MAT 021");
   const [results, setResults] = useState<any[]>([]);
   const [isSearching, setIsSearching] = useState(false);
   const [hasMore, setHasMore] = useState(false);
@@ -49,9 +49,6 @@ export default function SearchSidebar() {
   };
 
   const addCourse = useGraphStore((state) => state.addCourse);
-  const handleAddCourse = (course: any) => {
-    addCourse(course.slug);
-  };
 
   return (
     <div className="w-80 h-full border-r border-gray-200 bg-white p-4 flex flex-col gap-4">
@@ -71,7 +68,7 @@ export default function SearchSidebar() {
         {results.map((course) => (
           <button 
             key={course.id}
-            onClick={() => handleAddCourse(course)}
+            onClick={setSelectedCourse ? () => setSelectedCourse(course.slug) : () => addCourse(course.slug)}
             className="text-left p-2 rounded hover:bg-blue-50 transition-colors cursor-pointer"
           >
             <div className="font-bold">{course.code} - {course.name}</div>

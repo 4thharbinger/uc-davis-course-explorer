@@ -47,8 +47,12 @@ export function PrequisitesToString(prerequisites : CoursePrequisites, depth : n
                 return prereq.operands.length == 0 ? [PrequisitesToString(prereq.operands, depth + 1).join(" or ")] : [ "Any of ", PrequisitesToString(prereq.operands, depth + 1)];
             case "and":
                 return prereq.operands.length == 0 ? [PrequisitesToString(prereq.operands, depth + 1).join(" and ")] : [ "All of ", PrequisitesToString(prereq.operands, depth + 1)];
+            case "consent":
+                return "Instructor consent";
+            case "standing":
+                return prereq.course + " standing";
             default:
-                return [prereq as string];
+                throw new TypeError("Invalid prerequisite of type " + (prereq as CoursePrerequiste).type);
         }
     });
 }
@@ -63,6 +67,7 @@ export type Course = {
   units : number,
   instructorIds : string[],
   prerequisites : CoursePrequisites,
+  rawPrerequisites? : string,
   unlockIds : string[],
   id : string,
   grading : "Letter" | "P/NP" | "Both"
@@ -75,6 +80,7 @@ export type CourseWithStringPrereqs = {
   units : number,
   instructorIds : string[],
   prerequisites : CoursePrequisitesWithString,
+  rawPrerequisites? : string,
   unlockIds : string[],
   id : string,
   grading : "Letter" | "P/NP" | "Both"
@@ -92,7 +98,7 @@ export type CoursePrerequsiteAnd = {
 }
 
 export type CoursePrerequiste = {
-    type : "course" | "exam" | "highschool",
+    type : "course" | "exam" | "highschool" | "consent" | "standing",
     course : string,
     grade? : string,
     isRecommendation? : boolean,

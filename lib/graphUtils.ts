@@ -50,7 +50,7 @@ export function buildGraphTree(plannedCourses: any[]) {
           id: `edge-${rule.course}-${parentId}`,
           source: rule.course,
           target: parentId,
-          type: 'smoothstep',
+          type: 'smart',
           animated: true,
           style: isPlanned 
             ? { stroke: '#3b82f6', strokeWidth: 2 } // Solid Blue for real courses
@@ -83,7 +83,7 @@ export function buildGraphTree(plannedCourses: any[]) {
             id: `edge-${logicId}-${parentId}`,
             source: logicId,
             target: parentId,
-            type: 'smoothstep',
+            type: 'smart',
             style: { stroke: '#9ca3af', strokeWidth: 2 },
           });
 

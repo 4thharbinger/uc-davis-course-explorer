@@ -6,9 +6,14 @@ import { useGraphStore } from '@/store/useGraphStore';
 import { Course } from '@/lib/course';
 import CourseNode from './CourseNode';
 import LogicNode from './LogicNode';
+import { SmartBezierEdge, SmartStepEdge } from '@tisoap/react-flow-smart-edge';
 ;
 const nodeTypes = {
   course: CourseNode, logic: LogicNode,
+};
+
+const edgeTypes = {
+  smart: SmartStepEdge, 
 };
 
 export default function CourseGraph({courses} : {courses : Course[] } ) {
@@ -32,6 +37,7 @@ export default function CourseGraph({courses} : {courses : Course[] } ) {
         onNodesChange={onNodesChange}
         onEdgesChange={onEdgesChange}
         nodeTypes={nodeTypes}
+        edgeTypes={edgeTypes}
         nodesDraggable={false}
         nodesConnectable={false}
         onNodeClick={handleNodeClick}
