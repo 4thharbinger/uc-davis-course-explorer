@@ -16,7 +16,8 @@ model Course {
   description String
   shortDesc   String?
   name        String
-  grading     String                        
+  grading     String
+  
   units       Int
 
   prerequisites     Course[] @relation("PrerequisiteGraph")

@@ -2,7 +2,7 @@ import { PrismaClient } from '@prisma/client';
 
 const prisma = new PrismaClient();
 
-export async function askOllama(text: string) {
+export async function askOllama(text: string, courseName: string) {
   if (text == null || text.length == 0) return []; // Don't waste time on empty inputs
   if (text == "Consent of instructor.") return [
     {
@@ -93,7 +93,7 @@ export async function askOllama(text: string) {
   Text: "(MAT 021C C- or better or MAT 021CH C- or better) or MAT 017C B or better."
   Output: [{"type":"or","operands":[{"type":"course","course":"MAT021C","grade":"C-"},{"type":"course","course":"MAT021CH","grade":"C-"},{"type":"course","course":"MAT017C","grade":"B"}]}]
 
-  Now, parse this input:
+  The prerequsites for this course (${courseName}) are:
   Text: "${text}"
   Output: 
   `;
@@ -147,7 +147,7 @@ async function main() {
 
     // 2. Fire off all LLM requests in this batch AT THE EXACT SAME TIME
     const results = await Promise.all(batch.map(async (course) => {
-      const ast = await askOllama(course.rawPrerequisitesText!);
+      const ast = await askOllama(course.rawPrerequisitesText!, course.code + ": " + course.name);
       const standings = [];
 
       console.log("Parsed for " + course.code + ": ", JSON.stringify(ast));
