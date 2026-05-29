@@ -131,15 +131,15 @@ export async function askOllama(text: string, courseName: string) {
 async function main() {
   console.log("Fetching courses from the database...");
   
-  const courses = await prisma.course.findMany({
-    // where: { rawPrerequisitesText: { not: null }, prerequisiteRules: { equals: [] } },
-  });
+  const courses = (await prisma.course.findMany({
+    where: { rawPrerequisitesText: { not: null }, prerequisiteRules: { equals: [] } },
+  })).filter(course => course.rawPrerequisitesText && course.rawPrerequisitesText.trim() != "");
 
   console.log(`Found ${courses.length} courses to parse. Firing up LLaMA 3.1...`);
 
   let successCount = 0;// 1. Define your batch size. 
   // Start with 4. If your GPU handles it easily, bump it to 8 or 16.
-  const BATCH_SIZE = 16; 
+  const BATCH_SIZE = 4; 
 
   for (let i = 0; i < courses.length; i += BATCH_SIZE) {
     const batch = courses.slice(i, i + BATCH_SIZE);
@@ -148,7 +148,6 @@ async function main() {
     // 2. Fire off all LLM requests in this batch AT THE EXACT SAME TIME
     const results = await Promise.all(batch.map(async (course) => {
       const ast = await askOllama(course.rawPrerequisitesText!, course.code + ": " + course.name);
-      const standings = [];
 
       console.log("Parsed for " + course.code + ": ", JSON.stringify(ast));
       return { id: course.id, code: course.code, ast };

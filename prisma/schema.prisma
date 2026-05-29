@@ -6,7 +6,7 @@ generator client {
 }
 
 datasource db {
-  provider = "sqlite"
+  provider = "postgresql"
   url      = env("DATABASE_URL")
 }
 model Course {
@@ -18,14 +18,18 @@ model Course {
   name        String
   grading     String
   
-  units       Int
+  units       String
+  learningActivities   Json?
+  generalEducation     Json?
+  
+  prerequisiteRules Json
+  rawPrerequisitesText String?
 
   prerequisites     Course[] @relation("PrerequisiteGraph")
   prerequisiteFor   Course[] @relation("PrerequisiteGraph")
-  prerequisiteRules Json
-  rawPrerequisitesText String?
   
   instructors Instructor[] 
+  sections    Section[]
 }
 
 model Instructor {
@@ -35,4 +39,16 @@ model Instructor {
   rmpScore    Float?                        
   
   courses     Course[] 
+}
+
+model Section {
+  crn          String   @id // e.g., "36077"
+  courseCode   String       // Links to Course.code (e.g., "MAT 021C")
+  termCode     String       // e.g., "202610" (Fall 2026)
+  sectionNum   String       // e.g., "A01"
+  instructor   String?      // e.g., "Garving Luli"
+  
+  meetings     Json         @default("[]") 
+  
+  course       Course   @relation(fields: [courseCode], references: [code], onDelete: Cascade)
 }

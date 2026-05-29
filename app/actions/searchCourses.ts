@@ -4,18 +4,13 @@ import { PrismaClient } from '@prisma/client';
 
 const prisma = new PrismaClient();
 
-export async function searchCourses(query: string, skip: number = 0) {
-  if (!query || query.length < 2) return { data: [], hasMore: false };
+export async function searchCourses(query: Object, skip: number = 0) {
+  if (!query) return { data: [], hasMore: false };
 
   const TAKE = 20;
 
   const results = await prisma.course.findMany({
-    where: {
-      OR: [
-        { slug: { contains: query.replace(/\s/g, '').toUpperCase() } },
-        { name: { contains: query } },
-      ]
-    },
+    where: query,
     take: TAKE + 1,
     skip: skip,
     select: {

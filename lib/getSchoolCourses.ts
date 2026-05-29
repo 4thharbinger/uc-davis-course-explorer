@@ -24,7 +24,7 @@ export default async function getSchoolCourses(school : SchoolInfo) : Promise<Co
       name: dbCourse.name,
       description: dbCourse.description,
       code: dbCourse.code,
-      units: dbCourse.units,
+      units: +dbCourse.units[0],
       shortDesc: dbCourse.shortDesc ?? undefined,
       instructorIds: dbCourse.instructors.map((instructor) => instructor.id),
       unlockIds: dbCourse.prerequisiteFor.map((child) => toSlug(child.code)),

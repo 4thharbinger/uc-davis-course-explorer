@@ -1,70 +1,208 @@
-import axios from 'axios';
+import * as fs from 'fs/promises';
+import * as path from 'path';
 import * as cheerio from 'cheerio';
+import { PrismaClient } from '@prisma/client';
 
-async function fetchDepartmentCourses(subjectCode: string) {
-  // Hit the bulk XML endpoint (e.g., /mat/index.xml)
-  const url = `https://catalog.ucdavis.edu/courses-subject-code/${subjectCode.toLowerCase()}/index.xml`;
+const prisma = new PrismaClient();
+const RAW_DATA_DIR = path.join(process.cwd(), 'raw_catalog_xml');
 
+async function seedDatabase() {
+  console.log('🚀 Starting local catalog parsing...');
+  
   try {
-    const response = await axios.get(url);
-    const xml = response.data;
-
-    // 1. Extract the giant block of HTML from the CDATA wrapper
-    const cdataMatch = xml.match(/<!\[CDATA\[([\s\S]*?)\]\]>/);
-    if (!cdataMatch) return [];
+    // 1. Get a list of all the XML files you downloaded
+    const files = await fs.readdir(RAW_DATA_DIR);
+    const xmlFiles = files.filter(f => f.endsWith('.xml'));
     
-    const rawHtml = cdataMatch;
+    // 2. Loop through every department file
+    let totalCoursesAdded = await parseFiles(xmlFiles);
 
-    // 2. Load the entire department's HTML into Cheerio at once
-    const $ = cheerio.load(rawHtml);
-    const courses: any[] = [];
+    console.log(`\n🎉 BOOM! Database fully seeded with ${totalCoursesAdded} total courses!`);
 
-    // 3. Loop through every single course block!
-    $('.courseblock').each((_, el) => {
-      // Notice we use $(el).find() to only search inside this specific course's HTML
-      const courseCode = $(el).find('.detail-code').text().trim();
-      const title = $(el).find('.detail-title').text().replace('— ', '').trim();
-      const units = $(el).find('.detail-hours_html').text().replace(/[()]/g, '').trim();
-      
-      // Some descriptions have a prefix like "Course Description: " we want to strip out
-      const description = $(el).find('.courseblockextra').first().text().replace(/Course Description:\s*/, '').trim();
-      
-      const prerequisites = $(el).find('.detail-prerequisite').text().replace(/Prerequisite\(s\):\s*/, '').trim();
-      
-      // Extract bullet points (Learning Activities, Grade Mode, GE)
-      const attributes: Record<string, string> = {};
-      $(el).find('.courseblockextra ul li').each((_, liEl) => {
+  } catch (error) {
+    console.error('Fatal Error during parsing:', error);
+  } finally {
+    await prisma.$disconnect();
+  }
+}
+async function parseFiles(xmlFiles: string[]) {
+  let totalCoursesAdded = 0;
+  for (const file of xmlFiles) {
+    const filePath = path.join(RAW_DATA_DIR, file);
+    const xmlData = await fs.readFile(filePath, 'utf-8');
+
+    // 3. Extract the CDATA HTML block
+    const cdataMatch = xmlData.match(/<!\[CDATA\[([\s\S]*?)\]\]>/);
+    if (!cdataMatch) continue; // Skip if empty or malformed
+
+    const coursesToSave: any[] = [];
+    const rawHtml = cdataMatch[1];
+    parseCourses(rawHtml, coursesToSave);
+
+    // 5. Save them to the database!
+    // We use a `for...of` loop with an `upsert` so we don't duplicate courses if you run this twice.
+    let deptCount = 0;
+    for (const course of coursesToSave) {
+      await prisma.course.upsert({
+        where: { code: course.code }, // Assuming 'code' is @unique in your schema
+        update: course,
+        create: { ...course, prerequisiteRules: [] }
+      });
+      deptCount++;
+    }
+
+    totalCoursesAdded += deptCount;
+    console.log(`✅ Processed ${file.replace('.xml', '').toUpperCase()}: ${deptCount} courses saved.`);
+  }
+  return totalCoursesAdded;
+}
+
+function parseCourses(rawHtml: string, coursesToSave: any[]) {
+  const $ = cheerio.load(rawHtml);
+
+  // 4. Parse every course in this department
+  $('.courseblock').each((_, el) => {
+    const hasNewVersion = $(el).text().includes('This version has ended');
+
+    let slugCode, rawCode, title, units, description, rawPrereqs;
+    const attributes: Record<string, string> = {};
+
+    if (hasNewVersion) {
+      // --- BRANCH A: EXTRACT THE UPDATED VERSION ---
+      // Find the specific hidden list that contains the new Fall 2026 data
+      const $updatedList = $(el).find('ul').filter((_, ul) => $(ul).text().includes('This course version is effective from'));
+
+      // The title/code is inside an <h5> tag: "ABG 299 — Research (1-12 units)"
+      const headerText = $updatedList.find('h5').text().trim();
+
+      const headerMatch = headerText.match(/^(.*?)\s*—\s*(.*?)\s*\((.*?)\)/);
+      if (headerMatch) {
+        rawCode = headerMatch[1].trim(); // "ABG 299"
+        slugCode = rawCode.replace(/\s+/g, '').toUpperCase(); // "ABG299"
+        title = headerMatch[2].trim(); // "Research"
+        units = headerMatch[3].trim(); // "1-12"
+      }
+
+      // The rest of the data is cleanly formatted in list items!
+      $updatedList.find('li').each((_, li) => {
+        const label = $(li).find('.label').text().replace(':', '').trim();
+        const value = $(li).text().replace($(li).find('.label').text(), '').trim();
+
+        if (label === 'Course Description') description = value;
+        else if (label === 'Prerequisite(s)') rawPrereqs = value;
+        else if (label) attributes[label] = value;
+      });
+
+    } else {
+      // --- BRANCH B: NORMAL COURSE PARSING ---
+      const $cleanBody = $(el).clone();
+      // $cleanBody.find('[hidden="true"], .notinpdf').remove(); // Safe to remove here
+
+      rawCode = $cleanBody.find('.detail-code').text().trim();
+      slugCode = rawCode.replace(/\s+/g, '').toUpperCase();
+      title = $cleanBody.find('.detail-title').text().replace('—', '').trim();
+      units = $cleanBody.find('.detail-hours_html').text().replace(/[()]/g, '').replace('units', '').trim();
+      description = $cleanBody.find('.courseblockextra').first().text().replace(/Course Description:\s*/, '').trim();
+      rawPrereqs = $cleanBody.find('.detail-prerequisite').text().replace(/Prerequisite\(s\):\s*/, '').trim();
+
+      $cleanBody.find('li').each((_, liEl) => {
         const label = $(liEl).find('.label').text().replace(':', '').trim();
         const value = $(liEl).text().replace($(liEl).find('.label').text(), '').trim();
         if (label && value) attributes[label] = value;
       });
+    }
 
-      // Only add it if it's a real course (prevents pushing empty ghosts)
-      if (courseCode) {
-        courses.push({
-          courseCode,
-          title,
-          units,
-          description,
-          prerequisites, // Feed this to Ollama!
-          learningActivities: attributes['Learning Activities'] || null,
-          gradeMode: attributes['Grade Mode'] || null,
-          generalEducation: attributes['General Education'] || null,
-        });
-      }
+    // Skip ghost courses
+    if (!slugCode) return;
+
+    // console.log(attributes);
+
+    coursesToSave.push({
+      code: rawCode,
+      slug: slugCode, // e.g., "MAT021A"
+      name: title,
+      units: units,
+      description: description,
+      rawPrerequisitesText: rawPrereqs,
+      learningActivities: parseLearningActivities(attributes['Learning Activities']),
+      generalEducation: parseGeneralEducation(attributes['General Education']),
+      grading: attributes['Grade Mode'] || "N/A",
     });
-
-    console.log(`Successfully parsed ${courses.length} courses for ${subjectCode.toUpperCase()}!`);
-    return courses;
-
-  } catch (error) {
-    console.error(`Failed to fetch department ${subjectCode}:`, error);
-    return [];
-  }
+  });
 }
 
-// Test it by grabbing the entire Math department in 1 second
-fetchDepartmentCourses('mat').then(courses => {
-  // Print the first 2 courses just to see it worked!
-  console.log(courses.slice(0, 2)); 
-});
+function parseGeneralEducation(geString?: string) {
+  if (!geString) return null;
+
+  // The final semantic object
+  const result = {
+    topicalBreadth: [] as string[],
+    coreLiteracies: [] as string[]
+  };
+
+  // UC Davis Master GE Dictionary
+  const topicalBreadthDict: Record<string, string> = {
+    "Arts & Humanities": "AH", "Arts and Humanities": "AH", "(AH)": "AH",
+    "Science & Engineering": "SE", "Science and Engineering": "SE", "(SE)": "SE",
+    "Social Sciences": "SS", "(SS)": "SS"
+  };
+
+  const coreLiteraciesDict: Record<string, string> = {
+    "American Cultures, Governance, and History": "ACGH", "American Cultures": "ACGH", "(ACGH)": "ACGH",
+    "Domestic Diversity": "DD", "(DD)": "DD",
+    "Oral Skills": "OL", "(OL)": "OL",
+    "Quantitative Literacy": "QL", "(QL)": "QL",
+    "Scientific Literacy": "SL", "(SL)": "SL",
+    "Visual Literacy": "VL", "(VL)": "VL",
+    "World Cultures": "WC", "(WC)": "WC",
+    "Writing Experience": "WE", "(WE)": "WE"
+  };
+
+  const foundTopical = new Set<string>();
+  const foundLiteracies = new Set<string>();
+
+  for (const [keyword, code] of Object.entries(topicalBreadthDict)) {
+    if (geString.toLowerCase().includes(keyword.toLowerCase())) {
+      foundTopical.add(code);
+    }
+  }
+
+  for (const [keyword, code] of Object.entries(coreLiteraciesDict)) {
+    if (geString.toLowerCase().includes(keyword.toLowerCase())) {
+      foundLiteracies.add(code);
+    }
+  }
+
+  result.topicalBreadth = Array.from(foundTopical);
+  result.coreLiteracies = Array.from(foundLiteracies);
+
+  if (result.topicalBreadth.length === 0 && result.coreLiteracies.length === 0) {
+    return null;
+  }
+
+  return result;
+}
+// Transforms: "Lecture 3 hour(s), Extensive Problem Solving."
+// Into: [ { activity: "Lecture", hours: "3" }, { activity: "Extensive Problem Solving", hours: null } ]
+function parseLearningActivities(laString?: string) {
+  if (!laString) return null;
+
+  return laString.split(',').map(item => {
+    // Clean up trailing periods or spaces
+    const cleanItem = item.trim().replace(/\.$/, '');
+    
+    // Group 1 (.*?): The activity name (e.g., "Lecture", "Discussion")
+    // Group 2 (\d...): The number or range (e.g., "3", "1.5", "1-2")
+    // The "\s*hour\(s\)" is left OUTSIDE the capture groups so it gets discarded
+    const match = cleanItem.match(/^(.*?)\s+(\d+(?:\.\d+)?(?:-\d+(?:\.\d+)?)?)\s*hour\(s\)/i);
+    
+    if (match) {
+      return { activity: match[1].trim(), hours: match[2].trim() };
+    }
+    
+    // Fallback for activities with no hours listed (e.g., "Extensive Problem Solving", "Variable")
+    return { activity: cleanItem, hours: null };
+  }).filter(la => la.activity !== "");
+}
+
+seedDatabase();

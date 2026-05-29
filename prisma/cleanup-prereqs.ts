@@ -27,7 +27,7 @@ async function cleanupHallucinations() {
   for (const course of corruptedCourses) {
     console.log(`Fixing: ${course.code}`);
     
-    const fixedAst = await askOllama(course.rawPrerequisitesText!);
+    const fixedAst = await askOllama(course.rawPrerequisitesText!, course.code + ": " + course.name);
     
     if (fixedAst && fixedAst.length > 0) {
       await prisma.course.update({
