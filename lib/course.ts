@@ -2,35 +2,35 @@ import { getExamName } from "./graphUtils";
 import NestedArray from "./nestedArray"
 
  
-export function CreateCourse(course : CourseWithStringPrereqs) : Course {
+// export function CreateCourse(course : CourseWithStringPrereqs) : Course {
     
-    traverse(course.prerequisites);
+//     traverse(course.prerequisites);
     
-    return course as Course;
-}  
+//     return course as Course;
+// }  
 
-function traverse(prereqs : CoursePrequisitesWithString) {
-    for (var i = 0; i < prereqs.length; i++) {
-        var prereq = prereqs[i];
-        if (typeof prereq == "string") {
-            prereqs[i] = prereq.indexOf("(H)") >= 0 ? 
-            { type : "or", operands : [
-                { type : "course", course : prereq.replace("(H)", "") },
-                { type : "course", course : prereq.replace("(H)", "H") }
-            ]} : 
-            { type : "course", course : prereq };
-            continue;
-        }
-        switch (prereq.type) {
-            case "or":
-                traverse(prereq.operands);
-                break;
-            case "and":
-                traverse(prereq.operands);
-                break;
-        }
-    }
-}
+// function traverse(prereqs : CoursePrequisitesWithString) {
+//     for (var i = 0; i < prereqs.length; i++) {
+//         var prereq = prereqs[i];
+//         if (typeof prereq == "string") {
+//             prereqs[i] = prereq.indexOf("(H)") >= 0 ? 
+//             { type : "or", operands : [
+//                 { type : "course", course : prereq.replace("(H)", "") },
+//                 { type : "course", course : prereq.replace("(H)", "H") }
+//             ]} : 
+//             { type : "course", course : prereq };
+//             continue;
+//         }
+//         switch (prereq.type) {
+//             case "or":
+//                 traverse(prereq.operands);
+//                 break;
+//             case "and":
+//                 traverse(prereq.operands);
+//                 break;
+//         }
+//     }
+// }
 
 
 export function PrequisitesToString(prerequisites : CoursePrequisites, depth : number = 0) : NestedArray<string> {
@@ -68,19 +68,7 @@ export type Course = {
   instructorIds : string[],
   prerequisites : CoursePrequisites,
   rawPrerequisites? : string,
-  unlockIds : string[],
-  id : string,
-  grading : "Letter" | "P/NP" | "Both"
-}
-export type CourseWithStringPrereqs = {
-  name : string,
-  description : string,
-  shortDesc? : string,
-  code : string,
-  units : number,
-  instructorIds : string[],
-  prerequisites : CoursePrequisitesWithString,
-  rawPrerequisites? : string,
+  generalEducation? : CourseGeneralEducation,
   unlockIds : string[],
   id : string,
   grading : "Letter" | "P/NP" | "Both"
@@ -105,13 +93,32 @@ export type CoursePrerequiste = {
     isConcurrent? : boolean,
 }
 
-export type CoursePrequisitesWithString = (CoursePrerequiste | CoursePrerequsiteOrWithString | CoursePrerequsiteAndWithString | string)[] 
+// export type CourseWithStringPrereqs = {
+//   name : string,
+//   description : string,
+//   shortDesc? : string,
+//   code : string,
+//   units : number,
+//   instructorIds : string[],
+//   prerequisites : CoursePrequisitesWithString,
+//   rawPrerequisites? : string,
+//   generalEducation? : CourseGeneralEducation,
+//   unlockIds : string[],
+//   id : string,
+//   grading : "Letter" | "P/NP" | "Both"
+// }
+// export type CoursePrequisitesWithString = (CoursePrerequiste | CoursePrerequsiteOrWithString | CoursePrerequsiteAndWithString | string)[] 
 
-export type CoursePrerequsiteOrWithString = {
-    type : "or",
-    operands : (CoursePrerequiste | CoursePrerequsiteAnd | string)[]
-}
-export type CoursePrerequsiteAndWithString = {
-    type : "and",
-    operands : (CoursePrerequiste | CoursePrerequsiteOrWithString | string)[]
+// export type CoursePrerequsiteOrWithString = {
+//     type : "or",
+//     operands : (CoursePrerequiste | CoursePrerequsiteAnd | string)[]
+// }
+// export type CoursePrerequsiteAndWithString = {
+//     type : "and",
+//     operands : (CoursePrerequiste | CoursePrerequsiteOrWithString | string)[]
+// }
+
+export type CourseGeneralEducation = {
+    topicalBreadth? : string[],
+    coreLiteracies? : string[]
 }

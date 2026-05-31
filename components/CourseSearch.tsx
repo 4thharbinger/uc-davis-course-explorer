@@ -13,6 +13,8 @@ export default function SearchSidebar({ setSelectedCourse } : { setSelectedCours
   const [isSearching, setIsSearching] = useState(false);
   const [hasMore, setHasMore] = useState(false);
   const [isLoadingMore, setIsLoadingMore] = useState(false);
+  const filterStates : boolean[] = [];
+  const inspectedCourse = useGraphStore((state) => state.inspectedCourse);
 
   function FilterList(title: string, filters: string[], where : Record<string, boolean>,col: boolean = false) {
     return (
@@ -21,8 +23,9 @@ export default function SearchSidebar({ setSelectedCourse } : { setSelectedCours
         <div className={"ml-4 flex flex-wrap gap-2 gap-y-0" + (col ? " flex-col" : "")}>
         {filters.map(x => {
           const [filter, setFilter] = useState(false);
+          filterStates.push(filter);
           where[x] = filter;
-          return <label key={x}><input type="checkbox" className="mr-0.5" onChange={(e) => setFilter(e.target.checked)} checked={filter}/>{x}</label>
+          return <label key={x}><input type="checkbox" className="mr-0.5" onChange={(e) => { setFilter(e.target.checked); }} checked={filter}/>{x}</label>
         })}
         </div>
       </div>
@@ -54,7 +57,7 @@ export default function SearchSidebar({ setSelectedCourse } : { setSelectedCours
   // Debounce user input
   useEffect(() => {
     const delayDebounceFn = setTimeout(async () => {
-      if (searchTerm.length >= 2) {
+      if (searchTerm.length >= 2 || Object.values(filters).some(x => x)) { // Only search if they have entered at least 2 characters or selected a filter
         setIsSearching(true);
 
         const res = await searchCourses(query);
@@ -68,7 +71,7 @@ export default function SearchSidebar({ setSelectedCourse } : { setSelectedCours
     }, 200); // Wait for after they stop typing
 
     return () => clearTimeout(delayDebounceFn);
-  }, [searchTerm]);
+  }, [searchTerm, ...filterStates]);
 
   const handleScroll = async (e: React.UIEvent<HTMLDivElement>) => {
     const { scrollTop, clientHeight, scrollHeight } = e.currentTarget;
@@ -136,23 +139,31 @@ function constructQuery(searchTerm: string, filters: Record<string, boolean>) {
   const units = { "0-2": filters['0-2'], "3": filters['3'], "4": filters['4'], "5+": filters['5+'] };
   const courseLevel = { "000-099": filters['000-099 Lower'], "100-199": filters['100-199 Upper'], "200+": filters['200+ Graduate'] };
 
-  const genEdQueries : any[] = [];
+  const queries : any[] = [];
 
   for (const genEd in topicalBreadth) { 
     if ((topicalBreadth as Record<string, boolean>)[genEd]) {
-      genEdQueries.push({ generalEducation: { path: ['topicalBreadth'], array_contains: genEd }});
+      queries.push({ generalEducation: { path: ['topicalBreadth'], array_contains: genEd }});
     }
   }
 
-  console.log(genEdQueries);
+  for (const genEd in coreLiteracies) { 
+    if ((coreLiteracies as Record<string, boolean>)[genEd]) {
+      queries.push({ generalEducation: { path: ['coreLiteracies'], array_contains: genEd }});
+    }
+  }
 
-  return genEdQueries.length > 0 ? {
+  if (Object.values(units).some(x => x)) {
+
+  }
+
+  return queries.length > 0 ? {
     AND: [
       { OR: [
         { slug: { contains: searchTerm.replace(/\s/g, '').toUpperCase() } },
         { name: { contains: searchTerm } },
       ] },
-      ...genEdQueries
+      ...queries
     ]
   } : {
     OR: [

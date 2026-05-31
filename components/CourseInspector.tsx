@@ -1,6 +1,6 @@
 "use client";
 
-import { CourseLibrary, PrequisitesToString } from "@/lib/course";
+import { CourseGeneralEducation, CourseLibrary, PrequisitesToString } from "@/lib/course";
 import { useGraphStore } from "@/store/useGraphStore";
 import { JSX } from "react";
 import NestedArray from "@/lib/nestedArray";
@@ -24,10 +24,11 @@ export function CourseInspector({ courseLibrary, courseId } : { courseLibrary : 
   }
   return <div className="w-1/4 min-w-[300px] border-r border-gray-200 bg-white p-6 overflow-y-auto">
     <h2 className="text-xl font-bold">{course.code} - {course.name}</h2>
+    {RenderGeneralEducation(course.generalEducation ?? {})}
     <p className="text-gray-500">{course.shortDesc}</p>
     <p className="italic mt-4">{course.description}</p>
     
-    <p className="mt-4"> Units: {course.units}</p>
+    <p className="mt-4"><span className="font-bold">Units:</span> {course.units}</p>
     {HierarchyList("Instructors", [])}
     {HierarchyList("Prerequisites", PrequisitesToString(course.prerequisites), "None", "brackets", a => addCourse(a))}
     <p className="ml-4 text-gray-500 text-s italic"> {course.rawPrerequisites} </p>
@@ -83,3 +84,23 @@ export function HierarchyList(title : string, content : NestedArray<string> | st
   </div>;
 }
 
+export function RenderGeneralEducation(generalEducation : CourseGeneralEducation) {
+  const list = [ ...generalEducation.topicalBreadth ?? [], ...generalEducation.coreLiteracies ?? [] ];
+  return list.length > 0 ? list.map(x => 
+  <img className="inline" width={20} height={20} title={"This course meets the " + GeneralEducationDisplay[x].name + " requirement."} src={"/ge-icons/svg/" + GeneralEducationDisplay[x]?.icon} key={x} alt={GeneralEducationDisplay[x]?.name} />) : 
+  <img className="inline" width={20} height={20} title="This course meets no General Education requirements." src="/ge-icons/svg/none.svg" alt="None" />;
+}
+
+export const GeneralEducationDisplay : Record<string, { name : string, shortName : string, icon : string }> = {
+  "SE": { name: "Science & Engineering", shortName: "Sci & Eng", icon: "se.svg" },
+  "AH": { name: "Arts & Humanities", shortName: "Arts & Hum", icon: "ah.svg" },
+  "SS": { name: "Social Sciences", shortName: "Soc Sci", icon: "ss.svg" },
+  "ACGH": { name: "American Cultures, Governance, and History", shortName: "American CGH", icon: "acgh.svg" },
+  "DD": { name: "Domestic Diversity", shortName: "Dom Div", icon: "dd.svg" },
+  "OL": { name: "Oral Literacy", shortName: "Oral Lit", icon: "ol.svg" },
+  "QL": { name: "Quantitative Literacy", shortName: "Quant Lit", icon: "ql.svg" },
+  "SL": { name: "Scientific Literacy", shortName: "Sci Lit", icon: "sl.svg" },
+  "VL": { name: "Visual Literacy", shortName: "Visual Lit", icon: "vl.svg" },
+  "WC": { name: "World Cultures", shortName: "World Cultures", icon: "wc.svg" },
+  "WE": { name: "Writing Experience", shortName: "Writing Exp", icon: "we.svg" }
+}

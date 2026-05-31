@@ -1,5 +1,5 @@
 
-import { Course, CourseLibrary, CoursePrequisites, CreateCourse } from "./course";
+import { Course, CourseGeneralEducation, CourseLibrary, CoursePrequisites } from "./course";
 import { SchoolInfo } from "./getSchoolInfo";
 import { prisma } from "./prisma";
 
@@ -28,6 +28,7 @@ export default async function getSchoolCourses(school : SchoolInfo) : Promise<Co
       shortDesc: dbCourse.shortDesc ?? undefined,
       instructorIds: dbCourse.instructors.map((instructor) => instructor.id),
       unlockIds: dbCourse.prerequisiteFor.map((child) => toSlug(child.code)),
+      generalEducation: dbCourse.generalEducation as CourseGeneralEducation,
       prerequisites: dbCourse.prerequisiteRules as unknown as CoursePrequisites,
       rawPrerequisites: dbCourse.rawPrerequisitesText ?? undefined,
       grading: "Letter" 
