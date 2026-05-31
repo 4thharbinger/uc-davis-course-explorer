@@ -14,7 +14,7 @@ export default function SearchSidebar({ setSelectedCourse } : { setSelectedCours
   const [hasMore, setHasMore] = useState(false);
   const [isLoadingMore, setIsLoadingMore] = useState(false);
   const filterStates : boolean[] = [];
-  const inspectedCourse = useGraphStore((state) => state.inspectedCourse);
+  const setInspectedCourse = useGraphStore((state) => state.setInspectedCourse);
 
   function FilterList(title: string, filters: string[], where : Record<string, boolean>,col: boolean = false) {
     return (
@@ -91,8 +91,6 @@ export default function SearchSidebar({ setSelectedCourse } : { setSelectedCours
     }
   };
 
-  const addCourse = useGraphStore((state) => state.addCourse);
-
   return (
     <div className="w-80 h-full border-r border-gray-200 bg-white p-4 flex flex-col gap-1">
       <h2 className="font-bold text-xl">Course Catalog</h2>
@@ -116,7 +114,7 @@ export default function SearchSidebar({ setSelectedCourse } : { setSelectedCours
           {results.map((course) => (
             <button 
               key={course.id}
-              onClick={setSelectedCourse ? () => setSelectedCourse(course.slug) : () => addCourse(course.slug)}
+              onClick={setSelectedCourse ? () => setSelectedCourse(course.slug) : () => setInspectedCourse(course)}
               className="text-left p-2 rounded hover:bg-blue-50 transition-colors cursor-pointer"
             >
               <div className="font-bold">{course.code} - {course.name}</div>

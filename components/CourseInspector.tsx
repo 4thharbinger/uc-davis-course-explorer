@@ -9,6 +9,7 @@ import NestedArray from "@/lib/nestedArray";
 export function CourseInspector({ courseLibrary, courseId } : { courseLibrary : CourseLibrary, courseId? : string }) {
   
   const inspectedCourse = useGraphStore((state) => state.inspectedCourse);
+  const setInspectedCourse = useGraphStore((state) => state.setInspectedCourse);
   const addCourse = useGraphStore((state) => state.addCourse);
 
 
@@ -30,9 +31,12 @@ export function CourseInspector({ courseLibrary, courseId } : { courseLibrary : 
     
     <p className="mt-4"><span className="font-bold">Units:</span> {course.units}</p>
     {HierarchyList("Instructors", [])}
-    {HierarchyList("Prerequisites", PrequisitesToString(course.prerequisites), "None", "brackets", a => addCourse(a))}
+    {HierarchyList("Prerequisites", PrequisitesToString(course.prerequisites), "None", "brackets", a => setInspectedCourse(courseLibrary[a]))}
     <p className="ml-4 text-gray-500 text-s italic"> {course.rawPrerequisites} </p>
-    {HierarchyList("Unlocks", course.unlockIds, "None", "all", a => addCourse(a))}
+    {HierarchyList("Unlocks", course.unlockIds, "None", "all", a => setInspectedCourse(courseLibrary[a]))}
+    <button onClick={() => addCourse(course?.id ?? "")} className="mt-4 px-4 py-2 bg-blue-500 text-white rounded hover:bg-blue-100 transition-colors">
+      Add to Graph
+    </button>
   </div>;
 }
 
