@@ -2,9 +2,11 @@
 
 import { CourseGeneralEducation, CourseLibrary, PrequisitesToString } from "@/lib/course";
 import { useGraphStore } from "@/store/useGraphStore";
-import { JSX } from "react";
+import { JSX, useEffect, useState } from "react";
 import NestedArray from "@/lib/nestedArray";
 import { useScheduleStore } from "@/store/useScheduleStore";
+import { Instructor } from "@prisma/client";
+import { getCourseInstructors } from "@/lib/getCourseSections";
 
 
 export function CourseInspector({ courseLibrary, courseId, addTarget, showUnlocks = false } : { courseLibrary : CourseLibrary, courseId? : string, addTarget : "graph" | "schedule", showUnlocks : boolean }) {
@@ -15,9 +17,21 @@ export function CourseInspector({ courseLibrary, courseId, addTarget, showUnlock
   const removeCourse = addTarget == "graph" ? useGraphStore((state) => state.removeCourse) : useScheduleStore((state) => state.removeCourseFromSchedule);
   const courses = addTarget == "graph" ? useGraphStore((state) => state.nodes).map(x => x.data.slug) : Object.keys(useScheduleStore((state) => state.schedule));
 
+  const [instructors, setInstructors] = useState<Instructor[]>([]);
+
   if (inspectedCourse) {
     courseId = inspectedCourse.slug ?? inspectedCourse.label;
   }
+  
+  useEffect(() => {
+    if (courseId != undefined) {
+      getCourseInstructors(courseId).then((instructors) => {
+        console.log(instructors);
+        setInstructors(instructors ?? []);
+      });
+    }
+
+  }, [courseId]);
 
   var course = courseId == undefined ? undefined : courseLibrary[courseId.toUpperCase()];
   if (course == null) {
@@ -32,7 +46,7 @@ export function CourseInspector({ courseLibrary, courseId, addTarget, showUnlock
     <p className="italic mt-4">{course.description}</p>
     
     <p className="mt-4"><span className="font-bold">Units:</span> {course.units}</p>
-    {HierarchyList("Instructors", [])}
+    {HierarchyList("Instructors", instructors.map(instructor => instructor.fullName), "None")}
     {HierarchyList("Prerequisites", PrequisitesToString(course.prerequisites), "None", "brackets", a => setInspectedCourse({...courseLibrary[a], slug: a}))}
     <p className="ml-4 text-gray-500 text-s italic"> {course.rawPrerequisites} </p>
     {showUnlocks && HierarchyList("Unlocks", course.unlockIds, "None", "all", a => setInspectedCourse({...courseLibrary[a], slug: a}))}

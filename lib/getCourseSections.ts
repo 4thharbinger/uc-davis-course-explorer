@@ -37,3 +37,9 @@ export async function getCourseSectionsWithInstructors(courseCode: string) : Pro
     if (typeof (courseCode) != "string") throw new Error("courseCode must be a string");
     return (await prismaClient.section.findMany({ where: { courseCode }, include: { instructors: true } }));
 }
+
+export async function getCourseInstructors(courseCode: string) : Promise<Instructor[] | undefined> {
+    if (typeof (courseCode) != "string") throw new Error("courseCode must be a string");
+    const instructors = (await prismaClient.course.findUnique({ where: { slug: courseCode }, include: { sections: { include: { instructors: true } } } }))?.sections.flatMap(section => section.instructors);
+    return [...new Map(instructors?.map(instructor => [instructor.fullName, instructor])).values()]
+}
