@@ -40,7 +40,7 @@ export default async function CourseScheduler({ params } : SchoolProps ) {
           <div className="flex-1 relative bg-gray-100 p-4">
             <CourseSchedule courseLibrary={courses}/>
           </div>
-          <CourseSectionList courseLibrary={courses}  courseId={selectedCourse} addTarget="schedule" showUnlocks={false}/>
+          <CourseSectionList courseLibrary={courses}  courseId={selectedCourse} addTarget="schedule" schoolInfo={schoolInfo}/>
       </main>
       <Footer/>
     </div>

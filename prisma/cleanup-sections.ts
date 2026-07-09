@@ -1,36 +1,27 @@
 import { PrismaClient } from '@prisma/client';
+import { askOllama } from './parse-prereqs';
+import { JSONValue } from 'next/dist/server/config-shared';
+import { JsonObject } from '@prisma/client/runtime/library';
 
 const prisma = new PrismaClient();
 
-async function removeSpacesFromSectionCourseCodes() {
-  console.log("Scanning sections to remove spaces from course codes...");
-
-  const allSections = await prisma.section.findMany();
-  let updatedCount = 0;
-
-  for (const section of allSections) {
-    const originalCourseCode = section.courseCode;
-    const newCourseCode = originalCourseCode.replace(/\s/g, '');
-
-    if (originalCourseCode !== newCourseCode) {
-      try {
-        await prisma.section.update({
-          where: { crn: section.crn }, // Assuming 'crn' is the unique identifier for Section
-          data: { courseCode: newCourseCode }
-        });
-        console.log(`Updated section CRN ${section.crn}: '${originalCourseCode}' -> '${newCourseCode}'`);
-        updatedCount++;
-      } catch (error) {
-        console.error(`Error updating section CRN ${section.crn}:`, error);
+console.log("Finding all meetings");
+async function findMeetingTypes() {
+  const sections = await prisma.section.findMany({});
+  var meetingTypes : Record<string, string> = {};
+  for (const section of sections) {
+    if (!Array.isArray(section.meetings)) {
+      continue;
+    }
+    for (const meeting of section.meetings) {
+      if (meeting != null && (meeting as JsonObject).description != undefined && (meeting as JsonObject).type != undefined) {
+        const description : string = (meeting as JsonObject).description as unknown as string;
+        const type : string = (meeting as JsonObject).type as unknown as string;
+        meetingTypes[type] = description;
       }
     }
   }
-
-  console.log(`\nFinished. Updated ${updatedCount} section course codes.`);
+  console.log("Found meeting types:", meetingTypes);
 }
 
-removeSpacesFromSectionCourseCodes()
-  .catch((e) => console.error(e))
-  .finally(async () => {
-    await prisma.$disconnect();
-  });
+findMeetingTypes();

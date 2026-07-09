@@ -122,3 +122,100 @@ export type CourseGeneralEducation = {
     topicalBreadth? : string[],
     coreLiteracies? : string[]
 }
+
+export type Meeting = {
+    monday : boolean,
+    tuesday : boolean,
+    wednesday : boolean,
+    thursday : boolean,
+    friday : boolean,
+    saturday : boolean,
+    sunday : boolean,
+
+    room : string,
+    type : MeetingType,
+    description : string,
+
+    startDate : string,
+    endDate : string,
+    startTime : string,
+    endTime : string,
+    daysString : string,
+
+    building : string,
+    buildingCode : string,
+    meetCode : string,
+}
+
+export type MeetingType = 
+  'LEC' | 'DIS' | 'VAR' | 'LED' | 
+  'D/L' | 'SEM' | 'LLA' | 'INT' | 
+  'LAB' | 'FWK' | 'W-D' | 'STD' | 
+  'WVL' | 'F-V' | 'COM' | 'WED' | 
+  'PRJ' | 'CON' | 'IND' | 'L/D' | 
+  'T-D' | 'PER' | 'LIS' | 'WRK' | 
+  'REH' | 'PRA' | 'CLI' | 'TUT' | 
+  'AUT'
+
+export type MeetingDescription = 
+  'Lecture' | 
+  'Discussion' | 
+  'Variable' | 
+  'Lecture/Discussion' | 
+  'Discussion Laboratory' | 
+  'Seminar' | 
+  'Lecture/Lab' | 
+  'Internship' | 
+  'Laboratory' | 
+  'Fieldwork' | 
+  'Extensive Writing/Discussion' | 
+  'Studio' | 
+  'World Wide Web Virtual Lecture' | 
+  'Film Viewing' | 
+  'Combined Scheduled' | 
+  'World Wide Web Electronic Dis' | 
+  'Term Project' | 
+  'Conference' | 
+  'Independent Study' | 
+  'Laboratory/Discussion' | 
+  'Term Paper/Discussion' | 
+  'Performance Instruction' | 
+  'Listening' | 
+  'Workshop' | 
+  'Rehearsal' | 
+  'Practice' | 
+  'Clinic' | 
+  'Tutorial' | 
+  'Auto Tutorial'
+
+export const meetingTypeToDescription : Record<MeetingType, MeetingDescription> = {
+  LEC: 'Lecture',
+  DIS: 'Discussion',
+  VAR: 'Variable',
+  LED: 'Lecture/Discussion',
+  'D/L': 'Discussion Laboratory',
+  SEM: 'Seminar',
+  LLA: 'Lecture/Lab',
+  INT: 'Internship',
+  LAB: 'Laboratory',
+  FWK: 'Fieldwork',
+  'W-D': 'Extensive Writing/Discussion',
+  STD: 'Studio',
+  WVL: 'World Wide Web Virtual Lecture',
+  'F-V': 'Film Viewing',
+  COM: 'Combined Scheduled',
+  WED: 'World Wide Web Electronic Dis',
+  PRJ: 'Term Project',
+  CON: 'Conference',
+  IND: 'Independent Study',
+  'L/D': 'Laboratory/Discussion',
+  'T-D': 'Term Paper/Discussion',
+  PER: 'Performance Instruction',
+  LIS: 'Listening',
+  WRK: 'Workshop',
+  REH: 'Rehearsal',
+  PRA: 'Practice',
+  CLI: 'Clinic',
+  TUT: 'Tutorial',
+  AUT: 'Auto Tutorial'
+}

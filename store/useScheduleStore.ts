@@ -18,6 +18,9 @@ export const useScheduleStore = create<ScheduleState>((set) => ({
   removeCourseFromSchedule: (courseCode : string) => set((state) => {
     const newSchedule = { ...state.schedule };
     delete newSchedule[courseCode];
+    if (courseCode == state.activeScheduling) {
+      set({ activeScheduling: null });
+    }
     return { schedule: newSchedule };
   }),
   rescheduleCourse: (courseCode : string, newSection : number) => set((state) => {

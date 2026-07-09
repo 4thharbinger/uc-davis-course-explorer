@@ -8,7 +8,7 @@ export default function CourseScheduleBlock({ course, activity, start, end, onCl
     </div>
 }
 
-function formatTime(time: number): string {
+export function formatTime(time: number): string {
     const hour = Math.floor(time / 100);
     const minute = time % 100;
     const period = hour >= 12 ? 'p' : 'a';
