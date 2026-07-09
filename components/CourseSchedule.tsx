@@ -3,47 +3,67 @@
 import { CourseLibrary } from "@/lib/course";
 import { useGraphStore } from "@/store/useGraphStore";
 import { useScheduleStore } from "@/store/useScheduleStore";
+import { useState } from "react";
+import styles from "./CourseSchedule.module.css";
 
 export function CourseSchedule({ courseLibrary } : { courseLibrary : CourseLibrary }) {
   const courses = useScheduleStore((state) => state.schedule);
   const unscheduledCourses = Object.keys(courses).filter(courseCode => !courses[courseCode]);
   const removeCourse = useScheduleStore((state) => state.removeCourseFromSchedule);
+  const [activeScheduling, setActiveScheduling] = useState<string | null>(null);
   console.log(courses);
   return <div className="flex flex-col w-full h-full">
-    <div className="h-full overflow-auto">
-    <table className="w-full border-collapse">
-        <thead className="sticky top-0 bg-gray-100 z-10">
-            <tr>
-                <th className="w-[60px]">Time</th>
-                <th>Monday</th>
-                <th>Tuesday</th>
-                <th>Wednesday</th>
-                <th>Thursday</th>
-                <th>Friday</th>
-            </tr>
-        </thead>
-        <tbody>
-            {
-                [5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20].map((hour) => 
-                    <tr key={hour} className="h-12 border-b border-gray-200">
-                        <td className="text-center max-w-[60px] border-r border-gray-200">{hour % 12 + 1}:00{hour < 11 ? "a" : "p"}</td>
-                        <td className="border-r border-gray-200"></td>
-                        <td className="border-r border-gray-200"></td>
-                        <td className="border-r border-gray-200"></td>
-                        <td className="border-r border-gray-200"></td>
-                        <td className="border-r border-gray-200"></td>
-                    </tr>
-                )
-            }
-        </tbody>
-    </table></div>
+    <div className="h-full overflow-auto relative">
+        <div className={styles.calendarHeader}>
+            <div className={styles.calendarHeaderDay}>Time</div>
+            <div className={styles.calendarHeaderDay}>Monday</div>
+            <div className={styles.calendarHeaderDay}>Tuesday</div>
+            <div className={styles.calendarHeaderDay}>Wednesday</div>
+            <div className={styles.calendarHeaderDay}>Thursday</div>
+            <div className={styles.calendarHeaderDay}>Friday</div>
+        </div>
+        <div className={styles.calendarBody}>
+            <div className={styles.timeColumn}>
+                {
+                    [5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20].map((hour) => 
+                        <div key={hour} className={styles.timeLabel}>
+                            {hour % 12 + 1}:00{hour < 11 ? "a" : "p"}
+                        </div>
+                    )
+                }
+            </div>
+            <div className={styles.sectionGrid}>
+
+            </div>
+        </div>
+        {/* <table className="w-full border-collapse table-fixed">
+            <thead className="sticky top-0 bg-gray-100 z-10">
+                <tr>
+                    <th className="w-[60px]">Time</th>
+                    <th>Monday</th>
+                    <th>Tuesday</th>
+                    <th>Wednesday</th>
+                    <th>Thursday</th>
+                    <th>Friday</th>
+                </tr>
+            </thead>
+            <tbody>
+            </tbody>
+        </table> */}
+        <div className={styles.section}>
+            <h2 className="font-bold">MAT 021A A01</h2>
+            <p>Lecture: 2:00p - 2:50p</p>
+        </div>
+    </div>
     {unscheduledCourses.length > 0 && <div>
-        <h1>Unscheduled Courses</h1>
+        <h1 className="text-xl font-bold">Unscheduled Courses</h1>
         <ul className="flex flex-row gap-2">
             {unscheduledCourses.map((courseCode) => (
                 <li key={String(courseCode)}>
                     <div className="flex flex-col relative items-center gap-2 bg-gray-200 px-2 py-1 pr-5 rounded">
-                        {courseLibrary[courseCode]?.code}
+                        <button onClick={() => setActiveScheduling(courseCode)} title="Schedule" className="cursor-pointer hover:text-blue-600">
+                            {courseLibrary[courseCode]?.code}
+                        </button>
                         <button onClick={() => removeCourse(courseCode)} title="Remove" className="right-[8px] absolute ml-2 rounded hover:text-red-800 transition-colors">
                             x
                         </button>

@@ -1,0 +1,52 @@
+.calendarHeader, .calendarBody {
+    display: grid;
+    grid-template-columns: 80px repeat(5, 1fr); 
+}
+
+.calendarBody {    
+    border-bottom: 1px solid #ddd;
+}
+
+.calendarHeaderTime {
+    text-align: center;
+}
+
+.calendarHeaderDay {
+    text-align: center;
+    font-weight: bold;
+}
+
+.timeColumn {
+    text-align: right;
+}
+
+.timeLabel {
+    height: 3em;
+    border-top: 1px solid #ddd;
+    padding-right: 10px;
+    position: relative;
+}
+
+.timeLabel::after {
+    content: "";
+    position: absolute;
+    right: 0;               
+    top: 15%;               
+    height: 70%;            
+    width: 1px;             
+    background-color: #d7d7d7;
+}
+
+.sectionGrid {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: repeat(16, 3em);
+    grid-column: span 5;
+    position: relative;
+    background-image: linear-gradient(#ddd 1px, transparent 1px);
+    background-size: 100% 3em; /* Aligns with the 60px rows */
+}
+
+.sectionBlock {
+
+}
