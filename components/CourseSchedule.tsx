@@ -33,7 +33,10 @@ export function CourseSchedule({ courseLibrary } : { courseLibrary : CourseLibra
                 }
             </div>
             <div className={styles.sectionGrid}>
-
+                <div className={styles.sectionBlock}>
+                    <h2 className="font-bold">MAT 021A A01</h2>
+                    <p style={{ fontSize: '14px' }}>Lecture: 2:00p - 2:50p</p>
+                </div>
             </div>
         </div>
         {/* <table className="w-full border-collapse table-fixed">
@@ -50,10 +53,6 @@ export function CourseSchedule({ courseLibrary } : { courseLibrary : CourseLibra
             <tbody>
             </tbody>
         </table> */}
-        <div className={styles.section}>
-            <h2 className="font-bold">MAT 021A A01</h2>
-            <p>Lecture: 2:00p - 2:50p</p>
-        </div>
     </div>
     {unscheduledCourses.length > 0 && <div>
         <h1 className="text-xl font-bold">Unscheduled Courses</h1>

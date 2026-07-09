@@ -21,7 +21,7 @@
 }
 
 .timeLabel {
-    height: 3em;
+    height: 50px;
     border-top: 1px solid #ddd;
     padding-right: 10px;
     position: relative;
@@ -40,13 +40,20 @@
 .sectionGrid {
     display: grid;
     grid-template-columns: repeat(5, 1fr);
-    grid-template-rows: repeat(16, 3em);
+    grid-template-rows: repeat(16, 50px);
     grid-column: span 5;
     position: relative;
     background-image: linear-gradient(#ddd 1px, transparent 1px);
-    background-size: 100% 3em; /* Aligns with the 60px rows */
+    background-size: 100% 50px;
 }
 
 .sectionBlock {
-
+    border: 1px;
+    border-radius: 4px;
+    background-color: #fcc;
+    margin: 1px;
+    padding-left: 10px;
+    padding-top: 5px;
+    line-height: 1.3;
+    font-size: 15px;
 }
