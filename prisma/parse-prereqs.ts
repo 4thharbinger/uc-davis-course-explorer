@@ -128,6 +128,8 @@ export async function askOllama(text: string, courseName: string) {
   }
 }
 
+const startTime = Date.now();
+
 async function main() {
   console.log("Fetching courses from the database...");
   
@@ -143,13 +145,19 @@ async function main() {
 
   for (let i = 0; i < courses.length; i += BATCH_SIZE) {
     const batch = courses.slice(i, i + BATCH_SIZE);
-    console.log(`Processing batch ${Math.floor(i / BATCH_SIZE) + 1} of ${Math.ceil(courses.length / BATCH_SIZE)}...`);
+    const elapsed = Date.now() - startTime;
+    const ETA = ((elapsed / (i + batch.length)) * (courses.length - (i + batch.length))) / 1000; // in seconds
+    const ETA_minutes = Math.floor(ETA / 60) % 60;
+    const ETA_hours = Math.floor(ETA / 3600);
+    const ETA_formatted = `${ETA_hours > 0 ? ETA_hours + "h " : ""}${ETA_minutes > 0 ? ETA_minutes + "m " : ""}${(ETA % 60).toFixed(0)}s`;
+    const avg_per_course = (elapsed / (i + batch.length) / 1000).toFixed(3);
+    console.log(`Batch ${Math.floor(i / BATCH_SIZE) + 1} / ${Math.ceil(courses.length / BATCH_SIZE)}: ${avg_per_course} s per course. ETA: ${ETA_formatted} - ${batch.map(c => c.code).join(", ")}`);
 
     // 2. Fire off all LLM requests in this batch AT THE EXACT SAME TIME
     const results = await Promise.all(batch.map(async (course) => {
       const ast = await askOllama(course.rawPrerequisitesText!, course.code + ": " + course.name);
 
-      console.log("Parsed for " + course.code + ": ", JSON.stringify(ast));
+      // console.log("Parsed for " + course.code + ": ", JSON.stringify(ast));
       return { id: course.id, code: course.code, ast };
     }));
 
@@ -165,8 +173,9 @@ async function main() {
       }
     }
   }
-
+  const endTime = Date.now();
   console.log(`\nDone! Successfully AI-parsed ${successCount} prerequisites.`);
+  console.log(`Total time taken: ${((endTime - startTime) / 1000).toFixed(2)} s`);
 }
 
 main()

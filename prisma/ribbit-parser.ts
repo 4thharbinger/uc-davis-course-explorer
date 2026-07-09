@@ -77,11 +77,13 @@ function parseCourses(rawHtml: string, coursesToSave: any[]) {
 
       const headerMatch = headerText.match(/^(.*?)\s*—\s*(.*?)\s*\((.*?)\)/);
       if (headerMatch) {
-        rawCode = headerMatch[1].trim(); // "ABG 299"
+        rawCode = headerMatch[1].trim().replaceAll(" ", " "); // "ABG 299"
         slugCode = rawCode.replace(/\s+/g, '').toUpperCase(); // "ABG299"
         title = headerMatch[2].trim(); // "Research"
         units = headerMatch[3].trim(); // "1-12"
       }
+
+      // console.log(rawCode, slugCode, title, units);
 
       // The rest of the data is cleanly formatted in list items!
       $updatedList.find('li').each((_, li) => {
@@ -98,7 +100,7 @@ function parseCourses(rawHtml: string, coursesToSave: any[]) {
       const $cleanBody = $(el).clone();
       // $cleanBody.find('[hidden="true"], .notinpdf').remove(); // Safe to remove here
 
-      rawCode = $cleanBody.find('.detail-code').text().trim();
+      rawCode = $cleanBody.find('.detail-code').text().trim().replaceAll(" ", " ");
       slugCode = rawCode.replace(/\s+/g, '').toUpperCase();
       title = $cleanBody.find('.detail-title').text().replace('—', '').trim();
       units = $cleanBody.find('.detail-hours_html').text().replace(/[()]/g, '').replace('units', '').trim();
@@ -113,8 +115,7 @@ function parseCourses(rawHtml: string, coursesToSave: any[]) {
     }
 
     // Skip ghost courses
-    if (!slugCode) return;
-
+    if (!slugCode) { return; }
     // console.log(attributes);
 
     coursesToSave.push({
@@ -205,4 +206,4 @@ function parseLearningActivities(laString?: string) {
   }).filter(la => la.activity !== "");
 }
 
-seedDatabase();
+parseFiles(["mat.xml"]);

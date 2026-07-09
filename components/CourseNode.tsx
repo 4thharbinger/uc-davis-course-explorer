@@ -21,13 +21,13 @@ export default function CourseNode({ data }: { data: any }) {
         
         <span className="font-bold text-gray-500 mb-2">{data.label}</span>
         
-        <div className = " h-11">{data.shortDesc}</div>
+        <div className = " h-11">{data.name}</div>
         <button 
           onClick={handleUpgrade}
           disabled={isLoading}
           className="bg-blue-100 cursor-pointer text-blue-700 px-4 py-2 rounded-md text-sm font-bold hover:bg-blue-200 transition-colors w-full"
         >
-          {isLoading ? "Loading..." : "➕ Add to Schedule"}
+          {isLoading ? "Loading..." : "Add to Schedule"}
         </button>
 
         <Handle type="source" position={Position.Bottom} className="w-3 h-3 bg-gray-400 border-2 border-white" isConnectable={false} />
@@ -60,7 +60,7 @@ export default function CourseNode({ data }: { data: any }) {
       </div>
 
       <div className="p-3">
-        <h3 className="text-sm font-bold text-gray-800 leading-tight mb-1.5">{data.shortDesc}</h3>
+        <h3 className="text-sm font-bold text-gray-800 leading-tight mb-1.5">{data.name}</h3>
         {data.description && (
           <p className="text-xs text-gray-500 h-14 line-clamp-3">{data.description}</p>
         )}

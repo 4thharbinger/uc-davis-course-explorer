@@ -4,14 +4,15 @@ import { CourseGeneralEducation, CourseLibrary, PrequisitesToString } from "@/li
 import { useGraphStore } from "@/store/useGraphStore";
 import { JSX } from "react";
 import NestedArray from "@/lib/nestedArray";
+import { useScheduleStore } from "@/store/useScheduleStore";
 
 
-export function CourseInspector({ courseLibrary, courseId } : { courseLibrary : CourseLibrary, courseId? : string }) {
+export function CourseInspector({ courseLibrary, courseId, addTarget, showUnlocks = false } : { courseLibrary : CourseLibrary, courseId? : string, addTarget : "graph" | "schedule", showUnlocks : boolean }) {
   
   const inspectedCourse = useGraphStore((state) => state.inspectedCourse);
+  console.log(inspectedCourse);
   const setInspectedCourse = useGraphStore((state) => state.setInspectedCourse);
-  const addCourse = useGraphStore((state) => state.addCourse);
-
+  const addCourse = addTarget == "graph" ? useGraphStore((state) => state.addCourse) : useScheduleStore((state) => state.addCourseToSchedule);
 
   if (inspectedCourse) {
     courseId = inspectedCourse.slug ?? inspectedCourse.label;
@@ -26,16 +27,16 @@ export function CourseInspector({ courseLibrary, courseId } : { courseLibrary : 
   return <div className="w-1/4 min-w-[300px] border-r border-gray-200 bg-white p-6 overflow-y-auto">
     <h2 className="text-xl font-bold">{course.code} - {course.name}</h2>
     {RenderGeneralEducation(course.generalEducation ?? {})}
-    <p className="text-gray-500">{course.shortDesc}</p>
+    <p className="text-gray-500">{course.name}</p>
     <p className="italic mt-4">{course.description}</p>
     
     <p className="mt-4"><span className="font-bold">Units:</span> {course.units}</p>
     {HierarchyList("Instructors", [])}
-    {HierarchyList("Prerequisites", PrequisitesToString(course.prerequisites), "None", "brackets", a => setInspectedCourse(courseLibrary[a]))}
+    {HierarchyList("Prerequisites", PrequisitesToString(course.prerequisites), "None", "brackets", a => setInspectedCourse({...courseLibrary[a], slug: a}))}
     <p className="ml-4 text-gray-500 text-s italic"> {course.rawPrerequisites} </p>
-    {HierarchyList("Unlocks", course.unlockIds, "None", "all", a => setInspectedCourse(courseLibrary[a]))}
-    <button onClick={() => addCourse(course?.id ?? "")} className="mt-4 px-4 py-2 bg-blue-500 text-white rounded hover:bg-blue-100 transition-colors">
-      Add to Graph
+    {showUnlocks && HierarchyList("Unlocks", course.unlockIds, "None", "all", a => setInspectedCourse({...courseLibrary[a], slug: a}))}
+    <button onClick={() => addCourse(course?.id ?? "")} className="mt-4 px-4 py-2 bg-blue-500 text-white rounded hover:bg-blue-100 transition-colors cursor-pointer">
+      Add to {addTarget == "graph" ? "Graph" : "Schedule"}
     </button>
   </div>;
 }
@@ -69,18 +70,19 @@ function HierarchyListContents(contents : NestedArray<string> | string, depth : 
   console.log(contents);
   return <ul className="ml-4">
     {contents.map((item, index) => (
-      <li key={index}>{HierarchyListContents(item, depth + 1, link)}</li>
+      <li key={index}>{HierarchyListContents(item, depth + 1, link, callback)}</li>
     ))}
   </ul>;
 }
 
 export function HierarchyList(title : string, content : NestedArray<string> | string[], empty : string = "None", link : "none" | "brackets" | "all" = "none", callback? : (courseId : string) => void ) {
+
   var contents = <ul className="ml-4 mb-2">
     {content.length > 0 ? content.map((item, index) => (
       <li className="mt-1" key={index}>{HierarchyListContents(item, 0, link, callback)}</li>
     )) : <li className="text-gray-500 italic">{empty}</li>}
   </ul>;
-  return <div>
+  return <div className="max-h-[250px] overflow-y-auto mb-4">
     <h3 className="font-bold">
       {title}
     </h3>
