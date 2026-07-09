@@ -10,9 +10,11 @@ import { useScheduleStore } from "@/store/useScheduleStore";
 export function CourseInspector({ courseLibrary, courseId, addTarget, showUnlocks = false } : { courseLibrary : CourseLibrary, courseId? : string, addTarget : "graph" | "schedule", showUnlocks : boolean }) {
   
   const inspectedCourse = useGraphStore((state) => state.inspectedCourse);
-  console.log(inspectedCourse);
   const setInspectedCourse = useGraphStore((state) => state.setInspectedCourse);
   const addCourse = addTarget == "graph" ? useGraphStore((state) => state.addCourse) : useScheduleStore((state) => state.addCourseToSchedule);
+  const removeCourse = addTarget == "graph" ? useGraphStore((state) => state.removeCourse) : useScheduleStore((state) => state.removeCourseFromSchedule);
+  const courses = addTarget == "graph" ? useGraphStore((state) => state.nodes).map(x => x.data.slug) : Object.keys(useScheduleStore((state) => state.schedule));
+  console.log(courses);
 
   if (inspectedCourse) {
     courseId = inspectedCourse.slug ?? inspectedCourse.label;
@@ -35,8 +37,8 @@ export function CourseInspector({ courseLibrary, courseId, addTarget, showUnlock
     {HierarchyList("Prerequisites", PrequisitesToString(course.prerequisites), "None", "brackets", a => setInspectedCourse({...courseLibrary[a], slug: a}))}
     <p className="ml-4 text-gray-500 text-s italic"> {course.rawPrerequisites} </p>
     {showUnlocks && HierarchyList("Unlocks", course.unlockIds, "None", "all", a => setInspectedCourse({...courseLibrary[a], slug: a}))}
-    <button onClick={() => addCourse(course?.id ?? "")} className="mt-4 px-4 py-2 bg-blue-500 text-white rounded hover:bg-blue-100 transition-colors cursor-pointer">
-      Add to {addTarget == "graph" ? "Graph" : "Schedule"}
+    <button onClick={() => courses.includes(course?.id) ? removeCourse(course?.id ?? "") : addCourse(course?.id ?? "")} className={"mt-4 px-4 py-2 text-white rounded cursor-pointer" + (courses.includes(course.id) ? " bg-red-500 hover:bg-red-300" : " bg-blue-500 hover:bg-blue-300")}>
+      {courses.includes(course.id) ? "Remove from" : "Add to"} {addTarget == "graph" ? "Graph" : "Schedule"}
     </button>
   </div>;
 }
@@ -67,7 +69,6 @@ function HierarchyListContents(contents : NestedArray<string> | string, depth : 
   if (typeof contents == "string" || contents == undefined) {
     return link == "all" ? <button className="cursor-pointer hover:text-blue-600"  onClick={() => callback ? callback(contents) : null}>{contents}</button> : link == "brackets" ? linkBrackets(contents, callback) : <>{contents}</>;
   }
-  console.log(contents);
   return <ul className="ml-4">
     {contents.map((item, index) => (
       <li key={index}>{HierarchyListContents(item, depth + 1, link, callback)}</li>

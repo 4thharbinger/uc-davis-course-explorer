@@ -78,5 +78,7 @@ export const useGraphStore = create<GraphState>((set, get) => ({
 }));
 
 function generateEdges(filteredNodes: Node[]): Edge[] {
-  throw new Error('Function not implemented.');
+  const courses = filteredNodes.map(n => n.data);
+  const { generatedEdges } = buildGraphTree(courses);
+  return generatedEdges;
 }

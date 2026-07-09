@@ -51,8 +51,7 @@ export default function SearchSidebar({ setSelectedCourse } : { setSelectedCours
       </Collapsible>
     </div>
 
-  console.log(filters);
-        const query = constructQuery(searchTerm, filters);
+  const query = constructQuery(searchTerm, filters);
 
   // Debounce user input
   useEffect(() => {

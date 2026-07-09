@@ -1,18 +1,50 @@
 "use client";
 
-import { CourseLibrary } from "@/lib/course";
+import { CourseLibrary, Meeting } from "@/lib/course";
 import { useGraphStore } from "@/store/useGraphStore";
 import { useScheduleStore } from "@/store/useScheduleStore";
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import styles from "./CourseSchedule.module.css";
 import CourseScheduleBlock from "./CourseScheduleBlock";
-import getCourseSections from "@/lib/getCourseSections";
+import { getSections } from "@/lib/getCourseSections";
+import { Section } from "@prisma/client";
 
 export function CourseSchedule({ courseLibrary } : { courseLibrary : CourseLibrary }) {
   const courses = useScheduleStore((state) => state.schedule);
   const unscheduledCourses = Object.keys(courses).filter(courseCode => !courses[courseCode]);
   const removeCourse = useScheduleStore((state) => state.removeCourseFromSchedule);
   const setActiveScheduling = useScheduleStore((state) => state.setActiveScheduling);
+  const [sections, setSections] = useState<{ [courseCode: string]: Section }>({});
+const setInspectedCourse = useGraphStore((state) => state.setInspectedCourse);
+
+  useEffect(() => {
+    if (Object.keys(courses).length > 0) {
+      getSections(Object.values(courses)).then((sections) => {
+        console.log("Returned sections", sections);
+        const newSections : Record<string, Section> = {};
+        if (sections != undefined)
+            Object.keys(courses).forEach(courseCode => newSections[courseCode] = sections[courses[courseCode]])
+            setSections(newSections);
+      });
+    }
+  }, [courses]);
+
+  console.log("Sections", sections)
+
+  const test = sections == undefined ? null : Object.keys(courses)
+  .flatMap(course => (
+    sections[course]?.meetings as Meeting[])
+        ?.map(meeting => <CourseScheduleBlock 
+            key={course + meeting.type + meeting.startTime} 
+            course={courseLibrary[course]?.code ?? course} 
+            activity={meeting.type} 
+            start={+meeting.startTime} 
+            end={+meeting.endTime}
+            days={meeting}
+            onClick={() => setInspectedCourse({slug: course})}/>
+  ) ?? []);
+
+  console.log("Generated Blocks", test);
 
   return <div className="flex flex-col w-full h-full">
     <div className="h-full overflow-auto relative">
@@ -35,7 +67,7 @@ export function CourseSchedule({ courseLibrary } : { courseLibrary : CourseLibra
                 }
             </div>
             <div className={styles.sectionGrid}>
-                <CourseScheduleBlock course="MAT 021A A01" activity="Lecture" start={1330} end={1470} />
+                {test}
             </div>
         </div>
         {/* <table className="w-full border-collapse table-fixed">

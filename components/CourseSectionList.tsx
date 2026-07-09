@@ -3,22 +3,25 @@
 import { CourseLibrary, Meeting } from "@/lib/course";
 import { useScheduleStore } from "@/store/useScheduleStore";
 import { CourseInspector } from "./CourseInspector";
-import { Section } from "@prisma/client";
+import { Instructor, Section } from "@prisma/client";
 import { useEffect, useState } from "react";
-import getCourseSections from "@/lib/getCourseSections";
+import { getCourseSectionsWithInstructors } from "@/lib/getCourseSections";
 import { formatTime } from "./CourseScheduleBlock";
 import { SchoolInfo } from "@/lib/getSchoolInfo";
+import { useGraphStore } from "@/store/useGraphStore";
 
 export default function CourseSectionList({ courseLibrary, courseId, addTarget, schoolInfo } : { courseLibrary : CourseLibrary, courseId? : string, addTarget : "graph" | "schedule", schoolInfo : SchoolInfo }) {
     
-    const [sections, setSections] = useState<Section[]>([]);
+    const [sections, setSections] = useState<(Section & { instructors: Instructor[] })[]>([]);
     const [sectionsCourse, setSectionsCourse] = useState<string>("");
 
     const activeScheduling = useScheduleStore((state) => state.activeScheduling) ?? "";
+    const setActiveScheduling = useScheduleStore((state) => state.setActiveScheduling);
+    const rescheduleCourse = useScheduleStore((state) => state.rescheduleCourse);
 
     useEffect(() => {
-        if (sections.length == 0 && sectionsCourse != activeScheduling) {
-            getCourseSections(activeScheduling).then((sections) => {
+        if (sectionsCourse != activeScheduling) {
+            getCourseSectionsWithInstructors(activeScheduling).then((sections) => {
                 console.log(activeScheduling, sections);
                 if (sections) {
                     setSectionsCourse(activeScheduling);
@@ -33,41 +36,53 @@ export default function CourseSectionList({ courseLibrary, courseId, addTarget, 
     }
     
     return <div className="w-1/4 min-w-[500px] border-r border-gray-200 bg-white p-6 overflow-y-auto">
-            <h2 className="text-xl font-bold mb-4">Course Sections</h2>
+            <h2 className="text-xl font-bold mb-4">Course Sections <button className="float-right cursor-pointer hover:text-red-600 transition-colors" title="Close" onClick={() => setActiveScheduling(null)}>X</button></h2>
             
-            <table className="w-full table-fixed">
+            {sections.length > 0 && <table className="w-full table-fixed">
                 <tbody>
                     <tr>
                         <th className="text-left">Desc</th>
                         <th className="text-left">Place</th>
-                        <th className="text-left w-[100px]">Days</th>
-                        <th className="text-left w-[150px]">Time</th>
+                        <th className="text-left w-[75px]">Days</th>
+                        <th className="text-left w-[125px]">Time</th>
                     </tr>
                 </tbody>
-            </table>
+            </table>}
+            {
+                sectionsCourse != activeScheduling ? <div className="text-gray-500 italic text-sm text-center pt-4">Loading...</div> :
             <div>
                 {sections.map((section) => (
-                    <div key={section.crn} className="border-b border-gray-200 py-2">
-                        <h3 className="font-bold">{activeScheduling} {section.sectionNum}</h3>
+                    <div key={section.crn} className="border-y border-gray-200 py-2 px-3 hover:bg-gray-100 transition-colors rounded">
+                        <h3 className="font-bold cursor-pointer hover:text-blue-600 transition-colors" title="Click to schedule" onClick={() => {
+                        rescheduleCourse(activeScheduling, +section.crn);
+                        setActiveScheduling(null);
+                    }}>{activeScheduling} {section.sectionNum}</h3>
                         <table className="w-full table-fixed">
                             <tbody>
                                 {section.meetings == null || !Array.isArray(section.meetings) || section.meetings.length == 0 ? "No meetings found" : 
                                 (section.meetings as Meeting[]).map((meeting : Meeting) => {
-                                    console.log(meeting);
                                     return <tr key={meeting.room + meeting.type}>
                                         <td>{meeting.description}</td>
-                                        <td title={meeting.building + " " + meeting.room}><a href={"https://www.google.com/maps/search/?api=1&query=" + encodeURIComponent(meeting.building + " " + meeting.room + " " + schoolInfo.name)} target="_blank" rel="noopener noreferrer">
+                                        <td title={meeting.building + " " + meeting.room}><a 
+                                            className = "cursor-pointer hover:text-blue-600 transition-colors"
+                                            onClick={() => false} href={"https://www.google.com/maps/search/?api=1&query=" + encodeURIComponent(meeting.building + " " + meeting.room + " " + schoolInfo.name)} target="_blank" rel="noopener noreferrer">
                                             {meeting.buildingCode}
                                         </a></td>
-                                        <td className="w-[100px]">{getDateString(meeting)}</td>
-                                        <td className="w-[150px]">{getTimeString(meeting)}</td>
+                                        <td className="w-[75px]">{getDateString(meeting)}</td>
+                                        <td className="w-[125px]">{getTimeString(meeting)}</td>
                                     </tr>;
                                 })}
+                                <tr>
+                                    <td>Instructor</td>
+                                    <td colSpan={3}>{section.instructors.length == 0 ? "TBD" : section.instructors.map((instructor) => instructor.fullName).join(", ")}</td>
+                                </tr>
                             </tbody>
                         </table>
                     </div>
                 ))}
+                {sections.length == 0 && <div className="text-gray-500 italic text-sm text-center pt-4">No sections found</div>}
             </div>
+}
         </div>;
 }
 
