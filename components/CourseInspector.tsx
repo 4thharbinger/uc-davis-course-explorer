@@ -14,7 +14,6 @@ export function CourseInspector({ courseLibrary, courseId, addTarget, showUnlock
   const addCourse = addTarget == "graph" ? useGraphStore((state) => state.addCourse) : useScheduleStore((state) => state.addCourseToSchedule);
   const removeCourse = addTarget == "graph" ? useGraphStore((state) => state.removeCourse) : useScheduleStore((state) => state.removeCourseFromSchedule);
   const courses = addTarget == "graph" ? useGraphStore((state) => state.nodes).map(x => x.data.slug) : Object.keys(useScheduleStore((state) => state.schedule));
-  console.log(courses);
 
   if (inspectedCourse) {
     courseId = inspectedCourse.slug ?? inspectedCourse.label;

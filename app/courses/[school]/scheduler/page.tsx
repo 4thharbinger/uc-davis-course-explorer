@@ -22,8 +22,6 @@ export default async function CourseScheduler({ params } : SchoolProps ) {
   const schoolInfo = getSchoolInfo( (args).school[0] );
   const courses = await getSchoolCourses(schoolInfo);
 
-  console.log(CourseInspector);
-
   const selectedCourse = args.school.length == 1 ? undefined : decodeURIComponent(args.school[1]).toUpperCase();
 
   if (selectedCourse != undefined && selectedCourse.indexOf(" ") >= 0) {

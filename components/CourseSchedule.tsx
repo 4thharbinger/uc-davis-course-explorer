@@ -20,7 +20,6 @@ const setInspectedCourse = useGraphStore((state) => state.setInspectedCourse);
   useEffect(() => {
     if (Object.keys(courses).length > 0) {
       getSections(Object.values(courses)).then((sections) => {
-        console.log("Returned sections", sections);
         const newSections : Record<string, Section> = {};
         if (sections != undefined)
             Object.keys(courses).forEach(courseCode => newSections[courseCode] = sections[courses[courseCode]])
@@ -28,8 +27,6 @@ const setInspectedCourse = useGraphStore((state) => state.setInspectedCourse);
       });
     }
   }, [courses]);
-
-  console.log("Sections", sections)
 
   const test = sections == undefined ? null : Object.keys(courses)
   .flatMap(course => (
@@ -43,8 +40,6 @@ const setInspectedCourse = useGraphStore((state) => state.setInspectedCourse);
             days={meeting}
             onClick={() => setInspectedCourse({slug: course})}/>
   ) ?? []);
-
-  console.log("Generated Blocks", test);
 
   return <div className="flex flex-col w-full h-full">
     <div className="h-full overflow-auto relative">

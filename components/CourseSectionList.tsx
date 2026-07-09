@@ -22,7 +22,6 @@ export default function CourseSectionList({ courseLibrary, courseId, addTarget, 
     useEffect(() => {
         if (sectionsCourse != activeScheduling) {
             getCourseSectionsWithInstructors(activeScheduling).then((sections) => {
-                console.log(activeScheduling, sections);
                 if (sections) {
                     setSectionsCourse(activeScheduling);
                     setSections(sections);
