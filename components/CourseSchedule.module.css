@@ -61,4 +61,5 @@
 
 .sectionBlock:hover {
     background-color: #fbb7;
+    opacity: 80%;
 }

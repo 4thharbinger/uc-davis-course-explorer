@@ -42,7 +42,7 @@ export function CourseSchedule({ courseLibrary } : { courseLibrary : CourseLibra
         ?.map(meeting => <CourseScheduleBlock 
             key={course + meeting.type + meeting.startTime + meeting.room} 
             course={(courseLibrary[course]?.code ?? course) + " " + sections[course].sectionNum} 
-            activity={meeting.description} 
+            activity={meeting.type} 
             start={+meeting.startTime} 
             end={+meeting.endTime}
             days={meeting}
@@ -113,10 +113,16 @@ export function CourseSchedule({ courseLibrary } : { courseLibrary : CourseLibra
     </div>}
     {autoSchedulerOpen && <div className="mt-4">
         <h1 className="text-xl font-bold">Course Scheduler</h1>
-        <div>
+        <div className="flex flex-row gap-2">
             <button onClick={() => { scheduleAll(courses, availableSections); setSchedule({ ...courses}); }} className="rounded bg-gray-200 px-2 py-1 cursor-pointer hover:text-blue-600">
                 Schedule All
             </button>
+            <button onClick={() => { Object.keys(courses).forEach((key) => courses[key] = 0); setSchedule({ ...courses}); }} className="rounded bg-gray-200 px-2 py-1 cursor-pointer hover:text-blue-600">
+                Unschedule All
+            </button>
+            <span title="How many combinations of sections can be taken with these classes.">
+                Estimated combinations: {availableSections == undefined ? "0" : Object.values(availableSections).reduce((cur, acc) => cur * acc.length, 1)}
+            </span>
         </div>
     </div>}
   </div>
@@ -125,33 +131,40 @@ export function CourseSchedule({ courseLibrary } : { courseLibrary : CourseLibra
 function scheduleAll(courses : Record<string, number>, sections : Record<string, Section[]>) {
     console.log("Scheduling " + Object.values(courses).length + " courses...", courses, sections);
     const bitmasks : Record<number, bigint> = {};
-    for (const course of Object.values(sections)) {
+    var currentBitmask = BigInt(0);
+    for (const course of Object.keys(sections)) {
         if (course == undefined) {
             console.warn("Potentially incomplete sections data.", sections);
             return false;
         }
-        for (const section of course) {
+        for (const section of sections[course]) {
             bitmasks[+section.crn] = sectionToBitmask(section);
         }
+        if (courses[course] != 0) {
+            currentBitmask |= bitmasks[+courses[course]];
+        }
     }
-    return schedule(courses, sections, bitmasks, BigInt(0));
+    return schedule(courses, sections, bitmasks, currentBitmask);
 }
 
 
 function schedule(courses : Record<string, number>, sections : Record<string, Section[]>, bitmasks : Record<number, bigint>, currentBitmask : bigint) : boolean {
     // mutates the courses array to schedule all courses with no CRN
-    currentBitmask = currentBitmask;
     for (const course in courses) {
         if (courses[course] == 0) {
             // course not scheduled
+            console.log("Scheduling course " + course);
             if (sections[course] == undefined || sections[course].length == 0) {
                 // no sections found.
+                console.log("No sections found for course " + course + ".")
                 continue;
             }
             for (const section of sections[course]) {
                 const newSectionBitmask = bitmasks[+section.crn];
+                // console.log("Section " + section.crn + " bitmask: \n" + bitmaskToString(newSectionBitmask), "\nCurrent bitmask: \n" + bitmaskToString(currentBitmask));
                 if ((newSectionBitmask & currentBitmask) != BigInt(0)) {
                     // sections overlap, move on to next.
+                    console.log("Section " + section.crn + " overlaps with current schedule.");
                     continue;
                 }
                 // set course for now and start looking deeper.
@@ -160,16 +173,31 @@ function schedule(courses : Record<string, number>, sections : Record<string, Se
                     // all courses have been scheduled.
                     return true;
                 }
+                console.log("Backtracking at " + course + ".");
+                courses[course] = 0;
                 // some courses could not be scheduled, backtrack and try another section.
             }
             // return whether all courses were scheduled successfully.
-            return Object.values(courses).every(x => x > 0);
+            const success = Object.values(courses).every(x => x > 0);
+            if (success) {
+                console.log("All courses scheduled successfully.");
+                return true;
+            } else {
+                console.log("Could not schedule " + course + ".");
+                return false;
+            }
         } else {
+            console.log(course + " already scheduled.");
             // course already scheduled
         }
     }
     // no courses to schedule or all courses are already scheduled.
+    console.log("Successfully scheduled all courses.");
     return true;
+}
+
+function bitmaskToString(bitmask : bigint) {
+    return bitmask.toString(2).padStart(24 * weekdays.length, "0").match(/.{24}/g)?.map((x, i) => `${weekdays[i][0]}: ${x}`).join("\n");
 }
 
 function sectionToBitmask(section : Section) {
@@ -185,7 +213,7 @@ function meetingTimeToBitmask(meeting : Meeting) {
     for (const weekday of weekdays) {
         bitmask = bitmask << BigInt(24);
         if (meeting[weekday])
-            bitmask |= BigInt(meetingDayToBitmask(Math.floor(+meeting.startTime / 100), Math.floor(+meeting.endTime / 100)));
+            bitmask |= BigInt(meetingDayToBitmask(Math.round(+meeting.startTime / 100), Math.round(+meeting.endTime / 100)));
     }
     return bitmask;
 }
