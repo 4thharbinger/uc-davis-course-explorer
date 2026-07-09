@@ -5,13 +5,15 @@ import { useGraphStore } from "@/store/useGraphStore";
 import { useScheduleStore } from "@/store/useScheduleStore";
 import { useState } from "react";
 import styles from "./CourseSchedule.module.css";
+import CourseScheduleBlock from "./CourseScheduleBlock";
+import getCourseSections from "@/lib/getCourseSections";
 
 export function CourseSchedule({ courseLibrary } : { courseLibrary : CourseLibrary }) {
   const courses = useScheduleStore((state) => state.schedule);
   const unscheduledCourses = Object.keys(courses).filter(courseCode => !courses[courseCode]);
   const removeCourse = useScheduleStore((state) => state.removeCourseFromSchedule);
-  const [activeScheduling, setActiveScheduling] = useState<string | null>(null);
-  console.log(courses);
+  const setActiveScheduling = useScheduleStore((state) => state.setActiveScheduling);
+
   return <div className="flex flex-col w-full h-full">
     <div className="h-full overflow-auto relative">
         <div className={styles.calendarHeader}>
@@ -22,7 +24,7 @@ export function CourseSchedule({ courseLibrary } : { courseLibrary : CourseLibra
             <div className={styles.calendarHeaderDay}>Thursday</div>
             <div className={styles.calendarHeaderDay}>Friday</div>
         </div>
-        <div className={styles.calendarBody}>
+        <div className={styles.calendarBody}>   
             <div className={styles.timeColumn}>
                 {
                     [5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20].map((hour) => 
@@ -33,10 +35,7 @@ export function CourseSchedule({ courseLibrary } : { courseLibrary : CourseLibra
                 }
             </div>
             <div className={styles.sectionGrid}>
-                <div className={styles.sectionBlock}>
-                    <h2 className="font-bold">MAT 021A A01</h2>
-                    <p style={{ fontSize: '14px' }}>Lecture: 2:00p - 2:50p</p>
-                </div>
+                <CourseScheduleBlock course="MAT 021A A01" activity="Lecture" start={1330} end={1470} />
             </div>
         </div>
         {/* <table className="w-full border-collapse table-fixed">

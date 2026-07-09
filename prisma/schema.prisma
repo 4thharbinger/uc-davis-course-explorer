@@ -34,23 +34,24 @@ model Course {
 
 model Instructor {
   id          String   @id @default(cuid())
-  fullName    String                        
+  fullName    String   @unique                     
   department  String?                       
   email       String?                 
   rmpScore    Float?                        
   
   courses     Course[] 
+  sections    Section[]
 }
 
 model Section {
   crn          String   @id // e.g., "36077"
-  courseCode   String       // Links to Course.code (e.g., "MAT 021C")
+  courseCode   String       // Links to Course.code (e.g., "MAT021C")
   termCode     String       // e.g., "202610" (Fall 2026)
   sectionNum   String       // e.g., "A01"
-  instructor   String?      // e.g., "Garving Luli"
+  instructors  Instructor[]      // e.g., "Garving Luli"
   
   meetings     Json         @default("[]") 
   finalExam    DateTime?
   
-  course       Course   @relation(fields: [courseCode], references: [code], onDelete: Cascade)
+  course       Course   @relation(fields: [courseCode], references: [slug], onDelete: Cascade)
 }

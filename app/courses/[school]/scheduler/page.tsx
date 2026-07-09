@@ -6,6 +6,8 @@ import { Footer } from "../../../../components/Footer";
 import getSchoolCourses from "@/lib/getSchoolCourses";
 import getSchoolInfo from "@/lib/getSchoolInfo";
 import { CourseSchedule } from "@/components/CourseSchedule";
+import { useScheduleStore } from "@/store/useScheduleStore";
+import CourseSectionList from "@/components/CourseSectionList";
 
 interface SchoolProps {
   params: Promise<{ school: string[] }>;
@@ -19,6 +21,8 @@ export default async function CourseScheduler({ params } : SchoolProps ) {
 
   const schoolInfo = getSchoolInfo( (args).school[0] );
   const courses = await getSchoolCourses(schoolInfo);
+
+  console.log(CourseInspector);
 
   const selectedCourse = args.school.length == 1 ? undefined : decodeURIComponent(args.school[1]).toUpperCase();
 
@@ -34,13 +38,13 @@ export default async function CourseScheduler({ params } : SchoolProps ) {
           <CourseSearch/>
 
           <div className="flex-1 relative bg-gray-100 p-4">
-            <CourseSchedule courseLibrary={courses} />
+            <CourseSchedule courseLibrary={courses}/>
           </div>
-
-          <CourseInspector courseLibrary={courses}  courseId={selectedCourse} addTarget="schedule" showUnlocks={false} />
+          <CourseSectionList courseLibrary={courses}  courseId={selectedCourse} addTarget="schedule" showUnlocks={false}/>
       </main>
       <Footer/>
     </div>
   );
 }
+
 

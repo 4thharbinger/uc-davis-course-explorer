@@ -57,7 +57,7 @@ async function parseSections() {
 async function seedSections(uniqueSections: any[]) {
   for (const section of uniqueSections) {
     // 1. Reconstruct the Course Code to match your Course.code field (e.g., "MAT 021D")
-    const formattedCourseCode = `${section.course.subjectCode} ${section.course.courseNum}`;
+    const formattedCourseCode = `${section.course.subjectCode}${section.course.courseNum}`;
 
     // 2. Parse the Final Exam Date safely (Some classes don't have finals)
     const finalExamDate = section.finalExam?.examDate 
@@ -110,7 +110,7 @@ async function seedSections(uniqueSections: any[]) {
 } catch (e)
 {
     console.log(`Error CRN ${section.course.crn}: ${formattedCourseCode} ${section.course.seqNum}`);
-    // console.log(e);
+    console.log(e);
 }
   }
 }
