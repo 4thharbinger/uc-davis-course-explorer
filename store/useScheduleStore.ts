@@ -2,6 +2,7 @@ import { create } from 'zustand';
 
 type ScheduleState = {
     schedule: Record<string, number>;
+    setSchedule: (schedule: Record<string, number>) => void;
     activeScheduling: string | null; 
     setActiveScheduling: (courseCode: string | null) => void;
     addCourseToSchedule: (courseCode: string, section?: number) => void;
@@ -11,9 +12,10 @@ type ScheduleState = {
 }
 
 export const useScheduleStore = create<ScheduleState>((set) => ({
-    schedule: {},
-    activeScheduling: null,
-    setActiveScheduling: (courseCode: string | null) => set({ activeScheduling: courseCode }),
+  schedule: {},
+  setSchedule: (schedule) => set({ schedule }),
+  activeScheduling: null,
+  setActiveScheduling: (courseCode: string | null) => set({ activeScheduling: courseCode }),
   addCourseToSchedule: (courseCode : string, section : number = 0) => set((state) => ({ schedule: { ...state.schedule, [courseCode]: section} })),
   removeCourseFromSchedule: (courseCode : string) => set((state) => {
     const newSchedule = { ...state.schedule };

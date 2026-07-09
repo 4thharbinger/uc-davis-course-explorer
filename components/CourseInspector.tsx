@@ -26,7 +26,6 @@ export function CourseInspector({ courseLibrary, courseId, addTarget, showUnlock
   useEffect(() => {
     if (courseId != undefined) {
       getCourseInstructors(courseId).then((instructors) => {
-        console.log(instructors);
         setInstructors(instructors ?? []);
       });
     }

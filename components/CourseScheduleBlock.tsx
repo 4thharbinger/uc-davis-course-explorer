@@ -1,7 +1,9 @@
 import styles from "./CourseSchedule.module.css";
 
 
-export const weekdays = ["monday", "tuesday", "wednesday", "thursday", "friday", "saturday", "sunday"];
+export type Weekday = "monday" | "tuesday" | "wednesday" | "thursday" | "friday" | "saturday" | "sunday";
+export const weekdays : Weekday[] = 
+    ["monday", "tuesday", "wednesday", "thursday", "friday"];
 
 export default function CourseScheduleBlock({ course, activity, start, end, days, onClick } : { course: string, activity: string, start: number, end: number, days: MeetingDays, onClick?: () => void }) {
     const timeString = `${formatTime(start)} - ${formatTime(end)}`;
@@ -17,6 +19,7 @@ export default function CourseScheduleBlock({ course, activity, start, end, days
     </div>);
 }
 
+const colors = [[245,101,101],[255,142,90],[255,225,136],[130,228,130],[107,178,231],[89,191,255],[135,157,255],[197,133,222],[242,159,126]]
 
 export function formatTime(time: number): string {
     const hour = Math.floor(time / 100);
