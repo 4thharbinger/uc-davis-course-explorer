@@ -12,7 +12,7 @@ type ScheduleState = {
 }
 
 export const useScheduleStore = create<ScheduleState>((set) => ({
-  schedule: {},
+  schedule: { "MAT021C": 0, "PHY009HA": 0, "ENG004": 0, "EAE001": 0, "CHE004A": 0 },
   setSchedule: (schedule) => set({ schedule }),
   activeScheduling: null,
   setActiveScheduling: (courseCode: string | null) => set({ activeScheduling: courseCode }),

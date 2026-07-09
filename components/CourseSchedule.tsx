@@ -29,8 +29,10 @@ export function CourseSchedule({ courseLibrary } : { courseLibrary : CourseLibra
             setSections(newSections);
       });
       getCoursesSections(Object.keys(courses)).then((sections) => {
+    console.log(Object.keys(courses), sections);
         setAvailableSections(sections ?? {});
       });
+    console.log(courses);
     }
   }, [courses]);
 
@@ -38,12 +40,13 @@ export function CourseSchedule({ courseLibrary } : { courseLibrary : CourseLibra
   .flatMap(course => (
     sections[course]?.meetings as Meeting[])
         ?.map(meeting => <CourseScheduleBlock 
-            key={course + meeting.type + meeting.startTime} 
-            course={courseLibrary[course]?.code ?? course} 
-            activity={meeting.type} 
+            key={course + meeting.type + meeting.startTime + meeting.room} 
+            course={(courseLibrary[course]?.code ?? course) + " " + sections[course].sectionNum} 
+            activity={meeting.description} 
             start={+meeting.startTime} 
             end={+meeting.endTime}
             days={meeting}
+            color={hashCode(course)}
             onClick={() => setInspectedCourse({slug: course})}/>
   ) ?? []);
 
@@ -119,9 +122,7 @@ export function CourseSchedule({ courseLibrary } : { courseLibrary : CourseLibra
   </div>
 }
 
-
-function scheduleAll(courses : Record<string, number>, sections : Record<string, Section[]>, currentBitmask? : bigint | undefined) : boolean {
-    // mutates the courses array to schedule all courses with no CRN
+function scheduleAll(courses : Record<string, number>, sections : Record<string, Section[]>) {
     console.log("Scheduling " + Object.values(courses).length + " courses...", courses, sections);
     const bitmasks : Record<number, bigint> = {};
     for (const course of Object.values(sections)) {
@@ -133,10 +134,20 @@ function scheduleAll(courses : Record<string, number>, sections : Record<string,
             bitmasks[+section.crn] = sectionToBitmask(section);
         }
     }
-    currentBitmask = currentBitmask ?? BigInt(0);
+    return schedule(courses, sections, bitmasks, BigInt(0));
+}
+
+
+function schedule(courses : Record<string, number>, sections : Record<string, Section[]>, bitmasks : Record<number, bigint>, currentBitmask : bigint) : boolean {
+    // mutates the courses array to schedule all courses with no CRN
+    currentBitmask = currentBitmask;
     for (const course in courses) {
         if (courses[course] == 0) {
             // course not scheduled
+            if (sections[course] == undefined || sections[course].length == 0) {
+                // no sections found.
+                continue;
+            }
             for (const section of sections[course]) {
                 const newSectionBitmask = bitmasks[+section.crn];
                 if ((newSectionBitmask & currentBitmask) != BigInt(0)) {
@@ -145,7 +156,7 @@ function scheduleAll(courses : Record<string, number>, sections : Record<string,
                 }
                 // set course for now and start looking deeper.
                 courses[course] = +section.crn;
-                if (scheduleAll(courses, sections, currentBitmask | newSectionBitmask)) {
+                if (schedule(courses, sections, bitmasks, currentBitmask | newSectionBitmask)) {
                     // all courses have been scheduled.
                     return true;
                 }
@@ -185,4 +196,12 @@ function meetingDayToBitmask(startHour : number, endHour : number) {
 
 function bitspan(x : number, offset : number) : number {
     return ((1 << x) - 1) << offset;
+}
+
+function hashCode(x : string) : number {
+    var hash = 0;
+    for (var i = 0; i < x.length; i++) {
+        hash = x.charCodeAt(i) + ((hash << 5) - hash);
+    }
+    return hash;
 }

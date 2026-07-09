@@ -5,14 +5,16 @@ export type Weekday = "monday" | "tuesday" | "wednesday" | "thursday" | "friday"
 export const weekdays : Weekday[] = 
     ["monday", "tuesday", "wednesday", "thursday", "friday"];
 
-export default function CourseScheduleBlock({ course, activity, start, end, days, onClick } : { course: string, activity: string, start: number, end: number, days: MeetingDays, onClick?: () => void }) {
+export default function CourseScheduleBlock({ course, activity, start, end, days, color, onClick } : { course: string, activity: string, start: number, end: number, days: MeetingDays, color: number, onClick?: () => void }) {
     const timeString = `${formatTime(start)} - ${formatTime(end)}`;
     return weekdays.filter(day => days[day as keyof MeetingDays]).map(day => 
     <div key={day} className={styles.sectionBlock} style={{ 
         gridRow: `${Math.floor(start / 100) - 5}`, 
         gridColumn: weekdays.indexOf(day) + 1, 
         transform: `translateY(${calculateOffset(start)})`, 
-        height: `${calculateHeight(start, end)}`}} 
+        height: `${calculateHeight(start, end)}`,
+        backgroundColor: colorToHex(luminosity(colors[color < 0 ? -color % colors.length : color % colors.length], 0.6))
+    }} 
         onClick={onClick}>
                     <h2 className="font-bold">{course}</h2>
                     <p style={{ fontSize: '14px' }}>{activity}: {timeString}</p>
@@ -27,6 +29,18 @@ export function formatTime(time: number): string {
     const period = hour >= 12 ? 'p' : 'a';
     const formattedHour = hour % 12 === 0 ? 12 : hour % 12;
     return `${formattedHour}:${minute.toString().padStart(2, '0')}${period}`;
+}
+
+export function colorToHex(color : number[]) {
+    return '#' + color.map(x => x.toString(16).padStart(2, '0')).join('');
+}
+
+export function luminosity(color : number[], lum : number) {
+    const newColor = [...color];
+    newColor[0] = Math.round(255 - (255 - newColor[0]) * lum);
+    newColor[1] = Math.round(255 - (255 - newColor[1]) * lum);
+    newColor[2] = Math.round(255 - (255 - newColor[2]) * lum);
+    return newColor;
 }
 
 function calculateHeight(start: number, end: number): string {

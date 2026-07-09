@@ -15,6 +15,7 @@ export function CourseInspector({ courseLibrary, courseId, addTarget, showUnlock
   const setInspectedCourse = useGraphStore((state) => state.setInspectedCourse);
   const addCourse = addTarget == "graph" ? useGraphStore((state) => state.addCourse) : useScheduleStore((state) => state.addCourseToSchedule);
   const removeCourse = addTarget == "graph" ? useGraphStore((state) => state.removeCourse) : useScheduleStore((state) => state.removeCourseFromSchedule);
+  const setActiveScheduling = useScheduleStore((state) => state.setActiveScheduling);
   const courses = addTarget == "graph" ? useGraphStore((state) => state.nodes).map(x => x.data.slug) : Object.keys(useScheduleStore((state) => state.schedule));
 
   const [instructors, setInstructors] = useState<Instructor[]>([]);
@@ -51,7 +52,12 @@ export function CourseInspector({ courseLibrary, courseId, addTarget, showUnlock
     {showUnlocks && HierarchyList("Unlocks", course.unlockIds, "None", "all", a => setInspectedCourse({...courseLibrary[a], slug: a}))}
     <button onClick={() => courses.includes(course?.id) ? removeCourse(course?.id ?? "") : addCourse(course?.id ?? "")} className={"mt-4 px-4 py-2 text-white rounded cursor-pointer" + (courses.includes(course.id) ? " bg-red-500 hover:bg-red-300" : " bg-blue-500 hover:bg-blue-300")}>
       {courses.includes(course.id) ? "Remove from" : "Add to"} {addTarget == "graph" ? "Graph" : "Schedule"}
+    </button>{
+      addTarget == "schedule" && courses.includes(course.id) && 
+    <button onClick={() => setActiveScheduling(course?.id ?? null)} className={"mt-4 ml-2 px-4 py-2 text-white rounded cursor-pointer" + (courses.includes(course.id) ? " bg-red-500 hover:bg-red-300" : " bg-blue-500 hover:bg-blue-300")}>
+      Reschedule Course
     </button>
+    }
   </div>;
 }
 

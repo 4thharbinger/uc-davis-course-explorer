@@ -1,6 +1,6 @@
 "use client";
 
-import { CourseLibrary, Meeting } from "@/lib/course";
+import { CourseLibrary, Meeting, meetingTypeToDescription } from "@/lib/course";
 import { useScheduleStore } from "@/store/useScheduleStore";
 import { CourseInspector } from "./CourseInspector";
 import { Instructor, Section } from "@prisma/client";
@@ -52,16 +52,16 @@ export default function CourseSectionList({ courseLibrary, courseId, addTarget, 
             <div>
                 {sections.map((section) => (
                     <div key={section.crn} className="border-y border-gray-200 py-2 px-3 hover:bg-gray-100 transition-colors rounded">
-                        <h3 className="font-bold cursor-pointer hover:text-blue-600 transition-colors" title="Click to schedule" onClick={() => {
+                        <h3 className="cursor-pointer hover:text-blue-600 transition-colors" title="Click to schedule" onClick={() => {
                         rescheduleCourse(activeScheduling, +section.crn);
                         setActiveScheduling(null);
-                    }}>{activeScheduling} {section.sectionNum}</h3>
+                    }}><span className="font-bold">{activeScheduling} {section.sectionNum}</span> - <span>CRN {section.crn}</span></h3>
                         <table className="w-full table-fixed">
                             <tbody>
                                 {section.meetings == null || !Array.isArray(section.meetings) || section.meetings.length == 0 ? "No meetings found" : 
                                 (section.meetings as Meeting[]).map((meeting : Meeting) => {
                                     return <tr key={meeting.room + meeting.type}>
-                                        <td>{meeting.description}</td>
+                                        <td>{meetingTypeToDescription[meeting.type]}</td>
                                         <td title={meeting.building + " " + meeting.room}><a 
                                             className = "cursor-pointer hover:text-blue-600 transition-colors"
                                             onClick={() => false} href={"https://www.google.com/maps/search/?api=1&query=" + encodeURIComponent(meeting.building + " " + meeting.room + " " + schoolInfo.name)} target="_blank" rel="noopener noreferrer">
@@ -96,6 +96,7 @@ function getDateString(meeting: { monday : boolean, tuesday : boolean, wednesday
 }
 
 function getTimeString(meeting: { startTime : string, endTime : string }) {
+    if (meeting.startTime == "" || meeting.endTime == "") return "TBD";
     const start = parseInt(meeting.startTime);
     const end = parseInt(meeting.endTime);
     return `${formatTime(start).padStart(6, "0")} - ${formatTime(end).padStart(6, "0")}`;
