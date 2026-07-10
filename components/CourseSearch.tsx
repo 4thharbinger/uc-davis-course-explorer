@@ -7,8 +7,11 @@ import { redirect } from 'next/navigation';
 import Collapsible from './Collapsible';
 import { Course, Prisma } from '@prisma/client';
 
+const isDev = process.env.NODE_ENV === 'development';
+
+
 export default function SearchSidebar({ setSelectedCourse } : { setSelectedCourse? : Dispatch<SetStateAction<string>> | undefined }) {
-  const [searchTerm, setSearchTerm] = useState("MAT 021");
+  const [searchTerm, setSearchTerm] = useState(isDev ? "MAT 021" : "");
   const [results, setResults] = useState<any[]>([]);
   const [isSearching, setIsSearching] = useState(false);
   const [hasMore, setHasMore] = useState(false);
