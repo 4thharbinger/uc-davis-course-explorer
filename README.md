@@ -1,3 +1,6 @@
+
+
+
 ## BETA prerequisites search tool and schedule builder for college courses.
 
 Built on Vercel and NextJS. A Prisma database containing the course information is required.
@@ -18,3 +21,7 @@ The hardest part is reliably scraping up-to-date information about courses.
 - Synchronize multiple student schedules
 
 Officially hosted at https://uc-davis-course-explorer.vercel.app/courses/ucdavis/scheduler
+
+### Demo
+
+https://github.com/user-attachments/assets/126b5a4b-45be-419b-a0b8-2304627671a0
