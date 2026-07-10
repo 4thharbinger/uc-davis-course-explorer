@@ -4,7 +4,7 @@
   "private": true,
   "scripts": {
     "dev": "next dev",
-    "build": "next build",
+    "build": "npx prisma generate && next build",
     "start": "next start",
     "lint": "eslint",
     "prereqs": "npx tsx prisma/parse-prereqs.ts",
@@ -15,6 +15,7 @@
   "dependencies": {
     "@prisma/client": "^6.19.3",
     "@tisoap/react-flow-smart-edge": "^4.0.1",
+    "@vercel/analytics": "^2.0.1",
     "@xyflow/react": "^12.10.2",
     "axios": "^1.16.1",
     "cheerio": "^1.1.0",
