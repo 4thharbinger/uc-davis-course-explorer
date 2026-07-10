@@ -6,9 +6,11 @@ import { prisma } from "./prisma";
 const toSlug = (code: string) => code.replace(/\s+/g, '').toUpperCase();
 const coursesCache : Record<string, CourseLibrary> = {};
 
+const isDev = process.env.NODE_ENV === 'development';
 export default async function getSchoolCourses(school : SchoolInfo) : Promise<CourseLibrary> {
 
-    //if (coursesCache[school.id]) return coursesCache[school.id];
+    if (!isDev)
+        if (coursesCache[school.id]) return coursesCache[school.id];
 
     const dbCourses = await prisma.course.findMany({
         include: {
