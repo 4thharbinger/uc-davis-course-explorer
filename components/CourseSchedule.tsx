@@ -19,6 +19,7 @@ export function CourseSchedule({ courseLibrary } : { courseLibrary : CourseLibra
   const [availableSections, setAvailableSections] = useState<{ [courseCode: string]: Section[] }>({});
   const setInspectedCourse = useGraphStore((state) => state.setInspectedCourse);
   const [autoSchedulerOpen, setAutoSchedulerOpen] = useState(false);
+  const [numSchedules, setNumSchedules] = useState(-1);
 
   useEffect(() => {
     if (Object.keys(courses).length > 0) {
@@ -114,7 +115,7 @@ export function CourseSchedule({ courseLibrary } : { courseLibrary : CourseLibra
     {autoSchedulerOpen && <div className="mt-4">
         <h1 className="text-xl font-bold">Course Scheduler</h1>
         <div className="flex flex-row gap-2">
-            <button onClick={() => { scheduleAll(courses, availableSections); setSchedule({ ...courses}); }} className="rounded bg-gray-200 px-2 py-1 cursor-pointer hover:text-blue-600">
+            <button onClick={() => { setNumSchedules(scheduleAll(courses, availableSections)); setSchedule({ ...courses}); }} className="rounded bg-gray-200 px-2 py-1 cursor-pointer hover:text-blue-600">
                 Schedule All
             </button>
             <button onClick={() => { Object.keys(courses).forEach((key) => courses[key] = 0); setSchedule({ ...courses}); }} className="rounded bg-gray-200 px-2 py-1 cursor-pointer hover:text-blue-600">
@@ -122,6 +123,9 @@ export function CourseSchedule({ courseLibrary } : { courseLibrary : CourseLibra
             </button>
             <span title="How many combinations of sections can be taken with these classes.">
                 Estimated combinations: {availableSections == undefined ? "0" : Object.values(availableSections).reduce((cur, acc) => cur * acc.length, 1)}
+            </span>
+            <span title="How many valid, non-overlapping schedules there are.">
+                Valid schedules: {numSchedules < 0 ? "N/A" : numSchedules}
             </span>
         </div>
     </div>}
@@ -135,7 +139,7 @@ function scheduleAll(courses : Record<string, number>, sections : Record<string,
     for (const course of Object.keys(sections)) {
         if (course == undefined) {
             console.warn("Potentially incomplete sections data.", sections);
-            return false;
+            return 0;
         }
         for (const section of sections[course]) {
             bitmasks[+section.crn] = sectionToBitmask(section);
@@ -144,11 +148,58 @@ function scheduleAll(courses : Record<string, number>, sections : Record<string,
             currentBitmask |= bitmasks[+courses[course]];
         }
     }
-    return schedule(courses, sections, bitmasks, currentBitmask);
+    const bestSchedule : Record<string, number> = { score: 0 };
+    const validSchedules : Record<string, number>[] = [];
+    schedule(courses, bestSchedule, sections, bitmasks, currentBitmask, validSchedules);
+    console.log(validSchedules);
+    delete bestSchedule.score;
+    Object.keys(bestSchedule).forEach(course => courses[course] = bestSchedule[course]);
+    return validSchedules.length;
 }
 
+function evalSchedule(schedule : Record<string, number>, sections : Record<string, Section[]>) : number {
+    // maximizing total schedule CRN
+    return Math.random();
+}
 
-function schedule(courses : Record<string, number>, sections : Record<string, Section[]>, bitmasks : Record<number, bigint>, currentBitmask : bigint) : boolean {
+function schedule(
+    currentSchedule : Record<string, number>,
+    bestSchedule : Record<string, number>,
+    sections : Record<string, Section[]>,
+    bitmasks : Record<number, bigint>,
+    currentBitmask : bigint,
+    validSchedules : Record<string, number>[]
+) {
+    const nextCourse = (Object.entries(currentSchedule).find(x => x[1] == 0) ?? [])[0];
+    if (nextCourse == undefined) {
+        // valid schedule complete, check if it's better than current best.
+        const score = evalSchedule(currentSchedule, sections);
+        console.log("Completed schedule with score " + score);
+        validSchedules.push({...currentSchedule});
+        if (score > bestSchedule.score) {
+            bestSchedule.score = score;
+            Object.keys(currentSchedule).forEach(course => bestSchedule[course] = currentSchedule[course]);
+        }
+    } else {
+        // at least one unscheduled course
+        // console.log(course + " not currently scheduled.");
+        for (const section of sections[nextCourse]) {
+            const newSectionBitmask = bitmasks[+section.crn];
+            // console.log("Section " + section.crn + " bitmask: \n" + bitmaskToString(newSectionBitmask), "\nCurrent bitmask: \n" + bitmaskToString(currentBitmask));
+            if ((newSectionBitmask & currentBitmask) != BigInt(0)) {
+                // skip overlapping sections
+                // console.log("Section " + section.crn + " overlaps with current schedule.");
+                continue;
+            }
+            // set course for now and start looking deeper.
+            currentSchedule[nextCourse] = +section.crn;
+            schedule(currentSchedule, bestSchedule, sections, bitmasks, currentBitmask | newSectionBitmask, validSchedules);
+            currentSchedule[nextCourse] = 0;
+        }
+    }
+}
+/*
+function schedule(courses : Record<string, number>, sections : Record<string, Section[]>, bitmasks : Record<number, bigint>, currentBitmask : bigint, bestSchedule : Record<string, number>) {
     // mutates the courses array to schedule all courses with no CRN
     for (const course in courses) {
         if (courses[course] == 0) {
@@ -169,32 +220,29 @@ function schedule(courses : Record<string, number>, sections : Record<string, Se
                 }
                 // set course for now and start looking deeper.
                 courses[course] = +section.crn;
-                if (schedule(courses, sections, bitmasks, currentBitmask | newSectionBitmask)) {
-                    // all courses have been scheduled.
-                    return true;
+                const done = Object.values(courses).every(x => x > 0);
+                if (done) {
+                    // all courses scheduled, evaluate score and compare
+                    const score = evalSchedule(courses, sections);
+                    console.log("Created valid schedule with eval " + score);
+                    if (score > bestSchedule.score) {
+                        bestSchedule.score = score;
+                        Object.keys(course).forEach(course => bestSchedule[course] = courses[course]);
+                    }
+                } else {
+                    // not all done, keep going
+                    schedule(courses, sections, bitmasks, currentBitmask | newSectionBitmask, bestSchedule);
                 }
-                console.log("Backtracking at " + course + ".");
                 courses[course] = 0;
-                // some courses could not be scheduled, backtrack and try another section.
             }
-            // return whether all courses were scheduled successfully.
-            const success = Object.values(courses).every(x => x > 0);
-            if (success) {
-                console.log("All courses scheduled successfully.");
-                return true;
-            } else {
-                console.log("Could not schedule " + course + ".");
-                return false;
-            }
+            break;
         } else {
             console.log(course + " already scheduled.");
             // course already scheduled
         }
     }
     // no courses to schedule or all courses are already scheduled.
-    console.log("Successfully scheduled all courses.");
-    return true;
-}
+}*/
 
 function bitmaskToString(bitmask : bigint) {
     return bitmask.toString(2).padStart(24 * weekdays.length, "0").match(/.{24}/g)?.map((x, i) => `${weekdays[i][0]}: ${x}`).join("\n");
