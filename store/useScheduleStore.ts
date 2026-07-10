@@ -13,7 +13,7 @@ type ScheduleState = {
 
 const isDev = process.env.NODE_ENV === 'development';
 export const useScheduleStore = create<ScheduleState>((set) => ({
-  schedule: isDev ? { "MAT021C": 0, "PHY009HA": 0, "ENG004": 0, "EAE001": 0, "CHE004A": 0 } : {},
+  schedule: isDev ? { "MAT021C": 0, "PHY009HA": 0, "ENG004": 0, "EAE001": 0, "CHE004A": 0 } : ({} as Record<string, number>),
   setSchedule: (schedule) => set({ schedule }),
   activeScheduling: null,
   setActiveScheduling: (courseCode: string | null) => set({ activeScheduling: courseCode }),
