@@ -124,7 +124,7 @@ export function RenderGeneralEducation(generalEducation : CourseGeneralEducation
   <Image 
     className="inline" width={20} height={20} key={x} 
     title={"This course meets the " + GeneralEducationDisplay[x].name.toLowerCase() + " requirement."} 
-    src={"/ge-icons/svg/" + GeneralEducationDisplay[x]?.icon} 
+    src={"/ge-icons/SVG/" + GeneralEducationDisplay[x]?.icon} 
     alt={GeneralEducationDisplay[x]?.name} />) : 
   <Image 
     className="inline" width={20} height={20} 
