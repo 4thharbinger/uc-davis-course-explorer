@@ -17,7 +17,6 @@ export default async function CourseExplorer({ params } : SchoolProps ) {
   if (args.school == undefined ||args.school.length == 0) return "Please select a school";
 
   const schoolInfo = getSchoolInfo( (args).school[0] );
-  const courses = await getSchoolCourses(schoolInfo);
 
   const selectedCourse = args.school.length == 1 ? undefined : decodeURIComponent(args.school[1]).toUpperCase();
 
@@ -32,10 +31,10 @@ export default async function CourseExplorer({ params } : SchoolProps ) {
       <main className="flex-1 flex overflow-hidden min-h-0">
           <CourseSearch/>
 
-          <div className="flex-1 relative bg-gray-100 p-4"><CourseGraph courses={selectedCourse == undefined ? [] : [courses[selectedCourse]]} />
+          <div className="flex-1 relative bg-gray-100 p-4"><CourseGraph courses={[]} />
           </div>
 
-          <CourseInspector courseLibrary={courses} courseId={selectedCourse} addTarget={"graph"} showUnlocks={true} />
+          <CourseInspector courseId={selectedCourse} addTarget={"graph"} showUnlocks={true} />
       </main>
       <Footer/>
     </div>
