@@ -1,5 +1,6 @@
 "use client";
 
+import Image from 'next/image'
 import { CourseGeneralEducation, CourseLibrary, CoursePrerequisites, PrequisitesToString } from "@/lib/course";
 import { useGraphStore } from "@/store/useGraphStore";
 import { JSX, useEffect, useState } from "react";
@@ -120,8 +121,15 @@ export function HierarchyList(title : string, content : NestedArray<string> | st
 export function RenderGeneralEducation(generalEducation : CourseGeneralEducation) {
   const list = [ ...generalEducation.topicalBreadth ?? [], ...generalEducation.coreLiteracies ?? [] ];
   return list.length > 0 ? list.map(x => 
-  <img className="inline" width={20} height={20} title={"This course meets the " + GeneralEducationDisplay[x].name + " requirement."} src={"/ge-icons/svg/" + GeneralEducationDisplay[x]?.icon} key={x} alt={GeneralEducationDisplay[x]?.name} />) : 
-  <img className="inline" width={20} height={20} title="This course meets no General Education requirements." src="/ge-icons/svg/none.svg" alt="None" />;
+  <Image 
+    className="inline" width={20} height={20} key={x} 
+    title={"This course meets the " + GeneralEducationDisplay[x].name.toLowerCase() + " requirement."} 
+    src={"/ge-icons/svg/" + GeneralEducationDisplay[x]?.icon} 
+    alt={GeneralEducationDisplay[x]?.name} />) : 
+  <Image 
+    className="inline" width={20} height={20} 
+    title="This course meets no General Education requirements." 
+    src="/ge-icons/svg/none.svg" alt="None" />;
 }
 
 export const GeneralEducationDisplay : Record<string, { name : string, shortName : string, icon : string }> = {

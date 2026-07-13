@@ -15,7 +15,7 @@ export default async function CourseExplorer() {
           <p>See your schedule in real time. Data is not persistent currently. Please make sure to screenshot to save your schedule.</p>
           <a href="/courses/ucdavis/scheduler" className="font-bold text-gray-600 cursor-pointer hover:text-blue-600 border-1 w-fit p-2 px-6 border-blue-500 rounded bg-blue-200">Open Scheduler</a>
           <p>Made by an incoming student at UC Davis</p>
-          <a className="underline" href="https://github.com/solar138/uc-davis-course-explorer">See me on GitHub</a>
+          <a className="underline" href="https://github.com/solar138/uc-davis-course-explorer">GitHub</a>
         </article>
       </main>
       <footer className="flex-none h-8 border-t bg-gray-50 px-4 flex items-center border-gray-200 justify-between text-xs text-gray-500 z-10">
