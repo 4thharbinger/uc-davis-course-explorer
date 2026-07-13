@@ -1,5 +1,5 @@
 
-import { Course, CourseGeneralEducation, CourseLibrary, CoursePrequisites } from "./course";
+import { Course, CourseGeneralEducation, CourseLibrary, CoursePrerequisites } from "./course";
 import { SchoolInfo } from "./getSchoolInfo";
 import { prisma } from "./prisma";
 
@@ -31,7 +31,7 @@ export default async function getSchoolCourses(school : SchoolInfo) : Promise<Co
       instructorIds: dbCourse.instructors.map((instructor) => instructor.id),
       unlockIds: dbCourse.prerequisiteFor.map((child) => toSlug(child.code)),
       generalEducation: dbCourse.generalEducation as CourseGeneralEducation,
-      prerequisites: dbCourse.prerequisiteRules as unknown as CoursePrequisites,
+      prerequisites: dbCourse.prerequisiteRules as unknown as CoursePrerequisites,
       rawPrerequisites: dbCourse.rawPrerequisitesText ?? undefined,
       grading: "Letter" 
     };
@@ -119,7 +119,7 @@ function calculateUnlocks(courses : CourseLibrary) {
 }
 
 
-function traversePrereqs(courses : CourseLibrary, prereqs : CoursePrequisites, callback : (course : Course) => void) {
+function traversePrereqs(courses : CourseLibrary, prereqs : CoursePrerequisites, callback : (course : Course) => void) {
     try {
     for (var prereq of prereqs) {
         switch (prereq.type) {

@@ -1,6 +1,6 @@
 "use client";
 
-import { CourseGeneralEducation, CourseLibrary, CoursePrequisites, PrequisitesToString } from "@/lib/course";
+import { CourseGeneralEducation, CourseLibrary, CoursePrerequisites, PrequisitesToString } from "@/lib/course";
 import { useGraphStore } from "@/store/useGraphStore";
 import { JSX, useEffect, useState } from "react";
 import NestedArray from "@/lib/nestedArray";
@@ -55,7 +55,7 @@ export function CourseInspector({ courseId, addTarget, showUnlocks = false } : {
     
     <p className="mt-4"><span className="font-bold">Units:</span> {course.units}</p>
     {HierarchyList("Instructors", instructors.map(instructor => instructor.fullName), "None")}
-    {HierarchyList("Prerequisites", PrequisitesToString(course.prerequisiteRules as CoursePrequisites), "None", "brackets", a => setInspectedCourse({slug: a}))}
+    {HierarchyList("Prerequisites", PrequisitesToString(course.prerequisiteRules as CoursePrerequisites), "None", "brackets", a => setInspectedCourse({slug: a}))}
     <p className="ml-4 text-gray-500 text-s italic"> {course.rawPrerequisitesText} </p>
     {/* {showUnlocks && HierarchyList("Unlocks", course.unlockIds, "None", "all", a => setInspectedCourse({slug: a}))} */}
     <button onClick={() => courses.includes(course?.id) ? removeCourse(course?.id ?? "") : addCourse(course?.id ?? "")} className={"mt-4 px-4 py-2 text-white rounded cursor-pointer" + (courses.includes(course.id) ? " bg-red-500 hover:bg-red-300" : " bg-blue-500 hover:bg-blue-300")}>

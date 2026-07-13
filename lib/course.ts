@@ -9,7 +9,7 @@ import NestedArray from "./nestedArray"
 //     return course as Course;
 // }  
 
-// function traverse(prereqs : CoursePrequisitesWithString) {
+// function traverse(prereqs : CoursePrerequisitesWithString) {
 //     for (var i = 0; i < prereqs.length; i++) {
 //         var prereq = prereqs[i];
 //         if (typeof prereq == "string") {
@@ -33,7 +33,7 @@ import NestedArray from "./nestedArray"
 // }
 
 
-export function PrequisitesToString(prerequisites : CoursePrequisites, depth : number = 0) : NestedArray<string> {
+export function PrequisitesToString(prerequisites : CoursePrerequisites, depth : number = 0) : NestedArray<string> {
 
     return prerequisites.map(prereq => {
         switch (prereq.type) {
@@ -66,7 +66,7 @@ export type Course = {
   code : string,
   units : number,
   instructorIds : string[],
-  prerequisites : CoursePrequisites,
+  prerequisites : CoursePrerequisites,
   rawPrerequisites? : string,
   generalEducation? : CourseGeneralEducation,
   unlockIds : string[],
@@ -74,7 +74,7 @@ export type Course = {
   grading : "Letter" | "P/NP" | "Both"
 }
 
-export type CoursePrequisites = (CoursePrerequiste | CoursePrerequsiteOr | CoursePrerequsiteAnd)[] 
+export type CoursePrerequisites = (CoursePrerequiste | CoursePrerequsiteOr | CoursePrerequsiteAnd)[] 
 
 export type CoursePrerequsiteOr = {
     type : "or",
@@ -100,14 +100,14 @@ export type CoursePrerequiste = {
 //   code : string,
 //   units : number,
 //   instructorIds : string[],
-//   prerequisites : CoursePrequisitesWithString,
+//   prerequisites : CoursePrerequisitesWithString,
 //   rawPrerequisites? : string,
 //   generalEducation? : CourseGeneralEducation,
 //   unlockIds : string[],
 //   id : string,
 //   grading : "Letter" | "P/NP" | "Both"
 // }
-// export type CoursePrequisitesWithString = (CoursePrerequiste | CoursePrerequsiteOrWithString | CoursePrerequsiteAndWithString | string)[] 
+// export type CoursePrerequisitesWithString = (CoursePrerequiste | CoursePrerequsiteOrWithString | CoursePrerequsiteAndWithString | string)[] 
 
 // export type CoursePrerequsiteOrWithString = {
 //     type : "or",
