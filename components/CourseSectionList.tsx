@@ -10,7 +10,7 @@ import { formatTime } from "./CourseScheduleBlock";
 import { SchoolInfo } from "@/lib/getSchoolInfo";
 import { useGraphStore } from "@/store/useGraphStore";
 
-export default function CourseSectionList({ courseLibrary, courseId, addTarget, schoolInfo } : { courseLibrary : CourseLibrary, courseId? : string, addTarget : "graph" | "schedule", schoolInfo : SchoolInfo }) {
+export default function CourseSectionList({ addTarget, schoolInfo } : { addTarget : "graph" | "schedule", schoolInfo : SchoolInfo }) {
     
     const [sections, setSections] = useState<(Section & { instructors: Instructor[] })[]>([]);
     const [sectionsCourse, setSectionsCourse] = useState<string>("");
@@ -31,7 +31,7 @@ export default function CourseSectionList({ courseLibrary, courseId, addTarget, 
     }, [activeScheduling, sections, sectionsCourse]);
 
     if (!activeScheduling) {
-        return <CourseInspector courseLibrary={courseLibrary}  courseId={courseId} addTarget={addTarget} showUnlocks={false}/>;
+        return <CourseInspector addTarget={addTarget} showUnlocks={false}/>;
     }
     
     return <div className="w-1/4 min-w-[500px] border-r border-gray-200 bg-white p-6 overflow-y-auto">

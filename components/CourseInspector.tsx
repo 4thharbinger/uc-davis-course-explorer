@@ -1,15 +1,16 @@
 "use client";
 
-import { CourseGeneralEducation, CourseLibrary, PrequisitesToString } from "@/lib/course";
+import { CourseGeneralEducation, CourseLibrary, CoursePrequisites, PrequisitesToString } from "@/lib/course";
 import { useGraphStore } from "@/store/useGraphStore";
 import { JSX, useEffect, useState } from "react";
 import NestedArray from "@/lib/nestedArray";
 import { useScheduleStore } from "@/store/useScheduleStore";
-import { Instructor } from "@prisma/client";
+import { Course, Instructor } from "@prisma/client";
 import { getCourseInstructors } from "@/lib/getCourseSections";
+import getCourseInfo from "@/lib/getCourseInfo";
 
 
-export function CourseInspector({ courseLibrary, courseId, addTarget, showUnlocks = false } : { courseLibrary : CourseLibrary, courseId? : string, addTarget : "graph" | "schedule", showUnlocks : boolean }) {
+export function CourseInspector({ courseId, addTarget, showUnlocks = false } : { courseId? : string, addTarget : "graph" | "schedule", showUnlocks : boolean }) {
   
   const inspectedCourse = useGraphStore((state) => state.inspectedCourse);
   const setInspectedCourse = useGraphStore((state) => state.setInspectedCourse);
@@ -17,7 +18,7 @@ export function CourseInspector({ courseLibrary, courseId, addTarget, showUnlock
   const removeCourse = addTarget == "graph" ? useGraphStore((state) => state.removeCourse) : useScheduleStore((state) => state.removeCourseFromSchedule);
   const setActiveScheduling = useScheduleStore((state) => state.setActiveScheduling);
   const courses = addTarget == "graph" ? useGraphStore((state) => state.nodes).map(x => x.data.slug) : Object.keys(useScheduleStore((state) => state.schedule));
-
+  const [course, setCourse] = useState<Course>();
   const [instructors, setInstructors] = useState<Instructor[]>([]);
 
   if (inspectedCourse) {
@@ -33,23 +34,30 @@ export function CourseInspector({ courseLibrary, courseId, addTarget, showUnlock
 
   }, [courseId]);
 
-  var course = courseId == undefined ? undefined : courseLibrary[courseId.toUpperCase()];
+  useEffect(() => {
+    if (courseId != undefined) {
+      getCourseInfo(courseId, true).then((course) => {
+        setCourse(course);
+      });
+    }
+  }, [courseId]);
+
   if (course == null) {
     return <div className="border-r border-gray-200 bg-white overflow-y-auto transition ease-in duration-300 w-0 opacity-0">
-      <h2 className="text-xl font-bold">{courseId == undefined ? "No course selected" : "Course not found: " + courseId}</h2>
+      <h2 className="text-xl font-bold">{courseId == undefined ? "No course selected" : "Loading..."}</h2>
     </div>;
   }
   return <div className="w-1/4 min-w-[300px] border-r border-gray-200 bg-white p-6 overflow-y-auto">
     <h2 className="text-xl font-bold">{course.code} - {course.name}</h2>
-    {RenderGeneralEducation(course.generalEducation ?? {})}
+    {RenderGeneralEducation((course.generalEducation as CourseGeneralEducation) ?? {})}
     <p className="text-gray-500">{course.name}</p>
     <p className="italic mt-4">{course.description}</p>
     
     <p className="mt-4"><span className="font-bold">Units:</span> {course.units}</p>
     {HierarchyList("Instructors", instructors.map(instructor => instructor.fullName), "None")}
-    {HierarchyList("Prerequisites", PrequisitesToString(course.prerequisites), "None", "brackets", a => setInspectedCourse({...courseLibrary[a], slug: a}))}
-    <p className="ml-4 text-gray-500 text-s italic"> {course.rawPrerequisites} </p>
-    {showUnlocks && HierarchyList("Unlocks", course.unlockIds, "None", "all", a => setInspectedCourse({...courseLibrary[a], slug: a}))}
+    {HierarchyList("Prerequisites", PrequisitesToString(course.prerequisiteRules as CoursePrequisites), "None", "brackets", a => setInspectedCourse({slug: a}))}
+    <p className="ml-4 text-gray-500 text-s italic"> {course.rawPrerequisitesText} </p>
+    {/* {showUnlocks && HierarchyList("Unlocks", course.unlockIds, "None", "all", a => setInspectedCourse({slug: a}))} */}
     <button onClick={() => courses.includes(course?.id) ? removeCourse(course?.id ?? "") : addCourse(course?.id ?? "")} className={"mt-4 px-4 py-2 text-white rounded cursor-pointer" + (courses.includes(course.id) ? " bg-red-500 hover:bg-red-300" : " bg-blue-500 hover:bg-blue-300")}>
       {courses.includes(course.id) ? "Remove from" : "Add to"} {addTarget == "graph" ? "Graph" : "Schedule"}
     </button>{

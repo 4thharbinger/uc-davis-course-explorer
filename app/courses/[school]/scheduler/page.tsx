@@ -20,14 +20,6 @@ export default async function CourseScheduler({ params } : SchoolProps ) {
   if (args.school == undefined ||args.school.length == 0) return "Please select a school";
 
   const schoolInfo = getSchoolInfo( (args).school[0] );
-  const courses = await getSchoolCourses(schoolInfo);
-
-  const selectedCourse = args.school.length == 1 ? undefined : decodeURIComponent(args.school[1]).toUpperCase();
-
-  if (selectedCourse != undefined && selectedCourse.indexOf(" ") >= 0) {
-    // redirect 
-    redirect("/courses/" + args.school[0] + "/" + selectedCourse.replaceAll(" ", ""));
-  }
 
   return (
     <div className="flex flex-col w-full h-screen overflow-hidden text-gray-900 bg-white">
@@ -36,9 +28,9 @@ export default async function CourseScheduler({ params } : SchoolProps ) {
           <CourseSearch/>
 
           <div className="flex-1 relative bg-gray-100 p-4">
-            <CourseSchedule courseLibrary={courses}/>
+            <CourseSchedule/>
           </div>
-          <CourseSectionList courseLibrary={courses}  courseId={selectedCourse} addTarget="schedule" schoolInfo={schoolInfo}/>
+          <CourseSectionList addTarget="schedule" schoolInfo={schoolInfo}/>
       </main>
       <Footer/>
     </div>

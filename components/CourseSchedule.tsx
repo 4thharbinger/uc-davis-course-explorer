@@ -9,7 +9,7 @@ import CourseScheduleBlock, { weekdays } from "./CourseScheduleBlock";
 import { getCoursesSections, getSections } from "@/lib/getCourseSections";
 import { Section } from "@prisma/client";
 
-export function CourseSchedule({ courseLibrary } : { courseLibrary : CourseLibrary }) {
+export function CourseSchedule() {
   const courses = useScheduleStore((state) => state.schedule);
   const setSchedule = useScheduleStore((state) => state.setSchedule);
   const unscheduledCourses = Object.keys(courses).filter(courseCode => !courses[courseCode]);
@@ -42,7 +42,7 @@ export function CourseSchedule({ courseLibrary } : { courseLibrary : CourseLibra
     sections[course]?.meetings as Meeting[])
         ?.map(meeting => <CourseScheduleBlock 
             key={course + meeting.type + meeting.startTime + meeting.room} 
-            course={(courseLibrary[course]?.code ?? course) + " " + sections[course].sectionNum} 
+            course={(course) + " " + sections[course].sectionNum} 
             activity={meeting.type} 
             start={+meeting.startTime} 
             end={+meeting.endTime}
@@ -97,7 +97,7 @@ export function CourseSchedule({ courseLibrary } : { courseLibrary : CourseLibra
                 <li key={String(courseCode)}>
                     <div className="flex flex-col relative items-center gap-2 bg-gray-200 px-2 py-1 pr-5 rounded">
                         <button onClick={() => setActiveScheduling(courseCode)} title="Schedule" className="cursor-pointer hover:text-blue-600">
-                            {courseLibrary[courseCode]?.code}
+                            {courseCode}
                         </button>
                         <button onClick={() => removeCourse(courseCode)} title="Remove" className="right-[8px] absolute ml-2 rounded hover:text-red-800 transition-colors">
                             x
