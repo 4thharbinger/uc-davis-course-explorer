@@ -129,7 +129,7 @@ export function RenderGeneralEducation(generalEducation : CourseGeneralEducation
   <Image 
     className="inline" width={20} height={20} 
     title="This course meets no General Education requirements." 
-    src="/ge-icons/svg/none.svg" alt="None" />;
+    src="/ge-icons/SVG/none.svg" alt="None" />;
 }
 
 export const GeneralEducationDisplay : Record<string, { name : string, shortName : string, icon : string }> = {
