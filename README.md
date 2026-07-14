@@ -25,3 +25,5 @@ Officially hosted at https://uc-davis-course-explorer.vercel.app/courses/ucdavis
 ### Demo
 
 https://github.com/user-attachments/assets/126b5a4b-45be-419b-a0b8-2304627671a0
+<img width="1666" height="955" alt="image" src="https://github.com/user-attachments/assets/72d732be-eb9d-4297-927b-5b5ad5d92f5b" />
+
