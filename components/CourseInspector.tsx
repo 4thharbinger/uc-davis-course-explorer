@@ -59,11 +59,11 @@ export function CourseInspector({ courseId, addTarget, showUnlocks = false } : {
     {HierarchyList("Prerequisites", PrequisitesToString(course.prerequisiteRules as CoursePrerequisites), "None", "brackets", a => setInspectedCourse({slug: a}))}
     <p className="ml-4 text-gray-500 text-s italic"> {course.rawPrerequisitesText} </p>
     {/* {showUnlocks && HierarchyList("Unlocks", course.unlockIds, "None", "all", a => setInspectedCourse({slug: a}))} */}
-    <button onClick={() => courses.includes(course?.id) ? removeCourse(course?.id ?? "") : addCourse(course?.id ?? "")} className={"mt-4 px-4 py-2 text-white rounded cursor-pointer" + (courses.includes(course.id) ? " bg-red-500 hover:bg-red-300" : " bg-blue-500 hover:bg-blue-300")}>
-      {courses.includes(course.id) ? "Remove from" : "Add to"} {addTarget == "graph" ? "Graph" : "Schedule"}
+    <button onClick={() => courses.includes(course?.slug) ? removeCourse(course?.slug ?? "") : addCourse(course?.slug ?? "")} className={"mt-4 px-4 py-2 text-white rounded cursor-pointer" + (courses.includes(course.slug) ? " bg-red-500 hover:bg-red-300" : " bg-blue-500 hover:bg-blue-300")}>
+      {courses.includes(course.slug) ? "Remove from" : "Add to"} {addTarget == "graph" ? "Graph" : "Schedule"}
     </button>{
-      addTarget == "schedule" && courses.includes(course.id) && 
-    <button onClick={() => setActiveScheduling(course?.id ?? null)} className={"mt-4 ml-2 px-4 py-2 text-white rounded cursor-pointer" + (courses.includes(course.id) ? " bg-red-500 hover:bg-red-300" : " bg-blue-500 hover:bg-blue-300")}>
+      addTarget == "schedule" && courses.includes(course.slug) && 
+    <button onClick={() => setActiveScheduling(course?.slug ?? null)} className={"mt-4 ml-2 px-4 py-2 text-white rounded cursor-pointer" + (courses.includes(course.slug) ? " bg-red-500 hover:bg-red-300" : " bg-blue-500 hover:bg-blue-300")}>
       Reschedule Course
     </button>
     }
