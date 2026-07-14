@@ -15,8 +15,10 @@ export function Footer() {
     <div className="flex gap-4">
       <button className="cursor-pointer hover:text-blue-600" onClick={() => location.href.endsWith("/scheduler") ? clearSchedule : clearCourses}>Clear Canvas</button>
       <a className="cursor-pointer hover:text-blue-600" href="/help/course-explorer">Help</a>
+      <a className="cursor-pointer hover:text-blue-600" href="/changelog">Changelog</a>
       <a className="cursor-pointer hover:text-blue-600" onClick={() => location.href.endsWith("/scheduler") || redirect(location.href + "/scheduler")}>Scheduler</a>
       <a className="cursor-pointer hover:text-blue-600" onClick={() => location.href.endsWith("/scheduler") && redirect(".")}>Explorer</a>
+
     </div>
   </footer>;
 }
