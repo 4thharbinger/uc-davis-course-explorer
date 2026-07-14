@@ -19,7 +19,7 @@ export function CourseSchedule() {
   const [availableSections, setAvailableSections] = useState<{ [courseCode: string]: Section[] }>({});
   const setInspectedCourse = useGraphStore((state) => state.setInspectedCourse);
   const [autoSchedulerOpen, setAutoSchedulerOpen] = useState(false);
-  const [numSchedules, setNumSchedules] = useState(-1);
+  const [schedulerResults, setSchedulerResults] = useState({ numSchedules: -1, timeTaken: -1, schedules: [] as Record<string, number>[], problems: [] as SchedulerProblem[]});
 
   useEffect(() => {
     if (Object.keys(courses).length > 0) {
@@ -115,7 +115,11 @@ export function CourseSchedule() {
     {autoSchedulerOpen && <div className="mt-4">
         <h1 className="text-xl font-bold">Course Scheduler</h1>
         <div className="flex flex-row gap-2">
-            <button onClick={() => { setNumSchedules(scheduleAll(courses, availableSections)); setSchedule({ ...courses}); }} className="rounded bg-gray-200 px-2 py-1 cursor-pointer hover:text-blue-600">
+            <button onClick={() => { 
+                const result = scheduleAll(courses, availableSections);
+                setSchedulerResults(result );
+                setSchedule({ ...courses}); }
+            } className="rounded bg-gray-200 px-2 py-1 cursor-pointer hover:text-blue-600">
                 Schedule All
             </button>
             <button onClick={() => { Object.keys(courses).forEach((key) => courses[key] = 0); setSchedule({ ...courses}); }} className="rounded bg-gray-200 px-2 py-1 cursor-pointer hover:text-blue-600">
@@ -125,21 +129,118 @@ export function CourseSchedule() {
                 Estimated combinations: {availableSections == undefined ? "0" : Object.values(availableSections).reduce((cur, acc) => cur * acc.length, 1)}
             </span>
             <span title="How many valid, non-overlapping schedules there are.">
-                Valid schedules: {numSchedules < 0 ? "N/A" : numSchedules}
+                Valid schedules: {schedulerResults.numSchedules < 0 ? "N/A" : schedulerResults.numSchedules}
+            </span>
+            <span title="How much time the last computation took.">
+                Time Taken: {schedulerResults.timeTaken < 0 ? "N/A" : `${schedulerResults.timeTaken.toFixed(2)}ms`}
             </span>
         </div>
+        {schedulerResults.problems.length > 0 && <div>
+            <span className="font-bold">Could not schedule all courses:</span>
+            {renderScheduleProblems(schedulerResults.problems)}
+        </div>}
     </div>}
   </div>
 }
 
-function scheduleAll(courses : Record<string, number>, sections : Record<string, Section[]>) {
+type SchedulerProblem = {type: string, courseA?: string, courseB?: string, sectionA?: number, sectionB?: number, course?: string, msg: string};
+
+function renderScheduleProblems(problems : SchedulerProblem[]) {
+    return <div>
+        {problems.map((problem, index) => 
+            <div className="ml-4" key={index}>
+                {
+                    problem.msg
+                }
+            </div>
+        )}
+    </div>
+}
+
+function schedulePrecheck(
+    courses : Record<string, number>,
+    sections : Record<string, Section[]>,
+    bitmasks : Record<number, bigint>) : SchedulerProblem[] {
+    const problems = [] as SchedulerProblem[];
+    const done : Record<string, boolean> = {};
+    console.log(courses);
+
+    function sectionToString(course : string) {
+        const section = sections[course].find(section => +section.crn == courses[course]);
+        return section ? `${course} ${section.sectionNum}` : course;
+    }
+    for (const courseA in courses) {
+        for (const courseB in courses) {
+            if (courseA == courseB) continue;
+            if (done[courseA + "-" + courseB]) continue;
+            done[courseA + "-" + courseB] = true;
+            if (sections[courseA] == undefined || sections[courseA].length == 0)
+            {
+                if (!done[courseA])
+                    problems.push({type: "empty-sections", course: courseA, msg: "No sections found for course " + courseA});
+                done[courseA] = true;
+                continue;
+            }
+            if (sections[courseB] == undefined || sections[courseB].length == 0)
+            {
+                if (!done[courseB])
+                    problems.push({type: "empty-sections", course: courseB, msg: "No sections found for course " + courseB});
+                done[courseB] = true;
+                continue;
+            }
+            done[courseA] = true;
+            done[courseB] = true;
+
+            sectionLoop: 
+            {
+                if (courses[courseA] == 0 && courses[courseB] == 0) {
+                    for (const sectionA of sections[courseA]) {
+                        for (const sectionB of sections[courseB]) {
+                            if ((bitmasks[+sectionA.crn] & bitmasks[+sectionB.crn]) == BigInt(0)) {
+                                break sectionLoop;
+                            }
+                        }                    
+                    }
+                    problems.push({type: "conflicting-sections", courseA, courseB, 
+                        msg: `All sections of ${courseA} conflict with all sections of ${courseB}`});
+                } else if (courses[courseA] > 0 && courses[courseB] > 0) {
+                    if ((bitmasks[courses[courseA]] & bitmasks[courses[courseB]]) == BigInt(0)) {
+                        break sectionLoop;
+                    }
+                    problems.push({type: "conflicting-sections", courseA, courseB, sectionA: courses[courseA], sectionB: courses[courseB], 
+                        msg: `${sectionToString(courseA)} overlaps with section ${sectionToString(courseB)}`});
+                } else if (courses[courseA] > 0) {
+                    for (const sectionB of sections[courseB]) {
+                        if ((bitmasks[courses[courseA]] & bitmasks[+sectionB.crn]) == BigInt(0)) {
+                            break sectionLoop;
+                        }
+                    }   
+                    problems.push({type: "conflicting-sections", courseA, courseB, sectionA: courses[courseA], 
+                        msg: `${sectionToString(courseA)} overlaps with all sections of course ${courseB}`}); 
+                } else if (courses[courseB] > 0) {
+                    for (const sectionA of sections[courseA]) {
+                        if ((bitmasks[+sectionA.crn] & bitmasks[courses[courseB]]) == BigInt(0)) {
+                            break sectionLoop;
+                        }
+                    }    
+                    problems.push({type: "conflicting-sections", courseA, courseB, sectionB: courses[courseB], 
+                        msg: `${sectionToString(courseB)} overlaps with all sections of course ${courseA}`});  
+                }
+            }
+        }
+    }
+    return problems;
+}
+
+function scheduleAll(courses : Record<string, number>, sections : Record<string, Section[]>){
     console.log("Scheduling " + Object.values(courses).length + " courses...", courses, sections);
+    const startTime = performance.now();
     const bitmasks : Record<number, bigint> = {};
     var currentBitmask = BigInt(0);
     for (const course of Object.keys(sections)) {
         if (course == undefined) {
             console.warn("Potentially incomplete sections data.", sections);
-            return 0;
+            return {numSchedules: 0, schedules: [], timeTaken: performance.now() - startTime, problems: [] as SchedulerProblem[] };
         }
         for (const section of sections[course]) {
             bitmasks[+section.crn] = sectionToBitmask(section);
@@ -148,13 +249,18 @@ function scheduleAll(courses : Record<string, number>, sections : Record<string,
             currentBitmask |= bitmasks[+courses[course]];
         }
     }
+    const problems = schedulePrecheck(courses, sections, bitmasks);
     const bestSchedule : Record<string, number> = { score: 0 };
     const validSchedules : Record<string, number>[] = [];
     schedule(courses, bestSchedule, sections, bitmasks, currentBitmask, validSchedules);
     console.log(validSchedules);
     delete bestSchedule.score;
     Object.keys(bestSchedule).forEach(course => courses[course] = bestSchedule[course]);
-    return validSchedules.length;
+
+    if (validSchedules.length == 0 && problems.length == 0) {
+        problems.push({type:"no-schedules", course: "", msg: "No valid combination of sections found."})
+    }
+    return { numSchedules: validSchedules.length, schedules: validSchedules, timeTaken: performance.now() - startTime, problems };
 }
 
 function evalSchedule(schedule : Record<string, number>, sections : Record<string, Section[]>) : number {
@@ -174,7 +280,7 @@ function schedule(
     if (nextCourse == undefined) {
         // valid schedule complete, check if it's better than current best.
         const score = evalSchedule(currentSchedule, sections);
-        console.log("Completed schedule with score " + score);
+        // console.log("Completed schedule with score " + score);
         validSchedules.push({...currentSchedule});
         if (score > bestSchedule.score) {
             bestSchedule.score = score;
@@ -183,6 +289,10 @@ function schedule(
     } else {
         // at least one unscheduled course
         // console.log(course + " not currently scheduled.");
+        if (sections[nextCourse] == undefined) {
+            // no sections for course.
+            return;
+        }
         for (const section of sections[nextCourse]) {
             const newSectionBitmask = bitmasks[+section.crn];
             // console.log("Section " + section.crn + " bitmask: \n" + bitmaskToString(newSectionBitmask), "\nCurrent bitmask: \n" + bitmaskToString(currentBitmask));

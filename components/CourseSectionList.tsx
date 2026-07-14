@@ -16,6 +16,7 @@ export default function CourseSectionList({ addTarget, schoolInfo } : { addTarge
     const [sectionsCourse, setSectionsCourse] = useState<string>("");
 
     const activeScheduling = useScheduleStore((state) => state.activeScheduling) ?? "";
+    const schedule = useScheduleStore((state) => state.schedule);
     const setActiveScheduling = useScheduleStore((state) => state.setActiveScheduling);
     const rescheduleCourse = useScheduleStore((state) => state.rescheduleCourse);
 
@@ -50,36 +51,42 @@ export default function CourseSectionList({ addTarget, schoolInfo } : { addTarge
             {
                 sectionsCourse != activeScheduling ? <div className="text-gray-500 italic text-sm text-center pt-4">Loading...</div> :
             <div>
-                {sections.map((section) => (
-                    <div key={section.crn} className="border-y border-gray-200 py-2 px-3 hover:bg-gray-100 transition-colors rounded">
-                        <h3 className="cursor-pointer hover:text-blue-600 transition-colors" title="Click to schedule" onClick={() => {
-                        rescheduleCourse(activeScheduling, +section.crn);
-                        setActiveScheduling(null);
-                    }}><span className="font-bold">{activeScheduling} {section.sectionNum}</span> - <span>CRN {section.crn}</span></h3>
-                        <table className="w-full table-fixed">
-                            <tbody>
-                                {section.meetings == null || !Array.isArray(section.meetings) || section.meetings.length == 0 ? "No meetings found" : 
-                                (section.meetings as Meeting[]).map((meeting : Meeting) => {
-                                    return <tr key={meeting.room + meeting.type}>
-                                        <td>{meetingTypeToDescription[meeting.type]}</td>
-                                        <td title={meeting.building + " " + meeting.room}><a 
-                                            className = "cursor-pointer hover:text-blue-600 transition-colors"
-                                            onClick={() => false} href={"https://www.google.com/maps/search/?api=1&query=" + encodeURIComponent(meeting.building + " " + meeting.room + " " + schoolInfo.name)} target="_blank" rel="noopener noreferrer">
-                                            {meeting.buildingCode}
-                                        </a></td>
-                                        <td className="w-[75px]">{getDateString(meeting)}</td>
-                                        <td className="w-[125px]">{getTimeString(meeting)}</td>
-                                    </tr>;
-                                })}
-                                <tr>
-                                    <td>Instructor</td>
-                                    <td colSpan={3}>{section.instructors.length == 0 ? "TBD" : section.instructors.map((instructor) => instructor.fullName).join(", ")}</td>
-                                </tr>
-                            </tbody>
-                        </table>
-                    </div>
-                ))}
-                {sections.length == 0 && <div className="text-gray-500 italic text-sm text-center pt-4">No sections found</div>}
+                {sections.length == 0 ? 
+                    <div className="text-gray-500 italic text-sm text-center pt-4">No sections found</div> :
+                <div>
+                    {!!schedule[activeScheduling] && <div className="border-y border-gray-200 py-2 px-3 hover:bg-gray-100 transition-colors rounded">
+                        <h3 className="text-center underline cursor-pointer hover:text-blue-600 transition-colors" title="Click to unschedule" onClick={() => {
+                        rescheduleCourse(activeScheduling, 0);
+                        setActiveScheduling(null);}}>Unschedule</h3></div>}
+                    {sections.map((section) => (
+                        <div key={section.crn} className="border-y border-gray-200 py-2 px-3 hover:bg-gray-100 transition-colors rounded">
+                            <h3 className="cursor-pointer hover:text-blue-600 transition-colors" title="Click to schedule" onClick={() => {
+                            rescheduleCourse(activeScheduling, +section.crn);
+                            setActiveScheduling(null);
+                        }}><span className="font-bold">{activeScheduling} {section.sectionNum}</span> - <span>CRN {section.crn}</span></h3>
+                            <table className="w-full table-fixed">
+                                <tbody>
+                                    {section.meetings == null || !Array.isArray(section.meetings) || section.meetings.length == 0 ? "No meetings found" : 
+                                    (section.meetings as Meeting[]).map((meeting : Meeting) => {
+                                        return <tr key={meeting.room + meeting.type}>
+                                            <td>{meetingTypeToDescription[meeting.type]}</td>
+                                            <td title={meeting.building + " " + meeting.room}><a 
+                                                className = "cursor-pointer hover:text-blue-600 transition-colors"
+                                                onClick={() => false} href={"https://www.google.com/maps/search/?api=1&query=" + encodeURIComponent(meeting.building + " " + meeting.room + " " + schoolInfo.name)} target="_blank" rel="noopener noreferrer">
+                                                {meeting.buildingCode}
+                                            </a></td>
+                                            <td className="w-[75px]">{getDateString(meeting)}</td>
+                                            <td className="w-[125px]">{getTimeString(meeting)}</td>
+                                        </tr>;
+                                    })}
+                                    <tr>
+                                        <td>Instructor</td>
+                                        <td colSpan={3}>{section.instructors.length == 0 ? "TBD" : section.instructors.map((instructor) => instructor.fullName).join(", ")}</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>))
+                }</div>}
             </div>
 }
         </div>;
