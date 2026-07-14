@@ -172,8 +172,9 @@ function schedulePrecheck(
     for (const courseA in courses) {
         for (const courseB in courses) {
             if (courseA == courseB) continue;
-            if (done[courseA + "-" + courseB]) continue;
-            done[courseA + "-" + courseB] = true;
+            const sortedCourses = [courseA, courseB].sort();
+            if (done[sortedCourses.join()]) continue;
+            done[sortedCourses.join()] = true;
             if (sections[courseA] == undefined || sections[courseA].length == 0)
             {
                 if (!done[courseA])
