@@ -125,6 +125,9 @@ export function CourseSchedule() {
             <button onClick={() => { Object.keys(courses).forEach((key) => courses[key] = 0); setSchedule({ ...courses}); }} className="rounded bg-gray-200 px-2 py-1 cursor-pointer hover:text-blue-600">
                 Unschedule All
             </button>
+        </div>
+        <div className="flex flex-row gap-4 items-end ml-4">
+            <span className="text-lg font-bold">Stats:</span>
             <span title="How many combinations of sections can be taken with these classes.">
                 Estimated combinations: {availableSections == undefined ? "0" : Object.values(availableSections).reduce((cur, acc) => cur * acc.length, 1)}
             </span>
@@ -135,8 +138,11 @@ export function CourseSchedule() {
                 Time Taken: {schedulerResults.timeTaken < 0 ? "N/A" : `${schedulerResults.timeTaken.toFixed(2)}ms`}
             </span>
         </div>
-        {schedulerResults.problems.length > 0 && <div>
-            <span className="font-bold">Could not schedule all courses:</span>
+        <div className=" ml-4">
+            <span className="text-lg font-bold">Filters:</span>
+        </div>
+        {schedulerResults.problems.length > 0 && <div className=" ml-4">
+            <span className="text-lg font-bold">Could not schedule all:</span>
             {renderScheduleProblems(schedulerResults.problems)}
         </div>}
     </div>}
