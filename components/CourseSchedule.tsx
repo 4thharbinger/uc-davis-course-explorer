@@ -367,51 +367,6 @@ function schedule(
         }
     }
 }
-/*
-function schedule(courses : Record<string, number>, sections : Record<string, Section[]>, bitmasks : Record<number, bigint>, currentBitmask : bigint, bestSchedule : Record<string, number>) {
-    // mutates the courses array to schedule all courses with no CRN
-    for (const course in courses) {
-        if (courses[course] == 0) {
-            // course not scheduled
-            console.log("Scheduling course " + course);
-            if (sections[course] == undefined || sections[course].length == 0) {
-                // no sections found.
-                console.log("No sections found for course " + course + ".")
-                continue;
-            }
-            for (const section of sections[course]) {
-                const newSectionBitmask = bitmasks[+section.crn];
-                // console.log("Section " + section.crn + " bitmask: \n" + bitmaskToString(newSectionBitmask), "\nCurrent bitmask: \n" + bitmaskToString(currentBitmask));
-                if ((newSectionBitmask & currentBitmask) != BigInt(0)) {
-                    // sections overlap, move on to next.
-                    console.log("Section " + section.crn + " overlaps with current schedule.");
-                    continue;
-                }
-                // set course for now and start looking deeper.
-                courses[course] = +section.crn;
-                const done = Object.values(courses).every(x => x > 0);
-                if (done) {
-                    // all courses scheduled, evaluate score and compare
-                    const score = evalSchedule(courses, sections);
-                    console.log("Created valid schedule with eval " + score);
-                    if (score > bestSchedule.score) {
-                        bestSchedule.score = score;
-                        Object.keys(course).forEach(course => bestSchedule[course] = courses[course]);
-                    }
-                } else {
-                    // not all done, keep going
-                    schedule(courses, sections, bitmasks, currentBitmask | newSectionBitmask, bestSchedule);
-                }
-                courses[course] = 0;
-            }
-            break;
-        } else {
-            console.log(course + " already scheduled.");
-            // course already scheduled
-        }
-    }
-    // no courses to schedule or all courses are already scheduled.
-}*/
 
 function bitmaskToString(bitmask : bigint) {
     return bitmask.toString(2).padStart(24 * weekdays.length, "0").match(/.{24}/g)?.map((x, i) => `${weekdays[i][0]}: ${x}`).join("\n");
