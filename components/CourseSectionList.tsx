@@ -78,6 +78,7 @@ export default function CourseSectionList({ addTarget, schoolInfo } : { addTarge
                             >
                             <h3 className="cursor-pointer hover:text-blue-600 transition-colors" title="Click to schedule" onClick={() => {
                             rescheduleCourse(activeScheduling, +section.crn);
+                            setHoverCrn(0);
                             setActiveScheduling(null);
                         }}><span className="font-bold">{activeScheduling} {section.sectionNum}</span> - <span>CRN {section.crn}</span></h3>
                             <table className="w-full table-fixed">

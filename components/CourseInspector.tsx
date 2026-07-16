@@ -48,7 +48,7 @@ export function CourseInspector({ courseId, addTarget, showUnlocks = false } : {
       <h2 className="text-xl font-bold">{courseId == undefined ? "No course selected" : "Loading..."}</h2>
     </div>;
   }
-  return <div className="w-1/4 min-w-[300px] border-r border-gray-200 bg-white p-6 overflow-y-auto">
+  return <div className="w-1/4 min-w-[500px] border-r border-gray-200 bg-white p-6 overflow-y-auto">
     <h2 className="text-xl font-bold">{course.code} - {course.name}</h2>
     {RenderGeneralEducation((course.generalEducation as CourseGeneralEducation) ?? {})}
     <p className="text-gray-500">{course.name}</p>

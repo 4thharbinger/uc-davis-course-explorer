@@ -93,10 +93,10 @@ export function CourseSchedule() {
   }, [courses]);
 
 
-  function getCourseBlock(course : string, meeting : Meeting, opacity : number = 1) {
+  function getCourseBlock(course : string, section : Section, meeting : Meeting, opacity : number = 1) {
     return <CourseScheduleBlock 
             key={course + meeting.type + meeting.startTime + meeting.room + " " + opacity} 
-            course={(course) + " " + availableSections[course].find(section => section.courseCode == course)?.sectionNum} 
+            course={(course) + " " + section.sectionNum} 
             activity={meeting.type} 
             start={+meeting.startTime} 
             end={+meeting.endTime}
@@ -110,7 +110,7 @@ export function CourseSchedule() {
   .flatMap(course => (
     sections[course]?.meetings as Meeting[])
         ?.map(meeting => 
-            getCourseBlock(course, meeting)
+            getCourseBlock(course, sections[course], meeting)
   ) ?? []);
 
   const hoverSection = availableCrns[hoverCrn] ?? sectionsCache[hoverCrn];
@@ -118,7 +118,7 @@ export function CourseSchedule() {
     console.log("hovering for " + hoverCrn);
     courseBlocks.push(
         ...(hoverSection.meetings as Meeting[]).map(meeting => 
-            getCourseBlock(hoverSection.courseCode, meeting, 0.8)
+            getCourseBlock(hoverSection.courseCode, hoverSection, meeting, 0.8)
         )
     );
   }
