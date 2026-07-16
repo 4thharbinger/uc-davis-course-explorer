@@ -30,9 +30,12 @@ export function CourseSchedule() {
 
         const missing = [];
         const newSections : Record<string, Section> = {};
-        for (const crn in courses) {
+        for (const courseCode in courses) {
+            const crn = courses[courseCode];
+            if (crn == 0) continue;
             if (sectionsCache[+crn] != undefined) {
-                newSections[crn] = sectionsCache[+crn];
+                console.log("Found " + crn + " in local cache");
+                newSections[courseCode] = sectionsCache[+crn];
             } else {
                 missing.push(crn);
             }
@@ -47,8 +50,12 @@ export function CourseSchedule() {
                 } else {
                     console.log("Could not get sections from db.");
                 }
+            console.log("Sections loaded from db", newSections);
                 setSections(newSections);
             });
+        } else {
+            console.log("All loaded from local cache", newSections);
+            setSections(newSections);
         }
         const missingSections = [];
         const newAvailableSections : Record<string, Section[]> = {};
@@ -61,14 +68,16 @@ export function CourseSchedule() {
         }
         if (missingSections.length > 0) {
             getCoursesSections(Object.keys(courses)).then((sections) => {
-                setAvailableSections(sections ?? {});
                 for (const section in sections) {
                     availableSectionsCache[section] = sections[section];
                     for (const sectionData of sections[section]) {
                         sectionsCache[+sectionData.crn] = sectionData;
                     }
                 }
+                setAvailableSections(sections ?? {});
             });
+        } else {
+            setAvailableSections(newAvailableSections);
         }
     }
   }, [courses]);
