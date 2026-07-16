@@ -5,7 +5,7 @@ export type Weekday = "monday" | "tuesday" | "wednesday" | "thursday" | "friday"
 export const weekdays : Weekday[] = 
     ["monday", "tuesday", "wednesday", "thursday", "friday"];
 
-export default function CourseScheduleBlock({ course, activity, start, end, days, color, onClick } : { course: string, activity: string, start: number, end: number, days: MeetingDays, color: number, onClick?: () => void }) {
+export default function CourseScheduleBlock({ course, activity, start, end, days, color, opacity = 1, onClick } : { course: string, activity: string, start: number, end: number, days: MeetingDays, color: number, opacity: number, onClick?: () => void }) {
     const timeString = `${formatTime(start)} - ${formatTime(end)}`;
     return weekdays.filter(day => days[day as keyof MeetingDays]).map(day => 
     <div key={day} className={styles.sectionBlock} style={{ 
@@ -13,7 +13,8 @@ export default function CourseScheduleBlock({ course, activity, start, end, days
         gridColumn: weekdays.indexOf(day) + 1, 
         transform: `translateY(${calculateOffset(start)})`, 
         height: `${calculateHeight(start, end)}`,
-        backgroundColor: colorToHex(luminosity(colors[color < 0 ? -color % colors.length : color % colors.length], 0.6))
+        backgroundColor: colorToHex(luminosity(colors[color < 0 ? -color % colors.length : color % colors.length], 0.6)),
+        opacity: opacity
     }} 
         onClick={onClick}>
                     <h2 className="font-bold">{course}</h2>

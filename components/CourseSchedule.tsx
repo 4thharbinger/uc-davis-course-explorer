@@ -15,15 +15,25 @@ const availableSectionsCache : Record<string, Section[]> = {} // coursecode to s
 export function CourseSchedule() {
   const courses = useScheduleStore((state) => state.schedule);
   const setSchedule = useScheduleStore((state) => state.setSchedule);
+  const hoverCrn = useScheduleStore((state) => state.hoverCrn);
+  const setHoverCrn = useScheduleStore((state) => state.setHoverCrn);
   const unscheduledCourses = Object.keys(courses).filter(courseCode => !courses[courseCode]);
   const removeCourse = useScheduleStore((state) => state.removeCourseFromSchedule);
   const setActiveScheduling = useScheduleStore((state) => state.setActiveScheduling);
+  const activeScheduling = useScheduleStore((state) => state.activeScheduling);
   const [sections, setSections] = useState<{ [courseCode: string]: Section }>({});
   const [availableSections, setAvailableSections] = useState<{ [courseCode: string]: Section[] }>({});
   const setInspectedCourse = useGraphStore((state) => state.setInspectedCourse);
   const [autoSchedulerOpen, setAutoSchedulerOpen] = useState(false);
   const [schedulerResults, setSchedulerResults] = useState({ numSchedules: -1, timeTaken: -1, schedules: [] as Record<string, number>[], problems: [] as SchedulerProblem[]});
   const [filters, setFilters] = useState({aro: false} as SchedulerFilters);
+
+  const availableCrns = {} as Record<number, Section>;
+  for (const course in availableSections) {
+    for (const section of availableSections[course]) {
+      availableCrns[+section.crn] = section;
+    }
+  }
 
   useEffect(() => {
     if (Object.keys(courses).length > 0) {
@@ -82,19 +92,36 @@ export function CourseSchedule() {
     }
   }, [courses]);
 
-  const courseBlocks = sections == undefined ? null : Object.keys(courses)
-  .flatMap(course => (
-    sections[course]?.meetings as Meeting[])
-        ?.map(meeting => <CourseScheduleBlock 
-            key={course + meeting.type + meeting.startTime + meeting.room} 
-            course={(course) + " " + sections[course].sectionNum} 
+
+  function getCourseBlock(course : string, meeting : Meeting, opacity : number = 1) {
+    return <CourseScheduleBlock 
+            key={course + meeting.type + meeting.startTime + meeting.room + " " + opacity} 
+            course={(course) + " " + availableSections[course].find(section => section.courseCode == course)?.sectionNum} 
             activity={meeting.type} 
             start={+meeting.startTime} 
             end={+meeting.endTime}
             days={meeting}
             color={hashCode(course)}
+            opacity={opacity}
             onClick={() => setInspectedCourse({slug: course})}/>
+  }
+
+  const courseBlocks = sections == undefined ? [] : Object.keys(courses)
+  .flatMap(course => (
+    sections[course]?.meetings as Meeting[])
+        ?.map(meeting => 
+            getCourseBlock(course, meeting)
   ) ?? []);
+
+  const hoverSection = availableCrns[hoverCrn] ?? sectionsCache[hoverCrn];
+  if (activeScheduling && hoverCrn > 0 && hoverSection != null) {
+    console.log("hovering for " + hoverCrn);
+    courseBlocks.push(
+        ...(hoverSection.meetings as Meeting[]).map(meeting => 
+            getCourseBlock(hoverSection.courseCode, meeting, 0.8)
+        )
+    );
+  }
 
   return <div className="flex flex-col w-full h-full">
     <div className="h-full overflow-auto relative">
@@ -350,8 +377,10 @@ function schedule(
         }
         for (const section of sections[nextCourse]) {
             if (!filters.aro) {
-                if (section.sectionNum.match(/[A-E]R(0|O)/))
+                if (section.sectionNum.match(/[A-E]R(0|O)/)) {
+                    console.log("ARO section skipped");
                     continue;
+                }
             }
             const newSectionBitmask = bitmasks[+section.crn];
             // console.log("Section " + section.crn + " bitmask: \n" + bitmaskToString(newSectionBitmask), "\nCurrent bitmask: \n" + bitmaskToString(currentBitmask));

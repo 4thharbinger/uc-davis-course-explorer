@@ -19,6 +19,9 @@ export default function CourseSectionList({ addTarget, schoolInfo } : { addTarge
     const [sections, setSections] = useState<SectionWithInstructor[]>([]);
     const [sectionsCourse, setSectionsCourse] = useState<string>("");
 
+    const setHoverCrn = useScheduleStore((state) => state.setHoverCrn);
+    const hoverCrn = useScheduleStore((state) => state.hoverCrn);
+
     const activeScheduling = useScheduleStore((state) => state.activeScheduling) ?? "";
     const schedule = useScheduleStore((state) => state.schedule);
     const setActiveScheduling = useScheduleStore((state) => state.setActiveScheduling);
@@ -69,7 +72,10 @@ export default function CourseSectionList({ addTarget, schoolInfo } : { addTarge
                         rescheduleCourse(activeScheduling, 0);
                         setActiveScheduling(null);}}>Unschedule</h3></div>}
                     {sections.map((section) => (
-                        <div key={section.crn} className="border-y border-gray-200 py-2 px-3 hover:bg-gray-100 transition-colors rounded">
+                        <div key={section.crn} className="border-y border-gray-200 py-2 px-3 hover:bg-gray-100 transition-colors rounded"
+                            onMouseEnter={() => setHoverCrn(+section.crn)}
+                            onMouseLeave={() => hoverCrn == +section.crn && setHoverCrn(0)}
+                            >
                             <h3 className="cursor-pointer hover:text-blue-600 transition-colors" title="Click to schedule" onClick={() => {
                             rescheduleCourse(activeScheduling, +section.crn);
                             setActiveScheduling(null);

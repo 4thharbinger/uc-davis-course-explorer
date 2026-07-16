@@ -3,6 +3,8 @@ import { create } from 'zustand';
 type ScheduleState = {
     schedule: Record<string, number>;
     setSchedule: (schedule: Record<string, number>) => void;
+    hoverCrn: number;
+    setHoverCrn: (crn: number) => void;
     activeScheduling: string | null; 
     setActiveScheduling: (courseCode: string | null) => void;
     addCourseToSchedule: (courseCode: string, section?: number) => void;
@@ -15,6 +17,8 @@ const isDev = process.env.NODE_ENV === 'development';
 export const useScheduleStore = create<ScheduleState>((set) => ({
   schedule: isDev ? { "MAT021C": 0, "PHY009HA": 0, "ENG004": 0, "EAE001": 0, "CHE004A": 0 } : ({} as Record<string, number>),
   setSchedule: (schedule) => set({ schedule }),
+  hoverCrn: 0,
+  setHoverCrn: (crn) => set({ hoverCrn: crn }),
   activeScheduling: null,
   setActiveScheduling: (courseCode: string | null) => set({ activeScheduling: courseCode }),
   addCourseToSchedule: (courseCode : string, section : number = 0) => set((state) => ({ schedule: { ...state.schedule, [courseCode]: section} })),
