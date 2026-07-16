@@ -7,6 +7,7 @@ export default async function CourseExplorer() {
       <header className="flex-none h-14 border-b px-4 flex items-center bg-white z-10 border-gray-200 text-2xl font-bold"> Changelog</header> 
       <main className="flex-1 flex overflow-hidden min-h-0">
         <article className="p-4 text-justify w-full max-w-2xl mx-auto gap-4 flex flex-col">
+          <ChangelogEntry date="July 16, 2026" changes={["Sections now preview meetings when hovering over their list entries", "Some potential bandwidth and performance improvements", "Fixed: Duplicate scheduler error messages"]}/>
           <ChangelogEntry date="July 14, 2026" changes={["Added error messages when scheduling instead of silently failing", "Changed wording on course inspector", "Added unschedule button in section list", "Improved scheduler performance"]}/>
           <ChangelogEntry date="July 13, 2026" changes={["Added changelog", "Reduced bandwidth usage by not sending the entire course library", "Course unlocks temporarily hidden", "Fixed: SVG icons not loading in inspector", "Fixed: Courses showing internal IDs instead of the course code."]}/>
           <ChangelogEntry date="July 10, 2026" changes={["Initial release"]}/>
