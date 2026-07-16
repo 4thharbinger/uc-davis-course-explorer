@@ -10,9 +10,13 @@ import { formatTime } from "./CourseScheduleBlock";
 import { SchoolInfo } from "@/lib/getSchoolInfo";
 import { useGraphStore } from "@/store/useGraphStore";
 
+type SectionWithInstructor = Section & { instructors: Instructor[] };
+
+const sectionsCache : Record<string, SectionWithInstructor[]> = {};
+
 export default function CourseSectionList({ addTarget, schoolInfo } : { addTarget : "graph" | "schedule", schoolInfo : SchoolInfo }) {
     
-    const [sections, setSections] = useState<(Section & { instructors: Instructor[] })[]>([]);
+    const [sections, setSections] = useState<SectionWithInstructor[]>([]);
     const [sectionsCourse, setSectionsCourse] = useState<string>("");
 
     const activeScheduling = useScheduleStore((state) => state.activeScheduling) ?? "";
@@ -22,10 +26,16 @@ export default function CourseSectionList({ addTarget, schoolInfo } : { addTarge
 
     useEffect(() => {
         if (sectionsCourse != activeScheduling) {
+            if (sectionsCache[activeScheduling] != undefined) {
+                setSectionsCourse(activeScheduling);
+                setSections(sectionsCache[activeScheduling]);
+                return;
+            }
             getCourseSectionsWithInstructors(activeScheduling).then((sections) => {
                 if (sections) {
                     setSectionsCourse(activeScheduling);
                     setSections(sections);
+                    sectionsCache[activeScheduling] = sections;
                 }
             });
         }

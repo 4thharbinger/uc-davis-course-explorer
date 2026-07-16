@@ -9,6 +9,9 @@ import CourseScheduleBlock, { weekdays } from "./CourseScheduleBlock";
 import { getCoursesSections, getSections } from "@/lib/getCourseSections";
 import { Section } from "@prisma/client";
 
+const sectionsCache : Record<number, Section> = {} // crn to section data
+const availableSectionsCache : Record<string, Section[]> = {} // coursecode to section data
+
 export function CourseSchedule() {
   const courses = useScheduleStore((state) => state.schedule);
   const setSchedule = useScheduleStore((state) => state.setSchedule);
@@ -20,20 +23,53 @@ export function CourseSchedule() {
   const setInspectedCourse = useGraphStore((state) => state.setInspectedCourse);
   const [autoSchedulerOpen, setAutoSchedulerOpen] = useState(false);
   const [schedulerResults, setSchedulerResults] = useState({ numSchedules: -1, timeTaken: -1, schedules: [] as Record<string, number>[], problems: [] as SchedulerProblem[]});
+  const [filters, setFilters] = useState({aro: false} as SchedulerFilters);
 
   useEffect(() => {
     if (Object.keys(courses).length > 0) {
-      getSections(Object.values(courses)).then((sections) => {
+
+        const missing = [];
         const newSections : Record<string, Section> = {};
-        if (sections != undefined)
-            Object.keys(courses).forEach(courseCode => newSections[courseCode] = sections[courses[courseCode]])
-            setSections(newSections);
-      });
-      getCoursesSections(Object.keys(courses)).then((sections) => {
-    console.log(Object.keys(courses), sections);
-        setAvailableSections(sections ?? {});
-      });
-    console.log(courses);
+        for (const crn in courses) {
+            if (sectionsCache[+crn] != undefined) {
+                newSections[crn] = sectionsCache[+crn];
+            } else {
+                missing.push(crn);
+            }
+        }
+        if (missing.length > 0) {
+            getSections(missing.map(x => +x)).then((sections) => {
+                if (sections != undefined) {
+                    Object.keys(courses).forEach(courseCode => { 
+                        newSections[courseCode] = sections[courses[courseCode]]; 
+                        sectionsCache[+courseCode] = sections[courses[courseCode]]; 
+                    });
+                } else {
+                    console.log("Could not get sections from db.");
+                }
+                setSections(newSections);
+            });
+        }
+        const missingSections = [];
+        const newAvailableSections : Record<string, Section[]> = {};
+        for (const courseCode in courses) {
+            if (availableSectionsCache[courseCode] != undefined) {
+                newAvailableSections[courseCode] = availableSectionsCache[courseCode];
+            } else {
+                missingSections.push(courseCode);
+            }
+        }
+        if (missingSections.length > 0) {
+            getCoursesSections(Object.keys(courses)).then((sections) => {
+                setAvailableSections(sections ?? {});
+                for (const section in sections) {
+                    availableSectionsCache[section] = sections[section];
+                    for (const sectionData of sections[section]) {
+                        sectionsCache[+sectionData.crn] = sectionData;
+                    }
+                }
+            });
+        }
     }
   }, [courses]);
 
@@ -116,7 +152,7 @@ export function CourseSchedule() {
         <h1 className="text-xl font-bold">Course Scheduler</h1>
         <div className="flex flex-row gap-2">
             <button onClick={() => { 
-                const result = scheduleAll(courses, availableSections);
+                const result = scheduleAll(courses, availableSections, filters);
                 setSchedulerResults(result );
                 setSchedule({ ...courses}); }
             } className="rounded bg-gray-200 px-2 py-1 cursor-pointer hover:text-blue-600">
@@ -139,7 +175,8 @@ export function CourseSchedule() {
             </span>
         </div>
         <div className=" ml-4">
-            <span className="text-lg font-bold">Filters:</span>
+            <span className="text-lg font-bold mr-4">Filters:</span>
+            <label><input type="checkbox" checked={filters.aro} onChange={event => setFilters({...filters, aro: event.target.checked})}/> Lecture Retake Courses (AR0/BR0)</label>
         </div>
         {schedulerResults.problems.length > 0 && <div className=" ml-4">
             <span className="text-lg font-bold">Could not schedule all:</span>
@@ -150,6 +187,7 @@ export function CourseSchedule() {
 }
 
 type SchedulerProblem = {type: string, courseA?: string, courseB?: string, sectionA?: number, sectionB?: number, course?: string, msg: string};
+type SchedulerFilters = {aro: boolean}
 
 function renderScheduleProblems(problems : SchedulerProblem[]) {
     return <div>
@@ -239,7 +277,7 @@ function schedulePrecheck(
     return problems;
 }
 
-function scheduleAll(courses : Record<string, number>, sections : Record<string, Section[]>){
+function scheduleAll(courses : Record<string, number>, sections : Record<string, Section[]>, filters : SchedulerFilters){
     console.log("Scheduling " + Object.values(courses).length + " courses...", courses, sections);
     const startTime = performance.now();
     const bitmasks : Record<number, bigint> = {};
@@ -259,7 +297,7 @@ function scheduleAll(courses : Record<string, number>, sections : Record<string,
     const problems = schedulePrecheck(courses, sections, bitmasks);
     const bestSchedule : Record<string, number> = { score: 0 };
     const validSchedules : Record<string, number>[] = [];
-    schedule(courses, bestSchedule, sections, bitmasks, currentBitmask, validSchedules);
+    schedule(courses, bestSchedule, sections, bitmasks, currentBitmask, validSchedules, filters);
     console.log(validSchedules);
     delete bestSchedule.score;
     Object.keys(bestSchedule).forEach(course => courses[course] = bestSchedule[course]);
@@ -272,7 +310,7 @@ function scheduleAll(courses : Record<string, number>, sections : Record<string,
 
 function evalSchedule(schedule : Record<string, number>, sections : Record<string, Section[]>) : number {
     // maximizing total schedule CRN
-    return Math.random();
+    return 1;
 }
 
 function schedule(
@@ -281,7 +319,8 @@ function schedule(
     sections : Record<string, Section[]>,
     bitmasks : Record<number, bigint>,
     currentBitmask : bigint,
-    validSchedules : Record<string, number>[]
+    validSchedules : Record<string, number>[],
+    filters : SchedulerFilters
 ) {
     const nextCourse = (Object.entries(currentSchedule).find(x => x[1] == 0) ?? [])[0];
     if (nextCourse == undefined) {
@@ -301,6 +340,10 @@ function schedule(
             return;
         }
         for (const section of sections[nextCourse]) {
+            if (!filters.aro) {
+                if (section.sectionNum.match(/[A-E]R(0|O)/))
+                    continue;
+            }
             const newSectionBitmask = bitmasks[+section.crn];
             // console.log("Section " + section.crn + " bitmask: \n" + bitmaskToString(newSectionBitmask), "\nCurrent bitmask: \n" + bitmaskToString(currentBitmask));
             if ((newSectionBitmask & currentBitmask) != BigInt(0)) {
@@ -310,7 +353,7 @@ function schedule(
             }
             // set course for now and start looking deeper.
             currentSchedule[nextCourse] = +section.crn;
-            schedule(currentSchedule, bestSchedule, sections, bitmasks, currentBitmask | newSectionBitmask, validSchedules);
+            schedule(currentSchedule, bestSchedule, sections, bitmasks, currentBitmask | newSectionBitmask, validSchedules, filters);
             currentSchedule[nextCourse] = 0;
         }
     }
