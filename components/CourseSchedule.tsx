@@ -105,15 +105,16 @@ export function CourseSchedule() {
             opacity={opacity}
             onClick={() => setInspectedCourse({slug: course})}/>
   }
+  
+  const hoverSection = availableCrns[hoverCrn] ?? sectionsCache[hoverCrn];
 
   const courseBlocks = sections == undefined ? [] : Object.keys(courses)
   .flatMap(course => (
     sections[course]?.meetings as Meeting[])
         ?.map(meeting => 
-            getCourseBlock(course, sections[course], meeting)
+            getCourseBlock(course, sections[course], meeting, hoverSection && hoverSection.courseCode == course ? 0.4 : 1)
   ) ?? []);
 
-  const hoverSection = availableCrns[hoverCrn] ?? sectionsCache[hoverCrn];
   if (activeScheduling && hoverCrn > 0 && hoverSection != null) {
     console.log("hovering for " + hoverCrn);
     courseBlocks.push(
