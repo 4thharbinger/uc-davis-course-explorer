@@ -1,0 +1,70 @@
+
+.inputField>label {
+  padding: 0 0.2em;
+  position: absolute;
+  top: 0.7em;
+  left: 1em;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 1.5em;
+  transition: 0.2s all ease;
+}
+
+.inputField:focus-within>label,
+.inputField:has(input:not(:placeholder-shown))>label,
+.inputField:has(textarea:not(:placeholder-shown))>label {
+  top: 0.5em;
+  font-size: 0.8em;
+}
+
+.inputField>input, .inputField>textarea {
+  outline: none;
+  background: none;
+  border: none;
+  color: #0a1b47;
+  top: 10px;
+  position: relative;
+  max-width: 100%;
+  width: 9999px;
+  font-size: 1.5em;
+}
+
+.inputField>textarea {
+  min-height: 200px;
+  font-size: 1em;
+  max-width: 100%;
+}
+
+.inputField {
+  position: relative;
+  max-width: 500px;
+  padding: 10px;
+  margin: 5px auto;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  background: #ffffff;
+  color: #0a1b47;
+  padding-bottom: 25px;
+  transition: 0.3s;
+}
+
+.inputField.error {
+  border-color: red;
+  color: darkred;
+  background-color: #fff0f0;
+}
+
+.inputField.success {
+  border-color: green;
+  color: darkgreen;
+  background-color: #f0fff0;
+}
+
+.inputField input::placeholder {
+  color: #02012600;
+}
+.inputField input:-webkit-autofill,
+.inputField input:-webkit-autofill:hover,
+.inputField input:-webkit-autofill:focus
+{ 
+    -webkit-box-shadow: 0 0 0px 1000px #ffffff7f inset !important;
+}
