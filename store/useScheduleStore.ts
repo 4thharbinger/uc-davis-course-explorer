@@ -1,4 +1,5 @@
 import { create } from 'zustand';
+import { persist } from 'zustand/middleware';
 
 type ScheduleState = {
     schedule: Record<string, number>;
@@ -14,7 +15,7 @@ type ScheduleState = {
 }
 
 const isDev = process.env.NODE_ENV === 'development';
-export const useScheduleStore = create<ScheduleState>((set) => ({
+export const useScheduleStore = create(persist<ScheduleState>((set) => ({
   schedule: isDev ? { "MAT021C": 0, "PHY009HA": 0, "ENG004": 0, "EAE001": 0, "CHE004A": 0 } : ({} as Record<string, number>),
   setSchedule: (schedule) => set({ schedule }),
   hoverCrn: 0,
@@ -36,6 +37,9 @@ export const useScheduleStore = create<ScheduleState>((set) => ({
     return { schedule: newSchedule };
   }),
   clearSchedule: () => set({ schedule: {} }),
-}));
+}),
+    {
+      name: 'schedule',
+    }));
 
 export default useScheduleStore
