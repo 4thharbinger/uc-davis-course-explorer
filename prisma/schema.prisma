@@ -55,3 +55,30 @@ model Section {
   
   course       Course   @relation(fields: [courseCode], references: [slug], onDelete: Cascade)
 }
+
+// public visible user stuff
+model UserProfile { 
+  username     String @id
+  display      String?
+  email        String?
+
+  use          User         @relation(fields: [username], references: [username], map: "user_profile_username_fkey")
+}
+
+// private user data
+model UserData { 
+  username     String @id
+
+  user         User         @relation(fields: [username], references: [username], map: "user_data_username_fkey")
+}
+
+// login info
+model User {
+  username     String @id
+  password     String // hashed password
+  created      DateTime @default(now())
+  lastActive   DateTime @updatedAt
+  
+  profile      UserProfile?
+  data         UserData?
+}
