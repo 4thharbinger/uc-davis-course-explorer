@@ -163,8 +163,8 @@ export function CourseSchedule() {
             </tbody>
         </table> */}
     </div>
-    {unscheduledCourses.length > 0 && <div>
-        <h1 className="text-xl font-bold">Unscheduled Courses</h1>
+    <div>
+        <h1 className="text-xl font-bold">{unscheduledCourses.length > 0 ? "Unscheduled Courses" : ""}</h1>
         <ul className="flex flex-row gap-2">
             {unscheduledCourses.map((courseCode) => (
                 <li key={String(courseCode)}>
@@ -178,15 +178,19 @@ export function CourseSchedule() {
                     </div>
                 </li>
             ))}
-            <li className="ml-auto">
+            {!autoSchedulerOpen && <li className="ml-auto">
                 <button className={"flex flex-col relative items-center gap-2 bg-gray-200 px-2 py-1 float-right rounded cursor-pointer w-40 hover:text-blue-600 " + (autoSchedulerOpen ? "text-blue-600" : "")} onClick={() => setAutoSchedulerOpen(!autoSchedulerOpen)} >
                     {autoSchedulerOpen ? "Close" : "Auto Scheduler"}
                 </button>
-            </li>
+            </li>}
         </ul>
-    </div>}
+    </div>
     {autoSchedulerOpen && <div className="mt-4">
-        <h1 className="text-xl font-bold">Course Scheduler</h1>
+        <h1 className="text-xl font-bold">Course Scheduler</h1><div className="ml-auto">
+            <button className={"flex flex-col relative items-center gap-2 bg-gray-200 px-2 py-1 float-right rounded cursor-pointer w-40 hover:text-blue-600 " + (autoSchedulerOpen ? "text-blue-600" : "")} onClick={() => setAutoSchedulerOpen(!autoSchedulerOpen)} >
+                {autoSchedulerOpen ? "Close" : "Auto Scheduler"}
+            </button>
+        </div>
         <div className="flex flex-row gap-2">
             <button onClick={() => { 
                 const result = scheduleAll(courses, availableSections, filters);
@@ -347,7 +351,7 @@ function scheduleAll(courses : Record<string, number>, sections : Record<string,
 
 function evalSchedule(schedule : Record<string, number>, sections : Record<string, Section[]>) : number {
     // maximizing total schedule CRN
-    return 1;
+    return Object.values(schedule).reduce((acc, cur) => acc + cur);
 }
 
 function schedule(
