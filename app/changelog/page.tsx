@@ -1,10 +1,11 @@
 import { Footer } from "@/components/Footer";
+import Header from "@/components/Header";
 
 export default async function CourseExplorer() {
 
   return (
     <div className="flex flex-col w-full h-screen overflow-hidden bg-white">
-      <header className="flex-none h-14 border-b px-4 flex items-center bg-white z-10 border-gray-200 text-2xl font-bold"> Changelog</header> 
+      <Header> Changelog</Header> 
       <main className="flex-1 flex overflow-hidden min-h-0">
         <article className="p-4 text-justify w-full max-w-2xl mx-auto gap-4 flex flex-col">
           <ChangelogEntry date="July 16, 2026" changes={["Sections now preview meetings when hovering over their list entries", "Some potential bandwidth and performance improvements", "Fixed: Duplicate scheduler error messages"]}/>

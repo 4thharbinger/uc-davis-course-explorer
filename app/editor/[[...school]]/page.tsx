@@ -2,6 +2,7 @@ import { redirect } from "next/navigation";
 import getSchoolCourses from "@/lib/getSchoolCourses";
 import getSchoolInfo from "@/lib/getSchoolInfo";
 import { CourseEditor } from "@/components/CourseEditor";
+import Header from "@/components/Header";
 
 interface SchoolProps {
   params: Promise<{ school: string[] }>;
@@ -24,7 +25,7 @@ export default async function CourseExplorer({ params } : SchoolProps ) {
 
   return (
     <div className="flex flex-col w-full h-screen overflow-hidden text-gray-900 bg-white">
-      <header className="flex-none h-14 border-b px-4 flex items-center bg-white z-10 border-gray-200 text-2xl font-bold"> Course Editor —  <span className="ml-2 text-gray-500">{schoolInfo.name}</span> </header> 
+      <Header> Course Editor —  <span className="ml-2 text-gray-500">{schoolInfo.name}</span> </Header> 
 
       <CourseEditor courseLibrary={courses} courseCode={selectedCourse ?? ""}/>
       <footer className="flex-none h-8 border-t bg-gray-50 px-4 flex items-center border-gray-200 justify-between text-xs text-gray-500 z-10">

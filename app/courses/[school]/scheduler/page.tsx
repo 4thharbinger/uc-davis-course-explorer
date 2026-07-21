@@ -8,6 +8,7 @@ import getSchoolInfo from "@/lib/getSchoolInfo";
 import { CourseSchedule } from "@/components/CourseSchedule";
 import { useScheduleStore } from "@/store/useScheduleStore";
 import CourseSectionList from "@/components/CourseSectionList";
+import Header from "@/components/Header";
 
 interface SchoolProps {
   params: Promise<{ school: string[] }>;
@@ -23,7 +24,7 @@ export default async function CourseScheduler({ params } : SchoolProps ) {
 
   return (
     <div className="flex flex-col w-full h-screen overflow-hidden text-gray-900 bg-white">
-      <header className="flex-none h-14 border-b px-4 flex items-center bg-white z-10 border-gray-200 text-2xl font-bold"> Course Explorer —  <span className="ml-2 text-gray-500">{schoolInfo.name}</span> </header> 
+      <Header> Course Explorer —  <span className="ml-2 text-gray-500">{schoolInfo.name}</span> </Header> 
       <main className="flex-1 flex overflow-hidden min-h-0">
           <CourseSearch/>
 

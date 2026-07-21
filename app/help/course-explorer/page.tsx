@@ -1,9 +1,10 @@
+import Header from "@/components/Header";
 
 export default async function CourseExplorer() {
 
   return (
     <div className="flex flex-col w-full h-screen overflow-hidden bg-white">
-      <header className="flex-none h-14 border-b px-4 flex items-center bg-white z-10 border-gray-200 text-2xl font-bold"> Help —  <span className="ml-2 text-gray-500">Course Explorer</span> </header> 
+      <Header> Help —  <span className="ml-2 text-gray-500">Course Explorer</span> </Header> 
       <main className="flex-1 flex overflow-hidden min-h-0">
         <article className="p-4 text-justify w-full max-w-2xl mx-auto gap-4 flex flex-col items-center">
           <h1 className="text-xl text-center font-bold">Course Explorer</h1>
