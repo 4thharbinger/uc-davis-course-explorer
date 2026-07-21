@@ -1,0 +1,29 @@
+[
+    {
+        "ID": 6,
+        "LABEL": "Fall 2026",
+        "QUARTERCODE": "202610",
+        "FRESHMANTHROUGHDATE": "August, 28 2026 15:00:00",
+        "FRESHMANTHROUGHTEXT": "Currently open to first year and transfer students",
+        "INACTIVE": false,
+        "TABORDER": 1
+    },
+    {
+        "ID": 5,
+        "LABEL": "Spring 2026",
+        "QUARTERCODE": "202603",
+        "FRESHMANTHROUGHDATE": "March, 06 2026 15:24:00",
+        "FRESHMANTHROUGHTEXT": "Currently open to first year and transfer students",
+        "INACTIVE": false,
+        "TABORDER": 2
+    },
+    {
+        "ID": 3,
+        "LABEL": "Winter 2026",
+        "QUARTERCODE": "202601",
+        "FRESHMANTHROUGHDATE": "December, 05 2025 15:32:00",
+        "FRESHMANTHROUGHTEXT": "Currently open to first year and transfer students",
+        "INACTIVE": false,
+        "TABORDER": 3
+    }
+]
