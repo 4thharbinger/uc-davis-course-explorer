@@ -1,0 +1,419 @@
+<?xml version="1.0"?>
+<courseleaf>
+
+<title>Statistics, Bachelor of Science</title>
+
+
+<text>
+<![CDATA[  
+
+  
+]]>
+</text>
+<informationtext name="Information">
+<![CDATA[
+<p>Statistics enables us to make inferences about entire populations based on samples taken from them. Statistical methods can be applied to problems in almost every discipline and are vitally important to researchers in the agricultural, biological, environmental, social, engineering, and medical sciences.</p>
+<h2>The Program</h2>
+<p>Statistics majors may receive either a Bachelor of Arts (A.B.) or a Bachelor of Science (B.S.) degree. Both the A.B. and B.S. degree programs require coursework in both theoretical and applied statistics, highlighting the strong interdependence between statistical theory and its applications and computational aspects. The B.S. degree program has four tracks: Applied Statistics Track, General Track, Machine Learning Track, and the Statistical Data Science Track. Students choose one track to pursue based on their interests. Multiple track selection is not possible.</p>
+<p><strong>B.S. in Statistics-Applied Statistics Track</strong> emphasizes statistical applications. This track is recommended for students who are interested in applications of statistical techniques to various disciplines including the biological, physical and social sciences.</p>
+<p><strong>B.S. in Statistics-General Track</strong> emphasizes statistical theory and is especially recommended as preparation for graduate study in statistics.</p>
+<p><strong>B.S in Statistics-Machine Learning Track</strong> emphasizes algorithmic and theoretical aspects of statistical learning methodologies that are geared towards building predictive and explanatory models for large and complex data. It is recommended for students interested in pursuing graduate programs in statistics, machine learning, or data science, as well as for students interested in learning statistical techniques for industry.</p>
+<p><strong>B.S. in Statistic-Statistical Data Science Track</strong> emphasizes data handling skills and statistical computation. This track is recommended for students interested in statistical learning methodology, advanced data handling techniques and computational aspects of statistical analysis.</p>
+<h3>Major Advisors</h3>
+<p>For a current list of faculty and staff advisors, see <a href="https://statistics.ucdavis.edu/undergrad/advising" target="_blank">Undergraduate Advising</a>.</p>
+<p>The requirements for continuing students to change into the Statistics major can be found at <a href="https://statistics.ucdavis.edu/undergrad/advising/change-of-major/statistics">Statistics Change of Major Requirements &amp; Process</a>.  </p>
+<p>Students are encouraged to meet with an advisor to plan a program as early as possible.</p>
+<h3>Career Alternatives</h3>
+<p>Probability models, statistical methods, and computational techniques are used in a great many fields, including the biological, physical, social, and health sciences, business, and engineering. The wide applicability of statistics is reflected in the strong demand for graduates with statistical training in both the public and private sectors. Employment opportunities include careers in data &amp; policy analysis in government &amp; industry, financial management, quality control, insurance &amp; healthcare industry, actuarial science, engineering, public health, biological &amp; pharmaceutical research, law, and education. Students with an undergraduate degree in statistics have entered advanced studies in statistics, economics, finance, psychology, medicine, business management &amp; analytics, and other professional school programs.</p>
+]]>
+</informationtext>
+<requirementstext name="Requirements">
+<![CDATA[
+<p>The major requirements below are in addition to meeting <a href="/undergraduate-education/university-degree-requirements/">University Degree Requirements</a> &amp; <a href="/undergraduate-education/college-degree-requirements/">College Degree Requirements</a>; unless otherwise noted. Respective of the Track, the minimum number of units required for the Statistics Bachelor of Science are 79, 83, 80, &amp; 80.</p>
+<h2 class="toggle">Applied Statistics Track</h2>
+<table class="sc_courselist">
+<caption class="hidden noscript">Course List</caption>
+<colgroup>
+<col class="codecol"/>
+<col class="titlecol"/>
+<col align="char" char="." class="hourscol"/>
+</colgroup>
+<thead>
+<tr class="hidden noscript">
+<th scope="col">Code</th>
+<th scope="col">Title</th>
+<th scope="col" class="hourscol">Units</th>
+</tr>
+</thead>
+<tbody>
+<tr class="even areaheader  firstrow"><td colspan="2"><span class="courselistcomment areaheader ">Preparatory Subject Matter</span></td><td class="hourscol"></td></tr>
+<tr class="odd areasubheader undefined"><td colspan="2"><span class="courselistcomment areasubheader undefined">Mathematics</span></td><td class="hourscol"></td></tr>
+<tr class="even"><td class="codecol"><span class="code_bubble" data-code-bubble="MAT 021A">MAT 021A</span></td><td>Calculus (<span class="code_bubble" data-code-bubble="MAT 021A">MAT 021A</span> strongly preferred)</td><td class="hourscol">4</td></tr>
+<tr class="orclass even"><td class="codecol orclass">or <span class="code_bubble" data-code-bubble="MAT 019A">MAT 019A</span></td><td colspan="2"> Calculus for Data-Driven Applications</td></tr>
+<tr class="orclass even"><td class="codecol orclass">or <span class="code_bubble" data-code-bubble="MAT 017A">MAT 017A</span></td><td colspan="2"> Calculus for Biology &amp; Medicine</td></tr>
+<tr class="odd"><td class="codecol"><span class="code_bubble" data-code-bubble="MAT 021B">MAT 021B</span></td><td>Calculus (<span class="code_bubble" data-code-bubble="MAT 021B">MAT 021B</span> strongly preferred)</td><td class="hourscol">4</td></tr>
+<tr class="orclass odd"><td class="codecol orclass">or <span class="code_bubble" data-code-bubble="MAT 019B">MAT 019B</span></td><td colspan="2"> Calculus for Data-Driven Applications</td></tr>
+<tr class="orclass odd"><td class="codecol orclass">or <span class="code_bubble" data-code-bubble="MAT 017B">MAT 017B</span></td><td colspan="2"> Calculus for Biology &amp; Medicine</td></tr>
+<tr class="even"><td class="codecol"><span class="code_bubble" data-code-bubble="MAT 021C">MAT 021C</span></td><td>Calculus (<span class="code_bubble" data-code-bubble="MAT 021C">MAT 021C</span> strongly preferred)</td><td class="hourscol">4</td></tr>
+<tr class="orclass even"><td class="codecol orclass">or <span class="code_bubble" data-code-bubble="MAT 019C">MAT 019C</span></td><td colspan="2"> Calculus for Data-Driven Applications</td></tr>
+<tr class="orclass even"><td class="codecol orclass">or <span class="code_bubble" data-code-bubble="MAT 017C">MAT 017C</span></td><td colspan="2"> Calculus for Biology &amp; Medicine</td></tr>
+<tr class="odd"><td class="codecol"><span class="code_bubble" data-code-bubble="MAT 022A">MAT 022A</span></td><td>Linear Algebra</td><td class="hourscol">4</td></tr>
+<tr class="orclass odd"><td class="codecol orclass">or <span class="code_bubble" data-code-bubble="MAT 067">MAT 067</span></td><td colspan="2"> Modern Linear Algebra</td></tr>
+<tr class="orclass odd"><td class="codecol orclass">or <span class="code_bubble" data-code-bubble="MAT 027A">MAT 027A</span></td><td colspan="2"> Linear Algebra with Applications to Biology</td></tr>
+<tr class="orclass odd"><td class="codecol orclass">or <span class="code_bubble" data-code-bubble="BIS 027A">BIS 027A</span></td><td colspan="2"> Linear Algebra with Applications to Biology</td></tr>
+<tr class="even areasubheader undefined"><td colspan="2"><span class="courselistcomment areasubheader undefined">Computer Science Engineering</span></td><td class="hourscol"></td></tr>
+<tr class="odd"><td class="codecol"><span class="code_bubble" data-code-bubble="ECS 032A">ECS 032A</span></td><td>Introduction to Programming</td><td class="hourscol">4</td></tr>
+<tr class="orclass odd"><td class="codecol orclass">or <span class="code_bubble" data-code-bubble="ECS 032AV">ECS 032AV</span></td><td colspan="2"> Introduction to Programming</td></tr>
+<tr class="orclass odd"><td class="codecol orclass">or <span class="code_bubble" data-code-bubble="ECS 036A">ECS 036A</span></td><td colspan="2"> Programming &amp; Problem Solving </td></tr>
+<tr class="even areasubheader undefined"><td colspan="2"><span class="courselistcomment areasubheader undefined">Statistics</span></td><td class="hourscol"></td></tr>
+<tr class="odd"><td colspan="2"><span class="courselistcomment">Choose one:</span></td><td class="hourscol">4-8</td></tr>
+<tr class="even"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="STA 013">STA 013</span></div></td><td>Elementary Statistics</td><td class="hourscol"></td></tr>
+<tr class="orclass even"><td class="codecol orclass"><div style="margin-left:20px;" class="blockindent">or <span class="code_bubble" data-code-bubble="STA 013V">STA 013V</span></div></td><td colspan="2"> Elementary Statistics</td></tr>
+<tr class="orclass even"><td class="codecol orclass"><div style="margin-left:20px;" class="blockindent">or <span class="code_bubble" data-code-bubble="STA 013Y">STA 013Y</span></div></td><td colspan="2"> Elementary Statistics</td></tr>
+<tr class="odd"><td colspan="2"><div style="margin-left:20px;" class="blockindent"><span class="courselistcomment commentindent"><span class="code_bubble" data-code-bubble="STA 013">STA 013</span> or <span class="code_bubble" data-code-bubble="STA 013V">STA 013V</span> or <span class="code_bubble" data-code-bubble="STA 013Y">STA 013Y</span> NOT recommended.</span></div></td><td class="hourscol"></td></tr>
+<tr class="even"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="STA 032">STA 032</span></div></td><td>Gateway to Statistical Data Science</td><td class="hourscol"></td></tr>
+<tr class="odd"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="STA 035A">STA 035A</span><br/><span style="margin-left:20px;" class="blockindent">&amp; <span class="code_bubble" data-code-bubble="STA 035B">STA 035B</span></span></div></td><td>Statistical Data Science I<br/><span style="margin-left:20px;" class="blockindent">and Statistical Data Science II</span></td><td class="hourscol"></td></tr>
+<tr class="even"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="STA 100">STA 100</span></div></td><td>Applied Statistics for Biological Sciences</td><td class="hourscol"></td></tr>
+<tr class="odd areasubheader undefined"><td colspan="2"><span class="courselistcomment areasubheader undefined">Domain Emphasis Prerequisites</span></td><td class="hourscol"></td></tr>
+<tr class="even"><td colspan="2"><span class="courselistcomment">Two introductory courses serving as the prerequisites to the chosen Domain Emphasis; see <strong>Domain Emphasis</strong> section, below.   </span></td><td class="hourscol">7-8</td></tr>
+<tr class="odd"><td colspan="2"><div style="margin-left:20px;" class="blockindent"><span class="courselistcomment commentindent">Note: Additional coursework beyond this requirement may be needed to fulfill the Domain Emphasis prerequisites. </span></div></td><td class="hourscol"></td></tr>
+<tr class="even"><td colspan="2"><span class="courselistcomment">Preparatory Subject Matter Subtotal</span></td><td class="hourscol">31-36</td></tr>
+<tr class="odd areaheader "><td colspan="2"><span class="courselistcomment areaheader ">Depth Subject Matter</span></td><td class="hourscol"></td></tr>
+<tr class="even areasubheader undefined"><td colspan="2"><span class="courselistcomment areasubheader undefined">Core Coursework</span></td><td class="hourscol"></td></tr>
+<tr class="odd"><td colspan="2"><span class="courselistcomment">Statistics</span></td><td class="hourscol">24</td></tr>
+<tr class="even"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="STA 106">STA 106</span></div></td><td>Applied Statistical Methods: Analysis of Variance</td><td class="hourscol"></td></tr>
+<tr class="odd"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="STA 108">STA 108</span></div></td><td>Applied Statistical Methods: Regression Analysis</td><td class="hourscol"></td></tr>
+<tr class="even"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="STA 130A">STA 130A</span></div></td><td>Mathematical Statistics: Brief Course</td><td class="hourscol"></td></tr>
+<tr class="odd"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="STA 130B">STA 130B</span></div></td><td>Mathematical Statistics: Brief Course</td><td class="hourscol"></td></tr>
+<tr class="even"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="STA 138">STA 138</span></div></td><td>Analysis of Categorical Data</td><td class="hourscol"></td></tr>
+<tr class="odd"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="STA 141A">STA 141A</span></div></td><td>Fundamentals of Statistical Data Science</td><td class="hourscol"></td></tr>
+<tr class="even areasubheader undefined"><td colspan="2"><span class="courselistcomment areasubheader undefined">Advanced Electives</span></td><td class="hourscol"></td></tr>
+<tr class="odd"><td colspan="2"><span class="courselistcomment">Choose three: </span></td><td class="hourscol">12</td></tr>
+<tr class="even"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="STA 104">STA 104</span></div></td><td>Applied Statistical Methods: Nonparametric Statistics</td><td class="hourscol"></td></tr>
+<tr class="odd"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="STA 135">STA 135</span></div></td><td>Multivariate Data Analysis</td><td class="hourscol"></td></tr>
+<tr class="even"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="STA 137">STA 137</span></div></td><td>Applied Time Series Analysis</td><td class="hourscol"></td></tr>
+<tr class="odd"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="STA 141B">STA 141B</span></div></td><td>Data &amp; Web Technologies for Data Analysis</td><td class="hourscol"></td></tr>
+<tr class="even"><td colspan="2"><div style="margin-left:20px;" class="blockindent"><span class="courselistcomment commentindent">Only one of <span class="code_bubble" data-code-bubble="STA 141B">STA 141B</span> or <span class="code_bubble" data-code-bubble="STA 141C">STA 141C</span> can be used as an elective.</span></div></td><td class="hourscol"></td></tr>
+<tr class="odd"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="STA 141C">STA 141C</span></div></td><td>Big Data &amp; High Performance Statistical Computing</td><td class="hourscol"></td></tr>
+<tr class="even"><td colspan="2"><div style="margin-left:20px;" class="blockindent"><span class="courselistcomment commentindent">Only one of <span class="code_bubble" data-code-bubble="STA 141B">STA 141B</span> or <span class="code_bubble" data-code-bubble="STA 141C">STA 141C</span> can be used as an elective.</span></div></td><td class="hourscol"></td></tr>
+<tr class="odd"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="STA 144">STA 144</span></div></td><td>Sampling Theory of Surveys</td><td class="hourscol"></td></tr>
+<tr class="even"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="STA 145">STA 145</span></div></td><td>Bayesian Statistical Inference</td><td class="hourscol"></td></tr>
+<tr class="odd"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="STA 160">STA 160</span></div></td><td>Practice in Statistical Data Science</td><td class="hourscol"></td></tr>
+<tr class="even"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="MAT 168">MAT 168</span></div></td><td>Optimization</td><td class="hourscol"></td></tr>
+<tr class="orclass even"><td class="codecol orclass"><div style="margin-left:20px;" class="blockindent">or <span class="code_bubble" data-code-bubble="MAT 168V">MAT 168V</span></div></td><td colspan="2"> Optimization</td></tr>
+<tr class="odd"><td colspan="2"><div style="margin-left:20px;" class="blockindent"><span class="courselistcomment commentindent">With advisor approval, one of <span class="code_bubble" data-code-bubble="STA 194HA">STA 194HA</span> or <span class="code_bubble" data-code-bubble="STA 194HB">STA 194HB</span> or <span class="code_bubble" data-code-bubble="STA 199">STA 199</span> may be used as an elective. The course must be taken for four units.</span></div></td><td class="hourscol"></td></tr>
+<tr class="even"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="STA 194HA">STA 194HA</span></div></td><td>Special Studies for Honors Students</td><td class="hourscol"></td></tr>
+<tr class="odd"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="STA 194HB">STA 194HB</span></div></td><td>Special Studies for Honors Students</td><td class="hourscol"></td></tr>
+<tr class="even"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="STA 199">STA 199</span></div></td><td>Special Study for Advanced Undergraduates</td><td class="hourscol"></td></tr>
+<tr class="odd areasubheader undefined"><td colspan="2"><span class="courselistcomment areasubheader undefined">Domain Emphasis</span></td><td class="hourscol"></td></tr>
+<tr class="even"><td colspan="2"><span class="courselistcomment">Choose four upper division courses outside of statistics:</span></td><td class="hourscol">12-16</td></tr>
+<tr class="odd"><td colspan="2"><div style="margin-left:20px;" class="blockindent"><span class="courselistcomment commentindent">A list of pre-approved elective courses can be found at:</span></div></td><td class="hourscol"></td></tr>
+<tr class="even"><td colspan="2"><div style="margin-left:20px;" class="blockindent"><span class="courselistcomment commentindent"><a href="https://statistics.ucdavis.edu/undergrad/ab-applied-track/electives">Pre-Approved Applied AB Electives</a></span></div></td><td class="hourscol"></td></tr>
+<tr class="odd"><td colspan="2"><span class="courselistcomment">Depth Subject Matter Subtotal</span></td><td class="hourscol">48-52</td></tr>
+<tr class="even areaheader "><td colspan="2"><span class="courselistcomment areaheader ">Major GPA Requirements</span></td><td class="hourscol"></td></tr>
+<tr class="odd"><td colspan="2"><div style="margin-left:20px;" class="blockindent"><span class="courselistcomment commentindent">Minimum 2.0 GPA in UC Davis courses used in the major.</span></div></td><td class="hourscol"></td></tr>
+<tr class="even lastrow"><td colspan="2"><div style="margin-left:20px;" class="blockindent"><span class="courselistcomment commentindent">Minimum 2.0 GPA in Upper Division UC Davis courses used in the major.</span></div></td><td class="hourscol"></td></tr>
+<tr class="listsum"><td colspan="2">Total Units</td><td class="hourscol">79-88</td></tr></tbody>
+</table>
+
+<h2 class="toggle">General Statistics Track</h2>
+<table class="sc_courselist">
+<caption class="hidden noscript">Course List</caption>
+<colgroup>
+<col class="codecol"/>
+<col class="titlecol"/>
+<col align="char" char="." class="hourscol"/>
+</colgroup>
+<thead>
+<tr class="hidden noscript">
+<th scope="col">Code</th>
+<th scope="col">Title</th>
+<th scope="col" class="hourscol">Units</th>
+</tr>
+</thead>
+<tbody>
+<tr class="even areaheader  firstrow"><td colspan="2"><span class="courselistcomment areaheader ">Preparatory Subject Matter</span></td><td class="hourscol"></td></tr>
+<tr class="odd areasubheader undefined"><td colspan="2"><span class="courselistcomment areasubheader undefined">Mathematics</span></td><td class="hourscol"></td></tr>
+<tr class="even"><td class="codecol"><span class="code_bubble" data-code-bubble="MAT 021A">MAT 021A</span></td><td>Calculus</td><td class="hourscol">4</td></tr>
+<tr class="odd"><td class="codecol"><span class="code_bubble" data-code-bubble="MAT 021B">MAT 021B</span></td><td>Calculus</td><td class="hourscol">4</td></tr>
+<tr class="even"><td class="codecol"><span class="code_bubble" data-code-bubble="MAT 021C">MAT 021C</span></td><td>Calculus</td><td class="hourscol">4</td></tr>
+<tr class="odd"><td class="codecol"><span class="code_bubble" data-code-bubble="MAT 021D">MAT 021D</span></td><td>Vector Analysis</td><td class="hourscol">4</td></tr>
+<tr class="even"><td class="codecol"><span class="code_bubble" data-code-bubble="MAT 022A">MAT 022A</span></td><td>Linear Algebra</td><td class="hourscol">4</td></tr>
+<tr class="orclass even"><td class="codecol orclass">or <span class="code_bubble" data-code-bubble="MAT 067">MAT 067</span></td><td colspan="2"> Modern Linear Algebra</td></tr>
+<tr class="orclass even"><td class="codecol orclass">or <span class="code_bubble" data-code-bubble="MAT 027A">MAT 027A</span></td><td colspan="2"> Linear Algebra with Applications to Biology</td></tr>
+<tr class="orclass even"><td class="codecol orclass">or <span class="code_bubble" data-code-bubble="BIS 027A">BIS 027A</span></td><td colspan="2"> Linear Algebra with Applications to Biology</td></tr>
+<tr class="odd areasubheader undefined"><td colspan="2"><span class="courselistcomment areasubheader undefined">Computer Science Engineering</span></td><td class="hourscol"></td></tr>
+<tr class="even"><td class="codecol"><span class="code_bubble" data-code-bubble="ECS 032A">ECS 032A</span></td><td>Introduction to Programming</td><td class="hourscol">4</td></tr>
+<tr class="orclass even"><td class="codecol orclass">or <span class="code_bubble" data-code-bubble="ECS 032AV">ECS 032AV</span></td><td colspan="2"> Introduction to Programming</td></tr>
+<tr class="orclass even"><td class="codecol orclass">or <span class="code_bubble" data-code-bubble="ECS 036A">ECS 036A</span></td><td colspan="2"> Programming &amp; Problem Solving </td></tr>
+<tr class="odd areasubheader undefined"><td colspan="2"><span class="courselistcomment areasubheader undefined">Statistics</span></td><td class="hourscol"></td></tr>
+<tr class="even"><td colspan="2"><span class="courselistcomment">Choose one:</span></td><td class="hourscol">4-8</td></tr>
+<tr class="odd"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="STA 013">STA 013</span></div></td><td>Elementary Statistics</td><td class="hourscol"></td></tr>
+<tr class="orclass odd"><td class="codecol orclass"><div style="margin-left:20px;" class="blockindent">or <span class="code_bubble" data-code-bubble="STA 013V">STA 013V</span></div></td><td colspan="2"> Elementary Statistics</td></tr>
+<tr class="orclass odd"><td class="codecol orclass"><div style="margin-left:20px;" class="blockindent">or <span class="code_bubble" data-code-bubble="STA 013Y">STA 013Y</span></div></td><td colspan="2"> Elementary Statistics</td></tr>
+<tr class="even"><td colspan="2"><div style="margin-left:20px;" class="blockindent"><span class="courselistcomment commentindent"><span class="code_bubble" data-code-bubble="STA 013">STA 013</span> or <span class="code_bubble" data-code-bubble="STA 013V">STA 013V</span> or <span class="code_bubble" data-code-bubble="STA 013Y">STA 013Y</span> NOT recommended.</span></div></td><td class="hourscol"></td></tr>
+<tr class="odd"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="STA 032">STA 032</span></div></td><td>Gateway to Statistical Data Science</td><td class="hourscol"></td></tr>
+<tr class="even"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="STA 035A">STA 035A</span><br/><span style="margin-left:20px;" class="blockindent">&amp; <span class="code_bubble" data-code-bubble="STA 035B">STA 035B</span></span></div></td><td>Statistical Data Science I<br/><span style="margin-left:20px;" class="blockindent">and Statistical Data Science II</span></td><td class="hourscol"></td></tr>
+<tr class="odd"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="STA 100">STA 100</span></div></td><td>Applied Statistics for Biological Sciences</td><td class="hourscol"></td></tr>
+<tr class="even"><td colspan="2"><span class="courselistcomment">Preparatory Subject Matter Subtotal</span></td><td class="hourscol">28-32</td></tr>
+<tr class="odd areaheader "><td colspan="2"><span class="courselistcomment areaheader ">Depth Subject Matter</span></td><td class="hourscol"></td></tr>
+<tr class="even areasubheader undefined"><td colspan="2"><span class="courselistcomment areasubheader undefined">Core Coursework</span></td><td class="hourscol"></td></tr>
+<tr class="odd"><td colspan="2"><span class="courselistcomment">Statistics</span></td><td class="hourscol">24</td></tr>
+<tr class="even"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="STA 106">STA 106</span></div></td><td>Applied Statistical Methods: Analysis of Variance</td><td class="hourscol"></td></tr>
+<tr class="odd"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="STA 108">STA 108</span></div></td><td>Applied Statistical Methods: Regression Analysis</td><td class="hourscol"></td></tr>
+<tr class="even"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="STA 131A">STA 131A</span></div></td><td>Introduction to Probability Theory</td><td class="hourscol"></td></tr>
+<tr class="odd"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="STA 131B">STA 131B</span></div></td><td>Introduction to Mathematical Statistics</td><td class="hourscol"></td></tr>
+<tr class="even"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="STA 131C">STA 131C</span></div></td><td>Introduction to Mathematical Statistics</td><td class="hourscol"></td></tr>
+<tr class="odd"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="STA 138">STA 138</span></div></td><td>Analysis of Categorical Data</td><td class="hourscol"></td></tr>
+<tr class="even"><td colspan="2"><span class="courselistcomment">Mathematics</span></td><td class="hourscol">16</td></tr>
+<tr class="odd"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="MAT 108">MAT 108</span></div></td><td>Introduction to Abstract Mathematics</td><td class="hourscol"></td></tr>
+<tr class="orclass odd"><td class="codecol orclass"><div style="margin-left:20px;" class="blockindent">or <span class="code_bubble" data-code-bubble="MAT 108V">MAT 108V</span></div></td><td colspan="2"> Introduction to Abstract Mathematics</td></tr>
+<tr class="orclass odd"><td class="codecol orclass"><div style="margin-left:20px;" class="blockindent">or <span class="code_bubble" data-code-bubble="MAT 127C">MAT 127C</span></div></td><td colspan="2"> Real Analysis</td></tr>
+<tr class="even"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="MAT 127A">MAT 127A</span></div></td><td>Real Analysis</td><td class="hourscol"></td></tr>
+<tr class="odd"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="MAT 127B">MAT 127B</span></div></td><td>Real Analysis</td><td class="hourscol"></td></tr>
+<tr class="even"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="MAT 167">MAT 167</span></div></td><td>Applied Linear Algebra</td><td class="hourscol"></td></tr>
+<tr class="orclass even"><td class="codecol orclass"><div style="margin-left:20px;" class="blockindent">or <span class="code_bubble" data-code-bubble="MAT 167V">MAT 167V</span></div></td><td colspan="2"> Applied Linear Algebra</td></tr>
+<tr class="odd areasubheader undefined"><td colspan="2"><span class="courselistcomment areasubheader undefined">Advanced Electives</span></td><td class="hourscol"></td></tr>
+<tr class="even"><td colspan="2"><span class="courselistcomment">Choose three:</span></td><td class="hourscol">12</td></tr>
+<tr class="odd"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="STA 104">STA 104</span></div></td><td>Applied Statistical Methods: Nonparametric Statistics</td><td class="hourscol"></td></tr>
+<tr class="even"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="STA 135">STA 135</span></div></td><td>Multivariate Data Analysis</td><td class="hourscol"></td></tr>
+<tr class="odd"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="STA 137">STA 137</span></div></td><td>Applied Time Series Analysis</td><td class="hourscol"></td></tr>
+<tr class="even"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="STA 141A">STA 141A</span></div></td><td>Fundamentals of Statistical Data Science</td><td class="hourscol"></td></tr>
+<tr class="odd"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="STA 141B">STA 141B</span></div></td><td>Data &amp; Web Technologies for Data Analysis</td><td class="hourscol"></td></tr>
+<tr class="even"><td colspan="2"><div style="margin-left:20px;" class="blockindent"><span class="courselistcomment commentindent">Only one of <span class="code_bubble" data-code-bubble="STA 141B">STA 141B</span> or <span class="code_bubble" data-code-bubble="STA 141C">STA 141C</span> can be used as an elective.</span></div></td><td class="hourscol"></td></tr>
+<tr class="odd"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="STA 141C">STA 141C</span></div></td><td>Big Data &amp; High Performance Statistical Computing</td><td class="hourscol"></td></tr>
+<tr class="even"><td colspan="2"><div style="margin-left:20px;" class="blockindent"><span class="courselistcomment commentindent">Only one of <span class="code_bubble" data-code-bubble="STA 141B">STA 141B</span> or <span class="code_bubble" data-code-bubble="STA 141C">STA 141C</span> can be used as an elective.</span></div></td><td class="hourscol"></td></tr>
+<tr class="odd"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="STA 142A">STA 142A</span></div></td><td>Statistical Learning I</td><td class="hourscol"></td></tr>
+<tr class="even"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="STA 142B">STA 142B</span></div></td><td>Statistical Learning II</td><td class="hourscol"></td></tr>
+<tr class="odd"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="STA 144">STA 144</span></div></td><td>Sampling Theory of Surveys</td><td class="hourscol"></td></tr>
+<tr class="even"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="STA 145">STA 145</span></div></td><td>Bayesian Statistical Inference</td><td class="hourscol"></td></tr>
+<tr class="odd"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="STA 160">STA 160</span></div></td><td>Practice in Statistical Data Science</td><td class="hourscol"></td></tr>
+<tr class="even"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="MAT 168">MAT 168</span></div></td><td>Optimization</td><td class="hourscol"></td></tr>
+<tr class="orclass even"><td class="codecol orclass"><div style="margin-left:20px;" class="blockindent">or <span class="code_bubble" data-code-bubble="MAT 168V">MAT 168V</span></div></td><td colspan="2"> Optimization</td></tr>
+<tr class="odd"><td colspan="2"><div style="margin-left:20px;" class="blockindent"><span class="courselistcomment commentindent">With advisor approval, one of <span class="code_bubble" data-code-bubble="STA 194HA">STA 194HA</span> or <span class="code_bubble" data-code-bubble="STA 194HB">STA 194HB</span> or <span class="code_bubble" data-code-bubble="STA 199">STA 199</span> may be used as an elective. The course must be taken for four units.</span></div></td><td class="hourscol"></td></tr>
+<tr class="even"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="STA 194HA">STA 194HA</span></div></td><td>Special Studies for Honors Students</td><td class="hourscol"></td></tr>
+<tr class="odd"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="STA 194HB">STA 194HB</span></div></td><td>Special Studies for Honors Students</td><td class="hourscol"></td></tr>
+<tr class="even"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="STA 199">STA 199</span></div></td><td>Special Study for Advanced Undergraduates</td><td class="hourscol"></td></tr>
+<tr class="odd areasubheader undefined"><td colspan="2"><span class="courselistcomment areasubheader undefined">Related Elective Course</span></td><td class="hourscol">3-4</td></tr>
+<tr class="even"><td colspan="2"><div style="margin-left:20px;" class="blockindent"><span class="courselistcomment commentindent">One upper division course approved by faculty advisor. A list of pre-approved electives can be found at:</span></div></td><td class="hourscol"></td></tr>
+<tr class="odd"><td colspan="2"><div style="margin-left:20px;" class="blockindent"><span class="courselistcomment commentindent"><a href="https://statistics.ucdavis.edu/undergrad/bs-general-track/electives">Pre-Approved Electives List</a></span></div></td><td class="hourscol"></td></tr>
+<tr class="even"><td colspan="2"><span class="courselistcomment">Depth Subject Matter Subtotal</span></td><td class="hourscol">55-56</td></tr>
+<tr class="odd areaheader "><td colspan="2"><span class="courselistcomment areaheader ">Major GPA Requirements</span></td><td class="hourscol"></td></tr>
+<tr class="even"><td colspan="2"><div style="margin-left:20px;" class="blockindent"><span class="courselistcomment commentindent">Minimum 2.0 GPA in UC Davis courses used in the major.</span></div></td><td class="hourscol"></td></tr>
+<tr class="odd lastrow"><td colspan="2"><div style="margin-left:20px;" class="blockindent"><span class="courselistcomment commentindent">Minimum 2.0 GPA in Upper Division UC Davis courses used in the major.</span></div></td><td class="hourscol"></td></tr>
+<tr class="listsum"><td colspan="2">Total Units</td><td class="hourscol">83-88</td></tr></tbody>
+</table>
+
+<h2 class="toggle">Machine Learning Track</h2>
+<table class="sc_courselist">
+<caption class="hidden noscript">Course List</caption>
+<colgroup>
+<col class="codecol"/>
+<col class="titlecol"/>
+<col align="char" char="." class="hourscol"/>
+</colgroup>
+<thead>
+<tr class="hidden noscript">
+<th scope="col">Code</th>
+<th scope="col">Title</th>
+<th scope="col" class="hourscol">Units</th>
+</tr>
+</thead>
+<tbody>
+<tr class="even areaheader  firstrow"><td colspan="2"><span class="courselistcomment areaheader ">Preparatory Subject Matter</span></td><td class="hourscol"></td></tr>
+<tr class="odd areasubheader undefined"><td colspan="2"><span class="courselistcomment areasubheader undefined">Mathematics</span></td><td class="hourscol"></td></tr>
+<tr class="even"><td class="codecol"><span class="code_bubble" data-code-bubble="MAT 021A">MAT 021A</span></td><td>Calculus</td><td class="hourscol">4</td></tr>
+<tr class="odd"><td class="codecol"><span class="code_bubble" data-code-bubble="MAT 021B">MAT 021B</span></td><td>Calculus</td><td class="hourscol">4</td></tr>
+<tr class="even"><td class="codecol"><span class="code_bubble" data-code-bubble="MAT 021C">MAT 021C</span></td><td>Calculus</td><td class="hourscol">4</td></tr>
+<tr class="odd"><td class="codecol"><span class="code_bubble" data-code-bubble="MAT 021D">MAT 021D</span></td><td>Vector Analysis</td><td class="hourscol">4</td></tr>
+<tr class="even"><td class="codecol"><span class="code_bubble" data-code-bubble="MAT 022A">MAT 022A</span></td><td>Linear Algebra</td><td class="hourscol">4</td></tr>
+<tr class="orclass even"><td class="codecol orclass">or <span class="code_bubble" data-code-bubble="MAT 067">MAT 067</span></td><td colspan="2"> Modern Linear Algebra</td></tr>
+<tr class="orclass even"><td class="codecol orclass">or <span class="code_bubble" data-code-bubble="MAT 027A">MAT 027A</span></td><td colspan="2"> Linear Algebra with Applications to Biology</td></tr>
+<tr class="orclass even"><td class="codecol orclass">or <span class="code_bubble" data-code-bubble="BIS 027A">BIS 027A</span></td><td colspan="2"> Linear Algebra with Applications to Biology</td></tr>
+<tr class="odd areasubheader undefined"><td colspan="2"><span class="courselistcomment areasubheader undefined">Computer Science Engineering</span></td><td class="hourscol"></td></tr>
+<tr class="even"><td class="codecol"><span class="code_bubble" data-code-bubble="ECS 032A">ECS 032A</span></td><td>Introduction to Programming</td><td class="hourscol">4</td></tr>
+<tr class="orclass even"><td class="codecol orclass">or <span class="code_bubble" data-code-bubble="ECS 032AV">ECS 032AV</span></td><td colspan="2"> Introduction to Programming</td></tr>
+<tr class="orclass even"><td class="codecol orclass">or <span class="code_bubble" data-code-bubble="ECS 036A">ECS 036A</span></td><td colspan="2"> Programming &amp; Problem Solving </td></tr>
+<tr class="odd"><td colspan="2"><div style="margin-left:20px;" class="blockindent"><span class="courselistcomment commentindent">Note: Additional coursework in Python is strongly recommended; e.g., <span class="code_bubble" data-code-bubble="ECS 032B">ECS 032B</span>.</span></div></td><td class="hourscol"></td></tr>
+<tr class="even areasubheader undefined"><td colspan="2"><span class="courselistcomment areasubheader undefined">Statistics</span></td><td class="hourscol"></td></tr>
+<tr class="odd"><td colspan="2"><span class="courselistcomment">Choose one:</span></td><td class="hourscol">4-8</td></tr>
+<tr class="even"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="STA 013">STA 013</span></div></td><td>Elementary Statistics</td><td class="hourscol"></td></tr>
+<tr class="orclass even"><td class="codecol orclass"><div style="margin-left:20px;" class="blockindent">or <span class="code_bubble" data-code-bubble="STA 013V">STA 013V</span></div></td><td colspan="2"> Elementary Statistics</td></tr>
+<tr class="orclass even"><td class="codecol orclass"><div style="margin-left:20px;" class="blockindent">or <span class="code_bubble" data-code-bubble="STA 013Y">STA 013Y</span></div></td><td colspan="2"> Elementary Statistics</td></tr>
+<tr class="odd"><td colspan="2"><div style="margin-left:20px;" class="blockindent"><span class="courselistcomment commentindent"><span class="code_bubble" data-code-bubble="STA 013">STA 013</span> or <span class="code_bubble" data-code-bubble="STA 013V">STA 013V</span> or <span class="code_bubble" data-code-bubble="STA 013Y">STA 013Y</span> NOT recommended.</span></div></td><td class="hourscol"></td></tr>
+<tr class="even"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="STA 032">STA 032</span></div></td><td>Gateway to Statistical Data Science</td><td class="hourscol"></td></tr>
+<tr class="odd"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="STA 035A">STA 035A</span><br/><span style="margin-left:20px;" class="blockindent">&amp; <span class="code_bubble" data-code-bubble="STA 035B">STA 035B</span></span></div></td><td>Statistical Data Science I<br/><span style="margin-left:20px;" class="blockindent">and Statistical Data Science II</span></td><td class="hourscol"></td></tr>
+<tr class="even"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="STA 100">STA 100</span></div></td><td>Applied Statistics for Biological Sciences</td><td class="hourscol"></td></tr>
+<tr class="odd"><td colspan="2"><span class="courselistcomment">Preparatory Subject Matter Subtotal</span></td><td class="hourscol">28-32</td></tr>
+<tr class="even areaheader "><td colspan="2"><span class="courselistcomment areaheader ">Depth Subject Matter</span></td><td class="hourscol"></td></tr>
+<tr class="odd areasubheader undefined"><td colspan="2"><span class="courselistcomment areasubheader undefined">Core Coursework</span></td><td class="hourscol"></td></tr>
+<tr class="even"><td colspan="2"><span class="courselistcomment">Statistics</span></td><td class="hourscol">36</td></tr>
+<tr class="odd"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="STA 106">STA 106</span></div></td><td>Applied Statistical Methods: Analysis of Variance</td><td class="hourscol"></td></tr>
+<tr class="even"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="STA 108">STA 108</span></div></td><td>Applied Statistical Methods: Regression Analysis</td><td class="hourscol"></td></tr>
+<tr class="odd"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="STA 131A">STA 131A</span></div></td><td>Introduction to Probability Theory</td><td class="hourscol"></td></tr>
+<tr class="even"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="STA 131B">STA 131B</span></div></td><td>Introduction to Mathematical Statistics</td><td class="hourscol"></td></tr>
+<tr class="odd"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="STA 131C">STA 131C</span></div></td><td>Introduction to Mathematical Statistics</td><td class="hourscol"></td></tr>
+<tr class="even"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="STA 141A">STA 141A</span></div></td><td>Fundamentals of Statistical Data Science</td><td class="hourscol"></td></tr>
+<tr class="odd"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="STA 142A">STA 142A</span></div></td><td>Statistical Learning I</td><td class="hourscol"></td></tr>
+<tr class="even"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="STA 142B">STA 142B</span></div></td><td>Statistical Learning II</td><td class="hourscol"></td></tr>
+<tr class="odd"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="STA 144">STA 144</span></div></td><td>Sampling Theory of Surveys</td><td class="hourscol"></td></tr>
+<tr class="orclass odd"><td class="codecol orclass"><div style="margin-left:20px;" class="blockindent">or <span class="code_bubble" data-code-bubble="STA 145">STA 145</span></div></td><td colspan="2"> Bayesian Statistical Inference</td></tr>
+<tr class="even"><td colspan="2"><span class="courselistcomment">Mathematics</span></td><td class="hourscol">4</td></tr>
+<tr class="odd"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="MAT 167">MAT 167</span></div></td><td>Applied Linear Algebra</td><td class="hourscol"></td></tr>
+<tr class="orclass odd"><td class="codecol orclass"><div style="margin-left:20px;" class="blockindent">or <span class="code_bubble" data-code-bubble="MAT 167V">MAT 167V</span></div></td><td colspan="2"> Applied Linear Algebra</td></tr>
+<tr class="orclass odd"><td class="codecol orclass"><div style="margin-left:20px;" class="blockindent">or <span class="code_bubble" data-code-bubble="MAT 168">MAT 168</span></div></td><td colspan="2"> Optimization</td></tr>
+<tr class="orclass odd"><td class="codecol orclass"><div style="margin-left:20px;" class="blockindent">or <span class="code_bubble" data-code-bubble="MAT 168V">MAT 168V</span></div></td><td colspan="2"> Optimization</td></tr>
+<tr class="even areasubheader undefined"><td colspan="2"><span class="courselistcomment areasubheader undefined">Advanced Electives</span></td><td class="hourscol"></td></tr>
+<tr class="odd"><td colspan="2"><span class="courselistcomment">Choose three:</span></td><td class="hourscol">12</td></tr>
+<tr class="even"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="STA 104">STA 104</span></div></td><td>Applied Statistical Methods: Nonparametric Statistics</td><td class="hourscol"></td></tr>
+<tr class="odd"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="STA 135">STA 135</span></div></td><td>Multivariate Data Analysis</td><td class="hourscol"></td></tr>
+<tr class="even"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="STA 137">STA 137</span></div></td><td>Applied Time Series Analysis</td><td class="hourscol"></td></tr>
+<tr class="odd"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="STA 138">STA 138</span></div></td><td>Analysis of Categorical Data</td><td class="hourscol"></td></tr>
+<tr class="even"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="STA 141B">STA 141B</span></div></td><td>Data &amp; Web Technologies for Data Analysis</td><td class="hourscol"></td></tr>
+<tr class="odd"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="STA 141C">STA 141C</span></div></td><td>Big Data &amp; High Performance Statistical Computing</td><td class="hourscol"></td></tr>
+<tr class="even"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="STA 144">STA 144</span></div></td><td>Sampling Theory of Surveys</td><td class="hourscol"></td></tr>
+<tr class="odd"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="STA 145">STA 145</span></div></td><td>Bayesian Statistical Inference</td><td class="hourscol"></td></tr>
+<tr class="even"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="MAT 127A">MAT 127A</span></div></td><td>Real Analysis</td><td class="hourscol"></td></tr>
+<tr class="odd"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="MAT 128A">MAT 128A</span></div></td><td>Numerical Analysis</td><td class="hourscol"></td></tr>
+<tr class="even"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="MAT 170">MAT 170</span></div></td><td>Mathematics for Data Analytics &amp; Decision Making</td><td class="hourscol"></td></tr>
+<tr class="odd"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="ECS 119">ECS 119</span></div></td><td>Data Processing Pipelines</td><td class="hourscol"></td></tr>
+<tr class="even"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="ECS 122A">ECS 122A</span></div></td><td>Algorithm Design &amp; Analysis </td><td class="hourscol"></td></tr>
+<tr class="orclass even"><td class="codecol orclass"><div style="margin-left:20px;" class="blockindent">or <span class="code_bubble" data-code-bubble="ECS 117">ECS 117</span></div></td><td colspan="2"> Algorithms for Data Science</td></tr>
+<tr class="odd"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="ECS 158">ECS 158</span></div></td><td>Programming on Parallel Architectures</td><td class="hourscol"></td></tr>
+<tr class="even"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="ECS 163">ECS 163</span></div></td><td>Information Visualization</td><td class="hourscol"></td></tr>
+<tr class="odd"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="ECS 165A">ECS 165A</span></div></td><td>Database Systems</td><td class="hourscol"></td></tr>
+<tr class="orclass odd"><td class="codecol orclass"><div style="margin-left:20px;" class="blockindent">or <span class="code_bubble" data-code-bubble="ECS 116">ECS 116</span></div></td><td colspan="2"> Databases for Non-Majors</td></tr>
+<tr class="even"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="ECS 170">ECS 170</span></div></td><td>Introduction to Artificial Intelligence</td><td class="hourscol"></td></tr>
+<tr class="odd"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="ECS 174">ECS 174</span></div></td><td>Computer Vision</td><td class="hourscol"></td></tr>
+<tr class="even"><td colspan="2"><div style="margin-left:20px;" class="blockindent"><span class="courselistcomment commentindent">With advisor approval, one of <span class="code_bubble" data-code-bubble="STA 194HA">STA 194HA</span> or <span class="code_bubble" data-code-bubble="STA 194HB">STA 194HB</span> or <span class="code_bubble" data-code-bubble="STA 199">STA 199</span> may be used as an elective. The course must be taken for four units.</span></div></td><td class="hourscol"></td></tr>
+<tr class="odd"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="STA 194HA">STA 194HA</span></div></td><td>Special Studies for Honors Students</td><td class="hourscol"></td></tr>
+<tr class="even"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="STA 194HB">STA 194HB</span></div></td><td>Special Studies for Honors Students</td><td class="hourscol"></td></tr>
+<tr class="odd"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="STA 199">STA 199</span></div></td><td>Special Study for Advanced Undergraduates</td><td class="hourscol"></td></tr>
+<tr class="even"><td colspan="2"><span class="courselistcomment"><strong>Note</strong>: A course used to fulfill a core requirement cannot be used as an elective.</span></td><td class="hourscol"></td></tr>
+<tr class="odd"><td colspan="2"><span class="courselistcomment">Depth Subject Matter Subtotal</span></td><td class="hourscol">52</td></tr>
+<tr class="even areaheader "><td colspan="2"><span class="courselistcomment areaheader ">Major GPA Requirements</span></td><td class="hourscol"></td></tr>
+<tr class="odd"><td colspan="2"><div style="margin-left:20px;" class="blockindent"><span class="courselistcomment commentindent">Minimum 2.0 GPA in UC Davis courses used in the major.</span></div></td><td class="hourscol"></td></tr>
+<tr class="even lastrow"><td colspan="2"><div style="margin-left:20px;" class="blockindent"><span class="courselistcomment commentindent">Minimum 2.0 GPA in Upper Division UC Davis courses used in the major.</span></div></td><td class="hourscol"></td></tr>
+<tr class="listsum"><td colspan="2">Total Units</td><td class="hourscol">80-84</td></tr></tbody>
+</table>
+
+<h2 class="toggle">Statistical Data Science Track</h2>
+<table class="sc_courselist">
+<caption class="hidden noscript">Course List</caption>
+<colgroup>
+<col class="codecol"/>
+<col class="titlecol"/>
+<col align="char" char="." class="hourscol"/>
+</colgroup>
+<thead>
+<tr class="hidden noscript">
+<th scope="col">Code</th>
+<th scope="col">Title</th>
+<th scope="col" class="hourscol">Units</th>
+</tr>
+</thead>
+<tbody>
+<tr class="even areaheader  firstrow"><td colspan="2"><span class="courselistcomment areaheader ">Preparatory Subject Matter</span></td><td class="hourscol"></td></tr>
+<tr class="odd areasubheader undefined"><td colspan="2"><span class="courselistcomment areasubheader undefined">Mathematics</span></td><td class="hourscol"></td></tr>
+<tr class="even"><td class="codecol"><span class="code_bubble" data-code-bubble="MAT 021A">MAT 021A</span></td><td>Calculus</td><td class="hourscol">4</td></tr>
+<tr class="odd"><td class="codecol"><span class="code_bubble" data-code-bubble="MAT 021B">MAT 021B</span></td><td>Calculus</td><td class="hourscol">4</td></tr>
+<tr class="even"><td class="codecol"><span class="code_bubble" data-code-bubble="MAT 021C">MAT 021C</span></td><td>Calculus</td><td class="hourscol">4</td></tr>
+<tr class="odd"><td class="codecol"><span class="code_bubble" data-code-bubble="MAT 021D">MAT 021D</span></td><td>Vector Analysis</td><td class="hourscol">4</td></tr>
+<tr class="even"><td class="codecol"><span class="code_bubble" data-code-bubble="MAT 022A">MAT 022A</span></td><td>Linear Algebra</td><td class="hourscol">4</td></tr>
+<tr class="orclass even"><td class="codecol orclass">or <span class="code_bubble" data-code-bubble="MAT 067">MAT 067</span></td><td colspan="2"> Modern Linear Algebra</td></tr>
+<tr class="orclass even"><td class="codecol orclass">or <span class="code_bubble" data-code-bubble="MAT 027A">MAT 027A</span></td><td colspan="2"> Linear Algebra with Applications to Biology</td></tr>
+<tr class="orclass even"><td class="codecol orclass">or <span class="code_bubble" data-code-bubble="BIS 027A">BIS 027A</span></td><td colspan="2"> Linear Algebra with Applications to Biology</td></tr>
+<tr class="odd areasubheader undefined"><td colspan="2"><span class="courselistcomment areasubheader undefined">Computer Science Engineering</span></td><td class="hourscol"></td></tr>
+<tr class="even"><td class="codecol"><span class="code_bubble" data-code-bubble="ECS 032A">ECS 032A</span></td><td>Introduction to Programming</td><td class="hourscol">4</td></tr>
+<tr class="orclass even"><td class="codecol orclass">or <span class="code_bubble" data-code-bubble="ECS 032AV">ECS 032AV</span></td><td colspan="2"> Introduction to Programming</td></tr>
+<tr class="orclass even"><td class="codecol orclass">or <span class="code_bubble" data-code-bubble="ECS 036A">ECS 036A</span></td><td colspan="2"> Programming &amp; Problem Solving </td></tr>
+<tr class="odd"><td colspan="2"><div style="margin-left:20px;" class="blockindent"><span class="courselistcomment commentindent">Note: Additional coursework in Python is strongly recommended; e.g., <span class="code_bubble" data-code-bubble="ECS 032B">ECS 032B</span>.</span></div></td><td class="hourscol"></td></tr>
+<tr class="even areasubheader undefined"><td colspan="2"><span class="courselistcomment areasubheader undefined">Statistics</span></td><td class="hourscol"></td></tr>
+<tr class="odd"><td colspan="2"><span class="courselistcomment">Choose one:</span></td><td class="hourscol">4-8</td></tr>
+<tr class="even"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="STA 013">STA 013</span></div></td><td>Elementary Statistics</td><td class="hourscol"></td></tr>
+<tr class="orclass even"><td class="codecol orclass"><div style="margin-left:20px;" class="blockindent">or <span class="code_bubble" data-code-bubble="STA 013V">STA 013V</span></div></td><td colspan="2"> Elementary Statistics</td></tr>
+<tr class="orclass even"><td class="codecol orclass"><div style="margin-left:20px;" class="blockindent">or <span class="code_bubble" data-code-bubble="STA 013Y">STA 013Y</span></div></td><td colspan="2"> Elementary Statistics</td></tr>
+<tr class="odd"><td colspan="2"><div style="margin-left:20px;" class="blockindent"><span class="courselistcomment commentindent"><span class="code_bubble" data-code-bubble="STA 013">STA 013</span> or <span class="code_bubble" data-code-bubble="STA 013V">STA 013V</span> or <span class="code_bubble" data-code-bubble="STA 013Y">STA 013Y</span> NOT recommended. </span></div></td><td class="hourscol"></td></tr>
+<tr class="even"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="STA 032">STA 032</span></div></td><td>Gateway to Statistical Data Science</td><td class="hourscol"></td></tr>
+<tr class="odd"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="STA 035A">STA 035A</span><br/><span style="margin-left:20px;" class="blockindent">&amp; <span class="code_bubble" data-code-bubble="STA 035B">STA 035B</span></span></div></td><td>Statistical Data Science I<br/><span style="margin-left:20px;" class="blockindent">and Statistical Data Science II</span></td><td class="hourscol"></td></tr>
+<tr class="even"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="STA 100">STA 100</span></div></td><td>Applied Statistics for Biological Sciences</td><td class="hourscol"></td></tr>
+<tr class="odd"><td colspan="2"><span class="courselistcomment">Preparatory Subject Matter Subtotal</span></td><td class="hourscol">28-32</td></tr>
+<tr class="even areaheader "><td colspan="2"><span class="courselistcomment areaheader ">Depth Subject Matter</span></td><td class="hourscol"></td></tr>
+<tr class="odd areasubheader undefined"><td colspan="2"><span class="courselistcomment areasubheader undefined">Core Coursework</span></td><td class="hourscol"></td></tr>
+<tr class="even"><td colspan="2"><span class="courselistcomment">Statistics</span></td><td class="hourscol">36</td></tr>
+<tr class="odd"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="STA 106">STA 106</span></div></td><td>Applied Statistical Methods: Analysis of Variance</td><td class="hourscol"></td></tr>
+<tr class="even"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="STA 108">STA 108</span></div></td><td>Applied Statistical Methods: Regression Analysis</td><td class="hourscol"></td></tr>
+<tr class="odd"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="STA 131A">STA 131A</span></div></td><td>Introduction to Probability Theory</td><td class="hourscol"></td></tr>
+<tr class="orclass odd"><td class="codecol orclass"><div style="margin-left:20px;" class="blockindent">or <span class="code_bubble" data-code-bubble="STA 130A">STA 130A</span></div></td><td colspan="2"> Mathematical Statistics: Brief Course</td></tr>
+<tr class="even"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="STA 131B">STA 131B</span></div></td><td>Introduction to Mathematical Statistics</td><td class="hourscol"></td></tr>
+<tr class="orclass even"><td class="codecol orclass"><div style="margin-left:20px;" class="blockindent">or <span class="code_bubble" data-code-bubble="STA 130B">STA 130B</span></div></td><td colspan="2"> Mathematical Statistics: Brief Course</td></tr>
+<tr class="odd"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="STA 135">STA 135</span></div></td><td>Multivariate Data Analysis</td><td class="hourscol"></td></tr>
+<tr class="even"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="STA 141A">STA 141A</span></div></td><td>Fundamentals of Statistical Data Science</td><td class="hourscol"></td></tr>
+<tr class="odd"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="STA 141B">STA 141B</span></div></td><td>Data &amp; Web Technologies for Data Analysis</td><td class="hourscol"></td></tr>
+<tr class="even"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="STA 141C">STA 141C</span></div></td><td>Big Data &amp; High Performance Statistical Computing</td><td class="hourscol"></td></tr>
+<tr class="odd"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="STA 160">STA 160</span></div></td><td>Practice in Statistical Data Science</td><td class="hourscol"></td></tr>
+<tr class="even"><td colspan="2"><span class="courselistcomment">Machine Learning</span></td><td class="hourscol">4</td></tr>
+<tr class="odd"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="STA 142A">STA 142A</span></div></td><td>Statistical Learning I</td><td class="hourscol"></td></tr>
+<tr class="orclass odd"><td class="codecol orclass"><div style="margin-left:20px;" class="blockindent">or <span class="code_bubble" data-code-bubble="STA 142B">STA 142B</span></div></td><td colspan="2"> Statistical Learning II</td></tr>
+<tr class="orclass odd"><td class="codecol orclass"><div style="margin-left:20px;" class="blockindent">or <span class="code_bubble" data-code-bubble="ECS 111">ECS 111</span></div></td><td colspan="2"> Applied Machine Learning for Non-Majors</td></tr>
+<tr class="orclass odd"><td class="codecol orclass"><div style="margin-left:20px;" class="blockindent">or <span class="code_bubble" data-code-bubble="ECS 171">ECS 171</span></div></td><td colspan="2"> Machine Learning</td></tr>
+<tr class="even"><td colspan="2"><span class="courselistcomment">Mathematics</span></td><td class="hourscol">4</td></tr>
+<tr class="odd"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="MAT 167">MAT 167</span></div></td><td>Applied Linear Algebra</td><td class="hourscol"></td></tr>
+<tr class="orclass odd"><td class="codecol orclass"><div style="margin-left:20px;" class="blockindent">or <span class="code_bubble" data-code-bubble="MAT 167V">MAT 167V</span></div></td><td colspan="2"> Applied Linear Algebra</td></tr>
+<tr class="orclass odd"><td class="codecol orclass"><div style="margin-left:20px;" class="blockindent">or <span class="code_bubble" data-code-bubble="MAT 168">MAT 168</span></div></td><td colspan="2"> Optimization</td></tr>
+<tr class="orclass odd"><td class="codecol orclass"><div style="margin-left:20px;" class="blockindent">or <span class="code_bubble" data-code-bubble="MAT 168V">MAT 168V</span></div></td><td colspan="2"> Optimization</td></tr>
+<tr class="even areasubheader undefined"><td colspan="2"><span class="courselistcomment areasubheader undefined">Advanced Electives</span></td><td class="hourscol"></td></tr>
+<tr class="odd"><td colspan="2"><span class="courselistcomment">Choose two:</span></td><td class="hourscol">8</td></tr>
+<tr class="even"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="STA 104">STA 104</span></div></td><td>Applied Statistical Methods: Nonparametric Statistics</td><td class="hourscol"></td></tr>
+<tr class="odd"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="STA 137">STA 137</span></div></td><td>Applied Time Series Analysis</td><td class="hourscol"></td></tr>
+<tr class="even"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="STA 138">STA 138</span></div></td><td>Analysis of Categorical Data</td><td class="hourscol"></td></tr>
+<tr class="odd"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="STA 142A">STA 142A</span></div></td><td>Statistical Learning I</td><td class="hourscol"></td></tr>
+<tr class="even"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="STA 142B">STA 142B</span></div></td><td>Statistical Learning II</td><td class="hourscol"></td></tr>
+<tr class="odd"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="STA 144">STA 144</span></div></td><td>Sampling Theory of Surveys</td><td class="hourscol"></td></tr>
+<tr class="even"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="STA 145">STA 145</span></div></td><td>Bayesian Statistical Inference</td><td class="hourscol"></td></tr>
+<tr class="odd"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="MAT 128A">MAT 128A</span></div></td><td>Numerical Analysis</td><td class="hourscol"></td></tr>
+<tr class="even"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="MAT 170">MAT 170</span></div></td><td>Mathematics for Data Analytics &amp; Decision Making</td><td class="hourscol"></td></tr>
+<tr class="odd"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="ECS 119">ECS 119</span></div></td><td>Data Processing Pipelines</td><td class="hourscol"></td></tr>
+<tr class="even"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="ECS 122A">ECS 122A</span></div></td><td>Algorithm Design &amp; Analysis </td><td class="hourscol"></td></tr>
+<tr class="orclass even"><td class="codecol orclass"><div style="margin-left:20px;" class="blockindent">or <span class="code_bubble" data-code-bubble="ECS 117">ECS 117</span></div></td><td colspan="2"> Algorithms for Data Science</td></tr>
+<tr class="odd"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="ECS 158">ECS 158</span></div></td><td>Programming on Parallel Architectures</td><td class="hourscol"></td></tr>
+<tr class="even"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="ECS 163">ECS 163</span></div></td><td>Information Visualization</td><td class="hourscol"></td></tr>
+<tr class="odd"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="ECS 165A">ECS 165A</span></div></td><td>Database Systems</td><td class="hourscol"></td></tr>
+<tr class="orclass odd"><td class="codecol orclass"><div style="margin-left:20px;" class="blockindent">or <span class="code_bubble" data-code-bubble="ECS 116">ECS 116</span></div></td><td colspan="2"> Databases for Non-Majors</td></tr>
+<tr class="even"><td colspan="2"><div style="margin-left:20px;" class="blockindent"><span class="courselistcomment commentindent">With advisor approval, one of <span class="code_bubble" data-code-bubble="STA 194HA">STA 194HA</span> or <span class="code_bubble" data-code-bubble="STA 194HB">STA 194HB</span> or <span class="code_bubble" data-code-bubble="STA 199">STA 199</span> may be used as an elective. The course must be taken for four units.</span></div></td><td class="hourscol"></td></tr>
+<tr class="odd"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="STA 194HA">STA 194HA</span></div></td><td>Special Studies for Honors Students</td><td class="hourscol"></td></tr>
+<tr class="even"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="STA 194HB">STA 194HB</span></div></td><td>Special Studies for Honors Students</td><td class="hourscol"></td></tr>
+<tr class="odd"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="STA 199">STA 199</span></div></td><td>Special Study for Advanced Undergraduates</td><td class="hourscol"></td></tr>
+<tr class="even"><td colspan="2"><span class="courselistcomment"><strong>Note</strong>: A course used to fulfill a core requirement cannot be used as an advanced elective.</span></td><td class="hourscol"></td></tr>
+<tr class="odd"><td colspan="2"><span class="courselistcomment">Depth Subject Matter Subtotal</span></td><td class="hourscol">52</td></tr>
+<tr class="even areaheader "><td colspan="2"><span class="courselistcomment areaheader ">Major GPA Requirements</span></td><td class="hourscol"></td></tr>
+<tr class="odd"><td colspan="2"><div style="margin-left:20px;" class="blockindent"><span class="courselistcomment commentindent">Minimum 2.0 GPA in UC Davis courses used in the major.</span></div></td><td class="hourscol"></td></tr>
+<tr class="even lastrow"><td colspan="2"><div style="margin-left:20px;" class="blockindent"><span class="courselistcomment commentindent">Minimum 2.0 GPA in Upper Division UC Davis courses used in the major.</span></div></td><td class="hourscol"></td></tr>
+<tr class="listsum"><td colspan="2">Total Units</td><td class="hourscol">80-84</td></tr></tbody>
+</table>
+
+]]>
+</requirementstext>
+<academicplantext name="Academic Plan">
+<![CDATA[
+<p>Sample academic plans can be found on the Department of Statistics website; see below. These plans can be used as a guide, but students are recommended to meet with an advisor on a regular basis to make a customized plan that works best for their unique needs and priorities.  </p>
+<h2>Sample Academic Plans</h2>
+<ul>
+	<li><a href="https://statistics.ucdavis.edu/undergrad/bs-applied-track#plan">B.S.-Applied Track</a></li>
+	<li><a href="https://statistics.ucdavis.edu/undergrad/bs-general-track#plan">B.S.-General Track</a></li>
+	<li><a href="https://statistics.ucdavis.edu/undergrad/bs-machine-learning-track#plan">B.S.-Machine Learning Track</a></li>
+	<li><a href="https://statistics.ucdavis.edu/undergrad/bs-statistical-data-science-track#plan">B.S. Statistical Data Science Track</a></li>
+</ul>
+]]>
+</academicplantext>
+<quickviewtext name="Quick View">
+<![CDATA[
+<p>Do you want to use data to solve real-world problems?  Whether your goals include academics, government, or industry, there is a demand for statistics skills. The <span class="title-main">Statistics B</span>achelor of Science program offers a choice of tracks: applied, computational, machine learning, statistical data science, or general.</p>
+]]>
+</quickviewtext>
+<faculty>
+<![CDATA[
+]]>
+</faculty>
+</courseleaf>
+

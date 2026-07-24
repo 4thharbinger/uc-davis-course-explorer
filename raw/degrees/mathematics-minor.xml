@@ -1,0 +1,96 @@
+<?xml version="1.0"?>
+<courseleaf>
+
+<title>Mathematics, Minor</title>
+
+
+<text>
+<![CDATA[  
+
+  
+]]>
+</text>
+<informationtext name="Information">
+<![CDATA[
+<h2>The Minor Program</h2>
+<p>Mathematics is the study of abstract structures, space, change, and the interrelations of these concepts. It also is the language of the exact sciences.</p>
+<h3>Minor Advisor</h3>
+<p>For a current list of faculty and staff advisors; see <a href="https://www.math.ucdavis.edu/undergrad/advising/advisers/" target="_blank">Mathematics Department Advising</a> or contact <a href="mailto:studentservices@math.ucdavis.edu">Student Services</a>.</p>
+]]>
+</informationtext>
+<requirementstext name="Requirements">
+<![CDATA[
+<table class="sc_courselist">
+<caption class="hidden noscript">Course List</caption>
+<colgroup>
+<col class="codecol"/>
+<col class="titlecol"/>
+<col align="char" char="." class="hourscol"/>
+</colgroup>
+<thead>
+<tr class="hidden noscript">
+<th scope="col">Code</th>
+<th scope="col">Title</th>
+<th scope="col" class="hourscol">Units</th>
+</tr>
+</thead>
+<tbody>
+<tr class="even firstrow"><td colspan="2"><span class="courselistcomment">Choose five upper division courses (20 units total) in Mathematics:</span> <sup>1</sup></td><td class="hourscol">20</td></tr>
+<tr class="odd"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="MAT 107">MAT/BIS 107</span></div></td><td>Probability &amp; Stochastic Processes with Applications to Biology</td><td class="hourscol"></td></tr>
+<tr class="even"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="MAT 108">MAT 108</span></div></td><td>Introduction to Abstract Mathematics</td><td class="hourscol"></td></tr>
+<tr class="orclass even"><td class="codecol orclass"><div style="margin-left:20px;" class="blockindent">or <span class="code_bubble" data-code-bubble="MAT 108V">MAT 108V</span></div></td><td colspan="2"> Introduction to Abstract Mathematics</td></tr>
+<tr class="odd"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="MAT 111">MAT 111</span></div></td><td>History of Mathematics</td><td class="hourscol"></td></tr>
+<tr class="even"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="MAT 114">MAT 114</span></div></td><td>Convex Geometry</td><td class="hourscol"></td></tr>
+<tr class="odd"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="MAT 115A">MAT 115A</span></div></td><td>Number Theory</td><td class="hourscol"></td></tr>
+<tr class="even"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="MAT 115B">MAT 115B</span></div></td><td>Number Theory</td><td class="hourscol"></td></tr>
+<tr class="odd"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="MAT 116">MAT 116</span></div></td><td>Differential Geometry</td><td class="hourscol"></td></tr>
+<tr class="even"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="MAT 118A">MAT 118A</span></div></td><td>Partial Differential Equations: Elementary Methods</td><td class="hourscol"></td></tr>
+<tr class="odd"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="MAT 118B">MAT 118B</span></div></td><td>Partial Differential Equations: Eigenfunction Expansions</td><td class="hourscol"></td></tr>
+<tr class="even"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="MAT 118C">MAT 118C</span></div></td><td>Partial Differential Equations: Green's Functions &amp; Transforms</td><td class="hourscol"></td></tr>
+<tr class="odd"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="MAT 119A">MAT 119A</span></div></td><td>Ordinary Differential Equations</td><td class="hourscol"></td></tr>
+<tr class="even"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="MAT 119B">MAT 119B</span></div></td><td>Ordinary Differential Equations</td><td class="hourscol"></td></tr>
+<tr class="odd"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="MAT 124">MAT 124</span></div></td><td>Mathematical Biology</td><td class="hourscol"></td></tr>
+<tr class="even"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="MAT 127A">MAT 127A</span></div></td><td>Real Analysis</td><td class="hourscol"></td></tr>
+<tr class="odd"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="MAT 127B">MAT 127B</span></div></td><td>Real Analysis</td><td class="hourscol"></td></tr>
+<tr class="even"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="MAT 127C">MAT 127C</span></div></td><td>Real Analysis</td><td class="hourscol"></td></tr>
+<tr class="odd"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="MAT 128A">MAT 128A</span></div></td><td>Numerical Analysis</td><td class="hourscol"></td></tr>
+<tr class="even"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="MAT 128B">MAT 128B</span></div></td><td>Numerical Analysis in Solution of Equations</td><td class="hourscol"></td></tr>
+<tr class="odd"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="MAT 128C">MAT 128C</span></div></td><td>Numerical Analysis in Differential Equations</td><td class="hourscol"></td></tr>
+<tr class="even"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="MAT 129">MAT 129</span></div></td><td>Fourier Analysis</td><td class="hourscol"></td></tr>
+<tr class="odd"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="MAT 133">MAT 133</span></div></td><td>Mathematical Finance</td><td class="hourscol"></td></tr>
+<tr class="even"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="MAT 135A">MAT 135A</span></div></td><td>Probability</td><td class="hourscol"></td></tr>
+<tr class="odd"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="MAT 135B">MAT 135B</span></div></td><td>Stochastic Processes</td><td class="hourscol"></td></tr>
+<tr class="even"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="MAT 141">MAT 141</span></div></td><td>Euclidean Geometry</td><td class="hourscol"></td></tr>
+<tr class="odd"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="MAT 145">MAT 145</span></div></td><td>Combinatorics</td><td class="hourscol"></td></tr>
+<tr class="even"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="MAT 146">MAT 146</span></div></td><td>Algebraic Combinatorics</td><td class="hourscol"></td></tr>
+<tr class="odd"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="MAT 147">MAT 147</span></div></td><td>Topology</td><td class="hourscol"></td></tr>
+<tr class="even"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="MAT 148">MAT 148</span></div></td><td>Discrete Mathematics</td><td class="hourscol"></td></tr>
+<tr class="odd"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="MAT 150A">MAT 150A</span></div></td><td>Modern Algebra</td><td class="hourscol"></td></tr>
+<tr class="even"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="MAT 150B">MAT 150B</span></div></td><td>Modern Algebra</td><td class="hourscol"></td></tr>
+<tr class="odd"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="MAT 150C">MAT 150C</span></div></td><td>Modern Algebra</td><td class="hourscol"></td></tr>
+<tr class="even"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="MAT 165">MAT 165</span></div></td><td>Mathematics &amp; Computers</td><td class="hourscol"></td></tr>
+<tr class="odd"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="MAT 167">MAT 167</span></div></td><td>Applied Linear Algebra</td><td class="hourscol"></td></tr>
+<tr class="orclass odd"><td class="codecol orclass"><div style="margin-left:20px;" class="blockindent">or <span class="code_bubble" data-code-bubble="MAT 167V">MAT 167V</span></div></td><td colspan="2"> Applied Linear Algebra</td></tr>
+<tr class="even"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="MAT 168">MAT 168</span></div></td><td>Optimization</td><td class="hourscol"></td></tr>
+<tr class="orclass even"><td class="codecol orclass"><div style="margin-left:20px;" class="blockindent">or <span class="code_bubble" data-code-bubble="MAT 168V">MAT 168V</span></div></td><td colspan="2"> Optimization</td></tr>
+<tr class="odd"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="MAT 170">MAT 170</span></div></td><td>Mathematics for Data Analytics &amp; Decision Making</td><td class="hourscol"></td></tr>
+<tr class="even"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="MAT 180">MAT 180</span></div></td><td>Special Topics</td><td class="hourscol"></td></tr>
+<tr class="odd"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="MAT 185A">MAT 185A</span></div></td><td>Complex Analysis </td><td class="hourscol"></td></tr>
+<tr class="even lastrow"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="MAT 185B">MAT 185B</span></div></td><td>Complex Analysis</td><td class="hourscol"></td></tr>
+<tr class="listsum"><td colspan="2">Total Units</td><td class="hourscol">20</td></tr></tbody>
+</table>
+
+<dl class="sc_footnotes" aria-label="Footnotes"><dt> <sup> 1 </sup> </dt><dd><p class="noindent">Exclusive of <span class="sc_courseinline"><span class="code_bubble" data-code-bubble="MAT 189">MAT 189</span></span>, <span class="sc_courseinline"><span class="code_bubble" data-code-bubble="MAT 192">MAT 192</span></span>, <span class="sc_courseinline"><span class="code_bubble" data-code-bubble="MAT 194">MAT 194</span></span>, <span class="sc_courseinline"><span class="code_bubble" data-code-bubble="MAT 197TC">MAT 197TC</span></span>, <span class="sc_courseinline"><span class="code_bubble" data-code-bubble="MAT 198">MAT 198</span></span>, <span class="sc_courseinline"><span class="code_bubble" data-code-bubble="MAT 199">MAT 199</span></span>.</p></dd></dl>
+]]>
+</requirementstext>
+<quickviewtext name="Quick View">
+<![CDATA[
+<p>The Mathematics minor trains students in the mental habit of logical thinking and the tactics of problem-solving. The minor prepares students who are planning careers in industry, education, government, science, arts, humanities, engineering, or business.</p>
+]]>
+</quickviewtext>
+<faculty>
+<![CDATA[
+]]>
+</faculty>
+</courseleaf>
+

@@ -1,0 +1,502 @@
+<?xml version="1.0"?>
+<courseleaf>
+
+<title>Biotechnology, Bachelor of Science</title>
+
+
+<text>
+<![CDATA[  
+
+  
+]]>
+</text>
+<informationtext name="Information">
+<![CDATA[
+<p>Every living organism, from the smallest and most primitive bacteria to every plant, insect, animal or human being, contains DNA as the primary genetic material. DNA directs all cellular processes, creating the incredible variety and diversity of living organisms in the biosphere. Biotechnology focuses on the mechanics of life processes and their application. Biotechnology means &quot;life technology&quot; and represents an integrated, multidisciplinary field, with a profound impact today on almost every aspect of human endeavor.</p>
+<h2>Preparatory Requirements</h2>
+<p>Biotechnology is a selective major. UC Davis students who wish to change their major to Biotechnology must complete the following courses (representing the subject areas of Biological Sciences, Chemistry, and Mathematics) with a <strong>grade point average of at least 2.500</strong> in each subject area. Each course must be taken for a letter grade. Students who do not meet these requirements cannot be considered for transfer into the major:</p>
+<table class="sc_courselist">
+<caption class="hidden noscript">Course List</caption>
+<colgroup>
+<col class="codecol"/>
+<col class="titlecol"/>
+<col align="char" char="." class="hourscol"/>
+</colgroup>
+<thead>
+<tr class="hidden noscript">
+<th scope="col">Code</th>
+<th scope="col">Title</th>
+<th scope="col" class="hourscol">Units</th>
+</tr>
+</thead>
+<tbody>
+<tr class="even areaheader  firstrow"><td colspan="2"><span class="courselistcomment areaheader ">Biological Sciences</span></td><td class="hourscol"></td></tr>
+<tr class="odd"><td class="codecol"><span class="code_bubble" data-code-bubble="BIS 002A">BIS 002A</span><br/><span style="margin-left:20px;" class="blockindent">&amp; <span class="code_bubble" data-code-bubble="BIS 002B">BIS 002B</span></span><br/><span style="margin-left:20px;" class="blockindent">&amp; <span class="code_bubble" data-code-bubble="BIS 002C">BIS 002C</span></span></td><td>Introduction to Biology: Essentials of Life on Earth<br/><span style="margin-left:20px;" class="blockindent">and Introduction to Biology: Principles of Ecology &amp; Evolution</span><br/><span style="margin-left:20px;" class="blockindent">and Introduction to Biology: Biodiversity &amp; the Tree of Life</span></td><td class="hourscol">15</td></tr>
+<tr class="even"><td colspan="2"><span class="courselistcomment"><strong>OR</strong></span></td><td class="hourscol"></td></tr>
+<tr class="odd"><td class="codecol"><span class="code_bubble" data-code-bubble="BIO 001">BIO 001</span><br/><span style="margin-left:20px;" class="blockindent">&amp; <span class="code_bubble" data-code-bubble="BIO 001L">001L</span></span><br/><span style="margin-left:20px;" class="blockindent">&amp; <span class="code_bubble" data-code-bubble="BIO 002">BIO 002</span></span><br/><span style="margin-left:20px;" class="blockindent">&amp; <span class="code_bubble" data-code-bubble="BIO 002L">BIO 002L</span></span><br/><span style="margin-left:20px;" class="blockindent">&amp; <span class="code_bubble" data-code-bubble="BIO 003">BIO 003</span></span></td><td>Introductory Biology: Ecology &amp; Evolution<br/><span style="margin-left:20px;" class="blockindent">and Introductory Biology Lab: Ecology &amp; Evolution</span><br/><span style="margin-left:20px;" class="blockindent">and Introductory Biology: Molecules to Cells</span><br/><span style="margin-left:20px;" class="blockindent">and Introductory Biology Lab: Molecules to Cells</span><br/><span style="margin-left:20px;" class="blockindent">and Introductory Biology: Cells Through Organisms</span></td><td class="hourscol">14</td></tr>
+<tr class="even areaheader "><td colspan="2"><span class="courselistcomment areaheader ">Chemistry</span></td><td class="hourscol"></td></tr>
+<tr class="odd"><td class="codecol"><span class="code_bubble" data-code-bubble="CHE 002A">CHE 002A</span><br/><span style="margin-left:20px;" class="blockindent">&amp; <span class="code_bubble" data-code-bubble="CHE 002B">CHE 002B</span></span><br/><span style="margin-left:20px;" class="blockindent">&amp; <span class="code_bubble" data-code-bubble="CHE 002C">CHE 002C</span></span></td><td>General Chemistry<br/><span style="margin-left:20px;" class="blockindent">and General Chemistry</span><br/><span style="margin-left:20px;" class="blockindent">and General Chemistry</span></td><td class="hourscol">15</td></tr>
+<tr class="even areaheader "><td colspan="2"><span class="courselistcomment areaheader ">Mathematics</span></td><td class="hourscol"></td></tr>
+<tr class="odd"><td colspan="2"><span class="courselistcomment">One series:</span></td><td class="hourscol">6-8</td></tr>
+<tr class="even"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="MAT 016A">MAT 016A</span><br/><span style="margin-left:20px;" class="blockindent">&amp; <span class="code_bubble" data-code-bubble="MAT 016B DISCONTINUED">MAT 016B DISCONTINUED</span></span></div></td><td><br/><span style="margin-left:20px;" class="blockindent">and </span> (Discontinued) <sup>1</sup></td><td class="hourscol"></td></tr>
+<tr class="odd"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="MAT 017A">MAT 017A</span><br/><span style="margin-left:20px;" class="blockindent">&amp; <span class="code_bubble" data-code-bubble="MAT 017B">MAT 017B</span></span></div></td><td>Calculus for Biology &amp; Medicine<br/><span style="margin-left:20px;" class="blockindent">and Calculus for Biology &amp; Medicine</span></td><td class="hourscol"></td></tr>
+<tr class="even"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="MAT 019A">MAT 019A</span><br/><span style="margin-left:20px;" class="blockindent">&amp; <span class="code_bubble" data-code-bubble="MAT 019B">MAT 019B</span></span></div></td><td>Calculus for Data-Driven Applications<br/><span style="margin-left:20px;" class="blockindent">and Calculus for Data-Driven Applications</span></td><td class="hourscol"></td></tr>
+<tr class="odd lastrow"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="MAT 021A">MAT 021A</span><br/><span style="margin-left:20px;" class="blockindent">&amp; <span class="code_bubble" data-code-bubble="MAT 021B">MAT 021B</span></span></div></td><td>Calculus<br/><span style="margin-left:20px;" class="blockindent">and Calculus</span></td><td class="hourscol"></td></tr>
+</tbody>
+</table>
+
+<dl class="sc_footnotes" aria-label="Footnotes"><dt>**</dt><dd><p class="noindent">Course(s) discontinued; see your advisor for course options.</p></dd></dl>
+<h2>The Program</h2>
+<h3>Preparatory Requirements</h3>
+<p>In the first two years, students develop a strong and general background in biological science with an emphasis on fundamental concepts and basic principles of genetics, molecular biology and cell biology.</p>
+<h3>Specialization</h3>
+<p>In the 3<sup>rd</sup> year, students will choose from one of four options: Animal Biotechnology, Plant Biotechnology, Fermentation/Microbial Biotechnology, and Bioinformatics. They each provide in-depth training and specialized knowledge in an aspect of biotechnology. </p>
+<h3>Internship</h3>
+<p>Each option has a strong laboratory component to reinforce theoretical concepts. Students also do an internship in an academic, government, commercial, or medical laboratory. Activity that meets the internship requirements should demonstrate that it strengthens theoretical knowledge or prepares you for graduate or medical school.</p>
+<h3>Restricted Electives</h3>
+<p>Students must complete at least 9 units or more of restricted electives. Restricted Electives (REs) are usually upper division-courses you choose, so that you may personalize your degree. These courses should allow you to explore other topics of interest, help prepare you for your intended career, or would present a competitive advantage on your application for graduate or professional school. We list a selection of courses that you may choose from, but you are not restricted to courses on this list. Feel free to explore the UC Davis catalog. The following courses are not accepted as REs: (1) a required biotechnology course, (2) a lower division course that is P/NP only, (3) an internship, or a (4) a discussion section of a course. Approval of REs not on listed on the major website must be sought from Lead Faculty Advisor <a href="mailto:dmbeckles@ucdavis.edu">Dr. Diane M Beckles</a>. Please include a justification for your choice of course.</p>
+<h3>Internships &amp; Career Opportunities</h3>
+<p>In the last decade, more industries are turning to biotechnology to solve problems and improve products, creating a growing job market for individuals trained in biotechnology in the agricultural, food and beverage, health care, chemical, pharmaceutical, and biochemical, and environmental and bioremediation industries. In 2023, the Greater Sacramento region was the second fastest growing in the nation for life sciences, which should create opportunities for graduates.</p>
+<p>Graduates trained in the technologies designed for biotechnology will find their training applicable to advanced research in molecular biology, genetics, biochemistry, and the plant and animal sciences. Many of our majors are pre-health and pursue dental and medical careers.</p>
+<h3>Faculty </h3>
+<p>Faculty includes members of the Departments of Animal Science; Engineering: Chemical Engineering &amp; Materials Science; Computer Science; Engineering: Biological &amp; Agricultural; Food Science &amp; Technology; Land, Air, &amp; Water Resources; Plant Pathology; Plant Sciences; Viticulture &amp; Enology; and the College of Biological Sciences.</p>
+<h3>Lead Faculty Advisor</h3>
+<p><a href="https://www.plantsciences.ucdavis.edu/people/diane-beckles">Diane Beckles</a> in 133 Asmundson Hall</p>
+<h3>Major Advisor</h3>
+<p><a href="https://biotechmajor.ucdavis.edu/" target="_blank">Advising Center</a> for the major is located in 1220 Plant &amp; Environmental Sciences; you may also email <a href="mailto:plsadvising@ucdavis.edu">Plant Science Advising</a> for queries.</p>
+]]>
+</informationtext>
+<requirementstext name="Requirements">
+<![CDATA[
+<p>The major requirements below are in addition to meeting <a href="https://catalog.ucdavis.edu/undergraduate-education/university-degree-requirements/">University Degree Requirements</a> &amp; <a href="https://catalog.ucdavis.edu/undergraduate-education/college-degree-requirements/">College Degree Requirements</a>; unless otherwise noted. The minimum number of units required for the Biotechnology Bachelor of Science is 113.</p>
+<table class="sc_courselist">
+<caption class="hidden noscript">Course List</caption>
+<colgroup>
+<col class="codecol"/>
+<col class="titlecol"/>
+<col align="char" char="." class="hourscol"/>
+</colgroup>
+<thead>
+<tr class="hidden noscript">
+<th scope="col">Code</th>
+<th scope="col">Title</th>
+<th scope="col" class="hourscol">Units</th>
+</tr>
+</thead>
+<tbody>
+<tr class="even areaheader  firstrow"><td colspan="2"><span class="courselistcomment areaheader ">Preparatory Subject Matter</span></td><td class="hourscol"></td></tr>
+<tr class="odd areasubheader undefined"><td colspan="2"><span class="courselistcomment areasubheader undefined">Biological Science</span></td><td class="hourscol">14-15</td></tr>
+<tr class="even"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="BIO 001">BIO 001</span><br/><span style="margin-left:20px;" class="blockindent">&amp; <span class="code_bubble" data-code-bubble="BIO 001L">001L</span></span><br/><span style="margin-left:20px;" class="blockindent">&amp; <span class="code_bubble" data-code-bubble="BIO 002">BIO 002</span></span><br/><span style="margin-left:20px;" class="blockindent">&amp; <span class="code_bubble" data-code-bubble="BIO 002L">BIO 002L</span></span><br/><span style="margin-left:20px;" class="blockindent">&amp; <span class="code_bubble" data-code-bubble="BIO 003">BIO 003</span></span></div></td><td>Introductory Biology: Ecology &amp; Evolution<br/><span style="margin-left:20px;" class="blockindent">and Introductory Biology Lab: Ecology &amp; Evolution</span><br/><span style="margin-left:20px;" class="blockindent">and Introductory Biology: Molecules to Cells</span><br/><span style="margin-left:20px;" class="blockindent">and Introductory Biology Lab: Molecules to Cells</span><br/><span style="margin-left:20px;" class="blockindent">and Introductory Biology: Cells Through Organisms</span></td><td class="hourscol"></td></tr>
+<tr class="odd"><td colspan="2"><div style="margin-left:20px;" class="blockindent"><span class="courselistcomment commentindent"><strong>OR</strong></span></div></td><td class="hourscol"></td></tr>
+<tr class="even"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="BIS 002A">BIS 002A</span><br/><span style="margin-left:20px;" class="blockindent">&amp; <span class="code_bubble" data-code-bubble="BIS 002B">BIS 002B</span></span><br/><span style="margin-left:20px;" class="blockindent">&amp; <span class="code_bubble" data-code-bubble="BIS 002C">BIS 002C</span></span></div></td><td>Introduction to Biology: Essentials of Life on Earth<br/><span style="margin-left:20px;" class="blockindent">and Introduction to Biology: Principles of Ecology &amp; Evolution</span><br/><span style="margin-left:20px;" class="blockindent">and Introduction to Biology: Biodiversity &amp; the Tree of Life</span></td><td class="hourscol"></td></tr>
+<tr class="odd areasubheader undefined"><td colspan="2"><span class="courselistcomment areasubheader undefined">Biotechnology</span></td><td class="hourscol">5</td></tr>
+<tr class="even"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="BIT 001Y">BIT 001Y</span></div></td><td>Introduction to Biotechnology</td><td class="hourscol"></td></tr>
+<tr class="odd"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="BIT 091">BIT 091</span></div></td><td>Undergraduate Seminars in Biotechnology</td><td class="hourscol"></td></tr>
+<tr class="even areasubheader undefined"><td colspan="2"><span class="courselistcomment areasubheader undefined">Chemistry</span></td><td class="hourscol">21-27</td></tr>
+<tr class="odd"><td colspan="2"><span class="courselistcomment">002 series:</span></td><td class="hourscol"></td></tr>
+<tr class="even"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="CHE 002A">CHE 002A</span><br/><span style="margin-left:20px;" class="blockindent">&amp; <span class="code_bubble" data-code-bubble="CHE 002B">CHE 002B</span></span><br/><span style="margin-left:20px;" class="blockindent">&amp; <span class="code_bubble" data-code-bubble="CHE 002C">CHE 002C</span></span></div></td><td>General Chemistry<br/><span style="margin-left:20px;" class="blockindent">and General Chemistry</span><br/><span style="margin-left:20px;" class="blockindent">and General Chemistry</span></td><td class="hourscol"></td></tr>
+<tr class="odd"><td colspan="2"><span class="courselistcomment">Choose CHE 008 series or 118 series or 128 series &amp; 129A:</span></td><td class="hourscol"></td></tr>
+<tr class="even"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="CHE 008A">CHE 008A</span><br/><span style="margin-left:20px;" class="blockindent">&amp; <span class="code_bubble" data-code-bubble="CHE 008B">CHE 008B</span></span></div></td><td>Organic Chemistry: Brief Course<br/><span style="margin-left:20px;" class="blockindent">and Organic Chemistry: Brief Course</span></td><td class="hourscol"></td></tr>
+<tr class="odd"><td colspan="2"><div style="margin-left:20px;" class="blockindent"><span class="courselistcomment commentindent"><strong>OR</strong></span></div></td><td class="hourscol"></td></tr>
+<tr class="even"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="CHE 118A">CHE 118A</span><br/><span style="margin-left:20px;" class="blockindent">&amp; <span class="code_bubble" data-code-bubble="CHE 118B">CHE 118B</span></span><br/><span style="margin-left:20px;" class="blockindent">&amp; <span class="code_bubble" data-code-bubble="CHE 118C">CHE 118C</span></span></div></td><td>Organic Chemistry for Health &amp; Life Sciences<br/><span style="margin-left:20px;" class="blockindent">and Organic Chemistry for Health &amp; Life Sciences</span><br/><span style="margin-left:20px;" class="blockindent">and Organic Chemistry for Health &amp; Life Sciences</span></td><td class="hourscol"></td></tr>
+<tr class="odd"><td colspan="2"><div style="margin-left:20px;" class="blockindent"><span class="courselistcomment commentindent"><strong>OR</strong></span></div></td><td class="hourscol"></td></tr>
+<tr class="even"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="CHE 128A">CHE 128A</span><br/><span style="margin-left:20px;" class="blockindent">&amp; <span class="code_bubble" data-code-bubble="CHE 128B">CHE 128B</span></span><br/><span style="margin-left:20px;" class="blockindent">&amp; <span class="code_bubble" data-code-bubble="CHE 128C">CHE 128C</span></span></div></td><td>Organic Chemistry<br/><span style="margin-left:20px;" class="blockindent">and Organic Chemistry</span><br/><span style="margin-left:20px;" class="blockindent">and Organic Chemistry</span></td><td class="hourscol"></td></tr>
+<tr class="odd"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="CHE 129A">CHE 129A</span></div></td><td>Organic Chemistry Laboratory</td><td class="hourscol"></td></tr>
+<tr class="even areasubheader undefined"><td colspan="2"><span class="courselistcomment areasubheader undefined">Mathematics</span></td><td class="hourscol"></td></tr>
+<tr class="odd"><td colspan="2"><span class="courselistcomment">Choose a series:</span></td><td class="hourscol">6-8</td></tr>
+<tr class="even"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="MAT 016A">MAT 016A</span><br/><span style="margin-left:20px;" class="blockindent">&amp; <span class="code_bubble" data-code-bubble="MAT 016B DISCONTINUED FOR SPRING 2025 **">MAT 016B DISCONTINUED FOR SPRING 2025 **</span></span></div></td><td><br/><span style="margin-left:20px;" class="blockindent">and </span> (Discontinued for spring 2025 **) <sup>**</sup></td><td class="hourscol"></td></tr>
+<tr class="odd"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="MAT 017A">MAT 017A</span><br/><span style="margin-left:20px;" class="blockindent">&amp; <span class="code_bubble" data-code-bubble="MAT 017B">MAT 017B</span></span></div></td><td>Calculus for Biology &amp; Medicine<br/><span style="margin-left:20px;" class="blockindent">and Calculus for Biology &amp; Medicine</span></td><td class="hourscol"></td></tr>
+<tr class="even"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="MAT 019A">MAT 019A</span><br/><span style="margin-left:20px;" class="blockindent">&amp; <span class="code_bubble" data-code-bubble="MAT 019B">MAT 019B</span></span></div></td><td>Calculus for Data-Driven Applications<br/><span style="margin-left:20px;" class="blockindent">and Calculus for Data-Driven Applications</span></td><td class="hourscol"></td></tr>
+<tr class="odd"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="MAT 021A">MAT 021A</span><br/><span style="margin-left:20px;" class="blockindent">&amp; <span class="code_bubble" data-code-bubble="MAT 021B">MAT 021B</span></span></div></td><td>Calculus<br/><span style="margin-left:20px;" class="blockindent">and Calculus</span></td><td class="hourscol"></td></tr>
+<tr class="even areasubheader undefined"><td colspan="2"><span class="courselistcomment areasubheader undefined">Physics</span></td><td class="hourscol">8</td></tr>
+<tr class="odd"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="PHY 007A">PHY 007A</span></div></td><td>General Physics</td><td class="hourscol"></td></tr>
+<tr class="even"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="PHY 007B">PHY 007B</span></div></td><td>General Physics</td><td class="hourscol"></td></tr>
+<tr class="odd"><td colspan="2"><span class="courselistcomment">Choose one:</span></td><td class="hourscol">4</td></tr>
+<tr class="even"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="PLS 120">PLS 120</span></div></td><td>Applied Statistics in Agricultural Sciences</td><td class="hourscol"></td></tr>
+<tr class="odd"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="STA 100">STA 100</span></div></td><td>Applied Statistics for Biological Sciences</td><td class="hourscol"></td></tr>
+<tr class="even"><td colspan="2"><span class="courselistcomment">Choose one:</span></td><td class="hourscol">4</td></tr>
+<tr class="odd"><td colspan="2"><span class="courselistcomment">May overlap with the English Composition Requirement; may be waived by passing the upper division composition exam.</span></td><td class="hourscol"></td></tr>
+<tr class="even"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="UWP 101">UWP 101</span></div></td><td>Advanced Composition</td><td class="hourscol"></td></tr>
+<tr class="orclass even"><td class="codecol orclass"><div style="margin-left:20px;" class="blockindent">or <span class="code_bubble" data-code-bubble="UWP 101V">UWP 101V</span></div></td><td colspan="2"> Advanced Composition</td></tr>
+<tr class="orclass even"><td class="codecol orclass"><div style="margin-left:20px;" class="blockindent">or <span class="code_bubble" data-code-bubble="UWP 101Y">UWP 101Y</span></div></td><td colspan="2"> Advanced Composition</td></tr>
+<tr class="odd"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="UWP 102A">UWP 102A</span></div></td><td>Writing in the Disciplines: Special Topics</td><td class="hourscol"></td></tr>
+<tr class="even"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="UWP 102B">UWP 102B</span></div></td><td>Writing in the Disciplines: Biology</td><td class="hourscol"></td></tr>
+<tr class="odd"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="UWP 102D">UWP 102D</span></div></td><td>Writing in the Disciplines: International Relations</td><td class="hourscol"></td></tr>
+<tr class="even"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="UWP 102E">UWP 102E</span></div></td><td>Writing in the Disciplines: Engineering</td><td class="hourscol"></td></tr>
+<tr class="odd"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="UWP 102F">UWP 102F</span></div></td><td>Writing in the Disciplines: Food Science &amp; Technology</td><td class="hourscol"></td></tr>
+<tr class="even"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="UWP 102G">UWP 102G</span></div></td><td>Writing in the Disciplines: Environmental Writing</td><td class="hourscol"></td></tr>
+<tr class="odd"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="UWP 104A">UWP 104A</span></div></td><td>Writing in the Professions: Business Writing</td><td class="hourscol"></td></tr>
+<tr class="orclass odd"><td class="codecol orclass"><div style="margin-left:20px;" class="blockindent">or <span class="code_bubble" data-code-bubble="UWP 104AV">UWP 104AV</span></div></td><td colspan="2"> Writing in the Professions: Business Writing</td></tr>
+<tr class="orclass odd"><td class="codecol orclass"><div style="margin-left:20px;" class="blockindent">or <span class="code_bubble" data-code-bubble="UWP 104AY">UWP 104AY</span></div></td><td colspan="2"> Writing in the Professions: Business Writing</td></tr>
+<tr class="even"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="UWP 104B">UWP 104B</span></div></td><td>Writing in the Professions: Law</td><td class="hourscol"></td></tr>
+<tr class="odd"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="UWP 104C">UWP 104C</span></div></td><td>Writing in the Professions: Journalism</td><td class="hourscol"></td></tr>
+<tr class="even"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="UWP 104D">UWP 104D</span></div></td><td>Writing in the Professions: Elementary &amp; Secondary Education</td><td class="hourscol"></td></tr>
+<tr class="odd"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="UWP 104E">UWP 104E</span></div></td><td>Writing in the Professions: Science</td><td class="hourscol"></td></tr>
+<tr class="even"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="UWP 104F">UWP 104F</span></div></td><td>Writing in the Professions: Health</td><td class="hourscol"></td></tr>
+<tr class="orclass even"><td class="codecol orclass"><div style="margin-left:20px;" class="blockindent">or <span class="code_bubble" data-code-bubble="UWP 104FV">UWP 104FV</span></div></td><td colspan="2"> Writing in the Professions: Health</td></tr>
+<tr class="orclass even"><td class="codecol orclass"><div style="margin-left:20px;" class="blockindent">or <span class="code_bubble" data-code-bubble="UWP 104FY">UWP 104FY</span></div></td><td colspan="2"> Writing in the Professions: Health</td></tr>
+<tr class="odd"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="UWP 104T">UWP 104T</span></div></td><td>Writing in the Professions: Technical Writing</td><td class="hourscol"></td></tr>
+<tr class="even"><td colspan="2"><span class="courselistcomment">Preparatory Subject Matter Subtotal</span></td><td class="hourscol">62-71</td></tr>
+<tr class="odd areaheader "><td colspan="2"><span class="courselistcomment areaheader ">Depth Subject Matter</span></td><td class="hourscol"></td></tr>
+<tr class="even areasubheader undefined"><td colspan="2"><span class="courselistcomment areasubheader undefined">Biological Science</span></td><td class="hourscol">10-17</td></tr>
+<tr class="odd"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="BIS 101">BIS 101</span></div></td><td>Genes &amp; Gene Expression</td><td class="hourscol"></td></tr>
+<tr class="orclass odd"><td class="codecol orclass"><div style="margin-left:20px;" class="blockindent">or <span class="code_bubble" data-code-bubble="BIS 101V">BIS 101V</span></div></td><td colspan="2"> Genes &amp; Gene Expression</td></tr>
+<tr class="even"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="BIS 104">BIS 104</span></div></td><td>Cell Biology</td><td class="hourscol"></td></tr>
+<tr class="odd"><td colspan="2"><span class="courselistcomment">Choose <span class="code_bubble" data-code-bubble="BIS 105">BIS 105</span>, or (<span class="code_bubble" data-code-bubble="BIS 102">BIS 102</span> or <span class="code_bubble" data-code-bubble="BIS 102V">BIS 102V</span>) &amp; <span class="code_bubble" data-code-bubble="BIS 103">BIS 103</span>, or <span class="code_bubble" data-code-bubble="ABI 102">ABI 102</span> &amp; <span class="code_bubble" data-code-bubble="ABI 103">ABI 103</span>:</span></td><td class="hourscol"></td></tr>
+<tr class="even"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="BIS 105">BIS 105</span></div></td><td>Biomolecules &amp; Metabolism</td><td class="hourscol"></td></tr>
+<tr class="odd"><td colspan="2"><div style="margin-left:20px;" class="blockindent"><span class="courselistcomment commentindent"><strong>OR</strong></span></div></td><td class="hourscol"></td></tr>
+<tr class="even"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="BIS 102">BIS 102</span></div></td><td>Structure &amp; Function of Biomolecules</td><td class="hourscol"></td></tr>
+<tr class="orclass even"><td class="codecol orclass"><div style="margin-left:20px;" class="blockindent">or <span class="code_bubble" data-code-bubble="BIS 102V">BIS 102V</span><br/><span style="margin-left:20px;" class="blockindent">&amp; <span class="code_bubble" data-code-bubble="BIS 103">BIS 103</span></span></div></td><td colspan="2"> Structure &amp; Function of Biomolecules<br/><span style="margin-left:20px;" class="blockindent">and Bioenergetics &amp; Metabolism</span></td></tr>
+<tr class="odd"><td colspan="2"><div style="margin-left:20px;" class="blockindent"><span class="courselistcomment commentindent"><strong>OR</strong></span></div></td><td class="hourscol"></td></tr>
+<tr class="even"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="ABI 102">ABI 102</span><br/><span style="margin-left:20px;" class="blockindent">&amp; <span class="code_bubble" data-code-bubble="ABI 103">ABI 103</span></span></div></td><td>Animal Biochemistry &amp; Metabolism<br/><span style="margin-left:20px;" class="blockindent">and Animal Biochemistry &amp; Metabolism</span></td><td class="hourscol"></td></tr>
+<tr class="odd areasubheader undefined"><td colspan="2"><span class="courselistcomment areasubheader undefined">Biotechnology</span></td><td class="hourscol">3</td></tr>
+<tr class="even"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="BIT 171">BIT 171</span></div></td><td>Professionalism &amp; Ethics in Genomics &amp; Biotechnology</td><td class="hourscol"></td></tr>
+<tr class="odd areasubheader undefined"><td colspan="2"><span class="courselistcomment areasubheader undefined">Microbiology</span></td><td class="hourscol">3</td></tr>
+<tr class="even"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="MMG 102">MMG 102</span></div></td><td>Introductory Microbiology</td><td class="hourscol"></td></tr>
+<tr class="orclass even"><td class="codecol orclass"><div style="margin-left:20px;" class="blockindent">or <span class="code_bubble" data-code-bubble="MIC 102">MIC 102</span></div></td><td colspan="2"> </td></tr>
+<tr class="odd areasubheader undefined"><td colspan="2"><span class="courselistcomment areasubheader undefined">Molecular &amp; Cellular Biology</span></td><td class="hourscol">3</td></tr>
+<tr class="even"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="MCB 121">MCB 121</span></div></td><td>Advanced Molecular Biology</td><td class="hourscol"></td></tr>
+<tr class="odd areasubheader undefined"><td colspan="2"><span class="courselistcomment areasubheader undefined">Internship or Independent Research</span></td><td class="hourscol"></td></tr>
+<tr class="even"><td colspan="2"><span class="courselistcomment">Must be approved by major advisor</span></td><td class="hourscol"></td></tr>
+<tr class="odd"><td colspan="2"><span class="courselistcomment">Choose one:</span></td><td class="hourscol">3</td></tr>
+<tr class="even"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="BIT 189L">BIT 189L</span></div></td><td>Laboratory Research in Genomics &amp; Biotechnology</td><td class="hourscol"></td></tr>
+<tr class="odd"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="BIT 192">BIT 192</span></div></td><td>Internship in Biotechnology</td><td class="hourscol"></td></tr>
+<tr class="even"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="BIT 199">BIT 199</span></div></td><td>Special Study for Advanced Undergraduates</td><td class="hourscol"></td></tr>
+<tr class="odd"><td colspan="2"><span class="courselistcomment">The following two courses are optional:</span></td><td class="hourscol"></td></tr>
+<tr class="even"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="BIT 188">BIT/PLS 188</span></div></td><td>Undergraduate Research Proposal</td><td class="hourscol"></td></tr>
+<tr class="odd"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="BIT 194H">BIT 194H</span></div></td><td>Honors Thesis in Biotechnology</td><td class="hourscol"></td></tr>
+<tr class="even"><td colspan="2"><span class="courselistcomment">Depth Subject Matter Subtotal</span></td><td class="hourscol">22-29</td></tr>
+<tr class="odd areaheader "><td colspan="2"><span class="courselistcomment areaheader ">Areas of Specialization</span></td><td class="hourscol"></td></tr>
+<tr class="even"><td colspan="2"><span class="courselistcomment">Choose one:</span></td><td class="hourscol">29-31</td></tr>
+<tr class="odd"><td colspan="2"><div style="margin-left:20px;" class="blockindent"><span class="courselistcomment commentindent"><a href="#ferm">Fermentation/Microbiology Biotechnology Option</a></span></div></td><td class="hourscol"></td></tr>
+<tr class="even"><td colspan="2"><div style="margin-left:20px;" class="blockindent"><span class="courselistcomment commentindent"><a href="#plant">Plant Biotechnology Option </a></span></div></td><td class="hourscol"></td></tr>
+<tr class="odd"><td colspan="2"><div style="margin-left:20px;" class="blockindent"><span class="courselistcomment commentindent"><a href="#animal">Animal Biotechnology Option</a></span></div></td><td class="hourscol"></td></tr>
+<tr class="even"><td colspan="2"><div style="margin-left:20px;" class="blockindent"><span class="courselistcomment commentindent"><a href="#bio">Bioinformatics Option</a></span></div></td><td class="hourscol"></td></tr>
+<tr class="odd lastrow"><td colspan="2"><span class="courselistcomment">Areas of Specialization Subtotal</span></td><td class="hourscol">29-31</td></tr>
+<tr class="listsum"><td colspan="2">Total Units</td><td class="hourscol">113-131</td></tr></tbody>
+</table>
+
+<dl class="sc_footnotes" aria-label="Footnotes"><dt>**</dt><dd><p class="noindent">Course(s) discontinued; see your advisor for course options.</p></dd></dl>
+<h2 class="toggle">Fermentation/Microbiology Biotechnology Option</h2>
+<table class="sc_courselist">
+<caption class="hidden noscript">Course List</caption>
+<colgroup>
+<col class="codecol"/>
+<col class="titlecol"/>
+<col align="char" char="." class="hourscol"/>
+</colgroup>
+<thead>
+<tr class="hidden noscript">
+<th scope="col">Code</th>
+<th scope="col">Title</th>
+<th scope="col" class="hourscol">Units</th>
+</tr>
+</thead>
+<tbody>
+<tr class="even firstrow"><td class="codecol"><span class="code_bubble" data-code-bubble="BIT 161A">BIT 161A</span></td><td>Genetics &amp; Biotechnology Laboratory</td><td class="hourscol">5-6</td></tr>
+<tr class="orclass even firstrow"><td class="codecol orclass">or <span class="code_bubble" data-code-bubble="MCB 160L">MCB 160L</span></td><td colspan="2"> Principles of Genetics Laboratory</td></tr>
+<tr class="odd"><td class="codecol"><span class="code_bubble" data-code-bubble="FST 104L">FST 104L</span></td><td>Food Microbiology Laboratory</td><td class="hourscol">4</td></tr>
+<tr class="orclass odd"><td class="codecol orclass">or <span class="code_bubble" data-code-bubble="MIC 104L DISCONTINUED FOR FALL 2026 **">MIC 104L DISCONTINUED FOR FALL 2026 **</span></td><td colspan="2"> </td></tr>
+<tr class="orclass odd"><td class="codecol orclass">or <span class="code_bubble" data-code-bubble="MMG 107L">MMG 107L</span></td><td colspan="2"> General Microbiology Laboratory</td></tr>
+<tr class="even"><td colspan="2"><span class="courselistcomment">Choose one:</span></td><td class="hourscol">3</td></tr>
+<tr class="odd"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="MIC 140">MIC 140</span></div></td><td> (Discontinued for spring 2024) <sup>**</sup></td><td class="hourscol"></td></tr>
+<tr class="even"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="MIC 150">MIC 150</span></div></td><td> (Discontinued for winter 2025) <sup>**</sup></td><td class="hourscol"></td></tr>
+<tr class="odd"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="MMG 115">MMG 115</span></div></td><td>Recombinant DNA Cloning &amp; Analysis</td><td class="hourscol"></td></tr>
+<tr class="orclass odd"><td class="codecol orclass"><div style="margin-left:20px;" class="blockindent">or <span class="code_bubble" data-code-bubble="MIC 115 DISCONTINUED FOR WINTER 2025 **">MIC 115 DISCONTINUED FOR WINTER 2025 **</span></div></td><td colspan="2"> </td></tr>
+<tr class="even"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="MMG 120">MMG 120</span></div></td><td>Microbial Ecology</td><td class="hourscol"></td></tr>
+<tr class="orclass even"><td class="codecol orclass"><div style="margin-left:20px;" class="blockindent">or <span class="code_bubble" data-code-bubble="MIC 120 DISCONTINUED FOR FALL 2025 **">MIC 120 DISCONTINUED FOR FALL 2025 **</span></div></td><td colspan="2"> </td></tr>
+<tr class="odd"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="MMG 170">MMG 170</span></div></td><td>Yeast Molecular Genetics</td><td class="hourscol"></td></tr>
+<tr class="orclass odd"><td class="codecol orclass"><div style="margin-left:20px;" class="blockindent">or <span class="code_bubble" data-code-bubble="MIC 170 DISCONTINUED FOR FALL 2025 **">MIC 170 DISCONTINUED FOR FALL 2025 **</span></div></td><td colspan="2"> </td></tr>
+<tr class="even"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="PLP 130">PLP 130</span></div></td><td>Fungal Biology &amp; Disease</td><td class="hourscol"></td></tr>
+<tr class="odd"><td colspan="2"><span class="courselistcomment"><strong>AND</strong></span></td><td class="hourscol"></td></tr>
+<tr class="even"><td colspan="2"><span class="courselistcomment">Choose one from the previous list or below:</span></td><td class="hourscol">3</td></tr>
+<tr class="odd"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="BIS 181">BIS 181</span></div></td><td>Comparative Genomics</td><td class="hourscol"></td></tr>
+<tr class="even"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="BIS 183">BIS 183</span></div></td><td>Functional Genomics</td><td class="hourscol"></td></tr>
+<tr class="odd"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="MCB 182">MCB 182</span></div></td><td>Principles of Genomics</td><td class="hourscol"></td></tr>
+<tr class="even areasubheader undefined"><td colspan="2"><span class="courselistcomment areasubheader undefined">Restricted Electives</span></td><td class="hourscol"></td></tr>
+<tr class="odd"><td colspan="2"><span class="courselistcomment">Choose 15 units:</span></td><td class="hourscol">15</td></tr>
+<tr class="even"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="BIS 132">BIS 132</span></div></td><td> (Discontinued for spring 2021) <sup>**</sup></td><td class="hourscol"></td></tr>
+<tr class="odd"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="BIS 181">BIS 181</span></div></td><td>Comparative Genomics</td><td class="hourscol"></td></tr>
+<tr class="even"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="BIS 183">BIS 183</span></div></td><td>Functional Genomics</td><td class="hourscol"></td></tr>
+<tr class="odd"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="BIT 150">BIT 150</span></div></td><td>Applied Bioinformatics </td><td class="hourscol"></td></tr>
+<tr class="even"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="BIT 161B">BIT 161B</span></div></td><td>Plant Genetics &amp; Biotechnology Laboratory</td><td class="hourscol"></td></tr>
+<tr class="odd"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="BIT 188">BIT 188</span></div></td><td>Undergraduate Research Proposal</td><td class="hourscol"></td></tr>
+<tr class="even"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="CHE 107A">CHE 107A</span></div></td><td>Physical Chemistry for the Life Sciences</td><td class="hourscol"></td></tr>
+<tr class="odd"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="CHE 107B">CHE 107B</span></div></td><td>Physical Chemistry for the Life Sciences</td><td class="hourscol"></td></tr>
+<tr class="even"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="CHE 130A">CHE 130A</span></div></td><td>Principles of Medicinal Chemistry</td><td class="hourscol"></td></tr>
+<tr class="odd"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="CHE 130B">CHE 130B</span></div></td><td>Computational Drug Design</td><td class="hourscol"></td></tr>
+<tr class="even"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="ECH 161C">ECH 161C</span></div></td><td>Biotechnology Facility Design &amp; Regulatory Compliance</td><td class="hourscol"></td></tr>
+<tr class="odd"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="ECH 161L">ECH 161L</span></div></td><td>Bioprocess Engineering Laboratory</td><td class="hourscol"></td></tr>
+<tr class="even"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="ECS 124">ECS 124</span></div></td><td>Theory &amp; Practice of Bioinformatics</td><td class="hourscol"></td></tr>
+<tr class="odd"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="ECS 129">ECS 129</span></div></td><td>Computational Structural Bioinformatics                              </td><td class="hourscol"></td></tr>
+<tr class="even"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="EVE 100">EVE 100</span></div></td><td>Introduction to Evolution</td><td class="hourscol"></td></tr>
+<tr class="odd"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="FST 102A">FST 102A</span></div></td><td>Malting &amp; Brewing Science</td><td class="hourscol"></td></tr>
+<tr class="even"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="FST 102B">FST 102B</span></div></td><td>Practical Malting &amp; Brewing</td><td class="hourscol"></td></tr>
+<tr class="odd"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="FST 104">FST 104</span></div></td><td>Food Microbiology</td><td class="hourscol"></td></tr>
+<tr class="even"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="FST 104L">FST 104L</span></div></td><td>Food Microbiology Laboratory</td><td class="hourscol"></td></tr>
+<tr class="odd"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="FST 110">FST 110</span></div></td><td>Food Processing</td><td class="hourscol"></td></tr>
+<tr class="even"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="FST 114">FST/VEN 114</span></div></td><td>Fermented Foods</td><td class="hourscol"></td></tr>
+<tr class="odd"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="FST 123">FST 123</span></div></td><td>Introduction to Enzymology</td><td class="hourscol"></td></tr>
+<tr class="even"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="FST 123L">FST 123L</span></div></td><td>Enzymology Laboratory </td><td class="hourscol"></td></tr>
+<tr class="odd"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="MCB 120L">MCB 120L</span></div></td><td>Molecular Biology &amp; Biochemistry Laboratory</td><td class="hourscol"></td></tr>
+<tr class="even"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="MCB 182">MCB 182</span></div></td><td>Principles of Genomics</td><td class="hourscol"></td></tr>
+<tr class="odd"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="MCB 164">MCB 164</span></div></td><td> (Discontinued for spring 2025) <sup>**</sup></td><td class="hourscol"></td></tr>
+<tr class="even"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="MIC 105">MIC 105</span></div></td><td>Microbial Diversity</td><td class="hourscol"></td></tr>
+<tr class="odd"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="MIC 105L">MIC 105L</span></div></td><td>Microbial Diversity Laboratory</td><td class="hourscol"></td></tr>
+<tr class="even"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="MIC 140">MIC 140</span></div></td><td> (Discontinued for spring 2025) <sup>**</sup></td><td class="hourscol"></td></tr>
+<tr class="odd"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="MIC 150">MIC 150</span></div></td><td> (Discontinued for spring 2025) <sup>**</sup></td><td class="hourscol"></td></tr>
+<tr class="even"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="MIC 155L">MIC 155L</span></div></td><td> (Discontinued for fall 2026) <sup>**</sup></td><td class="hourscol"></td></tr>
+<tr class="odd"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="MMG 115">MMG 115</span></div></td><td>Recombinant DNA Cloning &amp; Analysis</td><td class="hourscol"></td></tr>
+<tr class="even"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="MMG 120">MMG 120</span></div></td><td>Microbial Ecology</td><td class="hourscol"></td></tr>
+<tr class="orclass even"><td class="codecol orclass"><div style="margin-left:20px;" class="blockindent">or <span class="code_bubble" data-code-bubble="MIC 120 DISCONTINUED FOR FALL 2025 **">MIC 120 DISCONTINUED FOR FALL 2025 **</span></div></td><td colspan="2"> </td></tr>
+<tr class="odd"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="MMG 162">MMG 162</span></div></td><td>General Virology</td><td class="hourscol"></td></tr>
+<tr class="orclass odd"><td class="codecol orclass"><div style="margin-left:20px;" class="blockindent">or <span class="code_bubble" data-code-bubble="MIC 162 DISCONTINUED FOR FALL 2024 **">MIC 162 DISCONTINUED FOR FALL 2024 **</span></div></td><td colspan="2"> </td></tr>
+<tr class="even"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="MMG 170">MMG 170</span></div></td><td>Yeast Molecular Genetics</td><td class="hourscol"></td></tr>
+<tr class="orclass even"><td class="codecol orclass"><div style="margin-left:20px;" class="blockindent">or <span class="code_bubble" data-code-bubble="MIC 170 DISCONTINUED FOR FALL 2025 **">MIC 170 DISCONTINUED FOR FALL 2025 **</span></div></td><td colspan="2"> </td></tr>
+<tr class="odd"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="PLP 130">PLP 130</span></div></td><td>Fungal Biology &amp; Disease</td><td class="hourscol"></td></tr>
+<tr class="even"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="PLP 140">PLP 140</span></div></td><td> (Discontinued for spring 2022)</td><td class="hourscol"></td></tr>
+<tr class="odd"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="PLS 174">PLS 174</span></div></td><td>Microbiology &amp; Safety of Fresh Fruits &amp; Vegetables</td><td class="hourscol"></td></tr>
+<tr class="even"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="VEN 124">VEN 124</span></div></td><td>Wine Production</td><td class="hourscol"></td></tr>
+<tr class="odd"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="VEN 124L">VEN 124L</span></div></td><td>Wine Production Laboratory</td><td class="hourscol"></td></tr>
+<tr class="even"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="VEN 128">VEN 128</span></div></td><td>Wine Microbiology</td><td class="hourscol"></td></tr>
+<tr class="odd lastrow"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="VEN 135">VEN 135</span></div></td><td>Wine Technology &amp; Winery Systems</td><td class="hourscol"></td></tr>
+<tr class="listsum"><td colspan="2">Total Units</td><td class="hourscol">30-31</td></tr></tbody>
+</table>
+
+<p><a id="plant" name="plant"></a></p>
+<dl class="sc_footnotes" aria-label="Footnotes"><dt>**</dt><dd><p class="noindent">Course(s) discontinued; see your advisor for course options.</p></dd></dl>
+<h2 class="toggle">Plant Biotechnology Option</h2>
+<table class="sc_courselist">
+<caption class="hidden noscript">Course List</caption>
+<colgroup>
+<col class="codecol"/>
+<col class="titlecol"/>
+<col align="char" char="." class="hourscol"/>
+</colgroup>
+<thead>
+<tr class="hidden noscript">
+<th scope="col">Code</th>
+<th scope="col">Title</th>
+<th scope="col" class="hourscol">Units</th>
+</tr>
+</thead>
+<tbody>
+<tr class="even firstrow"><td colspan="2"><span class="courselistcomment">Biotechnology</span></td><td class="hourscol">13</td></tr>
+<tr class="odd"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="BIT 160">BIT 160</span></div></td><td>Principles of Plant Biotechnology</td><td class="hourscol"></td></tr>
+<tr class="even"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="BIT 161A">BIT 161A</span></div></td><td>Genetics &amp; Biotechnology Laboratory</td><td class="hourscol"></td></tr>
+<tr class="odd"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="BIT 161B">BIT 161B</span></div></td><td>Plant Genetics &amp; Biotechnology Laboratory</td><td class="hourscol"></td></tr>
+<tr class="even areasubheader undefined"><td colspan="2"><span class="courselistcomment areasubheader undefined">Microbiology</span></td><td class="hourscol">2</td></tr>
+<tr class="odd"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="MMG 103L">MMG 103L</span></div></td><td>Introductory Microbiology Laboratory</td><td class="hourscol"></td></tr>
+<tr class="orclass odd"><td class="codecol orclass"><div style="margin-left:20px;" class="blockindent">or <span class="code_bubble" data-code-bubble="MIC 103L DISCONTINUED FOR FALL 2026 **">MIC 103L DISCONTINUED FOR FALL 2026 **</span></div></td><td colspan="2"> </td></tr>
+<tr class="even areasubheader undefined"><td colspan="2"><span class="courselistcomment areasubheader undefined">Molecular &amp; Cellular Biology</span></td><td class="hourscol">3</td></tr>
+<tr class="odd"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="MCB 126">MCB/PLB 126</span></div></td><td>Plant Biochemistry</td><td class="hourscol"></td></tr>
+<tr class="even areasubheader undefined"><td colspan="2"><span class="courselistcomment areasubheader undefined">Plant Science</span></td><td class="hourscol">4</td></tr>
+<tr class="odd"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="PLS 152">PLS 152</span></div></td><td>Plant Genetics</td><td class="hourscol"></td></tr>
+<tr class="even areasubheader undefined"><td colspan="2"><span class="courselistcomment areasubheader undefined">Restricted Electives</span></td><td class="hourscol"></td></tr>
+<tr class="odd"><td colspan="2"><span class="courselistcomment">Choose 9 units:</span></td><td class="hourscol">9</td></tr>
+<tr class="even"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="BIS 181">BIS 181</span></div></td><td>Comparative Genomics</td><td class="hourscol"></td></tr>
+<tr class="odd"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="BIS 183">BIS 183</span></div></td><td>Functional Genomics</td><td class="hourscol"></td></tr>
+<tr class="even"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="BIT 150">BIT 150</span></div></td><td>Applied Bioinformatics </td><td class="hourscol"></td></tr>
+<tr class="odd"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="BIT 188">BIT 188</span></div></td><td>Undergraduate Research Proposal</td><td class="hourscol"></td></tr>
+<tr class="even"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="CHE 130A">CHE 130A</span></div></td><td>Principles of Medicinal Chemistry</td><td class="hourscol"></td></tr>
+<tr class="odd"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="CHE 130B">CHE 130B</span></div></td><td>Computational Drug Design</td><td class="hourscol"></td></tr>
+<tr class="even"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="EBS 075">EBS 075</span></div></td><td>Properties of Materials in Biological Systems</td><td class="hourscol"></td></tr>
+<tr class="odd"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="EBS 289G">EBS 289G</span></div></td><td>Selected Topics in Biological Systems Engineering: Forest Engineering</td><td class="hourscol"></td></tr>
+<tr class="even"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="EBS 289I">EBS 289I</span></div></td><td>Selected Topics in Biological Systems Engineering: Plant Production &amp; Harvest</td><td class="hourscol"></td></tr>
+<tr class="odd"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="EBS 289J">EBS 289J</span></div></td><td>Selected Topics in Biological Systems Engineering: Postharvest Engineering</td><td class="hourscol"></td></tr>
+<tr class="even"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="ECS 124">ECS 124</span></div></td><td>Theory &amp; Practice of Bioinformatics</td><td class="hourscol"></td></tr>
+<tr class="odd"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="ECS 129">ECS 129</span></div></td><td>Computational Structural Bioinformatics                              </td><td class="hourscol"></td></tr>
+<tr class="even"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="ENT 110">ENT 110</span></div></td><td>Arthropod Pest Management</td><td class="hourscol"></td></tr>
+<tr class="odd"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="EVE 100">EVE 100</span></div></td><td>Introduction to Evolution</td><td class="hourscol"></td></tr>
+<tr class="even"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="FST 104">FST 104</span></div></td><td>Food Microbiology</td><td class="hourscol"></td></tr>
+<tr class="odd"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="FST 104L">FST 104L</span></div></td><td>Food Microbiology Laboratory</td><td class="hourscol"></td></tr>
+<tr class="even"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="FST 110">FST 110</span></div></td><td>Food Processing</td><td class="hourscol"></td></tr>
+<tr class="odd"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="FST 123">FST 123</span></div></td><td>Introduction to Enzymology</td><td class="hourscol"></td></tr>
+<tr class="even"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="FST 123L">FST 123L</span></div></td><td>Enzymology Laboratory </td><td class="hourscol"></td></tr>
+<tr class="odd"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="MCB 120L">MCB 120L</span></div></td><td>Molecular Biology &amp; Biochemistry Laboratory</td><td class="hourscol"></td></tr>
+<tr class="even"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="MCB 164">MCB 164</span></div></td><td> (Discontinued for spring 2025) <sup>**</sup></td><td class="hourscol"></td></tr>
+<tr class="odd"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="MCB 182">MCB 182</span></div></td><td>Principles of Genomics</td><td class="hourscol"></td></tr>
+<tr class="even"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="MMG 115">MMG 115</span></div></td><td>Recombinant DNA Cloning &amp; Analysis</td><td class="hourscol"></td></tr>
+<tr class="orclass even"><td class="codecol orclass"><div style="margin-left:20px;" class="blockindent">or <span class="code_bubble" data-code-bubble="MIC 115 DISCONTINUED FOR WINTER 2025 **">MIC 115 DISCONTINUED FOR WINTER 2025 **</span></div></td><td colspan="2"> </td></tr>
+<tr class="odd"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="MMG 162">MMG 162</span></div></td><td>General Virology</td><td class="hourscol"></td></tr>
+<tr class="orclass odd"><td class="codecol orclass"><div style="margin-left:20px;" class="blockindent">or <span class="code_bubble" data-code-bubble="MIC 162 DISCONTINUED FOR FALL 2024 **">MIC 162 DISCONTINUED FOR FALL 2024 **</span></div></td><td colspan="2"> </td></tr>
+<tr class="even"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="NEM 100">NEM 100</span></div></td><td>Introduction to Nematode Parasites</td><td class="hourscol"></td></tr>
+<tr class="orclass even"><td class="codecol orclass"><div style="margin-left:20px;" class="blockindent">or <span class="code_bubble" data-code-bubble="NEM 110">NEM 110</span></div></td><td colspan="2"> Introduction to Nematology</td></tr>
+<tr class="odd"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="PLB 105">PLB 105</span></div></td><td>Developmental Plant Anatomy</td><td class="hourscol"></td></tr>
+<tr class="even"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="PLB 111">PLB 111</span></div></td><td>Plant Physiology</td><td class="hourscol"></td></tr>
+<tr class="odd"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="PLB 112">PLB 112</span></div></td><td>Plant Growth &amp; Development</td><td class="hourscol"></td></tr>
+<tr class="even"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="PLB 113">PLB 113</span></div></td><td>Molecular &amp; Cellular Biology of Plants</td><td class="hourscol"></td></tr>
+<tr class="odd"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="PLB 143">PLB 143</span></div></td><td>Evolution of Crop Plants (Discontinued for winter 2027) <sup>**</sup></td><td class="hourscol"></td></tr>
+<tr class="even"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="PLP 120">PLP 120</span></div></td><td>Introduction to Plant Pathology</td><td class="hourscol"></td></tr>
+<tr class="odd"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="PLP 123">PLP/ENT/PLB 123</span></div></td><td>Plant-Virus-Vector Interaction</td><td class="hourscol"></td></tr>
+<tr class="even"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="PLP 130">PLP 130</span></div></td><td>Fungal Biology &amp; Disease</td><td class="hourscol"></td></tr>
+<tr class="odd"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="PLP 140">PLP 140</span></div></td><td> (Discontinued for spring 2022) <sup>**</sup></td><td class="hourscol"></td></tr>
+<tr class="even"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="PLS 100A">PLS 100A</span></div></td><td>Metabolic Processes of Cultivated Plants</td><td class="hourscol"></td></tr>
+<tr class="odd"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="PLS 100AL">PLS 100AL</span></div></td><td>Metabolic Processes of Cultivated Plants Laboratory</td><td class="hourscol"></td></tr>
+<tr class="even"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="PLS 100B">PLS 100B</span></div></td><td>Growth &amp; Yield of Cultivated Plants</td><td class="hourscol"></td></tr>
+<tr class="odd"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="PLS 100BL">PLS 100BL</span></div></td><td>Growth &amp; Yield of Cultivated Plants Laboratory</td><td class="hourscol"></td></tr>
+<tr class="even"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="PLS 100C">PLS 100C</span></div></td><td>Environmental Interactions of Cultivated Plants</td><td class="hourscol"></td></tr>
+<tr class="odd"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="PLS 100CL">PLS 100CL</span></div></td><td>Environmental Interactions of Cultivated Plants Laboratory</td><td class="hourscol"></td></tr>
+<tr class="even"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="PLS 153">PLS 153</span></div></td><td> (Discontinued for fall 2024) <sup>**</sup></td><td class="hourscol"></td></tr>
+<tr class="odd"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="PLS 154">PLS 154</span></div></td><td>Introduction to Plant Breeding</td><td class="hourscol"></td></tr>
+<tr class="even"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="PLS 157">PLS 157</span></div></td><td>Physiology of Environmental Stresses in Plants</td><td class="hourscol"></td></tr>
+<tr class="odd"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="PLS 158">PLS 158</span></div></td><td>Mineral Nutrition of Plants</td><td class="hourscol"></td></tr>
+<tr class="even"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="PLS 172">PLS 172</span></div></td><td>Biology and Quality of Harvested Crops</td><td class="hourscol"></td></tr>
+<tr class="odd"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="PLS 173">PLS 173</span></div></td><td> (Discontinued for winter 2024) <sup>**</sup></td><td class="hourscol"></td></tr>
+<tr class="even lastrow"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="PLS 174">PLS 174</span></div></td><td>Microbiology &amp; Safety of Fresh Fruits &amp; Vegetables</td><td class="hourscol"></td></tr>
+<tr class="listsum"><td colspan="2">Total Units</td><td class="hourscol">31</td></tr></tbody>
+</table>
+
+<p><a id="animal" name="animal"></a></p>
+<dl class="sc_footnotes" aria-label="Footnotes"><dt>**</dt><dd><p class="noindent">Course(s) discontinued; see your advisor for course options.</p></dd></dl>
+<h2 class="toggle">Animal Biotechnology Option</h2>
+<table class="sc_courselist">
+<caption class="hidden noscript">Course List</caption>
+<colgroup>
+<col class="codecol"/>
+<col class="titlecol"/>
+<col align="char" char="." class="hourscol"/>
+</colgroup>
+<thead>
+<tr class="hidden noscript">
+<th scope="col">Code</th>
+<th scope="col">Title</th>
+<th scope="col" class="hourscol">Units</th>
+</tr>
+</thead>
+<tbody>
+<tr class="even areasubheader undefined firstrow"><td colspan="2"><span class="courselistcomment areasubheader undefined">Animal Genetics</span></td><td class="hourscol">4</td></tr>
+<tr class="odd"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="ANG 111">ANG 111</span></div></td><td>Molecular Biology Laboratory Techniques</td><td class="hourscol"></td></tr>
+<tr class="even areasubheader undefined"><td colspan="2"><span class="courselistcomment areasubheader undefined">Animal Science</span></td><td class="hourscol">4</td></tr>
+<tr class="odd"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="ANS 170">ANS 170</span></div></td><td>Ethics of Animal Use</td><td class="hourscol"></td></tr>
+<tr class="even areasubheader undefined"><td colspan="2"><span class="courselistcomment areasubheader undefined">Microbiology</span></td><td class="hourscol">2</td></tr>
+<tr class="odd"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="MMG 103L">MMG 103L</span></div></td><td>Introductory Microbiology Laboratory</td><td class="hourscol"></td></tr>
+<tr class="orclass odd"><td class="codecol orclass"><div style="margin-left:20px;" class="blockindent">or <span class="code_bubble" data-code-bubble="MIC 103L DISCONTINUED FOR FALL 2026 **">MIC 103L DISCONTINUED FOR FALL 2026 **</span></div></td><td colspan="2"> </td></tr>
+<tr class="even areasubheader undefined"><td colspan="2"><span class="courselistcomment areasubheader undefined">Molecular &amp; Cellular Biology</span></td><td class="hourscol">6-7</td></tr>
+<tr class="odd"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="MCB 150">MCB 150</span></div></td><td>Developmental Biology</td><td class="hourscol"></td></tr>
+<tr class="orclass odd"><td class="codecol orclass"><div style="margin-left:20px;" class="blockindent">or <span class="code_bubble" data-code-bubble="MCB 163">MCB 163</span></div></td><td colspan="2"> Developmental Genetics</td></tr>
+<tr class="even"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="MCB 182">MCB 182</span></div></td><td>Principles of Genomics</td><td class="hourscol"></td></tr>
+<tr class="odd areasubheader undefined"><td colspan="2"><span class="courselistcomment areasubheader undefined">Neurobiology, Physiology, &amp; Behavior</span></td><td class="hourscol">5</td></tr>
+<tr class="even"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="NPB 101">NPB 101</span></div></td><td>Systemic Physiology</td><td class="hourscol"></td></tr>
+<tr class="odd areasubheader undefined"><td colspan="2"><span class="courselistcomment areasubheader undefined">Restricted Electives</span></td><td class="hourscol"></td></tr>
+<tr class="even"><td colspan="2"><span class="courselistcomment">Choose 9 units:</span></td><td class="hourscol">9</td></tr>
+<tr class="odd"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="ANG 101">ANG 101</span></div></td><td>Animal Cytogenetics</td><td class="hourscol"></td></tr>
+<tr class="even"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="ANG 107">ANG 107</span></div></td><td>Genetics &amp; Animal Breeding</td><td class="hourscol"></td></tr>
+<tr class="odd"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="ANS 131">ANS 131</span></div></td><td>Reproduction &amp; Early Development in Aquatic Animals</td><td class="hourscol"></td></tr>
+<tr class="even"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="ANS 140">ANS 140</span></div></td><td>Management of Laboratory Animals</td><td class="hourscol"></td></tr>
+<tr class="odd"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="AVS 103">AVS 103</span></div></td><td>Avian Development &amp; Genomics</td><td class="hourscol"></td></tr>
+<tr class="even"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="AVS 121">AVS 121</span></div></td><td>Avian Reproduction</td><td class="hourscol"></td></tr>
+<tr class="odd"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="BIS 181">BIS 181</span></div></td><td>Comparative Genomics</td><td class="hourscol"></td></tr>
+<tr class="even"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="BIS 183">BIS 183</span></div></td><td>Functional Genomics</td><td class="hourscol"></td></tr>
+<tr class="odd"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="BIT 150">BIT 150</span></div></td><td>Applied Bioinformatics </td><td class="hourscol"></td></tr>
+<tr class="even"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="BIT 161A">BIT 161A</span></div></td><td>Genetics &amp; Biotechnology Laboratory</td><td class="hourscol"></td></tr>
+<tr class="odd"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="BIT 161B">BIT 161B</span></div></td><td>Plant Genetics &amp; Biotechnology Laboratory</td><td class="hourscol"></td></tr>
+<tr class="even"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="BIT 188">BIT 188</span></div></td><td>Undergraduate Research Proposal</td><td class="hourscol"></td></tr>
+<tr class="odd"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="EVE 100">EVE 100</span></div></td><td>Introduction to Evolution</td><td class="hourscol"></td></tr>
+<tr class="even"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="EVE 102">EVE 102</span></div></td><td>Population &amp; Quantitative Genetics</td><td class="hourscol"></td></tr>
+<tr class="odd"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="MCB 120">MCB 120</span></div></td><td>Molecular Biology &amp; Biochemistry Laboratory Associated Lecture</td><td class="hourscol"></td></tr>
+<tr class="even"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="MCB 160L">MCB 160L</span></div></td><td>Principles of Genetics Laboratory</td><td class="hourscol"></td></tr>
+<tr class="odd"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="MCB 164">MCB 164</span></div></td><td> (Discontinued for spring 2025) <sup>**</sup></td><td class="hourscol"></td></tr>
+<tr class="even"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="MCP 200L">MCP 200L</span></div></td><td>Animal Cell Culture Laboratory</td><td class="hourscol"></td></tr>
+<tr class="odd"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="MMG 115">MMG 115</span></div></td><td>Recombinant DNA Cloning &amp; Analysis</td><td class="hourscol"></td></tr>
+<tr class="orclass odd"><td class="codecol orclass"><div style="margin-left:20px;" class="blockindent">or <span class="code_bubble" data-code-bubble="MIC 115 DISCONTINUED FOR WINTER 2025 **">MIC 115 DISCONTINUED FOR WINTER 2025 **</span></div></td><td colspan="2"> </td></tr>
+<tr class="even"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="MMG 162">MMG 162</span></div></td><td>General Virology</td><td class="hourscol"></td></tr>
+<tr class="orclass even"><td class="codecol orclass"><div style="margin-left:20px;" class="blockindent">or <span class="code_bubble" data-code-bubble="MIC 162 DISCONTINUED FOR FALL 2024 **">MIC 162 DISCONTINUED FOR FALL 2024 **</span></div></td><td colspan="2"> </td></tr>
+<tr class="odd"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="MMI 188">MMI 188</span></div></td><td> (Discontinued for fall 2021) <sup>**</sup></td><td class="hourscol"></td></tr>
+<tr class="even"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="NPB 121">NPB 121</span></div></td><td>Physiology of Reproduction</td><td class="hourscol"></td></tr>
+<tr class="odd"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="NPB 121L">NPB 121L</span></div></td><td>Physiology of Reproduction Laboratory</td><td class="hourscol"></td></tr>
+<tr class="even"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="NPB 132">NPB 132</span></div></td><td>Nature vs. Nurture: Physiological Interactions Among Genes, Nutrients &amp; Health</td><td class="hourscol"></td></tr>
+<tr class="odd"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="PLP 140">PLP 140</span></div></td><td> (Discontinued for spring 2023) <sup>**</sup></td><td class="hourscol"></td></tr>
+<tr class="even"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="PMI 126">PMI 126</span></div></td><td>Fundamentals of Immunology</td><td class="hourscol"></td></tr>
+<tr class="odd"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="PMI 126L">PMI 126L</span></div></td><td>Immunology Laboratory</td><td class="hourscol"></td></tr>
+<tr class="even"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="PMI 127">PMI 127</span></div></td><td>Medical Bacteria &amp; Fungi</td><td class="hourscol"></td></tr>
+<tr class="odd lastrow"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="PMI 128">PMI 128</span></div></td><td>Biology of Animal Viruses</td><td class="hourscol"></td></tr>
+<tr class="listsum"><td colspan="2">Total Units</td><td class="hourscol">30-31</td></tr></tbody>
+</table>
+
+<p><a id="bio" name="bio"></a></p>
+<dl class="sc_footnotes" aria-label="Footnotes"><dt>**</dt><dd><p class="noindent">Course(s) discontinued; see your advisor for course options.</p></dd></dl>
+<h2 class="toggle">Bioinformatics Option</h2>
+<table class="sc_courselist">
+<caption class="hidden noscript">Course List</caption>
+<colgroup>
+<col class="codecol"/>
+<col class="titlecol"/>
+<col align="char" char="." class="hourscol"/>
+</colgroup>
+<thead>
+<tr class="hidden noscript">
+<th scope="col">Code</th>
+<th scope="col">Title</th>
+<th scope="col" class="hourscol">Units</th>
+</tr>
+</thead>
+<tbody>
+<tr class="even areasubheader undefined firstrow"><td colspan="2"><span class="courselistcomment areasubheader undefined">Biological Science</span></td><td class="hourscol">3</td></tr>
+<tr class="odd"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="BIS 181">BIS 181</span></div></td><td>Comparative Genomics</td><td class="hourscol"></td></tr>
+<tr class="orclass odd"><td class="codecol orclass"><div style="margin-left:20px;" class="blockindent">or <span class="code_bubble" data-code-bubble="BIS 183">BIS 183</span></div></td><td colspan="2"> Functional Genomics</td></tr>
+<tr class="even areasubheader undefined"><td colspan="2"><span class="courselistcomment areasubheader undefined">Biotechnology</span></td><td class="hourscol">4</td></tr>
+<tr class="odd"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="BIT 150">BIT 150</span></div></td><td>Applied Bioinformatics </td><td class="hourscol"></td></tr>
+<tr class="even"><td colspan="2"><span class="courselistcomment">Choose one:</span></td><td class="hourscol">4-5</td></tr>
+<tr class="odd"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="BIS 180L">BIS 180L</span></div></td><td>Genomics Laboratory</td><td class="hourscol"></td></tr>
+<tr class="even"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="ECS 124">ECS 124</span></div></td><td>Theory &amp; Practice of Bioinformatics</td><td class="hourscol"></td></tr>
+<tr class="odd"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="ECS 129">ECS 129</span></div></td><td>Computational Structural Bioinformatics                              </td><td class="hourscol"></td></tr>
+<tr class="even areasubheader undefined"><td colspan="2"><span class="courselistcomment areasubheader undefined">Computer Science Engineering</span></td><td class="hourscol">4</td></tr>
+<tr class="odd"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="ECS 032A">ECS 032A</span></div></td><td>Introduction to Programming</td><td class="hourscol"></td></tr>
+<tr class="orclass odd"><td class="codecol orclass"><div style="margin-left:20px;" class="blockindent">or <span class="code_bubble" data-code-bubble="ECS 032AV">ECS 032AV</span></div></td><td colspan="2"> Introduction to Programming</td></tr>
+<tr class="even areasubheader undefined"><td colspan="2"><span class="courselistcomment areasubheader undefined">Microbiology</span></td><td class="hourscol">2</td></tr>
+<tr class="odd"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="MMG 103L">MMG 103L</span></div></td><td>Introductory Microbiology Laboratory</td><td class="hourscol"></td></tr>
+<tr class="orclass odd"><td class="codecol orclass"><div style="margin-left:20px;" class="blockindent">or <span class="code_bubble" data-code-bubble="MIC 103L DISCONTINUED FOR FALL 2026 **">MIC 103L DISCONTINUED FOR FALL 2026 **</span></div></td><td colspan="2"> </td></tr>
+<tr class="even areasubheader undefined"><td colspan="2"><span class="courselistcomment areasubheader undefined">Molecular &amp; Cellular Biology</span></td><td class="hourscol">3</td></tr>
+<tr class="odd"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="MCB 182">MCB 182</span></div></td><td>Principles of Genomics</td><td class="hourscol"></td></tr>
+<tr class="even areasubheader undefined"><td colspan="2"><span class="courselistcomment areasubheader undefined">Restricted Electives</span></td><td class="hourscol"></td></tr>
+<tr class="odd"><td colspan="2"><span class="courselistcomment">Choose 9 units:</span></td><td class="hourscol">9</td></tr>
+<tr class="even"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="ANG 212">ANG 212</span></div></td><td>Sequence Analysis in Molecular Genetics</td><td class="hourscol"></td></tr>
+<tr class="odd"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="BIS 132">BIS 132</span></div></td><td> (Discontinued for winter 2021) <sup>**</sup></td><td class="hourscol"></td></tr>
+<tr class="even"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="BIS 134">BIS 134</span></div></td><td> (Discontinued for winter 2024) <sup>**</sup></td><td class="hourscol"></td></tr>
+<tr class="odd"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="BIS 181">BIS 181</span></div></td><td>Comparative Genomics</td><td class="hourscol"></td></tr>
+<tr class="even"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="BIS 183">BIS 183</span></div></td><td>Functional Genomics</td><td class="hourscol"></td></tr>
+<tr class="odd"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="BIT 188">BIT 188</span></div></td><td>Undergraduate Research Proposal</td><td class="hourscol"></td></tr>
+<tr class="even"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="EAD 289D">EAD 289D</span></div></td><td>Special Topics in Applied Science: Biophotonics/Biotechnology</td><td class="hourscol"></td></tr>
+<tr class="odd"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="ECS 020">ECS 020</span></div></td><td>Discrete Mathematics For Computer Science</td><td class="hourscol"></td></tr>
+<tr class="even"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="ECS 032B">ECS 032B</span></div></td><td>Introduction to Data Structures</td><td class="hourscol"></td></tr>
+<tr class="odd"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="ECS 034">ECS 034</span></div></td><td>Software Development in UNIX &amp; C++</td><td class="hourscol"></td></tr>
+<tr class="even"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="ECS 050">ECS 050</span></div></td><td>Computer Organization &amp; Machine-Dependent Programming</td><td class="hourscol"></td></tr>
+<tr class="odd"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="ECS 122A">ECS 122A</span></div></td><td>Algorithm Design &amp; Analysis </td><td class="hourscol"></td></tr>
+<tr class="even"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="ECS 124">ECS 124</span></div></td><td>Theory &amp; Practice of Bioinformatics</td><td class="hourscol"></td></tr>
+<tr class="odd"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="ECS 129">ECS 129</span></div></td><td>Computational Structural Bioinformatics                              </td><td class="hourscol"></td></tr>
+<tr class="even"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="ECS 140A">ECS 140A</span></div></td><td>Programming Languages </td><td class="hourscol"></td></tr>
+<tr class="odd"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="ECS 150">ECS 150</span></div></td><td>Operating Systems &amp; System Programming</td><td class="hourscol"></td></tr>
+<tr class="even"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="ECS 154A">ECS 154A</span></div></td><td>Computer Architecture</td><td class="hourscol"></td></tr>
+<tr class="odd"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="EVE 100">EVE 100</span></div></td><td>Introduction to Evolution</td><td class="hourscol"></td></tr>
+<tr class="even"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="EVE 102">EVE 102</span></div></td><td>Population &amp; Quantitative Genetics</td><td class="hourscol"></td></tr>
+<tr class="odd"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="EVE 103">EVE 103</span></div></td><td>Phylogeny, Speciation &amp; Macroevolution</td><td class="hourscol"></td></tr>
+<tr class="even"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="EVE 131">EVE 131</span></div></td><td>Human Genetic Variation &amp; Evolution</td><td class="hourscol"></td></tr>
+<tr class="odd"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="EVE 161">EVE 161</span></div></td><td>Microbial Phylogenomics; Genomic Perspectives on the Diversity &amp; Diversification of Microbes</td><td class="hourscol"></td></tr>
+<tr class="even"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="MAT 124">MAT 124</span></div></td><td>Mathematical Biology</td><td class="hourscol"></td></tr>
+<tr class="odd"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="MCB 162">MCB 162</span></div></td><td>Human Genetics &amp; Genomics</td><td class="hourscol"></td></tr>
+<tr class="even"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="MMG 115">MMG 115</span></div></td><td>Recombinant DNA Cloning &amp; Analysis</td><td class="hourscol"></td></tr>
+<tr class="orclass even"><td class="codecol orclass"><div style="margin-left:20px;" class="blockindent">or <span class="code_bubble" data-code-bubble="MIC 115 DISCONTINUED FOR WINTER 2025 **">MIC 115 DISCONTINUED FOR WINTER 2025 **</span></div></td><td colspan="2"> </td></tr>
+<tr class="odd"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="NPB 132">NPB 132</span></div></td><td>Nature vs. Nurture: Physiological Interactions Among Genes, Nutrients &amp; Health</td><td class="hourscol"></td></tr>
+<tr class="even"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="STA 130A">STA 130A</span></div></td><td>Mathematical Statistics: Brief Course</td><td class="hourscol"></td></tr>
+<tr class="odd"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="STA 130B">STA 130B</span></div></td><td>Mathematical Statistics: Brief Course</td><td class="hourscol"></td></tr>
+<tr class="even"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="STA 131A">STA 131A</span></div></td><td>Introduction to Probability Theory</td><td class="hourscol"></td></tr>
+<tr class="odd"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="STA 131B">STA 131B</span></div></td><td>Introduction to Mathematical Statistics</td><td class="hourscol"></td></tr>
+<tr class="even lastrow"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="STA 141A">STA 141A</span></div></td><td>Fundamentals of Statistical Data Science</td><td class="hourscol"></td></tr>
+<tr class="listsum"><td colspan="2">Total Units</td><td class="hourscol">29-30</td></tr></tbody>
+</table>
+
+<dl class="sc_footnotes" aria-label="Footnotes"><dt>**</dt><dd><p class="noindent">Course(s) discontinued; see your advisor for course options.</p></dd></dl>
+]]>
+</requirementstext>
+<quickviewtext name="Quick View">
+<![CDATA[
+<p>Are you interested in the mechanics of life and improving human &amp; animal health, food safety, energy production, and environmental quality? Biotechnology is a multidisciplinary major that has an impact on almost every aspect of modern human life. Students develop a strong background in the biological sciences with an emphasis on the basic principles of genetics, molecular biology, and cell biology.</p>
+]]>
+</quickviewtext>
+<faculty>
+<![CDATA[
+]]>
+</faculty>
+</courseleaf>
+

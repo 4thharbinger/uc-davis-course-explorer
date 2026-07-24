@@ -1,0 +1,81 @@
+<?xml version="1.0"?>
+<courseleaf>
+
+<title>Chicana/Chicano Studies, Minor</title>
+
+
+<text>
+<![CDATA[  
+
+  
+]]>
+</text>
+<informationtext name="Information">
+<![CDATA[
+<p>This minor provides a broad overview of the historical, social, political, economic, ideological and cultural forces that shape the Chicana/o and Latina/o experience. The minor is open to all students. Students should contact the academic advisor for a plan approval and verification of the minor.</p>
+<h2>Minor Advisor</h2>
+<p>Alma Martinez, M.A.</p>
+]]>
+</informationtext>
+<requirementstext name="Requirements">
+<![CDATA[
+<table class="sc_courselist">
+<caption class="hidden noscript">Course List</caption>
+<colgroup>
+<col class="codecol"/>
+<col class="titlecol"/>
+<col align="char" char="." class="hourscol"/>
+</colgroup>
+<thead>
+<tr class="hidden noscript">
+<th scope="col">Code</th>
+<th scope="col">Title</th>
+<th scope="col" class="hourscol">Units</th>
+</tr>
+</thead>
+<tbody>
+<tr class="even firstrow"><td colspan="2"><span class="courselistcomment">Choose one:</span></td><td class="hourscol">4</td></tr>
+<tr class="odd"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="CHI 010">CHI 010</span></div></td><td>Introduction to Chicana/o Studies</td><td class="hourscol"></td></tr>
+<tr class="orclass odd"><td class="codecol orclass"><div style="margin-left:20px;" class="blockindent">or <span class="code_bubble" data-code-bubble="CHI 010V">CHI 010V</span></div></td><td colspan="2"> Introduction to Chicana/o Studies</td></tr>
+<tr class="even"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="CHI 050">CHI 050</span></div></td><td>Chicana &amp; Chicano Culture</td><td class="hourscol"></td></tr>
+<tr class="odd"><td colspan="2"><span class="courselistcomment">Choose one:</span></td><td class="hourscol">4</td></tr>
+<tr class="even"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="CHI 150">CHI 150</span></div></td><td>The Chicana &amp; Chicano Movement</td><td class="hourscol"></td></tr>
+<tr class="orclass even"><td class="codecol orclass"><div style="margin-left:20px;" class="blockindent">or <span class="code_bubble" data-code-bubble="CHI 150V">CHI 150V</span></div></td><td colspan="2"> The Chicana &amp; Chicano Movement</td></tr>
+<tr class="odd"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="CHI 181">CHI 181</span></div></td><td>Chicanas &amp; Latinas in the U.S.: Historical Perspectives</td><td class="hourscol"></td></tr>
+<tr class="even"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="HIS 169A">HIS 169A</span></div></td><td>Mexican-American History</td><td class="hourscol"></td></tr>
+<tr class="odd"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="HIS 169B">HIS 169B</span></div></td><td>Mexican-American History</td><td class="hourscol"></td></tr>
+<tr class="even"><td colspan="2"><span class="courselistcomment">Choose four:</span></td><td class="hourscol">16</td></tr>
+<tr class="odd"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="CHI 110">CHI 110</span></div></td><td>Sociology of the Chicana/o Experience</td><td class="hourscol"></td></tr>
+<tr class="orclass odd"><td class="codecol orclass"><div style="margin-left:20px;" class="blockindent">or <span class="code_bubble" data-code-bubble="CHI 110V">CHI 110V</span></div></td><td colspan="2"> Sociology of the Chicana/o Experience</td></tr>
+<tr class="even"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="CHI 111">CHI 111</span></div></td><td>Chicanas/Mexicanas in Contemporary Society</td><td class="hourscol"></td></tr>
+<tr class="odd"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="CHI 112">CHI 112</span></div></td><td>Globalization, Transnational Migration, &amp; Chicana/o &amp; Latina/o Communities</td><td class="hourscol"></td></tr>
+<tr class="even"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="CHI 120">CHI 120</span></div></td><td>Chicana/o Psychology</td><td class="hourscol"></td></tr>
+<tr class="odd"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="CHI 121">CHI 121</span></div></td><td>Chicana/o Community Mental Health</td><td class="hourscol"></td></tr>
+<tr class="even"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="CHI 122">CHI 122</span></div></td><td>Psychology Perspectives Chicana/o &amp; Latina/o Family</td><td class="hourscol"></td></tr>
+<tr class="odd"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="CHI 123">CHI 123</span></div></td><td>Psychological perspectives on Chicana/o &amp; Latina/o Children &amp; Adolescents</td><td class="hourscol"></td></tr>
+<tr class="even"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="CHI 130">CHI 130</span></div></td><td>United States-Mexican Border Relations </td><td class="hourscol"></td></tr>
+<tr class="odd"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="CHI 131">CHI 131</span></div></td><td>Chicanas in Politics &amp; Public Policy </td><td class="hourscol"></td></tr>
+<tr class="even"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="CHI 132">CHI 132</span></div></td><td>Political Economy of Chicana/o Communities</td><td class="hourscol"></td></tr>
+<tr class="odd"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="CHI 154">CHI 154</span></div></td><td>The Chicana/o Novel</td><td class="hourscol"></td></tr>
+<tr class="even"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="CHI 155">CHI 155</span></div></td><td>Chicana/o Theater</td><td class="hourscol"></td></tr>
+<tr class="odd"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="CHI 156">CHI 156</span></div></td><td>Chicana/o Poetry</td><td class="hourscol"></td></tr>
+<tr class="even"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="CHI 160">CHI 160</span></div></td><td>Mexican Film &amp; Greater Mexican Identity</td><td class="hourscol"></td></tr>
+<tr class="odd"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="CHI 165">CHI 165</span></div></td><td>Chicanas, Latinas &amp; Mexicanas in Commercial Media</td><td class="hourscol"></td></tr>
+<tr class="even"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="CHI 171">CHI/ART 171</span></div></td><td>Mexican &amp; Chicano Mural Workshop</td><td class="hourscol"></td></tr>
+<tr class="odd lastrow"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="CHI 172">CHI 172</span></div></td><td>Chicana/o Voice/Poster Silk Screen Workshop</td><td class="hourscol"></td></tr>
+<tr class="listsum"><td colspan="2">Total Units</td><td class="hourscol">24</td></tr></tbody>
+</table>
+
+]]>
+</requirementstext>
+<quickviewtext name="Quick View">
+<![CDATA[
+<p>The <span class="title-main">Chicana/Chicano Studies </span>minor provides a broad overview of the historical, social, political, economic, ideological, and cultural forces that shape the Chicana/o and Latina/o experience.</p>
+]]>
+</quickviewtext>
+<faculty>
+<![CDATA[
+]]>
+</faculty>
+</courseleaf>
+

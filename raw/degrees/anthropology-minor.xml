@@ -1,0 +1,320 @@
+<?xml version="1.0"?>
+<courseleaf>
+
+<title>Anthropology, Minor</title>
+
+
+<text>
+<![CDATA[  
+
+  
+]]>
+</text>
+<informationtext name="Information">
+<![CDATA[
+<h2>Minor Advisor</h2>
+<p>For more information about the Anthropology minor options, contact our <a href="https://anthropology.ucdavis.edu/undergraduate/advising/advising-office" target="_blank">Advising Office</a>. </p>
+]]>
+</informationtext>
+<requirementstext name="Requirements">
+<![CDATA[
+<h2 class="toggle">General Emphasis</h2>
+<table class="sc_courselist">
+<caption class="hidden noscript">Course List</caption>
+<colgroup>
+<col class="codecol"/>
+<col class="titlecol"/>
+<col align="char" char="." class="hourscol"/>
+</colgroup>
+<thead>
+<tr class="hidden noscript">
+<th scope="col">Code</th>
+<th scope="col">Title</th>
+<th scope="col" class="hourscol">Units</th>
+</tr>
+</thead>
+<tbody>
+<tr class="even firstrow"><td colspan="2"><span class="courselistcomment">Choose one:</span></td><td class="hourscol">2-5</td></tr>
+<tr class="odd"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="ANT 101">ANT/ESP 101</span></div></td><td>Ecology, Nature, &amp; Society</td><td class="hourscol"></td></tr>
+<tr class="even"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="ANT 102">ANT 102</span></div></td><td>Evolution, Culture, &amp; Mental Health</td><td class="hourscol"></td></tr>
+<tr class="odd"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="ANT 103">ANT 103</span></div></td><td> (Discontinued for spring 2026) <sup>**</sup></td><td class="hourscol"></td></tr>
+<tr class="even"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="ANT 122A">ANT 122A</span></div></td><td>Economic Anthropology</td><td class="hourscol"></td></tr>
+<tr class="odd"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="ANT 128A">ANT 128A</span></div></td><td>Kinship &amp; Social Organization: From Clans to Countries</td><td class="hourscol"></td></tr>
+<tr class="even"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="ANT 150">ANT 150</span></div></td><td>Evolution &amp; Human Health</td><td class="hourscol"></td></tr>
+<tr class="odd"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="ANT 151">ANT 151</span></div></td><td>Primate Evolution</td><td class="hourscol"></td></tr>
+<tr class="even"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="ANT 152">ANT 152</span></div></td><td>Human Evolution</td><td class="hourscol"></td></tr>
+<tr class="odd"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="ANT 153">ANT 153</span></div></td><td>Human Genetics: Mutation &amp; Migration</td><td class="hourscol"></td></tr>
+<tr class="even"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="ANT 154A">ANT 154A</span></div></td><td>The Evolution of Primate Behavior</td><td class="hourscol"></td></tr>
+<tr class="odd"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="ANT 155">ANT 155</span></div></td><td>Primate Conservation Biology</td><td class="hourscol"></td></tr>
+<tr class="even"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="ANT 157">ANT 157</span></div></td><td>Advanced Human Genetics</td><td class="hourscol"></td></tr>
+<tr class="odd"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="ANT 158">ANT 158</span></div></td><td>The Evolution of Sex: A Biological Perspective</td><td class="hourscol"></td></tr>
+<tr class="even"><td colspan="2"><span class="courselistcomment">Choose one:</span></td><td class="hourscol">4</td></tr>
+<tr class="odd"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="ANT 170">ANT 170</span></div></td><td>Archeological Theory &amp; Method</td><td class="hourscol"></td></tr>
+<tr class="even"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="ANT 172">ANT 172</span></div></td><td>Ice-Age Settlement of the Americas</td><td class="hourscol"></td></tr>
+<tr class="odd"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="ANT 174">ANT 174</span></div></td><td>European Archaeology: First Peopling to the Bronze Age</td><td class="hourscol"></td></tr>
+<tr class="even"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="ANT 175">ANT 175</span></div></td><td>Andean Archaeology</td><td class="hourscol"></td></tr>
+<tr class="odd"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="ANT 176">ANT 176</span></div></td><td>California Archaeology</td><td class="hourscol"></td></tr>
+<tr class="even"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="ANT 177">ANT 177</span></div></td><td> African Archaeology: From Australopithecines to Great Zimbabwe</td><td class="hourscol"></td></tr>
+<tr class="odd"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="ANT 179">ANT 179</span></div></td><td> (Discontinued for spring 2026) <sup>**</sup></td><td class="hourscol"></td></tr>
+<tr class="even"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="ANT 180">ANT 180</span></div></td><td>Zooarchaeology</td><td class="hourscol"></td></tr>
+<tr class="odd"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="ANT 181">ANT 181</span></div></td><td> Archaeological Field Methods</td><td class="hourscol"></td></tr>
+<tr class="even"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="ANT 182">ANT 182</span></div></td><td>Archaeometry</td><td class="hourscol"></td></tr>
+<tr class="odd"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="ANT 183">ANT 183</span></div></td><td>Laboratory in Archeological Analysis</td><td class="hourscol"></td></tr>
+<tr class="even"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="ANT 184">ANT 184</span></div></td><td>Evolution of Human Technology</td><td class="hourscol"></td></tr>
+<tr class="odd"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="ANT 185">ANT 185</span></div></td><td>Lithic Analysis</td><td class="hourscol"></td></tr>
+<tr class="even"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="ANT 187">ANT 187</span></div></td><td>Cultural Resource Management in Archaeology</td><td class="hourscol"></td></tr>
+<tr class="odd"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="ANT 188">ANT 188</span></div></td><td>Forensic Archaeology Field Course</td><td class="hourscol"></td></tr>
+<tr class="even"><td colspan="2"><span class="courselistcomment">Choose one from below or any other sociocultural track course that refers in its title to one or more peoples or regions of the world:</span></td><td class="hourscol">4</td></tr>
+<tr class="odd"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="ANT 133">ANT 133</span></div></td><td>Anthropology of Ocean Worlds</td><td class="hourscol"></td></tr>
+<tr class="even"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="ANT 140A">ANT 140A</span></div></td><td> (Discontinued for fall 2025) <sup>**</sup></td><td class="hourscol"></td></tr>
+<tr class="odd"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="ANT 140B">ANT 140B</span></div></td><td> (Discontinued for spring 2026) <sup>**</sup></td><td class="hourscol"></td></tr>
+<tr class="even"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="ANT 141">ANT 141</span></div></td><td>Indigenous Peoples of the Arctic</td><td class="hourscol"></td></tr>
+<tr class="odd"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="ANT 142">ANT 142</span></div></td><td>Peoples of the Middle East</td><td class="hourscol"></td></tr>
+<tr class="even"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="ANT 143A">ANT 143A</span></div></td><td>Ethnology of Southeast Asia</td><td class="hourscol"></td></tr>
+<tr class="odd"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="ANT 144">ANT 144</span></div></td><td>Contemporary Societies &amp; Cultures of Latin America</td><td class="hourscol"></td></tr>
+<tr class="even"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="ANT 145">ANT 145</span></div></td><td>Performance, Embodiment, &amp; Space in South Asia</td><td class="hourscol"></td></tr>
+<tr class="odd"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="ANT 146N">ANT 146N</span></div></td><td>Topics in the Anthropology of Europe</td><td class="hourscol"></td></tr>
+<tr class="even"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="ANT 147">ANT 147/MSA 131B/CTS 146B</span></div></td><td>Modern South Asia Cinema</td><td class="hourscol"></td></tr>
+<tr class="odd"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="ANT 148A">ANT 148A</span></div></td><td>Culture &amp; Political Economy in Contemporary China</td><td class="hourscol"></td></tr>
+<tr class="even"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="ANT 178">ANT 178</span></div></td><td>Hunter-Gatherers</td><td class="hourscol"></td></tr>
+<tr class="odd"><td colspan="2"><span class="courselistcomment">Choose two:</span></td><td class="hourscol">8</td></tr>
+<tr class="even"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="ANT 100">ANT 100</span></div></td><td>Theory in Social-Cultural Anthropology</td><td class="hourscol"></td></tr>
+<tr class="odd"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="ANT 104N">ANT 104N</span></div></td><td>Cultural Politics of the Environment</td><td class="hourscol"></td></tr>
+<tr class="even"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="ANT 107">ANT 107</span></div></td><td>Law, Power, Violence</td><td class="hourscol"></td></tr>
+<tr class="odd"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="ANT 109">ANT/STS 109</span></div></td><td>Visualization in Science: A Critical Introduction</td><td class="hourscol"></td></tr>
+<tr class="even"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="ANT 111">ANT/STS 111</span></div></td><td>Science &amp; Race</td><td class="hourscol"></td></tr>
+<tr class="odd"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="ANT 117">ANT 117</span></div></td><td>The Ethnographic &amp; Literary Imagination</td><td class="hourscol"></td></tr>
+<tr class="even"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="ANT 120">ANT 120</span></div></td><td>Language &amp; Culture</td><td class="hourscol"></td></tr>
+<tr class="odd"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="ANT 121">ANT/STS 121</span></div></td><td>Special Topics in Medical Anthropology</td><td class="hourscol"></td></tr>
+<tr class="even"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="ANT 122A">ANT 122A</span></div></td><td>Economic Anthropology</td><td class="hourscol"></td></tr>
+<tr class="odd"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="ANT 122B">ANT 122B</span></div></td><td>Capitalism &amp; Power</td><td class="hourscol"></td></tr>
+<tr class="even"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="ANT 123AN">ANT 123AN</span></div></td><td>Resistance, Rebellion, &amp; Popular Movements</td><td class="hourscol"></td></tr>
+<tr class="odd"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="ANT 124">ANT 124</span></div></td><td>Religion in Society &amp; Culture</td><td class="hourscol"></td></tr>
+<tr class="even"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="ANT 125A">ANT 125A</span></div></td><td> (Discontinued for winter 2025) <sup>**</sup></td><td class="hourscol"></td></tr>
+<tr class="odd"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="ANT 125B">ANT 125B</span></div></td><td>Postmodernism(s) &amp; Culture</td><td class="hourscol"></td></tr>
+<tr class="even"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="ANT 126A">ANT 126A</span></div></td><td>Anthropology of Development</td><td class="hourscol"></td></tr>
+<tr class="odd"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="ANT 126B">ANT 126B</span></div></td><td>Women &amp; Development</td><td class="hourscol"></td></tr>
+<tr class="even"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="ANT 127">ANT 127</span></div></td><td>Urban Anthropology</td><td class="hourscol"></td></tr>
+<tr class="odd"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="ANT 128B">ANT 128B</span></div></td><td> (Discontinued for winter 2025) <sup>**</sup></td><td class="hourscol"></td></tr>
+<tr class="even"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="ANT 129">ANT/STS 129</span></div></td><td>Health &amp; Medicine in a Global Context</td><td class="hourscol"></td></tr>
+<tr class="odd"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="ANT 130A">ANT 130A</span></div></td><td>Cultural Dimensions of Globalization</td><td class="hourscol"></td></tr>
+<tr class="even"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="ANT 130BN">ANT 130BN</span></div></td><td>Migration &amp; the Politics of Place &amp; Identity</td><td class="hourscol"></td></tr>
+<tr class="odd"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="ANT 131">ANT 131</span></div></td><td>Ecology &amp; Politics</td><td class="hourscol"></td></tr>
+<tr class="even"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="ANT 132">ANT 132</span></div></td><td>Psychological Anthropology</td><td class="hourscol"></td></tr>
+<tr class="odd"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="ANT 133">ANT 133</span></div></td><td>Anthropology of Ocean Worlds</td><td class="hourscol"></td></tr>
+<tr class="even"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="ANT 134">ANT 134</span></div></td><td>Buddhism in Global Culture</td><td class="hourscol"></td></tr>
+<tr class="odd"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="ANT 135">ANT 135</span></div></td><td>Media Anthropology</td><td class="hourscol"></td></tr>
+<tr class="even"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="ANT 136">ANT 136</span></div></td><td>Ethnographic Film</td><td class="hourscol"></td></tr>
+<tr class="odd"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="ANT 137">ANT 137</span></div></td><td>Meditation &amp; Culture</td><td class="hourscol"></td></tr>
+<tr class="even"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="ANT 138">ANT 138</span></div></td><td>Ethnographic Research Methods in Anthropology</td><td class="hourscol"></td></tr>
+<tr class="odd"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="ANT 139AN">ANT 139AN</span></div></td><td>Race, Class, Gender Systems</td><td class="hourscol"></td></tr>
+<tr class="even lastrow"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="ANT 139BN">ANT 139BN</span></div></td><td>Gender &amp; Sexuality</td><td class="hourscol"></td></tr>
+<tr class="listsum"><td colspan="2">Total Units</td><td class="hourscol">18-21</td></tr></tbody>
+</table>
+
+<dl class="sc_footnotes" aria-label="Footnotes"><dt>**</dt><dd><p class="noindent">Course(s) discontinued; see your advisor for course options.</p></dd></dl>
+<h2 class="toggle">Archaeology Emphasis</h2>
+<table class="sc_courselist">
+<caption class="hidden noscript">Course List</caption>
+<colgroup>
+<col class="codecol"/>
+<col class="titlecol"/>
+<col align="char" char="." class="hourscol"/>
+</colgroup>
+<thead>
+<tr class="hidden noscript">
+<th scope="col">Code</th>
+<th scope="col">Title</th>
+<th scope="col" class="hourscol">Units</th>
+</tr>
+</thead>
+<tbody>
+<tr class="even firstrow"><td class="codecol"><span class="code_bubble" data-code-bubble="ANT 170">ANT 170</span></td><td>Archeological Theory &amp; Method</td><td class="hourscol">4</td></tr>
+<tr class="odd"><td colspan="2"><span class="courselistcomment">Choose two:</span></td><td class="hourscol">8</td></tr>
+<tr class="even"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="ANT 172">ANT 172</span></div></td><td>Ice-Age Settlement of the Americas</td><td class="hourscol"></td></tr>
+<tr class="odd"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="ANT 174">ANT 174</span></div></td><td>European Archaeology: First Peopling to the Bronze Age</td><td class="hourscol"></td></tr>
+<tr class="even"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="ANT 175">ANT 175</span></div></td><td>Andean Archaeology</td><td class="hourscol"></td></tr>
+<tr class="odd"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="ANT 176">ANT 176</span></div></td><td>California Archaeology</td><td class="hourscol"></td></tr>
+<tr class="even"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="ANT 177">ANT 177</span></div></td><td> African Archaeology: From Australopithecines to Great Zimbabwe</td><td class="hourscol"></td></tr>
+<tr class="odd"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="ANT 178">ANT 178</span></div></td><td>Hunter-Gatherers</td><td class="hourscol"></td></tr>
+<tr class="even"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="ANT 179">ANT 179</span></div></td><td> (Discontinued for spring 2026) <sup>**</sup></td><td class="hourscol"></td></tr>
+<tr class="odd"><td colspan="2"><span class="courselistcomment">Choose two:</span></td><td class="hourscol">8</td></tr>
+<tr class="even"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="ANT 156A">ANT 156A</span></div></td><td>Human Osteology</td><td class="hourscol"></td></tr>
+<tr class="odd"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="ANT 156B">ANT 156B</span></div></td><td>Advanced Human Osteology</td><td class="hourscol"></td></tr>
+<tr class="even"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="ANT 180">ANT 180</span></div></td><td>Zooarchaeology</td><td class="hourscol"></td></tr>
+<tr class="odd"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="ANT 181">ANT 181</span></div></td><td> Archaeological Field Methods</td><td class="hourscol"></td></tr>
+<tr class="even"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="ANT 181L">ANT 181L</span></div></td><td>Field Course in Archeological Methods</td><td class="hourscol"></td></tr>
+<tr class="odd"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="ANT 182">ANT 182</span></div></td><td>Archaeometry</td><td class="hourscol"></td></tr>
+<tr class="even"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="ANT 183">ANT 183</span></div></td><td>Laboratory in Archeological Analysis</td><td class="hourscol"></td></tr>
+<tr class="odd"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="ANT 184">ANT 184</span></div></td><td>Evolution of Human Technology</td><td class="hourscol"></td></tr>
+<tr class="even"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="ANT 185">ANT 185</span></div></td><td>Lithic Analysis</td><td class="hourscol"></td></tr>
+<tr class="odd"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="ANT 187">ANT 187</span></div></td><td>Cultural Resource Management in Archaeology</td><td class="hourscol"></td></tr>
+<tr class="even lastrow"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="ANT 188">ANT 188</span></div></td><td>Forensic Archaeology Field Course</td><td class="hourscol"></td></tr>
+<tr class="listsum"><td colspan="2">Total Units</td><td class="hourscol">20</td></tr></tbody>
+</table>
+
+<h2 class="toggle">Evolutionary Emphasis</h2>
+<table class="sc_courselist">
+<caption class="hidden noscript">Course List</caption>
+<colgroup>
+<col class="codecol"/>
+<col class="titlecol"/>
+<col align="char" char="." class="hourscol"/>
+</colgroup>
+<thead>
+<tr class="hidden noscript">
+<th scope="col">Code</th>
+<th scope="col">Title</th>
+<th scope="col" class="hourscol">Units</th>
+</tr>
+</thead>
+<tbody>
+<tr class="even firstrow"><td colspan="2"><span class="courselistcomment">Any five upper division Evolutionary Anthropology courses; Evolutionary track courses at the upper division level are:</span></td><td class="hourscol">18-25</td></tr>
+<tr class="odd"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="ANT 101">ANT 101</span></div></td><td>Ecology, Nature, &amp; Society</td><td class="hourscol"></td></tr>
+<tr class="even"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="ANT 102">ANT 102</span></div></td><td>Evolution, Culture, &amp; Mental Health</td><td class="hourscol"></td></tr>
+<tr class="odd"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="ANT 122A">ANT 122A</span></div></td><td>Economic Anthropology</td><td class="hourscol"></td></tr>
+<tr class="even"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="ANT 128A">ANT 128A</span></div></td><td>Kinship &amp; Social Organization: From Clans to Countries</td><td class="hourscol"></td></tr>
+<tr class="odd"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="ANT 141C">ANT 141C</span></div></td><td> (Discontinued for winter 2026) <sup>**</sup></td><td class="hourscol"></td></tr>
+<tr class="orclass odd"><td class="codecol orclass"><div style="margin-left:20px;" class="blockindent">or <span class="code_bubble" data-code-bubble="ANT 141">ANT 141</span></div></td><td colspan="2"> Indigenous Peoples of the Arctic</td></tr>
+<tr class="even"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="ANT 150">ANT 150</span></div></td><td>Evolution &amp; Human Health</td><td class="hourscol"></td></tr>
+<tr class="odd"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="ANT 151">ANT 151</span></div></td><td>Primate Evolution</td><td class="hourscol"></td></tr>
+<tr class="even"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="ANT 152">ANT 152</span></div></td><td>Human Evolution</td><td class="hourscol"></td></tr>
+<tr class="odd"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="ANT 153">ANT 153</span></div></td><td>Human Genetics: Mutation &amp; Migration</td><td class="hourscol"></td></tr>
+<tr class="even"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="ANT 154A">ANT 154A</span></div></td><td>The Evolution of Primate Behavior</td><td class="hourscol"></td></tr>
+<tr class="odd"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="ANT 154C">ANT 154C</span></div></td><td>Primate Behavior: Methods &amp; Experimental Design</td><td class="hourscol"></td></tr>
+<tr class="even"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="ANT 154CL">ANT 154CL</span></div></td><td>Laboratory in Primate Behavior</td><td class="hourscol"></td></tr>
+<tr class="odd"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="ANT 155">ANT 155</span></div></td><td>Primate Conservation Biology</td><td class="hourscol"></td></tr>
+<tr class="even"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="ANT 156A">ANT 156A</span></div></td><td>Human Osteology</td><td class="hourscol"></td></tr>
+<tr class="odd"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="ANT 156B">ANT 156B</span></div></td><td>Advanced Human Osteology</td><td class="hourscol"></td></tr>
+<tr class="even"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="ANT 157">ANT 157</span></div></td><td>Advanced Human Genetics</td><td class="hourscol"></td></tr>
+<tr class="odd"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="ANT 157L">ANT 157L</span></div></td><td>Advanced Human Genetics Lab</td><td class="hourscol"></td></tr>
+<tr class="even"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="ANT 158">ANT 158</span></div></td><td>The Evolution of Sex: A Biological Perspective</td><td class="hourscol"></td></tr>
+<tr class="odd"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="ANT 159">ANT 159</span></div></td><td>Disease Outbreaks in Humans and Other Primates</td><td class="hourscol"></td></tr>
+<tr class="even"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="ANT 160">ANT 160</span></div></td><td>Neandertals &amp; Modern Human Origins</td><td class="hourscol"></td></tr>
+<tr class="odd"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="ANT 170">ANT 170</span></div></td><td>Archeological Theory &amp; Method</td><td class="hourscol"></td></tr>
+<tr class="even"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="ANT 172">ANT 172</span></div></td><td>Ice-Age Settlement of the Americas</td><td class="hourscol"></td></tr>
+<tr class="odd"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="ANT 174">ANT 174</span></div></td><td>European Archaeology: First Peopling to the Bronze Age</td><td class="hourscol"></td></tr>
+<tr class="even"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="ANT 175">ANT 175</span></div></td><td>Andean Archaeology</td><td class="hourscol"></td></tr>
+<tr class="odd"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="ANT 176">ANT 176</span></div></td><td>California Archaeology</td><td class="hourscol"></td></tr>
+<tr class="even"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="ANT 177">ANT 177</span></div></td><td> African Archaeology: From Australopithecines to Great Zimbabwe</td><td class="hourscol"></td></tr>
+<tr class="odd"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="ANT 178">ANT 178</span></div></td><td>Hunter-Gatherers</td><td class="hourscol"></td></tr>
+<tr class="even"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="ANT 180">ANT 180</span></div></td><td>Zooarchaeology</td><td class="hourscol"></td></tr>
+<tr class="odd"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="ANT 181">ANT 181</span></div></td><td> Archaeological Field Methods</td><td class="hourscol"></td></tr>
+<tr class="even"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="ANT 181L">ANT 181L</span></div></td><td>Field Course in Archeological Methods</td><td class="hourscol"></td></tr>
+<tr class="odd"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="ANT 182">ANT 182</span></div></td><td>Archaeometry</td><td class="hourscol"></td></tr>
+<tr class="even"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="ANT 183">ANT 183</span></div></td><td>Laboratory in Archeological Analysis</td><td class="hourscol"></td></tr>
+<tr class="odd"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="ANT 184">ANT 184</span></div></td><td>Evolution of Human Technology</td><td class="hourscol"></td></tr>
+<tr class="even"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="ANT 185">ANT 185</span></div></td><td>Lithic Analysis</td><td class="hourscol"></td></tr>
+<tr class="odd"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="ANT 187">ANT 187</span></div></td><td>Cultural Resource Management in Archaeology</td><td class="hourscol"></td></tr>
+<tr class="even lastrow"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="ANT 188">ANT 188</span></div></td><td>Forensic Archaeology Field Course</td><td class="hourscol"></td></tr>
+<tr class="listsum"><td colspan="2">Total Units</td><td class="hourscol">18-25</td></tr></tbody>
+</table>
+
+<dl class="sc_footnotes" aria-label="Footnotes"><dt>**</dt><dd><p class="noindent">Course(s) discontinued; see your advisor for course options.</p></dd></dl>
+<h2 class="toggle">Global Human Health Emphasis</h2>
+<table class="sc_courselist">
+<caption class="hidden noscript">Course List</caption>
+<colgroup>
+<col class="codecol"/>
+<col class="titlecol"/>
+<col align="char" char="." class="hourscol"/>
+</colgroup>
+<thead>
+<tr class="hidden noscript">
+<th scope="col">Code</th>
+<th scope="col">Title</th>
+<th scope="col" class="hourscol">Units</th>
+</tr>
+</thead>
+<tbody>
+<tr class="even firstrow"><td class="codecol"><span class="code_bubble" data-code-bubble="ANT 015">ANT 015</span></td><td>From Birth to Death: The Evolution of the Human Life Cycle</td><td class="hourscol">5</td></tr>
+<tr class="odd"><td colspan="2"><span class="courselistcomment">Choose four; minimum 16 upper division units:</span></td><td class="hourscol">14-21</td></tr>
+<tr class="even"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="ANT 101">ANT 101</span></div></td><td>Ecology, Nature, &amp; Society</td><td class="hourscol"></td></tr>
+<tr class="odd"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="ANT 102">ANT 102</span></div></td><td>Evolution, Culture, &amp; Mental Health</td><td class="hourscol"></td></tr>
+<tr class="even"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="ANT 104N">ANT 104N</span></div></td><td>Cultural Politics of the Environment</td><td class="hourscol"></td></tr>
+<tr class="odd"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="ANT 121">ANT/STS 121</span></div></td><td>Special Topics in Medical Anthropology</td><td class="hourscol"></td></tr>
+<tr class="even"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="ANT 129">ANT/STS 129</span></div></td><td>Health &amp; Medicine in a Global Context</td><td class="hourscol"></td></tr>
+<tr class="odd"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="ANT 132">ANT 132</span></div></td><td>Psychological Anthropology</td><td class="hourscol"></td></tr>
+<tr class="even"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="ANT 138">ANT 138</span></div></td><td>Ethnographic Research Methods in Anthropology</td><td class="hourscol"></td></tr>
+<tr class="odd"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="ANT 139BN">ANT 139BN</span></div></td><td>Gender &amp; Sexuality</td><td class="hourscol"></td></tr>
+<tr class="even"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="ANT 150">ANT 150</span></div></td><td>Evolution &amp; Human Health</td><td class="hourscol"></td></tr>
+<tr class="odd"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="ANT 152">ANT 152</span></div></td><td>Human Evolution</td><td class="hourscol"></td></tr>
+<tr class="even"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="ANT 153">ANT 153</span></div></td><td>Human Genetics: Mutation &amp; Migration</td><td class="hourscol"></td></tr>
+<tr class="odd"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="ANT 154A">ANT 154A</span></div></td><td>The Evolution of Primate Behavior</td><td class="hourscol"></td></tr>
+<tr class="even"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="ANT 156A">ANT 156A</span></div></td><td>Human Osteology</td><td class="hourscol"></td></tr>
+<tr class="odd"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="ANT 156B">ANT 156B</span></div></td><td>Advanced Human Osteology</td><td class="hourscol"></td></tr>
+<tr class="even"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="ANT 157">ANT 157</span></div></td><td>Advanced Human Genetics <sup>1</sup></td><td class="hourscol"></td></tr>
+<tr class="odd"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="ANT 157L">ANT 157L</span></div></td><td>Advanced Human Genetics Lab <sup>2</sup></td><td class="hourscol"></td></tr>
+<tr class="even"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="ANT 158">ANT 158</span></div></td><td>The Evolution of Sex: A Biological Perspective</td><td class="hourscol"></td></tr>
+<tr class="odd lastrow"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="ANT 159">ANT 159</span></div></td><td>Disease Outbreaks in Humans and Other Primates</td><td class="hourscol"></td></tr>
+<tr class="listsum"><td colspan="2">Total Units</td><td class="hourscol">19-26</td></tr></tbody>
+</table>
+
+<dl class="sc_footnotes" aria-label="Footnotes"><dt> <sup> 1 </sup> </dt><dd><div class="page" title="Page 117"> <div class="layoutArea"> <div class="column"> <p class="noindent">Must be taken with <span class="sc_courseinline"><span class="code_bubble" data-code-bubble="ANT 157L">ANT 157L</span></span> for 6 units total.</p> </div> </div> </div></dd><dt> <sup> 2 </sup> </dt><dd><div class="page" title="Page 117"> <div class="layoutArea"> <div class="column"> <p class="noindent">Must be taken with <span class="sc_courseinline"><span class="code_bubble" data-code-bubble="ANT 157">ANT 157</span></span> for 6 units total.</p> </div> </div> </div></dd></dl>
+<h2 class="toggle">Sociocultural Emphasis</h2>
+<table class="sc_courselist">
+<caption class="hidden noscript">Course List</caption>
+<colgroup>
+<col class="codecol"/>
+<col class="titlecol"/>
+<col align="char" char="." class="hourscol"/>
+</colgroup>
+<thead>
+<tr class="hidden noscript">
+<th scope="col">Code</th>
+<th scope="col">Title</th>
+<th scope="col" class="hourscol">Units</th>
+</tr>
+</thead>
+<tbody>
+<tr class="even firstrow"><td class="codecol"><span class="code_bubble" data-code-bubble="ANT 100">ANT 100</span></td><td>Theory in Social-Cultural Anthropology</td><td class="hourscol">4</td></tr>
+<tr class="odd"><td colspan="2"><span class="courselistcomment">One upper division area-focus Sociocultural track course; area-focus Sociocultural track courses are ANT 140A (Discontinued for winter 2025) **-<span class="code_bubble" data-code-bubble="ANT 148A">ANT 148A</span>.</span></td><td class="hourscol">4</td></tr>
+<tr class="even"><td colspan="2"><span class="courselistcomment">One additional upper division Sociocultural Anthropology course. Sociocultural track courses at the upper division level are numbered <span class="code_bubble" data-code-bubble="ANT 100">ANT 100</span>-<span class="code_bubble" data-code-bubble="ANT 148A">ANT 148A</span>, with the exception of <span class="code_bubble" data-code-bubble="ANT 101">ANT 101</span>, ANT 103 (Discontinued for winter 2025) **, &amp; <span class="code_bubble" data-code-bubble="ANT 128A">ANT 128A</span>.</span></td><td class="hourscol">4</td></tr>
+<tr class="odd"><td colspan="2"><span class="courselistcomment">Choose two:</span></td><td class="hourscol">8</td></tr>
+<tr class="even"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="ANT 104N">ANT 104N</span></div></td><td>Cultural Politics of the Environment</td><td class="hourscol"></td></tr>
+<tr class="odd"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="ANT 107">ANT 107</span></div></td><td>Law, Power, Violence</td><td class="hourscol"></td></tr>
+<tr class="even"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="ANT 109">ANT/STS 109</span></div></td><td>Visualization in Science: A Critical Introduction</td><td class="hourscol"></td></tr>
+<tr class="odd"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="ANT 111">ANT/STS 111</span></div></td><td>Science &amp; Race</td><td class="hourscol"></td></tr>
+<tr class="even"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="ANT 117">ANT 117</span></div></td><td>The Ethnographic &amp; Literary Imagination</td><td class="hourscol"></td></tr>
+<tr class="odd"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="ANT 120">ANT 120</span></div></td><td>Language &amp; Culture</td><td class="hourscol"></td></tr>
+<tr class="even"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="ANT 121">ANT/STS 121</span></div></td><td>Special Topics in Medical Anthropology</td><td class="hourscol"></td></tr>
+<tr class="odd"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="ANT 122A">ANT 122A</span></div></td><td>Economic Anthropology</td><td class="hourscol"></td></tr>
+<tr class="even"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="ANT 122B">ANT 122B</span></div></td><td>Capitalism &amp; Power</td><td class="hourscol"></td></tr>
+<tr class="odd"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="ANT 123AN">ANT 123AN</span></div></td><td>Resistance, Rebellion, &amp; Popular Movements</td><td class="hourscol"></td></tr>
+<tr class="even"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="ANT 124">ANT 124</span></div></td><td>Religion in Society &amp; Culture</td><td class="hourscol"></td></tr>
+<tr class="odd"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="ANT 125A">ANT 125A</span></div></td><td> (Discontinued for winter 2025) <sup>**</sup></td><td class="hourscol"></td></tr>
+<tr class="even"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="ANT 125B">ANT 125B</span></div></td><td>Postmodernism(s) &amp; Culture</td><td class="hourscol"></td></tr>
+<tr class="odd"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="ANT 126A">ANT 126A</span></div></td><td>Anthropology of Development</td><td class="hourscol"></td></tr>
+<tr class="even"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="ANT 126B">ANT 126B</span></div></td><td>Women &amp; Development</td><td class="hourscol"></td></tr>
+<tr class="odd"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="ANT 127">ANT 127</span></div></td><td>Urban Anthropology</td><td class="hourscol"></td></tr>
+<tr class="even"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="ANT 128B">ANT 128B</span></div></td><td> (Discontinued for winter 2025) <sup>**</sup></td><td class="hourscol"></td></tr>
+<tr class="odd"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="ANT 129">ANT/STS 129</span></div></td><td>Health &amp; Medicine in a Global Context</td><td class="hourscol"></td></tr>
+<tr class="even"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="ANT 130A">ANT 130A</span></div></td><td>Cultural Dimensions of Globalization</td><td class="hourscol"></td></tr>
+<tr class="odd"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="ANT 130BN">ANT 130BN</span></div></td><td>Migration &amp; the Politics of Place &amp; Identity</td><td class="hourscol"></td></tr>
+<tr class="even"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="ANT 131">ANT 131</span></div></td><td>Ecology &amp; Politics</td><td class="hourscol"></td></tr>
+<tr class="odd"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="ANT 132">ANT 132</span></div></td><td>Psychological Anthropology</td><td class="hourscol"></td></tr>
+<tr class="even"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="ANT 133">ANT 133</span></div></td><td>Anthropology of Ocean Worlds</td><td class="hourscol"></td></tr>
+<tr class="odd"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="ANT 134">ANT 134</span></div></td><td>Buddhism in Global Culture</td><td class="hourscol"></td></tr>
+<tr class="even"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="ANT 135">ANT 135</span></div></td><td>Media Anthropology</td><td class="hourscol"></td></tr>
+<tr class="odd"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="ANT 136">ANT 136</span></div></td><td>Ethnographic Film</td><td class="hourscol"></td></tr>
+<tr class="even"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="ANT 137">ANT 137</span></div></td><td>Meditation &amp; Culture</td><td class="hourscol"></td></tr>
+<tr class="odd"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="ANT 138">ANT 138</span></div></td><td>Ethnographic Research Methods in Anthropology</td><td class="hourscol"></td></tr>
+<tr class="even"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="ANT 139AN">ANT 139AN</span></div></td><td>Race, Class, Gender Systems</td><td class="hourscol"></td></tr>
+<tr class="odd lastrow"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="ANT 139BN">ANT 139BN</span></div></td><td>Gender &amp; Sexuality</td><td class="hourscol"></td></tr>
+<tr class="listsum"><td colspan="2">Total Units</td><td class="hourscol">20</td></tr></tbody>
+</table>
+
+<dl class="sc_footnotes" aria-label="Footnotes"><dt>**</dt><dd><p class="noindent">Course(s) discontinued; see your advisor for course options.</p></dd></dl>
+]]>
+</requirementstext>
+<quickviewtext name="Quick View">
+<![CDATA[
+<p>An Anthropology minor is an ideal complement to most majors at UC Davis. For the minor, the Department of Anthropology offers students a choice of archaeology, evolutionary, sociocultural, or general emphasis.</p>
+]]>
+</quickviewtext>
+<faculty>
+<![CDATA[
+]]>
+</faculty>
+</courseleaf>
+

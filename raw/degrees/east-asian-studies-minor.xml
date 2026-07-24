@@ -1,0 +1,65 @@
+<?xml version="1.0"?>
+<courseleaf>
+
+<title>East Asian Studies, Minor</title>
+
+
+<text>
+<![CDATA[  
+
+  
+]]>
+</text>
+<informationtext name="Information">
+<![CDATA[
+<p>Courses taken for the minor are expected to reflect a predominant interest in East Asia or Southeast Asia. All upper division courses counting towards the East Asian Studies major, may be used to fulfill the requirements for the minor program, as long as they deal predominantly with East Asia or Southeast Asia.</p>
+
+
+
+]]>
+</informationtext>
+<requirementstext name="Requirements">
+<![CDATA[
+<table class="sc_courselist">
+<caption class="hidden noscript">Course List</caption>
+<colgroup>
+<col class="codecol"/>
+<col class="titlecol"/>
+<col align="char" char="." class="hourscol"/>
+</colgroup>
+<thead>
+<tr class="hidden noscript">
+<th scope="col">Code</th>
+<th scope="col">Title</th>
+<th scope="col" class="hourscol">Units</th>
+</tr>
+</thead>
+<tbody>
+<tr class="even firstrow"><td colspan="2"><span class="courselistcomment">Choose any five upper division courses from the Depth Subject Matter list for the major, or from the following list:</span></td><td class="hourscol">20</td></tr>
+<tr class="odd"><td colspan="2"><span class="courselistcomment">Any CHN or JPN upper division course</span></td><td class="hourscol"></td></tr>
+<tr class="even"><td colspan="2"><div style="margin-left:20px;" class="blockindent"><span class="courselistcomment commentindent"><a href="/courses-subject-code/chn/">Chinese (CHN)</a></span></div></td><td class="hourscol"></td></tr>
+<tr class="odd"><td colspan="2"><div style="margin-left:20px;" class="blockindent"><span class="courselistcomment commentindent"><a href="/courses-subject-code/jpn/">Japanese (JPN)</a></span></div></td><td class="hourscol"></td></tr>
+<tr class="even"><td colspan="2"><span class="courselistcomment">Any EAS special course; approved courses:</span></td><td class="hourscol"></td></tr>
+<tr class="odd"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="EAS 190">EAS 190</span></div></td><td>East Asian Studies Seminar</td><td class="hourscol"></td></tr>
+<tr class="even"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="EAS 192">EAS 192</span></div></td><td>East Asian Studies Seminar</td><td class="hourscol"></td></tr>
+<tr class="odd"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="EAS 194H">EAS 194H</span></div></td><td>Special Study for Honors Students</td><td class="hourscol"></td></tr>
+<tr class="even"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="EAS 196A">EAS 196A</span></div></td><td>Honors Seminar</td><td class="hourscol"></td></tr>
+<tr class="odd"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="EAS 196B">EAS 196B</span></div></td><td>Honors Seminar</td><td class="hourscol"></td></tr>
+<tr class="even"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="EAS 198">EAS 198</span></div></td><td>Directed Group Study</td><td class="hourscol"></td></tr>
+<tr class="odd lastrow"><td colspan="2"><span class="courselistcomment">Upper division Education Abroad course focusing on East Asia or Southeast Asia</span></td><td class="hourscol"></td></tr>
+<tr class="listsum"><td colspan="2">Total Units</td><td class="hourscol">20</td></tr></tbody>
+</table>
+
+]]>
+</requirementstext>
+<quickviewtext name="Quick View">
+<![CDATA[
+<p>The East Asian Studies minor offers comparative studies of a region that has been integrally linked for centuries by trade and the exchange of philosophical ideas, religion, literature, and art. You gain an understanding of this fascinating region through interdisciplinary studies that combine work in an East Asian language with courses exploring the culture and societies.</p>
+]]>
+</quickviewtext>
+<faculty>
+<![CDATA[
+]]>
+</faculty>
+</courseleaf>
+

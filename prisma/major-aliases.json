@@ -1,0 +1,9 @@
+{
+    "computer science": [ "cs", "comp sci"],
+    "computer engineering": [ "ce", "comp eng"],
+    "civil engineering": [ "ce" ],
+    "aerospace engineering": [ "ae", "aero eng"],
+    "mechanical engineering": ["me", "mech eng" ],
+    "electrical engineering": ["ee" ],
+    "chemical engineering": ["ce", "chem eng"]
+}

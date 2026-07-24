@@ -1,0 +1,90 @@
+<?xml version="1.0"?>
+<courseleaf>
+
+<title>Plant Biology, Minor</title>
+
+
+<text>
+<![CDATA[  
+
+  
+]]>
+</text>
+<informationtext name="Information">
+<![CDATA[
+<p>The Plant Biology minor explores plants and their dynamic means of interacting with the environment. The Plant Biology minor has an 18-unit minimum requirement. Four areas of specialization are offered with a small, strategic course selection per area:</p>
+<ul>
+	<li>(a) Anatomy &amp; Morphology</li>
+	<li>(b) Physiology &amp; Development</li>
+	<li>(c) Evolution &amp; Ecology</li>
+	<li>(d) Biochemistry &amp; Molecular Genetics</li>
+</ul>
+<h2>Faculty Advisor</h2>
+<p>Philipp Zerbe, Ph.D.</p>
+<h2>Advising</h2>
+<p><a href="https://basc.biology.ucdavis.edu/">Biology Academic Success Center (BASC)</a> in 1023 Katherine Esau Science Hall; 530-752-0410.</p>
+]]>
+</informationtext>
+<requirementstext name="Requirements">
+<![CDATA[
+<table class="sc_courselist">
+<caption class="hidden noscript">Course List</caption>
+<colgroup>
+<col class="codecol"/>
+<col class="titlecol"/>
+<col align="char" char="." class="hourscol"/>
+</colgroup>
+<thead>
+<tr class="hidden noscript">
+<th scope="col">Code</th>
+<th scope="col">Title</th>
+<th scope="col" class="hourscol">Units</th>
+</tr>
+</thead>
+<tbody>
+<tr class="even firstrow"><td colspan="2"><span class="courselistcomment">Only one course used to satisfy a requirement for the minor may be applied toward a student’s major.</span></td><td class="hourscol"></td></tr>
+<tr class="odd"><td colspan="2"><span class="courselistcomment">Upper division units, including at least one course from each of the following four groups:</span></td><td class="hourscol">18</td></tr>
+<tr class="even areasubheader undefined"><td colspan="2"><span class="courselistcomment areasubheader undefined">(a) Anatomy &amp; Morphology</span></td><td class="hourscol"></td></tr>
+<tr class="odd"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="EVE 140">EVE 140</span></div></td><td> (Discontinued for winter 2026) <sup>**</sup></td><td class="hourscol"></td></tr>
+<tr class="even"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="PLB 105">PLB 105</span></div></td><td>Developmental Plant Anatomy</td><td class="hourscol"></td></tr>
+<tr class="odd"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="PLB 116">PLB/PLS 116</span></div></td><td>Plant Morphology &amp; Evolution</td><td class="hourscol"></td></tr>
+<tr class="even areasubheader undefined"><td colspan="2"><span class="courselistcomment areasubheader undefined">(b) Physiology &amp; Development</span></td><td class="hourscol"></td></tr>
+<tr class="odd"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="PLB 111">PLB 111</span></div></td><td>Plant Physiology</td><td class="hourscol"></td></tr>
+<tr class="even"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="PLB 112">PLB 112</span></div></td><td>Plant Growth &amp; Development</td><td class="hourscol"></td></tr>
+<tr class="odd"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="PLB 123">PLB/ENT/PLP 123</span></div></td><td>Plant-Virus-Vector Interaction</td><td class="hourscol"></td></tr>
+<tr class="even"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="PLP 130">PLP 130</span></div></td><td>Fungal Biology &amp; Disease</td><td class="hourscol"></td></tr>
+<tr class="odd areasubheader undefined"><td colspan="2"><span class="courselistcomment areasubheader undefined">(c) Evolution &amp; Ecology</span></td><td class="hourscol"></td></tr>
+<tr class="even"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="EVE 100">EVE 100</span></div></td><td>Introduction to Evolution</td><td class="hourscol"></td></tr>
+<tr class="odd"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="PLB 117">PLB/EVE 117</span></div></td><td>Plant Ecology</td><td class="hourscol"></td></tr>
+<tr class="even"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="PLB 127">PLB 127</span><br/><span style="margin-left:20px;" class="blockindent">&amp; <span class="code_bubble" data-code-bubble="PLS 127">PLS 127</span></span><br/><span style="margin-left:20px;" class="blockindent">&amp; <span class="code_bubble" data-code-bubble="EVE 127">EVE 127</span></span></div></td><td>Systematics of Vascular Plants<br/><span style="margin-left:20px;" class="blockindent">and Systematics of Vascular Plants</span><br/><span style="margin-left:20px;" class="blockindent">and Systematics of Vascular Plants</span></td><td class="hourscol"></td></tr>
+<tr class="odd"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="PLB 143">PLB 143</span></div></td><td>Evolution of Crop Plants (Discontinued for winter 2027) <sup>**</sup></td><td class="hourscol"></td></tr>
+<tr class="even areasubheader undefined"><td colspan="2"><span class="courselistcomment areasubheader undefined">(d) Biochemistry &amp; Molecular Genetics</span></td><td class="hourscol"></td></tr>
+<tr class="odd"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="BIT 160">BIT 160</span></div></td><td>Principles of Plant Biotechnology</td><td class="hourscol"></td></tr>
+<tr class="even"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="PLB 113">PLB 113</span></div></td><td>Molecular &amp; Cellular Biology of Plants</td><td class="hourscol"></td></tr>
+<tr class="odd"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="PLB 126">PLB/MCB 126</span></div></td><td>Plant Biochemistry</td><td class="hourscol"></td></tr>
+<tr class="even"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="PLS 152">PLS 152</span></div></td><td>Plant Genetics</td><td class="hourscol"></td></tr>
+<tr class="odd"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="PLS 154">PLS 154</span></div></td><td>Introduction to Plant Breeding</td><td class="hourscol"></td></tr>
+<tr class="even"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="PLS 171">PLS 171</span></div></td><td>Principles &amp; Practices of Plant Propagation</td><td class="hourscol"></td></tr>
+<tr class="odd lastrow"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="PLS 172">PLS 172</span></div></td><td>Biology and Quality of Harvested Crops</td><td class="hourscol"></td></tr>
+<tr class="listsum"><td colspan="2">Total Units</td><td class="hourscol">18</td></tr></tbody>
+</table>
+
+<dl class="sc_footnotes" aria-label="Footnotes"><dt>**</dt><dd><p class="noindent">Course(s) discontinued; see your advisor for course options.</p></dd></dl>
+]]>
+</requirementstext>
+<quickviewtext name="Quick View">
+<![CDATA[
+<p>This <span class="title-main">Plant Biology </span>minor explores plants and their dynamic means of interacting with the environment. Three areas of specialization are offered:</p>
+<ul>
+	<li><span class="areasubheader courselistcomment undefined">Anatomy &amp; Morphology, Physiology &amp; Development.</span></li>
+	<li><span class="areasubheader courselistcomment undefined">Evolution &amp; Ecology.</span></li>
+	<li><span class="areasubheader courselistcomment undefined">Biochemistry &amp; Molecular Genetics.</span></li>
+</ul>
+]]>
+</quickviewtext>
+<faculty>
+<![CDATA[
+]]>
+</faculty>
+</courseleaf>
+

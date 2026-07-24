@@ -1,0 +1,70 @@
+<?xml version="1.0"?>
+<courseleaf>
+
+<title>Exercise Biology, Minor</title>
+
+
+<text>
+<![CDATA[  
+
+  
+]]>
+</text>
+<informationtext name="Information">
+<![CDATA[
+<p>This minor allows non-NPB and non-Human Biology majors to learn how physical activity levels impact human form and function. The courses are designed to foster intellectual curiosity, problem-solving and critical thinking skills, in the context of understanding organismal animal (including human) biology.</p>
+<h2>Faculty Advisors</h2>
+<p><a href="https://biology.ucdavis.edu/people/william-debello">William DeBello, Ph.D.</a>, <a href="https://biology.ucdavis.edu/people/talitha-van-der-meulen">Talitha van der Meulen, Ph.D.</a></p>
+<h2>Advising</h2>
+<p><a href="https://basc.biology.ucdavis.edu/">Biology Academic Success Center (BASC)</a> in 1023 <span class="ContentPasted0">Katherine Esau Science Hall</span>; 530-752-0410; <a href="mailto:cbsundergrads@ucdavis.edu">Undergraduate Advising</a>.</p>
+<p>Only one course used to satisfy a requirement for the minor may be applied toward a student’s major.</p>
+]]>
+</informationtext>
+<requirementstext name="Requirements">
+<![CDATA[
+<table class="sc_courselist">
+<caption class="hidden noscript">Course List</caption>
+<colgroup>
+<col class="codecol"/>
+<col class="titlecol"/>
+<col align="char" char="." class="hourscol"/>
+</colgroup>
+<thead>
+<tr class="hidden noscript">
+<th scope="col">Code</th>
+<th scope="col">Title</th>
+<th scope="col" class="hourscol">Units</th>
+</tr>
+</thead>
+<tbody>
+<tr class="even firstrow"><td colspan="2"><span class="courselistcomment">Choose at least 15 units:</span></td><td class="hourscol">15</td></tr>
+<tr class="odd"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="EXB 101">EXB 101</span></div></td><td>Exercise Physiology</td><td class="hourscol"></td></tr>
+<tr class="even"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="EXB 110">EXB 110</span></div></td><td>Exercise Metabolism</td><td class="hourscol"></td></tr>
+<tr class="odd"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="EXB 112">EXB 112</span></div></td><td>Clinical Exercise Physiology</td><td class="hourscol"></td></tr>
+<tr class="even"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="EXB 117">EXB 117</span></div></td><td>Exercise &amp; Aging in Health &amp; Disease</td><td class="hourscol"></td></tr>
+<tr class="odd"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="EXB 124">EXB 124</span></div></td><td>Physiology of Maximal Human Performance</td><td class="hourscol"></td></tr>
+<tr class="even"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="EXB 125">EXB 125</span></div></td><td>Neuromuscular &amp; Behavioral Aspects of Motor Control</td><td class="hourscol"></td></tr>
+<tr class="odd"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="NPB 109">NPB 109</span></div></td><td>Kinesiology: Analysis &amp; Control of Human Movement</td><td class="hourscol"></td></tr>
+<tr class="even"><td colspan="2"><span class="courselistcomment">Exercise Biology or other approved course; an additional 3 upper division units from either the previous list of Exercise Biology (EXB) courses <strong>or</strong> from:</span></td><td class="hourscol">3</td></tr>
+<tr class="odd"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="BIS 101">BIS 101</span></div></td><td>Genes &amp; Gene Expression</td><td class="hourscol"></td></tr>
+<tr class="orclass odd"><td class="codecol orclass"><div style="margin-left:20px;" class="blockindent">or <span class="code_bubble" data-code-bubble="BIS 101V">BIS 101V</span></div></td><td colspan="2"> Genes &amp; Gene Expression</td></tr>
+<tr class="even"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="BIS 104">BIS 104</span></div></td><td>Cell Biology</td><td class="hourscol"></td></tr>
+<tr class="odd"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="BIS 105">BIS 105</span></div></td><td>Biomolecules &amp; Metabolism</td><td class="hourscol"></td></tr>
+<tr class="even"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="EXB 106">EXB 106/CHA 101</span></div></td><td>Human Gross Anatomy</td><td class="hourscol"></td></tr>
+<tr class="odd lastrow"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="NPB 101">NPB 101</span></div></td><td>Systemic Physiology</td><td class="hourscol"></td></tr>
+<tr class="listsum"><td colspan="2">Total Units</td><td class="hourscol">18</td></tr></tbody>
+</table>
+
+]]>
+</requirementstext>
+<quickviewtext name="Quick View">
+<![CDATA[
+<p>Are you interested in the body’s responses to physical activity? The Exercise Biology minor allows students to learn how physical activity levels impact human form and function from physiological, biomechanical, and behavioral perspectives.</p>
+]]>
+</quickviewtext>
+<faculty>
+<![CDATA[
+]]>
+</faculty>
+</courseleaf>
+

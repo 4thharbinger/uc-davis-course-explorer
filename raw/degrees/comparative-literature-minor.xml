@@ -1,0 +1,62 @@
+<?xml version="1.0"?>
+<courseleaf>
+
+<title>Comparative Literature, Minor</title>
+
+
+<text>
+<![CDATA[  
+
+  
+]]>
+</text>
+<informationtext name="Information">
+<![CDATA[
+<p>The minor in Comparative Literature allows students to combine courses in Comparative Literature with courses in a national literature, including English or foreign literature in translation. There is no foreign language requirement for the minor.</p>
+<h2>Minor Advisor</h2>
+<p>Consult the Department office.</p>
+<h2>Advising</h2>
+<p>All Comparative Literature majors and minors must consult with their advisor, individually, at least once at the beginning and once at the end of each academic year.</p>
+]]>
+</informationtext>
+<requirementstext name="Requirements">
+<![CDATA[
+<table class="sc_courselist">
+<caption class="hidden noscript">Course List</caption>
+<colgroup>
+<col class="codecol"/>
+<col class="titlecol"/>
+<col align="char" char="." class="hourscol"/>
+</colgroup>
+<thead>
+<tr class="hidden noscript">
+<th scope="col">Code</th>
+<th scope="col">Title</th>
+<th scope="col" class="hourscol">Units</th>
+</tr>
+</thead>
+<tbody>
+<tr class="even firstrow"><td colspan="2"><span class="courselistcomment">Choose one:</span></td><td class="hourscol">4</td></tr>
+<tr class="odd"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="COM 001">COM 001</span></div></td><td>Major Works of the Ancient World</td><td class="hourscol"></td></tr>
+<tr class="even"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="COM 002">COM 002</span></div></td><td>Major Works of the Medieval &amp; Early Modern World</td><td class="hourscol"></td></tr>
+<tr class="odd"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="COM 003">COM 003</span></div></td><td>Major Works of the Modern World</td><td class="hourscol"></td></tr>
+<tr class="even"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="COM 004">COM 004</span></div></td><td>Major Works of the Contemporary World</td><td class="hourscol"></td></tr>
+<tr class="odd"><td colspan="2"><span class="courselistcomment">Choose at least five upper division literature courses, at least four of which are in Comparative Literature (COM)<sup>1</sup>. Courses should be chosen in consultation with the approval of the advisor.</span></td><td class="hourscol">20</td></tr>
+<tr class="even lastrow"><td colspan="2"><span class="courselistcomment">Subtotal</span></td><td class="hourscol">24</td></tr>
+<tr class="listsum"><td colspan="2">Total Units</td><td class="hourscol">24</td></tr></tbody>
+</table>
+
+<dl class="sc_footnotes" aria-label="Footnotes"><dt> <sup> 1 </sup> </dt><dd><p class="noindent"><span class="sc_courseinline"><span class="code_bubble" data-code-bubble="COM 141">COM 141</span></span> &amp; <span class="sc_courseinline"><span class="code_bubble" data-code-bubble="COM 195">COM 195</span></span> recommended.</p></dd></dl>
+]]>
+</requirementstext>
+<quickviewtext name="Quick View">
+<![CDATA[
+<p>Through the study of writings from different cultures, backgrounds, and periods of history, we learn to appreciate the commonalities and differences that give rise to human diversity. The Comparative Literature minor explores a broad range of genres, styles, and themes. There is no foreign language requirement for the minor.</p>
+]]>
+</quickviewtext>
+<faculty>
+<![CDATA[
+]]>
+</faculty>
+</courseleaf>
+

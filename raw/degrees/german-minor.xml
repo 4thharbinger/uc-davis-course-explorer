@@ -1,0 +1,54 @@
+<?xml version="1.0"?>
+<courseleaf>
+
+<title>German, Minor</title>
+
+
+<text>
+<![CDATA[  
+
+  
+]]>
+</text>
+<informationtext name="Information">
+<![CDATA[
+<p>The Department offers a German minor consisting of at least 20 upper division units of courses taught in German. Students wishing to minor in German should consult the undergraduate advisor.</p>
+<h2>Prerequisite Credit</h2>
+<p>Credit normally will not be given on the lower division level for a course that is the prerequisite of a course already successfully completed.</p>
+]]>
+</informationtext>
+<requirementstext name="Requirements">
+<![CDATA[
+<table class="sc_courselist">
+<caption class="hidden noscript">Course List</caption>
+<colgroup>
+<col class="codecol"/>
+<col class="titlecol"/>
+<col align="char" char="." class="hourscol"/>
+</colgroup>
+<thead>
+<tr class="hidden noscript">
+<th scope="col">Code</th>
+<th scope="col">Title</th>
+<th scope="col" class="hourscol">Units</th>
+</tr>
+</thead>
+<tbody>
+<tr class="even firstrow"><td colspan="2"><span class="courselistcomment">Choose at least 20 upper division units of GER courses. One GER course can be taught in English.</span></td><td class="hourscol">20</td></tr>
+<tr class="odd lastrow"><td colspan="2"><div style="margin-left:20px;" class="blockindent"><span class="courselistcomment commentindent"><a href="/courses-subject-code/ger/">German (GER) courses.</a></span></div></td><td class="hourscol"></td></tr>
+<tr class="listsum"><td colspan="2">Total Units</td><td class="hourscol">20</td></tr></tbody>
+</table>
+
+]]>
+</requirementstext>
+<quickviewtext name="Quick View">
+<![CDATA[
+<p>Are you interested in learning a foreign language that will give you a powerful career advantage? How about reading some of the greatest works of literature ever written? German is the language of Goethe, Kafka, Mozart, Bach, and Beethoven and is the most widely spoken native language in Europe.</p>
+]]>
+</quickviewtext>
+<faculty>
+<![CDATA[
+]]>
+</faculty>
+</courseleaf>
+

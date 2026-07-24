@@ -1,0 +1,93 @@
+<?xml version="1.0"?>
+<courseleaf>
+
+<title>Film Studies, Minor</title>
+
+
+<text>
+<![CDATA[  
+
+  
+]]>
+</text>
+<informationtext name="Information">
+<![CDATA[
+<h2>Minor Advisor</h2>
+<p>Information on the current Academic Advisors can be obtained at <a href="http://arts.ucdavis.edu/arts-group-undergraduate-advising" target="_blank">Arts Group Advising Center</a> at 530-752-0616.</p>
+]]>
+</informationtext>
+<requirementstext name="Requirements">
+<![CDATA[
+<table class="sc_courselist">
+<caption class="hidden noscript">Course List</caption>
+<colgroup>
+<col class="codecol"/>
+<col class="titlecol"/>
+<col align="char" char="." class="hourscol"/>
+</colgroup>
+<thead>
+<tr class="hidden noscript">
+<th scope="col">Code</th>
+<th scope="col">Title</th>
+<th scope="col" class="hourscol">Units</th>
+</tr>
+</thead>
+<tbody>
+<tr class="even areaheader  firstrow"><td colspan="2"><span class="courselistcomment areaheader ">Film Studies</span></td><td class="hourscol"></td></tr>
+<tr class="odd"><td class="codecol"><span class="code_bubble" data-code-bubble="CDM 001">CDM 001</span></td><td>Introduction to Film Studies</td><td class="hourscol">4</td></tr>
+<tr class="even"><td colspan="2"><span class="courselistcomment">Choose no more than two from any one category.</span></td><td class="hourscol">20</td></tr>
+<tr class="odd"><td colspan="2"><div style="margin-left:20px;" class="blockindent"><span class="courselistcomment commentindent">No more than two courses from a single department or program may be offered in satisfaction of the minor requirements.</span></div></td><td class="hourscol"></td></tr>
+<tr class="even areasubheader undefined"><td colspan="2"><span class="courselistcomment areasubheader undefined">(a) Problems &amp; Themes in Cinema</span></td><td class="hourscol"></td></tr>
+<tr class="odd"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="ANT 136">ANT 136</span></div></td><td>Ethnographic Film</td><td class="hourscol"></td></tr>
+<tr class="even"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="CDM 166">CDM 166</span></div></td><td>Topics in U.S. Film History</td><td class="hourscol"></td></tr>
+<tr class="odd"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="CDM 167">CDM 167</span></div></td><td>Topics in Film Genres</td><td class="hourscol"></td></tr>
+<tr class="even"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="CLA 102">CLA 102</span></div></td><td>Film &amp; the Classical World</td><td class="hourscol"></td></tr>
+<tr class="odd"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="DRA 115">DRA 115</span></div></td><td>Advanced Study of Major Film Makers</td><td class="hourscol"></td></tr>
+<tr class="even"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="ENL 160">ENL 160</span></div></td><td>Film as Narrative</td><td class="hourscol"></td></tr>
+<tr class="odd"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="ENL 162">ENL 162</span></div></td><td>Film Theory &amp; Criticism</td><td class="hourscol"></td></tr>
+<tr class="even"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="WMS 162">WMS 162</span></div></td><td>Feminist Film Theory &amp; Criticism (Discontinued for winter 2027) <sup>**</sup></td><td class="hourscol"></td></tr>
+<tr class="orclass even"><td class="codecol orclass"><div style="margin-left:20px;" class="blockindent">or <span class="code_bubble" data-code-bubble="GSW 162">GSW 162</span></div></td><td colspan="2"> Feminist Film Theory &amp; Criticism</td></tr>
+<tr class="odd areasubheader undefined"><td colspan="2"><span class="courselistcomment areasubheader undefined">(b) Cinema, Nation &amp; Nationality</span></td><td class="hourscol"></td></tr>
+<tr class="even"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="GER 119">GER 119</span></div></td><td>From German Fiction to German Film</td><td class="hourscol"></td></tr>
+<tr class="odd"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="GER 142">GER/FMS 142</span></div></td><td>New German Cinema</td><td class="hourscol"></td></tr>
+<tr class="even"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="FMS 176A">FMS/GER 176A</span></div></td><td>Classic Weimar Cinema</td><td class="hourscol"></td></tr>
+<tr class="odd"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="FMS 176B">FMS 176B</span></div></td><td>Postwar German Cinema</td><td class="hourscol"></td></tr>
+<tr class="even"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="FRE 122">FRE 122</span></div></td><td>French &amp; Francophone Film</td><td class="hourscol"></td></tr>
+<tr class="odd"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="ITA 150">ITA 150</span></div></td><td>Studies in Italian Cinema</td><td class="hourscol"></td></tr>
+<tr class="even"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="JPN 106">JPN 106</span></div></td><td>Japanese Culture Through Film</td><td class="hourscol"></td></tr>
+<tr class="odd"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="RUS 129">RUS/FMS 129</span></div></td><td>Russian Film</td><td class="hourscol"></td></tr>
+<tr class="even"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="SPA 148">SPA 148</span></div></td><td>Cinema in the Spanish-Speaking World in Translation</td><td class="hourscol"></td></tr>
+<tr class="odd areasubheader undefined"><td colspan="2"><span class="courselistcomment areasubheader undefined">(c) Film &amp; Social Identities</span></td><td class="hourscol"></td></tr>
+<tr class="even"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="AAS 170">AAS 170</span></div></td><td>African-American Film &amp; Video</td><td class="hourscol"></td></tr>
+<tr class="odd"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="AAS 171">AAS 171</span></div></td><td>Black African &amp; Black European Film &amp; Video</td><td class="hourscol"></td></tr>
+<tr class="even"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="FMS 120">FMS 120</span></div></td><td>Italian-American Cinema</td><td class="hourscol"></td></tr>
+<tr class="odd"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="JST 120">JST 120</span></div></td><td>Cinema &amp; the American Jewish Experience</td><td class="hourscol"></td></tr>
+<tr class="even"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="WMS 160">WMS 160</span></div></td><td>Women, &quot;Race&quot; &amp; Sexuality in Postcolonial Cinema  (Discontinued for winter 2027) <sup>**</sup></td><td class="hourscol"></td></tr>
+<tr class="orclass even"><td class="codecol orclass"><div style="margin-left:20px;" class="blockindent">or <span class="code_bubble" data-code-bubble="GSW 160">GSW 160</span></div></td><td colspan="2"> Post-Colonial Cinema</td></tr>
+<tr class="odd"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="WMS 164">WMS 164</span></div></td><td>Topics in Gender &amp; Cinematic Representation</td><td class="hourscol"></td></tr>
+<tr class="even areasubheader undefined"><td colspan="2"><span class="courselistcomment areasubheader undefined">(d) Film/Video Production</span></td><td class="hourscol"></td></tr>
+<tr class="odd"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="ART 117">ART 117</span></div></td><td>Advanced Video &amp; Electronic Arts</td><td class="hourscol"></td></tr>
+<tr class="even"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="ART 150">ART 150</span></div></td><td>Theory &amp; Criticism of Electronic Media </td><td class="hourscol"></td></tr>
+<tr class="odd areasubheader undefined"><td colspan="2"><span class="courselistcomment areasubheader undefined">(e) Popular &amp; Visual Culture</span></td><td class="hourscol"></td></tr>
+<tr class="even"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="AMS 130">AMS 130</span></div></td><td>American Popular Culture</td><td class="hourscol"></td></tr>
+<tr class="odd"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="AMS 139">AMS/GSW 139</span></div></td><td>Feminist Cultural Studies</td><td class="hourscol"></td></tr>
+<tr class="even"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="ART 150">ART 150</span></div></td><td>Theory &amp; Criticism of Electronic Media </td><td class="hourscol"></td></tr>
+<tr class="odd"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="CMN 140">CMN 140</span></div></td><td>Introduction to Mass Communication</td><td class="hourscol"></td></tr>
+<tr class="even lastrow"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="POL 165">POL 165</span></div></td><td>Mass Media &amp; Politics</td><td class="hourscol"></td></tr>
+<tr class="orclass even lastrow"><td class="codecol orclass"><div style="margin-left:20px;" class="blockindent">or <span class="code_bubble" data-code-bubble="POL 165V">POL 165V</span></div></td><td colspan="2"> Mass Media &amp; Politics</td></tr>
+<tr class="listsum"><td colspan="2">Total Units</td><td class="hourscol">24</td></tr></tbody>
+</table>
+
+]]>
+</requirementstext>
+<quickviewtext name="Quick View">
+<![CDATA[
+<p>The Film Studies field addresses the history, theory, and culture of this art form and asks questions about film texts themselves: modes of production  from a filmmakers’ aesthetic choices to the role of the global economy); historical, national, and cultural contexts; and spectators and audiences. While the program emphasizes film history, criticism, and theory, students also have opportunities to explore film/video production.</p>
+]]>
+</quickviewtext>
+<faculty>
+<![CDATA[
+]]>
+</faculty>
+</courseleaf>
+

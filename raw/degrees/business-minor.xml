@@ -1,0 +1,74 @@
+<?xml version="1.0"?>
+<courseleaf>
+
+<title>Business, Minor</title>
+
+
+<text>
+<![CDATA[  
+
+  
+]]>
+</text>
+<informationtext name="Information">
+<![CDATA[
+<p>(Formerly Technology Management, Minor)</p>
+<h2>School Office</h2>
+<p>Gallagher Hall; 530-752-7658; <a href="http://gsm.ucdavis.edu/" target="_blank">Graduate School of Management</a></p>
+<h2>Program of Study</h2>
+<p><span data-olk-copy-source="MessageBody">The UC Davis Graduate School of Management offers a minor in Business for undergraduate students. This minor complements a wide range of academic majors by introducing fundamental concepts in core business areas such as accounting, finance, marketing, operations, and management. The minor equips students with practical business skills and analytical frameworks that enhance their ability to apply their disciplinary knowledge in professional, organizational, and entrepreneurial settings.</span></p>
+<p>The Business minor courses are open to all undergraduate and graduate majors at UC Davis.</p>
+<p>The courses that count for the Business minor are offered by the Graduate School of Management. No substitutions (e.g., transfer courses, study abroad courses, or other UC Davis courses) are allowed for the upper division coursework.</p>
+<p>No course overlap is allowed with other minors. No more than one course can be counted towards both the student’s major and the minor.</p>
+<p>Prerequisites for minor courses are required. Please plan accordingly.</p>
+]]>
+</informationtext>
+<requirementstext name="Requirements">
+<![CDATA[
+<table class="sc_courselist">
+<caption class="hidden noscript">Course List</caption>
+<colgroup>
+<col class="codecol"/>
+<col class="titlecol"/>
+<col align="char" char="." class="hourscol"/>
+</colgroup>
+<thead>
+<tr class="hidden noscript">
+<th scope="col">Code</th>
+<th scope="col">Title</th>
+<th scope="col" class="hourscol">Units</th>
+</tr>
+</thead>
+<tbody>
+<tr class="even areasubheader undefined firstrow"><td colspan="2"><span class="courselistcomment areasubheader undefined">Required preparatory course:</span></td><td class="hourscol">4</td></tr>
+<tr class="odd"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="MGT 011A">MGT 011A</span></div></td><td>Elementary Financial Accounting</td><td class="hourscol"></td></tr>
+<tr class="even areasubheader undefined"><td colspan="2"><span class="courselistcomment areasubheader undefined">Choose five:</span></td><td class="hourscol">20</td></tr>
+<tr class="odd"><td colspan="2"><div style="margin-left:20px;" class="blockindent"><span class="courselistcomment commentindent">Recommended that <span class="code_bubble" data-code-bubble="MGT 150">MGT 150</span> be taken first.</span></div></td><td class="hourscol"></td></tr>
+<tr class="even"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="MGT 120">MGT 120</span></div></td><td>Managing &amp; Using Information Technology</td><td class="hourscol"></td></tr>
+<tr class="odd"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="MGT 140">MGT 140</span></div></td><td>Marketing for the Technology-Based Enterprise</td><td class="hourscol"></td></tr>
+<tr class="orclass odd"><td class="codecol orclass"><div style="margin-left:20px;" class="blockindent">or <span class="code_bubble" data-code-bubble="MGT 114">MGT 114</span></div></td><td colspan="2"> Introduction to Entrepreneurial Marketing</td></tr>
+<tr class="even"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="MGT 150">MGT 150</span></div></td><td>Technology Management</td><td class="hourscol"></td></tr>
+<tr class="odd"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="MGT 151">MGT 151</span></div></td><td>Management of Innovation &amp; Entrepreneurship</td><td class="hourscol"></td></tr>
+<tr class="even"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="MGT 160">MGT 160</span></div></td><td>Financing New Business Ventures</td><td class="hourscol"></td></tr>
+<tr class="orclass even"><td class="codecol orclass"><div style="margin-left:20px;" class="blockindent">or <span class="code_bubble" data-code-bubble="MGT 116">MGT 116</span></div></td><td colspan="2"> Introduction to Entrepreneurial Finance</td></tr>
+<tr class="odd"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="MGT 170">MGT 170</span></div></td><td>Management Accounting &amp; Control</td><td class="hourscol"></td></tr>
+<tr class="even"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="MGT 180">MGT 180</span></div></td><td>Supply Chain Planning &amp; Management</td><td class="hourscol"></td></tr>
+<tr class="odd"><td colspan="2"><span class="courselistcomment">To complete the minor, students must complete the 24 units of coursework with a GPA of 2.000 or better. Only up to 2 courses (including <span class="code_bubble" data-code-bubble="MGT 011A">MGT 011A</span>) may be taken on a P/NP basis.</span></td><td class="hourscol"></td></tr>
+<tr class="even"><td colspan="2"><span class="courselistcomment">The OASIS Minor Declaration form will only be approved after the student is enrolled in the final course for the minor, one minor course has been successfully completed, and minor GPA is at least 2.000.</span></td><td class="hourscol"></td></tr>
+<tr class="odd lastrow"><td colspan="2"><span class="courselistcomment">Important: Only one course may overlap between major and minor requirements.</span></td><td class="hourscol"></td></tr>
+<tr class="listsum"><td colspan="2">Total Units</td><td class="hourscol">24</td></tr></tbody>
+</table>
+
+]]>
+</requirementstext>
+<quickviewtext name="Quick View">
+<![CDATA[
+<p>The UC Davis Minor in Business offers a core foundation anchored in math, statistics and economics while building competencies in fundamental areas of business. Business majors choose to specialize in one or two of these areas: Accounting, Finance, Marketing &amp; Business Analytics, &amp; Management &amp; Strategy.</p>
+]]>
+</quickviewtext>
+<faculty>
+<![CDATA[
+]]>
+</faculty>
+</courseleaf>
+

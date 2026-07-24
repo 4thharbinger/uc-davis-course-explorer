@@ -1,0 +1,135 @@
+<?xml version="1.0"?>
+<courseleaf>
+
+<title>Mathematical &amp; Scientific Computation, Bachelor of Science</title>
+
+
+<text>
+<![CDATA[  
+
+  
+]]>
+</text>
+<informationtext name="Information">
+<![CDATA[
+<p><span style="color:rgb(0, 0, 0)">Mathematics is the study of abstract structures, space, change, and the interrelations of these concepts. It also is the </span><strong style="color:rgb(0, 0, 0)">language of the exact sciences</strong><span style="color:rgb(0, 0, 0)">.</span></p>
+<h2>The Program</h2>
+<p>After completing basic introductory courses such as calculus and linear algebra, students plan an upper division program in consultation with a faculty advisor. Upper division courses include real analysis, probability, modern algebra, as well as a variety of other courses that allow students to further mathematical knowledge and skills that feature their research or career interests. This individualized program can lead to graduate study in pure or applied mathematics, elementary or secondary level teaching, or to other professional goals. It can also reflect a special interest such as computational and applied mathematics, computer science, or statistics, or may be combined with a major in some other field.</p>
+<h3>Career Alternatives</h3>
+<p>A degree in mathematics provides entry to many careers in industry in addition to teaching. For instance, operations research, data analysis, systems analysis, computing, actuarial work, insurance, and financial services are only a few such careers. Mathematics is also a sound basis for graduate work in a variety of fields, such as law, engineering, and economics.</p>
+<h3>Major Advisors</h3>
+<p>For a current list of faculty and staff advisors, see <a href="https://www.math.ucdavis.edu/undergrad/advising/advisers/" target="_blank">Math Department Advising</a> or contact <a href="mailto:studentservices@math.ucdavis.edu">Student Services</a>.</p>
+<h3>Mathematics Placement Requirement</h3>
+<p>Students who wish to enroll in <span class="sc_courseinline"><span class="code_bubble" data-code-bubble="MAT 012">MAT 012</span></span>, <span class="sc_courseinline"><span class="code_bubble" data-code-bubble="MAT 017A">MAT 017A</span></span>, <span class="sc_courseinline"><span class="code_bubble" data-code-bubble="MAT 019A">MAT 019A</span></span>, <span class="sc_courseinline"><span class="code_bubble" data-code-bubble="MAT 021A">MAT 021A</span></span>, <span class="sc_courseinline"><span class="code_bubble" data-code-bubble="MAT 021AH">MAT 021AH</span></span>, and <span class="sc_courseinline"><span class="code_bubble" data-code-bubble="MAT 021M">MAT 021M</span></span> must satisfy the mathematics placement requirement by taking an online exam. Students who do not satisfy the requirement will be administratively dropped from these courses. For more information, including preparation tips and how to access the online exam, please see <a href="http://www.math.ucdavis.edu/undergrad/math_placement" target="_blank">Math Placement Requirement (MPR)</a>, well in advance of enrolling.</p>
+
+<h3>Department Honors</h3>
+<p>Students who meet the minimum GPA requirement for honors at graduation for the College of Letters &amp; Science and who complete a senior project as part of <span class="sc_courseinline"><span class="code_bubble" data-code-bubble="MAT 194">MAT 194</span></span> or <span class="sc_courseinline"><span class="code_bubble" data-code-bubble="MAT 199">MAT 199</span></span> units in consultation with their faculty advisor may also be recommended by the department for graduation with High Honors or Highest Honors. Recommendations will be based on evaluations of students' academic achievements in their major and the quality of their senior project. For complete details, see <a href="https://www.math.ucdavis.edu/research/honors" target="_blank">Honors &amp; Awards</a>.</p>
+
+<h2>Graduate Study</h2>
+<p>The Department offers programs of study and research leading to M.A. and Ph.D. degrees in Mathematics. Information regarding graduate study may be obtained by consulting our website or contacting <a href="mailto:studentservices@math.ucdavis.edu">Student Services</a>.</p>
+]]>
+</informationtext>
+<requirementstext name="Requirements">
+<![CDATA[
+<p>The major requirements below are in addition to meeting <a href="https://catalog.ucdavis.edu/undergraduate-education/university-degree-requirements/">University Degree Requirements</a> &amp; <a href="https://catalog.ucdavis.edu/undergraduate-education/college-degree-requirements/">College Degree Requirements</a>; unless otherwise noted. The minimum number of units required for the <span class="title-main">Mathematical &amp; Scientific Computation Bachelor of Science </span>is 82.</p>
+<table class="sc_courselist">
+<caption class="hidden noscript">Course List</caption>
+<colgroup>
+<col class="codecol"/>
+<col class="titlecol"/>
+<col align="char" char="." class="hourscol"/>
+</colgroup>
+<thead>
+<tr class="hidden noscript">
+<th scope="col">Code</th>
+<th scope="col">Title</th>
+<th scope="col" class="hourscol">Units</th>
+</tr>
+</thead>
+<tbody>
+<tr class="even areaheader  firstrow"><td colspan="2"><span class="courselistcomment areaheader ">Preparatory Subject Matter</span></td><td class="hourscol"></td></tr>
+<tr class="odd areasubheader undefined"><td colspan="2"><span class="courselistcomment areasubheader undefined">Mathematics</span></td><td class="hourscol"></td></tr>
+<tr class="even"><td class="codecol"><span class="code_bubble" data-code-bubble="MAT 017A">MAT 017A</span></td><td>Calculus for Biology &amp; Medicine</td><td class="hourscol">4</td></tr>
+<tr class="orclass even"><td class="codecol orclass">or <span class="code_bubble" data-code-bubble="MAT 021A">MAT 021A</span></td><td colspan="2"> Calculus</td></tr>
+<tr class="odd"><td class="codecol"><span class="code_bubble" data-code-bubble="MAT 017B">MAT 017B</span></td><td>Calculus for Biology &amp; Medicine</td><td class="hourscol">4</td></tr>
+<tr class="orclass odd"><td class="codecol orclass">or <span class="code_bubble" data-code-bubble="MAT 021B">MAT 021B</span></td><td colspan="2"> Calculus</td></tr>
+<tr class="even"><td class="codecol"><span class="code_bubble" data-code-bubble="MAT 017C">MAT 017C</span></td><td>Calculus for Biology &amp; Medicine</td><td class="hourscol">4</td></tr>
+<tr class="orclass even"><td class="codecol orclass">or <span class="code_bubble" data-code-bubble="MAT 021C">MAT 021C</span></td><td colspan="2"> Calculus</td></tr>
+<tr class="odd"><td class="codecol"><span class="code_bubble" data-code-bubble="MAT 021D">MAT 021D</span></td><td>Vector Analysis</td><td class="hourscol">4</td></tr>
+<tr class="even"><td class="codecol"><span class="code_bubble" data-code-bubble="MAT 027B">MAT/BIS 027B</span></td><td>Differential Equations with Applications to Biology</td><td class="hourscol">3-4</td></tr>
+<tr class="orclass even"><td class="codecol orclass">or <span class="code_bubble" data-code-bubble="MAT 022B">MAT 022B</span></td><td colspan="2"> Differential Equations</td></tr>
+<tr class="odd areasubheader undefined"><td colspan="2"><span class="courselistcomment areasubheader undefined">Linear Algebra &amp; Proof-Writing</span></td><td class="hourscol"></td></tr>
+<tr class="even"><td colspan="2"><span class="courselistcomment">Choose one option:</span></td><td class="hourscol">4-8</td></tr>
+<tr class="odd"><td colspan="2"><div style="margin-left:20px;" class="blockindent"><span class="courselistcomment commentindent">(a)</span></div></td><td class="hourscol"></td></tr>
+<tr class="even"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="MAT 027A">MAT/BIS 027A</span></div></td><td>Linear Algebra with Applications to Biology</td><td class="hourscol"></td></tr>
+<tr class="orclass even"><td class="codecol orclass"><div style="margin-left:20px;" class="blockindent">or <span class="code_bubble" data-code-bubble="MAT 022A">MAT 022A</span></div></td><td colspan="2"> Linear Algebra</td></tr>
+<tr class="odd"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="MAT 108">MAT 108</span></div></td><td>Introduction to Abstract Mathematics</td><td class="hourscol"></td></tr>
+<tr class="orclass odd"><td class="codecol orclass"><div style="margin-left:20px;" class="blockindent">or <span class="code_bubble" data-code-bubble="MAT 108V">MAT 108V</span></div></td><td colspan="2"> Introduction to Abstract Mathematics</td></tr>
+<tr class="even"><td colspan="2"><div style="margin-left:20px;" class="blockindent"><span class="courselistcomment commentindent"><strong>or</strong></span></div></td><td class="hourscol"></td></tr>
+<tr class="odd"><td colspan="2"><div style="margin-left:20px;" class="blockindent"><span class="courselistcomment commentindent">(b)</span></div></td><td class="hourscol"></td></tr>
+<tr class="even"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="MAT 067">MAT 067</span></div></td><td>Modern Linear Algebra</td><td class="hourscol"></td></tr>
+<tr class="odd"><td colspan="2"><span class="courselistcomment">Choose one:</span></td><td class="hourscol">0-1</td></tr>
+<tr class="even"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="MAT 022AL">MAT 022AL</span></div></td><td>Linear Algebra Computer Laboratory</td><td class="hourscol"></td></tr>
+<tr class="odd"><td colspan="2"><div style="margin-left:20px;" class="blockindent"><span class="courselistcomment commentindent">Equivalent MATLAB knowledge.</span> <sup>1</sup></div></td><td class="hourscol"></td></tr>
+<tr class="even areasubheader undefined"><td colspan="2"><span class="courselistcomment areasubheader undefined">Programming</span></td><td class="hourscol"></td></tr>
+<tr class="odd"><td class="codecol"><span class="code_bubble" data-code-bubble="ECS 032A">ECS 032A</span></td><td>Introduction to Programming</td><td class="hourscol">4</td></tr>
+<tr class="orclass odd"><td class="codecol orclass">or <span class="code_bubble" data-code-bubble="ECS 032AV">ECS 032AV</span></td><td colspan="2"> Introduction to Programming</td></tr>
+<tr class="even"><td class="codecol"><span class="code_bubble" data-code-bubble="ENG 006">ENG 006</span></td><td>Engineering Problem Solving with Applied AI</td><td class="hourscol">4</td></tr>
+<tr class="odd"><td colspan="2"><span class="courselistcomment">Preparatory Subject Matter Subtotal</span></td><td class="hourscol">31-37</td></tr>
+<tr class="even areaheader "><td colspan="2"><span class="courselistcomment areaheader ">Depth Subject Matter</span></td><td class="hourscol"></td></tr>
+<tr class="odd areasubheader undefined"><td colspan="2"><span class="courselistcomment areasubheader undefined">A. Core Courses</span></td><td class="hourscol"></td></tr>
+<tr class="even"><td class="codecol"><span class="code_bubble" data-code-bubble="MAT 127A">MAT 127A</span></td><td>Real Analysis</td><td class="hourscol">4</td></tr>
+<tr class="odd"><td class="codecol"><span class="code_bubble" data-code-bubble="MAT 127B">MAT 127B</span></td><td>Real Analysis</td><td class="hourscol">4</td></tr>
+<tr class="even"><td class="codecol"><span class="code_bubble" data-code-bubble="MAT 127C">MAT 127C</span></td><td>Real Analysis</td><td class="hourscol">4</td></tr>
+<tr class="odd"><td class="codecol"><span class="code_bubble" data-code-bubble="MAT 128A">MAT 128A</span></td><td>Numerical Analysis</td><td class="hourscol">4</td></tr>
+<tr class="even"><td class="codecol"><span class="code_bubble" data-code-bubble="MAT 128B">MAT 128B</span></td><td>Numerical Analysis in Solution of Equations</td><td class="hourscol">4</td></tr>
+<tr class="odd"><td class="codecol"><span class="code_bubble" data-code-bubble="MAT 128C">MAT 128C</span></td><td>Numerical Analysis in Differential Equations</td><td class="hourscol">4</td></tr>
+<tr class="even"><td class="codecol"><span class="code_bubble" data-code-bubble="MAT 135A">MAT 135A</span></td><td>Probability</td><td class="hourscol">4</td></tr>
+<tr class="odd"><td class="codecol"><span class="code_bubble" data-code-bubble="MAT 150A">MAT 150A</span></td><td>Modern Algebra</td><td class="hourscol">4</td></tr>
+<tr class="even areasubheader undefined"><td colspan="2"><span class="courselistcomment areasubheader undefined">B. Enrichment Courses</span></td><td class="hourscol"></td></tr>
+<tr class="odd"><td colspan="2"><span class="courselistcomment">Choose two:</span></td><td class="hourscol">8</td></tr>
+<tr class="even"><td colspan="2"><span class="courselistcomment"><span class="code_bubble" data-code-bubble="MAT 111">MAT 111</span>-<span class="code_bubble" data-code-bubble="MAT 185B">MAT 185B</span> worth at least 4 units each.</span> <sup>2</sup></td><td class="hourscol"></td></tr>
+<tr class="odd areasubheader undefined"><td colspan="2"><span class="courselistcomment areasubheader undefined">C. Emphasis</span></td><td class="hourscol"></td></tr>
+<tr class="even"><td colspan="2"><span class="courselistcomment">Choose one:</span></td><td class="hourscol">8</td></tr>
+<tr class="odd areasubheader undefined"><td colspan="2"><div style="margin-left:20px;" class="blockindent"><span class="courselistcomment areasubheader undefined commentindent">Computational &amp; Mathematical Biology Emphasis</span></div></td><td class="hourscol"></td></tr>
+<tr class="even"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="MAT 124">MAT 124</span></div></td><td>Mathematical Biology</td><td class="hourscol"></td></tr>
+<tr class="odd"><td colspan="2"><div style="margin-left:20px;" class="blockindent"><span class="courselistcomment commentindent">And</span></div></td><td class="hourscol"></td></tr>
+<tr class="even"><td colspan="2"><div style="margin-left:20px;" class="blockindent"><span class="courselistcomment commentindent">One approved upper division course in Biology; please consult with a math advisor before selecting a course.</span></div></td><td class="hourscol"></td></tr>
+<tr class="odd"><td colspan="2"><div style="margin-left:20px;" class="blockindent"><span class="courselistcomment commentindent"><strong>OR</strong></span></div></td><td class="hourscol"></td></tr>
+<tr class="even areasubheader undefined"><td colspan="2"><div style="margin-left:20px;" class="blockindent"><span class="courselistcomment areasubheader undefined commentindent">Computational &amp; Mathematics Emphasis</span></div></td><td class="hourscol"></td></tr>
+<tr class="odd"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="MAT 168">MAT 168</span></div></td><td>Optimization</td><td class="hourscol"></td></tr>
+<tr class="orclass odd"><td class="codecol orclass"><div style="margin-left:20px;" class="blockindent">or <span class="code_bubble" data-code-bubble="MAT 168V">MAT 168V</span></div></td><td colspan="2"> Optimization</td></tr>
+<tr class="even"><td colspan="2"><div style="margin-left:20px;" class="blockindent"><span class="courselistcomment commentindent">And</span></div></td><td class="hourscol"></td></tr>
+<tr class="odd"><td colspan="2"><div style="margin-left:20px;" class="blockindent"><span class="courselistcomment commentindent">One approved upper division course involving extensive computation or theory of computation; please consult with a math advisor before selecting a course.</span></div></td><td class="hourscol"></td></tr>
+<tr class="even areasubheader undefined"><td colspan="2"><span class="courselistcomment areasubheader undefined">D. Capstone Course</span></td><td class="hourscol"></td></tr>
+<tr class="odd"><td colspan="2"><span class="courselistcomment">Choose one:</span></td><td class="hourscol">3-4</td></tr>
+<tr class="even"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="MAT 115B">MAT 115B</span></div></td><td>Number Theory</td><td class="hourscol"></td></tr>
+<tr class="odd"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="MAT 118B">MAT 118B</span></div></td><td>Partial Differential Equations: Eigenfunction Expansions</td><td class="hourscol"></td></tr>
+<tr class="even"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="MAT 119B">MAT 119B</span></div></td><td>Ordinary Differential Equations</td><td class="hourscol"></td></tr>
+<tr class="odd"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="MAT 135B">MAT 135B</span></div></td><td>Stochastic Processes</td><td class="hourscol"></td></tr>
+<tr class="even"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="MAT 146">MAT 146</span></div></td><td>Algebraic Combinatorics</td><td class="hourscol"></td></tr>
+<tr class="odd"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="MAT 150B">MAT 150B</span></div></td><td>Modern Algebra</td><td class="hourscol"></td></tr>
+<tr class="even"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="MAT 150C">MAT 150C</span></div></td><td>Modern Algebra</td><td class="hourscol"></td></tr>
+<tr class="odd"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="MAT 180">MAT 180</span></div></td><td>Special Topics</td><td class="hourscol"></td></tr>
+<tr class="even"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="MAT 185B">MAT 185B</span></div></td><td>Complex Analysis</td><td class="hourscol"></td></tr>
+<tr class="odd"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="MAT 189">MAT 189</span></div></td><td>Advanced Problem Solving</td><td class="hourscol"></td></tr>
+<tr class="even"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="MAT 192">MAT 192</span></div></td><td>Internship in Applied Mathematics  (Must take 3 units.)</td><td class="hourscol"></td></tr>
+<tr class="odd"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="MAT 194">MAT 194</span></div></td><td>Undergraduate Thesis</td><td class="hourscol"></td></tr>
+<tr class="even lastrow"><td colspan="2"><span class="courselistcomment">Depth Subject Matter Subtotal</span></td><td class="hourscol">51-52</td></tr>
+<tr class="listsum"><td colspan="2">Total Units</td><td class="hourscol">82-89</td></tr></tbody>
+</table>
+
+<dl class="sc_footnotes" aria-label="Footnotes"><dt> <sup> 1 </sup> </dt><dd><p class="noindent"><strong>Note</strong>: Basic knowledge of MATLAB is required for both <span class="sc_courseinline"><span class="code_bubble" data-code-bubble="MAT 022A">MAT 022A</span></span> &amp; <span class="sc_courseinline"><span class="code_bubble" data-code-bubble="MAT 067">MAT 067</span></span>. Students can learn it on their own, enroll in <span class="sc_courseinline"><span class="code_bubble" data-code-bubble="ENG 006">ENG 006</span></span>, or in the 1 unit course <span class="sc_courseinline"><span class="code_bubble" data-code-bubble="MAT 022AL">MAT 022AL</span></span> (can be taken concurrently).</p></dd><dt> <sup> 2 </sup> </dt><dd><p class="noindent">Excluding <span class="sc_courseinline"><span class="code_bubble" data-code-bubble="MAT 180">MAT 180</span></span>. Note that core math major classes cannot be used to satisfy this requirement.</p></dd></dl>
+]]>
+</requirementstext>
+<quickviewtext name="Quick View">
+<![CDATA[
+<p>The <span class="title-main">Mathematical &amp; Scientific Computation </span>major is the ideal choice for students who are interested in the interplay between mathematical theory and modern computational tools for applications. Students build a foundation enabling them to model or analyze complicated systems or problems such as earthquakes, economic models, or biological systems.</p>
+]]>
+</quickviewtext>
+<faculty>
+<![CDATA[
+]]>
+</faculty>
+</courseleaf>
+

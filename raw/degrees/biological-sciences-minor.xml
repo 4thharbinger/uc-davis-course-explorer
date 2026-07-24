@@ -1,0 +1,104 @@
+<?xml version="1.0"?>
+<courseleaf>
+
+<title>Biological Sciences, Minor</title>
+
+
+<text>
+<![CDATA[  
+
+  
+]]>
+</text>
+<informationtext name="Information">
+<![CDATA[
+<p>The Biological Sciences minor provides an opportunity for students in programs outside of the College of Biological Sciences to complement their studies with a concentration in biology. Student in the minor experience the breadth of biology by taking courses in five core areas: molecular biology/biochemistry, animal biology, plant biology, microbiology and ecology/evolution.</p>
+<p>Departments of Evolution &amp; Ecology; Microbiology &amp; Molecular Genetics; Molecular &amp; Cellular Biology; Neurobiology, Physiology, &amp; Behavior; and Plant Biology</p>
+<h2>Faculty Advisor</h2>
+<p>Lesilee Rose, Ph.D.</p>
+<h2>Advising</h2>
+<p>Information on the Biological Sciences major or minor can be obtained at the <a href="http://basc.ucdavis.edu/">Biology Academic Success Center (BASC)</a> in 1023 Katherine Esau Science Hall; 530-752-0410.</p>
+<h2>Restrictions</h2>
+<p>A course can only be used once to fulfill minor requirements if it can be used to fulfill more than one group. Only one course used to satisfy a requirement for the minor may be applied toward a student’s major.</p>
+]]>
+</informationtext>
+<requirementstext name="Requirements">
+<![CDATA[
+<table class="sc_courselist">
+<caption class="hidden noscript">Course List</caption>
+<colgroup>
+<col class="codecol"/>
+<col class="titlecol"/>
+<col align="char" char="." class="hourscol"/>
+</colgroup>
+<thead>
+<tr class="hidden noscript">
+<th scope="col">Code</th>
+<th scope="col">Title</th>
+<th scope="col" class="hourscol">Units</th>
+</tr>
+</thead>
+<tbody>
+<tr class="even firstrow"><td colspan="2"><span class="courselistcomment">Complete at least 3 units from each of the five numbered groups to total at least 18 units. Appropriate alternative courses may be used with approval of the faculty advisor. </span></td><td class="hourscol">18</td></tr>
+<tr class="odd"><td colspan="2"><span class="courselistcomment">1) Genetics, Molecular Biology or Biochemistry</span></td><td class="hourscol"></td></tr>
+<tr class="even"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="BIS 101">BIS 101</span></div></td><td>Genes &amp; Gene Expression</td><td class="hourscol"></td></tr>
+<tr class="orclass even"><td class="codecol orclass"><div style="margin-left:20px;" class="blockindent">or <span class="code_bubble" data-code-bubble="BIS 101V">BIS 101V</span></div></td><td colspan="2"> Genes &amp; Gene Expression</td></tr>
+<tr class="odd"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="BIS 102">BIS 102</span></div></td><td>Structure &amp; Function of Biomolecules</td><td class="hourscol"></td></tr>
+<tr class="orclass odd"><td class="codecol orclass"><div style="margin-left:20px;" class="blockindent">or <span class="code_bubble" data-code-bubble="BIS 102V">BIS 102V</span></div></td><td colspan="2"> Structure &amp; Function of Biomolecules</td></tr>
+<tr class="even"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="BIS 105">BIS 105</span></div></td><td>Biomolecules &amp; Metabolism</td><td class="hourscol"></td></tr>
+<tr class="odd"><td colspan="2"><span class="courselistcomment">2) Animal Physiology, Behavior or Development</span></td><td class="hourscol"></td></tr>
+<tr class="even"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="EVE 107">EVE 107</span></div></td><td>Animal Communication</td><td class="hourscol"></td></tr>
+<tr class="odd"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="MCB 150">MCB 150</span></div></td><td>Developmental Biology</td><td class="hourscol"></td></tr>
+<tr class="even"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="NPB 100">NPB 100</span></div></td><td>Neurobiology</td><td class="hourscol"></td></tr>
+<tr class="odd"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="NPB 101">NPB 101</span></div></td><td>Systemic Physiology</td><td class="hourscol"></td></tr>
+<tr class="even"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="NPB 102">NPB 102</span></div></td><td>Animal Behavior</td><td class="hourscol"></td></tr>
+<tr class="odd"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="NPB 107">NPB 107</span></div></td><td>Cell Signaling in Health &amp; Disease</td><td class="hourscol"></td></tr>
+<tr class="even"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="NPB 117">NPB 117</span></div></td><td>Avian Physiology</td><td class="hourscol"></td></tr>
+<tr class="odd"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="NPB 123">NPB 123/APC 100</span></div></td><td>Comparative Vertebrate Organology</td><td class="hourscol"></td></tr>
+<tr class="even"><td colspan="2"><span class="courselistcomment">3) Microbiology</span></td><td class="hourscol"></td></tr>
+<tr class="odd"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="MMG 102">MMG 102</span></div></td><td>Introductory Microbiology</td><td class="hourscol"></td></tr>
+<tr class="even"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="MMG 162">MMG 162</span></div></td><td>General Virology</td><td class="hourscol"></td></tr>
+<tr class="odd"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="MMG 170">MMG 170</span></div></td><td>Yeast Molecular Genetics</td><td class="hourscol"></td></tr>
+<tr class="even"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="PLP 148">PLP/PLB 148</span></div></td><td>Introductory Mycology</td><td class="hourscol"></td></tr>
+<tr class="odd"><td colspan="2"><span class="courselistcomment">4) Plant Biology</span></td><td class="hourscol"></td></tr>
+<tr class="even"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="PLB 105">PLB 105</span></div></td><td>Developmental Plant Anatomy</td><td class="hourscol"></td></tr>
+<tr class="odd"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="PLB 111">PLB 111</span></div></td><td>Plant Physiology</td><td class="hourscol"></td></tr>
+<tr class="even"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="PLB 112">PLB 112</span></div></td><td>Plant Growth &amp; Development</td><td class="hourscol"></td></tr>
+<tr class="odd"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="PLB 113">PLB 113</span></div></td><td>Molecular &amp; Cellular Biology of Plants</td><td class="hourscol"></td></tr>
+<tr class="even"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="PLB 116">PLB/PLS 116</span></div></td><td>Plant Morphology &amp; Evolution</td><td class="hourscol"></td></tr>
+<tr class="odd"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="PLB 126">PLB/MCB 126</span></div></td><td>Plant Biochemistry</td><td class="hourscol"></td></tr>
+<tr class="even"><td colspan="2"><span class="courselistcomment">5) Evolution &amp; Ecology</span></td><td class="hourscol"></td></tr>
+<tr class="odd"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="BIS 122">BIS 122</span></div></td><td>Population Biology &amp; Ecology (Discontinued for winter 2027) <sup>**</sup></td><td class="hourscol"></td></tr>
+<tr class="even"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="ESP 100">ESP 100</span></div></td><td>General Ecology</td><td class="hourscol"></td></tr>
+<tr class="odd"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="EVE 100">EVE 100</span></div></td><td>Introduction to Evolution</td><td class="hourscol"></td></tr>
+<tr class="even"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="EVE 101">EVE 101</span></div></td><td>Introduction to Ecology</td><td class="hourscol"></td></tr>
+<tr class="odd"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="EVE 105">EVE 105</span></div></td><td> (Discontinued for winter 2026) <sup>**</sup></td><td class="hourscol"></td></tr>
+<tr class="even"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="EVE 112">EVE 112</span></div></td><td>Biology of Invertebrates</td><td class="hourscol"></td></tr>
+<tr class="odd"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="EVE 115">EVE 115</span></div></td><td>Marine Ecology</td><td class="hourscol"></td></tr>
+<tr class="even"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="EVE 131">EVE 131</span></div></td><td>Human Genetic Variation &amp; Evolution</td><td class="hourscol"></td></tr>
+<tr class="odd"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="EVE 138">EVE 138</span></div></td><td> (Discontinued for winter 2026) <sup>**</sup></td><td class="hourscol"></td></tr>
+<tr class="even"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="EVE 140">EVE 140</span></div></td><td> (Discontinued for winter 2026) <sup>**</sup></td><td class="hourscol"></td></tr>
+<tr class="odd"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="EVE 147">EVE 147</span></div></td><td>Biogeography</td><td class="hourscol"></td></tr>
+<tr class="even"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="PLB 117">PLB/EVE 117</span></div></td><td>Plant Ecology</td><td class="hourscol"></td></tr>
+<tr class="odd"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="PLB 119">PLB/EVE 119</span></div></td><td>Population Biology of Invasive Plants &amp; Weeds</td><td class="hourscol"></td></tr>
+<tr class="even"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="PLB 127">PLB/PLS 127</span></div></td><td>Systematics of Vascular Plants</td><td class="hourscol"></td></tr>
+<tr class="odd"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="PLB 143">PLB 143</span></div></td><td>Evolution of Crop Plants (Discontinued for winter 2027) <sup>**</sup></td><td class="hourscol"></td></tr>
+<tr class="even"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="PLB 148">PLB/PLP 148</span></div></td><td>Introductory Mycology</td><td class="hourscol"></td></tr>
+<tr class="odd lastrow"><td colspan="2"><span class="courselistcomment">Additional courses (if necessary) from above numbered groups to reach 18 units.</span></td><td class="hourscol"></td></tr>
+<tr class="listsum"><td colspan="2">Total Units</td><td class="hourscol">18</td></tr></tbody>
+</table>
+
+<dl class="sc_footnotes" aria-label="Footnotes"><dt>**</dt><dd><p class="noindent">Course(s) discontinued; see your advisor for course options.</p></dd></dl>
+]]>
+</requirementstext>
+<quickviewtext name="Quick View">
+<![CDATA[
+<p>The <span class="title-main">Biological Sciences </span>minor provides an opportunity for students in programs outside of the College of Biological Sciences to complement their studies with a concentration in biology.</p>
+]]>
+</quickviewtext>
+<faculty>
+<![CDATA[
+]]>
+</faculty>
+</courseleaf>
+

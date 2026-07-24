@@ -1,0 +1,95 @@
+<?xml version="1.0"?>
+<courseleaf>
+
+<title>Art History, Minor</title>
+
+
+<text>
+<![CDATA[  
+
+  
+]]>
+</text>
+<informationtext name="Information">
+<![CDATA[
+<p>Art History studies the changing visual expression of values, beliefs and experiences across diverse cultures and over time. It provides training in historical, social and aesthetic understanding, critical thinking, scholarly research, and lucid, thoughtful analysis and writing. More than any other discipline, art history sharpens its students’ visual acuity and deepens their visual literacy. In so doing, it prepares them to face the increasingly complex visual world we find ourselves in today.</p>
+]]>
+</informationtext>
+<requirementstext name="Requirements">
+<![CDATA[
+<table class="sc_courselist">
+<caption class="hidden noscript">Course List</caption>
+<colgroup>
+<col class="codecol"/>
+<col class="titlecol"/>
+<col align="char" char="." class="hourscol"/>
+</colgroup>
+<thead>
+<tr class="hidden noscript">
+<th scope="col">Code</th>
+<th scope="col">Title</th>
+<th scope="col" class="hourscol">Units</th>
+</tr>
+</thead>
+<tbody>
+<tr class="even areaheader  firstrow"><td colspan="2"><span class="courselistcomment areaheader "> Five Upper Division Courses</span></td><td class="hourscol"></td></tr>
+<tr class="odd"><td colspan="2"><span class="courselistcomment">Choose one course from four of the following areas:</span></td><td class="hourscol">16</td></tr>
+<tr class="even"><td colspan="2"><span class="courselistcomment">(1) The Ancient World</span></td><td class="hourscol"></td></tr>
+<tr class="odd"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="AHI 152">AHI 152</span></div></td><td>Arts of Oceania &amp; Prehistoric Europe</td><td class="hourscol"></td></tr>
+<tr class="even"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="AHI 172A">AHI/CLA 172A</span></div></td><td>Early Greek Art &amp; Architecture</td><td class="hourscol"></td></tr>
+<tr class="odd"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="AHI 172B">AHI/CLA 172B</span></div></td><td>Later Greek Art &amp; Architecture</td><td class="hourscol"></td></tr>
+<tr class="even"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="AHI 173">AHI/CLA 173</span></div></td><td>Roman Art &amp; Architecture</td><td class="hourscol"></td></tr>
+<tr class="odd"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="AHI 175">AHI/CLA 175</span></div></td><td>Architecture &amp; Urbanism in Mediterranean Antiquity</td><td class="hourscol"></td></tr>
+<tr class="even"><td colspan="2"><span class="courselistcomment">(2) Asia</span></td><td class="hourscol"></td></tr>
+<tr class="odd"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="AHI 154">AHI/RST 154</span></div></td><td>The Hindu Temple</td><td class="hourscol"></td></tr>
+<tr class="even"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="AHI 157">AHI 157/RST 171</span></div></td><td>Buddhist Art</td><td class="hourscol"></td></tr>
+<tr class="odd"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="AHI 163A">AHI 163A</span></div></td><td>Early Chinese Art</td><td class="hourscol"></td></tr>
+<tr class="even"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="AHI 163B">AHI 163B</span></div></td><td>Chinese Painting</td><td class="hourscol"></td></tr>
+<tr class="odd"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="AHI 163C">AHI 163C</span></div></td><td>Early Modern Chinese Painting</td><td class="hourscol"></td></tr>
+<tr class="even"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="AHI 164">AHI 164</span></div></td><td>The Arts of Japan</td><td class="hourscol"></td></tr>
+<tr class="odd"><td colspan="2"><span class="courselistcomment">(3) The Middle Ages to 1700</span></td><td class="hourscol"></td></tr>
+<tr class="even"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="AHI 155">AHI 155</span></div></td><td>The Islamic City</td><td class="hourscol"></td></tr>
+<tr class="odd"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="AHI 156">AHI 156</span></div></td><td>Arts of the Islamic Book</td><td class="hourscol"></td></tr>
+<tr class="even"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="AHI 178B">AHI 178B</span></div></td><td>Early Italian Renaissance Art &amp; Architecture</td><td class="hourscol"></td></tr>
+<tr class="odd"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="AHI 178C">AHI 178C</span></div></td><td>High &amp; Late Italian Renaissance Art &amp; Architecture</td><td class="hourscol"></td></tr>
+<tr class="even"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="AHI 179B">AHI 179B</span></div></td><td>Baroque Art</td><td class="hourscol"></td></tr>
+<tr class="odd"><td colspan="2"><span class="courselistcomment">(4) Western Art 1700 to 1900</span></td><td class="hourscol"></td></tr>
+<tr class="even"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="AHI 130">AHI 130</span></div></td><td>Landscape, Nature, &amp; Art</td><td class="hourscol"></td></tr>
+<tr class="odd"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="AHI 168">AHI 168</span></div></td><td>Great Cities</td><td class="hourscol"></td></tr>
+<tr class="even"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="AHI 182">AHI 182</span></div></td><td>British Art &amp; Culture (1750-1900)</td><td class="hourscol"></td></tr>
+<tr class="odd"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="AHI 183A">AHI 183A</span></div></td><td>Art in the Age of Revolution, 1750-1850</td><td class="hourscol"></td></tr>
+<tr class="even"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="AHI 183B">AHI 183B</span></div></td><td>Impressionism &amp; Post-Impressionism: Manet to 1900</td><td class="hourscol"></td></tr>
+<tr class="odd"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="AHI 188C">AHI 188C</span></div></td><td>American Art to 1910</td><td class="hourscol"></td></tr>
+<tr class="even"><td colspan="2"><span class="courselistcomment">(5) World Art 20<sup>th</sup> Century to the Present</span></td><td class="hourscol"></td></tr>
+<tr class="odd"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="AHI 122">AHI 122</span></div></td><td>Sex &amp; Space</td><td class="hourscol"></td></tr>
+<tr class="even"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="AHI 163D">AHI 163D</span></div></td><td>Art from China 1900 to the Present</td><td class="hourscol"></td></tr>
+<tr class="odd"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="AHI 183C">AHI 183C</span></div></td><td>Modernism in France, 1880-1940</td><td class="hourscol"></td></tr>
+<tr class="even"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="AHI 185">AHI 185</span></div></td><td>Avant-Gardism &amp; its Aftermath, 1917-1960</td><td class="hourscol"></td></tr>
+<tr class="odd"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="AHI 186">AHI 186</span></div></td><td>Contemporary Art 1960-Present</td><td class="hourscol"></td></tr>
+<tr class="even"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="AHI 189">AHI 189</span></div></td><td>Photography in History</td><td class="hourscol"></td></tr>
+<tr class="odd"><td colspan="2"><span class="courselistcomment">(6) Art &amp; Issues Across Chronologies</span></td><td class="hourscol"></td></tr>
+<tr class="even"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="AHI 110">AHI 110</span></div></td><td>Cultural History of Museums </td><td class="hourscol"></td></tr>
+<tr class="odd"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="AHI 120A">AHI/HMR 120A</span></div></td><td>Art, Architecture, &amp; Human Rights</td><td class="hourscol"></td></tr>
+<tr class="even"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="AHI 121">AHI 121</span></div></td><td>Politics of Public Art</td><td class="hourscol"></td></tr>
+<tr class="odd"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="AHI 123">AHI 123</span></div></td><td>The Museum in the Age of Spectacle</td><td class="hourscol"></td></tr>
+<tr class="even"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="AHI 181">AHI 181</span></div></td><td>Latin American Art &amp; Architecture </td><td class="hourscol"></td></tr>
+<tr class="odd"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="AHI 188A">AHI 188A</span></div></td><td>The American Home</td><td class="hourscol"></td></tr>
+<tr class="even areaheader "><td colspan="2"><span class="courselistcomment areaheader ">Elective</span></td><td class="hourscol"></td></tr>
+<tr class="odd"><td colspan="2"><span class="courselistcomment">Choose any additional upper division Art History (AHI) course or seminar.</span></td><td class="hourscol">4</td></tr>
+<tr class="even lastrow"><td colspan="2"><div style="margin-left:20px;" class="blockindent"><span class="courselistcomment commentindent"><a href="/courses-subject-code/ahi/">Art History (AHI) courses.</a></span></div></td><td class="hourscol"></td></tr>
+<tr class="listsum"><td colspan="2">Total Units</td><td class="hourscol">20</td></tr></tbody>
+</table>
+
+]]>
+</requirementstext>
+<quickviewtext name="Quick View">
+<![CDATA[
+<p>Art history studies the changing visual expression of values, beliefs, and experiences across diverse cultures and over time. The Art History minor provides training in historical, social, and aesthetic understanding, critical thinking, scholarly research, and lucid, thoughtful analysis and writing.</p>
+]]>
+</quickviewtext>
+<faculty>
+<![CDATA[
+]]>
+</faculty>
+</courseleaf>
+

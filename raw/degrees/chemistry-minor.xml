@@ -1,0 +1,64 @@
+<?xml version="1.0"?>
+<courseleaf>
+
+<title>Chemistry, Minor</title>
+
+
+<text>
+<![CDATA[  
+
+  
+]]>
+</text>
+<informationtext name="Information">
+<![CDATA[
+<h2>Major Advisor</h2>
+<p>To contact a major advisor in the Department of Chemistry; see <a href="https://chemistry.ucdavis.edu/undergraduate/academic-advising" target="_blank">Academic Advising.</a></p>
+]]>
+</informationtext>
+<requirementstext name="Requirements">
+<![CDATA[
+<h2>Prerequisites</h2>
+<p>The minor program has prerequisites of <span class="sc_courseinline"><span class="code_bubble" data-code-bubble="CHE 002A">CHE 002A</span></span>-<span class="sc_courseinline"><span class="code_bubble" data-code-bubble="CHE 002B">CHE 002B</span></span>-<span class="sc_courseinline"><span class="code_bubble" data-code-bubble="CHE 002C">CHE 002C</span></span> or <span class="sc_courseinline"><span class="code_bubble" data-code-bubble="CHE 004A">CHE 004A</span></span>-<span class="sc_courseinline"><span class="code_bubble" data-code-bubble="CHE 004B">CHE 004B</span></span>-<span class="sc_courseinline"><span class="code_bubble" data-code-bubble="CHE 004C">CHE 004C</span></span>, <span class="sc_courseinline"><span class="code_bubble" data-code-bubble="MAT 017A">MAT 017A</span></span>-<span class="sc_courseinline"><span class="code_bubble" data-code-bubble="MAT 017B">MAT 017B</span></span>-<span class="sc_courseinline"><span class="code_bubble" data-code-bubble="MAT 017C">MAT 017C</span></span>, <span class="sc_courseinline"><span class="code_bubble" data-code-bubble="MAT 019A">MAT 019A</span></span>-<span class="sc_courseinline"><span class="code_bubble" data-code-bubble="MAT 019B">MAT 019B</span></span>-<span class="sc_courseinline"><span class="code_bubble" data-code-bubble="MAT 019C">MAT 019C</span></span>, or <span class="sc_courseinline"><span class="code_bubble" data-code-bubble="MAT 021A">MAT 021A</span></span>-<span class="sc_courseinline"><span class="code_bubble" data-code-bubble="MAT 021B">MAT 021B</span></span>-<span class="sc_courseinline"><span class="code_bubble" data-code-bubble="MAT 021C">MAT 021C</span></span>, and <span class="sc_courseinline"><span class="code_bubble" data-code-bubble="PHY 007A">PHY 007A</span></span>-<span class="sc_courseinline"><span class="code_bubble" data-code-bubble="PHY 007B">PHY 007B</span></span>-<span class="sc_courseinline"><span class="code_bubble" data-code-bubble="PHY 007C">PHY 007C</span></span> or <span class="sc_courseinline"><span class="code_bubble" data-code-bubble="PHY 009A">PHY 009A</span></span>-<span class="sc_courseinline"><span class="code_bubble" data-code-bubble="PHY 009B">PHY 009B</span></span>-<span class="sc_courseinline"><span class="code_bubble" data-code-bubble="PHY 009C">PHY 009C</span></span> or their equivalents. Students wishing to earn a Chemistry minor should consult with a Chemistry major advisor.</p>
+
+<table class="sc_courselist">
+<caption class="hidden noscript">Course List</caption>
+<colgroup>
+<col class="codecol"/>
+<col class="titlecol"/>
+<col align="char" char="." class="hourscol"/>
+</colgroup>
+<thead>
+<tr class="hidden noscript">
+<th scope="col">Code</th>
+<th scope="col">Title</th>
+<th scope="col" class="hourscol">Units</th>
+</tr>
+</thead>
+<tbody>
+<tr class="even areaheader  firstrow"><td colspan="2"><span class="courselistcomment areaheader ">Chemistry</span></td><td class="hourscol">17</td></tr>
+<tr class="odd"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="CHE 105">CHE 105</span></div></td><td>Analytical &amp; Physical Chemical Methods</td><td class="hourscol"></td></tr>
+<tr class="even"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="CHE 107A">CHE 107A</span></div></td><td>Physical Chemistry for the Life Sciences</td><td class="hourscol"></td></tr>
+<tr class="odd"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="CHE 107B">CHE 107B</span></div></td><td>Physical Chemistry for the Life Sciences</td><td class="hourscol"></td></tr>
+<tr class="even"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="CHE 118A">CHE 118A</span></div></td><td>Organic Chemistry for Health &amp; Life Sciences</td><td class="hourscol"></td></tr>
+<tr class="odd"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="CHE 124A">CHE 124A</span></div></td><td>Inorganic Chemistry: Fundamentals</td><td class="hourscol"></td></tr>
+<tr class="even"><td colspan="2"><span class="courselistcomment">Choose at least one: </span></td><td class="hourscol">3-4</td></tr>
+<tr class="odd"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="CHE 118B">CHE 118B</span></div></td><td>Organic Chemistry for Health &amp; Life Sciences</td><td class="hourscol"></td></tr>
+<tr class="even"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="CHE 124B">CHE 124B</span></div></td><td>Inorganic Chemistry: Main Group Elements</td><td class="hourscol"></td></tr>
+<tr class="odd lastrow"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="CHE 124C">CHE 124C</span></div></td><td>Inorganic Chemistry: D &amp; F Block Elements</td><td class="hourscol"></td></tr>
+<tr class="listsum"><td colspan="2">Total Units</td><td class="hourscol">20-21</td></tr></tbody>
+</table>
+
+]]>
+</requirementstext>
+<quickviewtext name="Quick View">
+<![CDATA[
+<p>Interested in a degree in chemistry, but don’t have the room in your study plan to complete a double-major? Consider pursuing the Chemistry minor. It’s relatively easy, especially if you have passed many of the lower division preparatory courses such as general chemistry, mathematics, and physics.</p>
+]]>
+</quickviewtext>
+<faculty>
+<![CDATA[
+]]>
+</faculty>
+</courseleaf>
+

@@ -1,0 +1,81 @@
+<?xml version="1.0"?>
+<courseleaf>
+
+<title>Electrical Engineering, Minor</title>
+
+
+<text>
+<![CDATA[  
+
+  
+]]>
+</text>
+<informationtext name="Information">
+<![CDATA[
+<p>There has been an increasing need for professionals in most engineering disciplines to understand the fundamentals of electronic circuits, electronic signals, semiconductor devices, applied electromagnetics, control systems, computer systems, and communication systems.</p>
+<p>The objective of this minor program is to prepare students with the necessary theoretical and practical training in one or many of the above mentioned fields. The minor program curriculum is designed to allow flexibility while ensuring a solid foundation of fundamental electrical engineering concepts. The program is expected to accommodate students of diverse backgrounds.</p>
+<p>The minor must be outside the department or program of your major and no more than one course may be counted toward both your minor and your major. The courses you take to satisfy the requirements of a minor, including those completed elsewhere, must be approved by an advisor in the Department of Electrical &amp; Computer Engineering. You must have a minimum overall GPA of 2.000 and satisfy the minor course requirements, listed below. To receive notation of this minor on your diploma, you must obtain a minor petition and file it no later than the deadline for filing for graduation.</p>
+
+
+
+]]>
+</informationtext>
+<requirementstext name="Requirements">
+<![CDATA[
+<table class="sc_courselist">
+<caption class="hidden noscript">Course List</caption>
+<colgroup>
+<col class="codecol"/>
+<col class="titlecol"/>
+<col align="char" char="." class="hourscol"/>
+</colgroup>
+<thead>
+<tr class="hidden noscript">
+<th scope="col">Code</th>
+<th scope="col">Title</th>
+<th scope="col" class="hourscol">Units</th>
+</tr>
+</thead>
+<tbody>
+<tr class="even firstrow"><td class="codecol"><span class="code_bubble" data-code-bubble="EEC 100">EEC 100</span></td><td>Circuits II</td><td class="hourscol">5</td></tr>
+<tr class="odd"><td colspan="2"><span class="courselistcomment">Choose at least one of the following combinations:</span></td><td class="hourscol">8-10</td></tr>
+<tr class="even areasubheader undefined"><td colspan="2"><span class="courselistcomment areasubheader undefined">Analog Circuits</span></td><td class="hourscol"></td></tr>
+<tr class="odd"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="EEC 110A">EEC 110A</span><br/><span style="margin-left:20px;" class="blockindent">&amp; <span class="code_bubble" data-code-bubble="EEC 110B">EEC 110B</span></span></div></td><td>Electronic Circuits I<br/><span style="margin-left:20px;" class="blockindent">and Electronic Circuits II</span></td><td class="hourscol"></td></tr>
+<tr class="even areasubheader undefined"><td colspan="2"><span class="courselistcomment areasubheader undefined">Electromagnetics</span></td><td class="hourscol"></td></tr>
+<tr class="odd"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="EEC 130A">EEC 130A</span><br/><span style="margin-left:20px;" class="blockindent">&amp; <span class="code_bubble" data-code-bubble="EEC 130B">EEC 130B</span></span></div></td><td>Introductory Electromagnetics I<br/><span style="margin-left:20px;" class="blockindent">and Introductory Electromagnetics II</span></td><td class="hourscol"></td></tr>
+<tr class="even areasubheader undefined"><td colspan="2"><span class="courselistcomment areasubheader undefined">Physical Electronics</span></td><td class="hourscol"></td></tr>
+<tr class="odd"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="EEC 140A">EEC 140A</span></div></td><td>Principles of Device Physics I</td><td class="hourscol"></td></tr>
+<tr class="orclass odd"><td class="codecol orclass"><div style="margin-left:20px;" class="blockindent">or <span class="code_bubble" data-code-bubble="EEC 140AV">EEC 140AV</span></div></td><td colspan="2"> Principles of Device Physics I</td></tr>
+<tr class="even"><td colspan="2"><div style="margin-left:20px;" class="blockindent"><span class="courselistcomment commentindent">&amp;</span></div></td><td class="hourscol"></td></tr>
+<tr class="odd"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="EEC 140B">EEC 140B</span></div></td><td>Principles of Device Physics II</td><td class="hourscol"></td></tr>
+<tr class="even areasubheader undefined"><td colspan="2"><span class="courselistcomment areasubheader undefined">Signals &amp; Systems</span></td><td class="hourscol"></td></tr>
+<tr class="odd"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="EEC 150">EEC 150</span></div></td><td> Introduction to Signals &amp; Systems</td><td class="hourscol"></td></tr>
+<tr class="even"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="EEC 151">EEC 151</span></div></td><td>Digital Signals &amp; Systems</td><td class="hourscol"></td></tr>
+<tr class="odd areasubheader undefined"><td colspan="2"><span class="courselistcomment areasubheader undefined">Communication</span></td><td class="hourscol"></td></tr>
+<tr class="even"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="EEC 150">EEC 150</span></div></td><td> Introduction to Signals &amp; Systems</td><td class="hourscol"></td></tr>
+<tr class="odd"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="EEC 160">EEC 160</span></div></td><td>Signal Analysis &amp; Communications</td><td class="hourscol"></td></tr>
+<tr class="even areasubheader undefined"><td colspan="2"><span class="courselistcomment areasubheader undefined">Control Systems</span></td><td class="hourscol"></td></tr>
+<tr class="odd"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="EEC 150">EEC 150</span></div></td><td> Introduction to Signals &amp; Systems</td><td class="hourscol"></td></tr>
+<tr class="even"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="EEC 157A">EEC 157A</span></div></td><td>Control Systems</td><td class="hourscol"></td></tr>
+<tr class="orclass even"><td class="codecol orclass"><div style="margin-left:20px;" class="blockindent">or <span class="code_bubble" data-code-bubble="EEC 157AV">EEC 157AV</span></div></td><td colspan="2"> Control Systems</td></tr>
+<tr class="odd areasubheader undefined"><td colspan="2"><span class="courselistcomment areasubheader undefined">Digital Systems</span></td><td class="hourscol"></td></tr>
+<tr class="even"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="EEC 018">EEC 018</span><br/><span style="margin-left:20px;" class="blockindent">&amp; <span class="code_bubble" data-code-bubble="EEC 180">EEC 180</span></span></div></td><td>Digital Systems I<br/><span style="margin-left:20px;" class="blockindent">and Digital Systems II</span></td><td class="hourscol"></td></tr>
+<tr class="odd"><td colspan="2"><span class="courselistcomment">Choose at least 8 additional units of EEC courses numbered 101 or above <sup>1</sup>; If you elect to do a design project, you must be registered for both quarters.</span></td><td class="hourscol">8-10</td></tr>
+<tr class="even lastrow"><td colspan="2"><div style="margin-left:20px;" class="blockindent"><span class="courselistcomment commentindent"><a href="/courses-subject-code/eec/">Electrical &amp; Computer Engineering (EEC) courses</a></span></div></td><td class="hourscol"></td></tr>
+<tr class="listsum"><td colspan="2">Total Units</td><td class="hourscol">21-25</td></tr></tbody>
+</table>
+
+<dl class="sc_footnotes" aria-label="Footnotes"><dt> <sup> 1 </sup> </dt><dd><p class="noindent">Except: <span class="sc_courseinline"><span class="code_bubble" data-code-bubble="EEC 192">EEC 192</span></span>, <span class="sc_courseinline"><span class="code_bubble" data-code-bubble="EEC 196">EEC 196</span></span>, <span class="sc_courseinline"><span class="code_bubble" data-code-bubble="EEC 198">EEC 198</span></span>, <span class="sc_courseinline"><span class="code_bubble" data-code-bubble="EEC 199">EEC 199</span></span>, <span class="sc_courseinline"><span class="code_bubble" data-code-bubble="EEC 298">EEC 298</span></span>, <span class="sc_courseinline"><span class="code_bubble" data-code-bubble="EEC 299">EEC 299</span></span>, <span class="sc_courseinline"><span class="code_bubble" data-code-bubble="EEC 390">EEC 390</span></span>, <span class="sc_courseinline"><span class="code_bubble" data-code-bubble="EEC 396">EEC 396</span></span>.</p></dd></dl>
+]]>
+</requirementstext>
+<quickviewtext name="Quick View">
+<![CDATA[
+<p>There has been an increasing need for professionals in most engineering disciplines to understand the fundamentals of electronic circuits, electronic signals, semiconductor devices, applied electromagnetics, control systems, computer systems, and communication systems. The <span class="title-main">Electrical Engineering </span>minor program prepares students with the necessary theoretical and practical training in one or many of the above-mentioned fields.</p>
+]]>
+</quickviewtext>
+<faculty>
+<![CDATA[
+]]>
+</faculty>
+</courseleaf>
+

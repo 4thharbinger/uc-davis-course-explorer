@@ -1,0 +1,106 @@
+<?xml version="1.0"?>
+<courseleaf>
+
+<title>Art Studio, Minor</title>
+
+
+<text>
+<![CDATA[  
+
+  
+]]>
+</text>
+<informationtext name="Information">
+<![CDATA[
+<h2>The Minor Program</h2>
+<p>The Art Studio program delivers a broad range of hands-on studio practices to the art minor. Areas of focus include painting, sculpture, drawing, photography, ceramics, printmaking, and time-based media. Course choices/sequences are determined by the student according to minor requirements. Students are encouraged to explore different areas of focus and are expected to take advantage of beginning classes which provide a critical introduction to the research possibilities within studio art. In addition to studio classes, students are encouraged to participate in the department’s distinguished visiting artist lecture series, professional practice seminars, student exhibitions/competitions, internships, and benefit from exposure to cultural events and exhibitions in Davis, Sacramento, and the Greater Bay Area.</p>
+<p>Prerequisite courses must be taken prior to enrollment in upper division courses. Independent study courses are not applicable.</p>
+]]>
+</informationtext>
+<requirementstext name="Requirements">
+<![CDATA[
+<table class="sc_courselist">
+<caption class="hidden noscript">Course List</caption>
+<colgroup>
+<col class="codecol"/>
+<col class="titlecol"/>
+<col align="char" char="." class="hourscol"/>
+</colgroup>
+<thead>
+<tr class="hidden noscript">
+<th scope="col">Code</th>
+<th scope="col">Title</th>
+<th scope="col" class="hourscol">Units</th>
+</tr>
+</thead>
+<tbody>
+<tr class="even firstrow"><td colspan="2"><span class="courselistcomment">Upper division Art Studio courses in two of the following areas:</span></td><td class="hourscol">20</td></tr>
+<tr class="odd"><td colspan="2"><span class="courselistcomment">Area 1; Painting, Drawing, Printmaking</span></td><td class="hourscol"></td></tr>
+<tr class="even"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="ART 101A">ART 101A</span></div></td><td>Intermediate Painting</td><td class="hourscol"></td></tr>
+<tr class="odd"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="ART 101B">ART 101B</span></div></td><td>Intermediate Painting: Figure</td><td class="hourscol"></td></tr>
+<tr class="even"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="ART 101C">ART 101C</span></div></td><td>Intermediate Painting: Watercolor</td><td class="hourscol"></td></tr>
+<tr class="odd"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="ART 101D">ART 101D</span></div></td><td>Intermediate Painting: Installation</td><td class="hourscol"></td></tr>
+<tr class="even"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="ART 101E">ART 101E</span></div></td><td>Intermediate Painting: Reinterpreting Landscape</td><td class="hourscol"></td></tr>
+<tr class="odd"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="ART 102A">ART 102A</span></div></td><td>Advanced Painting: Studio Projects</td><td class="hourscol"></td></tr>
+<tr class="even"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="ART 102C">ART 102C</span></div></td><td>Advanced Painting: Special Topics</td><td class="hourscol"></td></tr>
+<tr class="odd"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="ART 103AN">ART 103AN</span></div></td><td>Intermediate Drawing</td><td class="hourscol"></td></tr>
+<tr class="even"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="ART 103BN">ART 103BN</span></div></td><td>Intermediate Drawing: Figure</td><td class="hourscol"></td></tr>
+<tr class="odd"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="ART 103C">ART 103C</span></div></td><td>Intermediate Drawing: 3 Dimensions</td><td class="hourscol"></td></tr>
+<tr class="even"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="ART 105A">ART 105A</span></div></td><td>Advanced Drawing: Studio Projects</td><td class="hourscol"></td></tr>
+<tr class="odd"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="ART 105B">ART 105B</span></div></td><td> (Discontinued for winter 2022) <sup>**</sup></td><td class="hourscol"></td></tr>
+<tr class="even"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="ART 125A">ART 125A</span></div></td><td>Intermediate Printmaking: Relief</td><td class="hourscol"></td></tr>
+<tr class="odd"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="ART 125B">ART 125B</span></div></td><td>Intermediate Printmaking: Intaglio</td><td class="hourscol"></td></tr>
+<tr class="even"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="ART 125C">ART 125C</span></div></td><td>Intermediate Printmaking: Lithography</td><td class="hourscol"></td></tr>
+<tr class="odd"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="ART 125D">ART 125D</span></div></td><td>Intermediate Printmaking: Screenprinting</td><td class="hourscol"></td></tr>
+<tr class="even"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="ART 125E">ART 125E</span></div></td><td>Intermediate Printmaking: Post-Digital Print Media</td><td class="hourscol"></td></tr>
+<tr class="odd"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="ART 129">ART 129</span></div></td><td>Advanced Printmaking</td><td class="hourscol"></td></tr>
+<tr class="even"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="ART 171">ART/CHI 171</span></div></td><td>Mexican &amp; Chicano Mural Workshop</td><td class="hourscol"></td></tr>
+<tr class="odd"><td colspan="2"><span class="courselistcomment">Area 2; Sculpture &amp; Ceramic Sculpture</span></td><td class="hourscol"></td></tr>
+<tr class="even"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="ART 142A">ART 142A</span></div></td><td>Intermediate Ceramic Sculpture: Industrial Production Methods</td><td class="hourscol"></td></tr>
+<tr class="odd"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="ART 142B">ART 142B</span></div></td><td>Intermediate Ceramic Sculpture: Material Study</td><td class="hourscol"></td></tr>
+<tr class="even"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="ART 142C">ART 142C</span></div></td><td>Intermediate Ceramic Sculpture: Ceramics &amp; the Painted Surface</td><td class="hourscol"></td></tr>
+<tr class="odd"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="ART 142D">ART 142D</span></div></td><td>Intermediate Ceramic Sculpture: Special Topics</td><td class="hourscol"></td></tr>
+<tr class="even"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="ART 143">ART 143</span></div></td><td>Advanced Ceramic Sculpture: Studio Projects</td><td class="hourscol"></td></tr>
+<tr class="odd"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="ART 151">ART 151</span></div></td><td>Intermediate Sculpture</td><td class="hourscol"></td></tr>
+<tr class="even"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="ART 152A">ART 152A</span></div></td><td>Advanced Sculpture: Studio Projects</td><td class="hourscol"></td></tr>
+<tr class="odd"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="ART 152B">ART 152B</span></div></td><td>Advanced Sculpture: Material Explorations</td><td class="hourscol"></td></tr>
+<tr class="even"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="ART 152C">ART 152C</span></div></td><td>Advanced Sculpture: Concepts</td><td class="hourscol"></td></tr>
+<tr class="odd"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="ART 152D">ART 152D</span></div></td><td>Advanced Sculpture: Metals</td><td class="hourscol"></td></tr>
+<tr class="even"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="ART 152E">ART 152E</span></div></td><td>Advanced Sculpture: Site Specific Public Sculpture</td><td class="hourscol"></td></tr>
+<tr class="odd"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="ART 152F">ART 152F</span></div></td><td>Advanced Sculpture: Figure</td><td class="hourscol"></td></tr>
+<tr class="even"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="ART 152G">ART 152G</span></div></td><td>Advanced Sculpture: The Miniature &amp; Gigantic</td><td class="hourscol"></td></tr>
+<tr class="odd"><td colspan="2"><span class="courselistcomment">Area 3; Photography &amp; Video</span></td><td class="hourscol"></td></tr>
+<tr class="even"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="ART 110A">ART 110A</span></div></td><td>Intermediate Photography: Black &amp; White Analog</td><td class="hourscol"></td></tr>
+<tr class="odd"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="ART 110B">ART 110B</span></div></td><td>Intermediate Photography: Digital Imaging</td><td class="hourscol"></td></tr>
+<tr class="even"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="ART 110C">ART 110C</span></div></td><td>Intermediate Photography: Photographic Lighting</td><td class="hourscol"></td></tr>
+<tr class="odd"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="ART 111A">ART 111A</span></div></td><td>Advanced Photography: Special Topics</td><td class="hourscol"></td></tr>
+<tr class="even"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="ART 111B">ART 111B</span></div></td><td>Advanced Photography: Digital Imaging </td><td class="hourscol"></td></tr>
+<tr class="odd"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="ART 112">ART 112</span></div></td><td>Sound for Vision</td><td class="hourscol"></td></tr>
+<tr class="even"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="ART 114A">ART 114A</span></div></td><td>Intermediate Video: Animation</td><td class="hourscol"></td></tr>
+<tr class="odd"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="ART 114B">ART 114B</span></div></td><td>Intermediate Video: Experimental Documentary</td><td class="hourscol"></td></tr>
+<tr class="even"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="ART 114C">ART 114C</span></div></td><td>Intermediate Video: Performance Strategies</td><td class="hourscol"></td></tr>
+<tr class="odd"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="ART 117">ART 117</span></div></td><td>Advanced Video &amp; Electronic Arts</td><td class="hourscol"></td></tr>
+<tr class="even"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="ART 150">ART 150</span></div></td><td>Theory &amp; Criticism of Electronic Media </td><td class="hourscol"></td></tr>
+<tr class="odd"><td colspan="2"><span class="courselistcomment">Area 4: Interdisciplinary</span></td><td class="hourscol"></td></tr>
+<tr class="even"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="ART 113">ART 113</span></div></td><td>Interdisciplinary Art</td><td class="hourscol"></td></tr>
+<tr class="odd"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="ART 138">ART 138</span></div></td><td>The Artist's Book</td><td class="hourscol"></td></tr>
+<tr class="even"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="ART 148">ART 148</span></div></td><td>Theory &amp; Criticism: Painting &amp; Sculpture</td><td class="hourscol"></td></tr>
+<tr class="odd"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="ART 149">ART 149</span></div></td><td>Introduction to Critical Theory</td><td class="hourscol"></td></tr>
+<tr class="even lastrow"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="ART 190">ART 190</span></div></td><td>Seminar in Art Practice</td><td class="hourscol"></td></tr>
+<tr class="listsum"><td colspan="2">Total Units</td><td class="hourscol">20</td></tr></tbody>
+</table>
+
+<dl class="sc_footnotes" aria-label="Footnotes"><dt>**</dt><dd><p class="noindent">Course(s) discontinued; see your advisor for course options.</p></dd></dl>
+]]>
+</requirementstext>
+<quickviewtext name="Quick View">
+<![CDATA[
+<p>The Art Studio minor delivers a broad range of hands-on studio practices. Areas of focus include painting, sculpture, drawing, photography, ceramics, printmaking, and time-based media. Students are encouraged to explore different areas of focus and are expected to take advantage of beginning classes that provide a critical introduction to the research possibilities within studio art.</p>
+]]>
+</quickviewtext>
+<faculty>
+<![CDATA[
+]]>
+</faculty>
+</courseleaf>
+

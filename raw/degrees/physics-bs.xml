@@ -1,0 +1,195 @@
+<?xml version="1.0"?>
+<courseleaf>
+
+<title>Physics, Bachelor of Science</title>
+
+
+<text>
+<![CDATA[  
+
+  
+]]>
+</text>
+<informationtext name="Information">
+<![CDATA[
+<p><span>From the smallest subatomic particles to atoms, molecules, stars, and galaxies, the study of physics is the study of what makes the universe work. Knowledge gained using atomic-scale microscopes and high-energy particle accelerators and nuclear reactors teaches us not only what holds the atomic nucleus together but also how proteins function and why stars shine.</span></p>
+<h2>The Program</h2>
+<p>The <a href="https://physics.ucdavis.edu/">Department of Physics &amp; Astronomy</a> offers a Bachelor of Science degree programs with two emphasis for students for students to pick either pure Physics or Astrophysics. The B.S. degree prepares student who plans to enter physics as a profession and also provides excellent training for a wide variety of technical career options. Our program provides a solid foundation in physics for the student interested in graduate work.</p>
+<h3>Career Alternatives</h3>
+<p>Careers in physics include research and development, either in universities, government laboratories, or industry; teaching in high schools, junior colleges, and universities; management and administration in industrial laboratories and in government agencies; and in production and sales in industry. A major in physics also provides a strong base for graduate-level work in such interdisciplinary areas as chemical physics, biophysics and medical physics, geophysics and environmental physics, astrophysics and astronomy, computer science, and materials science.</p>
+<h3>Program Variance</h3>
+<p>Similar courses from other departments may be substituted for courses in the depth subject matter requirements by obtaining prior written permission from the Undergraduate Curriculum Committee Chairperson.</p>
+<h3>Astronomy</h3>
+<p>In addition to the introductory Astronomy courses listed, upper division and graduate courses in Astronomy, Astrophysics and Cosmology are listed under Physics.</p>
+<h2>Graduate Study</h2>
+<p>The Department of Physics &amp; Astronomy offers programs of study and research leading to M.S. and Ph.D. degrees. For further information regarding requirements, graduate research, teaching assistantships, and research assistantships, see <a href="https://physics.ucdavis.edu/graduates">Physics Graduate Group</a>.</p>
+]]>
+</informationtext>
+<requirementstext name="Requirements">
+<![CDATA[
+<p>The major requirements below are in addition to meeting <a href="/undergraduate-education/university-degree-requirements/">University Degree Requirements</a> &amp; <a href="/undergraduate-education/college-degree-requirements/">College Degree Requirements</a>; unless otherwise noted. The minimum number of units required for the <span class="title-main">Physics Bachelor of Science</span> is 101.</p>
+<h2 class="toggle">Physics</h2>
+<table class="sc_courselist">
+<caption class="hidden noscript">Course List</caption>
+<colgroup>
+<col class="codecol"/>
+<col class="titlecol"/>
+<col align="char" char="." class="hourscol"/>
+</colgroup>
+<thead>
+<tr class="hidden noscript">
+<th scope="col">Code</th>
+<th scope="col">Title</th>
+<th scope="col" class="hourscol">Units</th>
+</tr>
+</thead>
+<tbody>
+<tr class="even areaheader  firstrow"><td colspan="2"><span class="courselistcomment areaheader ">Preparatory Subject Matter</span></td><td class="hourscol"></td></tr>
+<tr class="odd areasubheader undefined"><td colspan="2"><span class="courselistcomment areasubheader undefined">Physics</span></td><td class="hourscol"></td></tr>
+<tr class="even"><td colspan="2"><span class="courselistcomment">Choose a series:</span></td><td class="hourscol">19-25</td></tr>
+<tr class="odd"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="PHY 009A">PHY 009A</span><br/><span style="margin-left:20px;" class="blockindent">&amp; <span class="code_bubble" data-code-bubble="PHY 009B">PHY 009B</span></span><br/><span style="margin-left:20px;" class="blockindent">&amp; <span class="code_bubble" data-code-bubble="PHY 009C">PHY 009C</span></span><br/><span style="margin-left:20px;" class="blockindent">&amp; <span class="code_bubble" data-code-bubble="PHY 009D">PHY 009D</span></span></div></td><td>Classical Physics<br/><span style="margin-left:20px;" class="blockindent">and Classical Physics</span><br/><span style="margin-left:20px;" class="blockindent">and Classical Physics</span><br/><span style="margin-left:20px;" class="blockindent">and Modern Physics</span></td><td class="hourscol"></td></tr>
+<tr class="even"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="PHY 009HA">PHY 009HA</span><br/><span style="margin-left:20px;" class="blockindent">&amp; <span class="code_bubble" data-code-bubble="PHY 009HB">PHY 009HB</span></span><br/><span style="margin-left:20px;" class="blockindent">&amp; <span class="code_bubble" data-code-bubble="PHY 009HC">PHY 009HC</span></span><br/><span style="margin-left:20px;" class="blockindent">&amp; <span class="code_bubble" data-code-bubble="PHY 009HD">PHY 009HD</span></span><br/><span style="margin-left:20px;" class="blockindent">&amp; <span class="code_bubble" data-code-bubble="PHY 009HE">PHY 009HE</span></span></div></td><td>Honors Physics<br/><span style="margin-left:20px;" class="blockindent">and Honors Physics</span><br/><span style="margin-left:20px;" class="blockindent">and Honors Physics</span><br/><span style="margin-left:20px;" class="blockindent">and Honors Physics</span><br/><span style="margin-left:20px;" class="blockindent">and Honors Physics</span></td><td class="hourscol"></td></tr>
+<tr class="odd"><td class="codecol"><span class="code_bubble" data-code-bubble="PHY 040">PHY 040</span></td><td>Introduction to Computational Physics</td><td class="hourscol">3</td></tr>
+<tr class="even"><td class="codecol"><span class="code_bubble" data-code-bubble="PHY 080">PHY 080</span></td><td>Experimental Techniques</td><td class="hourscol">4</td></tr>
+<tr class="odd areasubheader undefined"><td colspan="2"><span class="courselistcomment areasubheader undefined">Mathematics</span></td><td class="hourscol"></td></tr>
+<tr class="even"><td class="codecol"><span class="code_bubble" data-code-bubble="MAT 021A">MAT 021A</span></td><td>Calculus</td><td class="hourscol">4</td></tr>
+<tr class="odd"><td class="codecol"><span class="code_bubble" data-code-bubble="MAT 021B">MAT 021B</span></td><td>Calculus</td><td class="hourscol">4</td></tr>
+<tr class="even"><td class="codecol"><span class="code_bubble" data-code-bubble="MAT 021C">MAT 021C</span></td><td>Calculus</td><td class="hourscol">4</td></tr>
+<tr class="odd"><td class="codecol"><span class="code_bubble" data-code-bubble="MAT 021D">MAT 021D</span></td><td>Vector Analysis</td><td class="hourscol">4</td></tr>
+<tr class="even"><td class="codecol"><span class="code_bubble" data-code-bubble="MAT 022A">MAT 022A</span></td><td>Linear Algebra</td><td class="hourscol">3</td></tr>
+<tr class="odd"><td class="codecol"><span class="code_bubble" data-code-bubble="MAT 022B">MAT 022B</span></td><td>Differential Equations</td><td class="hourscol">3</td></tr>
+<tr class="even"><td colspan="2"><span class="courselistcomment">Preparatory Subject Matter Subtotal</span></td><td class="hourscol">48-54</td></tr>
+<tr class="odd areaheader "><td colspan="2"><span class="courselistcomment areaheader ">Depth Subject Matter</span></td><td class="hourscol"></td></tr>
+<tr class="even areasubheader undefined"><td colspan="2"><span class="courselistcomment areasubheader undefined">Physics</span></td><td class="hourscol"></td></tr>
+<tr class="odd"><td class="codecol"><span class="code_bubble" data-code-bubble="PHY 104A">PHY 104A</span></td><td>Introduction to Mathematical Methods in Physics</td><td class="hourscol">4</td></tr>
+<tr class="even"><td class="codecol"><span class="code_bubble" data-code-bubble="PHY 105A">PHY 105A</span></td><td>Classical Mechanics</td><td class="hourscol">4</td></tr>
+<tr class="odd"><td class="codecol"><span class="code_bubble" data-code-bubble="PHY 105B">PHY 105B</span></td><td>Analytical Mechanics</td><td class="hourscol">4</td></tr>
+<tr class="even"><td class="codecol"><span class="code_bubble" data-code-bubble="PHY 110A">PHY 110A</span></td><td>Electricity &amp; Magnetism</td><td class="hourscol">4</td></tr>
+<tr class="odd"><td class="codecol"><span class="code_bubble" data-code-bubble="PHY 110B">PHY 110B</span></td><td>Electricity &amp; Magnetism</td><td class="hourscol">4</td></tr>
+<tr class="even"><td class="codecol"><span class="code_bubble" data-code-bubble="PHY 110C">PHY 110C</span></td><td>Electricity &amp; Magnetism</td><td class="hourscol">4</td></tr>
+<tr class="odd"><td class="codecol"><span class="code_bubble" data-code-bubble="PHY 112">PHY 112</span></td><td>Thermodynamics &amp; Statistical Mechanics</td><td class="hourscol">4</td></tr>
+<tr class="even"><td class="codecol"><span class="code_bubble" data-code-bubble="PHY 115A">PHY 115A</span></td><td>Foundation of Quantum Mechanics</td><td class="hourscol">4</td></tr>
+<tr class="odd"><td class="codecol"><span class="code_bubble" data-code-bubble="PHY 115B">PHY 115B</span></td><td>Applications of Quantum Mechanics</td><td class="hourscol">4</td></tr>
+<tr class="even"><td class="codecol"><span class="code_bubble" data-code-bubble="PHY 102">PHY 102</span></td><td>Computational Laboratory in Physics (1 unit)</td><td class="hourscol">1-4</td></tr>
+<tr class="orclass even"><td class="codecol orclass">or <span class="code_bubble" data-code-bubble="PHY 104B">PHY 104B</span></td><td colspan="2"> Computational Methods of Mathematical Physics</td></tr>
+<tr class="odd areasubheader undefined"><td colspan="2"><span class="courselistcomment areasubheader undefined">Laboratory Requirement</span></td><td class="hourscol"></td></tr>
+<tr class="even"><td colspan="2"><span class="courselistcomment">Choose <span class="code_bubble" data-code-bubble="PHY 122A">PHY 122A</span> or <span class="code_bubble" data-code-bubble="PHY 122B">122B</span> or 116 series:</span></td><td class="hourscol">4-12</td></tr>
+<tr class="odd"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="PHY 122A">PHY 122A</span></div></td><td>Advanced Laboratory in Condensed Matter Physics</td><td class="hourscol"></td></tr>
+<tr class="even"><td colspan="2"><div style="margin-left:20px;" class="blockindent"><span class="courselistcomment commentindent"><strong>OR</strong></span></div></td><td class="hourscol"></td></tr>
+<tr class="odd"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="PHY 122B">PHY 122B</span></div></td><td>Advanced Laboratory in Particle Physics</td><td class="hourscol"></td></tr>
+<tr class="even"><td colspan="2"><div style="margin-left:20px;" class="blockindent"><span class="courselistcomment commentindent"><strong>OR</strong></span></div></td><td class="hourscol"></td></tr>
+<tr class="odd"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="PHY 116A">PHY 116A</span><br/><span style="margin-left:20px;" class="blockindent">&amp; <span class="code_bubble" data-code-bubble="PHY 116B">PHY 116B</span></span><br/><span style="margin-left:20px;" class="blockindent">&amp; <span class="code_bubble" data-code-bubble="PHY 116C">PHY 116C</span></span></div></td><td>Electronic Instrumentation<br/><span style="margin-left:20px;" class="blockindent">and Electronic Instrumentation</span><br/><span style="margin-left:20px;" class="blockindent">and Introduction to Computer-Based Experiments in Physics</span></td><td class="hourscol"></td></tr>
+<tr class="even areasubheader undefined"><td colspan="2"><span class="courselistcomment areasubheader undefined">Concentration Courses</span></td><td class="hourscol"></td></tr>
+<tr class="odd"><td colspan="2"><span class="courselistcomment">Choose two courses from one specialty and one course from a different specialty:</span></td><td class="hourscol">12</td></tr>
+<tr class="even"><td colspan="2"><span class="courselistcomment">General Relativity/Astrophysical Applications</span></td><td class="hourscol"></td></tr>
+<tr class="odd"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="PHY 154">PHY 154</span></div></td><td>Astrophysical Applications of Physics</td><td class="hourscol"></td></tr>
+<tr class="even"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="PHY 155">PHY 155</span></div></td><td>General Relativity</td><td class="hourscol"></td></tr>
+<tr class="odd"><td colspan="2"><span class="courselistcomment">Condensed Matter</span></td><td class="hourscol"></td></tr>
+<tr class="even"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="PHY 140A">PHY 140A</span></div></td><td>Introduction to Solid State Physics</td><td class="hourscol"></td></tr>
+<tr class="odd"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="PHY 140B">PHY 140B</span></div></td><td>Introduction to Solid State Physics</td><td class="hourscol"></td></tr>
+<tr class="even"><td colspan="2"><span class="courselistcomment">Nuclear/Particle Physics</span></td><td class="hourscol"></td></tr>
+<tr class="odd"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="PHY 129A">PHY 129A</span></div></td><td>Introduction to Nuclear Physics</td><td class="hourscol"></td></tr>
+<tr class="even"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="PHY 130A">PHY 130A</span></div></td><td>Elementary Particle Physics</td><td class="hourscol"></td></tr>
+<tr class="odd"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="PHY 130B">PHY 130B</span></div></td><td>Elementary Particle Physics</td><td class="hourscol"></td></tr>
+<tr class="even areasubheader undefined"><td colspan="2"><span class="courselistcomment areasubheader undefined">Additional Upper Division Physics Courses</span></td><td class="hourscol"></td></tr>
+<tr class="odd"><td colspan="2"><span class="courselistcomment">Additional upper division Physics courses ¹, for a total of 15 upper-division Physics courses of 3 or more units each. With prior departmental approval, one course from mathematics, engineering, or natural science may be used to meet this requirement. May include only one from</span></td><td class="hourscol">0-12</td></tr>
+<tr class="even"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="PHY 194HA">PHY 194HA</span><br/><span style="margin-left:20px;" class="blockindent">&amp; <span class="code_bubble" data-code-bubble="PHY 194HB">PHY 194HB</span></span></div></td><td>Special Study for Honors Students<br/><span style="margin-left:20px;" class="blockindent">and Special Study for Honors Students</span></td><td class="hourscol"></td></tr>
+<tr class="odd"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="PHY 195">PHY 195</span></div></td><td>Senior Thesis</td><td class="hourscol"></td></tr>
+<tr class="even"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="PHY 198">PHY 198</span></div></td><td>Directed Group Study (Must be taken for at least 3 units to count as an elective.)</td><td class="hourscol"></td></tr>
+<tr class="odd"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="PHY 199">PHY 199</span></div></td><td>Special Study for Advanced Undergraduates (Must be taken for at least 3 units to count as an elective.)</td><td class="hourscol"></td></tr>
+<tr class="even lastrow"><td colspan="2"><span class="courselistcomment">Depth Subject Matter Subtotal</span></td><td class="hourscol">53-76</td></tr>
+<tr class="listsum"><td colspan="2">Total Units</td><td class="hourscol">101-130</td></tr></tbody>
+</table>
+
+<dl class="sc_footnotes" aria-label="Footnotes"><dt> <sup> 1 </sup> </dt><dd><p class="noindent">Excluding <span class="sc_courseinline"><a class="bubblelink code" href="https://ucdavis-curr.courseleaf.com/search/?P=PHY%20160" title="PHY 160">PHY 160</a>.</span></p></dd></dl>
+<h2 class="toggle">Astrophysics Emphasis</h2>
+<table class="sc_courselist">
+<caption class="hidden noscript">Course List</caption>
+<colgroup>
+<col class="codecol"/>
+<col class="titlecol"/>
+<col align="char" char="." class="hourscol"/>
+</colgroup>
+<thead>
+<tr class="hidden noscript">
+<th scope="col">Code</th>
+<th scope="col">Title</th>
+<th scope="col" class="hourscol">Units</th>
+</tr>
+</thead>
+<tbody>
+<tr class="even areaheader  firstrow"><td colspan="2"><span class="courselistcomment areaheader ">Preparatory Subject Matter</span></td><td class="hourscol"></td></tr>
+<tr class="odd areasubheader undefined"><td colspan="2"><span class="courselistcomment areasubheader undefined">Physics</span></td><td class="hourscol"></td></tr>
+<tr class="even"><td colspan="2"><span class="courselistcomment">Choose a series:</span></td><td class="hourscol">19-25</td></tr>
+<tr class="odd"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="PHY 009A">PHY 009A</span><br/><span style="margin-left:20px;" class="blockindent">&amp; <span class="code_bubble" data-code-bubble="PHY 009B">PHY 009B</span></span><br/><span style="margin-left:20px;" class="blockindent">&amp; <span class="code_bubble" data-code-bubble="PHY 009C">PHY 009C</span></span><br/><span style="margin-left:20px;" class="blockindent">&amp; <span class="code_bubble" data-code-bubble="PHY 009D">PHY 009D</span></span></div></td><td>Classical Physics<br/><span style="margin-left:20px;" class="blockindent">and Classical Physics</span><br/><span style="margin-left:20px;" class="blockindent">and Classical Physics</span><br/><span style="margin-left:20px;" class="blockindent">and Modern Physics</span></td><td class="hourscol"></td></tr>
+<tr class="even"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="PHY 009HA">PHY 009HA</span><br/><span style="margin-left:20px;" class="blockindent">&amp; <span class="code_bubble" data-code-bubble="PHY 009HB">PHY 009HB</span></span><br/><span style="margin-left:20px;" class="blockindent">&amp; <span class="code_bubble" data-code-bubble="PHY 009HC">PHY 009HC</span></span><br/><span style="margin-left:20px;" class="blockindent">&amp; <span class="code_bubble" data-code-bubble="PHY 009HD">PHY 009HD</span></span><br/><span style="margin-left:20px;" class="blockindent">&amp; <span class="code_bubble" data-code-bubble="PHY 009HE">PHY 009HE</span></span></div></td><td>Honors Physics<br/><span style="margin-left:20px;" class="blockindent">and Honors Physics</span><br/><span style="margin-left:20px;" class="blockindent">and Honors Physics</span><br/><span style="margin-left:20px;" class="blockindent">and Honors Physics</span><br/><span style="margin-left:20px;" class="blockindent">and Honors Physics</span></td><td class="hourscol"></td></tr>
+<tr class="odd"><td class="codecol"><span class="code_bubble" data-code-bubble="PHY 040">PHY 040</span></td><td>Introduction to Computational Physics</td><td class="hourscol">3</td></tr>
+<tr class="even"><td class="codecol"><span class="code_bubble" data-code-bubble="PHY 080">PHY 080</span></td><td>Experimental Techniques</td><td class="hourscol">4</td></tr>
+<tr class="odd areasubheader undefined"><td colspan="2"><span class="courselistcomment areasubheader undefined">Mathematics</span></td><td class="hourscol"></td></tr>
+<tr class="even"><td class="codecol"><span class="code_bubble" data-code-bubble="MAT 021A">MAT 021A</span></td><td>Calculus</td><td class="hourscol">4</td></tr>
+<tr class="odd"><td class="codecol"><span class="code_bubble" data-code-bubble="MAT 021B">MAT 021B</span></td><td>Calculus</td><td class="hourscol">4</td></tr>
+<tr class="even"><td class="codecol"><span class="code_bubble" data-code-bubble="MAT 021C">MAT 021C</span></td><td>Calculus</td><td class="hourscol">4</td></tr>
+<tr class="odd"><td class="codecol"><span class="code_bubble" data-code-bubble="MAT 021D">MAT 021D</span></td><td>Vector Analysis</td><td class="hourscol">4</td></tr>
+<tr class="even"><td class="codecol"><span class="code_bubble" data-code-bubble="MAT 022A">MAT 022A</span></td><td>Linear Algebra</td><td class="hourscol">3</td></tr>
+<tr class="odd"><td class="codecol"><span class="code_bubble" data-code-bubble="MAT 022B">MAT 022B</span></td><td>Differential Equations</td><td class="hourscol">3</td></tr>
+<tr class="even"><td colspan="2"><span class="courselistcomment">Preparatory Subject Matter Subtotal</span></td><td class="hourscol">48-54</td></tr>
+<tr class="odd areaheader "><td colspan="2"><span class="courselistcomment areaheader ">Depth Subject Matter</span></td><td class="hourscol"></td></tr>
+<tr class="even areasubheader undefined"><td colspan="2"><span class="courselistcomment areasubheader undefined">Physics</span></td><td class="hourscol"></td></tr>
+<tr class="odd"><td class="codecol"><span class="code_bubble" data-code-bubble="PHY 104A">PHY 104A</span></td><td>Introduction to Mathematical Methods in Physics</td><td class="hourscol">4</td></tr>
+<tr class="even"><td class="codecol"><span class="code_bubble" data-code-bubble="PHY 105A">PHY 105A</span></td><td>Classical Mechanics</td><td class="hourscol">4</td></tr>
+<tr class="odd"><td class="codecol"><span class="code_bubble" data-code-bubble="PHY 108">PHY 108</span></td><td>Optics</td><td class="hourscol">3</td></tr>
+<tr class="even"><td class="codecol"><span class="code_bubble" data-code-bubble="PHY 108L">PHY 108L</span></td><td>Optics Laboratory</td><td class="hourscol">1</td></tr>
+<tr class="odd"><td class="codecol"><span class="code_bubble" data-code-bubble="PHY 110A">PHY 110A</span></td><td>Electricity &amp; Magnetism</td><td class="hourscol">4</td></tr>
+<tr class="even"><td class="codecol"><span class="code_bubble" data-code-bubble="PHY 110B">PHY 110B</span></td><td>Electricity &amp; Magnetism</td><td class="hourscol">4</td></tr>
+<tr class="odd"><td class="codecol"><span class="code_bubble" data-code-bubble="PHY 112">PHY 112</span></td><td>Thermodynamics &amp; Statistical Mechanics</td><td class="hourscol">4</td></tr>
+<tr class="even"><td class="codecol"><span class="code_bubble" data-code-bubble="PHY 115A">PHY 115A</span></td><td>Foundation of Quantum Mechanics</td><td class="hourscol">4</td></tr>
+<tr class="odd"><td class="codecol"><span class="code_bubble" data-code-bubble="PHY 115B">PHY 115B</span></td><td>Applications of Quantum Mechanics</td><td class="hourscol">4</td></tr>
+<tr class="even"><td class="codecol"><span class="code_bubble" data-code-bubble="PHY 151">PHY 151</span></td><td>Stellar Structure &amp; Evolution</td><td class="hourscol">4</td></tr>
+<tr class="odd"><td class="codecol"><span class="code_bubble" data-code-bubble="PHY 152">PHY 152</span></td><td>Galactic Structure &amp; the Interstellar Medium</td><td class="hourscol">4</td></tr>
+<tr class="even"><td class="codecol"><span class="code_bubble" data-code-bubble="PHY 153">PHY 153</span></td><td>Extragalactic Astrophysics</td><td class="hourscol">4</td></tr>
+<tr class="odd"><td class="codecol"><span class="code_bubble" data-code-bubble="PHY 156">PHY 156</span></td><td>Introduction to Cosmology</td><td class="hourscol">4</td></tr>
+<tr class="even"><td class="codecol"><span class="code_bubble" data-code-bubble="PHY 102">PHY 102</span></td><td>Computational Laboratory in Physics</td><td class="hourscol">1-4</td></tr>
+<tr class="orclass even"><td class="codecol orclass">or <span class="code_bubble" data-code-bubble="PHY 104B">PHY 104B</span></td><td colspan="2"> Computational Methods of Mathematical Physics</td></tr>
+<tr class="odd areasubheader undefined"><td colspan="2"><span class="courselistcomment areasubheader undefined">Laboratory Requirement</span></td><td class="hourscol"></td></tr>
+<tr class="even"><td colspan="2"><span class="courselistcomment">Choose one:</span></td><td class="hourscol">4</td></tr>
+<tr class="odd"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="PHY 122A">PHY 122A</span></div></td><td>Advanced Laboratory in Condensed Matter Physics</td><td class="hourscol"></td></tr>
+<tr class="even"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="PHY 122B">PHY 122B</span></div></td><td>Advanced Laboratory in Particle Physics</td><td class="hourscol"></td></tr>
+<tr class="odd"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="PHY 157">PHY 157</span></div></td><td>Astronomy Instrumentation &amp; Data Analysis Laboratory</td><td class="hourscol"></td></tr>
+<tr class="even areasubheader undefined"><td colspan="2"><span class="courselistcomment areasubheader undefined">Electives</span></td><td class="hourscol"></td></tr>
+<tr class="odd"><td colspan="2"><span class="courselistcomment">Choose two:</span></td><td class="hourscol">6-12</td></tr>
+<tr class="even"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="PHY 105B">PHY 105B</span></div></td><td>Analytical Mechanics</td><td class="hourscol"></td></tr>
+<tr class="odd"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="PHY 110C">PHY 110C</span></div></td><td>Electricity &amp; Magnetism</td><td class="hourscol"></td></tr>
+<tr class="even"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="PHY 116A">PHY 116A</span></div></td><td>Electronic Instrumentation</td><td class="hourscol"></td></tr>
+<tr class="odd"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="PHY 129A">PHY 129A</span></div></td><td>Introduction to Nuclear Physics</td><td class="hourscol"></td></tr>
+<tr class="even"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="PHY 130A">PHY 130A</span></div></td><td>Elementary Particle Physics</td><td class="hourscol"></td></tr>
+<tr class="odd"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="PHY 130B">PHY 130B</span></div></td><td>Elementary Particle Physics</td><td class="hourscol"></td></tr>
+<tr class="even"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="PHY 150">PHY 150</span></div></td><td>Special Topics in Physics</td><td class="hourscol"></td></tr>
+<tr class="odd"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="PHY 154">PHY 154</span></div></td><td>Astrophysical Applications of Physics</td><td class="hourscol"></td></tr>
+<tr class="even"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="PHY 155">PHY 155</span></div></td><td>General Relativity</td><td class="hourscol"></td></tr>
+<tr class="odd"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="GEL 163">GEL 163</span></div></td><td>Planetary Geology &amp; Geophysics (Discontinued for fall 2026) <sup>**</sup></td><td class="hourscol"></td></tr>
+<tr class="orclass odd"><td class="codecol orclass"><div style="margin-left:20px;" class="blockindent">or <span class="code_bubble" data-code-bubble="EPS 163">EPS 163</span></div></td><td colspan="2"> Planetary Geology &amp; Geophysics</td></tr>
+<tr class="even"><td colspan="2"><div style="margin-left:20px;" class="blockindent"><span class="courselistcomment commentindent">May include only one from:</span></div></td><td class="hourscol"></td></tr>
+<tr class="odd"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="PHY 194HA">PHY 194HA</span><br/><span style="margin-left:20px;" class="blockindent">&amp; <span class="code_bubble" data-code-bubble="PHY 194HB">PHY 194HB</span></span></div></td><td>Special Study for Honors Students<br/><span style="margin-left:20px;" class="blockindent">and Special Study for Honors Students</span></td><td class="hourscol"></td></tr>
+<tr class="even"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="PHY 195">PHY 195</span></div></td><td>Senior Thesis</td><td class="hourscol"></td></tr>
+<tr class="odd"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="PHY 198">PHY 198</span></div></td><td>Directed Group Study (Must be taken for at least 3 units to count as an elective.)</td><td class="hourscol"></td></tr>
+<tr class="even"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="PHY 199">PHY 199</span></div></td><td>Special Study for Advanced Undergraduates (Must be taken for at least 3 units to count as an elective.)</td><td class="hourscol"></td></tr>
+<tr class="odd"><td colspan="2"><span class="courselistcomment">Depth Subject Matter Subtotal</span></td><td class="hourscol">59-68</td></tr>
+<tr class="even areasubheader undefined"><td colspan="2"><span class="courselistcomment areasubheader undefined">Recommended</span></td><td class="hourscol"></td></tr>
+<tr class="odd lastrow"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="AST 025">AST 025</span></div></td><td>Introduction to Modern Astronomy &amp; Astrophysics</td><td class="hourscol"></td></tr>
+<tr class="listsum"><td colspan="2">Total Units</td><td class="hourscol">107-122</td></tr></tbody>
+</table>
+
+<dl class="sc_footnotes" aria-label="Footnotes"><dt>**</dt><dd><p class="noindent">Course(s) discontinued; see your advisor for course options.</p></dd></dl>
+]]>
+</requirementstext>
+<quickviewtext name="Quick View">
+<![CDATA[
+<p>How does the universe work? Physics studies what the universe is made of and how it works. As a Physics major at UC Davis, you will have the opportunity to join with our faculty in research that ranges from very smallest elementary particles to the matter that surrounds us to the structure and evolution of the entire universe.</p>
+]]>
+</quickviewtext>
+<faculty>
+<![CDATA[
+]]>
+</faculty>
+</courseleaf>
+

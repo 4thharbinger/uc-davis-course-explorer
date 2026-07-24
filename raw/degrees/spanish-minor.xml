@@ -1,0 +1,86 @@
+<?xml version="1.0"?>
+<courseleaf>
+
+<title>Spanish, Minor</title>
+
+
+<text>
+<![CDATA[  
+
+  
+]]>
+</text>
+<informationtext name="Information">
+<![CDATA[
+<p>Robert Newcomb, Ph.D., Chairperson of the Department</p>
+]]>
+</informationtext>
+<requirementstext name="Requirements">
+<![CDATA[
+<table class="sc_courselist">
+<caption class="hidden noscript">Course List</caption>
+<colgroup>
+<col class="codecol"/>
+<col class="titlecol"/>
+<col align="char" char="." class="hourscol"/>
+</colgroup>
+<thead>
+<tr class="hidden noscript">
+<th scope="col">Code</th>
+<th scope="col">Title</th>
+<th scope="col" class="hourscol">Units</th>
+</tr>
+</thead>
+<tbody>
+<tr class="even areasubheader undefined firstrow"><td colspan="2"><span class="courselistcomment areasubheader undefined">Choose one in each of the following five areas:</span></td><td class="hourscol">23-24</td></tr>
+<tr class="odd areasubheader undefined"><td colspan="2"><span class="courselistcomment areasubheader undefined">Group 1</span></td><td class="hourscol"></td></tr>
+<tr class="even"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="SPA 100">SPA 100</span></div></td><td>Principles of Hispanic Literature &amp; Criticism</td><td class="hourscol"></td></tr>
+<tr class="odd"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="SPA 100S">SPA 100S</span></div></td><td></td><td class="hourscol"></td></tr>
+<tr class="even"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="SPA 141">SPA 141</span></div></td><td>Introduction to Spanish Culture</td><td class="hourscol"></td></tr>
+<tr class="odd"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="SPA 141S">SPA 141S</span></div></td><td>Introduction to Spanish Culture</td><td class="hourscol"></td></tr>
+<tr class="even"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="SPA 168">SPA 168</span></div></td><td> Introduction to Latinx Culture</td><td class="hourscol"></td></tr>
+<tr class="odd"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="SPA 170">SPA 170</span></div></td><td>Introduction to Latin American Culture</td><td class="hourscol"></td></tr>
+<tr class="even"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="SPA 170S">SPA 170S</span></div></td><td></td><td class="hourscol"></td></tr>
+<tr class="odd areasubheader undefined"><td colspan="2"><span class="courselistcomment areasubheader undefined">Group 2</span></td><td class="hourscol"></td></tr>
+<tr class="even"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="SPA 111N">SPA 111N</span></div></td><td>The Structure of Spanish: Sounds &amp; Words</td><td class="hourscol"></td></tr>
+<tr class="odd"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="SPA 115">SPA 115</span></div></td><td>History of the Spanish Language</td><td class="hourscol"></td></tr>
+<tr class="even"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="SPA 116">SPA 116</span></div></td><td>Applied Spanish Linguistics</td><td class="hourscol"></td></tr>
+<tr class="orclass even"><td class="codecol orclass"><div style="margin-left:20px;" class="blockindent">or <span class="code_bubble" data-code-bubble="SPA 116V">SPA 116V</span></div></td><td colspan="2"> Applied Spanish Linguistics</td></tr>
+<tr class="odd"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="SPA 118">SPA 118</span></div></td><td>Topics in Spanish Linguistics</td><td class="hourscol"></td></tr>
+<tr class="even areasubheader undefined"><td colspan="2"><span class="courselistcomment areasubheader undefined">Group 3</span></td><td class="hourscol"></td></tr>
+<tr class="odd"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="SPA 130">SPA 130</span></div></td><td>Survey of Spanish Literature to 1700</td><td class="hourscol"></td></tr>
+<tr class="even"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="SPA 131N">SPA 131N</span></div></td><td>Survey of Spanish Literature: 1700 to Present</td><td class="hourscol"></td></tr>
+<tr class="odd"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="SPA 134A">SPA 134A</span></div></td><td>Don Quijote I </td><td class="hourscol"></td></tr>
+<tr class="even"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="SPA 142">SPA 142</span></div></td><td>Special Topics in Spanish Cultural &amp; Literary Studies</td><td class="hourscol"></td></tr>
+<tr class="odd areasubheader undefined"><td colspan="2"><span class="courselistcomment areasubheader undefined">Group 4</span></td><td class="hourscol"></td></tr>
+<tr class="even"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="SPA 150N">SPA 150N</span></div></td><td>Survey of Latin American Literature to 1900</td><td class="hourscol"></td></tr>
+<tr class="odd"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="SPA 151">SPA 151</span></div></td><td>Survey of Latin American Literature 1900 to Present</td><td class="hourscol"></td></tr>
+<tr class="even"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="SPA 157">SPA 157</span></div></td><td>Great Works of Latin American Literature/Culture</td><td class="hourscol"></td></tr>
+<tr class="odd"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="SPA 159">SPA 159</span></div></td><td>Special Topics in Latin American Literature &amp; Culture</td><td class="hourscol"></td></tr>
+<tr class="orclass odd"><td class="codecol orclass"><div style="margin-left:20px;" class="blockindent">or <span class="code_bubble" data-code-bubble="SPA 159S">SPA 159S</span></div></td><td colspan="2"> Special Topics in Latin American Literature &amp; Culture</td></tr>
+<tr class="orclass odd"><td class="codecol orclass"><div style="margin-left:20px;" class="blockindent">or <span class="code_bubble" data-code-bubble="SPA 159Y">SPA 159Y</span></div></td><td colspan="2"> Special Topics in Latin American Literature &amp; Culture</td></tr>
+<tr class="even areasubheader undefined"><td colspan="2"><span class="courselistcomment areasubheader undefined">Group 5</span></td><td class="hourscol"></td></tr>
+<tr class="odd"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="SPA 117">SPA 117</span></div></td><td>Teaching Spanish as a Native Tongue in the U.S.: Praxis &amp; Theory</td><td class="hourscol"></td></tr>
+<tr class="orclass odd"><td class="codecol orclass"><div style="margin-left:20px;" class="blockindent">or <span class="code_bubble" data-code-bubble="SPA 117V">SPA 117V</span></div></td><td colspan="2"> Teaching Spanish as a Native Tongue in the U.S.: Praxis &amp; Theory</td></tr>
+<tr class="even"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="SPA 169">SPA 169</span></div></td><td>Special Topics in Chicanx/Latinx Studies</td><td class="hourscol"></td></tr>
+<tr class="odd"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="SPA 174">SPA 174</span></div></td><td>Chicano Culture</td><td class="hourscol"></td></tr>
+<tr class="even"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="SPA 176">SPA 176</span></div></td><td>Literature in Spanish Written in the United States</td><td class="hourscol"></td></tr>
+<tr class="odd"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="SPA 177">SPA 177</span></div></td><td>California &amp; Latin America</td><td class="hourscol"></td></tr>
+<tr class="even"><td colspan="2"><div style="margin-left:20px;" class="blockindent"><span class="courselistcomment commentindent"><a href="/courses-subject-code/spa/">One upper division Spanish (SPA) elective.</a></span></div></td><td class="hourscol"></td></tr>
+<tr class="odd lastrow"><td colspan="2"><span class="courselistcomment">Consult a departmental advisor if any of these courses are to be taken abroad.</span></td><td class="hourscol"></td></tr>
+<tr class="listsum"><td colspan="2">Total Units</td><td class="hourscol">23-24</td></tr></tbody>
+</table>
+
+]]>
+</requirementstext>
+<quickviewtext name="Quick View">
+<![CDATA[
+<p>Students in the Spanish minor gain basic proficiency in Spanish and learn the language, literature, and traditions of the Spanish-speaking world. In today’s global economy, this minor is an asset to almost any major.</p>
+]]>
+</quickviewtext>
+<faculty>
+<![CDATA[
+]]>
+</faculty>
+</courseleaf>
+

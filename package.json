@@ -10,7 +10,8 @@
     "prereqs": "npx tsx prisma/parse-prereqs.ts",
     "optimize": "npx tsx prisma/optimize-prereqs.ts",
     "shortdescs": "npx tsx prisma/parse-shortdescs.ts",
-    "cleanup": "npx tsx prisma/cleanup-prereqs.ts"
+    "cleanup": "npx tsx prisma/cleanup-prereqs.ts",
+    "studio:watch": "node dev/watch-prisma.js"
   },
   "dependencies": {
     "@prisma/client": "^6.19.3",
@@ -20,6 +21,7 @@
     "axios": "^1.16.1",
     "cheerio": "^1.1.0",
     "dagre": "^0.8.5",
+    "he": "^1.2.0",
     "next": "16.2.4",
     "react": "19.2.4",
     "react-dom": "19.2.4",
@@ -30,6 +32,7 @@
   "devDependencies": {
     "@tailwindcss/postcss": "^4",
     "@types/dagre": "^0.7.54",
+    "@types/he": "^1.2.3",
     "@types/node": "^20",
     "@types/react": "^19",
     "@types/react-dom": "^19",

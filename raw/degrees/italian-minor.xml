@@ -1,0 +1,86 @@
+<?xml version="1.0"?>
+<courseleaf>
+
+<title>Italian, Minor</title>
+
+
+<text>
+<![CDATA[  
+
+  
+]]>
+</text>
+<informationtext name="Information">
+<![CDATA[
+<h2>Minor Advisor</h2>
+<p>E. L. Russell </p>
+]]>
+</informationtext>
+<requirementstext name="Requirements">
+<![CDATA[
+<table class="sc_courselist">
+<caption class="hidden noscript">Course List</caption>
+<colgroup>
+<col class="codecol"/>
+<col class="titlecol"/>
+<col align="char" char="." class="hourscol"/>
+</colgroup>
+<thead>
+<tr class="hidden noscript">
+<th scope="col">Code</th>
+<th scope="col">Title</th>
+<th scope="col" class="hourscol">Units</th>
+</tr>
+</thead>
+<tbody>
+<tr class="even areaheader  firstrow"><td colspan="2"><span class="courselistcomment areaheader ">Preparatory Subject Matter</span></td><td class="hourscol">0-30</td></tr>
+<tr class="odd"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="ITA 001">ITA 001</span></div></td><td>Elementary Italian</td><td class="hourscol"></td></tr>
+<tr class="orclass odd"><td class="codecol orclass"><div style="margin-left:20px;" class="blockindent">or <span class="code_bubble" data-code-bubble="ITA 001Y">ITA 001Y</span></div></td><td colspan="2"> Elementary Italian</td></tr>
+<tr class="even"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="ITA 002">ITA 002</span></div></td><td>Elementary Italian</td><td class="hourscol"></td></tr>
+<tr class="orclass even"><td class="codecol orclass"><div style="margin-left:20px;" class="blockindent">or <span class="code_bubble" data-code-bubble="ITA 002Y">ITA 002Y</span></div></td><td colspan="2"> Elementary Italian</td></tr>
+<tr class="odd"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="ITA 003">ITA 003</span></div></td><td>Elementary Italian</td><td class="hourscol"></td></tr>
+<tr class="orclass odd"><td class="codecol orclass"><div style="margin-left:20px;" class="blockindent">or <span class="code_bubble" data-code-bubble="ITA 003Y">ITA 003Y</span></div></td><td colspan="2"> Elementary Italian</td></tr>
+<tr class="even"><td colspan="2"><div style="margin-left:20px;" class="blockindent"><span class="courselistcomment commentindent"><strong>OR</strong></span></div></td><td class="hourscol"></td></tr>
+<tr class="odd"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="ITA 031">ITA 031</span></div></td><td>Beginning Italian for Spanish Speakers</td><td class="hourscol"></td></tr>
+<tr class="orclass odd"><td class="codecol orclass"><div style="margin-left:20px;" class="blockindent">or <span class="code_bubble" data-code-bubble="ITA 031Y">ITA 031Y</span></div></td><td colspan="2"> Beginning Italian for Spanish Speakers</td></tr>
+<tr class="even"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="ITA 032">ITA 032</span></div></td><td>Beginning Italian for Spanish Speakers</td><td class="hourscol"></td></tr>
+<tr class="orclass even"><td class="codecol orclass"><div style="margin-left:20px;" class="blockindent">or <span class="code_bubble" data-code-bubble="ITA 032Y">ITA 032Y</span></div></td><td colspan="2"> Beginning Italian for Spanish Speakers</td></tr>
+<tr class="odd"><td colspan="2"><div style="margin-left:20px;" class="blockindent"><span class="courselistcomment commentindent"><strong>AND</strong></span></div></td><td class="hourscol"></td></tr>
+<tr class="even"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="ITA 021">ITA 021</span></div></td><td>Intermediate Italian</td><td class="hourscol"></td></tr>
+<tr class="orclass even"><td class="codecol orclass"><div style="margin-left:20px;" class="blockindent">or <span class="code_bubble" data-code-bubble="ITA 021Y">ITA 021Y</span></div></td><td colspan="2"> Intermediate Italian</td></tr>
+<tr class="odd"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="ITA 022">ITA 022</span></div></td><td>Intermediate Italian</td><td class="hourscol"></td></tr>
+<tr class="orclass odd"><td class="codecol orclass"><div style="margin-left:20px;" class="blockindent">or <span class="code_bubble" data-code-bubble="ITA 022Y">ITA 022Y</span></div></td><td colspan="2"> Intermediate Italian</td></tr>
+<tr class="even"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="ITA 023">ITA 023</span></div></td><td>Intermediate Italian</td><td class="hourscol"></td></tr>
+<tr class="orclass even"><td class="codecol orclass"><div style="margin-left:20px;" class="blockindent">or <span class="code_bubble" data-code-bubble="ITA 023Y">ITA 023Y</span></div></td><td colspan="2"> Intermediate Italian</td></tr>
+<tr class="odd"><td colspan="2"><div style="margin-left:20px;" class="blockindent"><span class="courselistcomment commentindent"><strong>OR</strong></span></div></td><td class="hourscol"></td></tr>
+<tr class="even"><td colspan="2"><div style="margin-left:20px;" class="blockindent"><span class="courselistcomment commentindent">The equivalent.</span></div></td><td class="hourscol"></td></tr>
+<tr class="odd"><td colspan="2"><span class="courselistcomment">Preparatory Subject Matter Subtotal</span></td><td class="hourscol">0-30</td></tr>
+<tr class="even areaheader "><td colspan="2"><span class="courselistcomment areaheader ">Depth Subject Matter</span></td><td class="hourscol"></td></tr>
+<tr class="odd"><td colspan="2"><span class="courselistcomment">Choose two:</span></td><td class="hourscol">8</td></tr>
+<tr class="even"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="ITA 101">ITA 101</span></div></td><td>Communication &amp; Conversation in Italian</td><td class="hourscol"></td></tr>
+<tr class="orclass even"><td class="codecol orclass"><div style="margin-left:20px;" class="blockindent">or <span class="code_bubble" data-code-bubble="ITA 101S">ITA 101S</span></div></td><td colspan="2"> Communication &amp; Conversation in Italian</td></tr>
+<tr class="odd"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="ITA 102">ITA 102</span></div></td><td>Media &amp; Performance in Italian Culture</td><td class="hourscol"></td></tr>
+<tr class="even"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="ITA 103">ITA 103</span></div></td><td>Creative Writing in Italian</td><td class="hourscol"></td></tr>
+<tr class="odd"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="ITA 104">ITA 104</span></div></td><td>Italian Translation &amp; Style</td><td class="hourscol"></td></tr>
+<tr class="even"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="ITA 105">ITA 105</span></div></td><td>Introduction to Italian Literature</td><td class="hourscol"></td></tr>
+<tr class="odd"><td colspan="2"><span class="courselistcomment">Depth Subject Matter Subtotal</span></td><td class="hourscol">8</td></tr>
+<tr class="even areasubheader undefined"><td colspan="2"><span class="courselistcomment areasubheader undefined">Electives</span></td><td class="hourscol"></td></tr>
+<tr class="odd"><td colspan="2"><span class="courselistcomment">Choose three upper-division (numbered 100 or higher) Italian courses, including <span class="code_bubble" data-code-bubble="ITA 101">ITA 101</span>, <span class="code_bubble" data-code-bubble="ITA 102">ITA 102</span>, <span class="code_bubble" data-code-bubble="ITA 103">ITA 103</span>, <span class="code_bubble" data-code-bubble="ITA 104">ITA 104</span> and <span class="code_bubble" data-code-bubble="ITA 105">ITA 105</span> when not used to satisfy Depth Subject Matter.</span></td><td class="hourscol">12</td></tr>
+<tr class="even"><td colspan="2"><div style="margin-left:20px;" class="blockindent"><span class="courselistcomment commentindent"><a href="/courses-subject-code/ita/">Italian (ITA) courses.</a></span></div></td><td class="hourscol"></td></tr>
+<tr class="odd lastrow"><td colspan="2"><span class="courselistcomment">Electives Subtotal</span></td><td class="hourscol">12</td></tr>
+<tr class="listsum"><td colspan="2">Total Units</td><td class="hourscol">20-50</td></tr></tbody>
+</table>
+
+]]>
+</requirementstext>
+<quickviewtext name="Quick View">
+<![CDATA[
+<p>The Italian minor provides solid foundations for a variety of career paths by developing linguistic and cultural proficiency and strengthening students’ habits of critical thinking, effective writing, and cross-cultural communication.</p>
+]]>
+</quickviewtext>
+<faculty>
+<![CDATA[
+]]>
+</faculty>
+</courseleaf>
+

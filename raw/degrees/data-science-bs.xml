@@ -1,0 +1,120 @@
+<?xml version="1.0"?>
+<courseleaf>
+
+<title>Data Science, Bachelor of Science</title>
+
+
+<text>
+<![CDATA[  
+
+  
+]]>
+</text>
+<informationtext name="Information">
+<![CDATA[
+<p>The Data Science program admissions process is capped. For information about the requirements for continuing students to change majors into Data Science, see <a href="https://statistics.ucdavis.edu/undergrad/advising/change-of-major/data-science">Department of Statistics</a>.</p>
+<hr/>
+<p><span>Data Science combines computational, mathematical and statistical reasoning to draw conclusions based on data. Data science techniques and methods can be applied to problems from virtually any discipline; for example, in agricultural and environmental sciences, biological sciences, engineering, medical sciences and social sciences.</span></p>
+<h2>The Program</h2>
+<p>Data Science majors receive a Bachelor of Science degree. The program requires both theoretical and applied course work to underscore the strong interdependence of technical foundations in computer science, engineering, mathematics and statistics, and their applications to any field of inquiry relying on quantitative data analysis. </p>
+<h3>Foundations Track B.S. </h3>
+<p>The B.S. degree program has one track, the <em>Foundations Track, </em>which emphasizes the underlying computer science, engineering, mathematics, and statistics methodology and theory, and is especially recommended as preparation for graduate study in data science or related fields.</p>
+<h3>Career Opportunities</h3>
+<p>Inferential and computational techniques are used in many fields, including the agricultural and environmental sciences, biological sciences, social sciences, and health sciences, business, and engineering. The wide applicability of data science is reflected in the strong demand for graduates with data science training in both the public and private sectors. Employment opportunities include careers in data &amp; policy analysis in government &amp; industry, tech industry, insurance &amp; healthcare industry, engineering, public health, biological &amp; pharmaceutical research, law, and education. Students with an undergraduate degree in data science may enter advanced studies in data science, computer science, applied mathematics, statistics, economics, finance, psychology, medicine, business management &amp; analytics, and other professional school programs.</p>
+<h3>Major Advisor</h3>
+<p>For a current list of faculty and staff advisors in the Department of Statistics, see <a href="https://statistics.ucdavis.edu/undergrad/advising" target="_blank">Undergraduate Advising</a>.</p>
+]]>
+</informationtext>
+<requirementstext name="Requirements">
+<![CDATA[
+<p>The major requirements below are in addition to meeting <a href="/undergraduate-education/university-degree-requirements/">University Degree Requirements</a> &amp; <a href="/undergraduate-education/college-degree-requirements/">College Degree Requirements</a>; unless otherwise noted. The minimum number of units required for the Data Science Bachelor of Science is 92.</p>
+<h2>Foundations Track</h2>
+<table class="sc_courselist">
+<caption class="hidden noscript">Course List</caption>
+<colgroup>
+<col class="codecol"/>
+<col class="titlecol"/>
+<col align="char" char="." class="hourscol"/>
+</colgroup>
+<thead>
+<tr class="hidden noscript">
+<th scope="col">Code</th>
+<th scope="col">Title</th>
+<th scope="col" class="hourscol">Units</th>
+</tr>
+</thead>
+<tbody>
+<tr class="even areaheader  firstrow"><td colspan="2"><span class="courselistcomment areaheader ">Preparatory Subject Matter</span></td><td class="hourscol"></td></tr>
+<tr class="odd areasubheader undefined"><td colspan="2"><span class="courselistcomment areasubheader undefined">Statistics</span></td><td class="hourscol">12</td></tr>
+<tr class="even"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="STA 035A">STA 035A</span><br/><span style="margin-left:20px;" class="blockindent">&amp; <span class="code_bubble" data-code-bubble="STA 035B">STA 035B</span></span><br/><span style="margin-left:20px;" class="blockindent">&amp; <span class="code_bubble" data-code-bubble="STA 035C">STA 035C</span></span></div></td><td>Statistical Data Science I<br/><span style="margin-left:20px;" class="blockindent">and Statistical Data Science II</span><br/><span style="margin-left:20px;" class="blockindent">and Statistical Data Science III</span></td><td class="hourscol"></td></tr>
+<tr class="odd areasubheader undefined"><td colspan="2"><span class="courselistcomment areasubheader undefined">Mathematics</span></td><td class="hourscol">16</td></tr>
+<tr class="even"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="MAT 021A">MAT 021A</span><br/><span style="margin-left:20px;" class="blockindent">&amp; <span class="code_bubble" data-code-bubble="MAT 021B">MAT 021B</span></span><br/><span style="margin-left:20px;" class="blockindent">&amp; <span class="code_bubble" data-code-bubble="MAT 021C">MAT 021C</span></span></div></td><td>Calculus<br/><span style="margin-left:20px;" class="blockindent">and Calculus</span><br/><span style="margin-left:20px;" class="blockindent">and Calculus</span></td><td class="hourscol"></td></tr>
+<tr class="odd"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="MAT 022A">MAT 022A</span></div></td><td>Linear Algebra</td><td class="hourscol"></td></tr>
+<tr class="orclass odd"><td class="codecol orclass"><div style="margin-left:20px;" class="blockindent">or <span class="code_bubble" data-code-bubble="MAT 067">MAT 067</span></div></td><td colspan="2"> Modern Linear Algebra</td></tr>
+<tr class="orclass odd"><td class="codecol orclass"><div style="margin-left:20px;" class="blockindent">or <span class="code_bubble" data-code-bubble="MAT 027A">MAT 027A</span></div></td><td colspan="2"> Linear Algebra with Applications to Biology</td></tr>
+<tr class="orclass odd"><td class="codecol orclass"><div style="margin-left:20px;" class="blockindent">or <span class="code_bubble" data-code-bubble="BIS 027A">BIS 027A</span></div></td><td colspan="2"> Linear Algebra with Applications to Biology</td></tr>
+<tr class="even areasubheader undefined"><td colspan="2"><span class="courselistcomment areasubheader undefined">Computer Science Engineering</span></td><td class="hourscol">12</td></tr>
+<tr class="odd"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="ECS 017">ECS 017</span></div></td><td>Data, Logic, &amp; Computing (Preferred)</td><td class="hourscol"></td></tr>
+<tr class="orclass odd"><td class="codecol orclass"><div style="margin-left:20px;" class="blockindent">or <span class="code_bubble" data-code-bubble="ECS 020">ECS 020</span></div></td><td colspan="2"> Discrete Mathematics For Computer Science</td></tr>
+<tr class="even"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="ECS 032A">ECS 032A</span></div></td><td>Introduction to Programming (Preferred)</td><td class="hourscol"></td></tr>
+<tr class="orclass even"><td class="codecol orclass"><div style="margin-left:20px;" class="blockindent">or <span class="code_bubble" data-code-bubble="ECS 036A">ECS 036A</span></div></td><td colspan="2"> Programming &amp; Problem Solving </td></tr>
+<tr class="odd"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="ECS 032B">ECS 032B</span></div></td><td>Introduction to Data Structures (Preferred)</td><td class="hourscol"></td></tr>
+<tr class="orclass odd"><td class="codecol orclass"><div style="margin-left:20px;" class="blockindent">or <span class="code_bubble" data-code-bubble="ECS 036C">ECS 036C</span></div></td><td colspan="2"> Data Structures, Algorithms, &amp; Programming </td></tr>
+<tr class="even"><td colspan="2"><div style="margin-left:20px;" class="blockindent"><span class="courselistcomment commentindent">Note: <span class="code_bubble" data-code-bubble="ECS 020">ECS 020</span>, <span class="code_bubble" data-code-bubble="ECS 036A">ECS 036A</span>, <span class="code_bubble" data-code-bubble="ECS 036C">ECS 036C</span> are not usually available to Data Science majors at UC Davis. Data Science majors enrolling in ECS courses at UC Davis should plan to take <span class="code_bubble" data-code-bubble="ECS 017">ECS 017</span>, <span class="code_bubble" data-code-bubble="ECS 032A">ECS 032A</span>, and <span class="code_bubble" data-code-bubble="ECS 032B">ECS 032B</span>.</span></div></td><td class="hourscol"></td></tr>
+<tr class="odd"><td colspan="2"><span class="courselistcomment">Preparatory Subject Matter Subtotal</span></td><td class="hourscol">40</td></tr>
+<tr class="even areaheader "><td colspan="2"><span class="courselistcomment areaheader ">Depth Subject Matter</span></td><td class="hourscol"></td></tr>
+<tr class="odd areasubheader undefined"><td colspan="2"><span class="courselistcomment areasubheader undefined">Science &amp; Technology Studies</span></td><td class="hourscol">4</td></tr>
+<tr class="even"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="STS 101">STS 101</span></div></td><td>Data &amp; Society</td><td class="hourscol"></td></tr>
+<tr class="odd areasubheader undefined"><td colspan="2"><span class="courselistcomment areasubheader undefined">Probability &amp; Statistics</span></td><td class="hourscol">12</td></tr>
+<tr class="even"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="STA 108">STA 108</span></div></td><td>Applied Statistical Methods: Regression Analysis</td><td class="hourscol"></td></tr>
+<tr class="odd"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="STA 141A">STA 141A</span></div></td><td>Fundamentals of Statistical Data Science</td><td class="hourscol"></td></tr>
+<tr class="even"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="MAT 135A">MAT 135A</span></div></td><td>Probability</td><td class="hourscol"></td></tr>
+<tr class="orclass even"><td class="codecol orclass"><div style="margin-left:20px;" class="blockindent">or <span class="code_bubble" data-code-bubble="STA 131A">STA 131A</span></div></td><td colspan="2"> Introduction to Probability Theory</td></tr>
+<tr class="odd areasubheader undefined"><td colspan="2"><span class="courselistcomment areasubheader undefined">Computer Science Engineering</span></td><td class="hourscol">12</td></tr>
+<tr class="even"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="ECS 116">ECS 116</span></div></td><td>Databases for Non-Majors</td><td class="hourscol"></td></tr>
+<tr class="odd"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="ECS 117">ECS 117</span></div></td><td>Algorithms for Data Science</td><td class="hourscol"></td></tr>
+<tr class="even"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="ECS 119">ECS 119</span></div></td><td>Data Processing Pipelines</td><td class="hourscol"></td></tr>
+<tr class="odd areasubheader undefined"><td colspan="2"><span class="courselistcomment areasubheader undefined">Machine Learning</span></td><td class="hourscol"></td></tr>
+<tr class="even"><td colspan="2"><span class="courselistcomment">Choose one:</span></td><td class="hourscol">4</td></tr>
+<tr class="odd"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="ECS 111">ECS 111</span></div></td><td>Applied Machine Learning for Non-Majors</td><td class="hourscol"></td></tr>
+<tr class="even"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="MAT 170">MAT 170</span></div></td><td>Mathematics for Data Analytics &amp; Decision Making</td><td class="hourscol"></td></tr>
+<tr class="odd"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="STA 142A">STA 142A</span></div></td><td>Statistical Learning I</td><td class="hourscol"></td></tr>
+<tr class="even"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="STA 142B">STA 142B</span></div></td><td>Statistical Learning II</td><td class="hourscol"></td></tr>
+<tr class="odd areasubheader undefined"><td colspan="2"><span class="courselistcomment areasubheader undefined">Mathematics</span></td><td class="hourscol">8</td></tr>
+<tr class="even"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="MAT 167">MAT 167</span></div></td><td>Applied Linear Algebra</td><td class="hourscol"></td></tr>
+<tr class="orclass even"><td class="codecol orclass"><div style="margin-left:20px;" class="blockindent">or <span class="code_bubble" data-code-bubble="MAT 167V">MAT 167V</span></div></td><td colspan="2"> Applied Linear Algebra</td></tr>
+<tr class="orclass even"><td class="codecol orclass"><div style="margin-left:20px;" class="blockindent">or <span class="code_bubble" data-code-bubble="ECS 130">ECS 130</span></div></td><td colspan="2"> Scientific Computation</td></tr>
+<tr class="odd"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="MAT 168">MAT 168</span></div></td><td>Optimization</td><td class="hourscol"></td></tr>
+<tr class="orclass odd"><td class="codecol orclass"><div style="margin-left:20px;" class="blockindent">or <span class="code_bubble" data-code-bubble="MAT 168V">MAT 168V</span></div></td><td colspan="2"> Optimization</td></tr>
+<tr class="even areaheader "><td colspan="2"><span class="courselistcomment areaheader ">Domain Emphasis</span></td><td class="hourscol"></td></tr>
+<tr class="odd"><td colspan="2"><span class="courselistcomment">Three elective courses in a related discipline. A list of pre-approved electives can be found at:</span></td><td class="hourscol">12</td></tr>
+<tr class="even"><td colspan="2"><div style="margin-left:20px;" class="blockindent"><span class="courselistcomment commentindent"><a href="https://statistics.ucdavis.edu/undergrad/data-science/bs-foundations-track/electives">Pre-Approved Data Science Electives</a></span></div></td><td class="hourscol"></td></tr>
+<tr class="odd"><td colspan="2"><span class="courselistcomment"><strong>Note:</strong> A course used to fulfill a core requirement cannot be used as an elective.</span></td><td class="hourscol"></td></tr>
+<tr class="even lastrow"><td colspan="2"><span class="courselistcomment">Depth Subject Matter Subtotal</span></td><td class="hourscol">52</td></tr>
+<tr class="listsum"><td colspan="2">Total Units</td><td class="hourscol">92</td></tr></tbody>
+</table>
+
+<h2>Major GPA Requirements</h2>
+<ul>
+	<li>Minimum 2.000 GPA in UC Davis courses used in the major.</li>
+	<li>Minimum 2.000 GPA in upper division UC Davis courses used in the major.</li>
+</ul>
+]]>
+</requirementstext>
+<academicplantext name="Academic Plan">
+<![CDATA[
+<h2>Sample Academic Plan</h2>
+<p>A sample academic plan can be found at <a href="https://statistics.ucdavis.edu/undergrad/data-science/bs-foundations-track#plan">B.S. Data Science Academic Plan</a>. This plan can be used as a guide, but students should meet with an advisor on a regular basis to make a customized plan that works best for their unique needs and priorities.  </p>
+]]>
+</academicplantext>
+<quickviewtext name="Quick View">
+<![CDATA[
+<p>Our economy, society, and daily life are increasingly dependent on data. Data scientists receive training in fields such as computer science, engineering, mathematics, and statistics. They apply their methods in almost every industry.</p>
+]]>
+</quickviewtext>
+<faculty>
+<![CDATA[
+]]>
+</faculty>
+</courseleaf>
+

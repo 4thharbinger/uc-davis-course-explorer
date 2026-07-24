@@ -1,0 +1,158 @@
+<?xml version="1.0"?>
+<courseleaf>
+
+<title>Chemical Engineering, Bachelor of Science</title>
+
+
+<text>
+<![CDATA[  
+
+  
+]]>
+</text>
+<informationtext name="Information">
+<![CDATA[
+<p>The Department of Chemical Engineering offers two undergraduate programs: <a href="/departments-programs-degrees/chemical-engineering/chemical-engineering-bs/#requirementstext">Chemical Engineering</a> and <a href="/departments-programs-degrees/chemical-engineering/biochemical-engineering-bs/">Biochemical Engineering</a>. </p>
+<h2>Chemical Engineering Undergraduate Program</h2>
+<p>The Chemical Engineering Bachelor of Science is accredited by the Engineering Accreditation Commission of <a href="http://www.abet.org">ABET</a> under the commission's General Criteria and Program Criteria for Chemical, Biochemical, Biomolecular, and Similarly Named Engineering Programs.</p>
+<p>Chemical engineers apply the principles of chemistry and engineering to produce useful commodities, ranging from fuels to polymers. Chemical engineers are increasingly concerned with chemical and engineering processes related to the environment and food production. They work in diverse areas ranging from integrated circuits to integrated waste management. Preparation for a career in chemical engineering requires an understanding of both engineering and chemical principles to develop proficiency in conceiving, designing, and operating new processes.</p>
+<p>The chemical engineering curriculum has been planned to provide a sound knowledge of engineering and chemical sciences so that you may achieve competence in addressing current and future technical problems.</p>
+<h3>Objectives</h3>
+<p>The objectives of the program in Chemical Engineering are to educate students in the fundamentals of chemical engineering, balanced with the application of these principles to practical problems; to train them as independent, critical thinkers who can also function effectively in teams; to foster a sense of community, ethical responsibility, and professionalism; to prepare them for careers in industry, government, and academia; to illustrate the necessity for continuing education and self-learning; and to help students to learn to communicate proficiently in written and oral form.</p>
+<p>Students are encouraged to adhere carefully to all prerequisite requirements. The instructor is authorized to drop students from a course for which stated prerequisites have not been completed.</p>
+<h3>Junior &amp; Senior Year Options</h3>
+<p>The focus in the junior year is on fundamentals such as thermodynamics, fluid mechanics, energy transfer, and mass transfer phenomena. In the senior year, students draw these fundamentals together and apply them in a study of kinetics, process design, and process dynamics and control. The program’s requirement of eight chemical engineering elective units allow students to strengthen specific areas in chemical engineering, explore new areas, or pursue new areas of specialization.</p>
+<h2>Honors Program</h2>
+<p>An Honors Program is available to qualified students in the Chemical Engineering &amp; Biochemical Engineering majors It is a two-year program designed to challenge the most talented students in these majors. Students are invited to participate in their sophomore year. In the upper division coursework, students will complete either an honors thesis or a project that might involve local industry. Students must maintain a grade point average of 3.500 to continue in the program. Successful completion of the Honors Program will be acknowledged on the student's transcript.</p>
+]]>
+</informationtext>
+<requirementstext name="Requirements">
+<![CDATA[
+<p>The major requirements below are in addition to meeting <a href="/undergraduate-education/university-degree-requirements/">University Degree Requirements</a> &amp; <a href="/undergraduate-education/college-degree-requirements/">College Degree Requirements</a>; unless otherwise noted. The minimum number of units required for the Chemical Engineering Bachelor of Science is 145.</p>
+<table class="sc_courselist">
+<caption class="hidden noscript">Course List</caption>
+<colgroup>
+<col class="codecol"/>
+<col class="titlecol"/>
+<col align="char" char="." class="hourscol"/>
+</colgroup>
+<thead>
+<tr class="hidden noscript">
+<th scope="col">Code</th>
+<th scope="col">Title</th>
+<th scope="col" class="hourscol">Units</th>
+</tr>
+</thead>
+<tbody>
+<tr class="even areaheader  firstrow"><td colspan="2"><span class="courselistcomment areaheader ">Lower Division Required Courses</span></td><td class="hourscol"></td></tr>
+<tr class="odd areasubheader undefined"><td colspan="2"><span class="courselistcomment areasubheader undefined">Mathematics</span></td><td class="hourscol"></td></tr>
+<tr class="even"><td class="codecol"><span class="code_bubble" data-code-bubble="MAT 021A">MAT 021A</span></td><td>Calculus</td><td class="hourscol">4</td></tr>
+<tr class="odd"><td class="codecol"><span class="code_bubble" data-code-bubble="MAT 021B">MAT 021B</span></td><td>Calculus</td><td class="hourscol">4</td></tr>
+<tr class="even"><td class="codecol"><span class="code_bubble" data-code-bubble="MAT 021C">MAT 021C</span></td><td>Calculus</td><td class="hourscol">4</td></tr>
+<tr class="odd"><td class="codecol"><span class="code_bubble" data-code-bubble="MAT 021D">MAT 021D</span></td><td>Vector Analysis</td><td class="hourscol">4</td></tr>
+<tr class="even"><td class="codecol"><span class="code_bubble" data-code-bubble="MAT 022A">MAT 022A</span></td><td>Linear Algebra</td><td class="hourscol">3-4</td></tr>
+<tr class="orclass even"><td class="codecol orclass">or <span class="code_bubble" data-code-bubble="MAT 027A">MAT 027A</span></td><td colspan="2"> Linear Algebra with Applications to Biology</td></tr>
+<tr class="orclass even"><td class="codecol orclass">or <span class="code_bubble" data-code-bubble="BIS 027A">BIS 027A</span></td><td colspan="2"> Linear Algebra with Applications to Biology</td></tr>
+<tr class="odd"><td class="codecol"><span class="code_bubble" data-code-bubble="MAT 022B">MAT 022B</span></td><td>Differential Equations</td><td class="hourscol">3-4</td></tr>
+<tr class="orclass odd"><td class="codecol orclass">or <span class="code_bubble" data-code-bubble="MAT 027B">MAT 027B</span></td><td colspan="2"> Differential Equations with Applications to Biology</td></tr>
+<tr class="orclass odd"><td class="codecol orclass">or <span class="code_bubble" data-code-bubble="BIS 027B">BIS 027B</span></td><td colspan="2"> Differential Equations with Applications to Biology</td></tr>
+<tr class="even areasubheader undefined"><td colspan="2"><span class="courselistcomment areasubheader undefined">Physics</span></td><td class="hourscol"></td></tr>
+<tr class="odd"><td class="codecol"><span class="code_bubble" data-code-bubble="PHY 009A">PHY 009A</span></td><td>Classical Physics</td><td class="hourscol">5</td></tr>
+<tr class="even"><td class="codecol"><span class="code_bubble" data-code-bubble="PHY 009B">PHY 009B</span></td><td>Classical Physics</td><td class="hourscol">5</td></tr>
+<tr class="odd"><td class="codecol"><span class="code_bubble" data-code-bubble="PHY 009C">PHY 009C</span></td><td>Classical Physics</td><td class="hourscol">5</td></tr>
+<tr class="even areasubheader undefined"><td colspan="2"><span class="courselistcomment areasubheader undefined">Chemistry</span></td><td class="hourscol"></td></tr>
+<tr class="odd"><td colspan="2"><span class="courselistcomment">Choose One:</span></td><td class="hourscol">5</td></tr>
+<tr class="even"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="CHE 002A">CHE 002A</span></div></td><td>General Chemistry</td><td class="hourscol"></td></tr>
+<tr class="odd"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="CHE 002AH">CHE 002AH</span></div></td><td>Honors General Chemistry</td><td class="hourscol"></td></tr>
+<tr class="even"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="CHE 004A">CHE 004A</span></div></td><td>General Chemistry for the Physical Sciences &amp; Engineering</td><td class="hourscol"></td></tr>
+<tr class="odd"><td colspan="2"><span class="courselistcomment">Choose One:</span></td><td class="hourscol">5</td></tr>
+<tr class="even"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="CHE 002B">CHE 002B</span></div></td><td>General Chemistry</td><td class="hourscol"></td></tr>
+<tr class="odd"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="CHE 002BH">CHE 002BH</span></div></td><td>Honors General Chemistry</td><td class="hourscol"></td></tr>
+<tr class="even"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="CHE 004B">CHE 004B</span></div></td><td>General Chemistry for the Physical Sciences &amp; Engineering</td><td class="hourscol"></td></tr>
+<tr class="odd"><td colspan="2"><span class="courselistcomment">Choose One:</span></td><td class="hourscol">5</td></tr>
+<tr class="even"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="CHE 002C">CHE 002C</span></div></td><td>General Chemistry</td><td class="hourscol"></td></tr>
+<tr class="odd"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="CHE 002CH">CHE 002CH</span></div></td><td>Honors General Chemistry</td><td class="hourscol"></td></tr>
+<tr class="even"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="CHE 004C">CHE 004C</span></div></td><td>General Chemistry for the Physical Sciences &amp; Engineering</td><td class="hourscol"></td></tr>
+<tr class="odd areasubheader undefined"><td colspan="2"><span class="courselistcomment areasubheader undefined">Chemical Engineering &amp; Programming</span></td><td class="hourscol"></td></tr>
+<tr class="even"><td class="codecol"><span class="code_bubble" data-code-bubble="ECH 005">ECH 005</span></td><td>Introduction to Analysis &amp; Design in Chemical Engineering</td><td class="hourscol">3</td></tr>
+<tr class="odd"><td class="codecol"><span class="code_bubble" data-code-bubble="ECH 051">ECH 051</span></td><td>Material Balances</td><td class="hourscol">4</td></tr>
+<tr class="even"><td class="codecol"><span class="code_bubble" data-code-bubble="ECH 060">ECH 060</span></td><td>Chemical Engineering Problem Solving</td><td class="hourscol">4</td></tr>
+<tr class="orclass even"><td class="codecol orclass">or <span class="code_bubble" data-code-bubble="ECS 032A">ECS 032A</span></td><td colspan="2"> Introduction to Programming</td></tr>
+<tr class="orclass even"><td class="codecol orclass">or <span class="code_bubble" data-code-bubble="ECS 032AV">ECS 032AV</span></td><td colspan="2"> Introduction to Programming</td></tr>
+<tr class="odd"><td class="codecol"><span class="code_bubble" data-code-bubble="ECH 080">ECH 080</span></td><td>Chemical Engineering Profession</td><td class="hourscol">1</td></tr>
+<tr class="even areasubheader undefined"><td colspan="2"><span class="courselistcomment areasubheader undefined">Engineering</span></td><td class="hourscol"></td></tr>
+<tr class="odd"><td colspan="2"><span class="courselistcomment">Choose one:</span></td><td class="hourscol">4</td></tr>
+<tr class="even"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="ENG 017">ENG 017</span></div></td><td>Circuits I</td><td class="hourscol"></td></tr>
+<tr class="orclass even"><td class="codecol orclass"><div style="margin-left:20px;" class="blockindent">or <span class="code_bubble" data-code-bubble="ENG 017V">ENG 017V</span></div></td><td colspan="2"> Circuits I</td></tr>
+<tr class="odd"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="ENG 035">ENG 035</span></div></td><td>Statics</td><td class="hourscol"></td></tr>
+<tr class="even"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="ENG 045">ENG 045</span></div></td><td>Properties of Materials</td><td class="hourscol"></td></tr>
+<tr class="orclass even"><td class="codecol orclass"><div style="margin-left:20px;" class="blockindent">or <span class="code_bubble" data-code-bubble="ENG 045Y">ENG 045Y</span></div></td><td colspan="2"> Properties of Materials</td></tr>
+<tr class="odd"><td colspan="2"><span class="courselistcomment">Lower Division Composition/Writing; choose one: a grade of C- or better is required:</span></td><td class="hourscol">4</td></tr>
+<tr class="even"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="COM 001">COM 001</span></div></td><td>Major Works of the Ancient World</td><td class="hourscol"></td></tr>
+<tr class="odd"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="COM 002">COM 002</span></div></td><td>Major Works of the Medieval &amp; Early Modern World</td><td class="hourscol"></td></tr>
+<tr class="even"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="COM 003">COM 003</span></div></td><td>Major Works of the Modern World</td><td class="hourscol"></td></tr>
+<tr class="odd"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="COM 004">COM 004</span></div></td><td>Major Works of the Contemporary World</td><td class="hourscol"></td></tr>
+<tr class="even"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="ENL 003">ENL 003</span></div></td><td>Introduction to Literature</td><td class="hourscol"></td></tr>
+<tr class="orclass even"><td class="codecol orclass"><div style="margin-left:20px;" class="blockindent">or <span class="code_bubble" data-code-bubble="ENL 003V">ENL 003V</span></div></td><td colspan="2"> Introduction to Literature</td></tr>
+<tr class="odd"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="NAS 005">NAS 005</span></div></td><td>Introduction to Native American Literature</td><td class="hourscol"></td></tr>
+<tr class="orclass odd"><td class="codecol orclass"><div style="margin-left:20px;" class="blockindent">or <span class="code_bubble" data-code-bubble="NAS 005V">NAS 005V</span></div></td><td colspan="2"> Introduction to Native American Literature</td></tr>
+<tr class="even"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="UWP 001">UWP 001</span></div></td><td>Introduction to Academic Literacies (Recommended)</td><td class="hourscol"></td></tr>
+<tr class="orclass even"><td class="codecol orclass"><div style="margin-left:20px;" class="blockindent">or <span class="code_bubble" data-code-bubble="UWP 001V">UWP 001V</span></div></td><td colspan="2"> Introduction to Academic Literacies: Online</td></tr>
+<tr class="orclass even"><td class="codecol orclass"><div style="margin-left:20px;" class="blockindent">or <span class="code_bubble" data-code-bubble="UWP 001Y">UWP 001Y</span></div></td><td colspan="2"> Introduction to Academic Literacies</td></tr>
+<tr class="odd"><td colspan="2"><span class="courselistcomment">Lower Division Required Courses Subtotal</span></td><td class="hourscol">72-74</td></tr>
+<tr class="even areaheader "><td colspan="2"><span class="courselistcomment areaheader ">Upper Division Required Courses</span></td><td class="hourscol"></td></tr>
+<tr class="odd areasubheader undefined"><td colspan="2"><span class="courselistcomment areasubheader undefined">Chemical Engineering</span></td><td class="hourscol"></td></tr>
+<tr class="even"><td class="codecol"><span class="code_bubble" data-code-bubble="ECH 140">ECH 140</span></td><td>Mathematical Methods in Biochemical &amp; Chemical Engineering </td><td class="hourscol">4</td></tr>
+<tr class="odd"><td class="codecol"><span class="code_bubble" data-code-bubble="ECH 141">ECH 141</span></td><td>Fluid Mechanics for Biochemical &amp; Chemical Engineers </td><td class="hourscol">4</td></tr>
+<tr class="even"><td class="codecol"><span class="code_bubble" data-code-bubble="ECH 142">ECH 142</span></td><td>Heat Transfer for Biochemical &amp; Chemical Engineers</td><td class="hourscol">4</td></tr>
+<tr class="odd"><td class="codecol"><span class="code_bubble" data-code-bubble="ECH 143">ECH 143</span></td><td>Mass Transfer for Biochemical &amp; Chemical Engineers</td><td class="hourscol">4</td></tr>
+<tr class="even"><td class="codecol"><span class="code_bubble" data-code-bubble="ECH 145A">ECH 145A</span></td><td>Chemical Engineering Thermodynamics Laboratory</td><td class="hourscol">3</td></tr>
+<tr class="odd"><td class="codecol"><span class="code_bubble" data-code-bubble="ECH 145B">ECH 145B</span></td><td>Chemical Engineering Transport Lab</td><td class="hourscol">3</td></tr>
+<tr class="even"><td class="codecol"><span class="code_bubble" data-code-bubble="ECH 148A">ECH 148A</span></td><td>Chemical Kinetics &amp; Reaction Engineering</td><td class="hourscol">3</td></tr>
+<tr class="odd"><td class="codecol"><span class="code_bubble" data-code-bubble="ECH 148B">ECH 148B</span></td><td>Chemical Kinetics &amp; Reaction Engineering</td><td class="hourscol">4</td></tr>
+<tr class="even"><td class="codecol"><span class="code_bubble" data-code-bubble="ECH 152A">ECH 152A</span></td><td>Chemical Engineering Thermodynamics</td><td class="hourscol">3</td></tr>
+<tr class="odd"><td class="codecol"><span class="code_bubble" data-code-bubble="ECH 152B">ECH 152B</span></td><td>Chemical Engineering Thermodynamics</td><td class="hourscol">4</td></tr>
+<tr class="even"><td class="codecol"><span class="code_bubble" data-code-bubble="ECH 155">ECH 155</span></td><td>Chemical Engineering Kinetics &amp; Reactor Design Laboratory</td><td class="hourscol">4</td></tr>
+<tr class="odd"><td class="codecol"><span class="code_bubble" data-code-bubble="ECH 157">ECH 157</span></td><td>Process Dynamics &amp; Control</td><td class="hourscol">4</td></tr>
+<tr class="even"><td class="codecol"><span class="code_bubble" data-code-bubble="ECH 158AN">ECH 158AN</span></td><td>Separations &amp; Unit Operations</td><td class="hourscol">4</td></tr>
+<tr class="odd"><td class="codecol"><span class="code_bubble" data-code-bubble="ECH 158BN">ECH 158BN</span></td><td>Process Economics &amp; Green Design</td><td class="hourscol">4</td></tr>
+<tr class="even"><td class="codecol"><span class="code_bubble" data-code-bubble="ECH 158C">ECH 158C</span></td><td>Plant Design Project</td><td class="hourscol">4</td></tr>
+<tr class="odd areasubheader undefined"><td colspan="2"><span class="courselistcomment areasubheader undefined">Chemistry</span></td><td class="hourscol"></td></tr>
+<tr class="even"><td class="codecol"><span class="code_bubble" data-code-bubble="CHE 128A">CHE 128A</span></td><td>Organic Chemistry</td><td class="hourscol">3</td></tr>
+<tr class="odd"><td class="codecol"><span class="code_bubble" data-code-bubble="CHE 128B">CHE 128B</span></td><td>Organic Chemistry</td><td class="hourscol">3</td></tr>
+<tr class="even"><td class="codecol"><span class="code_bubble" data-code-bubble="CHE 129A">CHE 129A</span></td><td>Organic Chemistry Laboratory</td><td class="hourscol">2</td></tr>
+<tr class="odd areasubheader undefined"><td colspan="2"><span class="courselistcomment areasubheader undefined">Chemical Engineering Technical Electives</span></td><td class="hourscol"></td></tr>
+<tr class="even"><td colspan="2"><span class="courselistcomment">Choose 9-12 units:</span></td><td class="hourscol">9-12</td></tr>
+<tr class="odd"><td colspan="2"><span class="courselistcomment">1. Complete one upper division (100-199) engineering course (3-4 units). Not numbered 190C, 192, 198, and 199.</span> <sup>1</sup></td><td class="hourscol"></td></tr>
+<tr class="even"><td colspan="2"><span class="courselistcomment">2. Complete 6-8 units of upper division (100-199) science, engineering, or business courses.</span> <sup>1,2</sup></td><td class="hourscol"></td></tr>
+<tr class="odd"><td colspan="2"><div style="margin-left:20px;" class="blockindent"><span class="courselistcomment commentindent">a. A maximum of 4 units may be completed in courses numbered <span class="code_bubble" data-code-bubble="ECH 173">ECH 173</span>, <span class="code_bubble" data-code-bubble="ECH 192">ECH 192</span>, <span class="code_bubble" data-code-bubble="ECH 198">ECH 198</span>, and <span class="code_bubble" data-code-bubble="ECH 199">ECH 199</span> combined.</span></div></td><td class="hourscol"></td></tr>
+<tr class="even"><td colspan="2"><div style="margin-left:20px;" class="blockindent"><span class="courselistcomment commentindent">b.  Courses numbered 192, 198, 199 from outside the department require a  petition (see major advisor).</span></div></td><td class="hourscol"></td></tr>
+<tr class="odd"><td colspan="2"><span class="courselistcomment">3. Courses used to satisfy other major requirements cannot be used to satisfy the technical elective requirements.</span></td><td class="hourscol"></td></tr>
+<tr class="even areasubheader undefined"><td colspan="2"><span class="courselistcomment areasubheader undefined">Upper Division Composition Requirement; a grade of C- or better is required:</span></td><td class="hourscol"></td></tr>
+<tr class="odd"><td colspan="2"><span class="courselistcomment">Choose one:</span></td><td class="hourscol">0-4</td></tr>
+<tr class="even"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="UWP 102E">UWP 102E</span></div></td><td>Writing in the Disciplines: Engineering</td><td class="hourscol"></td></tr>
+<tr class="odd"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="UWP 102F">UWP 102F</span></div></td><td>Writing in the Disciplines: Food Science &amp; Technology</td><td class="hourscol"></td></tr>
+<tr class="even"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="UWP 104A">UWP 104A</span></div></td><td>Writing in the Professions: Business Writing</td><td class="hourscol"></td></tr>
+<tr class="orclass even"><td class="codecol orclass"><div style="margin-left:20px;" class="blockindent">or <span class="code_bubble" data-code-bubble="UWP 104AV">UWP 104AV</span></div></td><td colspan="2"> Writing in the Professions: Business Writing</td></tr>
+<tr class="orclass even"><td class="codecol orclass"><div style="margin-left:20px;" class="blockindent">or <span class="code_bubble" data-code-bubble="UWP 104AY">UWP 104AY</span></div></td><td colspan="2"> Writing in the Professions: Business Writing</td></tr>
+<tr class="odd"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="UWP 104E">UWP 104E</span></div></td><td>Writing in the Professions: Science</td><td class="hourscol"></td></tr>
+<tr class="even"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="UWP 104T">UWP 104T</span></div></td><td>Writing in the Professions: Technical Writing</td><td class="hourscol"></td></tr>
+<tr class="odd"><td colspan="2"><div style="margin-left:20px;" class="blockindent"><span class="courselistcomment commentindent">Passing the Upper Division Composition Exam.</span></div></td><td class="hourscol"></td></tr>
+<tr class="even lastrow"><td colspan="2"><span class="courselistcomment">Upper Division Required Courses Subtotal</span></td><td class="hourscol">73-80</td></tr>
+<tr class="listsum"><td colspan="2">Total Units</td><td class="hourscol">145-154</td></tr></tbody>
+</table>
+
+<dl class="sc_footnotes" aria-label="Footnotes"><dt> <sup> 1 </sup> </dt><dd><p class="noindent">Acceptable engineering courses must carry one of the following subject designations: BIM, EAE, EBS, ECH, ECI, ECS, EEC, EME, EMS, ENG.</p></dd><dt> <sup> 2 </sup> </dt><dd><p class="noindent">Acceptable science and business courses must carry one of the following subject<br/> designations: ARE, ATM, BIS, BIT, CHE, ECN, FPS, FST, MAT, MCB, MMG, MGT, PHY, STA, VEN.</p></dd></dl>
+]]>
+</requirementstext>
+<quickviewtext name="Quick View">
+<![CDATA[
+<p>Do you like food? Medicine? Engineering? Do you want to know how to make things better? Come invent the next solar cell to change the future of solar energy or learn the science behind your favorite coffee. If you love to convert one thing into another, then the <span class="title-main">Chemical Engineering major </span>is for you!</p>
+]]>
+</quickviewtext>
+<faculty>
+<![CDATA[
+]]>
+</faculty>
+</courseleaf>
+

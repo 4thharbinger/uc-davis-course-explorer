@@ -1,0 +1,70 @@
+<?xml version="1.0"?>
+<courseleaf>
+
+<title>Environmental Horticulture, Minor</title>
+
+
+<text>
+<![CDATA[  
+
+  
+]]>
+</text>
+<informationtext name="Information">
+<![CDATA[
+<h2><strong>Related Undergraduate Programs</strong></h2>
+<p>See the undergraduate majors in <a href="/departments-programs-degrees/plant-biology/" target="_blank">Plant Biology</a> &amp; <a href="/departments-programs-degrees/plant-sciences/" target="_blank">Plant Sciences</a>.</p>
+<h2>Related Courses</h2>
+<p>See <a href="/courses-subject-code/plb" target="_blank">Plant Biology (PLB)</a> &amp; <a href="/courses-subject-code/pls" target="_blank">Plant Sciences (PLS)</a>.</p>
+<h2>Minor Advisor</h2>
+<p><a href="https://www.plantsciences.ucdavis.edu/academics/undergraduate/programs" target="_blank">Plant Sciences Advising</a>; <a href="mailto:plsadvising@ucdavis.edu">Advising</a></p>
+]]>
+</informationtext>
+<requirementstext name="Requirements">
+<![CDATA[
+<p>Successful completion of the minor requires the following:</p>
+<ul>
+	<li>All courses must be taken for a letter grade.</li>
+	<li>Minimum overall GPA of 2.000.</li>
+	<li>No more than one course can be counted towards both the student’s major and the minor.</li>
+</ul>
+<table class="sc_courselist">
+<caption class="hidden noscript">Course List</caption>
+<colgroup>
+<col class="codecol"/>
+<col class="titlecol"/>
+<col align="char" char="." class="hourscol"/>
+</colgroup>
+<thead>
+<tr class="hidden noscript">
+<th scope="col">Code</th>
+<th scope="col">Title</th>
+<th scope="col" class="hourscol">Units</th>
+</tr>
+</thead>
+<tbody>
+<tr class="even firstrow"><td class="codecol"><span class="code_bubble" data-code-bubble="ENH 006">ENH 006</span></td><td>Introduction to Environmental Plants</td><td class="hourscol">4</td></tr>
+<tr class="odd"><td class="codecol"><span class="code_bubble" data-code-bubble="ENH 105">ENH 105</span></td><td> (Discontinued for fall 2025) <sup>**</sup></td><td class="hourscol">4</td></tr>
+<tr class="even"><td class="codecol"><span class="code_bubble" data-code-bubble="PLS 171">PLS 171</span></td><td>Principles &amp; Practices of Plant Propagation</td><td class="hourscol">4</td></tr>
+<tr class="odd"><td colspan="2"><span class="courselistcomment">Choose three:</span></td><td class="hourscol">11-13</td></tr>
+<tr class="even"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="ENH 100">ENH 100</span></div></td><td>Urban Forests are Nature-Based Solutions</td><td class="hourscol"></td></tr>
+<tr class="odd"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="ENH 120">ENH 120</span></div></td><td>Management of Container Media</td><td class="hourscol"></td></tr>
+<tr class="even"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="ENH 125">ENH 125</span></div></td><td>Greenhouse &amp; Protected Cultivation Systems</td><td class="hourscol"></td></tr>
+<tr class="odd lastrow"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="ENH 133">ENH 133</span></div></td><td>Woody Plants in the Landscape: Growth, Ecology &amp; Management</td><td class="hourscol"></td></tr>
+<tr class="listsum"><td colspan="2">Total Units</td><td class="hourscol">23-25</td></tr></tbody>
+</table>
+
+<dl class="sc_footnotes" aria-label="Footnotes"><dt>**</dt><dd><p class="noindent">Course(s) discontinued; see your advisor for course options.</p></dd></dl>
+]]>
+</requirementstext>
+<quickviewtext name="Quick View">
+<![CDATA[
+<p>Are you interested in the design of urban landscapes as well as the plants used for intensive and/or urban agriculture? The <span class="title-main">Environmental Horticulture </span>minor broadens your understanding of the science behind the identification, propagation, and maintenance of plants for human use, whether in a landscape or production setting.</p>
+]]>
+</quickviewtext>
+<faculty>
+<![CDATA[
+]]>
+</faculty>
+</courseleaf>
+

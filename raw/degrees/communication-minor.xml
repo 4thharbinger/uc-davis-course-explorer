@@ -1,0 +1,59 @@
+<?xml version="1.0"?>
+<courseleaf>
+
+<title>Communication, Minor</title>
+
+
+<text>
+<![CDATA[  
+
+  
+]]>
+</text>
+<informationtext name="Information">
+<![CDATA[
+<h2>Career Alternatives</h2>
+<p>Communication graduates have found careers in such fields as broadcast and print journalism, administration, sales, management, politics and government, education, social work, and public relations. A communication degree is also excellent preparation for law school or other graduate programs.</p>
+]]>
+</informationtext>
+<requirementstext name="Requirements">
+<![CDATA[
+<table class="sc_courselist">
+<caption class="hidden noscript">Course List</caption>
+<colgroup>
+<col class="codecol"/>
+<col class="titlecol"/>
+<col align="char" char="." class="hourscol"/>
+</colgroup>
+<thead>
+<tr class="hidden noscript">
+<th scope="col">Code</th>
+<th scope="col">Title</th>
+<th scope="col" class="hourscol">Units</th>
+</tr>
+</thead>
+<tbody>
+<tr class="even firstrow"><td colspan="2"><span class="courselistcomment">Choose one:</span></td><td class="hourscol">4</td></tr>
+<tr class="odd"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="CMN 001">CMN 001</span></div></td><td>Introduction to Public Speaking</td><td class="hourscol"></td></tr>
+<tr class="orclass odd"><td class="codecol orclass"><div style="margin-left:20px;" class="blockindent">or <span class="code_bubble" data-code-bubble="CMN 001V">CMN 001V</span></div></td><td colspan="2"> Introduction to Public Speaking</td></tr>
+<tr class="even"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="CMN 003">CMN 003</span></div></td><td>Interpersonal Communication Competence</td><td class="hourscol"></td></tr>
+<tr class="orclass even"><td class="codecol orclass"><div style="margin-left:20px;" class="blockindent">or <span class="code_bubble" data-code-bubble="CMN 003Y">CMN 003Y</span></div></td><td colspan="2"> Interpersonal Communication Competence</td></tr>
+<tr class="orclass even"><td class="codecol orclass"><div style="margin-left:20px;" class="blockindent">or <span class="code_bubble" data-code-bubble="CMN 003V">CMN 003V</span></div></td><td colspan="2"> Interpersonal Communication Competence</td></tr>
+<tr class="odd"><td colspan="2"><span class="courselistcomment">At least five upper division courses in Communication (CMN).</span></td><td class="hourscol">20</td></tr>
+<tr class="even lastrow"><td colspan="2"><div style="margin-left:20px;" class="blockindent"><span class="courselistcomment commentindent"><a href="/courses-subject-code/cmn/">Communication (CMN)</a></span></div></td><td class="hourscol"></td></tr>
+<tr class="listsum"><td colspan="2">Total Units</td><td class="hourscol">24</td></tr></tbody>
+</table>
+
+]]>
+</requirementstext>
+<quickviewtext name="Quick View">
+<![CDATA[
+<p>What can we learn from a word, a gesture, a tone of voice? Methods of both verbal and non-verbal communication vary from culture to culture and generation to generation. Communication minors study communication processes at the individual, interpersonal, organizational, and societal levels. A special focus of the program is research into bridging cross-cultural communication gaps.</p>
+]]>
+</quickviewtext>
+<faculty>
+<![CDATA[
+]]>
+</faculty>
+</courseleaf>
+

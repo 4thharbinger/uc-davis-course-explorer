@@ -1,0 +1,66 @@
+<?xml version="1.0"?>
+<courseleaf>
+
+<title>French, Minor</title>
+
+
+<text>
+<![CDATA[  
+
+  
+]]>
+</text>
+<informationtext name="Information">
+<![CDATA[
+<h2>The Minor Program</h2>
+<p>The minor program develops proficiency in all four language skills—speaking, listening, reading, and writing—and acquaints students with the intellectual and cultural contributions of the French-speaking world through the study of its literature, traditions, and institutions.</p>
+<h3>The Program</h3>
+<p>The department encourages its students to work closely with the academic advisor in designing a minor tailored to their needs and interests within the broad requirements prescribed by the program and to avail themselves of the guidance of an excellent teaching faculty.</p>
+<h3>Minor Advisor</h3>
+<p>Consult the department office.</p>
+<h3>Education Abroad</h3>
+<p>With the approval of a minor advisor, applicable courses taken abroad may be accepted in the minor programs.</p>
+<h3>Prerequisite Credit</h3>
+<p>Credit will not normally be given for a course if it is the prerequisite of a course already successfully completed. Exceptions can be made by the department chairperson only.</p>
+
+
+
+]]>
+</informationtext>
+<requirementstext name="Requirements">
+<![CDATA[
+<table class="sc_courselist">
+<caption class="hidden noscript">Course List</caption>
+<colgroup>
+<col class="codecol"/>
+<col class="titlecol"/>
+<col align="char" char="." class="hourscol"/>
+</colgroup>
+<thead>
+<tr class="hidden noscript">
+<th scope="col">Code</th>
+<th scope="col">Title</th>
+<th scope="col" class="hourscol">Units</th>
+</tr>
+</thead>
+<tbody>
+<tr class="even firstrow"><td class="codecol"><span class="code_bubble" data-code-bubble="FRE 100">FRE 100</span></td><td>Composition in French</td><td class="hourscol">4</td></tr>
+<tr class="odd areaheader "><td colspan="2"><span class="courselistcomment areaheader ">French Electives</span></td><td class="hourscol">16</td></tr>
+<tr class="even"><td colspan="2"><span class="courselistcomment">Four (4) electives in French Literature, Language, or Culture, in consultation with an undergraduate advisor. </span></td><td class="hourscol"></td></tr>
+<tr class="odd lastrow"><td colspan="2"><div style="margin-left:20px;" class="blockindent"><span class="courselistcomment commentindent"><a href="/courses-subject-code/fre/">French 101-162.</a></span></div></td><td class="hourscol"></td></tr>
+<tr class="listsum"><td colspan="2">Total Units</td><td class="hourscol">20</td></tr></tbody>
+</table>
+
+]]>
+</requirementstext>
+<quickviewtext name="Quick View">
+<![CDATA[
+<p>The French minor develops proficiency in all four, French language skills; speaking, listening, reading, and writing. Students are acquainted with the French-speaking world through the study of its literature, traditions, and institutions.</p>
+]]>
+</quickviewtext>
+<faculty>
+<![CDATA[
+]]>
+</faculty>
+</courseleaf>
+

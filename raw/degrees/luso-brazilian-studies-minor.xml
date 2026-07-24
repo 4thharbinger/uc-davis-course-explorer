@@ -1,0 +1,79 @@
+<?xml version="1.0"?>
+<courseleaf>
+
+<title>Luso-Brazilian Studies, Minor</title>
+
+
+<text>
+<![CDATA[  
+
+  
+]]>
+</text>
+<informationtext name="Information">
+<![CDATA[
+<h2>Department Office</h2>
+<p>The Department of Spanish &amp; Portuguese sponsors the minor in Luso-Brazilian Studies, which offers students the opportunity to engage with the Portuguese-speaking world as a global space, as well as gain in-depth knowledge of Brazilian literature, culture and society. The minor is structured to facilitate engagement with Latin American, peninsular, and transatlantic topics, while ensuring that students master the essential skills of linguistic competence, and literary and cultural knowledge.</p>
+<h3>Education Abroad Program Options</h3>
+<p>We highly recommend that students participate in study abroad; see <a href="http://studyabroad.ucdavis.edu" target="_blank">Study Abroad</a>. Courses taken abroad may count toward the Luso-Brazilian Studies minor.</p>
+<h3>Minor Advisor</h3>
+<p>L. Bernucci, R. Newcomb</p>
+]]>
+</informationtext>
+<requirementstext name="Requirements">
+<![CDATA[
+<table class="sc_courselist">
+<caption class="hidden noscript">Course List</caption>
+<colgroup>
+<col class="codecol"/>
+<col class="titlecol"/>
+<col align="char" char="." class="hourscol"/>
+</colgroup>
+<thead>
+<tr class="hidden noscript">
+<th scope="col">Code</th>
+<th scope="col">Title</th>
+<th scope="col" class="hourscol">Units</th>
+</tr>
+</thead>
+<tbody>
+<tr class="even areaheader  firstrow"><td colspan="2"><span class="courselistcomment areaheader ">Luso-Brazilian Studies</span></td><td class="hourscol"></td></tr>
+<tr class="odd areasubheader undefined"><td colspan="2"><span class="courselistcomment areasubheader undefined">Portuguese</span></td><td class="hourscol"></td></tr>
+<tr class="even"><td class="codecol"><span class="code_bubble" data-code-bubble="POR 100">POR 100</span></td><td>Principles of Luso-Brazilian Literature &amp; Criticism</td><td class="hourscol">4</td></tr>
+<tr class="odd"><td class="codecol"><span class="code_bubble" data-code-bubble="POR 161">POR 161</span></td><td>Luso-Brazilian Literature &amp; Culture </td><td class="hourscol">4</td></tr>
+<tr class="even"><td colspan="2"><span class="courselistcomment">Choose one course in each of the following categories:</span></td><td class="hourscol">7-8</td></tr>
+<tr class="odd areasubheader undefined"><td colspan="2"><div style="margin-left:20px;" class="blockindent"><span class="courselistcomment areasubheader undefined commentindent">Spanish</span></div></td><td class="hourscol"></td></tr>
+<tr class="even"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="SPA 111N">SPA 111N</span></div></td><td>The Structure of Spanish: Sounds &amp; Words</td><td class="hourscol"></td></tr>
+<tr class="odd"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="SPA 115">SPA 115</span></div></td><td>History of the Spanish Language</td><td class="hourscol"></td></tr>
+<tr class="even"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="SPA 116">SPA 116</span></div></td><td>Applied Spanish Linguistics</td><td class="hourscol"></td></tr>
+<tr class="orclass even"><td class="codecol orclass"><div style="margin-left:20px;" class="blockindent">or <span class="code_bubble" data-code-bubble="SPA 116V">SPA 116V</span></div></td><td colspan="2"> Applied Spanish Linguistics</td></tr>
+<tr class="odd areasubheader undefined"><td colspan="2"><div style="margin-left:20px;" class="blockindent"><span class="courselistcomment areasubheader undefined commentindent">Portuguese</span></div></td><td class="hourscol"></td></tr>
+<tr class="even"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="POR 162">POR 162</span></div></td><td>Introduction  to Brazilian Literature</td><td class="hourscol"></td></tr>
+<tr class="odd"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="POR 163">POR 163</span></div></td><td>20th C Masters in Brazilian Literature</td><td class="hourscol"></td></tr>
+<tr class="even"><td colspan="2"><span class="courselistcomment">Choose one elective course in each of the following categories:</span></td><td class="hourscol">8</td></tr>
+<tr class="odd areasubheader undefined"><td colspan="2"><div style="margin-left:20px;" class="blockindent"><span class="courselistcomment areasubheader undefined commentindent">Portuguese</span></div></td><td class="hourscol"></td></tr>
+<tr class="even"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="POR 159">POR 159</span></div></td><td>Special Topics in Luso-Brazilian Literature &amp; Culture</td><td class="hourscol"></td></tr>
+<tr class="odd"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="POR 162">POR 162</span></div></td><td>Introduction  to Brazilian Literature</td><td class="hourscol"></td></tr>
+<tr class="even"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="POR 163">POR 163</span></div></td><td>20th C Masters in Brazilian Literature</td><td class="hourscol"></td></tr>
+<tr class="odd areasubheader undefined"><td colspan="2"><div style="margin-left:20px;" class="blockindent"><span class="courselistcomment areasubheader undefined commentindent">History</span></div></td><td class="hourscol"></td></tr>
+<tr class="even"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="HIS 159">HIS 159</span></div></td><td>Women &amp; Gender in Latin American History</td><td class="hourscol"></td></tr>
+<tr class="odd"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="HIS 163A">HIS 163A</span></div></td><td>History of Brazil</td><td class="hourscol"></td></tr>
+<tr class="even"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="HIS 163B">HIS 163B</span></div></td><td>History of Brazil</td><td class="hourscol"></td></tr>
+<tr class="odd"><td colspan="2"><span class="courselistcomment">Note: Consult a departmental advisor if any of these courses are to be taken abroad.</span></td><td class="hourscol"></td></tr>
+<tr class="even lastrow"><td colspan="2"><span class="courselistcomment">Note: Additional courses may count toward the minor with prior approval by a departmental advisor.</span></td><td class="hourscol"></td></tr>
+<tr class="listsum"><td colspan="2">Total Units</td><td class="hourscol">23-24</td></tr></tbody>
+</table>
+
+]]>
+</requirementstext>
+<quickviewtext name="Quick View">
+<![CDATA[
+<p>The <span class="title-main">Luso-Brazilian Studies </span>minor offers students the opportunity to engage with the Portuguese-speaking world as a global space. Students also gain in-depth knowledge of Brazilian literature, culture, and society.  We highly recommend that students participate in study abroad.</p>
+]]>
+</quickviewtext>
+<faculty>
+<![CDATA[
+]]>
+</faculty>
+</courseleaf>
+

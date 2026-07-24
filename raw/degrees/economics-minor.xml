@@ -1,0 +1,113 @@
+<?xml version="1.0"?>
+<courseleaf>
+
+<title>Economics, Minor</title>
+
+
+<text>
+<![CDATA[  
+
+  
+]]>
+</text>
+<informationtext name="Information">
+<![CDATA[
+<p>Economics is the study of how individuals, organizations, and societies choose among alternative uses of resources and how these resources are turned into the things people want.</p>
+<h2>Course Limits</h2>
+<p>Students are expected to take <span class="sc_courseinline"><span class="code_bubble" data-code-bubble="ECN 100A">ECN 100A</span></span>, <span class="sc_courseinline"><span class="code_bubble" data-code-bubble="ECN 100B">ECN 100B</span></span>, and <span class="sc_courseinline"><span class="code_bubble" data-code-bubble="ECN 101">ECN 101</span></span> at UC Davis.  </p>
+
+<p>Except under extraordinary circumstances, not more than two economics courses should be taken in any one quarter. In special cases, the department will accept a limited number of related upper division courses from other departments in satisfaction of the economics upper division course requirements. Approval from a departmental advisor is required in all such cases.</p>
+<h2>Preparatory Subject Matter</h2>
+<p>Preparatory Subject Matter Subtotal — 20-24 units</p>
+<div class="page layoutArea column" title="Page 334">
+<ul>
+	<li>(<span class="sc_courseinline"><span class="code_bubble" data-code-bubble="ECN 001A">ECN 001A</span></span> or <span class="sc_courseinline"><span class="code_bubble" data-code-bubble="ECN 001AV">ECN 001AV</span></span> or <span class="sc_courseinline"><span class="code_bubble" data-code-bubble="ECN 001AY">ECN 001AY</span></span>) and (<span class="sc_courseinline"><span class="code_bubble" data-code-bubble="ECN 001B">ECN 001B</span></span> or <span class="sc_courseinline"><span class="code_bubble" data-code-bubble="ECN 001BV">ECN 001BV</span></span>) — 8 units</li>
+
+	<li>(<span class="sc_courseinline"><span class="code_bubble" data-code-bubble="STA 013">STA 013</span></span> or <span class="sc_courseinline"><span class="code_bubble" data-code-bubble="STA 031V">STA 031V</span></span> or <span class="sc_courseinline"><span class="code_bubble" data-code-bubble="STA 013Y">STA 013Y</span></span>) or <span class="sc_courseinline"><span class="code_bubble" data-code-bubble="STA 032">STA 032</span></span> — 4 units</li>
+
+	<li>(<span class="sc_courseinline"><span class="code_bubble" data-code-bubble="MAT 016A">MAT 016A</span></span> &amp; <span class="sc_courseinline"><span class="code_bubble" data-code-bubble="MAT 016B">MAT 016B</span></span> &amp; <span class="sc_courseinline"><span class="code_bubble" data-code-bubble="MAT 016C">MAT 016C</span></span>) or (<span class="sc_courseinline"><span class="code_bubble" data-code-bubble="MAT 017A">MAT 017A</span></span> &amp; <span class="sc_courseinline"><span class="code_bubble" data-code-bubble="MAT 017B">MAT 017B</span></span>) or (<span class="sc_courseinline"><span class="code_bubble" data-code-bubble="MAT 019A">MAT 019A</span></span> &amp; <span class="sc_courseinline"><span class="code_bubble" data-code-bubble="MAT 019B">MAT 019B</span></span> &amp; <span class="sc_courseinline"><span class="code_bubble" data-code-bubble="MAT 019C">MAT 019C</span></span>) or (<span class="sc_courseinline"><span class="code_bubble" data-code-bubble="MAT 021A">MAT 021A</span></span> &amp; <span class="sc_courseinline"><span class="code_bubble" data-code-bubble="MAT 021B">MAT 021B</span></span>) — 8-12 units</li>
+
+	<li>MAT series, above, should be completed before taking <span class="sc_courseinline"><span class="code_bubble" data-code-bubble="ECN 100A">ECN 100A</span></span> and <span class="sc_courseinline"><span class="code_bubble" data-code-bubble="ECN 101">ECN 101</span></span>; students need to complete <span class="sc_courseinline"><span class="code_bubble" data-code-bubble="ECN 100A">ECN 100A</span></span> and <span class="sc_courseinline"><span class="code_bubble" data-code-bubble="ECN 101">ECN 101</span></span> before taking the advanced courses.</li>
+
+</ul>
+
+</div>
+
+]]>
+</informationtext>
+<requirementstext name="Requirements">
+<![CDATA[
+<table class="sc_courselist">
+<caption class="hidden noscript">Course List</caption>
+<colgroup>
+<col class="codecol"/>
+<col class="titlecol"/>
+<col align="char" char="." class="hourscol"/>
+</colgroup>
+<thead>
+<tr class="hidden noscript">
+<th scope="col">Code</th>
+<th scope="col">Title</th>
+<th scope="col" class="hourscol">Units</th>
+</tr>
+</thead>
+<tbody>
+<tr class="even firstrow"><td class="codecol"><span class="code_bubble" data-code-bubble="ECN 100A">ECN 100A</span></td><td>Intermediate Micro Theory: Consumer &amp; Producer Theory</td><td class="hourscol">4</td></tr>
+<tr class="orclass even firstrow"><td class="codecol orclass">or <span class="code_bubble" data-code-bubble="ECN 100AV">ECN 100AV</span></td><td colspan="2"> Intermediate Micro Theory: Consumer &amp; Producer Theory</td></tr>
+<tr class="odd"><td class="codecol"><span class="code_bubble" data-code-bubble="ECN 101">ECN 101</span></td><td>Intermediate Macro Theory</td><td class="hourscol">4</td></tr>
+<tr class="even"><td colspan="2"><span class="courselistcomment">Choose 8 units:</span></td><td class="hourscol">8</td></tr>
+<tr class="odd"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="ECN 100B">ECN 100B</span></div></td><td>Intermediate Micro Theory: Imperfect Competition &amp; Market Failure</td><td class="hourscol"></td></tr>
+<tr class="even"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="ECN 103">ECN 103</span></div></td><td>Economics of Uncertainty &amp; Information</td><td class="hourscol"></td></tr>
+<tr class="odd"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="ECN 106">ECN 106</span></div></td><td>Decision Making</td><td class="hourscol"></td></tr>
+<tr class="orclass odd"><td class="codecol orclass"><div style="margin-left:20px;" class="blockindent">or <span class="code_bubble" data-code-bubble="ECN 106Y">ECN 106Y</span></div></td><td colspan="2"> Decision Making</td></tr>
+<tr class="even"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="ECN 116">ECN 116</span></div></td><td>Comparative Economic Systems</td><td class="hourscol"></td></tr>
+<tr class="odd"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="ECN 121A">ECN 121A</span></div></td><td>Industrial Organization</td><td class="hourscol"></td></tr>
+<tr class="even"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="ECN 121B">ECN 121B</span></div></td><td>Industrial Organization</td><td class="hourscol"></td></tr>
+<tr class="odd"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="ECN 122">ECN 122</span></div></td><td>Theory of Games &amp; Strategic Behavior</td><td class="hourscol"></td></tr>
+<tr class="even"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="ECN 125">ECN 125</span></div></td><td>Energy Economics</td><td class="hourscol"></td></tr>
+<tr class="odd"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="ECN 130">ECN 130</span></div></td><td>Public Microeconomics</td><td class="hourscol"></td></tr>
+<tr class="orclass odd"><td class="codecol orclass"><div style="margin-left:20px;" class="blockindent">or <span class="code_bubble" data-code-bubble="ECN 130Y">ECN 130Y</span></div></td><td colspan="2"> Public Microeconomics</td></tr>
+<tr class="even"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="ECN 131">ECN 131</span></div></td><td>Public Finance</td><td class="hourscol"></td></tr>
+<tr class="orclass even"><td class="codecol orclass"><div style="margin-left:20px;" class="blockindent">or <span class="code_bubble" data-code-bubble="ECN 131V">ECN 131V</span></div></td><td colspan="2"> Public Finance</td></tr>
+<tr class="orclass even"><td class="codecol orclass"><div style="margin-left:20px;" class="blockindent">or <span class="code_bubble" data-code-bubble="ECN 131Y">ECN 131Y</span></div></td><td colspan="2"> Public Finance</td></tr>
+<tr class="odd"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="ECN 132">ECN 132</span></div></td><td>Health Economics</td><td class="hourscol"></td></tr>
+<tr class="even"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="ECN 134">ECN 134</span></div></td><td>Financial Economics</td><td class="hourscol"></td></tr>
+<tr class="orclass even"><td class="codecol orclass"><div style="margin-left:20px;" class="blockindent">or <span class="code_bubble" data-code-bubble="ECN 134Y">ECN 134Y</span></div></td><td colspan="2"> Financial Economics</td></tr>
+<tr class="odd"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="ECN 135">ECN 135</span></div></td><td>Money, Banks, &amp; Financial Institutions</td><td class="hourscol"></td></tr>
+<tr class="orclass odd"><td class="codecol orclass"><div style="margin-left:20px;" class="blockindent">or <span class="code_bubble" data-code-bubble="ECN 135Y">ECN 135Y</span></div></td><td colspan="2"> Money, Banks, &amp; Financial Institutions</td></tr>
+<tr class="even"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="ECN 136">ECN 136</span></div></td><td>Topics in Macroeconomic Theory</td><td class="hourscol"></td></tr>
+<tr class="odd"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="ECN 137">ECN 137</span></div></td><td>Macroeconomic Policy</td><td class="hourscol"></td></tr>
+<tr class="even"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="ECN 140">ECN 140</span></div></td><td>Econometrics</td><td class="hourscol"></td></tr>
+<tr class="odd"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="ECN 141">ECN 141</span></div></td><td>Economic &amp; Financial Forecasting</td><td class="hourscol"></td></tr>
+<tr class="even"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="ECN 145">ECN 145</span></div></td><td>Transportation Economics</td><td class="hourscol"></td></tr>
+<tr class="odd"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="ECN 151A">ECN 151A</span></div></td><td>Economics of the Labor Market</td><td class="hourscol"></td></tr>
+<tr class="even"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="ECN 151B">ECN 151B</span></div></td><td>Economics of Human Resources</td><td class="hourscol"></td></tr>
+<tr class="odd"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="ECN 152">ECN 152</span></div></td><td>Economics of Education</td><td class="hourscol"></td></tr>
+<tr class="even"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="ECN 160A">ECN 160A</span></div></td><td>International Microeconomics</td><td class="hourscol"></td></tr>
+<tr class="orclass even"><td class="codecol orclass"><div style="margin-left:20px;" class="blockindent">or <span class="code_bubble" data-code-bubble="ECN 160AY">ECN 160AY</span></div></td><td colspan="2"> International Microeconomics</td></tr>
+<tr class="odd"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="ECN 160B">ECN 160B</span></div></td><td>International Macroeconomics</td><td class="hourscol"></td></tr>
+<tr class="even"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="ECN 167">ECN 167</span></div></td><td>Economic Development in Weak States</td><td class="hourscol"></td></tr>
+<tr class="orclass even"><td class="codecol orclass"><div style="margin-left:20px;" class="blockindent">or <span class="code_bubble" data-code-bubble="ECN 167Y">ECN 167Y</span></div></td><td colspan="2"> Economic Development in Weak States</td></tr>
+<tr class="odd"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="ARE 139">ARE 139</span></div></td><td>Futures &amp; Options Markets</td><td class="hourscol"></td></tr>
+<tr class="even"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="ARE 156">ARE 156</span></div></td><td>Introduction to Mathematical Economics</td><td class="hourscol"></td></tr>
+<tr class="odd"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="ARE 166">ARE 166</span></div></td><td>Economics of Global Poverty Reduction: What Works &amp; Why</td><td class="hourscol"></td></tr>
+<tr class="even"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="ARE 175">ARE/ESP 175</span></div></td><td>Natural Resource Economics</td><td class="hourscol"></td></tr>
+<tr class="odd"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="ARE 176">ARE 176</span></div></td><td>Environmental Economics</td><td class="hourscol"></td></tr>
+<tr class="even"><td colspan="2"><span class="courselistcomment">Choose 4 units in upper division Economics (ECN) courses.</span></td><td class="hourscol">4</td></tr>
+<tr class="odd lastrow"><td colspan="2"><div style="margin-left:20px;" class="blockindent"><span class="courselistcomment commentindent"><a href="/courses-subject-code/ecn/">Economics (ECN)</a></span></div></td><td class="hourscol"></td></tr>
+<tr class="listsum"><td colspan="2">Total Units</td><td class="hourscol">20</td></tr></tbody>
+</table>
+
+]]>
+</requirementstext>
+<quickviewtext name="Quick View">
+<![CDATA[
+<p>How should a society allocate and distribute its resources? Which needs should have the highest priority? Economists study how people use limited resources to satisfy their unlimited wants. They create scientific models to explain why people behave the way they do and use these models along with observations to analyze and explain why things happen the way they do. Based on this knowledge, they can propose solutions to problems.</p>
+]]>
+</quickviewtext>
+<faculty>
+<![CDATA[
+]]>
+</faculty>
+</courseleaf>
+

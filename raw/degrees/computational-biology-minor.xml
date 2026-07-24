@@ -1,0 +1,101 @@
+<?xml version="1.0"?>
+<courseleaf>
+
+<title>Computational Biology, Minor</title>
+
+
+<text>
+<![CDATA[  
+
+  
+]]>
+</text>
+<informationtext name="Information">
+<![CDATA[
+<p>The minor in Computational Biology will provide to students with engineering, physical science or biological science majors the foundations necessary to build efficient computational models and algorithms, use state-of-the-art techniques for scientific analysis and create scalable infrastructure environments for biological and biotechnological applications.</p>
+<p>More information can be found at <a href="https://cs.ucdavis.edu/minors">Computer Science Minors</a>.</p>
+<h2>Minor Advisors</h2>
+<h3>Faculty Advisors</h3>
+<p>V. Filkov, P. Koehl, I. Tagkopoulos</p>
+<h3>Academic Advisors</h3>
+<p>J. Clifford, K. Gage, M. Ramirez, P. Kumari</p>
+]]>
+</informationtext>
+<requirementstext name="Requirements">
+<![CDATA[
+<p>Students must take a total of 20 upper-division units, with two required courses and 12 units of upper-division electives, as specified below. A minimum GPA of 2.000 is required for coursework in the minor. Students should note that most of the courses listed below have lower-division prerequisites. No more than one course of upper-division work will be permitted for overlap between any major and the minor.</p>
+<table class="sc_courselist">
+<caption class="hidden noscript">Course List</caption>
+<colgroup>
+<col class="codecol"/>
+<col class="titlecol"/>
+<col align="char" char="." class="hourscol"/>
+</colgroup>
+<thead>
+<tr class="hidden noscript">
+<th scope="col">Code</th>
+<th scope="col">Title</th>
+<th scope="col" class="hourscol">Units</th>
+</tr>
+</thead>
+<tbody>
+<tr class="even areaheader  firstrow"><td colspan="2"><span class="courselistcomment areaheader ">Required Courses</span></td><td class="hourscol"></td></tr>
+<tr class="odd areasubheader undefined"><td colspan="2"><span class="courselistcomment areasubheader undefined">Choose one algorithms course:</span></td><td class="hourscol">4</td></tr>
+<tr class="even"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="ECS 117">ECS 117</span></div></td><td>Algorithms for Data Science</td><td class="hourscol"></td></tr>
+<tr class="odd"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="ECS 122A">ECS 122A</span></div></td><td>Algorithm Design &amp; Analysis </td><td class="hourscol"></td></tr>
+<tr class="even areasubheader undefined"><td colspan="2"><span class="courselistcomment areasubheader undefined">Choose one bioinformatics course:</span></td><td class="hourscol">4</td></tr>
+<tr class="odd"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="ECS 124">ECS 124</span></div></td><td>Theory &amp; Practice of Bioinformatics</td><td class="hourscol"></td></tr>
+<tr class="even"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="ECS 129">ECS 129</span></div></td><td>Computational Structural Bioinformatics                              </td><td class="hourscol"></td></tr>
+<tr class="odd areaheader "><td colspan="2"><span class="courselistcomment areaheader ">Electives</span></td><td class="hourscol"></td></tr>
+<tr class="even areasubheader undefined"><td colspan="2"><span class="courselistcomment areasubheader undefined">Choose a minimum of 12 units:</span></td><td class="hourscol">12</td></tr>
+<tr class="odd"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="BIM 117">BIM 117</span></div></td><td>Modeling Strategies for Biomedical Engineering</td><td class="hourscol"></td></tr>
+<tr class="even"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="BIS 101">BIS 101</span></div></td><td>Genes &amp; Gene Expression</td><td class="hourscol"></td></tr>
+<tr class="orclass even"><td class="codecol orclass"><div style="margin-left:20px;" class="blockindent">or <span class="code_bubble" data-code-bubble="BIS 101V">BIS 101V</span></div></td><td colspan="2"> Genes &amp; Gene Expression</td></tr>
+<tr class="odd"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="BIS 104">BIS 104</span></div></td><td>Cell Biology</td><td class="hourscol"></td></tr>
+<tr class="even"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="BIS 122">BIS 122</span></div></td><td>Population Biology &amp; Ecology (Discontinued for winter 2027) <sup>**</sup></td><td class="hourscol"></td></tr>
+<tr class="odd"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="BIT 150">BIT 150</span></div></td><td>Applied Bioinformatics </td><td class="hourscol"></td></tr>
+<tr class="even"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="ECS 111">ECS 111</span></div></td><td>Applied Machine Learning for Non-Majors</td><td class="hourscol"></td></tr>
+<tr class="orclass even"><td class="codecol orclass"><div style="margin-left:20px;" class="blockindent">or <span class="code_bubble" data-code-bubble="ECS 171">ECS 171</span></div></td><td colspan="2"> Machine Learning</td></tr>
+<tr class="odd"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="ECS 116">ECS 116</span></div></td><td>Databases for Non-Majors</td><td class="hourscol"></td></tr>
+<tr class="orclass odd"><td class="codecol orclass"><div style="margin-left:20px;" class="blockindent">or <span class="code_bubble" data-code-bubble="ECS 165A">ECS 165A</span></div></td><td colspan="2"> Database Systems</td></tr>
+<tr class="even"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="ECS 117">ECS 117</span></div></td><td>Algorithms for Data Science <sup>1</sup></td><td class="hourscol"></td></tr>
+<tr class="odd"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="ECS 122A">ECS 122A</span></div></td><td>Algorithm Design &amp; Analysis  <sup>1</sup></td><td class="hourscol"></td></tr>
+<tr class="even"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="ECS 124">ECS 124</span></div></td><td>Theory &amp; Practice of Bioinformatics <sup>1</sup></td><td class="hourscol"></td></tr>
+<tr class="odd"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="ECS 129">ECS 129</span></div></td><td>Computational Structural Bioinformatics                               <sup>1</sup></td><td class="hourscol"></td></tr>
+<tr class="even"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="ECS 130">ECS 130</span></div></td><td>Scientific Computation</td><td class="hourscol"></td></tr>
+<tr class="odd"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="ECS 132">ECS 132</span></div></td><td>Probability &amp; Statistical Modeling for Computer Science</td><td class="hourscol"></td></tr>
+<tr class="even"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="ECS 140A">ECS 140A</span></div></td><td>Programming Languages </td><td class="hourscol"></td></tr>
+<tr class="odd"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="ECS 145">ECS 145</span></div></td><td>Scripting Languages &amp; Their Applications</td><td class="hourscol"></td></tr>
+<tr class="even"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="ECS 158">ECS 158</span></div></td><td>Programming on Parallel Architectures</td><td class="hourscol"></td></tr>
+<tr class="odd"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="ECS 160">ECS 160</span></div></td><td> Software Engineering</td><td class="hourscol"></td></tr>
+<tr class="even"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="ECS 170">ECS 170</span></div></td><td>Introduction to Artificial Intelligence</td><td class="hourscol"></td></tr>
+<tr class="odd"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="ECS 177">ECS 177</span></div></td><td>Scientific Visualization	</td><td class="hourscol"></td></tr>
+<tr class="even"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="EVE 100">EVE 100</span></div></td><td>Introduction to Evolution</td><td class="hourscol"></td></tr>
+<tr class="odd"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="EVE 101">EVE 101</span></div></td><td>Introduction to Ecology</td><td class="hourscol"></td></tr>
+<tr class="even"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="EVE 102">EVE 102</span></div></td><td>Population &amp; Quantitative Genetics</td><td class="hourscol"></td></tr>
+<tr class="odd"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="EVE 103">EVE 103</span></div></td><td>Phylogeny, Speciation &amp; Macroevolution</td><td class="hourscol"></td></tr>
+<tr class="even"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="EVE 131">EVE 131</span></div></td><td>Human Genetic Variation &amp; Evolution</td><td class="hourscol"></td></tr>
+<tr class="odd"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="MCB 121">MCB 121</span></div></td><td>Advanced Molecular Biology</td><td class="hourscol"></td></tr>
+<tr class="even"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="MCB 124">MCB 124</span></div></td><td>Macromolecular Structure &amp; Function</td><td class="hourscol"></td></tr>
+<tr class="odd"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="MCB 182">MCB 182</span></div></td><td>Principles of Genomics</td><td class="hourscol"></td></tr>
+<tr class="even"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="STA 130A">STA 130A</span></div></td><td>Mathematical Statistics: Brief Course</td><td class="hourscol"></td></tr>
+<tr class="odd"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="STA 141A">STA 141A</span></div></td><td>Fundamentals of Statistical Data Science</td><td class="hourscol"></td></tr>
+<tr class="even"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="STA 141B">STA 141B</span></div></td><td>Data &amp; Web Technologies for Data Analysis</td><td class="hourscol"></td></tr>
+<tr class="odd lastrow"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="STA 141C">STA 141C</span></div></td><td>Big Data &amp; High Performance Statistical Computing</td><td class="hourscol"></td></tr>
+<tr class="listsum"><td colspan="2">Total Units</td><td class="hourscol">20</td></tr></tbody>
+</table>
+
+<dl class="sc_footnotes" aria-label="Footnotes"><dt> <sup> 1 </sup> </dt><dd><p class="noindent">No course can count as both a required course and an elective in the minor.</p></dd></dl>
+]]>
+</requirementstext>
+<quickviewtext name="Quick View">
+<![CDATA[
+<p>The <span class="title-main">Computational Biology </span>minor provides students in engineering, physical, or biological majors the foundations necessary to build efficient computational models and algorithms, use state-of-the-art techniques for scientific analysis, and create scalable infrastructure environments for biological and biotechnological applications.</p>
+]]>
+</quickviewtext>
+<faculty>
+<![CDATA[
+]]>
+</faculty>
+</courseleaf>
+

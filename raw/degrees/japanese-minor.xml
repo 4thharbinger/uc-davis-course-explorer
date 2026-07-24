@@ -1,0 +1,66 @@
+<?xml version="1.0"?>
+<courseleaf>
+
+<title>Japanese, Minor</title>
+
+
+<text>
+<![CDATA[  
+
+  
+]]>
+</text>
+<informationtext name="Information">
+<![CDATA[
+<p>A minor is offered in Japanese for students wishing to follow a formally recognized program of study in Japanese language and literature. For the minor, students may take one (regular, letter-graded) course on a P/NP basis. Courses which are only offered on a P/NP basis do not count toward these limits.</p>
+
+
+
+]]>
+</informationtext>
+<requirementstext name="Requirements">
+<![CDATA[
+<table class="sc_courselist">
+<caption class="hidden noscript">Course List</caption>
+<colgroup>
+<col class="codecol"/>
+<col class="titlecol"/>
+<col align="char" char="." class="hourscol"/>
+</colgroup>
+<thead>
+<tr class="hidden noscript">
+<th scope="col">Code</th>
+<th scope="col">Title</th>
+<th scope="col" class="hourscol">Units</th>
+</tr>
+</thead>
+<tbody>
+<tr class="even firstrow"><td colspan="2"><span class="courselistcomment">All upper division JPN courses, including both language courses and literature in translation courses, may be used to meet this requirement. </span></td><td class="hourscol">20</td></tr>
+<tr class="odd"><td colspan="2"><span class="courselistcomment">One approved lower division course may also be used:</span></td><td class="hourscol"></td></tr>
+<tr class="even"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="JPN 010">JPN 010</span></div></td><td>Masterworks of Japanese Literature (in English)</td><td class="hourscol"></td></tr>
+<tr class="odd"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="JPN 025">JPN 025</span></div></td><td>Japanese Language &amp; Culture (in English)</td><td class="hourscol"></td></tr>
+<tr class="even"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="JPN 050">JPN 050</span></div></td><td>Introduction to the Literature of China &amp; Japan</td><td class="hourscol"></td></tr>
+<tr class="odd"><td colspan="2"><span class="courselistcomment">In addition, students must demonstrate their language proficiency, normally through completion of:</span></td><td class="hourscol"></td></tr>
+<tr class="even"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="JPN 006">JPN 006</span></div></td><td>Intermediate Japanese</td><td class="hourscol"></td></tr>
+<tr class="odd"><td colspan="2"><span class="courselistcomment">Only 4 units from the following may be applied to the minor:</span></td><td class="hourscol"></td></tr>
+<tr class="even"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="JPN 192">JPN 192</span></div></td><td>Japanese Internship</td><td class="hourscol"></td></tr>
+<tr class="odd"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="JPN 197T">JPN 197T</span></div></td><td>Tutoring in Japanese</td><td class="hourscol"></td></tr>
+<tr class="even"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="JPN 198">JPN 198</span></div></td><td>Directed Group Study</td><td class="hourscol"></td></tr>
+<tr class="odd"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="JPN 199">JPN 199</span></div></td><td>Special Study for Advanced Undergraduates</td><td class="hourscol"></td></tr>
+<tr class="even lastrow"><td colspan="2"><div style="margin-left:20px;" class="blockindent"><span class="courselistcomment commentindent">For details, consult the undergraduate advisor.</span></div></td><td class="hourscol"></td></tr>
+<tr class="listsum"><td colspan="2">Total Units</td><td class="hourscol">20</td></tr></tbody>
+</table>
+
+]]>
+</requirementstext>
+<quickviewtext name="Quick View">
+<![CDATA[
+<p>The Japanese minor complements any major in the sciences, social sciences, humanities, or the arts. The minor is comprised of literature and culture courses taught in English or Japanese. Fulfilling the minor prepares you for the increasingly global contexts of the modern world.</p>
+]]>
+</quickviewtext>
+<faculty>
+<![CDATA[
+]]>
+</faculty>
+</courseleaf>
+

@@ -1,0 +1,61 @@
+<?xml version="1.0"?>
+<courseleaf>
+
+<title>Materials Science, Minor</title>
+
+
+<text>
+<![CDATA[  
+
+  
+]]>
+</text>
+<informationtext name="Information">
+<![CDATA[
+<h2>Minor</h2>
+<p>There is a constant need for professionals with more knowledge and experience in understanding the behavior of materials from which products such as electronics, sensors, biological implants, transportation vehicles, medical devices and infrastructure are made. The goal of this minor is to prepare students for careers that require training in materials science, including the fundamentals of thermodynamics and kinetics and their effects on phase composition and structure, as well as the complex relationships between composition, structure, processing and behavior/performance. Topics covered include material thermodynamics and kinetics, materials structural analysis, and structure-property relationships for electronic, optical, magnetic and mechanical behavior. The minor is expected to accommodate persons of diverse backgrounds, such as those majoring in engineering, physical sciences, biological sciences, and mathematics.</p>
+<p>All courses must be taken for a letter grade. A grade of C- or better is required for all courses used to satisfy minor requirements, with an overall GPA in minor requirement courses of 2.000 or better.</p>
+<h3>Minor Advisor</h3>
+<p>S. Gentry (Department of Materials Science &amp; Engineering)</p>
+]]>
+</informationtext>
+<requirementstext name="Requirements">
+<![CDATA[
+<table class="sc_courselist">
+<caption class="hidden noscript">Course List</caption>
+<colgroup>
+<col class="codecol"/>
+<col class="titlecol"/>
+<col align="char" char="." class="hourscol"/>
+</colgroup>
+<thead>
+<tr class="hidden noscript">
+<th scope="col">Code</th>
+<th scope="col">Title</th>
+<th scope="col" class="hourscol">Units</th>
+</tr>
+</thead>
+<tbody>
+<tr class="even firstrow"><td class="codecol"><span class="code_bubble" data-code-bubble="EMS 160">EMS 160</span></td><td>Thermodynamics of Materials</td><td class="hourscol">4</td></tr>
+<tr class="odd"><td class="codecol"><span class="code_bubble" data-code-bubble="EMS 162">EMS 162</span></td><td>Structure &amp; Characterization of Engineering Materials</td><td class="hourscol">4</td></tr>
+<tr class="even"><td class="codecol"><span class="code_bubble" data-code-bubble="EMS 164">EMS 164</span></td><td>Kinetics of Materials</td><td class="hourscol">4</td></tr>
+<tr class="odd"><td class="codecol"><span class="code_bubble" data-code-bubble="EMS 172">EMS 172</span></td><td>Smart Materials</td><td class="hourscol">4</td></tr>
+<tr class="orclass odd"><td class="codecol orclass">or <span class="code_bubble" data-code-bubble="EMS 174">EMS 174</span></td><td colspan="2"> Mechanical Behavior of Materials </td></tr>
+<tr class="even"><td colspan="2"><span class="courselistcomment">Choose an additional 4 units of upper division letter graded Material Science &amp; Engineering (EMS) coursework.</span></td><td class="hourscol">4</td></tr>
+<tr class="odd lastrow"><td colspan="2"><div style="margin-left:20px;" class="blockindent"><span class="courselistcomment commentindent"><a href="/courses-subject-code/ems/">Material Science &amp; Engineering (EMS) courses.</a></span></div></td><td class="hourscol"></td></tr>
+<tr class="listsum"><td colspan="2">Total Units</td><td class="hourscol">20</td></tr></tbody>
+</table>
+
+]]>
+</requirementstext>
+<quickviewtext name="Quick View">
+<![CDATA[
+<p>There is a constant need for professionals with knowledge and experience in the behavior of materials from which products; such as electronics, biological implants, transportation vehicles, medical devices, and infrastructures are made. The <span class="title-main">Materials Science </span>minor prepares students for careers that require training in materials science and are majoring in engineering, physical sciences, biological sciences, and mathematics.</p>
+]]>
+</quickviewtext>
+<faculty>
+<![CDATA[
+]]>
+</faculty>
+</courseleaf>
+

@@ -1,0 +1,191 @@
+<?xml version="1.0"?>
+<courseleaf>
+
+<title>Materials Science &amp; Engineering, Bachelor of Science</title>
+
+
+<text>
+<![CDATA[  
+
+  
+]]>
+</text>
+<informationtext name="Information">
+<![CDATA[
+<h2>Materials Science &amp; Engineering Undergraduate Program</h2>
+<p>The Materials Science &amp; Engineering Bachelor of Science is accredited by the Engineering Accreditation Commission of <a href="http://www.abet.org">ABET</a> under the commission's General Criteria and Program Criteria for Materials, Metallurgical, Ceramics, and Similarly Named Engineering Programs.  </p>
+<p>Materials science and engineering is directed toward an understanding of the structure, properties, and processing of materials. Society demands new and improved materials with capabilities far superior to common metals, polymers, and ceramics. New materials are needed for high-speed transportation systems, surgical and dental implants, new generations of power plants, renewable energy sources, and solid-state electronic and photonics devices in computer and communication technology. Both the development of new materials and the understanding of present-day materials demand a thorough knowledge of basic engineering and scientific principles, including crystal structure, elastic and plastic behavior, thermodynamics, phase equilibria and reaction rates, and structural and physical and chemical behavior of engineering materials.</p>
+<p>Materials engineers study phenomena found in many different engineering operations, from fracture behavior in automobiles to fatigue behavior in aircraft frames, from corrosion behavior in petro-chemical refineries to radiation-induced damage in nuclear power plants, and from the fabrication of steel to the design of semiconductors. Materials engineers are also increasingly involved in developing the new materials needed to attain higher efficiencies in existing and proposed energy conversion schemes and will play a central role in the development of new technologies based on composites and high-temperature superconductivity.</p>
+<p>The undergraduate materials science and engineering program provides the background for activities in research, processing, and the design of materials. The curriculum is based on a common core of courses basic to engineering; courses taken during your first two years provide a strong foundation in fundamental engineering concepts.</p>
+<h3>Objectives</h3>
+<p>We educate students in the fundamentals of materials science and engineering, balanced with the application of these principles to practical problems; educate students as independent, critical thinkers who can also function effectively in a team; educate students with a sense of community, ethical responsibility, and professionalism; educate students for careers in industry, government, and academia; teach students the necessity for continuing education and self-learning; and foster proficiency in written and oral communications.</p>
+<p>Students are encouraged to adhere carefully to all prerequisite requirements. The instructor is authorized to drop students from a course for which stated prerequisites have not been completed.</p>
+<h3>Honors Program</h3>
+<p>An Honors Program is available to qualified students in Materials Science &amp; Engineering. It is a two-year program designed to challenge the most talented students in these majors. Students are invited to participate in their sophomore year. In the upper division coursework, students will complete either an honors thesis or a project that might involve local industry. Students must maintain a grade point average of 3.500 to continue in the program. Successful completion of the Honors Program will be acknowledged on the student's transcript.</p>
+]]>
+</informationtext>
+<requirementstext name="Requirements">
+<![CDATA[
+<p>The major requirements below are in addition to meeting <a href="/undergraduate-education/university-degree-requirements/">University Degree Requirements</a> &amp; <a href="/undergraduate-education/college-degree-requirements/">College Degree Requirements</a>; unless otherwise noted. The minimum number of units required for the Materials Science &amp; Engineering Bachelor of Science is 157.</p>
+<table class="sc_courselist">
+<caption class="hidden noscript">Course List</caption>
+<colgroup>
+<col class="codecol"/>
+<col class="titlecol"/>
+<col align="char" char="." class="hourscol"/>
+</colgroup>
+<thead>
+<tr class="hidden noscript">
+<th scope="col">Code</th>
+<th scope="col">Title</th>
+<th scope="col" class="hourscol">Units</th>
+</tr>
+</thead>
+<tbody>
+<tr class="even areaheader  firstrow"><td colspan="2"><span class="courselistcomment areaheader ">Lower Division Required Courses</span></td><td class="hourscol"></td></tr>
+<tr class="odd areasubheader undefined"><td colspan="2"><span class="courselistcomment areasubheader undefined">Mathematics</span></td><td class="hourscol"></td></tr>
+<tr class="even"><td class="codecol"><span class="code_bubble" data-code-bubble="MAT 021A">MAT 021A</span></td><td>Calculus</td><td class="hourscol">4</td></tr>
+<tr class="odd"><td class="codecol"><span class="code_bubble" data-code-bubble="MAT 021B">MAT 021B</span></td><td>Calculus</td><td class="hourscol">4</td></tr>
+<tr class="even"><td class="codecol"><span class="code_bubble" data-code-bubble="MAT 021C">MAT 021C</span></td><td>Calculus</td><td class="hourscol">4</td></tr>
+<tr class="odd"><td class="codecol"><span class="code_bubble" data-code-bubble="MAT 021D">MAT 021D</span></td><td>Vector Analysis</td><td class="hourscol">4</td></tr>
+<tr class="even"><td class="codecol"><span class="code_bubble" data-code-bubble="MAT 022A">MAT 022A</span></td><td>Linear Algebra</td><td class="hourscol">3</td></tr>
+<tr class="odd"><td class="codecol"><span class="code_bubble" data-code-bubble="MAT 022B">MAT 022B</span></td><td>Differential Equations</td><td class="hourscol">3</td></tr>
+<tr class="even areasubheader undefined"><td colspan="2"><span class="courselistcomment areasubheader undefined">Physics</span></td><td class="hourscol"></td></tr>
+<tr class="odd"><td class="codecol"><span class="code_bubble" data-code-bubble="PHY 009A">PHY 009A</span></td><td>Classical Physics</td><td class="hourscol">5</td></tr>
+<tr class="even"><td class="codecol"><span class="code_bubble" data-code-bubble="PHY 009B">PHY 009B</span></td><td>Classical Physics</td><td class="hourscol">5</td></tr>
+<tr class="odd"><td class="codecol"><span class="code_bubble" data-code-bubble="PHY 009C">PHY 009C</span></td><td>Classical Physics</td><td class="hourscol">5</td></tr>
+<tr class="even"><td class="codecol"><span class="code_bubble" data-code-bubble="PHY 009D">PHY 009D</span></td><td>Modern Physics</td><td class="hourscol">4</td></tr>
+<tr class="odd areasubheader undefined"><td colspan="2"><span class="courselistcomment areasubheader undefined">Chemistry</span></td><td class="hourscol"></td></tr>
+<tr class="even"><td class="codecol"><span class="code_bubble" data-code-bubble="CHE 002A">CHE 002A</span></td><td>General Chemistry</td><td class="hourscol">5</td></tr>
+<tr class="orclass even"><td class="codecol orclass">or <span class="code_bubble" data-code-bubble="CHE 002AH">CHE 002AH</span></td><td colspan="2"> Honors General Chemistry</td></tr>
+<tr class="odd"><td class="codecol"><span class="code_bubble" data-code-bubble="CHE 002B">CHE 002B</span></td><td>General Chemistry</td><td class="hourscol">5</td></tr>
+<tr class="orclass odd"><td class="codecol orclass">or <span class="code_bubble" data-code-bubble="CHE 002BH">CHE 002BH</span></td><td colspan="2"> Honors General Chemistry</td></tr>
+<tr class="even"><td class="codecol"><span class="code_bubble" data-code-bubble="CHE 002C">CHE 002C</span></td><td>General Chemistry</td><td class="hourscol">5</td></tr>
+<tr class="orclass even"><td class="codecol orclass">or <span class="code_bubble" data-code-bubble="CHE 002CH">CHE 002CH</span></td><td colspan="2"> Honors General Chemistry</td></tr>
+<tr class="odd areasubheader undefined"><td colspan="2"><span class="courselistcomment areasubheader undefined">Engineering</span></td><td class="hourscol"></td></tr>
+<tr class="even"><td class="codecol"><span class="code_bubble" data-code-bubble="ENG 003">ENG 003</span></td><td>Introduction to Engineering Design</td><td class="hourscol">4</td></tr>
+<tr class="orclass even"><td class="codecol orclass">or <span class="code_bubble" data-code-bubble="ENG 003Y">ENG 003Y</span></td><td colspan="2"> Introduction to Engineering Design</td></tr>
+<tr class="odd"><td colspan="2"><span class="courselistcomment">Choose one:</span></td><td class="hourscol">4</td></tr>
+<tr class="even"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="ENG 017">ENG 017</span></div></td><td>Circuits I</td><td class="hourscol"></td></tr>
+<tr class="orclass even"><td class="codecol orclass"><div style="margin-left:20px;" class="blockindent">or <span class="code_bubble" data-code-bubble="ENG 017V">ENG 017V</span></div></td><td colspan="2"> Circuits I</td></tr>
+<tr class="odd"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="ENG 035">ENG 035</span></div></td><td>Statics</td><td class="hourscol"></td></tr>
+<tr class="even"><td class="codecol"><span class="code_bubble" data-code-bubble="ENG 045">ENG 045</span></td><td>Properties of Materials</td><td class="hourscol">4</td></tr>
+<tr class="orclass even"><td class="codecol orclass">or <span class="code_bubble" data-code-bubble="ENG 045Y">ENG 045Y</span></td><td colspan="2"> Properties of Materials</td></tr>
+<tr class="odd areasubheader undefined"><td colspan="2"><span class="courselistcomment areasubheader undefined">Materials Science Engineering</span></td><td class="hourscol"></td></tr>
+<tr class="even"><td class="codecol"><span class="code_bubble" data-code-bubble="EMS 002">EMS 002</span></td><td>Materials Marvels: The Science of Superheroes</td><td class="hourscol">3</td></tr>
+<tr class="odd areasubheader undefined"><td colspan="2"><span class="courselistcomment areasubheader undefined">Programming</span></td><td class="hourscol"></td></tr>
+<tr class="even"><td class="codecol"><span class="code_bubble" data-code-bubble="ECH 060">ECH 060</span></td><td>Chemical Engineering Problem Solving</td><td class="hourscol">4</td></tr>
+<tr class="orclass even"><td class="codecol orclass">or <span class="code_bubble" data-code-bubble="ECS 032A">ECS 032A</span></td><td colspan="2"> Introduction to Programming</td></tr>
+<tr class="orclass even"><td class="codecol orclass">or <span class="code_bubble" data-code-bubble="ECS 032AV">ECS 032AV</span></td><td colspan="2"> Introduction to Programming</td></tr>
+<tr class="odd"><td colspan="2"><span class="courselistcomment">Lower Division Composition/Writing; choose one: a grade of C- or better is required:</span></td><td class="hourscol">4</td></tr>
+<tr class="even"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="COM 001">COM 001</span></div></td><td>Major Works of the Ancient World</td><td class="hourscol"></td></tr>
+<tr class="odd"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="COM 002">COM 002</span></div></td><td>Major Works of the Medieval &amp; Early Modern World</td><td class="hourscol"></td></tr>
+<tr class="even"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="COM 003">COM 003</span></div></td><td>Major Works of the Modern World</td><td class="hourscol"></td></tr>
+<tr class="odd"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="COM 004">COM 004</span></div></td><td>Major Works of the Contemporary World</td><td class="hourscol"></td></tr>
+<tr class="even"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="ENL 003">ENL 003</span></div></td><td>Introduction to Literature</td><td class="hourscol"></td></tr>
+<tr class="orclass even"><td class="codecol orclass"><div style="margin-left:20px;" class="blockindent">or <span class="code_bubble" data-code-bubble="ENL 003V">ENL 003V</span></div></td><td colspan="2"> Introduction to Literature</td></tr>
+<tr class="odd"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="NAS 005">NAS 005</span></div></td><td>Introduction to Native American Literature</td><td class="hourscol"></td></tr>
+<tr class="orclass odd"><td class="codecol orclass"><div style="margin-left:20px;" class="blockindent">or <span class="code_bubble" data-code-bubble="NAS 005V">NAS 005V</span></div></td><td colspan="2"> Introduction to Native American Literature</td></tr>
+<tr class="even"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="UWP 001">UWP 001</span></div></td><td>Introduction to Academic Literacies (Recommended)</td><td class="hourscol"></td></tr>
+<tr class="orclass even"><td class="codecol orclass"><div style="margin-left:20px;" class="blockindent">or <span class="code_bubble" data-code-bubble="UWP 001Y">UWP 001Y</span></div></td><td colspan="2"> Introduction to Academic Literacies</td></tr>
+<tr class="orclass even"><td class="codecol orclass"><div style="margin-left:20px;" class="blockindent">or <span class="code_bubble" data-code-bubble="UWP 001V">UWP 001V</span></div></td><td colspan="2"> Introduction to Academic Literacies: Online</td></tr>
+<tr class="odd"><td colspan="2"><span class="courselistcomment">Lower Division Required Courses Subtotal</span></td><td class="hourscol">79</td></tr>
+<tr class="even areaheader "><td colspan="2"><span class="courselistcomment areaheader ">Upper Division Required Courses</span></td><td class="hourscol"></td></tr>
+<tr class="odd areasubheader undefined"><td colspan="2"><span class="courselistcomment areasubheader undefined">Engineering</span></td><td class="hourscol"></td></tr>
+<tr class="even"><td class="codecol"><span class="code_bubble" data-code-bubble="ENG 190">ENG 190</span></td><td>Professional Responsibilities of Engineers</td><td class="hourscol">3</td></tr>
+<tr class="odd areasubheader undefined"><td colspan="2"><span class="courselistcomment areasubheader undefined">Materials Science Engineering</span></td><td class="hourscol"></td></tr>
+<tr class="even"><td class="codecol"><span class="code_bubble" data-code-bubble="EMS 160">EMS 160</span></td><td>Thermodynamics of Materials</td><td class="hourscol">4</td></tr>
+<tr class="odd"><td class="codecol"><span class="code_bubble" data-code-bubble="EMS 162">EMS 162</span></td><td>Structure &amp; Characterization of Engineering Materials</td><td class="hourscol">4</td></tr>
+<tr class="even"><td class="codecol"><span class="code_bubble" data-code-bubble="EMS 162L">EMS 162L</span></td><td>Structure &amp; Characterization of Materials Laboratory </td><td class="hourscol">3</td></tr>
+<tr class="odd"><td class="codecol"><span class="code_bubble" data-code-bubble="EMS 164">EMS 164</span></td><td>Kinetics of Materials</td><td class="hourscol">4</td></tr>
+<tr class="even"><td class="codecol"><span class="code_bubble" data-code-bubble="EMS 170">EMS 170</span></td><td>Sustainable Energy Technologies: Batteries, Fuel Cells, &amp; Photovoltaic Cells</td><td class="hourscol">4</td></tr>
+<tr class="odd"><td class="codecol"><span class="code_bubble" data-code-bubble="EMS 170L">EMS 170L</span></td><td>Sustainable Energy Technologies Laboratory</td><td class="hourscol">3</td></tr>
+<tr class="even"><td class="codecol"><span class="code_bubble" data-code-bubble="EMS 172">EMS 172</span></td><td>Smart Materials</td><td class="hourscol">4</td></tr>
+<tr class="odd"><td class="codecol"><span class="code_bubble" data-code-bubble="EMS 172L">EMS 172L</span></td><td>Smart Materials Laboratory</td><td class="hourscol">3</td></tr>
+<tr class="even"><td class="codecol"><span class="code_bubble" data-code-bubble="EMS 174">EMS 174</span></td><td>Mechanical Behavior of Materials </td><td class="hourscol">4</td></tr>
+<tr class="odd"><td class="codecol"><span class="code_bubble" data-code-bubble="EMS 174L">EMS 174L</span></td><td>Mechanical Behavior Laboratory </td><td class="hourscol">3</td></tr>
+<tr class="even"><td class="codecol"><span class="code_bubble" data-code-bubble="EMS 180">EMS 180</span></td><td>Materials in Engineering Design</td><td class="hourscol">4</td></tr>
+<tr class="odd"><td class="codecol"><span class="code_bubble" data-code-bubble="EMS 182">EMS 182</span></td><td>Failure Analysis</td><td class="hourscol">4</td></tr>
+<tr class="even"><td class="codecol"><span class="code_bubble" data-code-bubble="EMS 181">EMS 181</span></td><td>Manufacturing of 3D &amp; Composite Materials</td><td class="hourscol">4</td></tr>
+<tr class="orclass even"><td class="codecol orclass">or <span class="code_bubble" data-code-bubble="EMS 183">EMS 183</span></td><td colspan="2"> Processing of 2D &amp; Nanomaterials</td></tr>
+<tr class="odd"><td class="codecol"><span class="code_bubble" data-code-bubble="EMS 186A">EMS 186A</span></td><td>Materials Design Project</td><td class="hourscol">2</td></tr>
+<tr class="even"><td class="codecol"><span class="code_bubble" data-code-bubble="EMS 186B">EMS 186B</span></td><td>Materials Design Project</td><td class="hourscol">3</td></tr>
+<tr class="odd"><td class="codecol"><span class="code_bubble" data-code-bubble="EMS 186C">EMS 186C</span></td><td>Materials Design Project</td><td class="hourscol">3</td></tr>
+<tr class="even"><td colspan="2"><span class="courselistcomment">Choose one:</span></td><td class="hourscol">4</td></tr>
+<tr class="odd"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="ECH 140">ECH 140</span></div></td><td>Mathematical Methods in Biochemical &amp; Chemical Engineering </td><td class="hourscol"></td></tr>
+<tr class="even"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="ECI 114">ECI 114</span></div></td><td>Probabilistic Systems Analysis for Civil &amp; Environmental Engineers</td><td class="hourscol"></td></tr>
+<tr class="odd"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="EME 115">EME 115</span></div></td><td>Introduction to Numerical Analysis &amp; Methods</td><td class="hourscol"></td></tr>
+<tr class="even"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="ENG 180">ENG 180</span></div></td><td>Engineering Analysis</td><td class="hourscol"></td></tr>
+<tr class="odd"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="MAT 107">MAT/BIS 107</span></div></td><td>Probability &amp; Stochastic Processes with Applications to Biology</td><td class="hourscol"></td></tr>
+<tr class="even"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="MAT 118A">MAT 118A</span></div></td><td>Partial Differential Equations: Elementary Methods</td><td class="hourscol"></td></tr>
+<tr class="odd"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="MAT 128A">MAT 128A</span></div></td><td>Numerical Analysis</td><td class="hourscol"></td></tr>
+<tr class="even"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="MAT 128B">MAT 128B</span></div></td><td>Numerical Analysis in Solution of Equations</td><td class="hourscol"></td></tr>
+<tr class="odd"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="MAT 128C">MAT 128C</span></div></td><td>Numerical Analysis in Differential Equations</td><td class="hourscol"></td></tr>
+<tr class="even"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="MAT 135A">MAT 135A</span></div></td><td>Probability</td><td class="hourscol"></td></tr>
+<tr class="odd"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="MAT 167">MAT 167</span></div></td><td>Applied Linear Algebra</td><td class="hourscol"></td></tr>
+<tr class="orclass odd"><td class="codecol orclass"><div style="margin-left:20px;" class="blockindent">or <span class="code_bubble" data-code-bubble="MAT 167V">MAT 167V</span></div></td><td colspan="2"> Applied Linear Algebra</td></tr>
+<tr class="even"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="MAT 168">MAT 168</span></div></td><td>Optimization</td><td class="hourscol"></td></tr>
+<tr class="orclass even"><td class="codecol orclass"><div style="margin-left:20px;" class="blockindent">or <span class="code_bubble" data-code-bubble="MAT 168V">MAT 168V</span></div></td><td colspan="2"> Optimization</td></tr>
+<tr class="odd"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="PHY 104A">PHY 104A</span></div></td><td>Introduction to Mathematical Methods in Physics</td><td class="hourscol"></td></tr>
+<tr class="even"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="STA 131A">STA 131A</span></div></td><td>Introduction to Probability Theory</td><td class="hourscol"></td></tr>
+<tr class="odd"><td colspan="2"><span class="courselistcomment">Choose one:</span></td><td class="hourscol">3-4</td></tr>
+<tr class="even"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="CHE 110A">CHE 110A</span></div></td><td>Physical Chemistry: Introduction to Quantum Mechanics</td><td class="hourscol"></td></tr>
+<tr class="odd"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="CHE 124A">CHE 124A</span></div></td><td>Inorganic Chemistry: Fundamentals</td><td class="hourscol"></td></tr>
+<tr class="even"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="CHE 128A">CHE 128A</span></div></td><td>Organic Chemistry</td><td class="hourscol"></td></tr>
+<tr class="odd"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="PHY 108">PHY 108</span><br/><span style="margin-left:20px;" class="blockindent">&amp; <span class="code_bubble" data-code-bubble="PHY 108L">108L</span></span></div></td><td>Optics<br/><span style="margin-left:20px;" class="blockindent">and Optics Laboratory</span></td><td class="hourscol"></td></tr>
+<tr class="even"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="PHY 110A">PHY 110A</span></div></td><td>Electricity &amp; Magnetism</td><td class="hourscol"></td></tr>
+<tr class="odd"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="PHY 122A">PHY 122A</span></div></td><td>Advanced Laboratory in Condensed Matter Physics</td><td class="hourscol"></td></tr>
+<tr class="even"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="PHY 151">PHY 151</span></div></td><td>Stellar Structure &amp; Evolution</td><td class="hourscol"></td></tr>
+<tr class="odd"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="PHY 160">PHY 160/ENG 160 DISCONTINUED FOR WINTER 2026 **</span></div></td><td> (Discontinued for winter 2026) <sup>**</sup></td><td class="hourscol"></td></tr>
+<tr class="even areasubheader undefined"><td colspan="2"><span class="courselistcomment areasubheader undefined">Focused Electives</span></td><td class="hourscol"></td></tr>
+<tr class="odd"><td colspan="2"><span class="courselistcomment">Courses used to satisfy degree requirements are not eligible to be used to satisfy the elective requirement.</span></td><td class="hourscol">12</td></tr>
+<tr class="even"><td colspan="2"><span class="courselistcomment">Students may elect to choose up to 5 units from the following lower division courses:</span></td><td class="hourscol"></td></tr>
+<tr class="odd"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="BIM 020">BIM 020</span></div></td><td>Fundamentals of Bioengineering</td><td class="hourscol"></td></tr>
+<tr class="even"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="BIS 002A">BIS 002A</span></div></td><td>Introduction to Biology: Essentials of Life on Earth</td><td class="hourscol"></td></tr>
+<tr class="orclass even"><td class="codecol orclass"><div style="margin-left:20px;" class="blockindent">or <span class="code_bubble" data-code-bubble="BIO 002">BIO 002</span></div></td><td colspan="2"> Introductory Biology: Molecules to Cells</td></tr>
+<tr class="odd"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="EBS 075">EBS 075</span></div></td><td>Properties of Materials in Biological Systems</td><td class="hourscol"></td></tr>
+<tr class="even"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="ENG 017">ENG 017</span></div></td><td>Circuits I</td><td class="hourscol"></td></tr>
+<tr class="orclass even"><td class="codecol orclass"><div style="margin-left:20px;" class="blockindent">or <span class="code_bubble" data-code-bubble="ENG 017V">ENG 017V</span></div></td><td colspan="2"> Circuits I</td></tr>
+<tr class="odd"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="ENG 035">ENG 035</span></div></td><td>Statics</td><td class="hourscol"></td></tr>
+<tr class="even"><td colspan="2"><span class="courselistcomment">Remaining units must be satisfied by the following:</span></td><td class="hourscol"></td></tr>
+<tr class="odd"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="BIM 106">BIM 106</span></div></td><td>Biotransport Phenomena</td><td class="hourscol"></td></tr>
+<tr class="even"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="BIM 109">BIM 109</span></div></td><td>Biomaterials</td><td class="hourscol"></td></tr>
+<tr class="odd"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="ECI 130">ECI 130</span></div></td><td>Structural Analysis</td><td class="hourscol"></td></tr>
+<tr class="even"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="ECI 132">ECI 132</span></div></td><td>Structural Design: Metallic Elements</td><td class="hourscol"></td></tr>
+<tr class="odd"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="EEC 140A">EEC 140A</span></div></td><td>Principles of Device Physics I</td><td class="hourscol"></td></tr>
+<tr class="orclass odd"><td class="codecol orclass"><div style="margin-left:20px;" class="blockindent">or <span class="code_bubble" data-code-bubble="EEC 140AV">EEC 140AV</span></div></td><td colspan="2"> Principles of Device Physics I</td></tr>
+<tr class="even"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="EEC 140B">EEC 140B</span></div></td><td>Principles of Device Physics II</td><td class="hourscol"></td></tr>
+<tr class="odd"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="EEC 146A">EEC 146A</span></div></td><td>Integrated Circuits Fabrication</td><td class="hourscol"></td></tr>
+<tr class="even"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="ENG 100">ENG 100</span></div></td><td>Electronic Circuits &amp; Systems</td><td class="hourscol"></td></tr>
+<tr class="odd"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="ENG 102">ENG 102</span></div></td><td>Dynamics</td><td class="hourscol"></td></tr>
+<tr class="even"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="ENG 103">ENG 103</span></div></td><td>Fluid Mechanics</td><td class="hourscol"></td></tr>
+<tr class="odd"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="ENG 104">ENG 104</span></div></td><td>Mechanics of Materials</td><td class="hourscol"></td></tr>
+<tr class="orclass odd"><td class="codecol orclass"><div style="margin-left:20px;" class="blockindent">or <span class="code_bubble" data-code-bubble="ENG 104V">ENG 104V</span></div></td><td colspan="2"> Mechanics of Materials</td></tr>
+<tr class="even"><td colspan="2"><div style="margin-left:20px;" class="blockindent"><span class="courselistcomment commentindent"><strong>OR</strong></span></div></td><td class="hourscol"></td></tr>
+<tr class="odd"><td colspan="2"><div style="margin-left:20px;" class="blockindent"><span class="courselistcomment commentindent">Any upper division courses in Materials Science &amp; Engineering (EMS); a maximum of 4 units combined in Materials Science &amp; Engineering (EMS) courses numbered 190-197 or 199 can be used to satisfy focused electives requirement.</span></div></td><td class="hourscol"></td></tr>
+<tr class="even"><td colspan="2"><span class="courselistcomment">Choose one; grade of C- or better is required:</span></td><td class="hourscol">0-4</td></tr>
+<tr class="odd"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="UWP 102E">UWP 102E</span></div></td><td>Writing in the Disciplines: Engineering</td><td class="hourscol"></td></tr>
+<tr class="even"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="UWP 102F">UWP 102F</span></div></td><td>Writing in the Disciplines: Food Science &amp; Technology</td><td class="hourscol"></td></tr>
+<tr class="odd"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="UWP 104A">UWP 104A</span></div></td><td>Writing in the Professions: Business Writing</td><td class="hourscol"></td></tr>
+<tr class="orclass odd"><td class="codecol orclass"><div style="margin-left:20px;" class="blockindent">or <span class="code_bubble" data-code-bubble="UWP 104AV">UWP 104AV</span></div></td><td colspan="2"> Writing in the Professions: Business Writing</td></tr>
+<tr class="orclass odd"><td class="codecol orclass"><div style="margin-left:20px;" class="blockindent">or <span class="code_bubble" data-code-bubble="UWP 104AY">UWP 104AY</span></div></td><td colspan="2"> Writing in the Professions: Business Writing</td></tr>
+<tr class="even"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="UWP 104E">UWP 104E</span></div></td><td>Writing in the Professions: Science</td><td class="hourscol"></td></tr>
+<tr class="odd"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="UWP 104T">UWP 104T</span></div></td><td>Writing in the Professions: Technical Writing</td><td class="hourscol"></td></tr>
+<tr class="even"><td colspan="2"><div style="margin-left:20px;" class="blockindent"><span class="courselistcomment commentindent">Passing the Upper Division Composition Exam.</span></div></td><td class="hourscol"></td></tr>
+<tr class="odd lastrow"><td colspan="2"><span class="courselistcomment">Upper Division Required Courses Subtotal</span></td><td class="hourscol">78-83</td></tr>
+<tr class="listsum"><td colspan="2">Total Units</td><td class="hourscol">157-162</td></tr></tbody>
+</table>
+
+]]>
+</requirementstext>
+<quickviewtext name="Quick View">
+<![CDATA[
+<p>Have you ever wondered what your stuff is made of? Cell phones, semiconductors, automobiles, airplanes, tennis rackets, bicycles, Space Shuttle tiles, and surgical implants—all of these objects rely on metals, ceramics, glasses, or polymers. Discovering new materials and integrating them into engineering design is the heart of the <span class="title-main">Materials Science &amp; Engineering </span>discipline.</p>
+]]>
+</quickviewtext>
+<faculty>
+<![CDATA[
+]]>
+</faculty>
+</courseleaf>
+

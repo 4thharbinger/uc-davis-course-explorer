@@ -1,0 +1,79 @@
+<?xml version="1.0"?>
+<courseleaf>
+
+<title>Museum Studies, Minor</title>
+
+
+<text>
+<![CDATA[  
+
+  
+]]>
+</text>
+<informationtext name="Information">
+<![CDATA[
+<p>The Minor in Museum Studies combines study of the history of collecting and museum theory with practical training in curatorship, interpretive writing, and exhibition development. The minor introduces students to the historical development and current practices of all types of museums, including museums of natural history, science, anthropology, art, and heritage sites. Students develop an understanding of issues shared by all types of museums: organization and interpretation of exhibitions, audience engagement, the ethics of display and conservation, the political position of museums in their communities and the role of museums as shapers of culture. Students gain practical skills related to careers in museums, galleries, and other cultural institutions. In addition to two core courses in the minor, students take three Museum Studies-specific electives from a list of choices. The electives divide into roughly five areas representing different aspects of museum work:</p>
+<ul>
+	<li>Practices of contemporary museums.</li>
+	<li>Issues of cultural property and heritage.</li>
+	<li>Public relations and marketing.</li>
+	<li>Writing skills relevant to museum work.</li>
+	<li>Skills related to exhibition planning, design, and installation. </li>
+</ul>
+]]>
+</informationtext>
+<requirementstext name="Requirements">
+<![CDATA[
+<table class="sc_courselist">
+<caption class="hidden noscript">Course List</caption>
+<colgroup>
+<col class="codecol"/>
+<col class="titlecol"/>
+<col align="char" char="." class="hourscol"/>
+</colgroup>
+<thead>
+<tr class="hidden noscript">
+<th scope="col">Code</th>
+<th scope="col">Title</th>
+<th scope="col" class="hourscol">Units</th>
+</tr>
+</thead>
+<tbody>
+<tr class="even areaheader  firstrow"><td colspan="2"><span class="courselistcomment areaheader ">Required Courses</span></td><td class="hourscol"></td></tr>
+<tr class="odd"><td class="codecol"><span class="code_bubble" data-code-bubble="AHI 101">AHI 101</span></td><td>Understanding Museum Practices</td><td class="hourscol">4</td></tr>
+<tr class="even"><td class="codecol"><span class="code_bubble" data-code-bubble="AHI 110">AHI 110</span></td><td>Cultural History of Museums </td><td class="hourscol">4</td></tr>
+<tr class="odd"><td colspan="2"><span class="courselistcomment">Required Courses Subtotal</span></td><td class="hourscol">8</td></tr>
+<tr class="even areaheader "><td colspan="2"><span class="courselistcomment areaheader ">Electives</span></td><td class="hourscol"></td></tr>
+<tr class="odd"><td colspan="2"><span class="courselistcomment">Choose three:</span></td><td class="hourscol">12</td></tr>
+<tr class="even"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="AHI 102">AHI 102</span></div></td><td>Exhibition Practicum </td><td class="hourscol"></td></tr>
+<tr class="odd"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="AHI 120A">AHI/HMR 120A</span></div></td><td>Art, Architecture, &amp; Human Rights</td><td class="hourscol"></td></tr>
+<tr class="even"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="AHI 123">AHI 123</span></div></td><td>The Museum in the Age of Spectacle</td><td class="hourscol"></td></tr>
+<tr class="odd"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="AHI 190L">AHI 190L</span></div></td><td>Undergraduate Seminar in Art History: Cultures of Collecting</td><td class="hourscol"></td></tr>
+<tr class="even"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="ANT 186A">ANT 186A</span></div></td><td> (Discontinued for summer 2025) <sup>**</sup></td><td class="hourscol"></td></tr>
+<tr class="odd"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="ARE 113">ARE 113</span></div></td><td>Fundamentals of Marketing Management</td><td class="hourscol"></td></tr>
+<tr class="even"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="CMN 131">CMN 131</span></div></td><td>Strategic Communication in Public Relations</td><td class="hourscol"></td></tr>
+<tr class="orclass even"><td class="codecol orclass"><div style="margin-left:20px;" class="blockindent">or <span class="code_bubble" data-code-bubble="CMN 131V">CMN 131V</span></div></td><td colspan="2"> Strategic Communication in Public Relations</td></tr>
+<tr class="odd"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="DES 185">DES 185</span></div></td><td>Exhibition Design</td><td class="hourscol"></td></tr>
+<tr class="even"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="DES 187">DES 187</span></div></td><td>Narrative Environments</td><td class="hourscol"></td></tr>
+<tr class="odd"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="DRA 124A">DRA 124A</span></div></td><td>Principles of Theatrical Design: Scenery</td><td class="hourscol"></td></tr>
+<tr class="even"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="DRA 124C">DRA 124C</span></div></td><td>Principles of Theatrical Design: Lighting</td><td class="hourscol"></td></tr>
+<tr class="odd"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="UWP 102J">UWP 102J</span></div></td><td>Writing in the Disciplines: Fine Arts</td><td class="hourscol"></td></tr>
+<tr class="even"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="UWP 112A">UWP 112A</span></div></td><td>Introduction to Professional Editing</td><td class="hourscol"></td></tr>
+<tr class="odd lastrow"><td colspan="2"><span class="courselistcomment">Electives Subtotal</span></td><td class="hourscol">12</td></tr>
+<tr class="listsum"><td colspan="2">Total Units</td><td class="hourscol">20</td></tr></tbody>
+</table>
+
+<dl class="sc_footnotes" aria-label="Footnotes"><dt>**</dt><dd><p class="noindent">Course(s) discontinued; see your advisor for course options.</p></dd></dl>
+]]>
+</requirementstext>
+<quickviewtext name="Quick View">
+<![CDATA[
+<p>The Museum Studies minor will provide students training in the history, practices, and cultural critique of museums. The minor prepares students for graduate training in the field or careers in museum curation, commercial or community arts, education services, public relations, and arts development.</p>
+]]>
+</quickviewtext>
+<faculty>
+<![CDATA[
+]]>
+</faculty>
+</courseleaf>
+

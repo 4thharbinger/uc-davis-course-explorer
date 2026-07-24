@@ -1,0 +1,78 @@
+<?xml version="1.0"?>
+<courseleaf>
+
+<title>Nematology, Minor</title>
+
+
+<text>
+<![CDATA[  
+
+  
+]]>
+</text>
+<informationtext name="Information">
+<![CDATA[
+<h2>Minor Advisor</h2>
+<h3>Lead Faculty Advisors</h3>
+<p><a href="https://entomology.ucdavis.edu/people/shahid-siddique" title="https://entomology.ucdavis.edu/people/shahid-siddique">Shahid Siddique</a>, Ph.D., <a href="https://entnem.ucdavis.edu/people/rachel-vannette">Rachel L. Vannette</a>, Ph.D., Vice Chair  </p>
+<h3>Academic Advisor</h3>
+<p>Elvira Galvan Hack; 160 Hutchison Hall; 530-754-7277; <a href="mailto:ent-advise@ucdavis.edu">Entomology &amp; Nematology Advising</a>.</p>
+<h3>Undergraduate Advising Center</h3>
+<p>Advising for the major, minors, and course offerings, including peer advising, is located in 150 Hutchison Hall; 530-754-4131; <a href="mailto:ent-advise@ucdavis.edu">Entomology &amp; Nematology Advising</a>.</p>
+<p>For further information, see <a href="http://entomology.ucdavis.edu" target="_blank">Entomology &amp; Nematology</a></p>
+<h2>Graduate Study</h2>
+<p>Graduate degrees for those wanting to specialize in nematology are offered through the Departments of Entomology &amp; Nematology, &amp; Plant Pathology, and through various Graduate Groups (Biochemistry, Ecology, Genetics, Plant Protection and Pest Management). Refer also to <a href="https://grad.ucdavis.edu/" target="_blank">Graduate Studies</a>.</p>
+]]>
+</informationtext>
+<requirementstext name="Requirements">
+<![CDATA[
+<table class="sc_courselist">
+<caption class="hidden noscript">Course List</caption>
+<colgroup>
+<col class="codecol"/>
+<col class="titlecol"/>
+<col align="char" char="." class="hourscol"/>
+</colgroup>
+<thead>
+<tr class="hidden noscript">
+<th scope="col">Code</th>
+<th scope="col">Title</th>
+<th scope="col" class="hourscol">Units</th>
+</tr>
+</thead>
+<tbody>
+<tr class="even firstrow"><td class="codecol"><span class="code_bubble" data-code-bubble="NEM 100">NEM 100</span></td><td>Introduction to Nematode Parasites <sup>1</sup></td><td class="hourscol">4</td></tr>
+<tr class="odd"><td class="codecol"><span class="code_bubble" data-code-bubble="NEM 110">NEM 110</span></td><td>Introduction to Nematology</td><td class="hourscol">2</td></tr>
+<tr class="even"><td class="codecol"><span class="code_bubble" data-code-bubble="ENT 156">ENT 156</span></td><td>Biology of Parasitism </td><td class="hourscol">3</td></tr>
+<tr class="odd"><td colspan="2"><span class="courselistcomment">Choose at least 9 units:</span></td><td class="hourscol">9-10</td></tr>
+<tr class="even"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="ENT 100">ENT 100</span></div></td><td>General Entomology</td><td class="hourscol"></td></tr>
+<tr class="odd"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="ENT 100L">ENT 100L</span></div></td><td>General Entomology Laboratory </td><td class="hourscol"></td></tr>
+<tr class="even"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="ENT 110">ENT 110</span></div></td><td>Arthropod Pest Management</td><td class="hourscol"></td></tr>
+<tr class="odd"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="ENT 135">ENT 135</span></div></td><td>Introduction to Biological Control</td><td class="hourscol"></td></tr>
+<tr class="even"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="ENT 153">ENT 153</span></div></td><td>Medical Entomology</td><td class="hourscol"></td></tr>
+<tr class="odd"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="ENT 156L">ENT 156L</span></div></td><td>Biology of Parasitism Laboratory</td><td class="hourscol"></td></tr>
+<tr class="even"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="EVE 112">EVE 112</span></div></td><td>Biology of Invertebrates</td><td class="hourscol"></td></tr>
+<tr class="odd"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="MMG 102">MMG 102</span></div></td><td>Introductory Microbiology</td><td class="hourscol"></td></tr>
+<tr class="orclass odd"><td class="codecol orclass"><div style="margin-left:20px;" class="blockindent">or <span class="code_bubble" data-code-bubble="MIC 102 DISCONTINUED FOR FALL 2026 **">MIC 102 DISCONTINUED FOR FALL 2026 **</span></div></td><td colspan="2"> </td></tr>
+<tr class="even"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="PLP 120">PLP 120</span></div></td><td>Introduction to Plant Pathology</td><td class="hourscol"></td></tr>
+<tr class="odd"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="PLP 148">PLP/PLB 148</span></div></td><td>Introductory Mycology</td><td class="hourscol"></td></tr>
+<tr class="even"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="SSC 100">SSC 100</span></div></td><td>Principles of Soil Science</td><td class="hourscol"></td></tr>
+<tr class="odd"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="SSC 111">SSC 111</span></div></td><td>Soil Microbiology</td><td class="hourscol"></td></tr>
+<tr class="even lastrow"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="SSC 112">SSC 112</span></div></td><td>Soil Ecology </td><td class="hourscol"></td></tr>
+<tr class="listsum"><td colspan="2">Total Units</td><td class="hourscol">18-19</td></tr></tbody>
+</table>
+
+<dl class="sc_footnotes" aria-label="Footnotes"><dt> <sup> 1 </sup> </dt><dd><p class="noindent"><span class="sc_courseinline"><span class="sc_courseinline"><span class="code_bubble" data-code-bubble="NEM 100">NEM 100</span></span></span> is a 3 unit course; see your <a href="https://entomology.ucdavis.edu/advising-information">advisor</a> for options.</p></dd><dt>**</dt><dd><p class="noindent">Course(s) discontinued; see your advisor for course options.</p></dd></dl>
+]]>
+</requirementstext>
+<quickviewtext name="Quick View">
+<![CDATA[
+<p>Nematodes, or roundworms, live in practically all habitats and influence soil fertility, food safety, and other aspects of animal &amp; plant health. The Nematology minor supports careers in plant and agricultural nematology and provides valuable information for careers in animal, plant, and soil health.</p>
+]]>
+</quickviewtext>
+<faculty>
+<![CDATA[
+]]>
+</faculty>
+</courseleaf>
+

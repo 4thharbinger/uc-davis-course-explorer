@@ -1,0 +1,233 @@
+<?xml version="1.0"?>
+<courseleaf>
+
+<title>Computer Engineering, Bachelor of Science</title>
+
+
+<text>
+<![CDATA[  
+
+  
+]]>
+</text>
+<informationtext name="Information">
+<![CDATA[
+<p><a href="https://ece.ucdavis.edu/directory" target="_blank">Faculty</a></p>
+<h2>The Electrical &amp; Computer Engineering Undergraduate Programs</h2>
+<p>The department administers two undergraduate curricula in the College of Engineering: (1) the Electrical Engineering curriculum and (2) the Computer Engineering curriculum.</p>
+<h3>Integrated Degree Programs (IDP)</h3>
+<p>The IDP leads to both the Bachelor of Science and the Master of Science degrees. The program provides a student the opportunity to obtain superior breadth and depth of technical material. The IDP program in the Department of Electrical &amp; Computer Engineering is available only to UC Davis undergraduates with strong academic records enrolled in the Electrical Engineering, Computer Engineering or Applied Physics curricula. Applicants in their junior year must apply for the IDP by the stated date on our website. For more information on IDP, see <a href="https://ece.ucdavis.edu/undergraduate/integrated-degree-programs"><span class="field field--label-hidden field--name-title field--type-string">B.S./M.S. Integrated Degree Programs</span></a>.</p>
+<h3>Mission</h3>
+<p>Under its land grant status, the University of California has a mission to provide the state with the trained workforce it needs and to advance knowledge and research in directions that contribute to the general welfare of the state and the nation. The Department of Electrical &amp; Computer Engineering contributes to the mission of the University in three ways. First, its undergraduate and graduate education programs seek to provide students with an understanding of the fundamental principles of electrical and computer engineering, the skills needed to solve the complex technological problems of modern society and the ability to continue to learn and develop throughout their careers. Second, through its research programs, the department contributes to the development and progress of electronics, communications, and computer technology. Finally, the department helps to transfer research results to industry through publication, public service and professional activities.</p>
+<h3>Objectives</h3>
+<p><em>Teaching—</em>To provide undergraduate students with sufficient breadth to allow them to participate in teams, continue their own education after graduation and select a focus area intelligently; to provide undergraduate students with sufficient depth in a narrower discipline to allow them to develop the ability to solve complex engineering problems; to educate the students in the graduate program to be leaders in industry or to do meaningful research in industry, government or academia.</p>
+<p><em>Research</em>—To develop and maintain research programs that produce useful technological advances while simultaneously training the next generation of researchers and leaders; to update and/or shift the foci of these programs frequently in response to the needs of our constituency and the nation; to provide a stimulating environment that encourages our graduate students to develop their abilities as far as possible.</p>
+<h2>Computer Engineering Undergraduate Program</h2>
+<p>The Computer Engineering Bachelor of Science is accredited by the Engineering Accreditation Commission of <a href="http://www.abet.org">ABET</a> under the commission's General Criteria and Program Criteria for Electrical, Computer, Communications, Telecommunication(s), and Similarly Named Engineering Programs.</p>
+<h3>Objectives</h3>
+<p>The Electrical &amp; Computer Engineering program educational objectives have been developed to address the needs of our constituencies. The objectives of the Electrical &amp; Computer Engineering programs are as follow:</p>
+<ul>
+	<li>Graduates will create value for their employers, demonstrating knowledge and initiative and making beneficial contributions beyond the workplace. This can also result in patents, awards, publications and presentations.</li>
+	<li>Graduates will grow their capabilities through advanced education and professional development.</li>
+	<li>Graduates will provide leadership and be proactive in their profession and/or communities.</li>
+</ul>
+<p>Students are encouraged to adhere carefully to all prerequisite requirements. The instructor is authorized to drop students from a course for which stated prerequisites have not been completed.</p>
+]]>
+</informationtext>
+<requirementstext name="Requirements">
+<![CDATA[
+<p>The major requirements below are in addition to meeting <a href="/undergraduate-education/university-degree-requirements/">University Degree Requirements</a> &amp; <a href="/undergraduate-education/college-degree-requirements/">College Degree Requirements</a>; unless otherwise noted. The minimum number of units required for the Computer Engineering Bachelor of Science is 152.</p>
+<table class="sc_courselist">
+<caption class="hidden noscript">Course List</caption>
+<colgroup>
+<col class="codecol"/>
+<col class="titlecol"/>
+<col align="char" char="." class="hourscol"/>
+</colgroup>
+<thead>
+<tr class="hidden noscript">
+<th scope="col">Code</th>
+<th scope="col">Title</th>
+<th scope="col" class="hourscol">Units</th>
+</tr>
+</thead>
+<tbody>
+<tr class="even areaheader  firstrow"><td colspan="2"><span class="courselistcomment areaheader ">Lower Division Required Courses</span></td><td class="hourscol"></td></tr>
+<tr class="odd"><td class="codecol"><span class="code_bubble" data-code-bubble="CMN 001">CMN 001</span></td><td>Introduction to Public Speaking</td><td class="hourscol">4</td></tr>
+<tr class="orclass odd"><td class="codecol orclass">or <span class="code_bubble" data-code-bubble="CMN 001V">CMN 001V</span></td><td colspan="2"> Introduction to Public Speaking</td></tr>
+<tr class="orclass odd"><td class="codecol orclass">or <span class="code_bubble" data-code-bubble="ENG 003">ENG 003</span></td><td colspan="2"> Introduction to Engineering Design</td></tr>
+<tr class="orclass odd"><td class="codecol orclass">or <span class="code_bubble" data-code-bubble="ENG 003Y">ENG 003Y</span></td><td colspan="2"> Introduction to Engineering Design</td></tr>
+<tr class="even areasubheader undefined"><td colspan="2"><span class="courselistcomment areasubheader undefined">Mathematics</span></td><td class="hourscol"></td></tr>
+<tr class="odd"><td class="codecol"><span class="code_bubble" data-code-bubble="MAT 021A">MAT 021A</span></td><td>Calculus</td><td class="hourscol">4</td></tr>
+<tr class="even"><td class="codecol"><span class="code_bubble" data-code-bubble="MAT 021B">MAT 021B</span></td><td>Calculus</td><td class="hourscol">4</td></tr>
+<tr class="odd"><td class="codecol"><span class="code_bubble" data-code-bubble="MAT 021C">MAT 021C</span></td><td>Calculus</td><td class="hourscol">4</td></tr>
+<tr class="even"><td class="codecol"><span class="code_bubble" data-code-bubble="MAT 021D">MAT 021D</span></td><td>Vector Analysis</td><td class="hourscol">4</td></tr>
+<tr class="odd"><td class="codecol"><span class="code_bubble" data-code-bubble="MAT 022A">MAT 022A</span></td><td>Linear Algebra</td><td class="hourscol">3</td></tr>
+<tr class="even"><td class="codecol"><span class="code_bubble" data-code-bubble="MAT 022AL">MAT 022AL</span></td><td>Linear Algebra Computer Laboratory</td><td class="hourscol">1</td></tr>
+<tr class="odd"><td class="codecol"><span class="code_bubble" data-code-bubble="MAT 022B">MAT 022B</span></td><td>Differential Equations</td><td class="hourscol">3</td></tr>
+<tr class="even areasubheader undefined"><td colspan="2"><span class="courselistcomment areasubheader undefined">Physics</span></td><td class="hourscol"></td></tr>
+<tr class="odd"><td class="codecol"><span class="code_bubble" data-code-bubble="PHY 009A">PHY 009A</span></td><td>Classical Physics</td><td class="hourscol">5</td></tr>
+<tr class="even"><td class="codecol"><span class="code_bubble" data-code-bubble="PHY 009B">PHY 009B</span></td><td>Classical Physics</td><td class="hourscol">5</td></tr>
+<tr class="odd"><td class="codecol"><span class="code_bubble" data-code-bubble="PHY 009C">PHY 009C</span></td><td>Classical Physics</td><td class="hourscol">5</td></tr>
+<tr class="even areasubheader undefined"><td colspan="2"><span class="courselistcomment areasubheader undefined">Computer Science</span></td><td class="hourscol"></td></tr>
+<tr class="odd"><td class="codecol"><span class="code_bubble" data-code-bubble="ECS 020">ECS 020</span></td><td>Discrete Mathematics For Computer Science</td><td class="hourscol">4</td></tr>
+<tr class="even"><td class="codecol"><span class="code_bubble" data-code-bubble="ECS 036A">ECS 036A</span></td><td>Programming &amp; Problem Solving </td><td class="hourscol">4</td></tr>
+<tr class="odd"><td class="codecol"><span class="code_bubble" data-code-bubble="ECS 036B">ECS 036B</span></td><td>Software Development &amp; Object-Oriented Programming in C++     </td><td class="hourscol">4</td></tr>
+<tr class="even"><td class="codecol"><span class="code_bubble" data-code-bubble="ECS 036C">ECS 036C</span></td><td>Data Structures, Algorithms, &amp; Programming </td><td class="hourscol">4</td></tr>
+<tr class="odd areasubheader undefined"><td colspan="2"><span class="courselistcomment areasubheader undefined">Electrical &amp; Computer Engineering</span></td><td class="hourscol"></td></tr>
+<tr class="even"><td class="codecol"><span class="code_bubble" data-code-bubble="EEC 001">EEC 001</span></td><td>Introduction to Electrical &amp; Computer Engineering <sup>1</sup></td><td class="hourscol">2</td></tr>
+<tr class="odd"><td class="codecol"><span class="code_bubble" data-code-bubble="EEC 010">EEC 010</span></td><td>Introduction to Digital &amp; Analog Systems <sup>2</sup></td><td class="hourscol">4</td></tr>
+<tr class="even"><td class="codecol"><span class="code_bubble" data-code-bubble="EEC 018">EEC 018</span></td><td>Digital Systems I</td><td class="hourscol">5</td></tr>
+<tr class="odd areasubheader undefined"><td colspan="2"><span class="courselistcomment areasubheader undefined">Engineering</span></td><td class="hourscol"></td></tr>
+<tr class="even"><td class="codecol"><span class="code_bubble" data-code-bubble="ENG 017">ENG 017</span></td><td>Circuits I</td><td class="hourscol">4</td></tr>
+<tr class="orclass even"><td class="codecol orclass">or <span class="code_bubble" data-code-bubble="ENG 017V">ENG 017V</span></td><td colspan="2"> Circuits I</td></tr>
+<tr class="odd"><td colspan="2"><span class="courselistcomment">Lower Division Composition/Writing; choose one; a grade of C- or better is required:</span></td><td class="hourscol">4</td></tr>
+<tr class="even"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="COM 001">COM 001</span></div></td><td>Major Works of the Ancient World</td><td class="hourscol"></td></tr>
+<tr class="odd"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="COM 002">COM 002</span></div></td><td>Major Works of the Medieval &amp; Early Modern World</td><td class="hourscol"></td></tr>
+<tr class="even"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="COM 003">COM 003</span></div></td><td>Major Works of the Modern World</td><td class="hourscol"></td></tr>
+<tr class="odd"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="COM 004">COM 004</span></div></td><td>Major Works of the Contemporary World</td><td class="hourscol"></td></tr>
+<tr class="even"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="ENL 003">ENL 003</span></div></td><td>Introduction to Literature</td><td class="hourscol"></td></tr>
+<tr class="orclass even"><td class="codecol orclass"><div style="margin-left:20px;" class="blockindent">or <span class="code_bubble" data-code-bubble="ENL 003V">ENL 003V</span></div></td><td colspan="2"> Introduction to Literature</td></tr>
+<tr class="odd"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="NAS 005">NAS 005</span></div></td><td>Introduction to Native American Literature</td><td class="hourscol"></td></tr>
+<tr class="orclass odd"><td class="codecol orclass"><div style="margin-left:20px;" class="blockindent">or <span class="code_bubble" data-code-bubble="NAS 005V">NAS 005V</span></div></td><td colspan="2"> Introduction to Native American Literature</td></tr>
+<tr class="even"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="UWP 001">UWP 001</span></div></td><td>Introduction to Academic Literacies (Recommended)</td><td class="hourscol"></td></tr>
+<tr class="odd"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="UWP 001V">UWP 001V</span></div></td><td>Introduction to Academic Literacies: Online (Recommended)</td><td class="hourscol"></td></tr>
+<tr class="even"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="UWP 001Y">UWP 001Y</span></div></td><td>Introduction to Academic Literacies (Recommended)</td><td class="hourscol"></td></tr>
+<tr class="odd"><td colspan="2"><span class="courselistcomment">Lower Division Required Course Subtotal</span></td><td class="hourscol">77</td></tr>
+<tr class="even areaheader "><td colspan="2"><span class="courselistcomment areaheader ">Upper Division Required Courses</span></td><td class="hourscol"></td></tr>
+<tr class="odd areasubheader undefined"><td colspan="2"><span class="courselistcomment areasubheader undefined">Electrical &amp; Computer Engineering</span></td><td class="hourscol"></td></tr>
+<tr class="even"><td class="codecol"><span class="code_bubble" data-code-bubble="EEC 100">EEC 100</span></td><td>Circuits II</td><td class="hourscol">5</td></tr>
+<tr class="odd"><td class="codecol"><span class="code_bubble" data-code-bubble="EEC 111">EEC 111</span></td><td>Digital Electronic Circuits</td><td class="hourscol">4</td></tr>
+<tr class="even"><td class="codecol"><span class="code_bubble" data-code-bubble="EEC 161">EEC 161</span></td><td>Applied Probability for Electrical &amp; Computer Engineers</td><td class="hourscol">4</td></tr>
+<tr class="odd"><td class="codecol"><span class="code_bubble" data-code-bubble="EEC 170">EEC 170</span></td><td>Introduction to Computer Architecture</td><td class="hourscol">4</td></tr>
+<tr class="even"><td class="codecol"><span class="code_bubble" data-code-bubble="EEC 172">EEC 172</span></td><td>Embedded Systems </td><td class="hourscol">4</td></tr>
+<tr class="odd"><td class="codecol"><span class="code_bubble" data-code-bubble="EEC 173A">EEC 173A/ECS 152A</span></td><td>Computer Networks</td><td class="hourscol">4</td></tr>
+<tr class="even"><td class="codecol"><span class="code_bubble" data-code-bubble="EEC 180">EEC 180</span></td><td>Digital Systems II</td><td class="hourscol">5</td></tr>
+<tr class="odd"><td class="codecol"><span class="code_bubble" data-code-bubble="EEC 196">EEC 196</span></td><td>Issues in Engineering Design</td><td class="hourscol">1</td></tr>
+<tr class="even areasubheader undefined"><td colspan="2"><span class="courselistcomment areasubheader undefined">Computer Science</span></td><td class="hourscol"></td></tr>
+<tr class="odd"><td class="codecol"><span class="code_bubble" data-code-bubble="ECS 122A">ECS 122A</span></td><td>Algorithm Design &amp; Analysis </td><td class="hourscol">4</td></tr>
+<tr class="even"><td class="codecol"><span class="code_bubble" data-code-bubble="ECS 150">ECS 150</span></td><td>Operating Systems &amp; System Programming</td><td class="hourscol">4</td></tr>
+<tr class="odd"><td colspan="2"><span class="courselistcomment">Choose one:</span></td><td class="hourscol">3</td></tr>
+<tr class="even"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="ENG 160">ENG 160/PHY 160 DISCONTINUED FOR WINTER 2026 **</span></div></td><td> (Discontinued for winter 2026) <sup>**</sup></td><td class="hourscol"></td></tr>
+<tr class="odd"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="ENG 190">ENG 190</span></div></td><td>Professional Responsibilities of Engineers</td><td class="hourscol"></td></tr>
+<tr class="even areaheader "><td colspan="2"><span class="courselistcomment areaheader ">Upper Division Electives</span></td><td class="hourscol"></td></tr>
+<tr class="odd areasubheader undefined"><td colspan="2"><span class="courselistcomment areasubheader undefined">Senior Design Project Electives</span></td><td class="hourscol">6</td></tr>
+<tr class="even"><td colspan="2"><div style="margin-left:20px;" class="blockindent"><span class="courselistcomment commentindent">Both A &amp; B need to be taken to receive credit for the Senior Design Project.</span></div></td><td class="hourscol"></td></tr>
+<tr class="odd"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="EEC 119A">EEC 119A</span></div></td><td>Integrated Circuit Design Project</td><td class="hourscol"></td></tr>
+<tr class="even"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="EEC 119B">EEC 119B</span></div></td><td>Integrated Circuit Design Project</td><td class="hourscol"></td></tr>
+<tr class="odd"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="EEC 134A">EEC 134A</span></div></td><td>RF/Microwave Systems Design</td><td class="hourscol"></td></tr>
+<tr class="even"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="EEC 134B">EEC 134B</span></div></td><td>RF/Microwave Systems Design</td><td class="hourscol"></td></tr>
+<tr class="odd"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="EEC 136A">EEC 136A</span></div></td><td>Electronic Design Project</td><td class="hourscol"></td></tr>
+<tr class="even"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="EEC 136B">EEC 136B</span></div></td><td>Electronic Design Project</td><td class="hourscol"></td></tr>
+<tr class="odd"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="EEC 174AY">EEC 174AY</span></div></td><td>Applied Machine Learning</td><td class="hourscol"></td></tr>
+<tr class="even"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="EEC 174BY">EEC 174BY</span></div></td><td>Applied Machine Learning Senior Design Projects</td><td class="hourscol"></td></tr>
+<tr class="odd"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="EEC 175A">EEC 175A</span></div></td><td>Internet of Things</td><td class="hourscol"></td></tr>
+<tr class="even"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="EEC 175B">EEC 175B</span></div></td><td>Internet of Things Senior Design Project</td><td class="hourscol"></td></tr>
+<tr class="odd"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="EEC 181A">EEC 181A</span></div></td><td>Digital Systems Design Project</td><td class="hourscol"></td></tr>
+<tr class="even"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="EEC 181B">EEC 181B</span></div></td><td>Digital Systems Design Project</td><td class="hourscol"></td></tr>
+<tr class="odd"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="EEC 193A">EEC 193A</span></div></td><td>Senior Design Project</td><td class="hourscol"></td></tr>
+<tr class="even"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="EEC 193B">EEC 193B</span></div></td><td>Senior Design Project</td><td class="hourscol"></td></tr>
+<tr class="odd"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="EEC 195A">EEC 195A</span></div></td><td>Autonomous Vehicle Design Project </td><td class="hourscol"></td></tr>
+<tr class="even"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="EEC 195B">EEC 195B</span></div></td><td>Autonomous Vehicle Design Project</td><td class="hourscol"></td></tr>
+<tr class="odd areasubheader undefined"><td colspan="2"><span class="courselistcomment areasubheader undefined">Upper Division Electrical &amp; Computer Engineering (EEC) or Computer Science Engineering (ECS) Electives</span> <sup>2</sup></td><td class="hourscol">12-16</td></tr>
+<tr class="even"><td colspan="2"><div style="margin-left:20px;" class="blockindent"><span class="courselistcomment commentindent">Choose four letter-graded upper division EEC or ECS courses:</span> <sup>3</sup></div></td><td class="hourscol"></td></tr>
+<tr class="odd areasubheader undefined"><td colspan="2"><span class="courselistcomment areasubheader undefined">Technical Electives</span></td><td class="hourscol"></td></tr>
+<tr class="even"><td colspan="2"><span class="courselistcomment">Choose 8 units:</span></td><td class="hourscol">8</td></tr>
+<tr class="odd"><td colspan="2"><span class="courselistcomment">Chemistry</span></td><td class="hourscol"></td></tr>
+<tr class="even"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="CHE 002A">CHE 002A</span></div></td><td>General Chemistry</td><td class="hourscol"></td></tr>
+<tr class="odd"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="CHE 002B">CHE 002B</span></div></td><td>General Chemistry</td><td class="hourscol"></td></tr>
+<tr class="even"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="CHE 002C">CHE 002C</span></div></td><td>General Chemistry</td><td class="hourscol"></td></tr>
+<tr class="odd"><td colspan="2"><div style="margin-left:20px;" class="blockindent"><span class="courselistcomment commentindent">Any upper division course.</span> <sup>4</sup></div></td><td class="hourscol"></td></tr>
+<tr class="even"><td colspan="2"><span class="courselistcomment">Engineering</span></td><td class="hourscol"></td></tr>
+<tr class="odd"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="ENG 035">ENG 035</span></div></td><td>Statics</td><td class="hourscol"></td></tr>
+<tr class="even"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="ENG 045">ENG 045</span></div></td><td>Properties of Materials</td><td class="hourscol"></td></tr>
+<tr class="orclass even"><td class="codecol orclass"><div style="margin-left:20px;" class="blockindent">or <span class="code_bubble" data-code-bubble="ENG 045Y">ENG 045Y</span></div></td><td colspan="2"> Properties of Materials</td></tr>
+<tr class="odd"><td colspan="2"><div style="margin-left:20px;" class="blockindent"><span class="courselistcomment commentindent">Any upper division engineering course not used in satisfaction of core degree requirements.</span> <sup>5</sup></div></td><td class="hourscol"></td></tr>
+<tr class="even"><td colspan="2"><div style="margin-left:20px;" class="blockindent"><span class="courselistcomment commentindent">A maximum of 6 units for any combination of engineering courses numbered 190C, 192, 198, and 199 may be used.</span></div></td><td class="hourscol"></td></tr>
+<tr class="odd"><td colspan="2"><span class="courselistcomment">Mathematics</span></td><td class="hourscol"></td></tr>
+<tr class="even"><td colspan="2"><div style="margin-left:20px;" class="blockindent"><span class="courselistcomment commentindent">Any upper division course.</span> <sup>6</sup></div></td><td class="hourscol"></td></tr>
+<tr class="odd"><td colspan="2"><span class="courselistcomment">Physics</span></td><td class="hourscol"></td></tr>
+<tr class="even"><td colspan="2"><div style="margin-left:20px;" class="blockindent"><span class="courselistcomment commentindent">Any upper division course.</span> <sup>7</sup></div></td><td class="hourscol"></td></tr>
+<tr class="odd"><td colspan="2"><span class="courselistcomment">Statistics</span></td><td class="hourscol"></td></tr>
+<tr class="even"><td colspan="2"><div style="margin-left:20px;" class="blockindent"><span class="courselistcomment commentindent">Any upper division course.</span> <sup>8</sup></div></td><td class="hourscol"></td></tr>
+<tr class="odd"><td colspan="2"><span class="courselistcomment">Biological Sciences</span></td><td class="hourscol"></td></tr>
+<tr class="even"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="BIS 101">BIS 101</span></div></td><td>Genes &amp; Gene Expression</td><td class="hourscol"></td></tr>
+<tr class="orclass even"><td class="codecol orclass"><div style="margin-left:20px;" class="blockindent">or <span class="code_bubble" data-code-bubble="BIS 101V">BIS 101V</span></div></td><td colspan="2"> Genes &amp; Gene Expression</td></tr>
+<tr class="odd"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="BIS 101D">BIS 101D</span></div></td><td>Genes &amp; Gene Expression Discussion</td><td class="hourscol"></td></tr>
+<tr class="even"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="BIS 102">BIS 102</span></div></td><td>Structure &amp; Function of Biomolecules</td><td class="hourscol"></td></tr>
+<tr class="orclass even"><td class="codecol orclass"><div style="margin-left:20px;" class="blockindent">or <span class="code_bubble" data-code-bubble="BIS 102V">BIS 102V</span></div></td><td colspan="2"> Structure &amp; Function of Biomolecules</td></tr>
+<tr class="odd"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="BIS 103">BIS 103</span></div></td><td>Bioenergetics &amp; Metabolism</td><td class="hourscol"></td></tr>
+<tr class="even"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="BIS 104">BIS 104</span></div></td><td>Cell Biology</td><td class="hourscol"></td></tr>
+<tr class="odd"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="BIS 122">BIS 122</span></div></td><td>Population Biology &amp; Ecology (Discontinued for winter 2027) <sup>**</sup></td><td class="hourscol"></td></tr>
+<tr class="even"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="BIS 122P">BIS 122P</span></div></td><td>Population Biology &amp; Ecology/Advanced Laboratory Topics (Discontinued for winter 2027) <sup>**</sup></td><td class="hourscol"></td></tr>
+<tr class="odd"><td colspan="2"><span class="courselistcomment">Economics</span></td><td class="hourscol"></td></tr>
+<tr class="even"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="ECN 100A">ECN 100A</span></div></td><td>Intermediate Micro Theory: Consumer &amp; Producer Theory</td><td class="hourscol"></td></tr>
+<tr class="orclass even"><td class="codecol orclass"><div style="margin-left:20px;" class="blockindent">or <span class="code_bubble" data-code-bubble="ECN 100AV">ECN 100AV</span></div></td><td colspan="2"> Intermediate Micro Theory: Consumer &amp; Producer Theory</td></tr>
+<tr class="odd"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="ECN 100B">ECN 100B</span></div></td><td>Intermediate Micro Theory: Imperfect Competition &amp; Market Failure</td><td class="hourscol"></td></tr>
+<tr class="even"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="ECN 101">ECN 101</span></div></td><td>Intermediate Macro Theory</td><td class="hourscol"></td></tr>
+<tr class="odd"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="ECN 102">ECN 102</span></div></td><td>Analysis of Economic Data</td><td class="hourscol"></td></tr>
+<tr class="even"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="ECN 103">ECN 103</span></div></td><td>Economics of Uncertainty &amp; Information</td><td class="hourscol"></td></tr>
+<tr class="odd"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="ECN 122">ECN 122</span></div></td><td>Theory of Games &amp; Strategic Behavior</td><td class="hourscol"></td></tr>
+<tr class="even"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="ECN 140">ECN 140</span></div></td><td>Econometrics</td><td class="hourscol"></td></tr>
+<tr class="odd"><td colspan="2"><span class="courselistcomment">Management</span></td><td class="hourscol"></td></tr>
+<tr class="even"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="MGT 011A">MGT 011A</span></div></td><td>Elementary Financial Accounting</td><td class="hourscol"></td></tr>
+<tr class="orclass even"><td class="codecol orclass"><div style="margin-left:20px;" class="blockindent">or <span class="code_bubble" data-code-bubble="MGT 011AV">MGT 011AV</span></div></td><td colspan="2"> Elementary Financial Accounting</td></tr>
+<tr class="orclass even"><td class="codecol orclass"><div style="margin-left:20px;" class="blockindent">or <span class="code_bubble" data-code-bubble="MGT 011AY">MGT 011AY</span></div></td><td colspan="2"> Elementary Financial Accounting</td></tr>
+<tr class="odd"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="MGT 011B">MGT 011B</span></div></td><td>Elementary Managerial Accounting</td><td class="hourscol"></td></tr>
+<tr class="even"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="MGT 100">MGT 100</span></div></td><td> (Discontinued for summer 2025) <sup>**</sup></td><td class="hourscol"></td></tr>
+<tr class="odd"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="MGT 120">MGT 120</span></div></td><td>Managing &amp; Using Information Technology</td><td class="hourscol"></td></tr>
+<tr class="even"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="MGT 140">MGT 140</span></div></td><td>Marketing for the Technology-Based Enterprise</td><td class="hourscol"></td></tr>
+<tr class="odd"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="MGT 150">MGT 150</span></div></td><td>Technology Management</td><td class="hourscol"></td></tr>
+<tr class="even"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="MGT 160">MGT 160</span></div></td><td>Financing New Business Ventures</td><td class="hourscol"></td></tr>
+<tr class="odd"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="MGT 170">MGT 170</span></div></td><td>Management Accounting &amp; Control</td><td class="hourscol"></td></tr>
+<tr class="even"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="MGT 180">MGT 180</span></div></td><td>Supply Chain Planning &amp; Management</td><td class="hourscol"></td></tr>
+<tr class="odd areasubheader undefined"><td colspan="2"><span class="courselistcomment areasubheader undefined">Upper Division Composition Requirement</span></td><td class="hourscol"></td></tr>
+<tr class="even"><td colspan="2"><span class="courselistcomment">Choose one; a grade of a C- or better is required:</span></td><td class="hourscol">0-4</td></tr>
+<tr class="odd"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="UWP 101">UWP 101</span></div></td><td>Advanced Composition</td><td class="hourscol"></td></tr>
+<tr class="orclass odd"><td class="codecol orclass"><div style="margin-left:20px;" class="blockindent">or <span class="code_bubble" data-code-bubble="UWP 101V">UWP 101V</span></div></td><td colspan="2"> Advanced Composition</td></tr>
+<tr class="orclass odd"><td class="codecol orclass"><div style="margin-left:20px;" class="blockindent">or <span class="code_bubble" data-code-bubble="UWP 101Y">UWP 101Y</span></div></td><td colspan="2"> Advanced Composition</td></tr>
+<tr class="even"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="UWP 102A">UWP 102A</span></div></td><td>Writing in the Disciplines: Special Topics</td><td class="hourscol"></td></tr>
+<tr class="odd"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="UWP 102B">UWP 102B</span></div></td><td>Writing in the Disciplines: Biology</td><td class="hourscol"></td></tr>
+<tr class="even"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="UWP 102C">UWP 102C</span></div></td><td>Writing in the Disciplines: History</td><td class="hourscol"></td></tr>
+<tr class="odd"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="UWP 102D">UWP 102D</span></div></td><td>Writing in the Disciplines: International Relations</td><td class="hourscol"></td></tr>
+<tr class="even"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="UWP 102E">UWP 102E</span></div></td><td>Writing in the Disciplines: Engineering</td><td class="hourscol"></td></tr>
+<tr class="odd"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="UWP 102F">UWP 102F</span></div></td><td>Writing in the Disciplines: Food Science &amp; Technology</td><td class="hourscol"></td></tr>
+<tr class="even"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="UWP 102G">UWP 102G</span></div></td><td>Writing in the Disciplines: Environmental Writing</td><td class="hourscol"></td></tr>
+<tr class="odd"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="UWP 102H">UWP 102H</span></div></td><td>Writing in the Disciplines: Human Development &amp; Psychology</td><td class="hourscol"></td></tr>
+<tr class="even"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="UWP 102I">UWP 102I</span></div></td><td>Writing in the Disciplines: Ethnic Studies</td><td class="hourscol"></td></tr>
+<tr class="odd"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="UWP 102J">UWP 102J</span></div></td><td>Writing in the Disciplines: Fine Arts</td><td class="hourscol"></td></tr>
+<tr class="even"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="UWP 102K">UWP 102K</span></div></td><td>Writing in the Disciplines: Sociology</td><td class="hourscol"></td></tr>
+<tr class="odd"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="UWP 102L">UWP 102L</span></div></td><td>Writing in the Disciplines: Film Studies</td><td class="hourscol"></td></tr>
+<tr class="even"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="UWP 104A">UWP 104A</span></div></td><td>Writing in the Professions: Business Writing</td><td class="hourscol"></td></tr>
+<tr class="orclass even"><td class="codecol orclass"><div style="margin-left:20px;" class="blockindent">or <span class="code_bubble" data-code-bubble="UWP 104AV">UWP 104AV</span></div></td><td colspan="2"> Writing in the Professions: Business Writing</td></tr>
+<tr class="orclass even"><td class="codecol orclass"><div style="margin-left:20px;" class="blockindent">or <span class="code_bubble" data-code-bubble="UWP 104AY">UWP 104AY</span></div></td><td colspan="2"> Writing in the Professions: Business Writing</td></tr>
+<tr class="odd"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="UWP 104B">UWP 104B</span></div></td><td>Writing in the Professions: Law</td><td class="hourscol"></td></tr>
+<tr class="even"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="UWP 104C">UWP 104C</span></div></td><td>Writing in the Professions: Journalism</td><td class="hourscol"></td></tr>
+<tr class="odd"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="UWP 104D">UWP 104D</span></div></td><td>Writing in the Professions: Elementary &amp; Secondary Education</td><td class="hourscol"></td></tr>
+<tr class="even"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="UWP 104E">UWP 104E</span></div></td><td>Writing in the Professions: Science</td><td class="hourscol"></td></tr>
+<tr class="odd"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="UWP 104F">UWP 104F</span></div></td><td>Writing in the Professions: Health</td><td class="hourscol"></td></tr>
+<tr class="orclass odd"><td class="codecol orclass"><div style="margin-left:20px;" class="blockindent">or <span class="code_bubble" data-code-bubble="UWP 104FV">UWP 104FV</span></div></td><td colspan="2"> Writing in the Professions: Health</td></tr>
+<tr class="orclass odd"><td class="codecol orclass"><div style="margin-left:20px;" class="blockindent">or <span class="code_bubble" data-code-bubble="UWP 104FY">UWP 104FY</span></div></td><td colspan="2"> Writing in the Professions: Health</td></tr>
+<tr class="even"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="UWP 104I">UWP 104I</span></div></td><td>Writing in the Professions: Internships</td><td class="hourscol"></td></tr>
+<tr class="odd"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="UWP 104J">UWP 104J</span></div></td><td>Writing in the Professions: Writing for Social Justice</td><td class="hourscol"></td></tr>
+<tr class="even"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="UWP 104T">UWP 104T</span></div></td><td>Writing in the Professions: Technical Writing</td><td class="hourscol"></td></tr>
+<tr class="odd"><td colspan="2"><div style="margin-left:20px;" class="blockindent"><span class="courselistcomment commentindent">Passing the Upper Division Composition Exam.</span></div></td><td class="hourscol"></td></tr>
+<tr class="even"><td colspan="2"><span class="courselistcomment">Upper Division Required Course Subtotal</span></td><td class="hourscol">68-76</td></tr>
+<tr class="odd areaheader  lastrow"><td colspan="2"><span class="courselistcomment areaheader ">Total Units</span></td><td class="hourscol">145-153</td></tr>
+</tbody>
+</table>
+
+<dl class="sc_footnotes" aria-label="Footnotes"><dt> <sup> 1 </sup> </dt><dd><p class="noindent">Transfer and change of major students will need 2 additional units of upper division electives instead of <span class="sc_courseinline"><span class="code_bubble" data-code-bubble="EEC 001">EEC 001</span></span>.</p></dd><dt> <sup> 2 </sup> </dt><dd><p class="noindent">Transfer and change of major students who do not take <span class="sc_courseinline"><span class="code_bubble" data-code-bubble="EEC 010">EEC 010</span></span> will substitute 4 additional units of upper division electives.</p></dd><dt> <sup> 3 </sup> </dt><dd><p class="noindent">Excluding <span class="sc_courseinline"><span class="code_bubble" data-code-bubble="ECS 111">ECS 111</span></span>, <span class="sc_courseinline"><span class="code_bubble" data-code-bubble="ECS 113">ECS 113</span></span>, <span class="sc_courseinline"><span class="code_bubble" data-code-bubble="ECS 115">ECS 115</span></span>, <span class="sc_courseinline"><span class="code_bubble" data-code-bubble="ECS 116">ECS 116</span></span>, <span class="sc_courseinline"><span class="code_bubble" data-code-bubble="ECS 117">ECS 117</span></span>, <span class="sc_courseinline"><span class="code_bubble" data-code-bubble="ECS 132">ECS 132</span></span>, <span class="sc_courseinline"><span class="code_bubble" data-code-bubble="ECS 154A">ECS 154A</span></span>, <span class="sc_courseinline"><span class="code_bubble" data-code-bubble="ECS 154B">ECS 154B</span></span>, <span class="sc_courseinline"><span class="code_bubble" data-code-bubble="ECS 171">ECS 171</span></span>, <span class="sc_courseinline"><span class="code_bubble" data-code-bubble="ECS 188">ECS 188</span></span>.</p></dd><dt> <sup> 4 </sup> </dt><dd><p class="noindent">Except <span class="sc_courseinline"><span class="code_bubble" data-code-bubble="CHE 195">CHE 195</span></span>, <span class="sc_courseinline"><span class="code_bubble" data-code-bubble="CHE 197">CHE 197</span></span>.</p></dd><dt> <sup> 5 </sup> </dt><dd><p class="noindent">Excluding <span class="sc_courseinline"><span class="code_bubble" data-code-bubble="ENG 100">ENG 100</span></span>, <span class="sc_courseinline"><span class="code_bubble" data-code-bubble="ENG 190">ENG 190</span></span> (each restricted to 1 unit of technical elective), <span class="sc_courseinline"><span class="code_bubble" data-code-bubble="ENG 198">ENG 198</span></span>, <span class="sc_courseinline"><span class="code_bubble" data-code-bubble="ECS 111">ECS 111</span></span>, <span class="sc_courseinline"><span class="code_bubble" data-code-bubble="ECS 113">ECS 113</span></span>, <span class="sc_courseinline"><span class="code_bubble" data-code-bubble="ECS 115">ECS 115</span></span>, <span class="sc_courseinline"><span class="code_bubble" data-code-bubble="ECS 116">ECS 116</span></span>, <span class="sc_courseinline"><span class="code_bubble" data-code-bubble="ECS 117">ECS 117</span></span>, <span class="sc_courseinline"><span class="code_bubble" data-code-bubble="ECS 132">ECS 132</span></span>, <span class="sc_courseinline"><span class="code_bubble" data-code-bubble="ECS 154A">ECS 154A</span></span>, <span class="sc_courseinline"><span class="code_bubble" data-code-bubble="ECS 154B">ECS 154B</span></span>, <span class="sc_courseinline"><span class="code_bubble" data-code-bubble="ECS 171">ECS 171</span></span>, <span class="sc_courseinline"><span class="code_bubble" data-code-bubble="ECS 188">ECS 188</span></span>.</p></dd><dt> <sup> 6 </sup> </dt><dd><div class="page" title="Page 294"> <div class="layoutArea">Except <span class="sc_courseinline"><span class="code_bubble" data-code-bubble="MAT 135A">MAT 135A</span></span>, <span class="sc_courseinline"><span class="code_bubble" data-code-bubble="MAT 197TC">MAT 197TC</span></span>.</div> </div></dd><dt> <sup> 7 </sup> </dt><dd><p class="noindent">Except <span class="sc_courseinline"><span class="code_bubble" data-code-bubble="PHY 116A">PHY 116A</span></span>, <span class="sc_courseinline"><span class="code_bubble" data-code-bubble="PHY 116B">PHY 116B</span></span>, <span class="sc_courseinline"><span class="code_bubble" data-code-bubble="PHY 116C">PHY 116C</span></span> (restricted to 1 unit of technical elective), <span class="sc_courseinline"><span class="code_bubble" data-code-bubble="PHY 195">PHY 195</span></span>, <span class="sc_courseinline"><span class="code_bubble" data-code-bubble="PHY 197T">PHY 197T</span></span>.</p></dd><dt> <sup> 8 </sup> </dt><dd><p class="noindent">Except <span class="sc_courseinline"><span class="code_bubble" data-code-bubble="STA 100">STA 100</span></span>, <span class="sc_courseinline"><span class="code_bubble" data-code-bubble="STA 101">STA 101</span></span>, <span class="sc_courseinline"><span class="code_bubble" data-code-bubble="STA 103">STA 103</span></span>, <span class="sc_courseinline"><span class="code_bubble" data-code-bubble="STA 104">STA 104</span></span>, <span class="sc_courseinline"><span class="code_bubble" data-code-bubble="STA 106">STA 106</span></span>, <span class="sc_courseinline"><span class="code_bubble" data-code-bubble="STA 108">STA 108</span></span>, <span class="sc_courseinline"><span class="code_bubble" data-code-bubble="STA 130A">STA 130A</span></span>.</p></dd><dt>**</dt><dd><p class="noindent">Course(s) discontinued; see your advisor for course options.</p></dd></dl>
+]]>
+</requirementstext>
+<quickviewtext name="Quick View">
+<![CDATA[
+<p>Are you ready to hop on the information highway? The <span class="title-main">Computer Engineering major </span>involves the design and development of systems based on computers and complex digital logic devices. These systems find use in such diverse tasks as computation, communication, entertainment, information processing, and artificial intelligence.</p>
+]]>
+</quickviewtext>
+<faculty>
+<![CDATA[
+]]>
+</faculty>
+</courseleaf>
+

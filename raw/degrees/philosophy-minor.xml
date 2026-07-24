@@ -1,0 +1,87 @@
+<?xml version="1.0"?>
+<courseleaf>
+
+<title>Philosophy, Minor</title>
+
+
+<text>
+<![CDATA[  
+
+  
+]]>
+</text>
+<informationtext name="Information">
+<![CDATA[
+<h2>Advising Office</h2>
+<p><span class="author-219775915">For information about how to contact a minor advisor, see </span><a href="https://yellowcluster.ucdavis.edu/advising/undergraduate/major-advising">Advising</a>.</p>
+<p>Students wishing to minor in Philosophy may choose a general minor or a minor specializing in logic. There are no specific courses required for the general minor, so students may create a program to suit their own interests. The range of choice in the logic specialization is limited to the courses listed.</p>
+<h2>Minor Faculty Advisor</h2>
+<p>Rohan French, Ph.D.</p>
+]]>
+</informationtext>
+<requirementstext name="Requirements">
+<![CDATA[
+<h2 class="toggle">Philosophy—General</h2>
+<table class="sc_courselist">
+<caption class="hidden noscript">Course List</caption>
+<colgroup>
+<col class="codecol"/>
+<col class="titlecol"/>
+<col align="char" char="." class="hourscol"/>
+</colgroup>
+<thead>
+<tr class="hidden noscript">
+<th scope="col">Code</th>
+<th scope="col">Title</th>
+<th scope="col" class="hourscol">Units</th>
+</tr>
+</thead>
+<tbody>
+<tr class="even firstrow"><td colspan="2"><span class="courselistcomment">Upper division units in philosophy (100-199).</span> <sup>1</sup></td><td class="hourscol">20</td></tr>
+<tr class="odd lastrow"><td colspan="2"><div style="margin-left:20px;" class="blockindent"><span class="courselistcomment commentindent"><a href="/courses-subject-code/phi/">Philosophy (PHI) courses.</a></span></div></td><td class="hourscol"></td></tr>
+<tr class="listsum"><td colspan="2">Total Units</td><td class="hourscol">20</td></tr></tbody>
+</table>
+
+<dl class="sc_footnotes" aria-label="Footnotes"><dt> <sup> 1 </sup> </dt><dd><div class="page" title="Page 680"> <div class="layoutArea"> <div class="column"> <p class="noindent"><span class="sc_courseinline"><span class="code_bubble" data-code-bubble="PHI 012">PHI 012</span></span> may be substituted for four of the upper division units.</p> </div> </div> </div></dd></dl>
+<h2 class="toggle"> Philosophy—Logic</h2>
+<table class="sc_courselist">
+<caption class="hidden noscript">Course List</caption>
+<colgroup>
+<col class="codecol"/>
+<col class="titlecol"/>
+<col align="char" char="." class="hourscol"/>
+</colgroup>
+<thead>
+<tr class="hidden noscript">
+<th scope="col">Code</th>
+<th scope="col">Title</th>
+<th scope="col" class="hourscol">Units</th>
+</tr>
+</thead>
+<tbody>
+<tr class="even firstrow"><td class="codecol"><span class="code_bubble" data-code-bubble="PHI 012">PHI 012</span></td><td>Introduction to Symbolic Logic</td><td class="hourscol">4</td></tr>
+<tr class="orclass even firstrow"><td class="codecol orclass">or <span class="code_bubble" data-code-bubble="MAT 108">MAT 108</span></td><td colspan="2"> Introduction to Abstract Mathematics</td></tr>
+<tr class="orclass even firstrow"><td class="codecol orclass">or <span class="code_bubble" data-code-bubble="MAT 108V">MAT 108V</span></td><td colspan="2"> Introduction to Abstract Mathematics</td></tr>
+<tr class="odd"><td class="codecol"><span class="code_bubble" data-code-bubble="PHI 112">PHI 112</span></td><td>Intermediate Symbolic Logic</td><td class="hourscol">4</td></tr>
+<tr class="even"><td colspan="2"><span class="courselistcomment">Choose three:</span></td><td class="hourscol">12</td></tr>
+<tr class="odd"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="PHI 113">PHI 113</span></div></td><td>Metalogic</td><td class="hourscol"></td></tr>
+<tr class="even"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="PHI 131">PHI 131</span></div></td><td>Philosophy of Logic &amp; Mathematics</td><td class="hourscol"></td></tr>
+<tr class="odd"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="PHI 134">PHI 134</span></div></td><td>Modal Logic</td><td class="hourscol"></td></tr>
+<tr class="even"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="PHI 135">PHI 135</span></div></td><td>Alternative Logics</td><td class="hourscol"></td></tr>
+<tr class="odd lastrow"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="PHI 189K">PHI 189K</span></div></td><td>Special Topics in Philosophy: Logic</td><td class="hourscol"></td></tr>
+<tr class="listsum"><td colspan="2">Total Units</td><td class="hourscol">20</td></tr></tbody>
+</table>
+
+]]>
+</requirementstext>
+<quickviewtext name="Quick View">
+<![CDATA[
+<p>Are you interested in tackling the deepest, most enduring questions faced by humankind? Philosophers develop skills in logic, reasoning, and argument to face challenging problems, from social, political, and religious issues to the problem of consciousness and the paradoxes of infinity.</p>
+]]>
+</quickviewtext>
+<faculty>
+<![CDATA[
+]]>
+</faculty>
+</courseleaf>
+

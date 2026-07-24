@@ -1,0 +1,82 @@
+<?xml version="1.0"?>
+<courseleaf>
+
+<title>Social Science Data Analysis &amp; Visualization, Minor</title>
+
+
+<text>
+<![CDATA[  
+
+  
+]]>
+</text>
+<informationtext name="Information">
+<![CDATA[
+<p><span data-olk-copy-source="MessageBody">The Social Science Data Analysis &amp; Visualization minor introduces students to the fundamentals and current innovations of research and data analysis across social science disciplines. It equips students with the skills to analyze, interpret, and visualize various data types using different research methods and prepares them to engage with contemporary research and contribute to data-driven scholarship.</span></p>
+<p>For more information, contact <a href="mailto:poladvising@ucdavis.edu">Political Science advising</a>.</p>
+]]>
+</informationtext>
+<requirementstext name="Requirements">
+<![CDATA[
+<table class="sc_courselist">
+<caption class="hidden noscript">Course List</caption>
+<colgroup>
+<col class="codecol"/>
+<col class="titlecol"/>
+<col align="char" char="." class="hourscol"/>
+</colgroup>
+<thead>
+<tr class="hidden noscript">
+<th scope="col">Code</th>
+<th scope="col">Title</th>
+<th scope="col" class="hourscol">Units</th>
+</tr>
+</thead>
+<tbody>
+<tr class="even areasubheader undefined firstrow"><td colspan="2"><span class="courselistcomment areasubheader undefined">Lower Division Requirements</span></td><td class="hourscol"></td></tr>
+<tr class="odd"><td colspan="2"><span class="courselistcomment">Choose one:</span></td><td class="hourscol">4-5</td></tr>
+<tr class="even"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="POL 012Y">POL 012Y</span></div></td><td>Data Visualization in the Social Sciences</td><td class="hourscol"></td></tr>
+<tr class="odd"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="POL 051">POL 051</span></div></td><td>Scientific Study of Politics</td><td class="hourscol"></td></tr>
+<tr class="even"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="SOC 056">SOC 056</span></div></td><td>Introduction to Social Statistics</td><td class="hourscol"></td></tr>
+<tr class="orclass even"><td class="codecol orclass"><div style="margin-left:20px;" class="blockindent">or <span class="code_bubble" data-code-bubble="SOC 056Y">SOC 056Y</span></div></td><td colspan="2"> Introduction to Social Statistics</td></tr>
+<tr class="odd"><td colspan="2"><span class="courselistcomment">Lower Division Requirements Subtotal</span></td><td class="hourscol">4-5</td></tr>
+<tr class="even areasubheader undefined"><td colspan="2"><span class="courselistcomment areasubheader undefined">Upper Division Requirements</span></td><td class="hourscol"></td></tr>
+<tr class="odd"><td colspan="2"><span class="courselistcomment">Choose five:</span></td><td class="hourscol">20-23</td></tr>
+<tr class="even"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="ANT 109">ANT 109</span></div></td><td>Visualization in Science: A Critical Introduction</td><td class="hourscol"></td></tr>
+<tr class="odd"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="CMN 102">CMN 102</span></div></td><td>Empirical Methods in Communication</td><td class="hourscol"></td></tr>
+<tr class="orclass odd"><td class="codecol orclass"><div style="margin-left:20px;" class="blockindent">or <span class="code_bubble" data-code-bubble="CMN 102V">CMN 102V</span></div></td><td colspan="2"> Empirical Methods in Communication</td></tr>
+<tr class="even"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="CMN 110">CMN 110</span></div></td><td>Communication Networks</td><td class="hourscol"></td></tr>
+<tr class="odd"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="CMN 150V">CMN 150V</span></div></td><td>Computational Social Science</td><td class="hourscol"></td></tr>
+<tr class="even"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="CMN 151">CMN 151</span></div></td><td>Simulating Communication Processes</td><td class="hourscol"></td></tr>
+<tr class="odd"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="CMN 152V">CMN 152V</span></div></td><td>Social Science with Online Data</td><td class="hourscol"></td></tr>
+<tr class="even"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="ECN 102">ECN 102</span></div></td><td>Analysis of Economic Data</td><td class="hourscol"></td></tr>
+<tr class="odd"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="ECN 140">ECN 140</span></div></td><td>Econometrics</td><td class="hourscol"></td></tr>
+<tr class="even"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="EDU 114">EDU 114</span></div></td><td>Quantitative Methods in Educational Research</td><td class="hourscol"></td></tr>
+<tr class="odd"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="LIN 127">LIN 127</span></div></td><td>Text Processing &amp; Corpus Linguistics</td><td class="hourscol"></td></tr>
+<tr class="even"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="POL 114">POL 114</span></div></td><td>Quantitative Analysis of Political Data</td><td class="hourscol"></td></tr>
+<tr class="odd"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="PSC 103A">PSC 103A</span></div></td><td>Statistical Analysis of Psychological Data</td><td class="hourscol"></td></tr>
+<tr class="even"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="PSC 103B">PSC 103B</span></div></td><td>Statistical Analysis of Psychological Data</td><td class="hourscol"></td></tr>
+<tr class="odd"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="PSC 104">PSC 104</span></div></td><td>Applied Psychometrics: An Introduction to Measurement Theory</td><td class="hourscol"></td></tr>
+<tr class="even"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="PSC 107">PSC 107</span></div></td><td>Questionnaire &amp; Survey Research Methods</td><td class="hourscol"></td></tr>
+<tr class="odd"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="PSC 120">PSC 120</span></div></td><td>Agent-Based Modeling</td><td class="hourscol"></td></tr>
+<tr class="even"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="SOC 103">SOC 103</span></div></td><td>Evaluation Research Methods</td><td class="hourscol"></td></tr>
+<tr class="odd"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="SOC 106">SOC 106</span></div></td><td>Intermediate Social Statistics</td><td class="hourscol"></td></tr>
+<tr class="even"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="SOC 195">SOC 195</span></div></td><td>Special Topics in Sociological Analysis <sup>1</sup></td><td class="hourscol"></td></tr>
+<tr class="odd lastrow"><td colspan="2"><span class="courselistcomment">Upper Division Requirements Subtotal</span></td><td class="hourscol">20-23</td></tr>
+<tr class="listsum"><td colspan="2">Total Units</td><td class="hourscol">24-28</td></tr></tbody>
+</table>
+
+<dl class="sc_footnotes" aria-label="Footnotes"><dt> <sup> 1 </sup> </dt><dd><p class="noindent">When topic is appropriate.</p></dd></dl>
+]]>
+</requirementstext>
+<quickviewtext name="Quick View">
+<![CDATA[
+<p>The minor introduces students to the fundamentals and current innovations of research and data analysis across social science disciplines. It equips students with the skills to analyze, interpret, and visualize various data types using different research methods and prepares them to engage with contemporary research and contribute to data-driven scholarship.</p>
+]]>
+</quickviewtext>
+<faculty>
+<![CDATA[
+]]>
+</faculty>
+</courseleaf>
+

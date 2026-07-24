@@ -1,0 +1,67 @@
+<?xml version="1.0"?>
+<courseleaf>
+
+<title>Data in Society, Minor</title>
+
+
+<text>
+<![CDATA[  
+
+  
+]]>
+</text>
+<informationtext name="Information">
+<![CDATA[
+<p>The Data in Society minor provides students with skills to work with and think critically about data in a variety of academic, administrative, and industrial domains. Courses in the minor teach students to use computational methods (primarily in R) to explore, manipulate, analyze, and visualize numeric and textual data with a critical awareness of the provenance of the data, the choices made in data collection, the questions that can and cannot be answered with any given data set, and the implications of all of these issues for analytic outcomes. Students learn how to communicate about data in written, oral, and visual media with data scientists and with diverse sets of stakeholders. The minor is sponsored by the Department of <a href="https://sts.ucdavis.edu/" target="_blank">Science &amp; Technology Studies</a>.</p>
+<h2>Minor Advisor</h2>
+<p><span class="author-219775915">For information about how to contact a minor advisor, see </span><a href="https://yellowcluster.ucdavis.edu/advising/undergraduate/major-advising">Major Advising</a>.</p>
+<h2>Faculty Advisor</h2>
+<p>The faculty advisor, Professor <a href="mailto:condiaz@ucdavis.edu">Gerardo Con Diaz</a>, is available for advising by appointment.</p>
+]]>
+</informationtext>
+<requirementstext name="Requirements">
+<![CDATA[
+<table class="sc_courselist">
+<caption class="hidden noscript">Course List</caption>
+<colgroup>
+<col class="codecol"/>
+<col class="titlecol"/>
+<col align="char" char="." class="hourscol"/>
+</colgroup>
+<thead>
+<tr class="hidden noscript">
+<th scope="col">Code</th>
+<th scope="col">Title</th>
+<th scope="col" class="hourscol">Units</th>
+</tr>
+</thead>
+<tbody>
+<tr class="even areaheader  firstrow"><td colspan="2"><span class="courselistcomment areaheader ">Required Courses</span></td><td class="hourscol">16</td></tr>
+<tr class="odd"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="STS 101">STS 101</span></div></td><td>Data &amp; Society</td><td class="hourscol"></td></tr>
+<tr class="even"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="STS 112">STS 112</span></div></td><td>Visualizing Society with Data</td><td class="hourscol"></td></tr>
+<tr class="odd"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="STS 115">STS 115</span></div></td><td>Data Sense &amp; Exploration: Critical Storytelling with Analysis</td><td class="hourscol"></td></tr>
+<tr class="even"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="STS 195">STS 195</span></div></td><td>Research in Data Studies</td><td class="hourscol"></td></tr>
+<tr class="odd areaheader "><td colspan="2"><span class="courselistcomment areaheader ">Elective Courses</span></td><td class="hourscol">4</td></tr>
+<tr class="even"><td colspan="2"><div style="margin-left:20px;" class="blockindent"><span class="courselistcomment commentindent">Choose one or seek the approval of the program advisor for an unlisted course that focuses on a topic related to Data in Society.</span></div></td><td class="hourscol"></td></tr>
+<tr class="odd"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="STS 100">STS 100</span></div></td><td>Methods in Science, Technology, &amp; Medicine Studies</td><td class="hourscol"></td></tr>
+<tr class="even"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="STS 109">STS 109</span></div></td><td>Visualization in Science: A Critical Introduction</td><td class="hourscol"></td></tr>
+<tr class="odd"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="STS 110">STS 110</span></div></td><td>Computing, Data, &amp; Law in the United States</td><td class="hourscol"></td></tr>
+<tr class="even"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="STS 114">STS 114</span></div></td><td>The Global Information Age</td><td class="hourscol"></td></tr>
+<tr class="odd"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="STS 152">STS 152</span></div></td><td>Sounding Data: Critical Approaches to Sonification</td><td class="hourscol"></td></tr>
+<tr class="even lastrow"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="STS 192">STS 192</span></div></td><td>Internship</td><td class="hourscol"></td></tr>
+<tr class="listsum"><td colspan="2">Total Units</td><td class="hourscol">20</td></tr></tbody>
+</table>
+
+]]>
+</requirementstext>
+<quickviewtext name="Quick View">
+<![CDATA[
+<p>The Data Studies program offers UC Davis undergraduate students a unique opportunity to take their major and apply it to the world of data, learning how to question, analyze and present data research that will enable them to get jobs. </p>
+]]>
+</quickviewtext>
+<faculty>
+<![CDATA[
+]]>
+</faculty>
+</courseleaf>
+

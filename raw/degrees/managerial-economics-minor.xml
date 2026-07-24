@@ -1,0 +1,121 @@
+<?xml version="1.0"?>
+<courseleaf>
+
+<title>Managerial Economics, Minor</title>
+
+
+<text>
+<![CDATA[  
+
+  
+]]>
+</text>
+<informationtext name="Information">
+<![CDATA[
+<p>The Managerial Economics minor is 24 units of upper division ARE coursework. Prerequisites total 28 units and are required. All lower-division preparatory coursework must be completed with minimum C- (or Pass) grades, however, <span class="sc_courseinline"><span class="code_bubble" data-code-bubble="STA 103">STA 103</span></span> must be taken for a letter grade.</p>
+
+<p>All courses to satisfy the minor must be taken for a letter grade, and students must attain a minor GPA of at least a C average (2.000). All upper division courses taken toward minor requirements will be calculated as part of the minor GPA, including courses with F grades that have not been repeated.</p>
+<p>A total of two upper division courses (maximum 4 units each) may be taken through UC Study Abroad, all other courses must be taken in residence. Students must seek pre-approval from a Managerial Economics staff advisor for any international courses.</p>
+]]>
+</informationtext>
+<requirementstext name="Requirements">
+<![CDATA[
+<h2>Preparatory Coursework</h2>
+<p>Preparatory coursework units <em>do not count towards minor units. </em>The Managerial Economics Minor requires 28 units of preparatory coursework. All lower-division preparatory coursework must be completed with minimum C- (or PASS); <span class="sc_courseinline"><span class="code_bubble" data-code-bubble="STA 103">STA 103</span></span> must be taken for a letter grade.</p>
+
+<table class="sc_courselist">
+<caption class="hidden noscript">Course List</caption>
+<colgroup>
+<col class="codecol"/>
+<col class="titlecol"/>
+<col align="char" char="." class="hourscol"/>
+</colgroup>
+<thead>
+<tr class="hidden noscript">
+<th scope="col">Code</th>
+<th scope="col">Title</th>
+<th scope="col" class="hourscol">Units</th>
+</tr>
+</thead>
+<tbody>
+<tr class="even areasubheader undefined firstrow"><td colspan="2"><span class="courselistcomment areasubheader undefined">Economics</span></td><td class="hourscol">8</td></tr>
+<tr class="odd"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="ECN 001A">ECN 001A</span></div></td><td>Principles of Microeconomics</td><td class="hourscol"></td></tr>
+<tr class="orclass odd"><td class="codecol orclass"><div style="margin-left:20px;" class="blockindent">or <span class="code_bubble" data-code-bubble="ECN 001AV">ECN 001AV</span></div></td><td colspan="2"> Principles of Microeconomics </td></tr>
+<tr class="orclass odd"><td class="codecol orclass"><div style="margin-left:20px;" class="blockindent">or <span class="code_bubble" data-code-bubble="ECN 001AY">ECN 001AY</span></div></td><td colspan="2"> Principles of Microeconomics</td></tr>
+<tr class="even"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="ECN 001B">ECN 001B</span></div></td><td>Principles of Macroeconomics</td><td class="hourscol"></td></tr>
+<tr class="orclass even"><td class="codecol orclass"><div style="margin-left:20px;" class="blockindent">or <span class="code_bubble" data-code-bubble="ECN 001BV">ECN 001BV</span></div></td><td colspan="2"> Principles of Macroeconomics</td></tr>
+<tr class="odd areasubheader undefined"><td colspan="2"><span class="courselistcomment areasubheader undefined">Mathematics</span></td><td class="hourscol">12</td></tr>
+<tr class="even"><td colspan="2"><div style="margin-left:20px;" class="blockindent"><span class="courselistcomment commentindent">The preferred calculus series for Managerial Economics is MAT 019. The MAT 016 series is accepted if started prior to Fall 2024.</span></div></td><td class="hourscol"></td></tr>
+<tr class="odd"><td colspan="2"><div style="margin-left:20px;" class="blockindent"><span class="courselistcomment commentindent">Choose one series:</span></div></td><td class="hourscol"></td></tr>
+<tr class="even"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="MAT 019A">MAT 019A</span><br/><span style="margin-left:20px;" class="blockindent">&amp; <span class="code_bubble" data-code-bubble="MAT 019B">MAT 019B</span></span><br/><span style="margin-left:20px;" class="blockindent">&amp; <span class="code_bubble" data-code-bubble="MAT 019C">MAT 019C</span></span></div></td><td>Calculus for Data-Driven Applications<br/><span style="margin-left:20px;" class="blockindent">and Calculus for Data-Driven Applications</span><br/><span style="margin-left:20px;" class="blockindent">and Calculus for Data-Driven Applications</span></td><td class="hourscol"></td></tr>
+<tr class="odd"><td colspan="2"><div style="margin-left:20px;" class="blockindent"><span class="courselistcomment commentindent"><strong>OR</strong></span></div></td><td class="hourscol"></td></tr>
+<tr class="even"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="MAT 017A">MAT 017A</span><br/><span style="margin-left:20px;" class="blockindent">&amp; <span class="code_bubble" data-code-bubble="MAT 017B">MAT 017B</span></span><br/><span style="margin-left:20px;" class="blockindent">&amp; <span class="code_bubble" data-code-bubble="MAT 017C">MAT 017C</span></span></div></td><td>Calculus for Biology &amp; Medicine<br/><span style="margin-left:20px;" class="blockindent">and Calculus for Biology &amp; Medicine</span><br/><span style="margin-left:20px;" class="blockindent">and Calculus for Biology &amp; Medicine</span></td><td class="hourscol"></td></tr>
+<tr class="odd"><td colspan="2"><div style="margin-left:20px;" class="blockindent"><span class="courselistcomment commentindent"><strong>OR</strong></span></div></td><td class="hourscol"></td></tr>
+<tr class="even"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="MAT 021A">MAT 021A</span><br/><span style="margin-left:20px;" class="blockindent">&amp; <span class="code_bubble" data-code-bubble="MAT 021B">MAT 021B</span></span><br/><span style="margin-left:20px;" class="blockindent">&amp; <span class="code_bubble" data-code-bubble="MAT 021C">MAT 021C</span></span></div></td><td>Calculus<br/><span style="margin-left:20px;" class="blockindent">and Calculus</span><br/><span style="margin-left:20px;" class="blockindent">and Calculus</span></td><td class="hourscol"></td></tr>
+<tr class="odd areasubheader undefined"><td colspan="2"><span class="courselistcomment areasubheader undefined">Statistics</span></td><td class="hourscol">8</td></tr>
+<tr class="even"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="STA 013">STA 013</span></div></td><td>Elementary Statistics</td><td class="hourscol"></td></tr>
+<tr class="orclass even"><td class="codecol orclass"><div style="margin-left:20px;" class="blockindent">or <span class="code_bubble" data-code-bubble="STA 013V">STA 013V</span></div></td><td colspan="2"> Elementary Statistics</td></tr>
+<tr class="orclass even"><td class="codecol orclass"><div style="margin-left:20px;" class="blockindent">or <span class="code_bubble" data-code-bubble="STA 013Y">STA 013Y</span></div></td><td colspan="2"> Elementary Statistics</td></tr>
+<tr class="orclass even"><td class="codecol orclass"><div style="margin-left:20px;" class="blockindent">or <span class="code_bubble" data-code-bubble="STA 032">STA 032</span></div></td><td colspan="2"> Gateway to Statistical Data Science</td></tr>
+<tr class="odd lastrow"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="STA 103">STA 103</span></div></td><td>Applied Statistics for Business &amp; Economics</td><td class="hourscol"></td></tr>
+<tr class="listsum"><td colspan="2">Total Units</td><td class="hourscol">28</td></tr></tbody>
+</table>
+
+<dl class="sc_footnotes" aria-label="Footnotes"><dt>**</dt><dd><p class="noindent">Course(s) discontinued; see your advisor for course options.</p></dd></dl>
+<h2>Minor Requirements </h2>
+<table class="sc_courselist">
+<caption class="hidden noscript">Course List</caption>
+<colgroup>
+<col class="codecol"/>
+<col class="titlecol"/>
+<col align="char" char="." class="hourscol"/>
+</colgroup>
+<thead>
+<tr class="hidden noscript">
+<th scope="col">Code</th>
+<th scope="col">Title</th>
+<th scope="col" class="hourscol">Units</th>
+</tr>
+</thead>
+<tbody>
+<tr class="even firstrow"><td class="codecol"><span class="code_bubble" data-code-bubble="ARE 100A">ARE 100A</span></td><td>Intermediate Microeconomics: Theory of Production &amp; Consumption <sup>1</sup></td><td class="hourscol">4</td></tr>
+<tr class="odd"><td class="codecol"><span class="code_bubble" data-code-bubble="ARE 100B">ARE 100B</span></td><td>Intermediate Microeconomics: Imperfect Competition, Markets &amp; Welfare Economics</td><td class="hourscol">4</td></tr>
+<tr class="even"><td class="codecol"><span class="code_bubble" data-code-bubble="ARE 106">ARE 106</span></td><td>Econometric Theory &amp; Applications</td><td class="hourscol">4</td></tr>
+<tr class="odd"><td colspan="2"><span class="courselistcomment">Choose 12 units from the following:</span></td><td class="hourscol">12</td></tr>
+<tr class="even"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="ARE 107">ARE 107</span></div></td><td>Econometrics for Business Decisions</td><td class="hourscol"></td></tr>
+<tr class="odd"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="ARE 112">ARE 112</span></div></td><td>Fundamentals of Organization Management</td><td class="hourscol"></td></tr>
+<tr class="even"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="ARE 115A">ARE/ECN 115A</span></div></td><td>Economic Development</td><td class="hourscol"></td></tr>
+<tr class="odd"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="ARE 130">ARE 130</span></div></td><td>Agricultural Markets</td><td class="hourscol"></td></tr>
+<tr class="even"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="ARE 136">ARE 136</span></div></td><td>Managerial Marketing</td><td class="hourscol"></td></tr>
+<tr class="odd"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="ARE 138">ARE 138</span></div></td><td>International Commodity &amp; Resource Markets</td><td class="hourscol"></td></tr>
+<tr class="even"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="ARE 139">ARE 139</span></div></td><td>Futures &amp; Options Markets</td><td class="hourscol"></td></tr>
+<tr class="odd"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="ARE 143">ARE 143</span></div></td><td>Basics of Investing</td><td class="hourscol"></td></tr>
+<tr class="even"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="ARE 145">ARE 145</span></div></td><td>Farm &amp; Rural Resources Appraisal</td><td class="hourscol"></td></tr>
+<tr class="odd"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="ARE 146">ARE 146</span></div></td><td>Economics of Business Regulation</td><td class="hourscol"></td></tr>
+<tr class="even"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="ARE 150">ARE 150</span></div></td><td>Agricultural Labor</td><td class="hourscol"></td></tr>
+<tr class="odd"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="ARE 155">ARE 155</span></div></td><td>Operations Research &amp; Management Science</td><td class="hourscol"></td></tr>
+<tr class="even"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="ARE 156">ARE 156</span></div></td><td>Introduction to Mathematical Economics</td><td class="hourscol"></td></tr>
+<tr class="odd"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="ARE 157">ARE 157</span></div></td><td>Analysis for Operations &amp; Production Management</td><td class="hourscol"></td></tr>
+<tr class="even"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="ARE 165">ARE 165</span></div></td><td>Emerging Economies &amp; Globalization</td><td class="hourscol"></td></tr>
+<tr class="odd"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="ARE 171">ARE 171</span></div></td><td>Principles of Finance <sup>2</sup></td><td class="hourscol"></td></tr>
+<tr class="even"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="ARE 172">ARE 172</span></div></td><td>Corporate Finance <sup>3</sup></td><td class="hourscol"></td></tr>
+<tr class="odd"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="ARE 173">ARE 173</span></div></td><td>Investments</td><td class="hourscol"></td></tr>
+<tr class="even"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="ARE 175">ARE/ESP 175</span></div></td><td>Natural Resource Economics</td><td class="hourscol"></td></tr>
+<tr class="odd lastrow"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="ARE 176">ARE 176</span></div></td><td>Environmental Economics</td><td class="hourscol"></td></tr>
+<tr class="listsum"><td colspan="2">Total Units</td><td class="hourscol">24</td></tr></tbody>
+</table>
+
+<dl class="sc_footnotes" aria-label="Footnotes"><dt> <sup> 1 </sup> </dt><dd><p class="noindent"><span dir="ltr" role="presentation">Must</span> <span dir="ltr" role="presentation">be</span> <span dir="ltr" role="presentation">completed</span> <span dir="ltr" role="presentation">with</span> <span dir="ltr" role="presentation">a</span> <span dir="ltr" role="presentation">minimum</span> <span dir="ltr" role="presentation">grade</span> <span dir="ltr" role="presentation">of</span> <span dir="ltr" role="presentation">C-.</span></p></dd><dt> <sup> 2 </sup> </dt><dd><p class="noindent">Formerly <span class="sc_courseinline"><span class="code_bubble" data-code-bubble="ARE 171A">ARE 171A</span></span> discontinued.</p></dd><dt> <sup> 3 </sup> </dt><dd><p class="noindent">Formerly <span class="sc_courseinline"><span class="code_bubble" data-code-bubble="ARE 171B">ARE 171B</span></span>​ discontinued.</p></dd></dl>
+]]>
+</requirementstext>
+<quickviewtext name="Quick View">
+<![CDATA[
+<p>In the Managerial Economics minor, you learn a deep understanding of economic principles and strong quantitative skills to support critical thinking and decision-making about real-world business and policy problems.</p>
+]]>
+</quickviewtext>
+<faculty>
+<![CDATA[
+]]>
+</faculty>
+</courseleaf>
+

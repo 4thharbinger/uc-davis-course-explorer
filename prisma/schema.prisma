@@ -101,7 +101,12 @@ model Degree {
   @@id([school, code])
 
   school       String // e.g., ucdavis
-  code         String // e.g., EASE
+  code         String // e.g., aerospace-science-engineering-bs
+  abbreviation String?// e.g., EASE
+  name         String // e.g., Aerospace Science & Engineering, Bachelor of Science
+  type         String // e.g., BS, BA, Minor, Ms
+  aliases      String[] @default([])
+
   requirements Json   
 }
 
@@ -133,3 +138,4 @@ model User {
   profile      UserProfile?
   data         UserData?
 }
+

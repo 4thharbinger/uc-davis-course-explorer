@@ -1,0 +1,189 @@
+<?xml version="1.0"?>
+<courseleaf>
+
+<title>Applied Mathematics, Bachelor of Science</title>
+
+
+<text>
+<![CDATA[  
+
+  
+]]>
+</text>
+<informationtext name="Information">
+<![CDATA[
+<p><span style="color:rgb(0, 0, 0)">Mathematics is the study of abstract structures, space, change, and the interrelations of these concepts. It also is the language of the exact sciences.</span></p>
+<h2>The Program</h2>
+<p>After completing basic introductory courses such as calculus and linear algebra, students plan an upper division program in consultation with a faculty advisor. Upper division courses include real analysis, probability, modern algebra, as well as a variety of other courses that allow students to further mathematical knowledge and skills that feature their research or career interests. This individualized program can lead to graduate study in pure or applied mathematics, elementary or secondary level teaching, or to other professional goals. It can also reflect a special interest such as computational and applied mathematics, computer science, or statistics, or may be combined with a major in some other field.</p>
+<h3>Career Alternatives</h3>
+<p>A degree in mathematics provides entry to many careers in industry in addition to teaching. For instance, operations research, data analysis, systems analysis, computing, actuarial work, insurance, and financial services are only a few such careers. Mathematics is also a sound basis for graduate work in a variety of fields, such as law, engineering, and economics.</p>
+<h3>Major Advisors</h3>
+<p>For a current list of faculty and staff advisors, see <a href="https://www.math.ucdavis.edu/undergrad/advising/advisers/"><span class="field field--label-hidden field--name-title field--type-string">Math Department Advising</span></a> or contact the <a href="mailto:studentservices@math.ucdavis.edu">Student Services office</a>.</p>
+<h3>Mathematics Placement Requirement</h3>
+<p>Students who wish to enroll in <span class="sc_courseinline"><span class="code_bubble" data-code-bubble="MAT 012">MAT 012</span></span>, <span class="sc_courseinline"><span class="code_bubble" data-code-bubble="MAT 017A">MAT 017A</span></span>, <span class="sc_courseinline"><span class="code_bubble" data-code-bubble="MAT 019A">MAT 019A</span></span>, <span class="sc_courseinline"><span class="code_bubble" data-code-bubble="MAT 021A">MAT 021A</span></span>, <span class="sc_courseinline"><span class="code_bubble" data-code-bubble="MAT 021AH">MAT 021AH</span></span>, and <span class="sc_courseinline"><span class="code_bubble" data-code-bubble="MAT 021M">MAT 021M</span></span> must satisfy the mathematics placement requirement by taking an online exam. Students who do not satisfy the requirement will be administratively dropped from these courses. For more information, including preparation tips and how to access the online exam, please see <a href="https://www.math.ucdavis.edu/undergrad/math_placement"><span class="field field--label-hidden field--name-title field--type-string">Math Placement Requirement (MPR)</span></a>, well in advance of enrolling.</p>
+
+<h3>Department Honors</h3>
+<p>Students who meet the minimum GPA requirement for honors at graduation from the College of Letters &amp; Science and who complete a senior project as part of <span class="sc_courseinline"><span class="code_bubble" data-code-bubble="MAT 194">MAT 194</span></span> or <span class="sc_courseinline"><span class="code_bubble" data-code-bubble="MAT 199">MAT 199</span></span> units in consultation with their faculty advisor may also be recommended by the department for graduation with High Honors or Highest Honors. Recommendations will be based on evaluations of students' academic achievements in their major and the quality of their senior project. For complete details, see <a href="https://www.math.ucdavis.edu/research/honors">Honors &amp; Awards</a>.</p>
+
+<h2>Graduate Study</h2>
+<p>The Department offers programs of study and research leading to M.A. and Ph.D. degrees in Mathematics. Information regarding graduate study may be obtained by consulting <a href="https://www.math.ucdavis.edu/grad">Graduate Information</a>, and by <a href="mailto:studentservices@math.ucdavis.edu">email</a>.</p>
+]]>
+</informationtext>
+<requirementstext name="Requirements">
+<![CDATA[
+<p>The major requirements below are in addition to meeting <a href="/undergraduate-education/university-degree-requirements/">University Requirements</a> &amp; <a href="/undergraduate-education/college-degree-requirements/">College Requirements</a>; unless otherwise noted. The minimum number of units required for the <span class="title-main">Applied Mathematics Bachelor of Science </span>major is 91.</p>
+<table class="sc_courselist">
+<caption class="hidden noscript">Course List</caption>
+<colgroup>
+<col class="codecol"/>
+<col class="titlecol"/>
+<col align="char" char="." class="hourscol"/>
+</colgroup>
+<thead>
+<tr class="hidden noscript">
+<th scope="col">Code</th>
+<th scope="col">Title</th>
+<th scope="col" class="hourscol">Units</th>
+</tr>
+</thead>
+<tbody>
+<tr class="even areaheader  firstrow"><td colspan="2"><span class="courselistcomment areaheader ">Preparatory Subject Matter</span></td><td class="hourscol"></td></tr>
+<tr class="odd areasubheader undefined"><td colspan="2"><span class="courselistcomment areasubheader undefined">Calculus</span></td><td class="hourscol"></td></tr>
+<tr class="even"><td class="codecol"><span class="code_bubble" data-code-bubble="MAT 021A">MAT 021A</span></td><td>Calculus</td><td class="hourscol">4</td></tr>
+<tr class="odd"><td class="codecol"><span class="code_bubble" data-code-bubble="MAT 021B">MAT 021B</span></td><td>Calculus</td><td class="hourscol">4</td></tr>
+<tr class="even"><td class="codecol"><span class="code_bubble" data-code-bubble="MAT 021C">MAT 021C</span></td><td>Calculus</td><td class="hourscol">4</td></tr>
+<tr class="odd"><td class="codecol"><span class="code_bubble" data-code-bubble="MAT 021D">MAT 021D</span></td><td>Vector Analysis</td><td class="hourscol">4</td></tr>
+<tr class="even areasubheader undefined"><td colspan="2"><span class="courselistcomment areasubheader undefined">Linear Algebra &amp; Proof-Writing</span></td><td class="hourscol"></td></tr>
+<tr class="odd"><td colspan="2"><span class="courselistcomment">Choose one option:</span></td><td class="hourscol">4-8</td></tr>
+<tr class="even"><td colspan="2"><div style="margin-left:20px;" class="blockindent"><span class="courselistcomment commentindent">(a)</span></div></td><td class="hourscol"></td></tr>
+<tr class="odd"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="MAT 022A">MAT 022A</span></div></td><td>Linear Algebra</td><td class="hourscol"></td></tr>
+<tr class="even"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="MAT 108">MAT 108</span></div></td><td>Introduction to Abstract Mathematics</td><td class="hourscol"></td></tr>
+<tr class="orclass even"><td class="codecol orclass"><div style="margin-left:20px;" class="blockindent">or <span class="code_bubble" data-code-bubble="MAT 108V">MAT 108V</span></div></td><td colspan="2"> Introduction to Abstract Mathematics</td></tr>
+<tr class="odd"><td colspan="2"><div style="margin-left:20px;" class="blockindent"><span class="courselistcomment commentindent">(b)</span></div></td><td class="hourscol"></td></tr>
+<tr class="even"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="MAT 027A">MAT/BIS 027A</span></div></td><td>Linear Algebra with Applications to Biology</td><td class="hourscol"></td></tr>
+<tr class="odd"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="MAT 108">MAT 108</span></div></td><td>Introduction to Abstract Mathematics</td><td class="hourscol"></td></tr>
+<tr class="orclass odd"><td class="codecol orclass"><div style="margin-left:20px;" class="blockindent">or <span class="code_bubble" data-code-bubble="MAT 108V">MAT 108V</span></div></td><td colspan="2"> Introduction to Abstract Mathematics</td></tr>
+<tr class="even"><td colspan="2"><div style="margin-left:20px;" class="blockindent"><span class="courselistcomment commentindent">(c)</span></div></td><td class="hourscol"></td></tr>
+<tr class="odd"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="MAT 067">MAT 067</span></div></td><td>Modern Linear Algebra</td><td class="hourscol"></td></tr>
+<tr class="even areasubheader undefined"><td colspan="2"><span class="courselistcomment areasubheader undefined">MATLAB</span> <sup>1</sup></td><td class="hourscol">1</td></tr>
+<tr class="odd"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="MAT 022AL">MAT 022AL</span></div></td><td>Linear Algebra Computer Laboratory</td><td class="hourscol"></td></tr>
+<tr class="even"><td colspan="2"><div style="margin-left:20px;" class="blockindent"><span class="courselistcomment commentindent">Equivalent MATLAB knowledge.</span></div></td><td class="hourscol"></td></tr>
+<tr class="odd areasubheader undefined"><td colspan="2"><span class="courselistcomment areasubheader undefined">Differential Equations</span></td><td class="hourscol"></td></tr>
+<tr class="even"><td class="codecol"><span class="code_bubble" data-code-bubble="MAT 027B">MAT/BIS 027B</span></td><td>Differential Equations with Applications to Biology</td><td class="hourscol">3-4</td></tr>
+<tr class="orclass even"><td class="codecol orclass">or <span class="code_bubble" data-code-bubble="MAT 022B">MAT 022B</span></td><td colspan="2"> Differential Equations</td></tr>
+<tr class="odd areasubheader undefined"><td colspan="2"><span class="courselistcomment areasubheader undefined">Programming</span></td><td class="hourscol"></td></tr>
+<tr class="even"><td class="codecol"><span class="code_bubble" data-code-bubble="ECS 032A">ECS 032A</span></td><td>Introduction to Programming</td><td class="hourscol">4</td></tr>
+<tr class="orclass even"><td class="codecol orclass">or <span class="code_bubble" data-code-bubble="ECS 032AV">ECS 032AV</span></td><td colspan="2"> Introduction to Programming</td></tr>
+<tr class="odd"><td class="codecol"><span class="code_bubble" data-code-bubble="ENG 006">ENG 006</span></td><td>Engineering Problem Solving with Applied AI</td><td class="hourscol">4</td></tr>
+<tr class="even areasubheader undefined"><td colspan="2"><span class="courselistcomment areasubheader undefined">Choose one two-quarter sequence:</span></td><td class="hourscol">8-10</td></tr>
+<tr class="odd areasubheader undefined"><td colspan="2"><span class="courselistcomment areasubheader undefined">Biological Science</span></td><td class="hourscol"></td></tr>
+<tr class="even"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="BIO 001">BIO 001</span><br/><span style="margin-left:20px;" class="blockindent">&amp; <span class="code_bubble" data-code-bubble="BIO 002">BIO 002</span></span></div></td><td>Introductory Biology: Ecology &amp; Evolution<br/><span style="margin-left:20px;" class="blockindent">and Introductory Biology: Molecules to Cells</span></td><td class="hourscol"></td></tr>
+<tr class="odd"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="BIS 002A">BIS 002A</span><br/><span style="margin-left:20px;" class="blockindent">&amp; <span class="code_bubble" data-code-bubble="BIS 002B">BIS 002B</span></span></div></td><td>Introduction to Biology: Essentials of Life on Earth<br/><span style="margin-left:20px;" class="blockindent">and Introduction to Biology: Principles of Ecology &amp; Evolution</span></td><td class="hourscol"></td></tr>
+<tr class="even areasubheader undefined"><td colspan="2"><span class="courselistcomment areasubheader undefined">Chemistry</span></td><td class="hourscol"></td></tr>
+<tr class="odd"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="CHE 002A">CHE 002A</span><br/><span style="margin-left:20px;" class="blockindent">&amp; <span class="code_bubble" data-code-bubble="CHE 002B">CHE 002B</span></span></div></td><td>General Chemistry<br/><span style="margin-left:20px;" class="blockindent">and General Chemistry</span></td><td class="hourscol"></td></tr>
+<tr class="even areasubheader undefined"><td colspan="2"><span class="courselistcomment areasubheader undefined">Economics</span></td><td class="hourscol"></td></tr>
+<tr class="odd"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="ECN 001A">ECN 001A</span></div></td><td>Principles of Microeconomics</td><td class="hourscol"></td></tr>
+<tr class="orclass odd"><td class="codecol orclass"><div style="margin-left:20px;" class="blockindent">or <span class="code_bubble" data-code-bubble="ECN 001AV">ECN 001AV</span></div></td><td colspan="2"> Principles of Microeconomics </td></tr>
+<tr class="orclass odd"><td class="codecol orclass"><div style="margin-left:20px;" class="blockindent">or <span class="code_bubble" data-code-bubble="ECN 001AY">ECN 001AY</span></div></td><td colspan="2"> Principles of Microeconomics</td></tr>
+<tr class="even"><td colspan="2"><div style="margin-left:20px;" class="blockindent"><span class="courselistcomment commentindent"><strong>AND</strong></span></div></td><td class="hourscol"></td></tr>
+<tr class="odd"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="ECN 001B">ECN 001B</span></div></td><td>Principles of Macroeconomics</td><td class="hourscol"></td></tr>
+<tr class="orclass odd"><td class="codecol orclass"><div style="margin-left:20px;" class="blockindent">or <span class="code_bubble" data-code-bubble="ECN 001BV">ECN 001BV</span></div></td><td colspan="2"> Principles of Macroeconomics</td></tr>
+<tr class="even areasubheader undefined"><td colspan="2"><span class="courselistcomment areasubheader undefined">Physics</span></td><td class="hourscol"></td></tr>
+<tr class="odd"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="PHY 009A">PHY 009A</span><br/><span style="margin-left:20px;" class="blockindent">&amp; <span class="code_bubble" data-code-bubble="PHY 009B">PHY 009B</span></span></div></td><td>Classical Physics<br/><span style="margin-left:20px;" class="blockindent">and Classical Physics</span></td><td class="hourscol"></td></tr>
+<tr class="even areasubheader undefined"><td colspan="2"><span class="courselistcomment areasubheader undefined">Statistics</span></td><td class="hourscol"></td></tr>
+<tr class="odd"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="STA 032">STA 032</span><br/><span style="margin-left:20px;" class="blockindent">&amp; <span class="code_bubble" data-code-bubble="STA 100">STA 100</span></span></div></td><td>Gateway to Statistical Data Science<br/><span style="margin-left:20px;" class="blockindent">and Applied Statistics for Biological Sciences</span></td><td class="hourscol"></td></tr>
+<tr class="even"><td colspan="2"><div style="margin-left:20px;" class="blockindent"><span class="courselistcomment commentindent"><strong>or</strong> Other applied preparatory courses approved by your advisor.</span></div></td><td class="hourscol"></td></tr>
+<tr class="odd"><td colspan="2"><span class="courselistcomment">Preparatory Subject Matter Subtotal</span></td><td class="hourscol">40-47</td></tr>
+<tr class="even areaheader "><td colspan="2"><span class="courselistcomment areaheader ">Depth Subject Matter</span></td><td class="hourscol"></td></tr>
+<tr class="odd areasubheader undefined"><td colspan="2"><span class="courselistcomment areasubheader undefined">A. Core Courses</span></td><td class="hourscol"></td></tr>
+<tr class="even"><td class="codecol"><span class="code_bubble" data-code-bubble="MAT 119A">MAT 119A</span></td><td>Ordinary Differential Equations</td><td class="hourscol">4</td></tr>
+<tr class="odd"><td class="codecol"><span class="code_bubble" data-code-bubble="MAT 127A">MAT 127A</span></td><td>Real Analysis</td><td class="hourscol">4</td></tr>
+<tr class="even"><td class="codecol"><span class="code_bubble" data-code-bubble="MAT 127B">MAT 127B</span></td><td>Real Analysis</td><td class="hourscol">4</td></tr>
+<tr class="odd"><td class="codecol"><span class="code_bubble" data-code-bubble="MAT 127C">MAT 127C</span></td><td>Real Analysis</td><td class="hourscol">4</td></tr>
+<tr class="even"><td class="codecol"><span class="code_bubble" data-code-bubble="MAT 135A">MAT 135A</span></td><td>Probability</td><td class="hourscol">4</td></tr>
+<tr class="odd"><td class="codecol"><span class="code_bubble" data-code-bubble="MAT 150A">MAT 150A</span></td><td>Modern Algebra</td><td class="hourscol">4</td></tr>
+<tr class="even"><td class="codecol"><span class="code_bubble" data-code-bubble="MAT 185A">MAT 185A</span></td><td>Complex Analysis </td><td class="hourscol">4</td></tr>
+<tr class="odd"><td colspan="2"><span class="courselistcomment">Choose two:</span></td><td class="hourscol">8</td></tr>
+<tr class="even"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="MAT 128A">MAT 128A</span></div></td><td>Numerical Analysis</td><td class="hourscol"></td></tr>
+<tr class="odd"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="MAT 128B">MAT 128B</span></div></td><td>Numerical Analysis in Solution of Equations</td><td class="hourscol"></td></tr>
+<tr class="even"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="MAT 128C">MAT 128C</span></div></td><td>Numerical Analysis in Differential Equations</td><td class="hourscol"></td></tr>
+<tr class="odd areasubheader undefined"><td colspan="2"><span class="courselistcomment areasubheader undefined">B. Enrichment Courses</span></td><td class="hourscol"></td></tr>
+<tr class="even"><td colspan="2"><span class="courselistcomment">1. Choose two:</span></td><td class="hourscol">8</td></tr>
+<tr class="odd"><td colspan="2"><div style="margin-left:20px;" class="blockindent"><span class="courselistcomment commentindent"><span class="code_bubble" data-code-bubble="MAT 111">MAT 111</span>-<span class="code_bubble" data-code-bubble="MAT 185B">MAT 185B</span>; excluding <span class="code_bubble" data-code-bubble="MAT 180">MAT 180</span>, core courses, &amp; courses being used as a capstone.</span></div></td><td class="hourscol"></td></tr>
+<tr class="even"><td colspan="2"><span class="courselistcomment">2. Choose one approved upper division course outside the Department of Mathematics with extensive use of mathematics. Please consult with a math advisor before selecting a course.</span></td><td class="hourscol">4</td></tr>
+<tr class="odd"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="ATM 120">ATM 120</span></div></td><td>Atmospheric Thermodynamics &amp; Cloud Physics</td><td class="hourscol"></td></tr>
+<tr class="even"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="ATM 121A">ATM 121A</span></div></td><td>Atmospheric Dynamics</td><td class="hourscol"></td></tr>
+<tr class="odd"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="ATM 121B">ATM 121B</span></div></td><td>Atmospheric Dynamics</td><td class="hourscol"></td></tr>
+<tr class="even"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="ATM 128">ATM 128</span></div></td><td>Atmospheric Radiation &amp; Remote Sensing</td><td class="hourscol"></td></tr>
+<tr class="odd"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="ARE 106">ARE 106</span></div></td><td>Econometric Theory &amp; Applications</td><td class="hourscol"></td></tr>
+<tr class="even"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="CHE 110A">CHE 110A</span></div></td><td>Physical Chemistry: Introduction to Quantum Mechanics</td><td class="hourscol"></td></tr>
+<tr class="odd"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="CHE 110B">CHE 110B</span></div></td><td>Physical Chemistry: Properties of Atoms &amp; Molecules</td><td class="hourscol"></td></tr>
+<tr class="even"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="CHE 110C">CHE 110C</span></div></td><td>Physical Chemistry: Thermodynamics, Equilibria &amp; Kinetics </td><td class="hourscol"></td></tr>
+<tr class="odd"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="EEC 130A">EEC 130A</span></div></td><td>Introductory Electromagnetics I</td><td class="hourscol"></td></tr>
+<tr class="even"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="EEC 130B">EEC 130B</span></div></td><td>Introductory Electromagnetics II</td><td class="hourscol"></td></tr>
+<tr class="odd"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="ECH 140">ECH 140</span></div></td><td>Mathematical Methods in Biochemical &amp; Chemical Engineering </td><td class="hourscol"></td></tr>
+<tr class="even"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="ECI 114">ECI 114</span></div></td><td>Probabilistic Systems Analysis for Civil &amp; Environmental Engineers</td><td class="hourscol"></td></tr>
+<tr class="odd"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="ECI 153">ECI 153</span></div></td><td>Deterministic Optimization &amp; Design</td><td class="hourscol"></td></tr>
+<tr class="even"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="ECN 122">ECN 122</span></div></td><td>Theory of Games &amp; Strategic Behavior</td><td class="hourscol"></td></tr>
+<tr class="odd"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="ECN 140">ECN 140</span></div></td><td>Econometrics</td><td class="hourscol"></td></tr>
+<tr class="even"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="ECS 120">ECS 120</span></div></td><td>Theory of Computation</td><td class="hourscol"></td></tr>
+<tr class="odd"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="ECS 122A">ECS 122A</span></div></td><td>Algorithm Design &amp; Analysis </td><td class="hourscol"></td></tr>
+<tr class="even"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="ECS 127">ECS 127</span></div></td><td>Cryptography</td><td class="hourscol"></td></tr>
+<tr class="odd"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="EME 115">EME 115</span></div></td><td>Introduction to Numerical Analysis &amp; Methods</td><td class="hourscol"></td></tr>
+<tr class="even"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="ESP 150A">ESP/EPS 150A</span></div></td><td>Physical &amp; Chemical Oceanography</td><td class="hourscol"></td></tr>
+<tr class="odd"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="EVE 102">EVE 102</span></div></td><td>Population &amp; Quantitative Genetics</td><td class="hourscol"></td></tr>
+<tr class="even"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="GEL 150A">GEL 150A</span></div></td><td>Physical &amp; Chemical Oceanography (Discontinued for fall 2026) <sup>**</sup></td><td class="hourscol"></td></tr>
+<tr class="odd"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="LIN 177">LIN 177</span></div></td><td>Computational Linguistics</td><td class="hourscol"></td></tr>
+<tr class="even"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="PHY 104A">PHY 104A</span></div></td><td>Introduction to Mathematical Methods in Physics</td><td class="hourscol"></td></tr>
+<tr class="odd"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="PHY 104B">PHY 104B</span></div></td><td>Computational Methods of Mathematical Physics</td><td class="hourscol"></td></tr>
+<tr class="even"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="PHY 104C">PHY 104C</span></div></td><td>Intermediate Methods of Mathematical Physics</td><td class="hourscol"></td></tr>
+<tr class="odd"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="PHY 105A">PHY 105A</span></div></td><td>Classical Mechanics</td><td class="hourscol"></td></tr>
+<tr class="even"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="PHY 105B">PHY 105B</span></div></td><td>Analytical Mechanics</td><td class="hourscol"></td></tr>
+<tr class="odd"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="PHY 108">PHY 108</span></div></td><td>Optics</td><td class="hourscol"></td></tr>
+<tr class="even"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="PHY 110A">PHY 110A</span></div></td><td>Electricity &amp; Magnetism</td><td class="hourscol"></td></tr>
+<tr class="odd"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="PHY 110B">PHY 110B</span></div></td><td>Electricity &amp; Magnetism</td><td class="hourscol"></td></tr>
+<tr class="even"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="PHY 110C">PHY 110C</span></div></td><td>Electricity &amp; Magnetism</td><td class="hourscol"></td></tr>
+<tr class="odd"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="PHY 112">PHY 112</span></div></td><td>Thermodynamics &amp; Statistical Mechanics</td><td class="hourscol"></td></tr>
+<tr class="even"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="PHY 115A">PHY 115A</span></div></td><td>Foundation of Quantum Mechanics</td><td class="hourscol"></td></tr>
+<tr class="odd"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="PHY 115B">PHY 115B</span></div></td><td>Applications of Quantum Mechanics</td><td class="hourscol"></td></tr>
+<tr class="even"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="PHY 116A">PHY 116A</span></div></td><td>Electronic Instrumentation</td><td class="hourscol"></td></tr>
+<tr class="odd"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="PHY 116B">PHY 116B</span></div></td><td>Electronic Instrumentation</td><td class="hourscol"></td></tr>
+<tr class="even"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="PSC 103A">PSC 103A</span></div></td><td>Statistical Analysis of Psychological Data</td><td class="hourscol"></td></tr>
+<tr class="odd"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="PSC 103B">PSC 103B</span></div></td><td>Statistical Analysis of Psychological Data</td><td class="hourscol"></td></tr>
+<tr class="even"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="STA 131B">STA 131B</span></div></td><td>Introduction to Mathematical Statistics</td><td class="hourscol"></td></tr>
+<tr class="odd"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="STA 131C">STA 131C</span></div></td><td>Introduction to Mathematical Statistics</td><td class="hourscol"></td></tr>
+<tr class="even"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="STA 141A">STA 141A</span></div></td><td>Fundamentals of Statistical Data Science</td><td class="hourscol"></td></tr>
+<tr class="odd"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="STA 141B">STA 141B</span></div></td><td>Data &amp; Web Technologies for Data Analysis</td><td class="hourscol"></td></tr>
+<tr class="even"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="STA 141C">STA 141C</span></div></td><td>Big Data &amp; High Performance Statistical Computing</td><td class="hourscol"></td></tr>
+<tr class="odd areasubheader undefined"><td colspan="2"><span class="courselistcomment areasubheader undefined">C. Capstone Courses</span></td><td class="hourscol"></td></tr>
+<tr class="even"><td colspan="2"><span class="courselistcomment">Choose one:</span></td><td class="hourscol">3-4</td></tr>
+<tr class="odd"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="MAT 115B">MAT 115B</span></div></td><td>Number Theory</td><td class="hourscol"></td></tr>
+<tr class="even"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="MAT 118B">MAT 118B</span></div></td><td>Partial Differential Equations: Eigenfunction Expansions</td><td class="hourscol"></td></tr>
+<tr class="odd"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="MAT 119B">MAT 119B</span></div></td><td>Ordinary Differential Equations</td><td class="hourscol"></td></tr>
+<tr class="even"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="MAT 135B">MAT 135B</span></div></td><td>Stochastic Processes</td><td class="hourscol"></td></tr>
+<tr class="odd"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="MAT 146">MAT 146</span></div></td><td>Algebraic Combinatorics</td><td class="hourscol"></td></tr>
+<tr class="even"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="MAT 150B">MAT 150B</span></div></td><td>Modern Algebra</td><td class="hourscol"></td></tr>
+<tr class="odd"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="MAT 150C">MAT 150C</span></div></td><td>Modern Algebra</td><td class="hourscol"></td></tr>
+<tr class="even"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="MAT 180">MAT 180</span></div></td><td>Special Topics</td><td class="hourscol"></td></tr>
+<tr class="odd"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="MAT 185B">MAT 185B</span></div></td><td>Complex Analysis</td><td class="hourscol"></td></tr>
+<tr class="even"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="MAT 189">MAT 189</span></div></td><td>Advanced Problem Solving</td><td class="hourscol"></td></tr>
+<tr class="odd"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="MAT 192">MAT 192</span></div></td><td>Internship in Applied Mathematics  (Must take 3 units.)</td><td class="hourscol"></td></tr>
+<tr class="even"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="MAT 194">MAT 194</span></div></td><td>Undergraduate Thesis</td><td class="hourscol"></td></tr>
+<tr class="odd lastrow"><td colspan="2"><span class="courselistcomment">Depth Subject Matter Subtotal</span></td><td class="hourscol">51-52</td></tr>
+<tr class="listsum"><td colspan="2">Total Units</td><td class="hourscol">91-99</td></tr></tbody>
+</table>
+
+<dl class="sc_footnotes" aria-label="Footnotes"><dt> <sup> 1 </sup> </dt><dd><p class="noindent"><strong>Note</strong>: Basic knowledge of MATLAB is required for both <span class="sc_courseinline"><span class="code_bubble" data-code-bubble="MAT 022A">MAT 022A</span></span> and <span class="sc_courseinline"><span class="code_bubble" data-code-bubble="MAT 067">MAT 067</span></span>. Students can learn it on their own, enroll in <span class="sc_courseinline"><span class="code_bubble" data-code-bubble="ENG 006">ENG 006</span></span>, or in the 1 unit course <span class="sc_courseinline"><span class="code_bubble" data-code-bubble="MAT 022AL">MAT 022AL</span></span> (can be taken concurrently).</p></dd></dl>
+]]>
+</requirementstext>
+<quickviewtext name="Quick View">
+<![CDATA[
+<p>Did you know every time you stream a video or use your credit/debit card, mathematics is there encrypting, compressing, and transmitting data? Math arises in health care, business, marketing, and entertainment. Imagine what an impact you could have on future advancements by studying math!</p>
+]]>
+</quickviewtext>
+<faculty>
+<![CDATA[
+]]>
+</faculty>
+</courseleaf>
+

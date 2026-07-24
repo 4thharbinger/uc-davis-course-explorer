@@ -1,0 +1,67 @@
+<?xml version="1.0"?>
+<courseleaf>
+
+<title>Atmospheric Science, Minor</title>
+
+
+<text>
+<![CDATA[  
+
+  
+]]>
+</text>
+<informationtext name="Information">
+<![CDATA[
+<p><a href="http://lawr.ucdavis.edu/people/faculty/atmospheric-science" target="_blank">Faculty</a></p>
+<h2>Minor Program</h2>
+<p>The minor in Atmospheric Science provides a broad treatment of weather and climate, with the option to focus on such topics as climate change, meteorological instrumentation, and satellite remote sensing. Students undertaking the minor should have completed minimum preparatory course work in calculus and physics (<span class="sc_courseinline"><span class="code_bubble" data-code-bubble="MAT 019A">MAT 019A</span></span>, <span class="sc_courseinline"><span class="code_bubble" data-code-bubble="MAT 019B">MAT 019B</span></span>, and <span class="sc_courseinline"><span class="code_bubble" data-code-bubble="PHY 007A">PHY 007A</span></span>). Some upper division courses in Atmospheric Science have additional prerequisites in calculus and physics (<span class="sc_courseinline"><span class="code_bubble" data-code-bubble="MAT 021A">MAT 021A</span></span>, <span class="sc_courseinline"><span class="code_bubble" data-code-bubble="MAT 021B">MAT 021B</span></span>, <span class="sc_courseinline"><span class="code_bubble" data-code-bubble="MAT 021C">MAT 021C</span></span>, <span class="sc_courseinline"><span class="code_bubble" data-code-bubble="MAT 021D">MAT 021D</span></span>, <span class="sc_courseinline"><span class="code_bubble" data-code-bubble="MAT 022A">MAT 022A</span></span>, and <span class="sc_courseinline"><span class="code_bubble" data-code-bubble="MAT 022B">MAT 022B</span></span>, and <span class="sc_courseinline"><span class="code_bubble" data-code-bubble="PHY 009A">PHY 009A</span></span>, <span class="sc_courseinline"><span class="code_bubble" data-code-bubble="PHY 009B">PHY 009B</span></span>, <span class="sc_courseinline"><span class="code_bubble" data-code-bubble="PHY 009C">PHY 009C</span></span>, and <span class="sc_courseinline"><span class="code_bubble" data-code-bubble="PHY 009D">PHY 009D</span></span>).</p>
+
+<h3>Lead Faculty Advisor</h3>
+<p>Kyaw Tha Paw U</p>
+<h3>Minor Advisor</h3>
+<p>Lacole Brooks</p>
+]]>
+</informationtext>
+<requirementstext name="Requirements">
+<![CDATA[
+<table class="sc_courselist">
+<caption class="hidden noscript">Course List</caption>
+<colgroup>
+<col class="codecol"/>
+<col class="titlecol"/>
+<col align="char" char="." class="hourscol"/>
+</colgroup>
+<thead>
+<tr class="hidden noscript">
+<th scope="col">Code</th>
+<th scope="col">Title</th>
+<th scope="col" class="hourscol">Units</th>
+</tr>
+</thead>
+<tbody>
+<tr class="even firstrow"><td class="codecol"><span class="code_bubble" data-code-bubble="ATM 060">ATM 060</span></td><td>Introduction to Atmospheric Science</td><td class="hourscol">4</td></tr>
+<tr class="odd"><td class="codecol"><span class="code_bubble" data-code-bubble="ATM 110">ATM 110</span></td><td>Weather Observation &amp; Analysis</td><td class="hourscol">4</td></tr>
+<tr class="even"><td colspan="2"><span class="courselistcomment">Choose four upper division courses, with the approval of the minor program advisor: </span></td><td class="hourscol">12-16</td></tr>
+<tr class="odd"><td colspan="2"><div style="margin-left:20px;" class="blockindent"><span class="courselistcomment commentindent">Four upper division Atmospheric Science (ATM) courses</span> <sup>1</sup></div></td><td class="hourscol"></td></tr>
+<tr class="even"><td colspan="2"><div style="margin-left:20px;" class="blockindent"><span class="courselistcomment commentindent"><strong>OR</strong></span></div></td><td class="hourscol"></td></tr>
+<tr class="odd"><td colspan="2"><div style="margin-left:20px;" class="blockindent"><span class="courselistcomment commentindent">Three upper division Atmospheric Science (ATM) courses</span> <sup>1</sup></div></td><td class="hourscol"></td></tr>
+<tr class="even"><td colspan="2"><div style="margin-left:20px;" class="blockindent"><span class="courselistcomment commentindent"><strong>AND</strong></span></div></td><td class="hourscol"></td></tr>
+<tr class="odd"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="ESM 131">ESM 131</span></div></td><td>Air as a Resource</td><td class="hourscol"></td></tr>
+<tr class="even lastrow"><td colspan="2"><div style="margin-left:20px;" class="blockindent"><span class="courselistcomment commentindent"><a href="/courses-subject-code/atm/">Atmospheric Science (ATM) courses</a></span></div></td><td class="hourscol"></td></tr>
+<tr class="listsum"><td colspan="2">Total Units</td><td class="hourscol">20-24</td></tr></tbody>
+</table>
+
+<dl class="sc_footnotes" aria-label="Footnotes"><dt> <sup> 1 </sup> </dt><dd><p class="noindent">Excluding <span class="sc_courseinline"><span class="code_bubble" data-code-bubble="ATM 192">ATM 192</span></span> or <span class="sc_courseinline"><span class="code_bubble" data-code-bubble="ATM 199">ATM 199</span></span>.</p></dd></dl>
+]]>
+</requirementstext>
+<quickviewtext name="Quick View">
+<![CDATA[
+<p>The <span class="title-main">Atmospheric Science </span>minor provides a broad treatment of weather and climate, with the option to focus on such topics as climate change, meteorological instrumentation, and satellite remote sensing.</p>
+]]>
+</quickviewtext>
+<faculty>
+<![CDATA[
+]]>
+</faculty>
+</courseleaf>
+

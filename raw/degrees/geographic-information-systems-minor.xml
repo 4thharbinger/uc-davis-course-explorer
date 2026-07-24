@@ -1,0 +1,72 @@
+<?xml version="1.0"?>
+<courseleaf>
+
+<title>Geographic Information Systems, Minor</title>
+
+
+<text>
+<![CDATA[  
+
+  
+]]>
+</text>
+<informationtext name="Information">
+<![CDATA[
+<p>The Department of Biological &amp; Agricultural Engineering offers a minor in Geographic Information Systems with an emphasis on spatial analysis. This minor is ideal for students interested in information processing of spatial data related to remote sensing, land information systems, marine cartography, thematic mapping, surface modeling, environmental modeling resources management, public utility planning, emergency response, geomarketing,  geotechnics, precision agriculture, archaeology, military exercises, and computer-aided design. Prerequisites include <span class="sc_courseinline"><span class="code_bubble" data-code-bubble="MAT 017A">MAT 017A</span></span>-<span class="sc_courseinline"><span class="code_bubble" data-code-bubble="MAT 017B">MAT 017B</span></span> or <span class="sc_courseinline"><span class="code_bubble" data-code-bubble="MAT 021A">MAT 021A</span></span>-<span class="sc_courseinline"><span class="code_bubble" data-code-bubble="MAT 021D">MAT 021D</span></span> and <span class="sc_courseinline"><span class="code_bubble" data-code-bubble="PHY 007A">PHY 007A</span></span><span>-</span><span class="sc_courseinline"><span class="code_bubble" data-code-bubble="PHY 007C">PHY 007C</span></span><span> or </span><span class="sc_courseinline"><span class="code_bubble" data-code-bubble="PHY 009A">PHY 009A</span></span><span>-</span><span class="sc_courseinline"><span class="code_bubble" data-code-bubble="PHY 009B">PHY 009B</span></span><span>. Some electives may have additional prerequisites.</span></p>
+
+<p>All core courses (<span class="sc_courseinline"><span class="code_bubble" data-code-bubble="LED 150">LED 150</span></span>/<span class="sc_courseinline"><span class="code_bubble" data-code-bubble="ABT 150">ABT 150</span></span>, <span class="sc_courseinline"><span class="code_bubble" data-code-bubble="ESM 186">ESM 186</span></span>, and <span class="sc_courseinline"><span class="code_bubble" data-code-bubble="ABT 181N">ABT 181N</span></span> or <span class="sc_courseinline"><span class="code_bubble" data-code-bubble="ABT 182">ABT 182</span></span>) must be taken for a letter grade. Up to one elective course may be taken P/NP.</p>
+
+<h2>Minor Advisors</h2>
+<p>I. Kisekka, A. Moghimi (Biological &amp; Agricultural Engineering Department)</p>
+]]>
+</informationtext>
+<requirementstext name="Requirements">
+<![CDATA[
+<table class="sc_courselist">
+<caption class="hidden noscript">Course List</caption>
+<colgroup>
+<col class="codecol"/>
+<col class="titlecol"/>
+<col align="char" char="." class="hourscol"/>
+</colgroup>
+<thead>
+<tr class="hidden noscript">
+<th scope="col">Code</th>
+<th scope="col">Title</th>
+<th scope="col" class="hourscol">Units</th>
+</tr>
+</thead>
+<tbody>
+<tr class="even areaheader  firstrow"><td colspan="2"><span class="courselistcomment areaheader ">Required Courses:</span></td><td class="hourscol">13</td></tr>
+<tr class="odd"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="ABT 182">ABT/HYD 182</span></div></td><td>Environmental Analysis Using GIS</td><td class="hourscol"></td></tr>
+<tr class="orclass odd"><td class="codecol orclass"><div style="margin-left:20px;" class="blockindent">or <span class="code_bubble" data-code-bubble="ABT 181N">ABT 181N</span></div></td><td colspan="2"> Concepts &amp; Methods in Geographic Information Systems</td></tr>
+<tr class="even"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="ESM 186">ESM 186</span></div></td><td>Environmental Remote Sensing</td><td class="hourscol"></td></tr>
+<tr class="odd"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="LED 150">LED/ABT 150/LDA 150 DISCONTINUED FOR WINTER 2026 **</span></div></td><td>Introduction to Geographic Information Systems</td><td class="hourscol"></td></tr>
+<tr class="even areaheader "><td colspan="2"><span class="courselistcomment areaheader ">Elective Courses; choose 5 units:</span></td><td class="hourscol">5</td></tr>
+<tr class="odd"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="ABT 181N">ABT 181N</span></div></td><td>Concepts &amp; Methods in Geographic Information Systems (If not chosen above.)</td><td class="hourscol"></td></tr>
+<tr class="even"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="ABT 182">ABT/HYD 182</span></div></td><td>Environmental Analysis Using GIS (If not chosen above.)</td><td class="hourscol"></td></tr>
+<tr class="odd"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="ESM 108">ESM 108</span></div></td><td>Environmental Monitoring</td><td class="hourscol"></td></tr>
+<tr class="even"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="ESM 185">ESM 185</span></div></td><td>Aerial Photo Interpretation &amp; Remote Sensing</td><td class="hourscol"></td></tr>
+<tr class="odd"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="ESP 168A">ESP 168A</span></div></td><td>Methods of Environmental Policy Analysis</td><td class="hourscol"></td></tr>
+<tr class="even"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="ESP 168B">ESP 168B</span></div></td><td>Methods of Environmental Policy Evaluation</td><td class="hourscol"></td></tr>
+<tr class="odd"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="ESP 171">ESP 171</span></div></td><td>Urban &amp; Regional Planning</td><td class="hourscol"></td></tr>
+<tr class="even"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="ESP 179">ESP 179</span></div></td><td>Environmental Impact Assessment</td><td class="hourscol"></td></tr>
+<tr class="odd"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="PLS 120">PLS 120</span></div></td><td>Applied Statistics in Agricultural Sciences</td><td class="hourscol"></td></tr>
+<tr class="even lastrow"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="STA 100">STA 100</span></div></td><td>Applied Statistics for Biological Sciences</td><td class="hourscol"></td></tr>
+<tr class="listsum"><td colspan="2">Total Units</td><td class="hourscol">18</td></tr></tbody>
+</table>
+
+<dl class="sc_footnotes" aria-label="Footnotes"><dt>**</dt><dd><p class="pf0"><span class="cf0">Course(s) discontinued; see your advisor for course options.</span></p></dd></dl>
+]]>
+</requirementstext>
+<quickviewtext name="Quick View">
+<![CDATA[
+<p>The <span class="title-main">Geographic Information Systems </span>minor is ideal for students interested in information processing of spatial data related to remote sensing, land information systems, marine cartography, thematic mapping, surface modeling, environmental modeling resources management, public utility planning, emergency response, geomarketing, geotechnics, precision agriculture, archaeology, military exercises, and computer-aided design.</p>
+]]>
+</quickviewtext>
+<faculty>
+<![CDATA[
+]]>
+</faculty>
+</courseleaf>
+

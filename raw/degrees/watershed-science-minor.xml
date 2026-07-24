@@ -1,0 +1,71 @@
+<?xml version="1.0"?>
+<courseleaf>
+
+<title>Watershed Science, Minor</title>
+
+
+<text>
+<![CDATA[  
+
+  
+]]>
+</text>
+<informationtext name="Information">
+<![CDATA[
+<p>Will Horwath, Chairperson<br/>
+Isaya Kisekka, Lead Faculty Advisor</p>
+<p>The Hydrology Program of the Department of Land, Air &amp; Water Resources offers the minor in Watershed Science. This minor is intended for environmental, natural, or social science students who have an interest in the interfaces between hydrology, ecology, policy and management. The interested student should have completed preparatory course work in calculus, chemistry (<span class="sc_courseinline"><span class="code_bubble" data-code-bubble="CHE 002A">CHE 002A</span></span>; <span class="sc_courseinline"><span class="code_bubble" data-code-bubble="CHE 002B">CHE 002B</span></span> recommended), physics (<span class="sc_courseinline"><span class="code_bubble" data-code-bubble="PHY 007A">PHY 007A</span></span>), and biology (<span class="sc_courseinline"><span class="code_bubble" data-code-bubble="BIS 002A">BIS 002A</span></span> or <span class="sc_courseinline"><span class="code_bubble" data-code-bubble="BIO 002">BIO 002</span></span>). Course work in the minor provides fundamental skills and knowledge on the science and management of watersheds in the context of current water resources and ecological problems.</p>
+
+]]>
+</informationtext>
+<requirementstext name="Requirements">
+<![CDATA[
+<table class="sc_courselist">
+<caption class="hidden noscript">Course List</caption>
+<colgroup>
+<col class="codecol"/>
+<col class="titlecol"/>
+<col align="char" char="." class="hourscol"/>
+</colgroup>
+<thead>
+<tr class="hidden noscript">
+<th scope="col">Code</th>
+<th scope="col">Title</th>
+<th scope="col" class="hourscol">Units</th>
+</tr>
+</thead>
+<tbody>
+<tr class="even areaheader  firstrow"><td colspan="2"><span class="courselistcomment areaheader ">Hydrology</span></td><td class="hourscol"></td></tr>
+<tr class="odd"><td class="codecol"><span class="code_bubble" data-code-bubble="HYD 124">HYD 124</span></td><td>Plant-Water-Soil Relationships</td><td class="hourscol">4</td></tr>
+<tr class="orclass odd"><td class="codecol orclass">or <span class="code_bubble" data-code-bubble="HYD 151">HYD 151</span></td><td colspan="2"> Field Methods in Hydrology</td></tr>
+<tr class="even"><td class="codecol"><span class="code_bubble" data-code-bubble="HYD 141">HYD 141</span></td><td>Physical Hydrology</td><td class="hourscol">4</td></tr>
+<tr class="orclass even"><td class="codecol orclass">or <span class="code_bubble" data-code-bubble="ESM 100">ESM 100</span></td><td colspan="2"> Introduction to Water Science</td></tr>
+<tr class="odd"><td class="codecol"><span class="code_bubble" data-code-bubble="HYD 144">HYD/EBS 144</span></td><td>Groundwater Hydrology</td><td class="hourscol">4-5</td></tr>
+<tr class="orclass odd"><td class="codecol orclass">or <span class="code_bubble" data-code-bubble="SSC 107">SSC 107</span></td><td colspan="2"> Soil Physics</td></tr>
+<tr class="even areaheader "><td colspan="2"><span class="courselistcomment areaheader ">Soils Science</span></td><td class="hourscol"></td></tr>
+<tr class="odd"><td class="codecol"><span class="code_bubble" data-code-bubble="SSC 100">SSC 100</span></td><td>Principles of Soil Science</td><td class="hourscol">4-5</td></tr>
+<tr class="orclass odd"><td class="codecol orclass">or <span class="code_bubble" data-code-bubble="SSC 118">SSC 118</span></td><td colspan="2"> Soils in Land Use &amp; the Environment</td></tr>
+<tr class="even"><td colspan="2"><span class="courselistcomment">Choose one:</span></td><td class="hourscol">4</td></tr>
+<tr class="odd"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="ESM 144">ESM/PLS 144</span></div></td><td>Trees &amp; Forests</td><td class="hourscol"></td></tr>
+<tr class="even"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="ESP 151">ESP 151</span></div></td><td>Limnology</td><td class="hourscol"></td></tr>
+<tr class="odd"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="HYD 143">HYD 143</span></div></td><td>Ecohydrology</td><td class="hourscol"></td></tr>
+<tr class="even"><td colspan="2"><span class="courselistcomment">Choose one:</span></td><td class="hourscol">3-4</td></tr>
+<tr class="odd"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="ESM 121">ESM 121</span></div></td><td>Water Science &amp; Management</td><td class="hourscol"></td></tr>
+<tr class="even"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="ESP 161">ESP 161</span></div></td><td>Environmental Law</td><td class="hourscol"></td></tr>
+<tr class="odd lastrow"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="HYD 150">HYD 150</span></div></td><td>Water Law</td><td class="hourscol"></td></tr>
+<tr class="listsum"><td colspan="2">Total Units</td><td class="hourscol">23-26</td></tr></tbody>
+</table>
+
+]]>
+</requirementstext>
+<quickviewtext name="Quick View">
+<![CDATA[
+<p>The Watershed Science minor provides fundamental skills and knowledge on science and management of watersheds in the context of current water resources and ecological problems.</p>
+]]>
+</quickviewtext>
+<faculty>
+<![CDATA[
+]]>
+</faculty>
+</courseleaf>
+

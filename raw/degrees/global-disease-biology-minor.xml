@@ -1,0 +1,76 @@
+<?xml version="1.0"?>
+<courseleaf>
+
+<title>Global Disease Biology, Minor</title>
+
+
+<text>
+<![CDATA[  
+
+  
+]]>
+</text>
+<informationtext name="Information">
+<![CDATA[
+<h2>Program Office</h2>
+<p>150 Hutchison Hall; 530-754-2281; <a href="mailto:gdb-advise@ucdavis.edu">gdb-advise@ucdavis.edu</a>; <a href="http://gdb.ucdavis.edu/" target="_blank">Global Disease Biology</a> </p>
+<h2>The Minor</h2>
+<p>A minor in Global Disease Biology may complement a student's major program. Note that some courses have required prerequisites not included as part of the minor, and students should plan accordingly. </p>
+<p><strong>If you plan to declare the GDB minor</strong>, you MUST meet with our office to set up an academic plan <em><u><strong>before your last year</strong></u></em> at UC Davis. If you do not, you may not be able to declare GDB as a minor.</p>
+<p>Our faculty includes members of the Departments of Plant Pathology from the College of Agricultural &amp; Environmental Sciences, School of Veterinary Medicine, and School of Medicine.</p>
+<h3>Advisor</h3>
+<p><a href="mailto:grlandon@ucdavis.edu">Grace Gomez</a></p>
+]]>
+</informationtext>
+<requirementstext name="Requirements">
+<![CDATA[
+<table class="sc_courselist">
+<caption class="hidden noscript">Course List</caption>
+<colgroup>
+<col class="codecol"/>
+<col class="titlecol"/>
+<col align="char" char="." class="hourscol"/>
+</colgroup>
+<thead>
+<tr class="hidden noscript">
+<th scope="col">Code</th>
+<th scope="col">Title</th>
+<th scope="col" class="hourscol">Units</th>
+</tr>
+</thead>
+<tbody>
+<tr class="even areasubheader undefined firstrow"><td colspan="2"><span class="courselistcomment areasubheader undefined">Science &amp; Society </span></td><td class="hourscol"></td></tr>
+<tr class="odd"><td class="codecol"><span class="code_bubble" data-code-bubble="SAS 013">SAS 013</span></td><td>Disease &amp; Society</td><td class="hourscol">3</td></tr>
+<tr class="even areasubheader undefined"><td colspan="2"><span class="courselistcomment areasubheader undefined">Pathology, Microbiology &amp; Immunology</span></td><td class="hourscol"></td></tr>
+<tr class="odd"><td class="codecol"><span class="code_bubble" data-code-bubble="PMI 129Y">PMI 129Y</span></td><td>One Health: Human, Animal &amp; Environment Interfaces</td><td class="hourscol">3</td></tr>
+<tr class="even areasubheader undefined"><td colspan="2"><span class="courselistcomment areasubheader undefined">Medicine &amp; Epidemiology</span></td><td class="hourscol"></td></tr>
+<tr class="odd"><td class="codecol"><span class="code_bubble" data-code-bubble="VME 158">VME 158</span></td><td>Infectious Disease in Ecology &amp; Conservation</td><td class="hourscol">3</td></tr>
+<tr class="even areasubheader undefined"><td colspan="2"><span class="courselistcomment areasubheader undefined">Global Disease Biology</span></td><td class="hourscol"></td></tr>
+<tr class="odd"><td class="codecol"><span class="code_bubble" data-code-bubble="GDB 101">GDB 101</span></td><td>Epidemiology</td><td class="hourscol">4</td></tr>
+<tr class="even"><td class="codecol"><span class="code_bubble" data-code-bubble="GDB 102">GDB 102</span></td><td>Disease Intervention &amp; Policy </td><td class="hourscol">4</td></tr>
+<tr class="odd areasubheader undefined"><td colspan="2"><span class="courselistcomment areasubheader undefined">Pathogen/Disease Course; choose one:</span></td><td class="hourscol">3-4</td></tr>
+<tr class="even"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="ENT 153">ENT 153</span></div></td><td>Medical Entomology</td><td class="hourscol"></td></tr>
+<tr class="odd"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="ENT 156">ENT 156</span></div></td><td>Biology of Parasitism </td><td class="hourscol"></td></tr>
+<tr class="even"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="GDB 103">GDB 103</span></div></td><td>Microbiome of People, Animals, &amp; Plants </td><td class="hourscol"></td></tr>
+<tr class="odd"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="MMG 162">MMG 162</span></div></td><td>General Virology</td><td class="hourscol"></td></tr>
+<tr class="orclass odd"><td class="codecol orclass"><div style="margin-left:20px;" class="blockindent">or <span class="code_bubble" data-code-bubble="MIC 162 DISCONTINUED FOR FALL 2024 **">MIC 162 DISCONTINUED FOR FALL 2024 **</span></div></td><td colspan="2"> </td></tr>
+<tr class="even"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="PLP 120">PLP 120</span></div></td><td>Introduction to Plant Pathology</td><td class="hourscol"></td></tr>
+<tr class="odd"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="PMI 127">PMI 127</span></div></td><td>Medical Bacteria &amp; Fungi</td><td class="hourscol"></td></tr>
+<tr class="even lastrow"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="PMI 128">PMI 128</span></div></td><td>Biology of Animal Viruses</td><td class="hourscol"></td></tr>
+<tr class="listsum"><td colspan="2">Total Units</td><td class="hourscol">20-21</td></tr></tbody>
+</table>
+
+<dl class="sc_footnotes" aria-label="Footnotes"><dt>**</dt><dd><p class="noindent">Course(s) discontinued; see your advisor for course options.</p></dd></dl>
+]]>
+</requirementstext>
+<quickviewtext name="Quick View">
+<![CDATA[
+<p>The <span class="title-main">Global Disease Biology minor </span>allows students to study disease and its relationship to the health of people, animals, plants, and the environment in a global context. Students interested in the health sciences integrate concepts from multiple disciplines to learn how to solve global disease and health challenges using innovative approaches.</p>
+]]>
+</quickviewtext>
+<faculty>
+<![CDATA[
+]]>
+</faculty>
+</courseleaf>
+

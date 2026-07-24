@@ -1,0 +1,70 @@
+<?xml version="1.0"?>
+<courseleaf>
+
+<title>Hydrology, Minor</title>
+
+
+<text>
+<![CDATA[  
+
+  
+]]>
+</text>
+<informationtext name="Information">
+<![CDATA[
+<p><a href="http://lawr.ucdavis.edu/people/faculty/hydrology">Faculty</a></p>
+<h2>The Program</h2>
+<p>The Hydrology Section of the Department of Land, Air &amp; Water Resources offers a minor in Hydrology for environmental or natural science students who have an interest in water/environmental issues. The interested student should have completed preparatory course work in calculus, chemistry (<span class="sc_courseinline"><span class="code_bubble" data-code-bubble="CHE 002A">CHE 002A</span></span>; <span class="sc_courseinline"><span class="code_bubble" data-code-bubble="CHE 002B">CHE 002B</span></span> recommended), physics (<span class="sc_courseinline"><span class="code_bubble" data-code-bubble="PHY 007A">PHY 007A</span></span>), and biology (<span class="sc_courseinline"><span class="code_bubble" data-code-bubble="BIS 002A">BIS 002A</span></span> or <span class="sc_courseinline"><span class="code_bubble" data-code-bubble="BIO 002">BIO 002</span></span>). Course work in the minor provides fundamental skills and knowledge of the hydrologic sciences. The program is sufficiently flexible for students to pursue particular water issues or problems of interest to them.</p>
+
+<h2>Lead Faculty Advisor</h2>
+<p>Isaya Kisekka</p>
+]]>
+</informationtext>
+<requirementstext name="Requirements">
+<![CDATA[
+<table class="sc_courselist">
+<caption class="hidden noscript">Course List</caption>
+<colgroup>
+<col class="codecol"/>
+<col class="titlecol"/>
+<col align="char" char="." class="hourscol"/>
+</colgroup>
+<thead>
+<tr class="hidden noscript">
+<th scope="col">Code</th>
+<th scope="col">Title</th>
+<th scope="col" class="hourscol">Units</th>
+</tr>
+</thead>
+<tbody>
+<tr class="even firstrow"><td colspan="2"><span class="courselistcomment">Choose one:</span></td><td class="hourscol">4</td></tr>
+<tr class="odd"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="HYD 103N">HYD 103N/EBS 103</span></div></td><td>Fluid Mechanics Fundamentals</td><td class="hourscol"></td></tr>
+<tr class="even"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="ENG 103">ENG 103</span></div></td><td>Fluid Mechanics</td><td class="hourscol"></td></tr>
+<tr class="odd"><td colspan="2"><span class="courselistcomment">Choose one:</span></td><td class="hourscol">4</td></tr>
+<tr class="even"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="HYD 141">HYD 141</span></div></td><td>Physical Hydrology</td><td class="hourscol"></td></tr>
+<tr class="odd"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="ESM 100">ESM 100</span></div></td><td>Introduction to Water Science</td><td class="hourscol"></td></tr>
+<tr class="even"><td colspan="2"><span class="courselistcomment">Hydrology</span></td><td class="hourscol">4</td></tr>
+<tr class="odd"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="HYD 144">HYD/EBS 144</span></div></td><td>Groundwater Hydrology</td><td class="hourscol"></td></tr>
+<tr class="even"><td colspan="2"><span class="courselistcomment">Soil Science</span></td><td class="hourscol">5</td></tr>
+<tr class="odd"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="SSC 107">SSC 107</span></div></td><td>Soil Physics</td><td class="hourscol"></td></tr>
+<tr class="even"><td colspan="2"><span class="courselistcomment">Choose one:</span></td><td class="hourscol">3-6</td></tr>
+<tr class="odd"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="HYD 134">HYD 134</span></div></td><td>Aqueous Geochemistry</td><td class="hourscol"></td></tr>
+<tr class="even"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="CHE 100">CHE 100</span></div></td><td>Environmental Water Chemistry</td><td class="hourscol"></td></tr>
+<tr class="odd"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="SSC 111">SSC 111</span></div></td><td>Soil Microbiology</td><td class="hourscol"></td></tr>
+<tr class="even lastrow"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="ESP 151">ESP 151</span></div></td><td>Limnology</td><td class="hourscol"></td></tr>
+<tr class="listsum"><td colspan="2">Total Units</td><td class="hourscol">20-23</td></tr></tbody>
+</table>
+
+]]>
+</requirementstext>
+<quickviewtext name="Quick View">
+<![CDATA[
+<p>The Hydrology minor is designed for environmental or natural science students with an interest in water and environmental issues. The program is sufficiently flexible for students to pursue particular water issues or problems of interest to them.</p>
+]]>
+</quickviewtext>
+<faculty>
+<![CDATA[
+]]>
+</faculty>
+</courseleaf>
+

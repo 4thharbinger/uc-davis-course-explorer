@@ -1,0 +1,59 @@
+<?xml version="1.0"?>
+<courseleaf>
+
+<title>Physics, Minor</title>
+
+
+<text>
+<![CDATA[  
+
+  
+]]>
+</text>
+<informationtext name="Information">
+<![CDATA[
+<p>All courses in the minor have prerequisites equivalent to <span class="sc_courseinline"><span class="code_bubble" data-code-bubble="MAT 021A">MAT 021A</span></span>-<span class="sc_courseinline"><span class="code_bubble" data-code-bubble="MAT 021B">MAT 021B</span></span>-<span class="sc_courseinline"><span class="code_bubble" data-code-bubble="MAT 021C">MAT 021C</span></span>-<span class="sc_courseinline"><span class="code_bubble" data-code-bubble="MAT 021D">MAT 021D</span></span> and <span class="sc_courseinline"><span class="code_bubble" data-code-bubble="MAT 022A">MAT 022A</span></span>-<span class="sc_courseinline"><span class="code_bubble" data-code-bubble="MAT 022B">MAT 022B</span></span> and <span class="sc_courseinline"><span class="code_bubble" data-code-bubble="PHY 009A">PHY 009A</span></span>-<span class="sc_courseinline"><span class="code_bubble" data-code-bubble="PHY 009B">PHY 009B</span></span>-<span class="sc_courseinline"><span class="code_bubble" data-code-bubble="PHY 009C">PHY 009C</span></span>-<span class="sc_courseinline"><span class="code_bubble" data-code-bubble="PHY 009D">PHY 009D</span></span>.</p>
+
+<p>Students considering the possibility of a minor should consult with a <a href="https://physics.ucdavis.edu/academics/undergraduate-program/academic-information">Physics major advisor</a> before beginning course work in the minor program.</p>
+]]>
+</informationtext>
+<requirementstext name="Requirements">
+<![CDATA[
+<table class="sc_courselist">
+<caption class="hidden noscript">Course List</caption>
+<colgroup>
+<col class="codecol"/>
+<col class="titlecol"/>
+<col align="char" char="." class="hourscol"/>
+</colgroup>
+<thead>
+<tr class="hidden noscript">
+<th scope="col">Code</th>
+<th scope="col">Title</th>
+<th scope="col" class="hourscol">Units</th>
+</tr>
+</thead>
+<tbody>
+<tr class="even firstrow"><td colspan="2"><span class="courselistcomment">Choose at least six upper division courses in Physics; excluding:</span></td><td class="hourscol">24</td></tr>
+<tr class="odd"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="PHY 160">PHY 160</span></div></td><td> (Discontinued for summer 2026) <sup>**</sup></td><td class="hourscol"></td></tr>
+<tr class="orclass odd"><td class="codecol orclass"><div style="margin-left:20px;" class="blockindent">or <span class="code_bubble" data-code-bubble="ENG 160 DISCONTINUED FOR SUMMER 2026 **">ENG 160 DISCONTINUED FOR SUMMER 2026 **</span></div></td><td colspan="2"> </td></tr>
+<tr class="even"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="PHY 197T">PHY 197T</span></div></td><td>Tutoring in Physics &amp; Astronomy</td><td class="hourscol"></td></tr>
+<tr class="odd"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="PHY 199">PHY 199</span></div></td><td>Special Study for Advanced Undergraduates</td><td class="hourscol"></td></tr>
+<tr class="even lastrow"><td colspan="2"><span class="courselistcomment"><a href="/courses-subject-code/phy/">Physics (PHY) courses.</a></span></td><td class="hourscol"></td></tr>
+<tr class="listsum"><td colspan="2">Total Units</td><td class="hourscol">24</td></tr></tbody>
+</table>
+
+<dl class="sc_footnotes" aria-label="Footnotes"><dt>**</dt><dd><p class="noindent">Course(s) discontinued; see your advisor for course options.</p></dd></dl>
+]]>
+</requirementstext>
+<quickviewtext name="Quick View">
+<![CDATA[
+<p>From subatomic particles to galaxies with billions of stars, physics studies what the universe is made of and how it works. As a Physics minor, you learn about our present understanding of the universe and also have the opportunity to join with our faculty in research that pushes forward the frontier of knowledge.</p>
+]]>
+</quickviewtext>
+<faculty>
+<![CDATA[
+]]>
+</faculty>
+</courseleaf>
+

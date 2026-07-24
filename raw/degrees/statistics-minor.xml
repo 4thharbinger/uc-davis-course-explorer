@@ -1,0 +1,82 @@
+<?xml version="1.0"?>
+<courseleaf>
+
+<title>Statistics, Minor</title>
+
+
+<text>
+<![CDATA[  
+
+  
+]]>
+</text>
+<informationtext name="Information">
+<![CDATA[
+<h2>The Program</h2>
+<p>The Department offers a minor program in Statistics that consists of five upper division level courses focusing on the fundamentals of mathematical statistics and of the most widely used applied statistical methods.</p>
+<h3>Minor Advisors</h3>
+<p>For a current list of faculty and staff advisors, see <a href="https://statistics.ucdavis.edu/undergrad/advising" target="_blank">Undergraduate Advising</a>. Students are encouraged to meet with an advisor to plan for the minor as early as possible. </p>
+]]>
+</informationtext>
+<requirementstext name="Requirements">
+<![CDATA[
+<table class="sc_courselist">
+<caption class="hidden noscript">Course List</caption>
+<colgroup>
+<col class="codecol"/>
+<col class="titlecol"/>
+<col align="char" char="." class="hourscol"/>
+</colgroup>
+<thead>
+<tr class="hidden noscript">
+<th scope="col">Code</th>
+<th scope="col">Title</th>
+<th scope="col" class="hourscol">Units</th>
+</tr>
+</thead>
+<tbody>
+<tr class="even areasubheader undefined firstrow"><td colspan="2"><span class="courselistcomment areasubheader undefined">Preparatory Coursework; not counted towards minor units</span></td><td class="hourscol"></td></tr>
+<tr class="odd"><td colspan="2"><span class="courselistcomment">Choose one:</span></td><td class="hourscol"></td></tr>
+<tr class="even"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="STA 013">STA 013</span></div></td><td>Elementary Statistics</td><td class="hourscol"></td></tr>
+<tr class="orclass even"><td class="codecol orclass"><div style="margin-left:20px;" class="blockindent">or <span class="code_bubble" data-code-bubble="STA 013V">STA 013V</span></div></td><td colspan="2"> Elementary Statistics</td></tr>
+<tr class="orclass even"><td class="codecol orclass"><div style="margin-left:20px;" class="blockindent">or <span class="code_bubble" data-code-bubble="STA 013Y">STA 013Y</span></div></td><td colspan="2"> Elementary Statistics</td></tr>
+<tr class="odd"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="STA 032">STA 032</span></div></td><td>Gateway to Statistical Data Science</td><td class="hourscol"></td></tr>
+<tr class="even"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="STA 100">STA 100</span></div></td><td>Applied Statistics for Biological Sciences</td><td class="hourscol"></td></tr>
+<tr class="odd"><td colspan="2"><div style="margin-left:20px;" class="blockindent"><span class="courselistcomment commentindent">Additional preparatory courses will be needed based on the course prerequisites listed in the catalog. At minimum, calculus at the level of MAT 016C or <span class="code_bubble" data-code-bubble="MAT 017C">017C</span> or <span class="code_bubble" data-code-bubble="MAT 019C">019C</span> or <span class="code_bubble" data-code-bubble="MAT 021C">021C</span> is required.</span></div></td><td class="hourscol"></td></tr>
+<tr class="even areasubheader undefined"><td colspan="2"><span class="courselistcomment areasubheader undefined">Minor Requirements</span></td><td class="hourscol"></td></tr>
+<tr class="odd"><td colspan="2"><div style="margin-left:20px;" class="blockindent"></div></td><td class="hourscol"></td></tr>
+<tr class="even"><td class="codecol"><span class="code_bubble" data-code-bubble="STA 106">STA 106</span></td><td>Applied Statistical Methods: Analysis of Variance</td><td class="hourscol">4</td></tr>
+<tr class="odd"><td class="codecol"><span class="code_bubble" data-code-bubble="STA 108">STA 108</span></td><td>Applied Statistical Methods: Regression Analysis</td><td class="hourscol">4</td></tr>
+<tr class="even"><td colspan="2"><span class="courselistcomment">Choose a series:</span></td><td class="hourscol">8</td></tr>
+<tr class="odd"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="STA 130A">STA 130A</span><br/><span style="margin-left:20px;" class="blockindent">&amp; <span class="code_bubble" data-code-bubble="STA 130B">STA 130B</span></span></div></td><td>Mathematical Statistics: Brief Course<br/><span style="margin-left:20px;" class="blockindent">and Mathematical Statistics: Brief Course</span></td><td class="hourscol"></td></tr>
+<tr class="even"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="STA 131A">STA 131A</span><br/><span style="margin-left:20px;" class="blockindent">&amp; <span class="code_bubble" data-code-bubble="STA 131B">STA 131B</span></span></div></td><td>Introduction to Probability Theory<br/><span style="margin-left:20px;" class="blockindent">and Introduction to Mathematical Statistics</span></td><td class="hourscol"></td></tr>
+<tr class="odd"><td colspan="2"><span class="courselistcomment">Choose one:</span></td><td class="hourscol">4</td></tr>
+<tr class="even"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="STA 101">STA 101</span></div></td><td>Advanced Applied Statistics for the Biological Sciences</td><td class="hourscol"></td></tr>
+<tr class="odd"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="STA 104">STA 104</span></div></td><td>Applied Statistical Methods: Nonparametric Statistics</td><td class="hourscol"></td></tr>
+<tr class="even"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="STA 135">STA 135</span></div></td><td>Multivariate Data Analysis</td><td class="hourscol"></td></tr>
+<tr class="odd"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="STA 137">STA 137</span></div></td><td>Applied Time Series Analysis</td><td class="hourscol"></td></tr>
+<tr class="even"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="STA 138">STA 138</span></div></td><td>Analysis of Categorical Data</td><td class="hourscol"></td></tr>
+<tr class="odd"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="STA 141A">STA 141A</span></div></td><td>Fundamentals of Statistical Data Science</td><td class="hourscol"></td></tr>
+<tr class="even"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="STA 141B">STA 141B</span></div></td><td>Data &amp; Web Technologies for Data Analysis</td><td class="hourscol"></td></tr>
+<tr class="odd"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="STA 141C">STA 141C</span></div></td><td>Big Data &amp; High Performance Statistical Computing</td><td class="hourscol"></td></tr>
+<tr class="even"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="STA 142A">STA 142A</span></div></td><td>Statistical Learning I</td><td class="hourscol"></td></tr>
+<tr class="odd"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="STA 142B">STA 142B</span></div></td><td>Statistical Learning II</td><td class="hourscol"></td></tr>
+<tr class="even"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="STA 144">STA 144</span></div></td><td>Sampling Theory of Surveys</td><td class="hourscol"></td></tr>
+<tr class="odd"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="STA 145">STA 145</span></div></td><td>Bayesian Statistical Inference</td><td class="hourscol"></td></tr>
+<tr class="even lastrow"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="STA 160">STA 160</span></div></td><td>Practice in Statistical Data Science</td><td class="hourscol"></td></tr>
+<tr class="listsum"><td colspan="2">Total Units</td><td class="hourscol">20</td></tr></tbody>
+</table>
+
+]]>
+</requirementstext>
+<quickviewtext name="Quick View">
+<![CDATA[
+<p>The <span class="title-main">Statistics </span>minor consists of five upper division level courses focusing on the fundamentals of mathematical statistics and of the most widely used applied statistical methods. The minor is flexible, so that students from most majors can find a path to the minor that serves their needs.</p>
+]]>
+</quickviewtext>
+<faculty>
+<![CDATA[
+]]>
+</faculty>
+</courseleaf>
+

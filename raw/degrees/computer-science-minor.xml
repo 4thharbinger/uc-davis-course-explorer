@@ -1,0 +1,68 @@
+<?xml version="1.0"?>
+<courseleaf>
+
+<title>Computer Science, Minor</title>
+
+
+<text>
+<![CDATA[  
+
+  
+]]>
+</text>
+<informationtext name="Information">
+<![CDATA[
+<h2>The Major Program</h2>
+<p>The Department of Computer Science administers two majors: Computer Science &amp; Engineering (CSE) and Computer Science (CS). It also administers two minors: Computer Science and Computational Biology. For information on the Computer Science &amp; Engineering curriculum and the minor in Computational Biology, see <a href="/departments-programs-degrees/computer-science-engineering/computer-science-engineering-bs/">Computer Science Engineering</a>.</p>
+<p>The primary differences between the CSE and CS majors are the extent of hardware coverage and curricular flexibility. The CSE major develops a solid understanding of the entire machine, including hands-on experience with its hardware components. The CS major teaches some hardware, at the digital-design level, on simulators. The CSE major has fewer free electives. The CS major's more generous electives make it easier to complete a minor or double major.</p>
+<p>Students in the CS major receive a solid grounding in the fundamentals of computer languages, operating systems, computer architecture, and the mathematical abstractions underpinning computer science. Students are prepared for both industry and postgraduate study.</p>
+]]>
+</informationtext>
+<requirementstext name="Requirements">
+<![CDATA[
+<table class="sc_courselist">
+<caption class="hidden noscript">Course List</caption>
+<colgroup>
+<col class="codecol"/>
+<col class="titlecol"/>
+<col align="char" char="." class="hourscol"/>
+</colgroup>
+<thead>
+<tr class="hidden noscript">
+<th scope="col">Code</th>
+<th scope="col">Title</th>
+<th scope="col" class="hourscol">Units</th>
+</tr>
+</thead>
+<tbody>
+<tr class="even firstrow"><td colspan="2"><span class="courselistcomment">Choose any three upper division Computer Science Engineering (ECS) courses</span> <sup>1</sup></td><td class="hourscol">11-12</td></tr>
+<tr class="odd"><td colspan="2"><span class="courselistcomment">Choose any two upper division ECS courses or any upper division course in MAT:</span> <sup>2</sup></td><td class="hourscol">8-10</td></tr>
+<tr class="even"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="EEC 100">EEC 100</span></div></td><td>Circuits II</td><td class="hourscol"></td></tr>
+<tr class="odd"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="EEC 171">EEC 171</span></div></td><td>Parallel Computer Architecture</td><td class="hourscol"></td></tr>
+<tr class="even"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="EEC 172">EEC 172</span></div></td><td>Embedded Systems </td><td class="hourscol"></td></tr>
+<tr class="odd"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="EEC 180">EEC 180</span></div></td><td>Digital Systems II</td><td class="hourscol"></td></tr>
+<tr class="even"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="ECN 122">ECN 122</span></div></td><td>Theory of Games &amp; Strategic Behavior</td><td class="hourscol"></td></tr>
+<tr class="odd"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="STA 131A">STA 131A</span></div></td><td>Introduction to Probability Theory</td><td class="hourscol"></td></tr>
+<tr class="even"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="STA 131B">STA 131B</span></div></td><td>Introduction to Mathematical Statistics</td><td class="hourscol"></td></tr>
+<tr class="odd"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="STA 141B">STA 141B</span></div></td><td>Data &amp; Web Technologies for Data Analysis</td><td class="hourscol"></td></tr>
+<tr class="even"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="STA 141C">STA 141C</span></div></td><td>Big Data &amp; High Performance Statistical Computing</td><td class="hourscol"></td></tr>
+<tr class="odd"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="PSC 120">PSC 120</span></div></td><td>Agent-Based Modeling</td><td class="hourscol"></td></tr>
+<tr class="even"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="LIN 127">LIN 127</span></div></td><td>Text Processing &amp; Corpus Linguistics</td><td class="hourscol"></td></tr>
+<tr class="odd lastrow"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="LIN 177">LIN 177</span></div></td><td>Computational Linguistics</td><td class="hourscol"></td></tr>
+<tr class="listsum"><td colspan="2">Total Units</td><td class="hourscol">19-22</td></tr></tbody>
+</table>
+
+<dl class="sc_footnotes" aria-label="Footnotes"><dt> <sup> 1 </sup> </dt><dd><p class="noindent">A single approved course of 3-5 units from <span class="sc_courseinline"><span class="code_bubble" data-code-bubble="ECS 192">ECS 192</span></span> or <span class="sc_courseinline"><span class="code_bubble" data-code-bubble="ECS 199">ECS 199</span></span> is allowed.</p></dd><dt> <sup> 2 </sup> </dt><dd><div class="page" title="Page 300"> <div class="layoutArea"> <div class="column"> <p class="noindent">Excluding <span class="sc_courseinline"><span class="code_bubble" data-code-bubble="MAT 111">MAT 111</span></span>.</p> </div> </div> </div></dd></dl>
+]]>
+</requirementstext>
+<quickviewtext name="Quick View">
+<![CDATA[
+<p>As a student in the Computer Science minor, you will focus on designing systems for application in science, industry, and management. The emphasis in this program is on software, although you will master essential concepts of hardware as well.</p>
+]]>
+</quickviewtext>
+<faculty>
+<![CDATA[
+]]>
+</faculty>
+</courseleaf>
+

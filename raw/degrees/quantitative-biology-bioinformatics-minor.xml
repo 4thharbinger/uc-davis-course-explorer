@@ -1,0 +1,131 @@
+<?xml version="1.0"?>
+<courseleaf>
+
+<title>Quantitative Biology &amp; Bioinformatics, Minor</title>
+
+
+<text>
+<![CDATA[  
+
+  
+]]>
+</text>
+<informationtext name="Information">
+<![CDATA[
+<p>The interdisciplinary minor in Quantitative Biology &amp; Bioinformatics is an integrative program that introduces students to the quantitative and computational approaches that are redefining all disciplines in the biological sciences, from molecular and cell biology, through genetics and physiology, to ecology and evolutionary biology. Students in this minor will learn research tools that apply mathematical and computational methods, increase their insight into the strengths and limitations of quantitative approaches, and develop the interdisciplinary perspective that is now the foundation of modern biological research and training.</p>
+<p>The minor in Quantitative Biology &amp; Bioinformatics is open to all undergraduates regardless of major and is sponsored by the College of Biological Sciences.</p>
+<h2>Faculty Advisor</h2>
+<p>Mark Goldman, Ph.D.</p>
+<h2>Advising</h2>
+<p><a href="https://basc.biology.ucdavis.edu/">Biology Academic Success Center (BASC)</a> in 1023 Katherine Esau Science Hall; 530-752-0410</p>
+]]>
+</informationtext>
+<requirementstext name="Requirements">
+<![CDATA[
+<p>Only one course used to satisfy a requirement for the minor may be applied toward a student’s major.</p>
+<table class="sc_courselist">
+<caption class="hidden noscript">Course List</caption>
+<colgroup>
+<col class="codecol"/>
+<col class="titlecol"/>
+<col align="char" char="." class="hourscol"/>
+</colgroup>
+<thead>
+<tr class="hidden noscript">
+<th scope="col">Code</th>
+<th scope="col">Title</th>
+<th scope="col" class="hourscol">Units</th>
+</tr>
+</thead>
+<tbody>
+<tr class="even areaheader  firstrow"><td colspan="2"><span class="courselistcomment areaheader ">Core Courses</span></td><td class="hourscol"></td></tr>
+<tr class="odd areasubheader undefined"><td colspan="2"><span class="courselistcomment areasubheader undefined">Programming</span></td><td class="hourscol"></td></tr>
+<tr class="even"><td colspan="2"><span class="courselistcomment">Choose one:</span></td><td class="hourscol">0-4</td></tr>
+<tr class="odd"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="ECS 032A">ECS 032A</span></div></td><td>Introduction to Programming</td><td class="hourscol"></td></tr>
+<tr class="orclass odd"><td class="codecol orclass"><div style="margin-left:20px;" class="blockindent">or <span class="code_bubble" data-code-bubble="ECS 032AV">ECS 032AV</span></div></td><td colspan="2"> Introduction to Programming</td></tr>
+<tr class="even"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="ECS 036A">ECS 036A</span></div></td><td>Programming &amp; Problem Solving </td><td class="hourscol"></td></tr>
+<tr class="odd"><td colspan="2"><div style="margin-left:20px;" class="blockindent"><span class="courselistcomment commentindent"><strong>OR</strong> the equivalent.</span></div></td><td class="hourscol"></td></tr>
+<tr class="even"><td colspan="2"><div style="margin-left:20px;" class="blockindent"><span class="courselistcomment commentindent">The programming requirement may be satisfied by previous experience and therefore may not entail college course credit. Please see your minor advisor for this determination and its possible impact on your unit requirements for the minor.</span></div></td><td class="hourscol"></td></tr>
+<tr class="odd areasubheader undefined"><td colspan="2"><span class="courselistcomment areasubheader undefined">Quantitative Biology</span></td><td class="hourscol"></td></tr>
+<tr class="even"><td class="codecol"><span class="code_bubble" data-code-bubble="BIS 107">BIS/MAT 107</span></td><td>Probability &amp; Stochastic Processes with Applications to Biology <sup>1</sup></td><td class="hourscol">4</td></tr>
+<tr class="orclass even"><td class="codecol orclass">or <span class="code_bubble" data-code-bubble="MAT 124">MAT 124</span></td><td colspan="2"> Mathematical Biology</td></tr>
+<tr class="odd"><td colspan="2"><span class="courselistcomment">NOTE: <span class="code_bubble" data-code-bubble="BIS 107">BIS 107</span> (same as <span class="code_bubble" data-code-bubble="MAT 107">MAT 107</span>) has a prerequisite of <span class="code_bubble" data-code-bubble="BIS 027A">BIS 027A</span>/<span class="code_bubble" data-code-bubble="MAT 027A">MAT 027A</span> (preferred) or <span class="code_bubble" data-code-bubble="MAT 022A">MAT 022A</span>; <span class="code_bubble" data-code-bubble="MAT 124">MAT 124</span> has a prerequisite of <span class="code_bubble" data-code-bubble="MAT 027A">MAT 027A</span> &amp; <span class="code_bubble" data-code-bubble="MAT 027B">MAT 027B</span> (preferred) or <span class="code_bubble" data-code-bubble="MAT 022A">MAT 022A</span> &amp; <span class="code_bubble" data-code-bubble="MAT 022B">MAT 022B</span>.</span></td><td class="hourscol"></td></tr>
+<tr class="even areasubheader undefined"><td colspan="2"><span class="courselistcomment areasubheader undefined">Bioinformatics</span></td><td class="hourscol"></td></tr>
+<tr class="odd"><td colspan="2"><span class="courselistcomment">Choose one:</span></td><td class="hourscol">4-5</td></tr>
+<tr class="even"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="BIT 150">BIT 150</span></div></td><td>Applied Bioinformatics </td><td class="hourscol"></td></tr>
+<tr class="orclass even"><td class="codecol orclass"><div style="margin-left:20px;" class="blockindent">or <span class="code_bubble" data-code-bubble="ECS 124">ECS 124</span></div></td><td colspan="2"> Theory &amp; Practice of Bioinformatics</td></tr>
+<tr class="orclass even"><td class="codecol orclass"><div style="margin-left:20px;" class="blockindent">or <span class="code_bubble" data-code-bubble="ECS 129">ECS 129</span></div></td><td colspan="2"> Computational Structural Bioinformatics                              </td></tr>
+<tr class="odd"><td colspan="2"><div style="margin-left:20px;" class="blockindent"><span class="courselistcomment commentindent"><strong>OR</strong></span></div></td><td class="hourscol"></td></tr>
+<tr class="even"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="BIS 180L">BIS 180L</span></div></td><td>Genomics Laboratory</td><td class="hourscol"></td></tr>
+<tr class="odd"><td colspan="2"><span class="courselistcomment">Core Courses Subtotal</span></td><td class="hourscol">8-13</td></tr>
+<tr class="even areaheader "><td colspan="2"><span class="courselistcomment areaheader ">Quantitative &amp; Computational Preparation</span></td><td class="hourscol"></td></tr>
+<tr class="odd"><td colspan="2"><span class="courselistcomment">Choose one:</span></td><td class="hourscol">4</td></tr>
+<tr class="even"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="BIS 107">BIS/MAT 107</span></div></td><td>Probability &amp; Stochastic Processes with Applications to Biology <sup>1</sup></td><td class="hourscol"></td></tr>
+<tr class="odd"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="BIM 105">BIM 105</span></div></td><td>Probability &amp; Data Science for Biomedical Engineers</td><td class="hourscol"></td></tr>
+<tr class="even"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="ECS 111">ECS 111</span></div></td><td>Applied Machine Learning for Non-Majors</td><td class="hourscol"></td></tr>
+<tr class="odd"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="ECS 116">ECS 116</span></div></td><td>Databases for Non-Majors</td><td class="hourscol"></td></tr>
+<tr class="even"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="ECS 117">ECS 117</span></div></td><td>Algorithms for Data Science</td><td class="hourscol"></td></tr>
+<tr class="odd"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="ECS 122A">ECS 122A</span></div></td><td>Algorithm Design &amp; Analysis </td><td class="hourscol"></td></tr>
+<tr class="even"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="ECS 130">ECS 130</span></div></td><td>Scientific Computation</td><td class="hourscol"></td></tr>
+<tr class="odd"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="ECS 145">ECS 145</span></div></td><td>Scripting Languages &amp; Their Applications</td><td class="hourscol"></td></tr>
+<tr class="even"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="ECS 165A">ECS 165A</span></div></td><td>Database Systems</td><td class="hourscol"></td></tr>
+<tr class="odd"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="ECS 171">ECS 171</span></div></td><td>Machine Learning</td><td class="hourscol"></td></tr>
+<tr class="even"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="MAT 128A">MAT 128A</span></div></td><td>Numerical Analysis</td><td class="hourscol"></td></tr>
+<tr class="odd"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="MAT 128B">MAT 128B</span></div></td><td>Numerical Analysis in Solution of Equations</td><td class="hourscol"></td></tr>
+<tr class="even"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="MAT 128C">MAT 128C</span></div></td><td>Numerical Analysis in Differential Equations</td><td class="hourscol"></td></tr>
+<tr class="odd"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="MAT 135A">MAT 135A</span></div></td><td>Probability</td><td class="hourscol"></td></tr>
+<tr class="even"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="STA 101">STA 101</span></div></td><td>Advanced Applied Statistics for the Biological Sciences</td><td class="hourscol"></td></tr>
+<tr class="odd"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="STA 108">STA 108</span></div></td><td>Applied Statistical Methods: Regression Analysis</td><td class="hourscol"></td></tr>
+<tr class="even"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="STA 130A">STA 130A</span></div></td><td>Mathematical Statistics: Brief Course</td><td class="hourscol"></td></tr>
+<tr class="odd"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="STA 131A">STA 131A</span></div></td><td>Introduction to Probability Theory</td><td class="hourscol"></td></tr>
+<tr class="even"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="STA 141A">STA 141A</span></div></td><td>Fundamentals of Statistical Data Science</td><td class="hourscol"></td></tr>
+<tr class="odd"><td colspan="2"><span class="courselistcomment">NOTE: <span class="code_bubble" data-code-bubble="BIS 107">BIS 107</span> (same as <span class="code_bubble" data-code-bubble="MAT 107">MAT 107</span>) has a prerequisite of <span class="code_bubble" data-code-bubble="BIS 027A">BIS 027A</span>/<span class="code_bubble" data-code-bubble="MAT 027A">MAT 027A</span> (preferred) or <span class="code_bubble" data-code-bubble="MAT 022A">MAT 022A</span>.</span></td><td class="hourscol"></td></tr>
+<tr class="even"><td colspan="2"><span class="courselistcomment">Quantitative &amp; Computational Preparation Subtotal</span></td><td class="hourscol">4</td></tr>
+<tr class="odd areaheader "><td colspan="2"><span class="courselistcomment areaheader ">Restricted Electives</span></td><td class="hourscol"></td></tr>
+<tr class="even"><td colspan="2"><span class="courselistcomment">Complete two or more from the following list to achieve a total of 18-26 units:</span></td><td class="hourscol">5-10</td></tr>
+<tr class="odd"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="BIS 180L">BIS 180L</span></div></td><td>Genomics Laboratory</td><td class="hourscol"></td></tr>
+<tr class="even"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="BIS 181">BIS 181</span></div></td><td>Comparative Genomics</td><td class="hourscol"></td></tr>
+<tr class="odd"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="BIS 183">BIS 183</span></div></td><td>Functional Genomics</td><td class="hourscol"></td></tr>
+<tr class="even"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="BIM 102">BIM 102</span></div></td><td>Cellular Dynamics</td><td class="hourscol"></td></tr>
+<tr class="odd"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="BIM 140">BIM 140</span></div></td><td>Protein Engineering</td><td class="hourscol"></td></tr>
+<tr class="even"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="BIM 141">BIM 141</span></div></td><td>Cell &amp; Tissue Mechanics</td><td class="hourscol"></td></tr>
+<tr class="odd"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="BIM 143">BIM 143</span></div></td><td>Biomolecular Systems Engineering: Synthetic Biology</td><td class="hourscol"></td></tr>
+<tr class="even"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="BIM 162">BIM 162</span></div></td><td>Introduction to the Biophysics of Molecules &amp; Cells</td><td class="hourscol"></td></tr>
+<tr class="odd"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="BIM 163">BIM 163</span></div></td><td>Bioelectricity, Biomechanics, &amp; Signaling Systems</td><td class="hourscol"></td></tr>
+<tr class="even"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="BIT 150">BIT 150</span></div></td><td>Applied Bioinformatics </td><td class="hourscol"></td></tr>
+<tr class="odd"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="ECS 124">ECS 124</span></div></td><td>Theory &amp; Practice of Bioinformatics <sup>2</sup></td><td class="hourscol"></td></tr>
+<tr class="even"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="ECS 129">ECS 129</span></div></td><td>Computational Structural Bioinformatics                               <sup>2</sup></td><td class="hourscol"></td></tr>
+<tr class="odd"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="ESP 121">ESP 121</span></div></td><td>Population Ecology</td><td class="hourscol"></td></tr>
+<tr class="orclass odd"><td class="codecol orclass"><div style="margin-left:20px;" class="blockindent">or <span class="code_bubble" data-code-bubble="WFC 122">WFC 122</span></div></td><td colspan="2"> Population Dynamics &amp; Estimation</td></tr>
+<tr class="even"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="EVE 102">EVE 102</span></div></td><td>Population &amp; Quantitative Genetics</td><td class="hourscol"></td></tr>
+<tr class="odd"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="EVE 103">EVE 103</span></div></td><td>Phylogeny, Speciation &amp; Macroevolution</td><td class="hourscol"></td></tr>
+<tr class="even"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="EVE 104">EVE 104</span></div></td><td>Community Ecology</td><td class="hourscol"></td></tr>
+<tr class="odd"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="EVE 175">EVE 175</span></div></td><td>Computational Genetics</td><td class="hourscol"></td></tr>
+<tr class="even"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="MIC 105">MIC 105</span></div></td><td>Microbial Diversity (Discontinued for fall 2026) <sup>**</sup></td><td class="hourscol"></td></tr>
+<tr class="orclass even"><td class="codecol orclass"><div style="margin-left:20px;" class="blockindent">or <span class="code_bubble" data-code-bubble="MMG 180">MMG 180</span></div></td><td colspan="2"> Microbial Diversity</td></tr>
+<tr class="odd"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="MCB 123">MCB 123</span></div></td><td>Behavior &amp; Analysis of Enzyme &amp; Receptor Systems</td><td class="hourscol"></td></tr>
+<tr class="even"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="MCB 143">MCB 143</span></div></td><td>Cell &amp; Molecular Biophysics</td><td class="hourscol"></td></tr>
+<tr class="odd"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="MCB 182">MCB 182</span></div></td><td>Principles of Genomics</td><td class="hourscol"></td></tr>
+<tr class="even"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="NPB 118">NPB 118</span></div></td><td>Comparative Biomechanics</td><td class="hourscol"></td></tr>
+<tr class="odd"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="NPB 136">NPB 136</span></div></td><td>Neural Networks &amp; Machine Learning in Biology</td><td class="hourscol"></td></tr>
+<tr class="even"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="NPB 167">NPB 167</span></div></td><td>Computational Neuroscience</td><td class="hourscol"></td></tr>
+<tr class="odd"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="SSB 134">SSB 134</span></div></td><td>Systems Biology: From Biological Circuits to Biological Systems</td><td class="hourscol"></td></tr>
+<tr class="even"><td colspan="2"><span class="courselistcomment">Restricted Electives Subtotal</span></td><td class="hourscol">5-10</td></tr>
+<tr class="odd lastrow"><td colspan="2"><span class="courselistcomment">Total Units</span></td><td class="hourscol">18-26</td></tr>
+</tbody>
+</table>
+
+<dl class="sc_footnotes" aria-label="Footnotes"><dt> <sup> 1 </sup> </dt><dd><p class="noindent"><!--class="Mso"--><!--class="Mso"--></p> <p class="noindent"><span class="sc_courseinline"><span class="code_bubble" data-code-bubble="BIS 107">BIS 107</span></span> (same as <span class="sc_courseinline"><span class="code_bubble" data-code-bubble="MAT 107">MAT 107</span></span>) can only be used to fulfill either the Quantitative Biology Core requirement or the Quantitative &amp; Computational Preparation requirement, not both.</p></dd><dt> <sup> 2 </sup> </dt><dd><p class="noindent"><span class="sc_courseinline"><span class="code_bubble" data-code-bubble="ECS 124">ECS 124</span></span> and <span class="sc_courseinline"><span class="code_bubble" data-code-bubble="ECS 129">ECS 129</span></span> can only be used to fulfill either the Bioinformatics Core requirement or be used as a restricted elective, not both.</p></dd><dt>**</dt><dd><p class="noindent">Course(s) discontinued; see your advisor for course options.</p></dd></dl>
+]]>
+</requirementstext>
+<quickviewtext name="Quick View">
+<![CDATA[
+<p>The <span class="title-main">Quantitative Biology &amp; Bioinformatics</span> interdisciplinary minor is an integrative program introduces students to the quantitative &amp; computational approaches that are redefining all disciplines in the biological sciences. Students learn the tools and develop the interdisciplinary perspective that is now the foundation of modern biological research and training.</p>
+]]>
+</quickviewtext>
+<faculty>
+<![CDATA[
+]]>
+</faculty>
+</courseleaf>
+

@@ -1,0 +1,63 @@
+<?xml version="1.0"?>
+<courseleaf>
+
+<title>Latin, Minor</title>
+
+
+<text>
+<![CDATA[  
+
+  
+]]>
+</text>
+<informationtext name="Information">
+<![CDATA[
+<p>The Department offers minors in <a href="/departments-programs-degrees/classics/classical-civilization-minor/">Classical Civilization</a>, <a href="/departments-programs-degrees/classics/greek-minor/">Greek</a> and Latin for those wishing to follow a shorter but formally recognized program of study in Classics.</p>
+
+
+
+]]>
+</informationtext>
+<requirementstext name="Requirements">
+<![CDATA[
+<table class="sc_courselist">
+<caption class="hidden noscript">Course List</caption>
+<colgroup>
+<col class="codecol"/>
+<col class="titlecol"/>
+<col align="char" char="." class="hourscol"/>
+</colgroup>
+<thead>
+<tr class="hidden noscript">
+<th scope="col">Code</th>
+<th scope="col">Title</th>
+<th scope="col" class="hourscol">Units</th>
+</tr>
+</thead>
+<tbody>
+<tr class="even firstrow"><td colspan="2"><span class="courselistcomment">Classics; choose one:</span></td><td class="hourscol">4</td></tr>
+<tr class="odd"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="CLA 003">CLA 003</span></div></td><td>Rome &amp; the Mediterranean: 800 B.C.E.-500 C.E.</td><td class="hourscol"></td></tr>
+<tr class="even"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="CLA 004">CLA 004</span></div></td><td>Late Antiquity</td><td class="hourscol"></td></tr>
+<tr class="odd"><td colspan="2"><span class="courselistcomment">Choose three upper division courses in Latin</span> <sup>1</sup></td><td class="hourscol">12</td></tr>
+<tr class="even"><td colspan="2"><div style="margin-left:20px;" class="blockindent"><span class="courselistcomment commentindent"><a href="/courses-subject-code/lat/">Latin (LAT)</a></span></div></td><td class="hourscol"></td></tr>
+<tr class="odd"><td colspan="2"><span class="courselistcomment">Choose one additional upper division course in Classics, Latin, or Greek.</span></td><td class="hourscol">4</td></tr>
+<tr class="even"><td colspan="2"><div style="margin-left:20px;" class="blockindent"><span class="courselistcomment commentindent"><a href="/courses-subject-code/cla/">Classics (CLA)</a></span></div></td><td class="hourscol"></td></tr>
+<tr class="odd"><td colspan="2"><div style="margin-left:20px;" class="blockindent"><span class="courselistcomment commentindent"><a href="/courses-subject-code/lat/">Latin (LAT)</a></span></div></td><td class="hourscol"></td></tr>
+<tr class="even lastrow"><td colspan="2"><div style="margin-left:20px;" class="blockindent"><span class="courselistcomment commentindent"><a href="/courses-subject-code/grk/">Greek (GRK)</a></span></div></td><td class="hourscol"></td></tr>
+<tr class="listsum"><td colspan="2">Total Units</td><td class="hourscol">20</td></tr></tbody>
+</table>
+
+<dl class="sc_footnotes" aria-label="Footnotes"><dt> <sup> 1 </sup> </dt><dd><p class="noindent">Upper division language courses require completion of the lower division language series or equivalent work as approved by the department.</p></dd></dl>
+]]>
+</requirementstext>
+<quickviewtext name="Quick View">
+<![CDATA[
+<p>Many UC Davis undergraduates study Latin to teach the language or to do research that requires it. They typically go on to graduate programs that require Latin for admission or success. More generally, Latin speakers and writers shaped the Western European culture that has spread globally in the modern era under colonialism. People who learn Latin get a privileged insider’s view of that culture.</p>
+]]>
+</quickviewtext>
+<faculty>
+<![CDATA[
+]]>
+</faculty>
+</courseleaf>
+

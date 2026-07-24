@@ -39,7 +39,7 @@ async function ingestIBExams() {
         creditUnits: examData.units,
         // Connect any courses this exam unlocks
         creditCourses: {
-          connect: examData.courses.map((courseCode) => ({ code: courseCode }))
+          connect: examData.courses.map((courseCode) => ({ slug: courseCode }))
         }
       },
       create: {
@@ -50,7 +50,7 @@ async function ingestIBExams() {
         minScore: minScore,
         creditUnits: examData.units,
         creditCourses: {
-          connect: examData.courses.map((courseCode) => ({ code: courseCode }))
+          connect: examData.courses.map((courseCode) => ({ slug: courseCode }))
         }
       }
     });

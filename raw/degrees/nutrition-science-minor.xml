@@ -1,0 +1,76 @@
+<?xml version="1.0"?>
+<courseleaf>
+
+<title>Nutrition Science, Minor</title>
+
+
+<text>
+<![CDATA[  
+
+  
+]]>
+</text>
+<informationtext name="Information">
+<![CDATA[
+<p>The Department of Nutrition offers three minor programs open to students majoring in other disciplines who wish to complement their study programs with a concentration in the area of food and nutrition.</p>
+<h2>Minor Advisor</h2>
+<p>Advising for the minor and course offerings is located in the Nutrition <a href="https://nutrition.ucdavis.edu/academics/undergrad/advising">Academic Advising Center</a> in 3202 Meyer Hall; 530-752-2512; 530-752-7094.</p>
+]]>
+</informationtext>
+<requirementstext name="Requirements">
+<![CDATA[
+<p>If the student’s major program requires the same course in biochemistry and physiology, only one of the courses may duplicate credit toward the minor which must total 20 units.</p>
+<table class="sc_courselist">
+<caption class="hidden noscript">Course List</caption>
+<colgroup>
+<col class="codecol"/>
+<col class="titlecol"/>
+<col align="char" char="." class="hourscol"/>
+</colgroup>
+<thead>
+<tr class="hidden noscript">
+<th scope="col">Code</th>
+<th scope="col">Title</th>
+<th scope="col" class="hourscol">Units</th>
+</tr>
+</thead>
+<tbody>
+<tr class="even areasubheader undefined firstrow"><td colspan="2"><span class="courselistcomment areasubheader undefined">Preparation</span></td><td class="hourscol"></td></tr>
+<tr class="odd"><td colspan="2"><span class="courselistcomment">Plan in advance to include the required course prerequisites.</span></td><td class="hourscol"></td></tr>
+<tr class="even areasubheader undefined"><td colspan="2"><span class="courselistcomment areasubheader undefined">Biochemistry</span></td><td class="hourscol"></td></tr>
+<tr class="odd"><td colspan="2"><span class="courselistcomment">Choose a series:</span></td><td class="hourscol">6-10</td></tr>
+<tr class="even"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="ABI 102">ABI 102</span><br/><span style="margin-left:20px;" class="blockindent">&amp; <span class="code_bubble" data-code-bubble="ABI 103">ABI 103</span></span></div></td><td>Animal Biochemistry &amp; Metabolism<br/><span style="margin-left:20px;" class="blockindent">and Animal Biochemistry &amp; Metabolism</span></td><td class="hourscol"></td></tr>
+<tr class="odd"><td colspan="2"><div style="margin-left:20px;" class="blockindent"><span class="courselistcomment commentindent"><strong>OR</strong></span></div></td><td class="hourscol"></td></tr>
+<tr class="even"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="BIS 102">BIS 102</span><br/><span style="margin-left:20px;" class="blockindent">&amp; <span class="code_bubble" data-code-bubble="BIS 103">BIS 103</span></span></div></td><td>Structure &amp; Function of Biomolecules<br/><span style="margin-left:20px;" class="blockindent">and Bioenergetics &amp; Metabolism</span></td><td class="hourscol"></td></tr>
+<tr class="odd areasubheader undefined"><td colspan="2"><span class="courselistcomment areasubheader undefined">Nutrition</span></td><td class="hourscol"></td></tr>
+<tr class="even"><td class="codecol"><span class="code_bubble" data-code-bubble="NUT 111AY">NUT 111AY</span></td><td>Introduction to Nutrition &amp; Metabolism</td><td class="hourscol">3</td></tr>
+<tr class="odd"><td class="codecol"><span class="code_bubble" data-code-bubble="NUT 111B">NUT 111B</span></td><td>Recommendations &amp; Standards for Human Nutrition</td><td class="hourscol">2</td></tr>
+<tr class="even areasubheader undefined"><td colspan="2"><span class="courselistcomment areasubheader undefined">Neurobiology, Physiology, &amp; Behavior</span></td><td class="hourscol"></td></tr>
+<tr class="odd"><td class="codecol"><span class="code_bubble" data-code-bubble="NPB 101">NPB 101</span></td><td>Systemic Physiology</td><td class="hourscol">5</td></tr>
+<tr class="even areasubheader undefined"><td colspan="2"><span class="courselistcomment areasubheader undefined">Restricted Electives</span></td><td class="hourscol">0-6</td></tr>
+<tr class="odd"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="NUT 105">NUT 105</span></div></td><td>Nutrition through the Life Cycle</td><td class="hourscol"></td></tr>
+<tr class="even"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="NUT 114">NUT 114</span></div></td><td>Developmental Nutrition</td><td class="hourscol"></td></tr>
+<tr class="odd"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="NUT 115">NUT 115</span></div></td><td>Animal Nutrition</td><td class="hourscol"></td></tr>
+<tr class="even"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="NUT 116A">NUT 116A</span></div></td><td>Clinical Nutrition</td><td class="hourscol"></td></tr>
+<tr class="odd"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="NUT 116B">NUT 116B</span></div></td><td>Clinical Nutrition</td><td class="hourscol"></td></tr>
+<tr class="even"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="NUT 116BY">NUT 116BY</span></div></td><td>Clinical Nutrition</td><td class="hourscol"></td></tr>
+<tr class="odd"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="NUT 117">NUT 117</span></div></td><td>Experimental Nutrition</td><td class="hourscol"></td></tr>
+<tr class="even"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="NUT 120AN">NUT 120AN</span></div></td><td>Nutritional Anthropology</td><td class="hourscol"></td></tr>
+<tr class="odd"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="NUT 141">NUT 141</span></div></td><td>Comparative Animal Nutrition &amp; Metabolism</td><td class="hourscol"></td></tr>
+<tr class="even areaheader  lastrow"><td colspan="2"><span class="courselistcomment areaheader ">Total Units</span></td><td class="hourscol">20</td></tr>
+</tbody>
+</table>
+
+]]>
+</requirementstext>
+<quickviewtext name="Quick View">
+<![CDATA[
+<p>The Nutrition Science minor provides science students with a basic understanding of biochemical reactions involved in human metabolism, human organ systems, and an overview of nutrient functions, nutrient requirements, and metabolic regulation of nutritional pathways.</p>
+]]>
+</quickviewtext>
+<faculty>
+<![CDATA[
+]]>
+</faculty>
+</courseleaf>
+

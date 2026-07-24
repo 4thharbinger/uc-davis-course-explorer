@@ -1,0 +1,77 @@
+<?xml version="1.0"?>
+<courseleaf>
+
+<title>Neuroscience, Minor</title>
+
+
+<text>
+<![CDATA[  
+
+  
+]]>
+</text>
+<informationtext name="Information">
+<![CDATA[
+<p>This minor allows non-Neurobiology, Physiology, &amp; Behavior (NPB) and non-Human Biology majors to learn about the importance of the nervous system. The large breadth of neuroscience courses available includes molecular and cellular neurobiology, developmental neurobiology, neurobiology of addictive drugs and cell signaling in health and disease. Students who obtain a neuroscience minor will be able to demonstrate knowledge of the neurobiological processes in animals and humans.</p>
+<h2>Faculty Advisors</h2>
+<p><a href="https://biology.ucdavis.edu/people/william-debello">William DeBello, Ph.D.</a>, <a href="https://biology.ucdavis.edu/people/talitha-van-der-meulen">Talitha van der Meulen, Ph.D.</a></p>
+<h2>Advising</h2>
+<p><a href="https://basc.biology.ucdavis.edu/">Biology Academic Success Center (BASC)</a> in 1023 Katherine Esau Science Hall; 530-752-0410, <a href="mailto:cbsundergrads@ucdavis.edu">Undergraduate Advising</a>.</p>
+<p>Only one course used to satisfy a requirement for the minor may be applied toward a student’s major.</p>
+]]>
+</informationtext>
+<requirementstext name="Requirements">
+<![CDATA[
+<table class="sc_courselist">
+<caption class="hidden noscript">Course List</caption>
+<colgroup>
+<col class="codecol"/>
+<col class="titlecol"/>
+<col align="char" char="." class="hourscol"/>
+</colgroup>
+<thead>
+<tr class="hidden noscript">
+<th scope="col">Code</th>
+<th scope="col">Title</th>
+<th scope="col" class="hourscol">Units</th>
+</tr>
+</thead>
+<tbody>
+<tr class="even firstrow"><td class="codecol"><span class="code_bubble" data-code-bubble="NPB 100">NPB 100</span></td><td>Neurobiology</td><td class="hourscol">4</td></tr>
+<tr class="odd"><td colspan="2"><span class="courselistcomment">Choose a minimum of 14 units:</span></td><td class="hourscol">14</td></tr>
+<tr class="even"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="NPB 100L">NPB 100L</span></div></td><td>Neurobiology Laboratory</td><td class="hourscol"></td></tr>
+<tr class="odd"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="NPB 107">NPB 107</span></div></td><td>Cell Signaling in Health &amp; Disease</td><td class="hourscol"></td></tr>
+<tr class="even"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="NPB 124">NPB/PSC 124</span></div></td><td>Comparative Neuroanatomy</td><td class="hourscol"></td></tr>
+<tr class="odd"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="NPB 136">NPB 136</span></div></td><td>Neural Networks &amp; Machine Learning in Biology</td><td class="hourscol"></td></tr>
+<tr class="even"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="NPB 162">NPB 162</span></div></td><td>Neural Mechanisms of Behavior</td><td class="hourscol"></td></tr>
+<tr class="odd"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="NPB 163">NPB 163</span></div></td><td>Systems Neuroscience</td><td class="hourscol"></td></tr>
+<tr class="even"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="NPB 164">NPB 164</span></div></td><td> (Discontinued for winter 2026) <sup>**</sup></td><td class="hourscol"></td></tr>
+<tr class="odd"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="NPB 165">NPB 165</span></div></td><td>Neurobiology of Speech Perception</td><td class="hourscol"></td></tr>
+<tr class="even"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="NPB 168">NPB 168</span></div></td><td>Neurobiology of Addictive Drugs</td><td class="hourscol"></td></tr>
+<tr class="odd"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="NPB 171">NPB 171</span></div></td><td>Physiology of Neuroimmune Interactions</td><td class="hourscol"></td></tr>
+<tr class="even"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="NPB 172">NPB 172</span></div></td><td> (Discontinued for winter 2026) <sup>**</sup></td><td class="hourscol"></td></tr>
+<tr class="odd"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="NPB 173">NPB 173</span></div></td><td>Neurobiology of Brain Disorders</td><td class="hourscol"></td></tr>
+<tr class="even"><td colspan="2"><div style="margin-left:20px;" class="blockindent"><span class="courselistcomment commentindent"> One of the following may be completed to reach the unit requirement:</span></div></td><td class="hourscol"></td></tr>
+<tr class="odd"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="PSC 113">PSC 113</span></div></td><td>Developmental Psychobiology </td><td class="hourscol"></td></tr>
+<tr class="even"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="PSC 121">PSC 121</span></div></td><td>Physiological Psychology</td><td class="hourscol"></td></tr>
+<tr class="odd"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="PSC 135">PSC 135</span></div></td><td>Cognitive Neuroscience: The Biological Foundations of the Mind</td><td class="hourscol"></td></tr>
+<tr class="even"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="PSC 137">PSC 137</span></div></td><td>Neurobiology of Learning &amp; Memory</td><td class="hourscol"></td></tr>
+<tr class="odd"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="PHI 103">PHI 103</span></div></td><td>Philosophy on Mind</td><td class="hourscol"></td></tr>
+<tr class="even lastrow"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="HDE 163">HDE 163</span></div></td><td>Cognitive Neuropsychology in Adulthood &amp; Aging</td><td class="hourscol"></td></tr>
+<tr class="listsum"><td colspan="2">Total Units</td><td class="hourscol">18</td></tr></tbody>
+</table>
+
+<dl class="sc_footnotes" aria-label="Footnotes"><dt>**</dt><dd><p class="noindent">Course(s) discontinued; see your advisor for course options.</p></dd></dl>
+]]>
+</requirementstext>
+<quickviewtext name="Quick View">
+<![CDATA[
+<p>Are you interested in the function of the nervous system in animals and humans? The Neuroscience minor allows students who are unable to major in Neurobiology, Physiology, &amp; Behavior to learn about the importance of the nervous system.</p>
+]]>
+</quickviewtext>
+<faculty>
+<![CDATA[
+]]>
+</faculty>
+</courseleaf>
+

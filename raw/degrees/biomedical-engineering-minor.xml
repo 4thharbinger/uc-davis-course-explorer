@@ -1,0 +1,88 @@
+<?xml version="1.0"?>
+<courseleaf>
+
+<title>Biomedical Engineering, Minor</title>
+
+
+<text>
+<![CDATA[  
+
+  
+]]>
+</text>
+<informationtext name="Information">
+<![CDATA[
+<p>The minor in Biomedical Engineering is restricted to enrolled College of Engineering students. The intent is to build upon the existing core strengths in other engineering majors by adding expertise in biomedical applications. This additional training makes students more attractive to employers in the medical device industry, and positions students for graduate training in health related applications of engineering.</p>
+<p>The minor requires two life sciences courses not typically required for engineering students, one at the cellular level (<span class="sc_courseinline"><span class="code_bubble" data-code-bubble="BIM 102">BIM 102</span></span>) and the other at the physiological level (<span class="sc_courseinline"><span class="code_bubble" data-code-bubble="NPB 101">NPB 101</span></span> or <span class="sc_courseinline"><span class="code_bubble" data-code-bubble="BIM 116">BIM 116</span></span>). The remaining 12 units are to be selected in consultation with an advisor from this list of upper division Biomedical Engineering courses. Students will be advised to select courses that complement their existing curricula.</p>
+
+<h2>Minor Advisors</h2>
+<p>Andrew Cones, Dr. Jennifer Choi</p>
+]]>
+</informationtext>
+<requirementstext name="Requirements">
+<![CDATA[
+<p>Successful completion of the minor requires the following:</p>
+<ul>
+	<li>Completing 21 units of minor coursework; all courses must be taken for a letter grade.</li>
+	<li>Minimum overall GPA of 2.000 and no grade lower than a C- for coursework completed in the minor.</li>
+	<li>No more than one course can be counted towards both the student’s major and the minor.</li>
+</ul>
+<table class="sc_courselist">
+<caption class="hidden noscript">Course List</caption>
+<colgroup>
+<col class="codecol"/>
+<col class="titlecol"/>
+<col align="char" char="." class="hourscol"/>
+</colgroup>
+<thead>
+<tr class="hidden noscript">
+<th scope="col">Code</th>
+<th scope="col">Title</th>
+<th scope="col" class="hourscol">Units</th>
+</tr>
+</thead>
+<tbody>
+<tr class="even areasubheader undefined firstrow"><td colspan="2"><span class="courselistcomment areasubheader undefined">Required Courses</span></td><td class="hourscol"></td></tr>
+<tr class="odd"><td class="codecol"><span class="code_bubble" data-code-bubble="NPB 101">NPB 101</span></td><td>Systemic Physiology</td><td class="hourscol">5</td></tr>
+<tr class="orclass odd"><td class="codecol orclass">or <span class="code_bubble" data-code-bubble="BIM 116">BIM 116</span></td><td colspan="2"> Quantitative Physiology</td></tr>
+<tr class="even"><td class="codecol"><span class="code_bubble" data-code-bubble="BIM 102">BIM 102</span></td><td>Cellular Dynamics</td><td class="hourscol">4</td></tr>
+<tr class="orclass even"><td class="codecol orclass">or <span class="code_bubble" data-code-bubble="BIM 161A">BIM 161A</span></td><td colspan="2"> Biomolecular Engineering</td></tr>
+<tr class="orclass even"><td class="codecol orclass">or <span class="code_bubble" data-code-bubble="BIM 167">BIM 167</span></td><td colspan="2"> Biomedical Fluid Mechanics</td></tr>
+<tr class="orclass even"><td class="codecol orclass">or <span class="code_bubble" data-code-bubble="BIM 202">BIM 202</span></td><td colspan="2"> Cell &amp; Molecular Biology for Engineers</td></tr>
+<tr class="odd areasubheader undefined"><td colspan="2"><span class="courselistcomment areasubheader undefined">Elective Courses</span></td><td class="hourscol"></td></tr>
+<tr class="even"><td colspan="2"><span class="courselistcomment">Choose 12 units from upper division BIM courses, in consultation with the academic advisor.</span></td><td class="hourscol">12</td></tr>
+<tr class="odd"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="BIM 140">BIM 140</span></div></td><td>Protein Engineering</td><td class="hourscol"></td></tr>
+<tr class="even"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="BIM 141">BIM 141</span></div></td><td>Cell &amp; Tissue Mechanics</td><td class="hourscol"></td></tr>
+<tr class="odd"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="BIM 142">BIM 142</span></div></td><td>Principles &amp; Practices of Biomedical Imaging</td><td class="hourscol"></td></tr>
+<tr class="even"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="BIM 143">BIM 143</span></div></td><td>Biomolecular Systems Engineering: Synthetic Biology</td><td class="hourscol"></td></tr>
+<tr class="odd"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="BIM 144">BIM 144</span></div></td><td>Principles of Biophotonics</td><td class="hourscol"></td></tr>
+<tr class="even"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="BIM 146">BIM 146</span></div></td><td>Biomedical Image Processing</td><td class="hourscol"></td></tr>
+<tr class="odd"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="BIM 151">BIM 151</span></div></td><td>Computational Tools &amp; Applications in Bioengineering &amp; Biomedicine</td><td class="hourscol"></td></tr>
+<tr class="even"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="BIM 152">BIM 152</span></div></td><td>Molecular Control of Biosystems</td><td class="hourscol"></td></tr>
+<tr class="odd"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="BIM 154">BIM 154</span></div></td><td>Computational Genomics</td><td class="hourscol"></td></tr>
+<tr class="even"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="BIM 161A">BIM 161A</span></div></td><td>Biomolecular Engineering</td><td class="hourscol"></td></tr>
+<tr class="odd"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="BIM 162">BIM 162</span></div></td><td>Introduction to the Biophysics of Molecules &amp; Cells</td><td class="hourscol"></td></tr>
+<tr class="even"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="BIM 163">BIM 163</span></div></td><td>Bioelectricity, Biomechanics, &amp; Signaling Systems</td><td class="hourscol"></td></tr>
+<tr class="odd"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="BIM 167">BIM 167</span></div></td><td>Biomedical Fluid Mechanics</td><td class="hourscol"></td></tr>
+<tr class="even"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="BIM 170">BIM 170</span></div></td><td>Aspects of Medical Device Design &amp; Manufacturing</td><td class="hourscol"></td></tr>
+<tr class="odd"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="BIM 171">BIM 171</span></div></td><td>Clinical Applications for Biomedical Device Design</td><td class="hourscol"></td></tr>
+<tr class="even"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="BIM 172">BIM 172</span></div></td><td>Introduction to Neuroengineering Lab</td><td class="hourscol"></td></tr>
+<tr class="odd"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="BIM 189A">BIM 189A</span></div></td><td>Topics in Biomedical Engineering: Cellular &amp; Molecular Engineering</td><td class="hourscol"></td></tr>
+<tr class="even"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="BIM 189B">BIM 189B</span></div></td><td>Topics in Biomedical Engineering: Biomedical Imaging</td><td class="hourscol"></td></tr>
+<tr class="odd lastrow"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="code_bubble" data-code-bubble="BIM 189C">BIM 189C</span></div></td><td>Topics in Biomedical Engineering: Biomedical Engineering</td><td class="hourscol"></td></tr>
+<tr class="listsum"><td colspan="2">Total Units</td><td class="hourscol">21</td></tr></tbody>
+</table>
+
+]]>
+</requirementstext>
+<quickviewtext name="Quick View">
+<![CDATA[
+<p>The <span class="title-main">Biomedical Engineering </span>minor is restricted to enrolled College of Engineering students. The intent is to build upon their existing core strengths and add expertise in biomedical applications. This additional training makes students more attractive to employers in the medical device industry and positions students for graduate training in health-related applications of engineering.</p>
+]]>
+</quickviewtext>
+<faculty>
+<![CDATA[
+]]>
+</faculty>
+</courseleaf>
+
