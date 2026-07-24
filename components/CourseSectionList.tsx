@@ -49,7 +49,7 @@ export default function CourseSectionList({ addTarget, schoolInfo } : { addTarge
     }
     
     return <div className="w-1/4 min-w-[500px] border-r border-gray-200 bg-white p-6 overflow-y-auto">
-            <h2 className="text-xl font-bold mb-4">Course Sections <button className="float-right cursor-pointer hover:text-red-600 transition-colors" title="Close" onClick={() => setActiveScheduling(null)}>X</button></h2>
+            <h2 className="text-xl font-bold mb-4">Sections for {activeScheduling} <button className="float-right cursor-pointer hover:text-red-600 transition-colors" title="Close" onClick={() => setActiveScheduling(null)}>X</button></h2>
             
             {sections.length > 0 && <table className="w-full table-fixed">
                 <tbody>
