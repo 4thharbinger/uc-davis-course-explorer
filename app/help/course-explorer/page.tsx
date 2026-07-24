@@ -13,7 +13,7 @@ export default async function CourseExplorer() {
           <a href="/courses/ucdavis" className="font-bold text-gray-600 cursor-pointer hover:text-blue-600 border-1 w-fit p-2 px-6 border-blue-500 rounded bg-blue-200">Open Explorer</a>
           <h1 className="text-xl text-center font-bold">Course Scheduler</h1>
           <p>Search for courses and automatically generate schedules. Currently tested with most lower-division regular courses. <span title="This is because you don't schedule prerequisites for a course and the course itself at the same time.">Note: Courses are not synchronized between the two tools.</span> </p>
-          <p>See your schedule in real time. Data is not persistent currently. Please make sure to screenshot to save your schedule.</p>
+          <p>See your schedule in real time. </p>
           <a href="/courses/ucdavis/scheduler" className="font-bold text-gray-600 cursor-pointer hover:text-blue-600 border-1 w-fit p-2 px-6 border-blue-500 rounded bg-blue-200">Open Scheduler</a>
           <p>Made by an incoming student at UC Davis</p>
           <a className="underline" href="https://github.com/solar138/uc-davis-course-explorer">GitHub</a>
