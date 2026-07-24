@@ -13,6 +13,7 @@ export default async function CourseExplorer() {
           <ChangelogEntry date="July 14, 2026" changes={["Added error messages when scheduling instead of silently failing", "Changed wording on course inspector", "Added unschedule button in section list", "Improved scheduler performance"]}/>
           <ChangelogEntry date="July 13, 2026" changes={["Added changelog", "Reduced bandwidth usage by not sending the entire course library", "Course unlocks temporarily hidden", "Fixed: SVG icons not loading in inspector", "Fixed: Courses showing internal IDs instead of the course code."]}/>
           <ChangelogEntry date="July 10, 2026" changes={["Initial release"]}/>
+        <p>For more details changes, feel free to visit the <a href="https://www.github.com/4thharbinger/uc-davis-course-explorer/commits">GitHub commits</a></p>
         </article>
       </main>
       <Footer/>
