@@ -100,10 +100,11 @@ export function CourseSchedule() {
             activity={meeting.type} 
             start={+meeting.startTime} 
             end={+meeting.endTime}
+            location={meeting.building}
             days={meeting}
             color={hashCode(course)}
             opacity={opacity}
-            onClick={() => setInspectedCourse({slug: course})}/>
+            onClick={() => {setActiveScheduling(course); setInspectedCourse({slug: course})}}/>
   }
   
   const hoverSection = availableCrns[hoverCrn] ?? sectionsCache[hoverCrn];

@@ -5,7 +5,7 @@ export type Weekday = "monday" | "tuesday" | "wednesday" | "thursday" | "friday"
 export const weekdays : Weekday[] = 
     ["monday", "tuesday", "wednesday", "thursday", "friday"];
 
-export default function CourseScheduleBlock({ course, activity, start, end, days, color, opacity = 1, onClick } : { course: string, activity: string, start: number, end: number, days: MeetingDays, color: number, opacity: number, onClick?: () => void }) {
+export default function CourseScheduleBlock({ course, activity, location, start, end, days, color, opacity = 1, onClick } : { location: string, course: string, activity: string, start: number, end: number, days: MeetingDays, color: number, opacity: number, onClick?: () => void }) {
     const timeString = `${formatTime(start)} - ${formatTime(end)}`;
     return weekdays.filter(day => days[day as keyof MeetingDays]).map(day => 
     <div key={day} className={styles.sectionBlock} style={{ 
@@ -17,8 +17,8 @@ export default function CourseScheduleBlock({ course, activity, start, end, days
         opacity: opacity
     }} 
         onClick={onClick}>
-                    <h2 className="font-bold">{course}</h2>
-                    <p style={{ fontSize: '14px' }}>{activity}: {timeString}</p>
+                    <h2 className="font-bold">{course} - {activity}</h2>
+                    <p style={{ fontSize: '14px', textOverflow: "ellipsis", whiteSpace: "nowrap", overflow: "hidden" }}>{location}</p>
     </div>);
 }
 
