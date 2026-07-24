@@ -30,6 +30,8 @@ model Course {
   
   instructors Instructor[] 
   sections    Section[]
+  
+  examCredits ExamCredit[]
 }
 
 model Instructor {
@@ -56,18 +58,67 @@ model Section {
   course       Course   @relation(fields: [courseCode], references: [slug], onDelete: Cascade)
 }
 
+model School {
+  name String @id
+  fullName String
+  shortName String
+  address String
+}
+
+model Exam {
+  @@id([type, subject, level])
+
+  type        String // e.g., ib, ap, placement
+  subject     String // e.g., physics
+  level       String // e.g., hl
+  name        String // e.g., IB Physics HL
+
+  examCredits ExamCredit[]
+}
+
+model ExamCredit {
+  id String @id @default(cuid())
+
+  @@unique([school, examType, examSubject, examLevel, minScore])
+
+  school String
+  creditUnits Int
+  examType     String
+  examSubject  String
+  examLevel    String
+
+  minScore    Int 
+  maxScore    Int @default(999999)
+
+  duplicateCredit Boolean @default(false)
+  
+  exam Exam @relation(fields: [examType, examSubject, examLevel], references: [type, subject, level])
+
+  creditCourses Course[]
+}
+
+model Degree {
+  @@id([school, code])
+
+  school       String // e.g., ucdavis
+  code         String // e.g., EASE
+  requirements Json   
+}
+
 // public visible user stuff
 model UserProfile { 
   username     String @id
   display      String?
   email        String?
 
-  use          User         @relation(fields: [username], references: [username], map: "user_profile_username_fkey")
+  user          User         @relation(fields: [username], references: [username], map: "user_profile_username_fkey")
 }
 
 // private user data
 model UserData { 
   username     String @id
+  exams        Json //  array of IB/AP/Placement Exams
+  courses      Json //  array of all courses taken by user
 
   user         User         @relation(fields: [username], references: [username], map: "user_data_username_fkey")
 }

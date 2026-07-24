@@ -4,7 +4,7 @@ import getSchoolInfo from "@/lib/getSchoolInfo";
 import { CourseEditor } from "@/components/CourseEditor";
 import Header from "@/components/Header";
 
-interface SchoolProps {
+export interface SchoolProps {
   params: Promise<{ school: string[] }>;
 }
 

@@ -1,0 +1,465 @@
+[
+    {
+        "name": "Arabic A: Language & Literature",
+        "units": 8,
+        "courses": [],
+        "duplicateCredit": false
+    },
+    {
+        "name": "Arabic A: Literature",
+        "units": 8,
+        "courses": [],
+        "duplicateCredit": false
+    },
+    {
+        "name": "Arabic B",
+        "units": 8,
+        "courses": [],
+        "duplicateCredit": false
+    },
+    {
+        "name": "Biology",
+        "units": 8,
+        "courses": [
+            "BIS010"
+        ],
+        "duplicateCredit": false
+    },
+    {
+        "name": "Business Management",
+        "units": 8,
+        "courses": [],
+        "duplicateCredit": false
+    },
+    {
+        "name": "Chemistry",
+        "units": 8,
+        "courses": [
+            "CHE010"
+        ],
+        "minScore": 5,
+        "maxScore": 6,
+        "duplicateCredit": false
+    },
+    {
+        "name": "Chemistry",
+        "units": 8,
+        "courses": [
+            "CHE002A"
+        ],
+        "minScore": 7,
+        "duplicateCredit": true
+    },
+    {
+        "name": "Chinese A: Language & Literature",
+        "units": 8,
+        "courses": [],
+        "duplicateCredit": false
+    },
+    {
+        "name": "Chinese A: Literature",
+        "units": 8,
+        "courses": [],
+        "duplicateCredit": false
+    },
+    {
+        "name": "Chinese B: Cantonese",
+        "units": 8,
+        "courses": [],
+        "duplicateCredit": false
+    },
+    {
+        "name": "Chinese B: Mandarin",
+        "units": 8,
+        "courses": [],
+        "duplicateCredit": false
+    },
+    {
+        "name": "Classical Greek",
+        "units": 8,
+        "courses": [
+            "GRK001",
+            "GRK002"
+        ],
+        "duplicateCredit": true
+    },
+    {
+        "name": "Computer Science",
+        "units": 8,
+        "courses": [],
+        "duplicateCredit": false
+    },
+    {
+        "name": "Dance",
+        "units": 8,
+        "courses": [],
+        "duplicateCredit": false
+    },
+    {
+        "name": "Economics",
+        "units": 8,
+        "courses": [
+            "ECN001A",
+            "ECN001B"
+        ],
+        "duplicateCredit": true
+    },
+    {
+        "name": "English A: Language & Literature",
+        "units": 8,
+        "courses": [
+            "ENL003"
+        ],
+        "duplicateCredit": false
+    },
+    {
+        "name": "English A: Literature",
+        "units": 8,
+        "courses": [
+            "ENL003"
+        ],
+        "duplicateCredit": false
+    },
+    {
+        "name": "English B",
+        "units": 8,
+        "courses": [],
+        "duplicateCredit": false
+    },
+    {
+        "name": "Film",
+        "units": 8,
+        "courses": [],
+        "duplicateCredit": false
+    },
+    {
+        "name": "French A: Language & Literature",
+        "units": 8,
+        "courses": [
+            "FRE021",
+            "FRE022",
+            "FRE023"
+        ],
+        "duplicateCredit": false
+    },
+    {
+        "name": "French A: Literature",
+        "units": 8,
+        "courses": [
+            "FRE021",
+            "FRE022",
+            "FRE023"
+        ],
+        "duplicateCredit": false
+    },
+    {
+        "name": "French B",
+        "units": 8,
+        "courses": [
+            "FRE001",
+            "FRE002",
+            "FRE003"
+        ],
+        "duplicateCredit": false
+    },
+    {
+        "name": "Geography",
+        "units": 8,
+        "courses": [],
+        "duplicateCredit": false
+    },
+    {
+        "name": "German A: Language & Literature",
+        "units": 8,
+        "courses": [
+            "GER001",
+            "GER002",
+            "GER003"
+        ],
+        "duplicateCredit": false
+    },
+    {
+        "name": "German A: Literature",
+        "units": 8,
+        "courses": [
+            "GER001",
+            "GER002"
+        ],
+        "duplicateCredit": false
+    },
+    {
+        "name": "German B",
+        "units": 8,
+        "courses": [
+            "GER001",
+            "GER002"
+        ],
+        "duplicateCredit": false
+    },
+    {
+        "name": "Global Politics",
+        "units": 8,
+        "courses": [],
+        "duplicateCredit": false
+    },
+    {
+        "name": "History of Africa",
+        "units": 8,
+        "courses": [
+            "HIS015A",
+            "HIS015B"
+        ],
+        "duplicateCredit": true
+    },
+    {
+        "name": "History of the Americas",
+        "units": 8,
+        "courses": [
+            "HIS017A",
+            "HIS017B"
+        ],
+        "duplicateCredit": true
+    },
+    {
+        "name": "History of Europe",
+        "units": 8,
+        "courses": [
+            "HIS004C"
+        ],
+        "duplicateCredit": true
+    },
+    {
+        "name": "History of Europe & the Islamic World",
+        "units": 8,
+        "courses": [],
+        "duplicateCredit": false
+    },
+    {
+        "name": "History of Europe & the Middle East",
+        "units": 8,
+        "courses": [],
+        "duplicateCredit": false
+    },
+    {
+        "name": "History of the Islamic World",
+        "units": 8,
+        "courses": [
+            "HIS006"
+        ],
+        "duplicateCredit": true
+    },
+    {
+        "name": "History of Southeast Asia & Oceania",
+        "units": 8,
+        "courses": [],
+        "duplicateCredit": false
+    },
+    {
+        "name": "Italian A: Language & Literature",
+        "units": 8,
+        "courses": [
+            "ITA023"
+        ],
+        "duplicateCredit": false
+    },
+    {
+        "name": "Italian A: Literature",
+        "units": 8,
+        "courses": [
+            "ITA021",
+            "ITA022"
+        ],
+        "duplicateCredit": false
+    },
+    {
+        "name": "Italian B",
+        "units": 8,
+        "courses": [],
+        "duplicateCredit": false
+    },
+    {
+        "name": "Japanese A: Language & Literature",
+        "units": 8,
+        "courses": [],
+        "duplicateCredit": false
+    },
+    {
+        "name": "Japanese A: Literature",
+        "units": 8,
+        "courses": [],
+        "duplicateCredit": false
+    },
+    {
+        "name": "Japanese B",
+        "units": 8,
+        "courses": [],
+        "duplicateCredit": false
+    },
+    {
+        "name": "Languages other than English (if not listed separately)",
+        "units": 8,
+        "courses": [],
+        "duplicateCredit": false
+    },
+    {
+        "name": "Latin",
+        "units": 8,
+        "courses": [
+            "LAT001",
+            "LAT002"
+        ],
+        "duplicateCredit": true
+    },
+    {
+        "name": "Mathematics: Analysis & Approaches",
+        "units": 8,
+        "courses": [
+            "MAT021A",
+            "MAT021B"
+        ],
+        "duplicateCredit": true
+    },
+    {
+        "name": "Music",
+        "units": 8,
+        "courses": [
+            "MUS010"
+        ],
+        "duplicateCredit": true
+    },
+    {
+        "name": "Philosophy",
+        "units": 8,
+        "courses": [
+            "PHI001"
+        ],
+        "duplicateCredit": false
+    },
+    {
+        "name": "Physics",
+        "units": 8,
+        "courses": [
+            "PHY001A",
+            "PHY001B"
+        ],
+        "duplicateCredit": false
+    },
+    {
+        "name": "Portuguese A: Languages & Literature",
+        "units": 8,
+        "courses": [
+            "POR021",
+            "POR022",
+            "POR023"
+        ],
+        "duplicateCredit": false
+    },
+    {
+        "name": "Portuguese A: Literature",
+        "units": 8,
+        "courses": [
+            "POR021",
+            "POR022",
+            "POR023"
+        ],
+        "duplicateCredit": false
+    },
+    {
+        "name": "Portuguese B",
+        "units": 8,
+        "courses": [
+            "POR001",
+            "POR002",
+            "POR003",
+            "POR008"
+        ],
+        "duplicateCredit": false
+    },
+    {
+        "name": "Psychology",
+        "units": 8,
+        "courses": [
+            "PSC001"
+        ],
+        "duplicateCredit": false
+    },
+    {
+        "name": "Russian A: Language & Literature",
+        "units": 8,
+        "courses": [
+            "RUS001",
+            "RUS002",
+            "RUS003"
+        ],
+        "duplicateCredit": false
+    },
+    {
+        "name": "Russian A: Literature",
+        "units": 8,
+        "courses": [
+            "RUS002",
+            "RUS003"
+        ],
+        "duplicateCredit": false
+    },
+    {
+        "name": "Russia B",
+        "units": 8,
+        "courses": [
+            "RUS002",
+            "RUS003"
+        ],
+        "duplicateCredit": false
+    },
+    {
+        "name": "Social & Cultural Anthropology",
+        "units": 8,
+        "courses": [
+            "ANT002"
+        ],
+        "duplicateCredit": true
+    },
+    {
+        "name": "Spanish A: Languages & Literature",
+        "units": 8,
+        "courses": [
+            "SPA021",
+            "SPA022"
+        ],
+        "duplicateCredit": false
+    },
+    {
+        "name": "Spanish A: Literature",
+        "units": 8,
+        "courses": [
+            "SPA021",
+            "SPA022"
+        ],
+        "duplicateCredit": false
+    },
+    {
+        "name": "Spanish B",
+        "units": 8,
+        "courses": [],
+        "duplicateCredit": false
+    },
+    {
+        "name": "Theatre",
+        "units": 8,
+        "courses": [],
+        "duplicateCredit": false
+    },
+    {
+        "name": "Visual Arts",
+        "units": 8,
+        "courses": [],
+        "duplicateCredit": false
+    },
+    {
+        "name": "IB Diploma",
+        "units": 6,
+        "minScore": 30,
+        "courses": [],
+        "duplicateCredit": false
+    }
+]
