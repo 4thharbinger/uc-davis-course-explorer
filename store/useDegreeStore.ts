@@ -5,10 +5,17 @@ import { persist } from 'zustand/middleware';
 
 const isDev = process.env.NODE_ENV === 'development';
 
-type StudentCourse = Course & {
+export type StudentCourse = Course & {
   section?: string,
-  grade?: number,
+  grade?: CourseGrade,
   status: "complete" | "in progress" | "incomplete" | "dropped" | "other"
+}
+
+type CourseGrade = {
+  letter: "A" | "B" | "C" | "D" | "F",
+  gpa: number
+} | {
+  letter: "P" | "NP" | "W"
 }
 
 type TabState = "exams" | "progress" | "plan" | "credit";

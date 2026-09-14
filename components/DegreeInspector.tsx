@@ -86,7 +86,7 @@ export function DegreeInspector({ school }: { school: School }) {
   </div>;
 }
 
-function getCourses(course: DegreeCourseRequirement): string[] {
+export function getCourses(course: DegreeCourseRequirement): string[] {
   if (typeof course == "string") {
     return [course];
   } else if (Array.isArray(course)) {
@@ -153,14 +153,16 @@ function renderDegreeCourse(course: DegreeCourseRequirement): JSX.Element {
   }
 }
 
-type DegreeRequirement = {
-  category: string,
-  subcategories: {
+export type DegreeRequirementSubcategory = {
     header: string,
     courses: DegreeCourseRequirement[]
-  }[]
+  }
+
+export type DegreeRequirement = {
+  category: string,
+  subcategories: DegreeRequirementSubcategory[]
 }
-type DegreeCourseRequirement = string | string[] | {
+export type DegreeCourseRequirement = string | string[] | {
   courses_required: string,
   units_required: number,
   instruction: string,

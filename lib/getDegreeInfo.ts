@@ -9,8 +9,8 @@ export default async function getDegreeInfo(school: string, degreeCode: string) 
     return (await prisma.degree.findUnique({ where: { school_code: { code: degreeCode, school } }})) ?? undefined;
 }
 
-export async function getDegreesInfo(degreeCodes: string[]) : Promise<Record<string, Degree>> {
-    return (await prisma.degree.findMany({ where: { code: { in: degreeCodes } } })).reduce((accumulator, degree) => {
+export async function getDegreesInfo(school: string, degreeCodes: string[]) : Promise<Record<string, Degree>> {
+    return (await prisma.degree.findMany({ where: { school, code: { in: degreeCodes } } })).reduce((accumulator, degree) => {
         accumulator[degree.code] = degree;
         return accumulator;
     }, {} as Record<string, Degree>);

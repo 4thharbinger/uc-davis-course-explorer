@@ -1,12 +1,15 @@
 "use client";
 import getExams, { getExamCredits } from "@/lib/getExams";
-import useDegreeStore from "@/store/useDegreeStore";
+import useDegreeStore, { StudentCourse } from "@/store/useDegreeStore";
 import { useGraphStore } from "@/store/useGraphStore";
-import { Course, Exam, ExamCredit, School } from "@prisma/client";
-import { ReactNode, useEffect, useState } from "react";
+import { Course, Degree, Exam, ExamCredit, School } from "@prisma/client";
+import { JSX, ReactNode, useEffect, useState } from "react";
 import CourseSearch from "./CourseSearch";
 import { Dropdown } from "./Dropdown";
 import { NumberField } from "./NumberField";
+import { getDegreesInfo } from "@/lib/getDegreeInfo";
+import { DegreeCourseRequirement, DegreeRequirement, DegreeRequirementSubcategory, getCourses } from "./DegreeInspector";
+import { getCoursesInfo } from "@/lib/getCourseInfo";
 
 export default function DegreePlanner({ school }: { school: School }) {
     const [examType, setExamType] = useState("None");
@@ -16,6 +19,8 @@ export default function DegreePlanner({ school }: { school: School }) {
     const [exams, setExams] = useState<Exam[]>([]);
     const [examCredits, setExamCredits] = useState<(ExamCredit & { creditCourses: Course[] })[]>([]);
     const setInspectedCourse = useGraphStore((state) => state.setInspectedCourse);
+
+    const [degreeRequirements, setDegreeRequirements] = useState<Record<string, Degree>>();
 
     const userExams = useDegreeStore((state) => state.exams);
     const addExam = useDegreeStore((state) => state.addExam);
@@ -27,10 +32,33 @@ export default function DegreePlanner({ school }: { school: School }) {
     const setTabState = useDegreeStore((state) => state.setTabState);
     const setAwardedCredit = useDegreeStore((state) => state.setAwardedCredit);
     const courses = useDegreeStore((state) => state.courses);
+    const degrees = useDegreeStore((state) => state.degreePrograms);
+    const [degreeCourses, setCourses] = useState<Record<string, Course>>();
+
+    const studentCourses = {} as Record<string, StudentCourse>;
+    for (const course of courses)
+        studentCourses[course.slug] = course;
+    for (const examCredit of examCredits)
+        for (const credit of examCredit.creditCourses)
+            studentCourses[credit.slug] = { ...credit, status: "complete", section: examCredit.examSubject, grade: { letter: "P" } };
 
     useEffect(() => {
         getExams(examType == "None" ? undefined : examType).then(exams => setExams(exams));
     }, [examType, examSubject]);
+
+    useEffect(() => {
+        getDegreesInfo(school.name, degrees).then(degrees => {
+            setDegreeRequirements(degrees);
+
+            const requirements = Object.values(degrees).flatMap(degree => degree.requirements) as DegreeRequirement[];
+
+            if (requirements == undefined) return console.log("no requirements found for degrees", degrees);
+            const courses = requirements.flatMap(requirement => requirement.subcategories.flatMap(subcategory => subcategory.courses.flatMap(course => getCourses(course))));
+            getCoursesInfo(school.name, courses).then((courses) => {
+                setCourses(courses);
+            });
+        });
+    }, [degrees]);
 
     useEffect(() => {
         getExamCredits(userExams.some(exam => exam.type == "ib") ? [...userExams, { type: "ib", subject: "diploma", level: "", score: 45 } as StudentExam] : userExams, school.name)
@@ -134,10 +162,223 @@ export default function DegreePlanner({ school }: { school: School }) {
                 </div>
             </div>
         </div>}
-        {tabState == "progress" && <div className="m-auto w-[1000]">
-            <h1 className="mt-4 text-xl font-bold"> Progress </h1>
+        {tabState == "progress" && <div className="m-auto w-[1000] h-full overflow-y-auto">
+            {/* <h1 className="mt-4 text-xl font-bold"> Progress </h1> */}
+            <p className="mt-4 w-[800] text-center"><i>Note: Degree requirements data is currently incomplete and probably has lots of errors and inconsistencies.
+                If you want to help, feel free to contact me on <a href="https://github.com/4thharbinger/uc-davis-course-explorer">GitHub</a> or <a href="https://discord.com/users/277911182571077633">Discord</a></i></p>
+            {degreeRequirements == undefined || degreeCourses == undefined ? <p>Loading...</p> : renderDegreeProgress(degreeRequirements, degreeCourses, studentCourses)}
+        </div>}
+        {tabState == "plan" && <div className="m-auto w-[1000] h-full overflow-y-auto">
+            <h1 className="mt-4 text-xl font-bold"> My Plan </h1>
+            Coming soon...
         </div>}
     </div>
+}
+
+function renderDegreeProgress(degreeRequirements: Record<string, Degree>, degreeCourses: Record<string, Course>, studentCourses: Record<string, StudentCourse>) {
+    return Object.keys(degreeRequirements).map(degreeId => <div key={degreeId}>
+        <h1 className="text-xl font-bold mt-4">{degreeRequirements[degreeId].name}</h1>
+        {renderDegree(degreeRequirements[degreeId].requirements as DegreeRequirement[], degreeCourses, studentCourses)}
+    </div>);
+}
+
+function renderDegree(requirements: DegreeRequirement[], courses: Record<string, Course>, studentCourses: Record<string, StudentCourse>) {
+
+    console.log(studentCourses);
+
+    requirements.map(requirement =>
+        (requirement as any).units = requirement.subcategories.reduce((acc, subcategory) => {
+            const units = subcategory.courses.reduce((acc, cur) => add(acc, countUnits(courses, cur)), [0, 0]);
+            const completed = subcategory.courses.reduce((acc, cur) => add(acc, countUnits(courses, cur, studentCourses)), [0, 0]);
+            (subcategory as any).units = units;
+            (subcategory as any).completed = completed;
+            return add(units, acc);
+        }, [0, 0]));
+
+    return <div className="grow">{requirements && requirements.map(requirement =>
+        <div className="mt-4" key={requirement.category}>
+            <span className="font-bold text-lg">{requirement.category}</span>
+            <div>
+                {requirement.subcategories.map(subcategory => {
+                    if (subcategory.courses.length > 0 && courses) {
+                        const units = (subcategory as any).units;
+                        const completed = (subcategory as any).completed;
+                        const subcategoryCompleted = checkSubcategoryCompletion(courses, subcategory, studentCourses);
+                        const unitsStr = units[0] == units[1] ? units[0] : units[0] + "-" + units[1];
+                        const completedStr = completed[0] == completed[1] ? completed[0] : completed[0] + "-" + completed[1];
+                        const contentStr = completedStr + " / " + unitsStr;
+                        return <div key={subcategory.header}>
+                            <div className="ml-4">
+                                <Pill
+                                    title={units[0] == units[1] ? "Requires " + units[0] + " unit" + (units[0] == 1 ? "" : "s") + "." : "Requires " + units[0] + " to " + units[1] + " units."}
+                                    content={contentStr}
+                                    color={subcategoryCompleted == "incomplete" ? incompleteColor : subcategoryCompleted == "complete" ? completeColor : completed[0] >= units[0] ? inprogressColor : partialCompleteColor}
+                                    width="80px"
+                                />
+                                <span className="font-bold ml-2">{subcategory.header}</span>
+                                {subcategory.courses.map(course => renderDegreeCourse(course, studentCourses))}
+                            </div>
+                        </div>
+                    }
+                }
+                )}
+            </div>
+        </div>)}
+    </div>
+}
+
+function checkSubcategoryCompletion(courses: Record<string, Course>, subcategory: DegreeRequirementSubcategory, studentCourses: Record<string, StudentCourse>): "complete" | "incomplete" | "in progress" {
+    const results = subcategory.courses.map(req => checkCompletion(courses, req, studentCourses));
+
+    if (results.every(result => result == "complete"))
+        return "complete";
+    else if (results.every(result => result == "incomplete"))
+        return "incomplete";
+    return "in progress";
+}
+
+function checkCompletion(courses: Record<string, Course>, requirement: DegreeCourseRequirement, studentCourses: Record<string, StudentCourse>): "complete" | "incomplete" | "in progress" {
+
+    if (typeof requirement == "string") {
+        if (studentCourses[requirement] == undefined)
+            return "incomplete";
+        return studentCourses[requirement].status == "complete" ? "complete" : studentCourses[requirement].status == "in progress" ? "in progress" : "incomplete";
+    } else if (Array.isArray(requirement)) {
+        if (requirement.some(req => checkCompletion(courses, req, studentCourses) == "complete"))
+            return "complete";
+        else if (requirement.every(req => checkCompletion(courses, req, studentCourses) == "incomplete"))
+            return "incomplete";
+        return "in progress";
+    } else if (requirement.type == "choice") {
+        if (requirement.units_required != undefined) {
+            const completedUnits = countUnits(courses, requirement, studentCourses);
+            if (completedUnits[0] >= requirement.units_required)
+                return "complete";
+            else if (completedUnits[1] > 0)
+                return "in progress";
+            else
+                return "incomplete";
+        }
+        return checkCompletion(courses, requirement.options, studentCourses);
+    } else if (requirement.type == "and") {
+        if (requirement.courses.every(req => checkCompletion(courses, req, studentCourses) == "complete"))
+            return "complete";
+        else if (requirement.courses.every(req => checkCompletion(courses, req, studentCourses) == "incomplete"))
+            return "incomplete";
+        return "in progress";
+    } else {
+        return "incomplete";
+    }
+}
+
+function Pill({ title, content, color, width }: { title: string, content: string, color: string, width?: string }) {
+    width ??= "40px";
+    return <span style={{
+        backgroundColor: color,
+        display: "inline-block",
+        color: "white",
+        textAlign: "center",
+        margin: "auto",
+        fontFamily: "monospace",
+        width
+    }} className="rounded"
+        title={title}>{content}</span>
+}
+
+function first<T>(obj: Record<string, T>, match: string[]) {
+    return match.find(x => obj[x] != undefined);
+}
+
+const inprogressColor = "#8BDF76";
+const completeColor = "#68db4b";
+const incompleteColor = "#ff3d3d";
+const notStartedColor = "#ccbbbb";
+const partialCompleteColor = "#ff8d41";
+
+function renderDegreeCourse(course: DegreeCourseRequirement, courses: Record<string, StudentCourse>): JSX.Element {
+    if (typeof course == "string") {
+        return <div className="ml-4" key={course}>
+            {courses[course] == undefined ?
+                <Pill title={"Requirement " + course + " incomplete."} content="INCOMPLETE" color={notStartedColor} width="100px" /> :
+                courses[course].status == "complete" ?
+                    <Pill title={"Requirement " + course + " completed."} content="COMPLETE" color={completeColor} width="100px" /> :
+                    <Pill title={"Requirement " + course + " in progress."} content="IN-PROGRESS" color={inprogressColor} width="100px" />
+            }
+            <span className="ml-1"> {course}</span>
+        </div>
+    } else if (Array.isArray(course)) {
+        const match = first(courses, course);
+        return <div className="ml-4" key={course[0]}>
+            {match == undefined ?
+                <Pill title={"Requirement " + course + " incomplete."} content="INCOMPLETE" color={notStartedColor} width="100px" /> :
+                courses[match].status == "complete" ?
+                    <Pill title={"Requirement " + course + " completed."} content="COMPLETE" color={completeColor} width="100px" /> :
+                    <Pill title={"Requirement " + course + " in progress."} content="IN-PROGRESS" color={inprogressColor} width="100px" />
+            }
+            <span className="ml-1">{match == undefined ? course.join(" or ") : <span>{courses[match].slug} <span className="italic text-gray-400">or {course.filter(c => c != courses[match].slug).join(" or ")}</span></span>} </span>
+        </div>
+    } else if (course.type == "choice") {
+        return <div className="ml-4" key={course.options[0]}>
+            <span className="">{course.instruction}</span>
+            <br />
+            <span>{course.options.join(", ")}</span>
+        </div>
+    } else if (course.type == "and") {
+        return <div className="ml-4" key={course.courses[0]}>
+            {course.courses.join(" and ")}
+        </div>
+    } else {
+        return <div className="ml-4" > Unknown requirement </div>
+    }
+}
+
+function countUnits(courses: Record<string, Course>, course: DegreeCourseRequirement, studentCourses?: Record<string, StudentCourse>): number[] {
+    if (typeof course == "string") {
+        const completion = studentCourses == null ? "complete" : checkCompletion(courses, course, studentCourses);
+        if (completion == "incomplete")
+            return [0, 0];
+
+        const courseInfo = courses[course];
+        if (courseInfo == undefined) return [0, 0];
+        const units = courseInfo.units.replaceAll(/\s+units?/g, "").split("-");
+        if (units.length == 1) return [+units, +units];
+        if (units.length == 2) return [+units[0], +units[1]];
+        return [0, 0]
+    } else if (Array.isArray(course)) {
+        var found : number[] | undefined = undefined;
+        const units = course.map(x => {
+            const completion = studentCourses == null ? "complete" : checkCompletion(courses, x, studentCourses);
+            if (completion == "complete" && studentCourses != null) {
+                const completedCourse = first(studentCourses, Object.keys(courses));
+
+                if (completedCourse != undefined) {
+                    const units = countUnits(courses, completedCourse, studentCourses);
+                    found = units;
+                    return units;
+                }
+            }
+            return countUnits(courses, x, studentCourses);
+        });
+        if (found != undefined)
+            return found;
+        const min = Math.min(...units.map(x => x[0]));
+        const max = Math.max(...units.map(x => x[1]));
+        return [min, max];
+    } else if (course.type == "choice") {
+        if (course.units_required != undefined) return [course.units_required, course.units_required];
+        return countUnits(courses, course.options, studentCourses);
+    } else if (course.type == "and") {
+        return course.courses.map(x => countUnits(courses, x, studentCourses)).reduce(add, [0, 0]);
+    } else {
+        return [0, 0];
+    }
+}
+
+function add(a: number[], b: number[]) {
+    return [a[0] + b[0], a[1] + b[1]];
+}
+
+function renderSubcategoryProgress(subcategory: any) {
 }
 
 function getExamMaxScore(examSubject: string, examType: string): number {
@@ -199,7 +440,7 @@ function renderCreditsTable(credits: (ExamCredit & { creditCourses: Course[] })[
                     <td>{course.name}</td>
                     {source && <td>
                         {exam.examType.toUpperCase()} {exams.find(ex => ex.type == exam.examType && ex.subject == exam.examSubject && ex.level == exam.examLevel)?.name}
-                        </td>}
+                    </td>}
                 </tr>))}
         </tbody>
     </table>
