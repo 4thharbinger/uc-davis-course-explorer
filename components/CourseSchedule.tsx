@@ -101,7 +101,7 @@ export function CourseSchedule() {
             activity={meeting.type} 
             start={+meeting.startTime} 
             end={+meeting.endTime}
-            location={meeting.building}
+            location={meeting.building + " " + meeting.room}
             days={meeting}
             color={hashCode(course)}
             opacity={opacity}
@@ -118,7 +118,7 @@ export function CourseSchedule() {
   ) ?? []);
 
   if (activeScheduling && hoverCrn > 0 && hoverSection != null) {
-    console.log("hovering for " + hoverCrn);
+    // console.log("hovering for " + hoverCrn);
     courseBlocks.push(
         ...(hoverSection.meetings as Meeting[]).map(meeting => 
             getCourseBlock(hoverSection.courseCode, hoverSection, meeting, 0.8)
