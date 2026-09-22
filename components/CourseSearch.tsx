@@ -19,12 +19,13 @@ export default function SearchSidebar({ setSelectedCourse, school } : { setSelec
   const filterStates : boolean[] = [];
   const setInspectedCourse = useGraphStore((state) => state.setInspectedCourse);
   const setSchool = useGraphStore((state) => state.setSchool);
+  const [isOpen, setIsOpen] = useState(true);
   setSchool(school.name);
 
   function FilterList(title: string, filters: string[], where : Record<string, boolean>,col: boolean = false) {
     return (
       <div >
-        {title.length > 0 ? <h2>{title}</h2> : null }
+        {title.length > 0 ? <h1>{title}</h1> : null }
         <div className={"ml-4 flex flex-wrap gap-2 gap-y-0" + (col ? " flex-col" : "")}>
         {filters.map(x => {
           const [filter, setFilter] = useState(false);
@@ -95,9 +96,17 @@ export default function SearchSidebar({ setSelectedCourse, school } : { setSelec
     }
   };
 
+  if (!isOpen) {
+    return <button className="font-bold text-xl show-button" onClick={
+      () => setIsOpen(!isOpen)
+    }> &gt; </button>
+  }
+
   return (
     <div className="w-80 h-full border-r border-gray-200 bg-white p-4 flex flex-col gap-1">
-      <h2 className="font-bold text-xl">Course Catalog</h2>
+      <h2 className="font-bold text-xl">Course Catalog<button className="hide-button" onClick={
+      () => setIsOpen(!isOpen)
+    }> &lt; </button></h2>
       
       <input
         type="text"

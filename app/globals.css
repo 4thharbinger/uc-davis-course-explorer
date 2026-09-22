@@ -162,3 +162,24 @@ a {
   color: #2a65d3; 
   font-weight: bold;
 }
+
+.hide-button {
+  display:inline;
+  margin-left: auto;
+  float:right;
+}
+
+.show-button {
+  width:20px;
+}
+
+@media screen and (max-width: 600px) {
+  .hide-mobile {
+    display: none;
+  }
+}
+@media screen and (max-width: 1050px) {
+  .hide-mobile-l {
+    display: none;
+  }
+}

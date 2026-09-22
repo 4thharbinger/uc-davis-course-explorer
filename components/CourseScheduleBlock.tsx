@@ -17,7 +17,7 @@ export default function CourseScheduleBlock({ course, activity, location, start,
         opacity: opacity
     }} 
         onClick={onClick}>
-                    <h2 className="font-bold">{course} - {activity}</h2>
+                    <span className="font-bold">{activity}</span>: {course}
                     <p style={{ fontSize: '14px', textOverflow: "ellipsis", whiteSpace: "nowrap", overflow: "hidden" }}>{location}</p>
     </div>);
 }

@@ -1,4 +1,5 @@
 import { StudentExam } from '@/components/DegreePlanner';
+import { currentTerm } from '@/lib/termInfo';
 import { Course, Exam, School } from '@prisma/client';
 import { create } from 'zustand';
 import { persist } from 'zustand/middleware';
@@ -8,6 +9,7 @@ const isDev = process.env.NODE_ENV === 'development';
 export type StudentCourse = Course & {
   section?: string,
   grade?: CourseGrade,
+  term: string,
   status: "complete" | "in progress" | "incomplete" | "dropped" | "other"
 }
 
@@ -65,7 +67,7 @@ export const useDegreeStore = create(persist<DegreeState>((set) => ({
     if ("status" in course) {
       
     } else {
-      course = { ...course, status: "in progress"};
+      course = { ...course, status: "in progress", term: currentTerm};
     }
     set((state: DegreeState) => (state.courses.some(c => c.slug == course.slug && c.section == course.section)) ? state : {
       courses: [...state.courses, course]

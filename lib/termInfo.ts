@@ -26,5 +26,5 @@ export const termCodeToName : Record<string, string> = {
     "10": "Fall Quarter",
 }
 
-export const currentTerm = "202701";
+export const currentTerm = "202610";
 export const availableTerms = [ "202610", "202701" ];

@@ -95,13 +95,19 @@ export function CourseSchedule() {
 
 
   function getCourseBlock(course : string, section : Section, meeting : Meeting, opacity : number = 1) {
+    var location = meeting.building;
+    if (location.length > 20)
+        location = location.replaceAll(/[a-z ]/g, "");
+    var roomNo = meeting.room.replaceAll(/^0+/g, "");
+
+    location = `${roomNo} ${location}`;
     return <CourseScheduleBlock 
             key={course + meeting.type + meeting.startTime + meeting.room + " " + opacity} 
             course={(course) + " " + section.sectionNum} 
             activity={meeting.type} 
             start={+meeting.startTime} 
             end={+meeting.endTime}
-            location={meeting.building + " " + meeting.room}
+            location={location}
             days={meeting}
             color={hashCode(course)}
             opacity={opacity}

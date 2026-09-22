@@ -13,9 +13,9 @@ export default function TermSelector() {
         options[term] = getTermName(term);
     }
 
-    return <div className="">
+    return <span className="">
         <select value={selectedTerm} onChange={e => setSelectedTerm(e.target.value)}>
             {Object.keys(options).sort((a, b) => options[a].localeCompare(options[b])).map(option => <option value={option} key={option}>{options[option]}</option>)}
         </select>
-    </div>;
+    </span>;
 }

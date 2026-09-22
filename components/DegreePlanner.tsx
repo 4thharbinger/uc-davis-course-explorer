@@ -10,6 +10,8 @@ import { NumberField } from "./NumberField";
 import { getDegreesInfo } from "@/lib/getDegreeInfo";
 import { DegreeCourseRequirement, DegreeRequirement, DegreeRequirementSubcategory, getCourses } from "./DegreeInspector";
 import { getCoursesInfo } from "@/lib/getCourseInfo";
+import { currentTerm } from "@/lib/termInfo";
+import useScheduleStore from "@/store/useScheduleStore";
 
 export default function DegreePlanner({ school }: { school: School }) {
     const [examType, setExamType] = useState("None");
@@ -34,13 +36,42 @@ export default function DegreePlanner({ school }: { school: School }) {
     const courses = useDegreeStore((state) => state.courses);
     const degrees = useDegreeStore((state) => state.degreePrograms);
     const [degreeCourses, setCourses] = useState<Record<string, Course>>();
+    const schedules = useScheduleStore((state) => state.schedules);
 
     const studentCourses = {} as Record<string, StudentCourse>;
     for (const course of courses)
         studentCourses[course.slug] = course;
     for (const examCredit of examCredits)
         for (const credit of examCredit.creditCourses)
-            studentCourses[credit.slug] = { ...credit, status: "complete", section: examCredit.examSubject, grade: { letter: "P" } };
+            studentCourses[credit.slug] = { ...credit, status: "complete", section: examCredit.examSubject, term: "000000", grade: { letter: "P" } };
+
+    for (const termCode in schedules) {
+        const schedule = schedules[termCode];
+        for (const courseCode in schedule) {
+            if (studentCourses[courseCode] == undefined) {
+                studentCourses[courseCode] = {
+                    name: courseCode,
+                    id: "",
+                    code: courseCode,
+                    rawPrerequisitesText: null,
+                    schoolName: school.name,
+                    description: "", 
+                    shortDesc: "",
+                    grading: "",
+                    units: "",
+                    learningActivities: [],
+                    generalEducation: [],
+                    prerequisiteRules: [],
+                    slug: courseCode,
+                    term: termCode,
+                    status: termCode == currentTerm ? "in progress" : +termCode < +currentTerm ? "complete" : "incomplete"
+                };
+            }
+        }
+    }
+
+    console.log(studentCourses);
+    console.log(currentTerm);
 
     useEffect(() => {
         getExams(examType == "None" ? undefined : examType).then(exams => setExams(exams));
@@ -183,9 +214,6 @@ function renderDegreeProgress(degreeRequirements: Record<string, Degree>, degree
 }
 
 function renderDegree(requirements: DegreeRequirement[], courses: Record<string, Course>, studentCourses: Record<string, StudentCourse>) {
-
-    console.log(studentCourses);
-
     requirements.map(requirement =>
         (requirement as any).units = requirement.subcategories.reduce((acc, subcategory) => {
             const units = subcategory.courses.reduce((acc, cur) => add(acc, countUnits(courses, cur)), [0, 0]);
@@ -227,22 +255,34 @@ function renderDegree(requirements: DegreeRequirement[], courses: Record<string,
     </div>
 }
 
-function checkSubcategoryCompletion(courses: Record<string, Course>, subcategory: DegreeRequirementSubcategory, studentCourses: Record<string, StudentCourse>): "complete" | "incomplete" | "in progress" {
+export type CompletionState = "complete" | "incomplete" | "planned" | "in progress";
+
+function checkSubcategoryCompletion(courses: Record<string, Course>, subcategory: DegreeRequirementSubcategory, studentCourses: Record<string, StudentCourse>): CompletionState {
     const results = subcategory.courses.map(req => checkCompletion(courses, req, studentCourses));
 
     if (results.every(result => result == "complete"))
         return "complete";
     else if (results.every(result => result == "incomplete"))
         return "incomplete";
-    return "in progress";
+    else if (results.some(result => result == "in progress"))
+        return "in progress";
+    return "planned";
 }
 
-function checkCompletion(courses: Record<string, Course>, requirement: DegreeCourseRequirement, studentCourses: Record<string, StudentCourse>): "complete" | "incomplete" | "in progress" {
+function checkCompletion(courses: Record<string, Course>, requirement: DegreeCourseRequirement, studentCourses: Record<string, StudentCourse>): CompletionState {
 
     if (typeof requirement == "string") {
         if (studentCourses[requirement] == undefined)
             return "incomplete";
-        return studentCourses[requirement].status == "complete" ? "complete" : studentCourses[requirement].status == "in progress" ? "in progress" : "incomplete";
+        const courseForCompletion = studentCourses[requirement];
+        if (+courseForCompletion.term > +currentTerm)
+            return "planned";
+        if (courseForCompletion.status == "complete")
+            return "complete"
+        if (courseForCompletion.status == "in progress")
+            return "in progress";
+
+        return "incomplete";
     } else if (Array.isArray(requirement)) {
         if (requirement.some(req => checkCompletion(courses, req, studentCourses) == "complete"))
             return "complete";
@@ -315,7 +355,7 @@ function renderDegreeCourse(course: DegreeCourseRequirement, courses: Record<str
                     <Pill title={"Requirement " + course + " completed."} content="COMPLETE" color={completeColor} width="100px" /> :
                     <Pill title={"Requirement " + course + " in progress."} content="IN-PROGRESS" color={inprogressColor} width="100px" />
             }
-            <span className="ml-1">{match == undefined ? course.join(" or ") : <span>{courses[match].slug} <span className="italic text-gray-400">or {course.filter(c => c != courses[match].slug).join(" or ")}</span></span>} </span>
+            <span className="ml-1">{match == undefined ? course.join(" or ") : <span>{courses[match].slug} <span className="line-through text-gray-400">or {course.filter(c => c != courses[match].slug).join(" or ")}</span></span>} </span>
         </div>
     } else if (course.type == "choice") {
         return <div className="ml-4" key={course.options[0]}>
