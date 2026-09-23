@@ -135,14 +135,14 @@ export function CourseSchedule() {
   return <div className="flex flex-col w-full h-full">
     <div className="h-full overflow-auto relative">
         <div className={styles.calendarHeader}>
-            <div className={styles.calendarHeaderDay}>Time</div>
-            <div className={styles.calendarHeaderDay}>Monday</div>
-            <div className={styles.calendarHeaderDay}>Tuesday</div>
-            <div className={styles.calendarHeaderDay}>Wednesday</div>
-            <div className={styles.calendarHeaderDay}>Thursday</div>
-            <div className={styles.calendarHeaderDay}>Friday</div>
         </div>
         <div className={styles.calendarBody}>   
+            <div className={styles.calendarHeaderDay}></div>
+            <div className={styles.calendarHeaderDay}></div>
+            <div className={styles.calendarHeaderDay}></div>
+            <div className={styles.calendarHeaderDay}></div>
+            <div className={styles.calendarHeaderDay}></div>
+            <div className={styles.calendarHeaderDay}></div>
             <div className={styles.timeColumn}>
                 {
                     [5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20].map((hour) => 
@@ -153,6 +153,12 @@ export function CourseSchedule() {
                 }
             </div>
             <div className={styles.sectionGrid}>
+                
+                <div className={styles.calendarHeaderDay}>Monday</div>
+                <div className={styles.calendarHeaderDay}>Tuesday</div>
+                <div className={styles.calendarHeaderDay}>Wednesday</div>
+                <div className={styles.calendarHeaderDay}>Thursday</div>
+                <div className={styles.calendarHeaderDay}>Friday</div>
                 {courseBlocks}
             </div>
         </div>

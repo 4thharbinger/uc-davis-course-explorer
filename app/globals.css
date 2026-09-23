@@ -173,9 +173,37 @@ a {
   width:20px;
 }
 
-@media screen and (max-width: 600px) {
+.mobile-toggle {
+  display: none;
+}
+.mobile-toggle + span {
+  display: none;
+}
+
+@media screen and (max-width: 650px) {
   .hide-mobile {
     display: none;
+  }
+
+  .mobile-toggle + span {
+    display: unset;
+  }
+
+  .mobile-toggle:checked + span + .header-nav {
+    margin-right: -400px;
+  }
+
+  .header-nav {
+    transition: all .3s;
+  }
+
+  .header-content {
+    margin-left: -400px;
+    transition: all .3s;
+    display:block;
+  }
+  .header-content:has(+div + label input:checked) {
+    margin-left: 0px;
   }
 }
 @media screen and (max-width: 1050px) {
