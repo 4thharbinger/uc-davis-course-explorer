@@ -121,7 +121,7 @@ export default function DegreePlanner({ school }: { school: School }) {
                 <label className="tab"><input type="radio" name="activeTab" value="plan" defaultChecked={tabState == "plan"} onChange={() => setTabState("plan")} /> My Plan </label>
             </fieldset>
         </div>
-        {tabState == "exams" && <div className="m-auto w-[1000]">
+        {tabState == "exams" && <div className="m-auto max-w-[1000]">
             <h1 className="mt-4 text-xl font-bold"> Add Exam </h1>
             <div className="grid grid-cols-3 gap-2">
                 <Dropdown
@@ -193,13 +193,13 @@ export default function DegreePlanner({ school }: { school: School }) {
                 </div>
             </div>
         </div>}
-        {tabState == "progress" && <div className="m-auto w-[1000] h-full overflow-y-auto">
+        {tabState == "progress" && <div className="m-auto max-w-[1000] h-full overflow-y-auto">
             {/* <h1 className="mt-4 text-xl font-bold"> Progress </h1> */}
-            <p className="mt-4 w-[800] text-center"><i>Note: Degree requirements data is currently incomplete and probably has lots of errors and inconsistencies.
+            <p className="mt-4 max-w-[800] text-center"><i>Note: Degree requirements data is currently incomplete and probably has lots of errors and inconsistencies.
                 If you want to help, feel free to contact me on <a href="https://github.com/4thharbinger/uc-davis-course-explorer">GitHub</a> or <a href="https://discord.com/users/277911182571077633">Discord</a></i></p>
             {degreeRequirements == undefined || degreeCourses == undefined ? <p>Loading...</p> : renderDegreeProgress(degreeRequirements, degreeCourses, studentCourses)}
         </div>}
-        {tabState == "plan" && <div className="m-auto w-[1000] h-full overflow-y-auto">
+        {tabState == "plan" && <div className="m-auto max-w-[1000] h-full overflow-y-auto">
             <h1 className="mt-4 text-xl font-bold"> My Plan </h1>
             Coming soon...
         </div>}

@@ -10,41 +10,41 @@ import { Course, Prisma, School } from '@prisma/client';
 const isDev = process.env.NODE_ENV === 'development';
 
 
-export default function SearchSidebar({ setSelectedCourse, school } : { setSelectedCourse? : Dispatch<SetStateAction<string>> | undefined, school : School }) {
+export default function SearchSidebar({ setSelectedCourse, school }: { setSelectedCourse?: Dispatch<SetStateAction<string>> | undefined, school: School }) {
   const [searchTerm, setSearchTerm] = useState(isDev ? "MAT 021" : "");
   const [results, setResults] = useState<any[]>([]);
   const [isSearching, setIsSearching] = useState(false);
   const [hasMore, setHasMore] = useState(false);
   const [isLoadingMore, setIsLoadingMore] = useState(false);
-  const filterStates : boolean[] = [];
+  const filterStates: boolean[] = [];
   const setInspectedCourse = useGraphStore((state) => state.setInspectedCourse);
   const setSchool = useGraphStore((state) => state.setSchool);
   const [isOpen, setIsOpen] = useState(true);
   setSchool(school.name);
 
-  function FilterList(title: string, filters: string[], where : Record<string, boolean>,col: boolean = false) {
+  function FilterList(title: string, filters: string[], where: Record<string, boolean>, col: boolean = false) {
     return (
       <div >
-        {title.length > 0 ? <h1>{title}</h1> : null }
+        {title.length > 0 ? <h1>{title}</h1> : null}
         <div className={"ml-4 flex flex-wrap gap-2 gap-y-0" + (col ? " flex-col" : "")}>
-        {filters.map(x => {
-          const [filter, setFilter] = useState(false);
-          filterStates.push(filter);
-          where[x] = filter;
-          return <label key={x}><input type="checkbox" className="mr-0.5" onChange={(e) => { setFilter(e.target.checked); }} checked={filter}/>{x}</label>
-        })}
+          {filters.map(x => {
+            const [filter, setFilter] = useState(false);
+            filterStates.push(filter);
+            where[x] = filter;
+            return <label key={x}><input type="checkbox" className="mr-0.5" onChange={(e) => { setFilter(e.target.checked); }} checked={filter} />{x}</label>
+          })}
         </div>
       </div>
     );
   }
 
   const filters = {};
-  const collapsible = 
+  const collapsible =
 
     <div className=" border rounded p-2 border-gray-300 bg-gray-50">
       <Collapsible title={
-          <span className="text-lg">Filters</span>
-        }>
+        <span className="text-lg">Filters</span>
+      }>
         <div className="flex flex-col">
           <h2 className="font-bold">General Education</h2>
           {FilterList("Topical Breadth:", ['Soc Sci', 'Sci Eng', 'Arts & Hum'], filters)}
@@ -85,12 +85,12 @@ export default function SearchSidebar({ setSelectedCourse, school } : { setSelec
     if (scrollHeight - scrollTop <= clientHeight + 100) {
       if (hasMore && !isLoadingMore && !isSearching) {
         setIsLoadingMore(true);
-        
+
         const response = await searchCourses(query, results.length);
-        
+
         setResults((prev) => [...prev, ...response.data]);
         setHasMore(response.hasMore);
-        
+
         setIsLoadingMore(false);
       }
     }
@@ -105,9 +105,9 @@ export default function SearchSidebar({ setSelectedCourse, school } : { setSelec
   return (
     <div className="w-80 h-full border-r border-gray-200 bg-white p-4 flex flex-col gap-1">
       <h2 className="font-bold text-xl">Course Catalog<button className="hide-button" onClick={
-      () => setIsOpen(!isOpen)
-    }> &lt; </button></h2>
-      
+        () => setIsOpen(!isOpen)
+      }> &lt; </button></h2>
+
       <input
         type="text"
         placeholder="Search MAT 021A or Calculus..."
@@ -123,9 +123,9 @@ export default function SearchSidebar({ setSelectedCourse, school } : { setSelec
 
         <div className="overflow-y-auto flex-1 flex flex-col gap-0.5">
           {isSearching && <p className="text-gray-400 text-sm">Searching...</p>}
-          
+
           {results.map((course) => (
-            <button 
+            <button
               key={course.id}
               onClick={setSelectedCourse ? () => setSelectedCourse(course.slug) : () => setInspectedCourse(course)}
               className="text-left p-2 rounded hover:bg-blue-50 transition-colors cursor-pointer"
@@ -134,7 +134,7 @@ export default function SearchSidebar({ setSelectedCourse, school } : { setSelec
               <div className="text-sm text-gray-600 wrap">{course.shortDesc}</div>
             </button>
           ))}
-          
+
           {results.length === 0 && searchTerm.length >= 2 && !isSearching && (
             <p className="text-gray-400 text-sm">No courses found.</p>
           )}
@@ -150,17 +150,17 @@ function constructQuery(searchTerm: string, filters: Record<string, boolean>, sc
   const units = { "0-2": filters['0-2'], "3": filters['3'], "4": filters['4'], "5+": filters['5+'] };
   const courseLevel = { "000-099": filters['000-099 Lower'], "100-199": filters['100-199 Upper'], "200+": filters['200+ Graduate'] };
 
-  const queries : any[] = [];
+  const queries: any[] = [];
 
-  for (const genEd in topicalBreadth) { 
+  for (const genEd in topicalBreadth) {
     if ((topicalBreadth as Record<string, boolean>)[genEd]) {
-      queries.push({ generalEducation: { path: ['topicalBreadth'], array_contains: genEd }});
+      queries.push({ generalEducation: { path: ['topicalBreadth'], array_contains: genEd } });
     }
   }
 
-  for (const genEd in coreLiteracies) { 
+  for (const genEd in coreLiteracies) {
     if ((coreLiteracies as Record<string, boolean>)[genEd]) {
-      queries.push({ generalEducation: { path: ['coreLiteracies'], array_contains: genEd }});
+      queries.push({ generalEducation: { path: ['coreLiteracies'], array_contains: genEd } });
     }
   }
 
@@ -170,10 +170,12 @@ function constructQuery(searchTerm: string, filters: Record<string, boolean>, sc
 
   return queries.length > 0 ? {
     AND: [
-      { OR: [
-        { slug: { contains: searchTerm.replace(/\s/g, '').toUpperCase() } },
-        { name: { contains: searchTerm, mode: "insensitive" } },
-      ] },
+      {
+        OR: [
+          { slug: { contains: searchTerm.replace(/\s/g, '').toUpperCase() } },
+          { name: { contains: searchTerm, mode: "insensitive" } },
+        ]
+      },
       { schoolName: school },
       ...queries
     ]

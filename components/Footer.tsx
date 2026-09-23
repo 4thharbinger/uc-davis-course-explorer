@@ -10,7 +10,7 @@ export function Footer() {
 
   return <footer className="flex-none h-8 border-t bg-gray-50 px-4 flex items-center border-gray-200 justify-between text-xs text-gray-500 z-10">
     <div className="flex gap-4">
-      <span>Put some footer stuff here I guess.</span>
+      <span className="show-mobile">Mobile users are recommended to go landscape.</span>
     </div>
     <div className="flex gap-4">
       <button className="cursor-pointer hover:text-blue-600" onClick={() => location.href.endsWith("/scheduler") ? clearSchedule : clearCourses}>Clear Canvas</button>

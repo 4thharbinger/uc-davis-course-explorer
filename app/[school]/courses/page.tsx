@@ -25,12 +25,12 @@ export async function generateMetadata({ params }: { params: Promise<{ school: s
 }
 
 
-export default async function CourseExplorer({ params } : { params : Promise<{ school: string }> }) {
+export default async function CourseExplorer({ params }: { params: Promise<{ school: string }> }) {
   var args = await params;
-  
-  if (args.school == undefined ||args.school.length == 0) return "Please select a school";
 
-  const schoolInfo = await getSchoolInfo( (args).school );
+  if (args.school == undefined || args.school.length == 0) return "Please select a school";
+
+  const schoolInfo = await getSchoolInfo((args).school);
 
   if (schoolInfo == null) {
     return "School not found or not supported: " + args.school;
@@ -45,16 +45,16 @@ export default async function CourseExplorer({ params } : { params : Promise<{ s
 
   return (
     <div className="flex flex-col w-full h-screen overflow-hidden text-gray-900 bg-white">
-      <Header> <h1>Course Explorer</h1> —  <span className="ml-2 text-gray-500">{schoolInfo.shortName}</span> </Header> 
+      <Header> <span className="hide-mobile"><h1 className="inline">Course Explorer</h1> — <span className="ml-2 text-gray-500">{schoolInfo.shortName}</span></span> </Header>
       <main className="flex-1 flex overflow-hidden min-h-0">
-          <CourseSearch school={schoolInfo}/>
+        <CourseSearch school={schoolInfo} />
 
-          <div className="flex-1 relative bg-gray-100 p-4"><CourseGraph courses={[]} />
-          </div>
+        <div className="flex-1 relative bg-gray-100 p-4"><CourseGraph courses={[]} />
+        </div>
 
-          <CourseInspector courseId={selectedCourse} addTarget={"graph"} school={schoolInfo} />
+        <CourseInspector courseId={selectedCourse} addTarget={"graph"} school={schoolInfo} />
       </main>
-      <Footer/>
+      <Footer />
     </div>
   );
 }

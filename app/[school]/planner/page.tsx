@@ -37,7 +37,7 @@ export default async function CourseExplorer({ params } : { params : Promise<{ s
 
   return (
     <div className="flex flex-col w-full h-screen overflow-hidden text-gray-900 bg-white">
-      <Header> <h1>Degree Planner</h1> —  <span className="ml-2 text-gray-500">{schoolInfo.shortName}</span></Header> 
+      <Header> <span className="hide-mobile"><h1 className="inline">Degree Planner</h1> —  <span className="ml-2 text-gray-500">{schoolInfo.shortName}</span></span></Header> 
       <main className="flex-1 flex overflow-hidden min-h-0">
         <DegreeSearch school={schoolInfo}/>
         <DegreePlanner school={schoolInfo}/>

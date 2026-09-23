@@ -15,6 +15,7 @@ export default function SearchSidebar({ school }: { school: School }) {
   const [hasMore, setHasMore] = useState(false);
   const [isLoadingMore, setIsLoadingMore] = useState(false);
   const filterStates: boolean[] = [];
+  const [isOpen, setIsOpen] = useState(true);
   const setInspectedDegree = useDegreeStore((state) => state.setInspectedDegree);
 
   function FilterList(title: string, filters: string[], where: Record<string, boolean>, col: boolean = false) {
@@ -88,9 +89,18 @@ export default function SearchSidebar({ school }: { school: School }) {
 
   const numLevelFilters = +filters["Bachelors"] + +filters["Masters"] + +filters["PhD"] + +filters["Minor"];
 
-  return <div>
-    {<div className="w-80 h-full border-r border-gray-200 bg-white p-4 flex flex-col gap-1">
-      <h2 className="font-bold text-xl">Degree Catalog</h2>
+
+  if (!isOpen) {
+    return <button className="font-bold text-xl show-button h-full" onClick={
+      () => setIsOpen(!isOpen)
+    }> &gt; </button>
+  }
+
+  return ( 
+    <div className="w-80 h-full border-r border-gray-200 bg-white p-4 flex flex-col gap-1">
+      <h2 className="font-bold text-xl">Degree Catalog<button className="hide-button" onClick={
+        () => setIsOpen(!isOpen)
+      }> &lt; </button></h2>
 
       <input
         type="text"
@@ -125,8 +135,7 @@ export default function SearchSidebar({ school }: { school: School }) {
           )}
         </div>
       </div>
-    </div>}
-  </div>
+    </div>);
 }
 
 function constructQuery(searchTerm: string, filters: Record<string, boolean>, school: string) {

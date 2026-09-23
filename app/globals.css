@@ -37,7 +37,7 @@ body {
   display: block;
   padding: 5px 10px;
   width: 100px;
-  text-align: center; 
+  text-align: center;
   cursor: pointer;
 }
 
@@ -46,7 +46,7 @@ body {
   position: absolute;
   right: 0;
   top: 15%;
-  height: 70%; 
+  height: 70%;
   width: 1px;
   background-color: #d7d7d7;
 }
@@ -65,66 +65,75 @@ a {
   text-decoration: underline;
 }
 
-.dropdown,.numberfield {
-  border:#818181 1px solid;
-  padding: 5px; 
-  border-radius: 5px; 
-  margin: 5px; 
+.dropdown,
+.numberfield {
+  border: #818181 1px solid;
+  padding: 5px;
+  border-radius: 5px;
+  margin: 5px;
   width: 100%;
 }
 
-.dropdown div, .numberfield label div {
-  padding-left: 15px; 
+.dropdown div,
+.numberfield label div {
+  padding-left: 15px;
   font-size: 12px;
 }
 
-.dropdown select, .numberfield label input {
-  font-size: 16px; 
+.dropdown select,
+.numberfield label input {
+  font-size: 16px;
   width: 100%;
 }
- 
-.dropdown:has(select[disabled]), .numberfield:has(label input[disabled]) {
+
+.dropdown:has(select[disabled]),
+.numberfield:has(label input[disabled]) {
   opacity: 0.5;
 }
 
-.button { 
-  padding: .5rem 1rem; 
+.button {
+  padding: .5rem 1rem;
   border-radius: 5px;
   cursor: pointer;
 }
 
 .button.blue {
   background-color: #2a65d3;
-  color: #ffffff;  
+  color: #ffffff;
 }
+
 .button.blue:hover {
   background-color: #74a5ff;
-  color: #ffffff; 
+  color: #ffffff;
 }
+
 .button.blue:disabled {
-  background-color:#a1aec5;
-  color: #e2e2e2; 
+  background-color: #a1aec5;
+  color: #e2e2e2;
   cursor: default;
 }
 
 .button.red {
   background-color: #d32a2a;
-  color: #ffffff;  
+  color: #ffffff;
 }
+
 .button.red:hover {
   background-color: #ff7474;
-  color: #ffffff; 
+  color: #ffffff;
 }
+
 .button.red:disabled {
-  background-color:#c5a1a1;
-  color: #e2e2e2; 
+  background-color: #c5a1a1;
+  color: #e2e2e2;
   cursor: default;
 }
-.button.pill { 
-  display: inline-block; 
+
+.button.pill {
+  display: inline-block;
   padding-top: 2px;
   padding-bottom: 2px;
-} 
+}
 
 .header-nav a {
   text-decoration: none;
@@ -140,43 +149,44 @@ a {
   bottom: -4px;
   left: 0;
   background-color: #2a65d3;
-  transform-origin: bottom left; 
-  transition: transform 0.2s ease-out; 
-  transform: scaleX(0); 
+  transform-origin: bottom left;
+  transition: transform 0.2s ease-out;
+  transform: scaleX(0);
 }
 
 .header-nav a:hover::after {
-  transform: scaleX(1); 
+  transform: scaleX(1);
 }
 
 .header-nav a.active::after {
-  transform: scaleX(1); 
+  transform: scaleX(1);
 }
- 
+
 .header-nav a:hover {
   transition: all 0.2s;
-  color: #2a65d3; 
+  color: #2a65d3;
 }
 
 .header-nav a.active {
-  color: #2a65d3; 
+  color: #2a65d3;
   font-weight: bold;
 }
 
 .hide-button {
-  display:inline;
+  display: inline;
   margin-left: auto;
-  float:right;
+  float: right;
 }
 
 .show-button {
-  width:20px;
+  width: 20px;
 }
 
 .mobile-toggle {
   display: none;
 }
-.mobile-toggle + span {
+
+.mobile-toggle+span {
   display: none;
 }
 
@@ -185,11 +195,11 @@ a {
     display: none;
   }
 
-  .mobile-toggle + span {
+  .mobile-toggle+span {
     display: unset;
   }
 
-  .mobile-toggle:checked + span + .header-nav {
+  .mobile-toggle:checked+span+.header-nav {
     margin-right: -400px;
   }
 
@@ -200,14 +210,26 @@ a {
   .header-content {
     margin-left: -400px;
     transition: all .3s;
-    display:block;
+    display: block;
   }
+
   .header-content:has(+div + label input:checked) {
     margin-left: 0px;
   }
 }
+
 @media screen and (max-width: 1050px) {
   .hide-mobile-l {
     display: none;
+  }
+}
+
+.show-mobile {
+  display: none;
+}
+
+@media screen and (max-aspect-ratio: 1) {
+  .show-mobile {
+    display: unset;
   }
 }
