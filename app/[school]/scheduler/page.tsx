@@ -44,7 +44,7 @@ export default async function CourseScheduler({ params }: { params: Promise<{ sc
         <CourseSearch school={schoolInfo} />
 
         <div className="flex-1 relative bg-gray-100 p-4">
-          <CourseSchedule />
+          <CourseSchedule schoolInfo={schoolInfo}/>
         </div>
         <CourseSectionList addTarget="schedule" schoolInfo={schoolInfo} />
       </main>

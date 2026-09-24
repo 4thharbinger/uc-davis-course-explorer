@@ -19,6 +19,7 @@
 
 .timeColumn {
     text-align: right;
+    margin-top: 25px;
 }
 
 .timeLabel {
@@ -46,6 +47,7 @@
     position: relative;
     background-image: linear-gradient(#ddd 1px, transparent 1px);
     background-size: 100% 50px;
+    margin-top: 25px;
 }
 
 .sectionBlock {
@@ -53,8 +55,7 @@
     border-radius: 4px;
     background-color: rgba(255, 93, 93, 0.467);
     margin: 1px;
-    padding-left: 10px;
-    padding-top: 5px;
+    padding: 5px 10px;
     line-height: 1.2;
     font-size: 14px;
     cursor: pointer;

@@ -5,7 +5,7 @@ export type Weekday = "monday" | "tuesday" | "wednesday" | "thursday" | "friday"
 export const weekdays : Weekday[] = 
     ["monday", "tuesday", "wednesday", "thursday", "friday"];
 
-export default function CourseScheduleBlock({ course, activity, location, start, end, days, color, opacity = 1, onClick } : { location: string, course: string, activity: string, start: number, end: number, days: MeetingDays, color: number, opacity: number, onClick?: () => void }) {
+export default function CourseScheduleBlock({ course, activity, location, start, end, days, color, schoolName, opacity = 1, onClick } : { location: string, schoolName: string, course: string, activity: string, start: number, end: number, days: MeetingDays, color: number, opacity: number, onClick?: () => void }) {
     const timeString = `${formatTime(start)} - ${formatTime(end)}`;
     return weekdays.filter(day => days[day as keyof MeetingDays]).map(day => 
     <div key={day} className={styles.sectionBlock} style={{ 
@@ -17,8 +17,8 @@ export default function CourseScheduleBlock({ course, activity, location, start,
         opacity: opacity
     }} 
         onClick={onClick}>
-                    <span className="font-bold">{activity}</span>: {course}
-                    <p style={{ fontSize: '14px', textOverflow: "ellipsis", whiteSpace: "nowrap", overflow: "hidden" }}>{location}</p>
+                    <p style={{ fontSize: '14px', textOverflow: "ellipsis", whiteSpace: "nowrap", overflow: "hidden" }}><a href={"https://www.google.com/maps/search/?api=1&query=" + encodeURIComponent(location + " " + schoolName)}>{location}</a></p>
+                    <p style={{ textOverflow: "ellipsis", whiteSpace: "nowrap", overflow: "hidden" }} ><span className="font-bold">{activity}</span>: {course}</p>
     </div>);
 }
 

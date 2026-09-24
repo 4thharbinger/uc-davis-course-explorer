@@ -8,11 +8,12 @@ import styles from "./CourseSchedule.module.css";
 import CourseScheduleBlock, { weekdays } from "./CourseScheduleBlock";
 import { getCoursesSections, getSections } from "@/lib/getCourseSections";
 import { Section } from "@prisma/client";
+import { SchoolInfo } from "@/lib/getSchoolInfo";
 
 const sectionsCache : Record<number, Section> = {} // crn to section data
 const availableSectionsCache : Record<string, Section[]> = {} // coursecode to section data
 
-export function CourseSchedule() {
+export function CourseSchedule({ schoolInfo } : { schoolInfo : SchoolInfo }) {
   const selectedTerm = useScheduleStore((state) => state.selectedTerm);
   const courses = useScheduleStore((state) => state.schedules)[selectedTerm] ?? {};
   const setSchedule = useScheduleStore((state) => state.setSchedule);
@@ -94,7 +95,7 @@ export function CourseSchedule() {
   }, [courses]);
 
 
-  function getCourseBlock(course : string, section : Section, meeting : Meeting, opacity : number = 1) {
+  function getCourseBlock(course : string, section : Section, meeting : Meeting, schoolName : string, opacity : number = 1) {
     var location = meeting.building;
     if (location.length > 20)
         location = location.replaceAll(/[a-z ]/g, "");
@@ -106,6 +107,7 @@ export function CourseSchedule() {
             course={(course) + " " + section.sectionNum} 
             activity={meeting.type} 
             start={+meeting.startTime} 
+            schoolName={schoolName}
             end={+meeting.endTime}
             location={location}
             days={meeting}
@@ -120,14 +122,14 @@ export function CourseSchedule() {
   .flatMap(course => (
     sections[course]?.meetings as Meeting[])
         ?.map(meeting => 
-            getCourseBlock(course, sections[course], meeting, hoverSection && hoverSection.courseCode == course ? 0.4 : 1)
+            getCourseBlock(course, sections[course], meeting, schoolInfo.name, hoverSection && hoverSection.courseCode == course ? 0.4 : 1)
   ) ?? []);
 
   if (activeScheduling && hoverCrn > 0 && hoverSection != null) {
     // console.log("hovering for " + hoverCrn);
     courseBlocks.push(
         ...(hoverSection.meetings as Meeting[]).map(meeting => 
-            getCourseBlock(hoverSection.courseCode, hoverSection, meeting, 0.8)
+            getCourseBlock(hoverSection.courseCode, hoverSection, meeting, schoolInfo.name, 0.8)
         )
     );
   }
@@ -137,12 +139,6 @@ export function CourseSchedule() {
         <div className={styles.calendarHeader}>
         </div>
         <div className={styles.calendarBody}>   
-            <div className={styles.calendarHeaderDay}></div>
-            <div className={styles.calendarHeaderDay}></div>
-            <div className={styles.calendarHeaderDay}></div>
-            <div className={styles.calendarHeaderDay}></div>
-            <div className={styles.calendarHeaderDay}></div>
-            <div className={styles.calendarHeaderDay}></div>
             <div className={styles.timeColumn}>
                 {
                     [5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20].map((hour) => 
