@@ -39,11 +39,11 @@ export default async function CourseScheduler({ params }: { params: Promise<{ sc
 
   return (
     <div className="flex flex-col w-full h-screen overflow-hidden text-gray-900 bg-white">
-      <Header> <span className="hide-mobile-l"><h1 className="inline">Course Scheduler</h1> —  <span className="ml-2 text-gray-500">{schoolInfo.shortName}</span></span> <TermSelector /> </Header>
+      <Header> <span className="hide-mobile-l"><h1 className="inline">Course Scheduler</h1> — <span className="ml-2 text-gray-500">{schoolInfo.shortName}</span></span> <TermSelector /> </Header>
       <main className="flex-1 flex overflow-hidden min-h-0">
         <CourseSearch school={schoolInfo} />
 
-        <div className="flex-1 relative bg-gray-100 p-4">
+        <div style={{width: "calc(100% - 20px)"}} className="flex-1 relative bg-gray-100 p-1">
           <CourseSchedule schoolInfo={schoolInfo}/>
         </div>
         <CourseSectionList addTarget="schedule" schoolInfo={schoolInfo} />

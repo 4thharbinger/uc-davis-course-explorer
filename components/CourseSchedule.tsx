@@ -7,13 +7,12 @@ import { useEffect, useState } from "react";
 import styles from "./CourseSchedule.module.css";
 import CourseScheduleBlock, { weekdays } from "./CourseScheduleBlock";
 import { getCoursesSections, getSections } from "@/lib/getCourseSections";
-import { Section } from "@prisma/client";
-import { SchoolInfo } from "@/lib/getSchoolInfo";
+import { School, Section } from "@prisma/client";
 
 const sectionsCache : Record<number, Section> = {} // crn to section data
 const availableSectionsCache : Record<string, Section[]> = {} // coursecode to section data
 
-export function CourseSchedule({ schoolInfo } : { schoolInfo : SchoolInfo }) {
+export function CourseSchedule({ schoolInfo } : { schoolInfo : School }) {
   const selectedTerm = useScheduleStore((state) => state.selectedTerm);
   const courses = useScheduleStore((state) => state.schedules)[selectedTerm] ?? {};
   const setSchedule = useScheduleStore((state) => state.setSchedule);

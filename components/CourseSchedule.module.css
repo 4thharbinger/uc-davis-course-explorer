@@ -43,7 +43,7 @@
     display: grid;
     grid-template-columns: repeat(5, 1fr);
     grid-template-rows: repeat(16, 50px);
-    grid-column: span 5;
+    /* grid-column: span 5; */
     position: relative;
     background-image: linear-gradient(#ddd 1px, transparent 1px);
     background-size: 100% 50px;

@@ -9,7 +9,7 @@ export default async function CourseExplorer() {
       <main className="flex-1 flex min-h-0 overflow-y-scroll">
         <article className="p-4 text-justify w-full max-w-2xl h-fit mx-auto gap-4 flex flex-col">
           <p>For more detailed changes, feel free to visit the <a href="https://www.github.com/4thharbinger/uc-davis-course-explorer/commits">GitHub commits</a></p>
-          <ChangelogEntry date="Sept 23, 2026" changes={["Course section text order flipped so that the location always shows first and is less likely to be clipped off on small screens", "Added Google maps links to locations in schedule"]} />
+          <ChangelogEntry date="Sept 23, 2026" changes={["Course section text order flipped so that the location always shows first and is less likely to be clipped off on small screens", "Added Google maps links to locations in schedule", "Fixed schedule rendering on thin screens"]} />
           <ChangelogEntry date="Sept 22, 2026" changes={["Mobile usability improvements: course catalog can be hidden and header can be collapsed"]} />
           <ChangelogEntry date="Sept 16, 2026" changes={["Added room numbers to schedule view"]} />
           <ChangelogEntry date="Sept 14, 2026" changes={["Implemented basic degree progress visualization: see completed, in-progress, and incomplete degree requirements and add minors to see how you fit"]} />
