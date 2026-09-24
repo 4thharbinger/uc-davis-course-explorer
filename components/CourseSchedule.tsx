@@ -135,8 +135,6 @@ export function CourseSchedule({ schoolInfo } : { schoolInfo : School }) {
 
   return <div className="flex flex-col w-full h-full">
     <div className="h-full overflow-auto relative">
-        <div className={styles.calendarHeader}>
-        </div>
         <div className={styles.calendarBody}>   
             <div className={styles.timeColumn}>
                 {
