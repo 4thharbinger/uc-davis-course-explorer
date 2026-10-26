@@ -56,10 +56,10 @@ export default function SearchSidebar({ setSelectedCourse, school }: { setSelect
           <h2 className="font-bold">General Education</h2>
           {FilterList("Topical Breadth:", ['Soc Sci', 'Sci Eng', 'Arts & Hum'], filters)}
           {FilterList("Core Literacies:", ['American CGH', 'Domestic Div', 'Oral Lit', 'Quantitative Lit', 'Scientific Lit', 'Visual Lit', 'World Cultures', 'Writing Exp'], filters)}
-          <h2 className="font-bold">Units</h2>
+          {/* <h2 className="font-bold">Units</h2>
           {FilterList("", ['0-2', '3', '4', '5+'], filters)}
           <h2 className="font-bold">Course Level</h2>
-          {FilterList("", ['000-099 Lower', '100-199 Upper', '200+ Graduate'], filters, true)}
+          {FilterList("", ['000-099 Lower', '100-199 Upper', '200+ Graduate'], filters, true)} */}
         </div>
       </Collapsible>
     </div>
