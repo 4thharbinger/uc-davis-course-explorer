@@ -21,6 +21,13 @@ export default function SearchSidebar({ setSelectedCourse, school }: { setSelect
   const setSchool = useGraphStore((state) => state.setSchool);
   const [isOpen, setIsOpen] = useState(true);
   setSchool(school.name);
+  function fixCourseCode(courseCode : string) {
+    const regex = /(\w{1,3} ?)(\d{1,3})(\w)?$/g;
+    const match = Array.from(courseCode.matchAll(regex))[0];
+
+    if (match == undefined || match.length < 2) return courseCode;
+    return match[1] + match[2].padStart(3, "0") + (match[3] ?? "");
+  }
 
   function FilterList(title: string, filters: string[], where: Record<string, boolean>, col: boolean = false) {
     return (
@@ -57,7 +64,7 @@ export default function SearchSidebar({ setSelectedCourse, school }: { setSelect
       </Collapsible>
     </div>
 
-  const query = constructQuery(searchTerm, filters, school.name);
+  const query = constructQuery(fixCourseCode(searchTerm), filters, school.name);
 
   // Debounce user input
   useEffect(() => {
